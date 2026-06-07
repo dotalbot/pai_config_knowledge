@@ -1,0 +1,8 @@
+{
+  "rating": 3,
+  "summary": "Clear dissatisfaction—redirect with detailed corrections needed",
+  "detailed_context": "The AI provided a generic summary about OpenCode v1.16.2 when Dominic was asking about accessing a specific Hermes instance running in his environment. Dominic's 'try again' signals clear dissatisfaction. By spelling out exact technical details (tmux:3, /home/jellybot, .hermes folder), Dominic is providing corrections after the AI missed the actual request. This is a straightforward miss—the AI didn't attempt to access or investigate the Hermes system as instructed; it defaulted to a generic lookup instead.",
+  "session_id": "3dbcdb8d-8fe0-4ff2-a441-d22bc41f4f54",
+  "captured_at": "2026-06-07T13:53:15.781Z",
+  "transcript_source": "3dbcdb8d-8fe0-4ff2-a441-d22bc41f4f54.jsonl"
+}

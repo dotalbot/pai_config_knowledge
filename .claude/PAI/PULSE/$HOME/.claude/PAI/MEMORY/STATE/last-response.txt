@@ -1,0 +1,9 @@
+Found it. Service file is at `/home/jellybot/.config/systemd/user/nanoclaw-v2-1445eeba.service`. Since the user bus isn't reachable via sudo, just remove the file and its wants symlink directly:
+
+```bash
+! sudo kill 2387 && sudo rm /home/jellybot/.config/systemd/user/nanoclaw-v2-1445eeba.service /home/jellybot/.config/systemd/user/default.target.wants/nanoclaw-v2-1445eeba.service
+```
+
+That kills it now and removes it from startup permanently. Pulse will grab the Telegram bot on its 30s retry — you should see a clean reconnect in the logs right after.
+
+🗣️ JellyPai: Kill + remove both files — done, won't come back on reboot.

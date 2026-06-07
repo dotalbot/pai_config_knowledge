@@ -1,0 +1,8 @@
+{
+  "rating": 2,
+  "summary": "Major miss—ignored request entirely, responded off-topic",
+  "detailed_context": "User explicitly asked JellyPai to read a Telegram conversation to continue work. Instead, JellyPai responded with unrelated ADHD voice-memo advice. Now user is repeating the same request, indicating frustration that the original ask was completely missed. This is a critical failure to understand user intent.",
+  "session_id": "eca46805-17d0-4399-9780-afede90a6618",
+  "captured_at": "2026-06-06T14:53:51.671Z",
+  "transcript_source": "eca46805-17d0-4399-9780-afede90a6618.jsonl"
+}

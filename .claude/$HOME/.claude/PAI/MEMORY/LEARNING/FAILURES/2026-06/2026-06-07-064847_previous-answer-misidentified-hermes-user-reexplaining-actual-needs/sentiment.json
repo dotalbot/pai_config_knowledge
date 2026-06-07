@@ -1,0 +1,8 @@
+{
+  "rating": 3,
+  "summary": "Previous answer misidentified Hermes; user re-explaining actual needs.",
+  "detailed_context": "Dominic asked about 'Hermes agent' and the previous response apparently discussed OpenCode instead, missing that Hermes is already running in his environment. The phrase 'I hope this is clearer' signals patient frustration—he's clarifying what Hermes actually does (network validation, development support, Codex integration) because the prior answer was off-target. This is a classic correction-needed moment: the user has to rephrase to be understood. The tone is polite but the signal is clear dissatisfaction with the previous response's accuracy.",
+  "session_id": "3dbcdb8d-8fe0-4ff2-a441-d22bc41f4f54",
+  "captured_at": "2026-06-07T13:48:47.533Z",
+  "transcript_source": "3dbcdb8d-8fe0-4ff2-a441-d22bc41f4f54.jsonl"
+}

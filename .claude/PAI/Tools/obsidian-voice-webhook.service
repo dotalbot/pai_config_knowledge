@@ -1,0 +1,15 @@
+[Unit]
+Description=PAI Obsidian Voice Webhook
+After=network.target
+
+[Service]
+Type=simple
+User=jellypai
+WorkingDirectory=/home/jellypai/.claude
+ExecStart=/home/jellypai/.bun/bin/bun run /home/jellypai/.claude/PAI/Tools/ObsidianVoiceWebhook.ts
+Restart=always
+RestartSec=5
+Environment=VOICE_WEBHOOK_PORT=27337
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,69 @@
+{
+  "channels": [
+    {
+      "url": "https://www.youtube.com/@AnthropicAI",
+      "name": "Anthropic",
+      "why": "Official Anthropic channel — Claude releases, research talks, demos"
+    },
+    {
+      "url": "https://www.youtube.com/@aiexplained-official",
+      "name": "AI Explained",
+      "why": "High-quality technical breakdowns of model releases and AI research"
+    },
+    {
+      "url": "https://www.youtube.com/@YannicKilcher",
+      "name": "Yannic Kilcher",
+      "why": "Deep ML paper walkthroughs — good signal for architectural advances"
+    },
+    {
+      "url": "https://www.youtube.com/@matthew_berman",
+      "name": "Matthew Berman",
+      "why": "Claude Code, agent workflows, practical AI tooling demos"
+    },
+    {
+      "url": "https://www.youtube.com/@developersdigest",
+      "name": "Developers Digest",
+      "why": "Claude Code tutorials, MCP, agent building patterns"
+    },
+    {
+      "url": "https://www.youtube.com/@IndyDevDan",
+      "name": "IndyDevDan",
+      "why": "Claude Code power-user workflows, PAI-adjacent patterns"
+    },
+    {
+      "url": "https://www.youtube.com/@AIJasonZ",
+      "name": "AI Jason",
+      "why": "No-code/low-code AI agents, practical automation patterns"
+    },
+    {
+      "url": "https://www.youtube.com/@unsupervised-learning",
+      "name": "Unsupervised Learning",
+      "why": "Daniel Miessler — Fabric creator, security + AI intelligence synthesis, directly feeds PAI"
+    },
+    {
+      "url": "https://www.youtube.com/@Thuvu5",
+      "name": "Thu Vu",
+      "why": "Data science, AI tools, practical ML workflows"
+    },
+    {
+      "url": "https://www.youtube.com/@theMITmonk",
+      "name": "The MIT Monk",
+      "why": "AI/ML concepts, research-to-practice, technical depth"
+    },
+    {
+      "url": "https://www.youtube.com/@JoelTorana",
+      "name": "Joel Torana",
+      "why": "AI agents, automation workflows, Claude and LLM tooling"
+    },
+    {
+      "url": "https://www.youtube.com/@VisualPKM",
+      "name": "Visual PKM",
+      "why": "Obsidian, PKM systems, knowledge workflows — directly relevant to PAI vault"
+    },
+    {
+      "url": "https://www.youtube.com/@LuxuryAcademy",
+      "name": "Luxury Academy",
+      "why": "AI productivity, automation, business workflows"
+    }
+  ]
+}

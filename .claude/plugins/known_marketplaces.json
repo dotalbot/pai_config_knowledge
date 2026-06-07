@@ -1,0 +1,10 @@
+{
+  "claude-plugins-official": {
+    "source": {
+      "source": "git",
+      "url": "https://github.com/anthropics/claude-plugins-official.git"
+    },
+    "installLocation": "/Users/dominictalbot/.claude/plugins/marketplaces/claude-plugins-official",
+    "lastUpdated": "2026-06-07T18:58:59.096Z"
+  }
+}

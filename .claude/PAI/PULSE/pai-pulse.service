@@ -1,0 +1,23 @@
+[Unit]
+Description=PAI Pulse Life Dashboard
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=jellypai
+Group=jellypai
+WorkingDirectory=/home/jellypai/.claude/PAI/PULSE
+ExecStart=/home/jellypai/.bun/bin/bun run pulse.ts
+Restart=on-failure
+RestartSec=10
+Environment=HOME=/home/jellypai
+Environment=PAI_DIR=/home/jellypai/.claude/PAI
+Environment=PATH=/home/jellypai/.bun/bin:/usr/local/bin:/usr/bin:/bin
+EnvironmentFile=-/home/jellypai/.claude/.env
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=pai-pulse
+
+[Install]
+WantedBy=multi-user.target

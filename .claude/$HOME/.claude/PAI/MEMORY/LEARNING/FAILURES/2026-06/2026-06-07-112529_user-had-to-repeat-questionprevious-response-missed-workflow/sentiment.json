@@ -1,0 +1,8 @@
+{
+  "rating": 3,
+  "summary": "User had to repeat question—previous response missed workflow explanation",
+  "detailed_context": "The user asked a practical, functional question: 'what happens when I drop a YouTube link?' The previous AI response focused on backend system completion (QuickAdd setup, template creation, vault migration) rather than explaining the actual user workflow. The user is now repeating the same question, indicating the first response didn't address their concern. This is a classic 'repeated request' pattern showing clear dissatisfaction. The user needed a step-by-step explanation of what the system does with the YouTube link, not technical architecture details.",
+  "session_id": "846790de-d907-414e-8ae6-39802d2a4798",
+  "captured_at": "2026-06-07T18:25:29.406Z",
+  "transcript_source": "846790de-d907-414e-8ae6-39802d2a4798.jsonl"
+}

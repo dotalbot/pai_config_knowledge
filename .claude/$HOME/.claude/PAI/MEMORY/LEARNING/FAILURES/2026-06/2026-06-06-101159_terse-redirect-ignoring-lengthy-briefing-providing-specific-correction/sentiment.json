@@ -1,0 +1,8 @@
+{
+  "rating": 3,
+  "summary": "Terse redirect ignoring lengthy briefing, providing specific correction",
+  "detailed_context": "The AI provided a comprehensive synthesis briefing of a ChatGPT export, but Dominic's response is a single line with a specific file path. This is a classic terse redirect—the user is bypassing the entire briefing and providing what appears to be critical context the AI should have asked for or used. The pattern suggests Dominic is saying 'that's not what I needed' rather than engaging with or praising the synthesis. Clear dissatisfaction; the briefing missed the mark.",
+  "session_id": "eca46805-17d0-4399-9780-afede90a6618",
+  "captured_at": "2026-06-06T17:11:59.844Z",
+  "transcript_source": "eca46805-17d0-4399-9780-afede90a6618.jsonl"
+}

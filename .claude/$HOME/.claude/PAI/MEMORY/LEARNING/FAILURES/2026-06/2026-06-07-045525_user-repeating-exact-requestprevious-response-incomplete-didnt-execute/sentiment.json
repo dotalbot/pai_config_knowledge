@@ -1,0 +1,8 @@
+{
+  "rating": 3,
+  "summary": "User repeating exact request—previous response incomplete, didn't execute",
+  "detailed_context": "Dominic originally asked to confirm yt-dlp installation and add channels. The AI's previous response cut off mid-sentence ('The 7 channels currently co') without actually processing the channel list. Dominic is now restating the exact same channel list verbatim, indicating the AI failed to handle the request the first time. The tone is neutral (not angry), but the repetition itself signals clear dissatisfaction. The user isn't asking a follow-up question—they're restating an unresolved task. This falls into 'repeated requests' territory (2-3 range). The complete response needs to actually add these channels, not just provide setup instructions.",
+  "session_id": "eca46805-17d0-4399-9780-afede90a6618",
+  "captured_at": "2026-06-07T11:55:25.631Z",
+  "transcript_source": "eca46805-17d0-4399-9780-afede90a6618.jsonl"
+}

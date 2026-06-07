@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "plugins": {
+    "code-review@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/dominictalbot/.claude/plugins/cache/claude-plugins-official/code-review/unknown",
+        "version": "unknown",
+        "installedAt": "2026-06-04T21:02:32.152Z",
+        "lastUpdated": "2026-06-04T21:02:32.152Z"
+      }
+    ],
+    "pr-review-toolkit@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/dominictalbot/.claude/plugins/cache/claude-plugins-official/pr-review-toolkit/unknown",
+        "version": "unknown",
+        "installedAt": "2026-06-04T21:02:32.152Z",
+        "lastUpdated": "2026-06-04T21:02:32.152Z"
+      }
+    ]
+  }
+}

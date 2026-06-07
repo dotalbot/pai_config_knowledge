@@ -1,0 +1,8 @@
+{
+  "rating": 3,
+  "summary": "User rejected response, frustrated AI missed existing solution",
+  "detailed_context": "Dominic explicitly disagreed with the previous suggestion ('no') and expressed frustration that the AI didn't check available resources ('check yourself'). The AI proposed adding API credentials when the capability already existed via opencode integration. This is a clear correction scenario where the user had to redirect the AI to an existing solution rather than accept the default suggestion. The tone suggests mild-to-moderate frustration—not anger, but clear dissatisfaction that the AI missed context it should have verified first.",
+  "session_id": "846790de-d907-414e-8ae6-39802d2a4798",
+  "captured_at": "2026-06-07T18:59:07.628Z",
+  "transcript_source": "846790de-d907-414e-8ae6-39802d2a4798.jsonl"
+}
