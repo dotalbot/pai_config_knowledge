@@ -21,6 +21,7 @@ services:
   anthropic_key_env: "ANTHROPIC_API_KEY"
   openai_key_env: "OPENAI_API_KEY"
   elevenlabs_key_env: "ELEVENLABS_API_KEY"
+  firecrawl_key_env: "FIRECRAWL_API_KEY"
 
 paths:
   # All paths are relative to ${HOME}/.claude unless absolute.

@@ -32,9 +32,9 @@
       "consecutiveFailures": 3
     },
     "assistant-diary": {
-      "lastRun": 1780786819112,
+      "lastRun": 1780873219911,
       "lastResult": "error",
-      "consecutiveFailures": 2
+      "consecutiveFailures": 3
     },
     "life-morning-brief": {
       "lastRun": 1780815619336,

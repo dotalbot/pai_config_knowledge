@@ -18,6 +18,16 @@
         "installedAt": "2026-06-04T21:02:32.152Z",
         "lastUpdated": "2026-06-04T21:02:32.152Z"
       }
+    ],
+    "firecrawl@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/home/jellypai/.claude/plugins/cache/claude-plugins-official/firecrawl/1.0.9",
+        "version": "1.0.9",
+        "installedAt": "2026-06-08T00:13:09.588Z",
+        "lastUpdated": "2026-06-08T00:13:09.588Z",
+        "gitCommitSha": "6768fb78185aab9e5b5a04777f84703863fb025b"
+      }
     ]
   }
 }

@@ -553,7 +553,8 @@
   },
   "enabledPlugins": {
     "code-review@claude-plugins-official": true,
-    "pr-review-toolkit@claude-plugins-official": true
+    "pr-review-toolkit@claude-plugins-official": true,
+    "firecrawl@claude-plugins-official": true
   },
   "extraKnownMarketplaces": {
     "claude-plugins-official": {
@@ -1335,6 +1336,7 @@
   "plansDirectory": "Plans/",
   "skipDangerousModePermissionPrompt": true,
   "teammateMode": "in-process",
+  "agentPushNotifEnabled": true,
   "skipAutoPermissionPrompt": true,
   "autoMode": {
     "allow": [
@@ -1529,11 +1531,10 @@
     "hooks": 37,
     "signals": 66,
     "files": 0,
-    "work": 6,
-    "sessions": 224,
+    "work": 7,
+    "sessions": 225,
     "research": 2,
     "ratings": 130,
-    "updatedAt": "2026-06-07T17:09:58.186Z"
-  },
-  "agentPushNotifEnabled": true
+    "updatedAt": "2026-06-08T00:13:09.637Z"
+  }
 }
