@@ -37,14 +37,14 @@
       "consecutiveFailures": 3
     },
     "life-morning-brief": {
-      "lastRun": 1780815619336,
+      "lastRun": 1780902020215,
       "lastResult": "error",
-      "consecutiveFailures": 1
+      "consecutiveFailures": 2
     },
     "memory-consolidation": {
-      "lastRun": 1780801230777,
-      "lastResult": "ok",
-      "consecutiveFailures": 0
+      "lastRun": 1780887623201,
+      "lastResult": "error",
+      "consecutiveFailures": 1
     },
     "assistant-growth": {
       "lastRun": 1780804819237,
@@ -52,5 +52,5 @@
       "consecutiveFailures": 1
     }
   },
-  "startedAt": 1780742039786
+  "startedAt": 1780916516544
 }

@@ -1,0 +1,33 @@
+[
+  {
+    "name": "Bash",
+    "input": {
+      "command": "grep -r \"website\\|domain\\|url\\|\\.com\\|\\.co\\.uk\" /home/jellypai/.claude/PAI/USER/Config/ 2>/dev/null | head -20",
+      "description": "Search PAI config for website/domain entries"
+    },
+    "timestamp": "2026-06-08T10:48:13.176Z"
+  },
+  {
+    "name": "Bash",
+    "input": {
+      "command": "grep -r \"website\\|domain\\|your-domain\\|\\.com\\|\\.co\\.uk\" /home/jellypai/.claude/PAI/USER/BUSINESS/ 2>/dev/null | head -20",
+      "description": "Search PAI business context for website/domain entries"
+    },
+    "timestamp": "2026-06-08T10:48:14.173Z"
+  },
+  {
+    "name": "Bash",
+    "input": {
+      "command": "grep -r \"website\\|domain\\|\\.com\\|\\.co\\.uk\" /home/jellypai/.claude/PAI/USER/ 2>/dev/null | grep -v \".md:#\\|Binary\\|node_modules\" | head -30",
+      "description": "Broader search for website/domain in PAI USER directory"
+    },
+    "timestamp": "2026-06-08T10:48:16.988Z"
+  },
+  {
+    "name": "Read",
+    "input": {
+      "file_path": "/home/jellypai/.claude/PAI/USER/BASICINFO.md"
+    },
+    "timestamp": "2026-06-08T10:48:19.202Z"
+  }
+]

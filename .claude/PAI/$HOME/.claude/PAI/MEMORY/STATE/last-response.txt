@@ -1,0 +1,19 @@
+---
+
+## ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## ━━━ 📃 SUMMARY ━━━ 7/7
+
+**What changed:**
+
+| File | Change |
+|------|--------|
+| `PAI/TOOLS/Inference.ts` | `--opencode` flag added; routes fast/standard/smart/advisor through `InferenceOpencode.ts` (GPT-5.5); fallback to Claude with stderr warning if OpenCode unavailable |
+| `PAI/ALGORITHM/capabilities.md` | Advisor invoke updated to prefer `--opencode`; new **OpenCode Inference (GPT-5.5)** entry added to Delegation table |
+| `CLAUDE.md` | New Operational Rule: prefer `--opencode` at E3+; PAI Inference Tool note updated |
+
+**Behaviour from now on:** At E3+, any time I make an `Inference.ts` call (Advisor at commitment boundaries, reasoning checks, smart-tier analysis), I'll pass `--opencode` automatically. If your OpenCode server at `:7878` is reachable and authenticated, those calls hit GPT-5.5. If it's down, it falls back to Claude silently.
+
+**One thing to know:** Forge confirmed during testing that the OpenCode server at `:7878` returned `unavailable` during the test run — it went through the fallback path as designed. If you're seeing the same thing interactively, the server may need a restart or the password auth may need a check. Run `curl -sk -u :YOUR_PASSWORD http://localhost:7878/api/health` to verify.
+
+🗣️ JellyPai: `--opencode` wired in — GPT-5.5 gets the inference workload at E3+, Claude stays as fallback

@@ -1,14 +1,3 @@
-📃 CONTENT:
-- `PAI/MEMORY/KNOWLEDGE/Companies/inform-limited-the-inform-team.md` — full research with fit assessment, surprises, ownership, financials, questions to ask
-- `02 Cards/The Inform Team — Company Due Diligence.md` — Obsidian note, `type: note`, `topic: career`, cross-linked
+Yes — it binds to `0.0.0.0` so it's listening on all interfaces. You can hit it from anything on your network at `http://<server-ip>:27337`.
 
-🔧 CHANGE:
-- KNOWLEDGE Companies entry created with all agent findings
-- Obsidian note created in `02 Cards/` with `type: note` frontmatter
-- Both cross-reference each other; KNOWLEDGE links to Erica Jefferies contact
-
-✅ VERIFY:
-- Both files written successfully
-- ISA marked complete
-
-🗣️ JellyPai: Saved to both. The six questions at the bottom of that note are what matters next — especially #1 and #6.
+🗣️ JellyPai: Bound to `0.0.0.0` — network-accessible at port 27337.

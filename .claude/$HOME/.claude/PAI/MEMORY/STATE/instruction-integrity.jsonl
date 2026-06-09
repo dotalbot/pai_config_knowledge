@@ -1,1 +1,3 @@
 {"timestamp":"2026-06-07T11:58:26.077Z","event":"baseline_created","file":"*","path":"$HOME/.claude/PAI/MEMORY/STATE/instruction-hashes.json","message":"Baseline created with 1 files"}
+{"timestamp":"2026-06-08T14:43:54.028Z","event":"hash_changed","file":"CLAUDE.md","path":"/home/jellypai/.claude/CLAUDE.md","old_hash":"09b750269a32a819c541bcbad29b1fbe2b2f84c71af100c7173044d8f1c76256","new_hash":"e173bfc6a33583da196cd13beb7efddf7fa07d38f48673dd345959de2663dab8"}
+{"timestamp":"2026-06-08T14:43:54.028Z","event":"hash_changed","file":"CLAUDE.md","path":"/home/jellypai/.claude/CLAUDE.md","old_hash":"09b750269a32a819c541bcbad29b1fbe2b2f84c71af100c7173044d8f1c76256","new_hash":"e173bfc6a33583da196cd13beb7efddf7fa07d38f48673dd345959de2663dab8"}

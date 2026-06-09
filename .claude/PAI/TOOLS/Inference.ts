@@ -24,6 +24,7 @@
  *   --mode advisor                 Advisor escalation mode — 3 positional args: task, state, question
  *   --auto-state                   v3.24 P5: Auto-synthesize state from current ISA + recent activity (advisor mode only, 2 positional args: task, question)
  *   --json                         Expect and parse JSON response
+ *   --opencode                     Route through InferenceOpencode.ts (GPT-5.5 via local OpenCode server); falls back to Claude if unavailable
  *   --timeout <ms>                 Custom timeout (default varies by level)
  *
  * DEFAULTS BY LEVEL:
@@ -58,6 +59,7 @@
  */
 
 import { spawn } from "child_process";
+import { join } from "path";
 
 export type InferenceLevel = 'fast' | 'standard' | 'smart';
 
@@ -71,6 +73,11 @@ export interface InferenceOptions {
    * are prepended to the user prompt as @-references so Claude reads them as
    * image attachments. Routes through subscription like all other inference. */
   imagePaths?: string[];
+  /** Opt-in: route this call through InferenceOpencode.ts (GPT-5.5 via the local
+   * OpenCode server at localhost:7878) instead of the Claude CLI. When the
+   * OpenCode server is unavailable, the call transparently falls back to Claude.
+   * Existing callers that omit this flag are completely unchanged. */
+  useOpencode?: boolean;
 }
 
 export interface InferenceResult {
@@ -92,6 +99,195 @@ const LEVEL_CONFIG: Record<InferenceLevel, { model: string; defaultTimeout: numb
 // Advisor-specific defaults (v3.23 VERIFY doctrine).
 const ADVISOR_TIMEOUT_MS = 120000;
 
+/** Shape of the single JSON line emitted by InferenceOpencode.ts. */
+interface OpencodeFinalLine {
+  verdict: string;
+  final_message?: string;
+  reason?: string;
+}
+
+/**
+ * Extract the first JSON object or array that successfully parses from `text`,
+ * preferring an object match and falling back to an array match. Mirrors the
+ * JSON-extraction logic used on the Claude path so `expectJson` behaves
+ * identically regardless of which backend produced the output.
+ *
+ * Returns the parsed value, or undefined when neither candidate parses.
+ */
+function tryExtractJson(text: string): unknown {
+  const objectMatch = text.match(/\{[\s\S]*\}/);
+  const arrayMatch = text.match(/\[[\s\S]*\]/);
+  for (const candidate of [objectMatch?.[0], arrayMatch?.[0]]) {
+    if (!candidate) continue;
+    try {
+      return JSON.parse(candidate);
+    } catch {
+      /* try next candidate */
+    }
+  }
+  return undefined;
+}
+
+/**
+ * Route an inference call through InferenceOpencode.ts (GPT-5.5 via the local
+ * OpenCode server). The caller is responsible for checking
+ * `options.useOpencode === true` before invoking this.
+ *
+ * Returns an InferenceResult. The sentinel `error: 'opencode_unavailable'` tells
+ * inference() that the OpenCode server is down so it can fall back to Claude;
+ * every other failure is a terminal result the caller should surface as-is.
+ */
+async function inferenceViaOpencode(options: InferenceOptions): Promise<InferenceResult> {
+  const level = options.level || 'standard';
+  const config = LEVEL_CONFIG[level];
+  const startTime = Date.now();
+  const timeout = options.timeout || config.defaultTimeout;
+
+  // Build the combined prompt. The OpenCode bridge takes a single prompt string,
+  // so fold the system prompt in as a labeled prefix when present.
+  const combinedPrompt = options.systemPrompt
+    ? `SYSTEM: ${options.systemPrompt}\n\nUSER: ${options.userPrompt}`
+    : `USER: ${options.userPrompt}`;
+
+  const slug = `inference-${Date.now()}`;
+  const scriptPath = join(process.env.HOME || '', '.claude', 'PAI', 'TOOLS', 'InferenceOpencode.ts');
+  const args = [
+    scriptPath,
+    '--slug', slug,
+    '--prompt', combinedPrompt,
+    '--timeout-ms', String(timeout),
+  ];
+
+  return new Promise<InferenceResult>((resolve) => {
+    let stdout = '';
+    let stderr = '';
+    let settled = false;
+
+    const finish = (result: InferenceResult) => {
+      if (settled) return;
+      settled = true;
+      clearTimeout(timeoutId);
+      resolve(result);
+    };
+
+    const proc = spawn('bun', args, {
+      stdio: ['ignore', 'pipe', 'pipe'],
+    });
+
+    // Give the bridge a generous grace window beyond its own internal timeout so
+    // the JSON `timeout` verdict can surface normally; only hard-kill if the
+    // child overruns even that, which indicates a hung process.
+    const KILL_GRACE_MS = 5000;
+    const timeoutId = setTimeout(() => {
+      proc.kill('SIGKILL');
+      finish({
+        success: false,
+        output: '',
+        error: `OpenCode timeout after ${timeout}ms`,
+        latencyMs: Date.now() - startTime,
+        level,
+      });
+    }, timeout + KILL_GRACE_MS);
+
+    proc.stdout.on('data', (data) => {
+      stdout += data.toString();
+    });
+
+    proc.stderr.on('data', (data) => {
+      stderr += data.toString();
+    });
+
+    proc.on('error', (err) => {
+      finish({
+        success: false,
+        output: '',
+        error: `failed to spawn opencode bridge: ${err.message}`,
+        latencyMs: Date.now() - startTime,
+        level,
+      });
+    });
+
+    proc.on('close', () => {
+      const latencyMs = Date.now() - startTime;
+
+      // The bridge writes its result as the last non-empty line of stdout.
+      // Diagnostics go to stderr, so stdout should be clean JSON — but parse the
+      // last non-empty line defensively in case anything else is interleaved.
+      const lines = stdout.split('\n').map((l) => l.trim()).filter((l) => l.length > 0);
+      const lastLine = lines.length > 0 ? lines[lines.length - 1] : '';
+
+      let result: OpencodeFinalLine;
+      try {
+        result = JSON.parse(lastLine) as OpencodeFinalLine;
+      } catch {
+        const detail = (stderr.trim() || stdout.trim()).slice(0, 200);
+        finish({
+          success: false,
+          output: '',
+          error: `failed to parse opencode output: ${detail}`,
+          latencyMs,
+          level,
+        });
+        return;
+      }
+
+      if (result.verdict === 'unavailable') {
+        // Sentinel: inference() detects this and falls back to Claude.
+        finish({
+          success: false,
+          output: '',
+          error: 'opencode_unavailable',
+          latencyMs,
+          level,
+        });
+        return;
+      }
+
+      if (result.verdict === 'success') {
+        const output = (result.final_message || '').trim();
+        if (options.expectJson) {
+          const parsed = tryExtractJson(output);
+          if (parsed !== undefined) {
+            finish({ success: true, output, parsed, latencyMs, level });
+            return;
+          }
+          finish({
+            success: false,
+            output,
+            error: 'Failed to parse JSON response',
+            latencyMs,
+            level,
+          });
+          return;
+        }
+        finish({ success: true, output, latencyMs, level });
+        return;
+      }
+
+      if (result.verdict === 'timeout') {
+        finish({
+          success: false,
+          output: '',
+          error: `OpenCode timeout after ${timeout}ms`,
+          latencyMs,
+          level,
+        });
+        return;
+      }
+
+      // Any other verdict (e.g. 'error') — surface the bridge's reason.
+      const reason = result.reason || 'opencode error';
+      finish({
+        success: false,
+        output: '',
+        error: reason,
+        latencyMs,
+        level,
+      });
+    });
+  });
+}
+
 /**
  * Run inference with configurable level
  */
@@ -100,6 +296,12 @@ export async function inference(options: InferenceOptions): Promise<InferenceRes
   const config = LEVEL_CONFIG[level];
   const startTime = Date.now();
   const timeout = options.timeout || config.defaultTimeout;
+
+  if (options.useOpencode) {
+    const ocResult = await inferenceViaOpencode(options);
+    if (ocResult.error !== 'opencode_unavailable') return ocResult;
+    process.stderr.write('[Inference] OpenCode unavailable — falling back to Claude\n');
+  }
 
   return new Promise((resolve) => {
     // Unset CLAUDECODE so nested `claude` invocations don't trigger the
@@ -358,6 +560,9 @@ export interface AdvisorOptions {
   question: string;
   autoSynthesize?: boolean;
   timeout?: number;
+  /** Opt-in: route the underlying inference call through the OpenCode bridge
+   * (GPT-5.5). Falls back to Claude when the OpenCode server is unavailable. */
+  useOpencode?: boolean;
 }
 
 export async function advisor(options: AdvisorOptions): Promise<InferenceResult> {
@@ -401,6 +606,7 @@ export async function advisor(options: AdvisorOptions): Promise<InferenceResult>
     userPrompt,
     level: 'smart',
     timeout: options.timeout ?? ADVISOR_TIMEOUT_MS,
+    useOpencode: options.useOpencode,
   });
 }
 
@@ -416,6 +622,7 @@ async function main() {
   let level: InferenceLevel = 'standard';
   let mode: 'inference' | 'advisor' = 'inference';
   let autoState = false;  // v3.24 P5
+  let useOpencode = false;
   const positionalArgs: string[] = [];
 
   for (let i = 0; i < args.length; i++) {
@@ -423,6 +630,8 @@ async function main() {
       expectJson = true;
     } else if (args[i] === '--auto-state') {
       autoState = true;
+    } else if (args[i] === '--opencode') {
+      useOpencode = true;
     } else if (args[i] === '--mode' && args[i + 1]) {
       const requestedMode = args[i + 1].toLowerCase();
       if (requestedMode === 'advisor' || requestedMode === 'inference') {
@@ -453,11 +662,11 @@ async function main() {
   if (mode === 'advisor') {
     if (autoState) {
       if (positionalArgs.length < 2) {
-        console.error('Usage: bun Inference.ts --mode advisor --auto-state [--json] [--timeout <ms>] <task> <question>');
+        console.error('Usage: bun Inference.ts --mode advisor --auto-state [--json] [--opencode] [--timeout <ms>] <task> <question>');
         process.exit(1);
       }
       const [task, question] = positionalArgs;
-      const advisoryResult = await advisor({ task, question, autoSynthesize: true, timeout });
+      const advisoryResult = await advisor({ task, question, autoSynthesize: true, timeout, useOpencode });
       if (advisoryResult.success) {
         console.log(advisoryResult.output);
       } else {
@@ -467,12 +676,12 @@ async function main() {
       return;
     }
     if (positionalArgs.length < 3) {
-      console.error('Usage: bun Inference.ts --mode advisor [--json] [--timeout <ms>] <task> <state> <question>');
-      console.error('       bun Inference.ts --mode advisor --auto-state [--json] [--timeout <ms>] <task> <question>');
+      console.error('Usage: bun Inference.ts --mode advisor [--json] [--opencode] [--timeout <ms>] <task> <state> <question>');
+      console.error('       bun Inference.ts --mode advisor --auto-state [--json] [--opencode] [--timeout <ms>] <task> <question>');
       process.exit(1);
     }
     const [task, state, question] = positionalArgs;
-    const advisoryResult = await advisor({ task, state, question, timeout });
+    const advisoryResult = await advisor({ task, state, question, timeout, useOpencode });
     if (advisoryResult.success) {
       console.log(advisoryResult.output);
     } else {
@@ -483,7 +692,7 @@ async function main() {
   }
 
   if (positionalArgs.length < 2) {
-    console.error('Usage: bun Inference.ts [--level fast|standard|smart] [--json] [--timeout <ms>] <system_prompt> <user_prompt>');
+    console.error('Usage: bun Inference.ts [--level fast|standard|smart] [--json] [--opencode] [--timeout <ms>] <system_prompt> <user_prompt>');
     process.exit(1);
   }
 
@@ -495,6 +704,7 @@ async function main() {
     level,
     expectJson,
     timeout,
+    useOpencode,
   });
 
   if (result.success) {

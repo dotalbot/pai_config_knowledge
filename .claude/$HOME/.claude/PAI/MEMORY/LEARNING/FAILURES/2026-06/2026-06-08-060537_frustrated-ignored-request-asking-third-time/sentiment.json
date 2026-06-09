@@ -1,0 +1,8 @@
+{
+  "rating": 2,
+  "summary": "Frustrated, ignored request, asking third time",
+  "detailed_context": "User made a specific technical request to delegate to GPT5.5 via the opencode connection. The previous AI response was a lengthy, off-topic 'daily interaction guide' that completely missed the actual ask. User has now repeated the same request at least three times, indicating growing frustration. Clear major miss—the AI failed to process and address the user's actual technical need, forcing a repeat.",
+  "session_id": "7be09243-1530-4683-b41d-afb5a3c7a306",
+  "captured_at": "2026-06-08T13:05:37.007Z",
+  "transcript_source": "7be09243-1530-4683-b41d-afb5a3c7a306.jsonl"
+}
