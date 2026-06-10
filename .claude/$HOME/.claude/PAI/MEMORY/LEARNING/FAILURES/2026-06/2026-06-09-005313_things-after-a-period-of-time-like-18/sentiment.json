@@ -1,0 +1,8 @@
+{
+  "rating": 2,
+  "summary": "things, after a period of time, like 18 hours, i have to relogin to claude which is a pain and you are running on a server and  not on a mac, how is the best way to interact with you apart from telegram when I want to update you, ask you a question, send you a file, we have some obisian workflows, what about you, ideas?",
+  "detailed_context": "Yes — it binds to `0.0.0.0` so it's listening on all interfaces. You can hit it from anything on your network at `http://<server-ip>:27337`.\n\n🗣️ JellyPai: Bound to `0.0.0.0` — network-accessible at port 27337.",
+  "session_id": "317f28e7-b1df-41b8-b402-cf87ea9dfba9",
+  "captured_at": "2026-06-09T07:53:13.352Z",
+  "transcript_source": "317f28e7-b1df-41b8-b402-cf87ea9dfba9.jsonl"
+}

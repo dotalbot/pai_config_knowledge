@@ -1,0 +1,8 @@
+{
+  "rating": 3,
+  "summary": "Abrupt topic shift, previous task abandoned without completion",
+  "detailed_context": "The previous AI response attempted to export a Chief Architect profile to Obsidian but appeared incomplete—text cut off mid-sentence ('when you op'). The user's response was not to request corrections or clarification, but to immediately pivot to an entirely different question about a YouTube video. This terse redirect, ignoring the unfinished previous output with no praise or acknowledgment, signals clear dissatisfaction. The user essentially abandoned the task without confirmation it worked.",
+  "session_id": "dbf4b98c-ce83-46bc-8621-83d4ea58bc4f",
+  "captured_at": "2026-06-09T16:06:38.502Z",
+  "transcript_source": "dbf4b98c-ce83-46bc-8621-83d4ea58bc4f.jsonl"
+}

@@ -66,7 +66,7 @@ const SECURITY_LOG_DIR = join(MEMORY_DIR, "SECURITY")
 const SETTINGS_PATH = join(HOME, ".claude", "settings.json")
 const LADDER_DIR = join(HOME, "Projects", "Ladder")
 
-const DEFAULT_DASHBOARD_DIR = join(PAI_DIR, "Pulse", "Observability", "out")
+const DEFAULT_DASHBOARD_DIR = join(PAI_DIR, "PULSE", "Observability", "out")
 
 // ── In-Memory Store (hook-pushed state/events) ──
 
@@ -149,7 +149,7 @@ function getDashboardDir(): string {
   const dir = config.dashboard_dir ?? DEFAULT_DASHBOARD_DIR
   // Resolve relative paths against Pulse directory
   if (!dir.startsWith("/")) {
-    return join(HOME, ".claude", "PAI", "Pulse", dir)
+    return join(HOME, ".claude", "PAI", "PULSE", dir)
   }
   return dir
 }

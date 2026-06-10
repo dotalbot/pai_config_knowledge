@@ -2,55 +2,55 @@
   "version": 1,
   "jobs": {
     "assistant-tasks": {
-      "lastRun": 1780683182466,
-      "lastResult": "error",
-      "consecutiveFailures": 3
+      "lastRun": 1781058591091,
+      "lastResult": "ok",
+      "consecutiveFailures": 0
     },
     "healthcheck": {
-      "lastRun": 1780742718637,
-      "lastResult": "error",
-      "consecutiveFailures": 3
+      "lastRun": 1781058351086,
+      "lastResult": "ok",
+      "consecutiveFailures": 0
     },
     "airgradient-poll": {
-      "lastRun": 1780742718638,
-      "lastResult": "error",
-      "consecutiveFailures": 3
+      "lastRun": 1781058351107,
+      "lastResult": "ok",
+      "consecutiveFailures": 0
     },
     "cost-aggregation": {
-      "lastRun": 1780744518645,
-      "lastResult": "error",
-      "consecutiveFailures": 3
+      "lastRun": 1781057751082,
+      "lastResult": "ok",
+      "consecutiveFailures": 0
     },
     "assistant-heartbeat": {
-      "lastRun": 1780687803536,
-      "lastResult": "error",
-      "consecutiveFailures": 3
+      "lastRun": 1781056851197,
+      "lastResult": "ok",
+      "consecutiveFailures": 0
     },
     "cost-tracker": {
-      "lastRun": 1780750818700,
-      "lastResult": "error",
-      "consecutiveFailures": 3
+      "lastRun": 1781056851185,
+      "lastResult": "ok",
+      "consecutiveFailures": 0
     },
     "assistant-diary": {
-      "lastRun": 1780873219911,
-      "lastResult": "error",
-      "consecutiveFailures": 3
+      "lastRun": 1781046051069,
+      "lastResult": "ok",
+      "consecutiveFailures": 0
     },
     "life-morning-brief": {
-      "lastRun": 1780902020215,
-      "lastResult": "error",
-      "consecutiveFailures": 2
+      "lastRun": 1780988440673,
+      "lastResult": "ok",
+      "consecutiveFailures": 0
     },
     "memory-consolidation": {
-      "lastRun": 1780887623201,
-      "lastResult": "error",
-      "consecutiveFailures": 1
+      "lastRun": 1780974043758,
+      "lastResult": "ok",
+      "consecutiveFailures": 0
     },
     "assistant-growth": {
       "lastRun": 1780804819237,
-      "lastResult": "error",
-      "consecutiveFailures": 1
+      "lastResult": "ok",
+      "consecutiveFailures": 0
     }
   },
-  "startedAt": 1780916516544
+  "startedAt": 1781007830307
 }

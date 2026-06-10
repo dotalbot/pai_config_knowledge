@@ -1,3 +1,10 @@
-Yes — it binds to `0.0.0.0` so it's listening on all interfaces. You can hit it from anything on your network at `http://<server-ip>:27337`.
+Yes — both are in `/home/jellypai/Shared/documents/`:
 
-🗣️ JellyPai: Bound to `0.0.0.0` — network-accessible at port 27337.
+| Version | File | Format |
+|---------|------|--------|
+| v1 — original posted JD | `2026-06-09_senior-solutions-architect-inform-team.docx` | Word doc (as received) |
+| v2 — Chief Architect negotiated | `2026-06-09_chief-architect-inform-team-v2.md` | Markdown |
+
+Both have `.meta.json` sidecars and are indexed in `index.jsonl`. The v1 is the original docx you sent me; v2 is the one I drafted today.
+
+🗣️ JellyPai: Both versions saved in Shared/documents — v1 docx, v2 markdown, both indexed

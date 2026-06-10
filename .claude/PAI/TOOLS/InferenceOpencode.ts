@@ -101,8 +101,9 @@ async function readServerPassword(home: string): Promise<string | null> {
 
 function authHeaders(password: string | null): Record<string, string> {
   if (!password) return {}
-  // opencode uses HTTP Basic Auth with empty username
-  return { Authorization: `Basic ${btoa(`:${password}`)}` }
+  // opencode defaults username to "opencode" — must match or Basic Auth fails
+  const username = process.env.OPENCODE_SERVER_USERNAME ?? "opencode"
+  return { Authorization: `Basic ${Buffer.from(`${username}:${password}`).toString("base64")}` }
 }
 
 async function ensureSlugDir(home: string, slug: string): Promise<Paths> {
