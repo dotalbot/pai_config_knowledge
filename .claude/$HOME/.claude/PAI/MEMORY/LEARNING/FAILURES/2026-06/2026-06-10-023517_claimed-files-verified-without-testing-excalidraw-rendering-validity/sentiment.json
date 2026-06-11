@@ -1,0 +1,8 @@
+{
+  "rating": 3,
+  "summary": "File verification claim failed; broken Excalidraw rendering",
+  "detailed_context": "Dominic discovered that the Excalidraw file claimed as 'verified' is actually broken—it fails to render with a JSON parsing error at line 1. This reveals the AI's verification was false or incomplete. While Dominic isn't angry (keeping tone constructive), they're clearly dissatisfied with the quality failure and explicitly requesting better testing practices going forward. This is a significant miss: claiming verification when deliverables are non-functional.",
+  "session_id": "61a57fee-1202-45b5-94e0-8e44cfb81201",
+  "captured_at": "2026-06-10T09:35:17.681Z",
+  "transcript_source": "61a57fee-1202-45b5-94e0-8e44cfb81201.jsonl"
+}
