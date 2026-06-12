@@ -15,5 +15,6 @@ import { writeObsidianSessionNote } from './handlers/ObsidianSessionNote'
 
 const input = await readHookInput()
 if (!input?.transcript_path) process.exit(0)
+if ((input as any).stop_hook_active) process.exit(0)
 
 await writeObsidianSessionNote(input.transcript_path)

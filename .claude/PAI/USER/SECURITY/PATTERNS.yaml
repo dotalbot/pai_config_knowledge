@@ -11,8 +11,8 @@
 #
 # Logging: All blocked/alerted events → MEMORY/SECURITY/YYYY/MM/
 ---
-version: "3.2"
-last_updated: 2026-06-07
+version: "3.3"
+last_updated: 2026-06-11
 philosophy:
   mode: targeted
   principle: Block catastrophic operations silently. Prompt for sensitive file access. Alert on suspicious. Fail closed on missing config.
@@ -89,6 +89,12 @@ bash:
       reason: Launching alternative shell interpreter — may bypass bash-specific restrictions or audit hooks
     - pattern: <\(
       reason: Process substitution — can obscure command execution and bypass string-level inspection
+    - pattern: r\\m\s
+      reason: Backslash-escape bypass — disguises rm command to evade pattern matching on 'rm'
+    - pattern: IFS=
+      reason: IFS manipulation — redefines shell word-splitting to bypass space-delimited pattern checks
+    - pattern: (tar|zip|gzip|bzip2).*\|.*(nc|ncat|socat|curl|wget)
+      reason: Archive-pipe exfiltration — compresses and streams data to network tool in single pipeline
   alert:
     - pattern: \|\s*(sh|bash|zsh)\s+-c\b
       reason: Piping into shell -c (logged for audit; legitimate uses exist)

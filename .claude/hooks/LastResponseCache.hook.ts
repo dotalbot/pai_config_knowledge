@@ -18,6 +18,7 @@ import { join } from 'path';
 async function main() {
   const input = await readHookInput();
   if (!input) { process.exit(0); }
+  if ((input as any).stop_hook_active) { process.exit(0); }
 
   // Prefer last_assistant_message from stdin (v2.1.47+), fall back to transcript parse
   let lastResponse = input.last_assistant_message;

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-07",
+  "last_updated": "2026-06-11",
   "seen_repos": [
     {"name": "op7418/guizang-social-card-skill", "stars": 3036, "url": "https://github.com/op7418/guizang-social-card-skill", "seen": "2026-06-07"},
     {"name": "withkynam/vibecode-pro-max-kit", "stars": 808, "url": "https://github.com/withkynam/vibecode-pro-max-kit", "seen": "2026-06-07"},
@@ -9,6 +9,11 @@
     {"name": "GordenSun/GordenPPTSkill", "stars": 1763, "url": "https://github.com/GordenSun/GordenPPTSkill", "seen": "2026-06-07"},
     {"name": "Health-Yang/MineEcho", "stars": 189, "url": "https://github.com/Health-Yang/MineEcho", "seen": "2026-06-07"},
     {"name": "Muhammadatef/kakashi", "stars": 14, "url": "https://github.com/Muhammadatef/kakashi", "seen": "2026-06-07"},
-    {"name": "dshakes/compass", "stars": 6, "url": "https://github.com/dshakes/compass", "seen": "2026-06-07"}
+    {"name": "dshakes/compass", "stars": 6, "url": "https://github.com/dshakes/compass", "seen": "2026-06-07"},
+    {"name": "itseffi/agentic-os", "stars": 56, "url": "https://github.com/itseffi/agentic-os", "seen": "2026-06-11"},
+    {"name": "barkain/claude-code-workflow-orchestration", "stars": 69, "url": "https://github.com/barkain/claude-code-workflow-orchestration", "seen": "2026-06-11"},
+    {"name": "Pimzino/claude-code-spec-workflow", "stars": 3800, "url": "https://github.com/Pimzino/claude-code-spec-workflow", "seen": "2026-06-11"},
+    {"name": "steipete/claude-code-mcp", "stars": 1300, "url": "https://github.com/steipete/claude-code-mcp", "seen": "2026-06-11"},
+    {"name": "ruvnet/ruflo", "stars": 58900, "url": "https://github.com/ruvnet/ruflo", "seen": "2026-06-11"}
   ]
 }

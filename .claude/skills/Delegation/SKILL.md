@@ -214,6 +214,7 @@ Task(subagent_type="general-purpose", prompt="...")  # or specialized agent type
 
 ## Gotchas
 
+- **Sub-agent nesting ceiling is 5 levels (v2.1.172).** The primary DA is level 0; each spawned agent adds one level. Attempts to nest deeper are silently rejected. Design delegation chains to be shallow (prefer breadth at levels 1–2 over depth to level 5).
 - **Delegation uses Claude Code's built-in TeamCreate** — NOT the Agents skill's ComposeAgent. These are different systems.
 - **3+ independent workstreams warrant delegation.** For 1-2 tasks, direct work is faster than team coordination overhead.
 - **Agent teams share a task list.** Use TaskCreate/TaskUpdate for coordination, not ad-hoc messages.

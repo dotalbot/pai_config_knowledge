@@ -1,0 +1,8 @@
+{
+  "rating": 3,
+  "summary": "User ignored verbose output, repeated command tersely",
+  "detailed_context": "Dominic sent the same `/PrivateInvestigator` command twice with identical arguments (Emma Henry, The Inform Team). The previous response was a lengthy, jargon-heavy status dump about doc syncing and system files—completely irrelevant to what he was requesting. His terse repetition signals clear frustration: the AI failed to execute his actual command and instead provided noise. This is a classic 'you didn't listen' moment (rating 3-4 range). The repetition without additional explanation suggests mild-to-moderate frustration rather than rage.",
+  "session_id": "61a57fee-1202-45b5-94e0-8e44cfb81201",
+  "captured_at": "2026-06-11T11:35:43.814Z",
+  "transcript_source": "61a57fee-1202-45b5-94e0-8e44cfb81201.jsonl"
+}

@@ -1136,6 +1136,7 @@ await Promise.race([readPromise, timeoutPromise]);
 ### Hook Not Running
 
 **Check:**
+0. **Disable all customisations first.** Run `CLAUDE_CODE_SAFE_MODE=true claude` to launch a session with all hooks, CLAUDE.md, and settings.json customisations disabled. If the problem disappears, one of your customisations is the cause — re-enable them one at a time to isolate. Safe mode is the fastest way to distinguish a hook problem from a Claude Code bug.
 1. Is hook script executable? `chmod +x ~/.claude/hooks/my-hook.ts` (not needed when using `bun` prefix — all PAI hooks use `bun` prefix)
 2. Is path correct in settings.json? Use `bun $HOME/.claude/hooks/...`
 3. Is settings.json valid JSON? `jq . ~/.claude/settings.json`

@@ -68,6 +68,7 @@ function isMainSession(): boolean {
 async function main() {
   const input = await readHookInput();
   if (!input) { process.exit(0); }
+  if ((input as any).stop_hook_active) { process.exit(0); }
 
   // Voice gate: skip subagent sessions
   if (!isMainSession()) {

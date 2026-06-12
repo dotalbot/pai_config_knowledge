@@ -1,0 +1,8 @@
+{
+  "rating": 3,
+  "summary": "Incomplete response, user redirected without feedback",
+  "detailed_context": "The previous response was cut off mid-sentence in the table (ending with 'Returns all q'). Your immediate pivot to a different command (/statusline) suggests dissatisfaction with the incomplete explanation. This terse redirect without acknowledging the prior work signals clear dissatisfaction, though not anger. The incomplete delivery was the core issue.",
+  "session_id": "51d59005-6ce6-4ef3-a407-5f1a3f1365c4",
+  "captured_at": "2026-06-11T21:28:08.373Z",
+  "transcript_source": "51d59005-6ce6-4ef3-a407-5f1a3f1365c4.jsonl"
+}

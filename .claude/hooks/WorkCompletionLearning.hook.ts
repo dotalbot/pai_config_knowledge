@@ -185,7 +185,7 @@ function getMonthDir(category: 'SYSTEM' | 'ALGORITHM'): string {
   return monthDir;
 }
 
-function writeLearning(workMeta: WorkMeta, idealContent: string): void {
+function writeLearning(workMeta: WorkMeta, idealContent: string): string | null {
   const category = getLearningCategory(workMeta.title);
   const monthDir = getMonthDir(category);
 
@@ -202,7 +202,7 @@ function writeLearning(workMeta: WorkMeta, idealContent: string): void {
   // Don't overwrite existing learnings
   if (existsSync(filepath)) {
     console.error(`[WorkCompletionLearning] Learning already exists: ${filename}`);
-    return;
+    return null;
   }
 
   // Calculate session duration
@@ -254,6 +254,7 @@ ${idealContent || 'Not specified'}
 
   writeFileSync(filepath, content);
   console.error(`[WorkCompletionLearning] Created learning: ${filename}`);
+  return filepath;
 }
 
 async function main() {
@@ -362,7 +363,16 @@ async function main() {
     );
 
     if (hasSignificantWork) {
-      writeLearning(workMeta, idealContent);
+      const learningPath = writeLearning(workMeta, idealContent);
+      if (learningPath) {
+        // v2.1.163: surface learning capture back into session context
+        process.stdout.write(JSON.stringify({
+          hookSpecificOutput: {
+            hookEventName: "Stop",
+            additionalContext: `[WorkCompletion] Learning captured for "${workMeta.title}" → ${learningPath}`
+          }
+        }) + '\n');
+      }
     } else {
       console.error('[WorkCompletionLearning] Trivial work session, skipping learning capture');
     }

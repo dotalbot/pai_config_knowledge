@@ -19,6 +19,7 @@ import { handleTabState } from './handlers/TabState';
 async function main() {
   const input = await readHookInput();
   if (!input) { process.exit(0); }
+  if ((input as any).stop_hook_active) { process.exit(0); }
 
   const parsed = await parseTranscriptFromInput(input);
 

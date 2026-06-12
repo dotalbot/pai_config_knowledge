@@ -59,6 +59,18 @@ When detected:
 5. Resolve via `parameter-schema.md`
 6. Write resolved `algorithm_config:` block to ISA frontmatter
 
+## MAX_THINKING_TOKENS — Fast-Path Thinking Suppression (v2.1.166)
+
+For E1/E2 sessions where extended thinking adds latency without value, set `MAX_THINKING_TOKENS=0` in the environment to suppress Claude's internal extended-thinking pass.
+
+**Documented location:** `settings.json` env block → `"MAX_THINKING_TOKENS": "0"` (currently set to `"0"` as default; E3+ sessions that need extended thinking should unset or override this value).
+
+**Effect:** With `MAX_THINKING_TOKENS=0`, the model does not perform an extended internal reasoning pass before responding. This reduces latency by 1-4s on E1 tasks where that reasoning is unnecessary.
+
+**Override at E3+:** When the Algorithm selects E3 or higher, callers that need extended thinking should pass `MAX_THINKING_TOKENS` unset or set to a positive value. The `Inference.ts` smart/opus level may explicitly pass `--thinking-budget-tokens <N>` via the claude CLI for E4/E5 advisor calls.
+
+---
+
 ## Fast-Path Detection (revised v6.2.0)
 
 Available at **Standard tier (E1) only.** Compresses phases for simple tasks AND skips the mandatory `Skill("ISA")` invocation that would otherwise fire at OBSERVE for E2+.

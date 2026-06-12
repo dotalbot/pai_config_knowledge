@@ -160,6 +160,7 @@ User: "this flaky test only fails in CI, not locally"
 
 ## Gotchas
 
+- **For PAI hook/session bugs: run `CLAUDE_CODE_SAFE_MODE=true claude` as Step 0.** Safe mode disables all customisations (hooks, CLAUDE.md, settings.json). If the problem disappears, the cause is in your customisations — re-enable one at a time. If the problem persists, it's a Claude Code bug. This isolates the failure domain in under 30 seconds and prevents 30 minutes of wrong-tree RCA.
 - **"Human error" is a starting point, not a root cause.** It's where the investigation begins. Every human error sits on top of a system that made the error possible or probable.
 - **The first plausible cause is almost never the only one.** Confirmation bias loves RCA. Keep going after you find one.
 - **Stopping at proximate cause is failure.** "X crashed because Y returned null." Why did Y return null? Why wasn't null handled? Why wasn't that tested? Go down.

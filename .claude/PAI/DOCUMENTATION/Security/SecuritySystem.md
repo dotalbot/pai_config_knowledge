@@ -216,6 +216,33 @@ The `MEMORY/SECURITY/**` path is `readOnly` — the AI can create new logs but c
 
 ---
 
+## PATTERNS.yaml Maintenance
+
+### Smoke-test: verify all regex patterns compile
+
+After editing `USER/SECURITY/PATTERNS.yaml`, run this to confirm no blocked patterns have syntax errors (a broken regex silently passes everything it was meant to block):
+
+```bash
+bun -e "
+const yaml = await import('bun:sqlite').then(() => import('js-yaml').catch(() => null));
+// Simpler: use bun's native YAML support
+const fs = require('fs');
+const content = fs.readFileSync(process.env.HOME + '/.claude/PAI/USER/SECURITY/PATTERNS.yaml', 'utf8');
+// Parse manually: extract pattern: lines
+const patterns = [...content.matchAll(/^\s+- pattern:\s+(.+)$/gm)].map(m => m[1].trim());
+let failures = 0;
+for (const p of patterns) {
+  try { new RegExp(p, 'i'); }
+  catch(e) { console.error('BROKEN:', p, e.message); failures++; }
+}
+console.log(failures === 0 ? 'All ' + patterns.length + ' patterns compile OK' : failures + ' broken pattern(s)');
+"
+```
+
+The PatternInspector in `SecurityPipeline.hook.ts` fails closed if any pattern throws at runtime — but a compile error is silent until that specific pattern is tested. Run this check after every `PATTERNS.yaml` edit.
+
+---
+
 ## Interpretation rules of thumb
 
 Notes on how to read findings during security work — not Bash patterns (those live in `USER/SECURITY/PATTERNS.yaml`), but framings that prevent miscategorization.

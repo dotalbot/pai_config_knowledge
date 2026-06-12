@@ -155,6 +155,42 @@ Custom agents are composed on-the-fly from traits using ComposeAgent. Each uniqu
 
 ---
 
+## Background Execution — `claude --bg --exec`
+
+**Sanctioned pattern for background AI work that doesn't require a full nested session.**
+
+`claude --bg --exec` spawns a Claude process that runs a single task in the background and exits. Unlike a nested `claude` subprocess, it does NOT trigger the `CLAUDECODE` environment guard — it is explicitly allowed for background work.
+
+```bash
+# Background one-shot task (sanctioned)
+claude --bg --exec "Summarise the diff at ~/repo/project and write to /tmp/summary.md"
+
+# Do NOT use claude subprocess inline (blocked by CLAUDECODE env)
+claude "..." # ❌ — triggers nested-session guard
+```
+
+**Use for:** session-end tasks, background summarisation, async artifact generation.
+**Not for:** interactive sessions, multi-turn work, or any task that needs tool access beyond file read/write.
+
+---
+
+## Sub-Agent Nesting Ceiling (v2.1.172)
+
+Agents can spawn agents up to **5 levels deep**. The ceiling is enforced by the runtime; attempts to nest deeper are silently rejected.
+
+```
+Primary DA (level 0)
+  └─ Agent A (level 1)
+       └─ Agent B (level 2)
+            └─ Agent C (level 3)
+                 └─ Agent D (level 4)
+                      └─ Agent E (level 5) ← ceiling
+```
+
+**Design implication:** avoid deeply nested delegation chains. Prefer breadth (parallel siblings at level 1–2) over depth. A chain of 4+ levels is a smell — consider flattening via direct tool calls at the primary level.
+
+---
+
 ## Model Selection
 
 Always specify the appropriate model for agent work:

@@ -28,10 +28,10 @@
  *   --timeout <ms>                 Custom timeout (default varies by level)
  *
  * DEFAULTS BY LEVEL:
- *   fast:     model=haiku,   timeout=15s
- *   standard: model=sonnet,  timeout=30s
- *   smart:    model=opus,    timeout=90s
- *   advisor:  model=opus,    timeout=120s
+ *   fast:     model=haiku,         timeout=15s
+ *   standard: model=sonnet,        timeout=30s
+ *   smart:    model=claude-fable-5, timeout=90s
+ *   advisor:  model=claude-fable-5, timeout=120s
  *
  * BILLING: Uses Claude CLI with subscription (not API key)
  * CACHE: Uses --exclude-dynamic-system-prompt-sections for cross-invocation prompt cache hits
@@ -93,7 +93,7 @@ export interface InferenceResult {
 const LEVEL_CONFIG: Record<InferenceLevel, { model: string; defaultTimeout: number }> = {
   fast: { model: 'haiku', defaultTimeout: 15000 },
   standard: { model: 'sonnet', defaultTimeout: 30000 },
-  smart: { model: 'opus', defaultTimeout: 90000 },
+  smart: { model: 'claude-fable-5', defaultTimeout: 90000 },
 };
 
 // Advisor-specific defaults (v3.23 VERIFY doctrine).
