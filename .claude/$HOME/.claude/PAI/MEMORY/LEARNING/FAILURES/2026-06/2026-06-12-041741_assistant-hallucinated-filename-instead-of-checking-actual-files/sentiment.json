@@ -1,0 +1,8 @@
+{
+  "rating": 3,
+  "summary": "Frustrated: assistant took wrong approach, broke workflow",
+  "detailed_context": "The user asked a simple, direct factual question: 'what is the note name from June 12?' The previous response indicated the capture service had already written a file ('Capture 2026-06-12-11-15-17.md'). Instead of referencing this context, the assistant pivoted to requesting Google Drive authentication—an unnecessary interruption of the debugging workflow. The user likely expected a straightforward answer based on the prior work session, not a new OAuth flow. This feels like a loss of context and derails momentum.",
+  "session_id": "a390f2c6-70e3-4092-8888-9799e751e887",
+  "captured_at": "2026-06-12T11:17:41.887Z",
+  "transcript_source": "a390f2c6-70e3-4092-8888-9799e751e887.jsonl"
+}

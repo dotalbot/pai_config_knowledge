@@ -1,0 +1,119 @@
+[
+  {
+    "name": "Bash",
+    "input": {
+      "command": "find /home/jellypai/Shared/code/agent-register-video -type f | head -40",
+      "description": "List files in agent-register-video project"
+    },
+    "timestamp": "2026-06-12T11:14:53.597Z"
+  },
+  {
+    "name": "Read",
+    "input": {
+      "file_path": "/home/jellypai/Shared/code/agent-register-video/src/AgentRegister.tsx"
+    },
+    "timestamp": "2026-06-12T11:14:56.392Z"
+  },
+  {
+    "name": "Bash",
+    "input": {
+      "command": "find /home/jellypai/Shared/documents -name \"*.md\" | grep -i \"video\\|register\\|obsidian\\|youtube\" 2>/dev/null | head -20",
+      "description": "Search documents for related files"
+    },
+    "timestamp": "2026-06-12T11:14:57.776Z"
+  },
+  {
+    "name": "Bash",
+    "input": {
+      "command": "ps aux | grep -E \"node|bun|ts-node|server|service\" | grep -v grep | head -20",
+      "description": "Check for running services"
+    },
+    "timestamp": "2026-06-12T11:14:58.644Z"
+  },
+  {
+    "name": "Bash",
+    "input": {
+      "command": "find /home/jellypai /opt /home -name \"*.ts\" -o -name \"*.js\" -o -name \"*.py\" 2>/dev/null | xargs grep -l \"obsidian\\|youtube\\|youtube-dl\\|ytdl\" 2>/dev/null | grep -v node_modules | head -20",
+      "description": "Find files referencing obsidian or youtube"
+    },
+    "timestamp": "2026-06-12T11:15:04.550Z"
+  },
+  {
+    "name": "Bash",
+    "input": {
+      "command": "find /home/jellypai/.claude -name \"*.ts\" -o -name \"*.md\" 2>/dev/null | xargs grep -l \"youtube\\|obsidian.*video\\|video.*obsidian\" 2>/dev/null | grep -v node_modules | head -20",
+      "description": "Search PAI files for youtube/obsidian service references"
+    },
+    "timestamp": "2026-06-12T11:15:04.807Z"
+  },
+  {
+    "name": "Read",
+    "input": {
+      "file_path": "/home/jellypai/.claude/PAI/Tools/ObsidianCaptureServer.ts"
+    },
+    "timestamp": "2026-06-12T11:15:09.126Z"
+  },
+  {
+    "name": "Read",
+    "input": {
+      "file_path": "/home/jellypai/.claude/PAI/Tools/ObsidianInboxRouter.ts"
+    },
+    "timestamp": "2026-06-12T11:15:09.419Z"
+  },
+  {
+    "name": "Bash",
+    "input": {
+      "command": "curl -s http://localhost:27337/ | head -5 2>&1 || echo \"NOT RUNNING on 27337\"",
+      "description": "Check if ObsidianCaptureServer is running on port 27337"
+    },
+    "timestamp": "2026-06-12T11:15:13.184Z"
+  },
+  {
+    "name": "Bash",
+    "input": {
+      "command": "ps aux | grep -E \"ObsidianCapture|CaptureServer|27337\" | grep -v grep",
+      "description": "Check for CaptureServer process"
+    },
+    "timestamp": "2026-06-12T11:15:13.775Z"
+  },
+  {
+    "name": "Bash",
+    "input": {
+      "command": "curl -s -X POST http://localhost:27337/capture \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"text\": \"Test capture from JellyPai debug session\", \"title\": \"Debug Test\"}' 2>&1",
+      "description": "Test /capture endpoint"
+    },
+    "timestamp": "2026-06-12T11:15:16.998Z"
+  },
+  {
+    "name": "Bash",
+    "input": {
+      "command": "ls -la \"/opt/docker/appdata/obsidian-jellybase/vault/OB_v2/00 INBOX/\" 2>&1 | tail -10",
+      "description": "Check INBOX for the new capture file"
+    },
+    "timestamp": "2026-06-12T11:15:20.526Z"
+  },
+  {
+    "name": "Bash",
+    "input": {
+      "command": "curl -s -X POST http://localhost:27337/youtube \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"url\": \"https://www.youtube.com/watch?v=dQw4w9WgXcQ\", \"title\": \"Test YouTube\"}' \\\n  --max-time 120 2>&1",
+      "description": "Test /youtube endpoint with a known video"
+    },
+    "timestamp": "2026-06-12T11:15:24.253Z"
+  },
+  {
+    "name": "Bash",
+    "input": {
+      "command": "ls -la \"/opt/docker/appdata/obsidian-jellybase/vault/OB_v2/04 VAULT/YouTube/\" 2>&1 | tail -10",
+      "description": "Check YouTube vault for the new note"
+    },
+    "timestamp": "2026-06-12T11:15:47.413Z"
+  },
+  {
+    "name": "Bash",
+    "input": {
+      "command": "cat \"/opt/docker/appdata/obsidian-jellybase/vault/OB_v2/04 VAULT/YouTube/Test YouTube.md\" | head -50",
+      "description": "Read the generated YouTube note"
+    },
+    "timestamp": "2026-06-12T11:15:47.908Z"
+  }
+]

@@ -1,3 +1,16 @@
-✅ VERIFY: Copied to `/opt/docker/appdata/obsidian-jellybase/vault/OB_v2/08 WORK-REFS/`
+━━━ 📃 SUMMARY ━━━ 7/7
 
-🗣️ JellyPai: Done — plan is now in your Obsidian vault under 08 WORK-REFS.
+`SPEC.md` is written — 1,679 lines, 28 sections. It is fully self-contained: a fresh agent can open it cold and build the entire project without reading ISA.md, PLAN.md, or asking a single question.
+
+**What's in it that the PLAN didn't have:**
+- Complete `types.ts` — every TypeScript interface, including the raw borg `--json` output shapes
+- Every function signature with its exact behaviour spec
+- The passphrase derivation algorithm as a TypeScript snippet
+- Exact borg `--json` output field names (so the parser won't guess wrong)
+- Cold-start behaviour — grey placeholders + 3s polling until data arrives
+- Full CSS design tokens — dark mode colours, spacing, font stack
+- `dashboard.ts` render functions and application flow spelled out
+- Exact file content for all config files — `package.json`, `tsconfig.json`, `justfile`, `Dockerfile`, `docker-compose.yml`, `.gitignore`, `.env.example`, `config.example.yaml`
+- Error handling matrix — every failure scenario mapped to status + message
+- Build and security verification commands
+- 38-ISC acceptance checklist tied to phases
