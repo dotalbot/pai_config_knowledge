@@ -4,19 +4,19 @@
     "code-review@claude-plugins-official": [
       {
         "scope": "user",
-        "installPath": "/Users/dominictalbot/.claude/plugins/cache/claude-plugins-official/code-review/unknown",
+        "installPath": "/home/jellypai/.claude/plugins/cache/claude-plugins-official/code-review/unknown",
         "version": "unknown",
         "installedAt": "2026-06-04T21:02:32.152Z",
-        "lastUpdated": "2026-06-04T21:02:32.152Z"
+        "lastUpdated": "2026-06-18T11:03:30.313Z"
       }
     ],
     "pr-review-toolkit@claude-plugins-official": [
       {
         "scope": "user",
-        "installPath": "/Users/dominictalbot/.claude/plugins/cache/claude-plugins-official/pr-review-toolkit/unknown",
+        "installPath": "/home/jellypai/.claude/plugins/cache/claude-plugins-official/pr-review-toolkit/unknown",
         "version": "unknown",
         "installedAt": "2026-06-04T21:02:32.152Z",
-        "lastUpdated": "2026-06-04T21:02:32.152Z"
+        "lastUpdated": "2026-06-18T11:03:30.314Z"
       }
     ],
     "firecrawl@claude-plugins-official": [

@@ -1,16 +1,40 @@
-━━━ 📃 SUMMARY ━━━ 7/7
+All three transcripts are about **Obsidian Excalidraw's Mindmap Builder** script by Jolt. Here's everything extracted on hotkeys:
 
-`SPEC.md` is written — 1,679 lines, 28 sections. It is fully self-contained: a fresh agent can open it cold and build the entire project without reading ISA.md, PLAN.md, or asking a single question.
+---
 
-**What's in it that the PLAN didn't have:**
-- Complete `types.ts` — every TypeScript interface, including the raw borg `--json` output shapes
-- Every function signature with its exact behaviour spec
-- The passphrase derivation algorithm as a TypeScript snippet
-- Exact borg `--json` output field names (so the parser won't guess wrong)
-- Cold-start behaviour — grey placeholders + 3s polling until data arrives
-- Full CSS design tokens — dark mode colours, spacing, font stack
-- `dashboard.ts` render functions and application flow spelled out
-- Exact file content for all config files — `package.json`, `tsconfig.json`, `justfile`, `Dockerfile`, `docker-compose.yml`, `.gitignore`, `.env.example`, `config.example.yaml`
-- Error handling matrix — every failure scenario mapped to status + message
-- Build and security verification commands
-- 38-ISC acceptance checklist tied to phases
+## Mindmap Builder Hotkeys — Complete Reference
+
+### Setting up the global hotkey (to launch Mindmap Builder)
+- Go to **Obsidian Settings → Hotkeys**, search for **"mindmap builder"**, assign any key combo you want
+- When triggered: opens the panel if docked, or the floating box if undocked — persistent state
+
+### Built-in Hotkeys (inside Mindmap Builder)
+
+| Key | Action |
+|-----|--------|
+| `Enter` | Create central node / move to next sibling |
+| `Ctrl/Cmd + Enter` | Add child node, keep focus on new child |
+| `Shift + Enter` | Add child and close edit box |
+| `Ctrl/Cmd + Shift + Enter` | Pin/unpin a node's location |
+| `Alt + Arrow Keys` | Navigate between nodes |
+| `Alt + Ctrl/Cmd + Arrow Keys` | Navigate + centre the selected node on screen |
+| `Alt + C` | Copy branch to clipboard (as markdown) |
+| `Alt + V` | Paste branch |
+| `Alt + X` | Cut branch |
+| `Alt + B` | Toggle box/rectangle around a node |
+| `Alt + M` | Activate the input field from anywhere |
+| `Alt + Z` | Cycle through 3 zoom levels |
+| `F2` | Open a node for editing |
+| `Ctrl/Cmd + K` | Add an element link |
+| `Tab` | Move between buttons in the floating input (v3) |
+
+### Configuring hotkeys inside Mindmap Builder
+- Dock the panel → scroll to **Hotkey Configuration** at the bottom
+- Press `+` next to any action to assign your own key combo
+- Three **scope levels** control when hotkeys fire (v3):
+  - **Input box scope** — only fires when the text input is focused
+  - **Excalidraw scope** — fires any time the Excalidraw canvas is active
+  - **Global scope** — fires anywhere in Obsidian (use sparingly to avoid conflicts)
+
+### Key tip
+The PATH fix for next time: `/home/jellypai/.local/bin` (where `yt-dlp` lives) isn't in the shell PATH that Claude Code inherits. I'll also note that `fabric` isn't installed on this host — the `GetTranscript.ts` tool depends on it. Wort
