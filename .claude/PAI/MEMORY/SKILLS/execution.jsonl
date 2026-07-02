@@ -19,3 +19,5 @@
 {"ts":"2026-06-11T22:30:02Z","skill":"Ideate","workflow":"FullCycle","input":"Chief Architect 30/60/90/180 day growth plan","status":"ok","duration_s":180}
 {"ts":"2026-06-12T11:51:31Z","skill":"Fabric","workflow":"ExecutePattern","input":"systems thinking content extract wisdom","status":"ok","duration_s":8}
 {"ts":"2026-06-18T11:58:27Z","skill":"Interceptor","workflow":"Open","input":"verify youtube upload web UI port 27337","status":"ok","duration_s":5}
+{"ts":"2026-07-01T12:26:33Z","skill":"PAIUpgrade","workflow":"Upgrade","input":"full 4-thread scan for PAI upgrades","status":"ok","duration_s":900}
+{"ts":"2026-07-01T12:39:41Z","skill":"PAIUpgrade","workflow":"FixCriticalFindings","input":"fixed GetTranscript.ts fabric dep and Inference.ts advisor swallow","status":"ok","duration_s":900}

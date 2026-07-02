@@ -96,6 +96,13 @@ const LEVEL_CONFIG: Record<InferenceLevel, { model: string; defaultTimeout: numb
   smart: { model: 'claude-fable-5', defaultTimeout: 90000 },
 };
 
+// Mirrors settings.json's top-level fallbackModel chain. Used when the
+// 'smart' level's model reports itself unavailable (e.g. "Claude Fable 5 is
+// currently unavailable") — the CLI prints that message to stdout with exit
+// code 1 and empty stderr, so it can't be told apart from a real failure
+// without a retry.
+const SMART_FALLBACK_MODEL = 'claude-opus-4-8';
+
 // Advisor-specific defaults (v3.23 VERIFY doctrine).
 const ADVISOR_TIMEOUT_MS = 120000;
 
@@ -289,19 +296,28 @@ async function inferenceViaOpencode(options: InferenceOptions): Promise<Inferenc
 }
 
 /**
- * Run inference with configurable level
+ * Detect the CLI's "model currently unavailable" message. This message is
+ * printed to stdout (not stderr) with exit code 1, so a plain
+ * `stderr || generic-fallback` error check can't distinguish it from any
+ * other failure — it has to be matched explicitly against stdout.
  */
-export async function inference(options: InferenceOptions): Promise<InferenceResult> {
-  const level = options.level || 'standard';
-  const config = LEVEL_CONFIG[level];
-  const startTime = Date.now();
-  const timeout = options.timeout || config.defaultTimeout;
+function isModelUnavailable(stdout: string): boolean {
+  return /currently unavailable/i.test(stdout);
+}
 
-  if (options.useOpencode) {
-    const ocResult = await inferenceViaOpencode(options);
-    if (ocResult.error !== 'opencode_unavailable') return ocResult;
-    process.stderr.write('[Inference] OpenCode unavailable — falling back to Claude\n');
-  }
+/**
+ * Spawn the `claude` CLI once for a single inference call against a specific
+ * model. Extracted from `inference()` so the model can be swapped for a
+ * one-shot retry (see SMART_FALLBACK_MODEL) without duplicating the process
+ * plumbing.
+ */
+function runClaudeCli(
+  model: string,
+  options: InferenceOptions,
+  timeout: number,
+  level: InferenceLevel,
+): Promise<InferenceResult> {
+  const startTime = Date.now();
 
   return new Promise((resolve) => {
     // Unset CLAUDECODE so nested `claude` invocations don't trigger the
@@ -321,7 +337,7 @@ export async function inference(options: InferenceOptions): Promise<InferenceRes
     const hasImages = options.imagePaths && options.imagePaths.length > 0;
     const args = [
       '--print',
-      '--model', config.model,
+      '--model', model,
       ...(hasImages ? ['--allowedTools', 'Read'] : ['--tools', '']),
       '--output-format', 'text',
       '--exclude-dynamic-system-prompt-sections',  // v3.23 C2: cache-friendly prompt prefix (claude-code v2.1.98+)
@@ -370,10 +386,14 @@ export async function inference(options: InferenceOptions): Promise<InferenceRes
       const latencyMs = Date.now() - startTime;
 
       if (code !== 0) {
+        // Prefer stderr, but the CLI's own "model unavailable" message lands
+        // on stdout — fall back to stdout before the generic exit-code
+        // message so callers (and humans reading `Advisor error: ...`) see
+        // the actual reason instead of a bare "Process exited with code 1".
         resolve({
           success: false,
           output: stdout,
-          error: stderr || `Process exited with code ${code}`,
+          error: stderr.trim() || stdout.trim() || `Process exited with code ${code}`,
           latencyMs,
           level,
         });
@@ -435,6 +455,33 @@ export async function inference(options: InferenceOptions): Promise<InferenceRes
       });
     });
   });
+}
+
+/**
+ * Run inference with configurable level
+ */
+export async function inference(options: InferenceOptions): Promise<InferenceResult> {
+  const level = options.level || 'standard';
+  const config = LEVEL_CONFIG[level];
+  const timeout = options.timeout || config.defaultTimeout;
+
+  if (options.useOpencode) {
+    const ocResult = await inferenceViaOpencode(options);
+    if (ocResult.error !== 'opencode_unavailable') return ocResult;
+    process.stderr.write('[Inference] OpenCode unavailable — falling back to Claude\n');
+  }
+
+  const result = await runClaudeCli(config.model, options, timeout, level);
+
+  // One-shot fallback: the primary model for this level reported itself
+  // unavailable (distinct from a real error — same shape as settings.json's
+  // top-level fallbackModel chain, applied here per-call instead of harness-wide).
+  if (!result.success && isModelUnavailable(result.output)) {
+    process.stderr.write(`[Inference] ${config.model} unavailable — retrying with ${SMART_FALLBACK_MODEL}\n`);
+    return runClaudeCli(SMART_FALLBACK_MODEL, options, timeout, level);
+  }
+
+  return result;
 }
 
 /**
