@@ -2,49 +2,49 @@
   "version": 1,
   "jobs": {
     "assistant-tasks": {
-      "lastRun": 1783304950566,
+      "lastRun": 1784687365989,
       "lastResult": "ok",
       "consecutiveFailures": 0
     },
     "healthcheck": {
-      "lastRun": 1783304710558,
+      "lastRun": 1784687125922,
       "lastResult": "ok",
       "consecutiveFailures": 0
     },
     "airgradient-poll": {
-      "lastRun": 1783304710580,
+      "lastRun": 1784687125942,
       "lastResult": "ok",
       "consecutiveFailures": 0
     },
     "cost-aggregation": {
-      "lastRun": 1783304110559,
+      "lastRun": 1784686525777,
       "lastResult": "ok",
       "consecutiveFailures": 0
     },
     "assistant-heartbeat": {
-      "lastRun": 1783303210679,
+      "lastRun": 1784685625670,
       "lastResult": "ok",
       "consecutiveFailures": 0
     },
     "cost-tracker": {
-      "lastRun": 1783303210667,
+      "lastRun": 1784685625658,
       "lastResult": "ok",
       "consecutiveFailures": 0
     },
     "assistant-diary": {
-      "lastRun": 1783292408931,
+      "lastRun": 1784674824729,
       "lastResult": "ok",
       "consecutiveFailures": 0
     },
     "life-morning-brief": {
-      "lastRun": 1783234802125,
+      "lastRun": 1783321214117,
       "lastResult": "ok",
       "consecutiveFailures": 0
     },
     "memory-consolidation": {
-      "lastRun": 1783220404035,
+      "lastRun": 1783306812517,
       "lastResult": "error",
-      "consecutiveFailures": 1
+      "consecutiveFailures": 2
     },
     "assistant-growth": {
       "lastRun": 1783224001880,
@@ -52,5 +52,5 @@
       "consecutiveFailures": 0
     }
   },
-  "startedAt": 1782993010119
+  "startedAt": 1784630588221
 }
