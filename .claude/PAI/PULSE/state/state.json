@@ -2,42 +2,42 @@
   "version": 1,
   "jobs": {
     "assistant-tasks": {
-      "lastRun": 1786069799549,
+      "lastRun": 1786156162841,
       "lastResult": "ok",
       "consecutiveFailures": 0
     },
     "healthcheck": {
-      "lastRun": 1786069559512,
+      "lastRun": 1786155922780,
       "lastResult": "ok",
       "consecutiveFailures": 0
     },
     "airgradient-poll": {
-      "lastRun": 1786069559533,
+      "lastRun": 1786155922801,
       "lastResult": "ok",
       "consecutiveFailures": 0
     },
     "cost-aggregation": {
-      "lastRun": 1786068959371,
+      "lastRun": 1786155322607,
       "lastResult": "ok",
       "consecutiveFailures": 0
     },
     "assistant-heartbeat": {
-      "lastRun": 1786068059804,
+      "lastRun": 1786154422984,
       "lastResult": "ok",
       "consecutiveFailures": 0
     },
     "cost-tracker": {
-      "lastRun": 1786068059792,
+      "lastRun": 1786154422972,
       "lastResult": "ok",
       "consecutiveFailures": 0
     },
     "assistant-diary": {
-      "lastRun": 1786057256619,
+      "lastRun": 1786143620009,
       "lastResult": "ok",
       "consecutiveFailures": 0
     },
     "life-morning-brief": {
-      "lastRun": 1785999641444,
+      "lastRun": 1786086004647,
       "lastResult": "ok",
       "consecutiveFailures": 0
     },
