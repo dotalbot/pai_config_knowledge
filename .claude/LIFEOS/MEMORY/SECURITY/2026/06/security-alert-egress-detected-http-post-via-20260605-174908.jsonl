@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-06-05T16:49:08.670Z",
+  "sessionId": "dc3dd97c-12e9-49c5-9559-d014e3cef5b9",
+  "eventType": "alert",
+  "inspector": "EgressInspector",
+  "tool": "Bash",
+  "target": "curl -s -X POST \"http://192.168.1.1:18888/v1/default/banks/logk-main/memories/recall\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"query\": \"MS-102 Microsoft 365 administrator exam\", \"limit\": 5}' \\\n  --max-time 5 2>/dev/null | python3 -c \"import json,sys; d=json.load(sys.stdin); [print(r['text'][:200]) for r in d.get('results',[])]\" 2>/dev/null",
+  "reason": "Egress detected: HTTP POST via curl",
+  "actionTaken": "Alert logged, allowed execution"
+}

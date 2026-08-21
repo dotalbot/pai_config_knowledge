@@ -1,0 +1,127 @@
+{
+  "window": [
+    {
+      "sig": "Bash:d892a5769daaff10e19b56ca1cbf7ef4bb00bc8e1c5032c5a2d4cc214a44fd10",
+      "tool": "Bash",
+      "failed": false,
+      "ts": "2026-08-20T15:22:33+01:00"
+    },
+    {
+      "sig": "Bash:7ebde62b0754c44cf9a6eeed404799f81b2307a82989ba2585e4fbe1ddff62a3",
+      "tool": "Bash",
+      "failed": false,
+      "ts": "2026-08-20T15:22:42+01:00"
+    },
+    {
+      "sig": "Bash:7ebde62b0754c44cf9a6eeed404799f81b2307a82989ba2585e4fbe1ddff62a3",
+      "tool": "Bash",
+      "failed": false,
+      "ts": "2026-08-20T15:22:42+01:00"
+    },
+    {
+      "sig": "Bash:8dfb49ede2279160042a30fabd8dcc5e7933ac6cf2e9cbc09e13687341d283ed",
+      "tool": "Bash",
+      "failed": false,
+      "ts": "2026-08-20T15:22:51+01:00"
+    },
+    {
+      "sig": "Bash:746b2a6697047cef1e1f351a53ba55249b275eb31cf6d08d207a22a01d4747a0",
+      "tool": "Bash",
+      "failed": false,
+      "ts": "2026-08-20T15:23:04+01:00"
+    },
+    {
+      "sig": "Bash:746b2a6697047cef1e1f351a53ba55249b275eb31cf6d08d207a22a01d4747a0",
+      "tool": "Bash",
+      "failed": false,
+      "ts": "2026-08-20T15:23:04+01:00"
+    },
+    {
+      "sig": "Bash:6f1b25f54dd312ce7c4fcbe183f4962a4358d89ab1d47100bcd250df18a01ad9",
+      "tool": "Bash",
+      "failed": false,
+      "ts": "2026-08-20T15:23:12+01:00"
+    },
+    {
+      "sig": "Bash:8e0360ce0c73c0781b7997345c04733db8d56b8f6ad2480b73593e949b40d9cf",
+      "tool": "Bash",
+      "failed": false,
+      "ts": "2026-08-20T15:23:22+01:00"
+    },
+    {
+      "sig": "Bash:62afe6adf18108ab1730459450b5a072ff2b6a9d20d1cfdcd24f9791c152ea4f",
+      "tool": "Bash",
+      "failed": false,
+      "ts": "2026-08-20T15:23:30+01:00"
+    },
+    {
+      "sig": "Bash:e61a386d55c33d9b9bc4eb6e203b9a844a61471da3c3e83e9d2aafa39041a1c1",
+      "tool": "Bash",
+      "failed": false,
+      "ts": "2026-08-20T15:23:39+01:00"
+    },
+    {
+      "sig": "Bash:06e76fe4387b6dc21100efb451e0a41ff1acb9fd6f93cf6d9e2c457e8dcf9e18",
+      "tool": "Bash",
+      "failed": false,
+      "ts": "2026-08-20T15:23:45+01:00"
+    },
+    {
+      "sig": "Bash:06e76fe4387b6dc21100efb451e0a41ff1acb9fd6f93cf6d9e2c457e8dcf9e18",
+      "tool": "Bash",
+      "failed": false,
+      "ts": "2026-08-20T15:23:45+01:00"
+    },
+    {
+      "sig": "Bash:53e352f13e531c5c9fd3bf83a3d0637def148a6d936e2e5f765c2dbd55527dd9",
+      "tool": "Bash",
+      "failed": false,
+      "ts": "2026-08-20T15:23:55+01:00"
+    },
+    {
+      "sig": "Skill:ebd5e3a6f10569bc5f40aeb2ef8fc69b54ada16ef67f705dc42c519052ed3836",
+      "tool": "Skill",
+      "failed": false,
+      "ts": "2026-08-20T16:06:29+01:00"
+    },
+    {
+      "sig": "Skill:ebd5e3a6f10569bc5f40aeb2ef8fc69b54ada16ef67f705dc42c519052ed3836",
+      "tool": "Skill",
+      "failed": false,
+      "ts": "2026-08-20T16:06:29+01:00"
+    },
+    {
+      "sig": "Bash:d56401e0a9923dd8bfcdcfd075e167d347bb89f5d98bd070853db6488ec7a726",
+      "tool": "Bash",
+      "failed": false,
+      "ts": "2026-08-20T16:06:36+01:00"
+    },
+    {
+      "sig": "Bash:d56401e0a9923dd8bfcdcfd075e167d347bb89f5d98bd070853db6488ec7a726",
+      "tool": "Bash",
+      "failed": false,
+      "ts": "2026-08-20T16:06:36+01:00"
+    },
+    {
+      "sig": "Bash:8ee0fc5e517b216b2d831527ea3d3ea3a51798366f168509cad3165437081562",
+      "tool": "Bash",
+      "failed": false,
+      "ts": "2026-08-20T16:06:45+01:00"
+    },
+    {
+      "sig": "Bash:52ab796c33697f0b7eabbffb48d33e08216d2b1ddd916ddaf4770ad665d048be",
+      "tool": "Bash",
+      "failed": false,
+      "ts": "2026-08-20T19:33:28+01:00"
+    },
+    {
+      "sig": "Bash:52ab796c33697f0b7eabbffb48d33e08216d2b1ddd916ddaf4770ad665d048be",
+      "tool": "Bash",
+      "failed": false,
+      "ts": "2026-08-20T19:33:28+01:00"
+    }
+  ],
+  "alerted": [],
+  "seq": 127,
+  "lastAlert": 0
+}

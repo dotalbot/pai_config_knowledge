@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-06-05T13:33:11.615Z",
+  "sessionId": "dc3dd97c-12e9-49c5-9559-d014e3cef5b9",
+  "eventType": "alert",
+  "inspector": "PatternInspector",
+  "tool": "Bash",
+  "target": "curl -s \"http://192.168.1.1:18888/docs\" --max-time 5 2>/dev/null | head -100\ncurl -s \"http://192.168.1.1:18888/openapi.json\" --max-time 5 2>/dev/null | python3 -c \"import json,sys; d=json.load(sys.stdin); [print(m.upper(), p) for p,v in d.get('paths',{}).items() for m in v]\" 2>/dev/null",
+  "reason": "Python inline execution (logged for audit)",
+  "actionTaken": "Alert logged, allowed execution"
+}

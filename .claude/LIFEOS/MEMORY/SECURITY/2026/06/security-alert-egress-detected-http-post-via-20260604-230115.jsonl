@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-06-04T22:01:15.724Z",
+  "sessionId": "dc3dd97c-12e9-49c5-9559-d014e3cef5b9",
+  "eventType": "alert",
+  "inspector": "EgressInspector",
+  "tool": "Bash",
+  "target": "curl -s -X POST http://localhost:31337/notify \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"message\": \"Good session, Dom. Phase 1 is solid. Pick up Phase 2 next time.\"}' \\\n  > /dev/null 2>&1 &",
+  "reason": "Egress detected: HTTP POST via curl",
+  "actionTaken": "Alert logged, allowed execution"
+}

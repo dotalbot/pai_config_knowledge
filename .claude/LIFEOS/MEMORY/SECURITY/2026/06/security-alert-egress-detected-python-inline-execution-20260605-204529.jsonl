@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-06-05T19:45:29.236Z",
+  "sessionId": "dc3dd97c-12e9-49c5-9559-d014e3cef5b9",
+  "eventType": "alert",
+  "inspector": "EgressInspector",
+  "tool": "Bash",
+  "target": "python3 -c \"\nimport re\nxml = open('/tmp/frontier_pptx/ppt/slides/slide21.xml').read()\ntexts = re.findall(r'<a:t>([^<]*)</a:t>', xml)\nprint('Slide 21 texts:')\nfor i, t in enumerate(texts):\n    t = t.strip()\n    if t: print(f'  [{i}] {t[:80]}')\n\"\n",
+  "reason": "Egress detected: Python inline execution",
+  "actionTaken": "Alert logged, allowed execution"
+}

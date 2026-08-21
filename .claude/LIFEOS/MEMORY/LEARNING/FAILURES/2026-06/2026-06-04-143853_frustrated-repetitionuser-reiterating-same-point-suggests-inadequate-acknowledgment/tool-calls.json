@@ -1,0 +1,173 @@
+[
+  {
+    "name": "Bash",
+    "input": {
+      "command": "curl -s -X POST http://localhost:31337/notify \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"message\": \"Starting the interview. Scanning phases first.\"}' \\\n  > /dev/null 2>&1 &",
+      "description": "Send voice notification"
+    },
+    "timestamp": "2026-06-04T21:02:55.006Z"
+  },
+  {
+    "name": "Bash",
+    "input": {
+      "command": "bun ~/.claude/PAI/TOOLS/InterviewScan.ts 2>/dev/null",
+      "description": "Run InterviewScan to assess current state"
+    },
+    "timestamp": "2026-06-04T21:02:57.918Z"
+  },
+  {
+    "name": "Bash",
+    "input": {
+      "command": "bun ~/.claude/PAI/TOOLS/InterviewScan.ts --file MISSION 2>/dev/null",
+      "description": "Get MISSION file detail from scanner"
+    },
+    "timestamp": "2026-06-04T21:03:06.705Z"
+  },
+  {
+    "name": "Read",
+    "input": {
+      "file_path": "/Users/dominictalbot/.claude/PAI/USER/TELOS/MISSION.md"
+    },
+    "timestamp": "2026-06-04T21:03:08.779Z"
+  },
+  {
+    "name": "Edit",
+    "input": {
+      "replace_all": false,
+      "file_path": "/Users/dominictalbot/.claude/PAI/USER/TELOS/MISSION.md",
+      "old_string": "- **M0:** (sample) Help one million people make better decisions through accessible AI tools.\n- **M1:** (sample) Build infrastructure that lets individuals own their data and AI.\n- **M2:** (sample — aspirational, optional) Leave behind work that's still useful 50 years after I'm gone.",
+      "new_string": "- **M0:** Deliver real, measurable AI value to business — working products, not hype.\n- **M1:** Master hands-on AI application as a practitioner, not just an architect — get technical and stay there.\n- **M2:** Bridge enterprise architecture judgment with deep engineering execution to make AI actually land in organisations."
+    },
+    "timestamp": "2026-06-04T21:07:48.764Z"
+  },
+  {
+    "name": "Bash",
+    "input": {
+      "command": "curl -s -X POST http://localhost:31337/notify \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"message\": \"Mission captured. Real value, not hype. Good foundation.\"}' \\\n  > /dev/null 2>&1 &",
+      "description": "Voice confirm mission written"
+    },
+    "timestamp": "2026-06-04T21:08:16.578Z"
+  },
+  {
+    "name": "Read",
+    "input": {
+      "file_path": "/Users/dominictalbot/.claude/PAI/USER/TELOS/GOALS.md"
+    },
+    "timestamp": "2026-06-04T21:09:01.824Z"
+  },
+  {
+    "name": "Edit",
+    "input": {
+      "replace_all": false,
+      "file_path": "/Users/dominictalbot/.claude/PAI/USER/TELOS/GOALS.md",
+      "old_string": "## Active\n\n- **G0:** (sample) Ship MVP of Project X by 2026-Q2 — measurable: 100 daily active users.\n- **G1:** (sample) Publish 24 newsletter issues this year — measurable: one every other Sunday, no skipped weeks.\n- **G2:** (sample) Reach a sustainable monthly revenue target — measurable: $X MRR by end of year.\n\n## Deferred / Ongoing\n\n- (sample) Maintain a 3x/week strength routine — ongoing, no end date.\n- (sample) Open-source side library — deferred until Q4 after Project X ships.\n\n## Completed This Year\n\n- (sample) Migrated personal site to new stack — done 2026-Q1.",
+      "new_string": "## Active\n\n- **G0:** Build a PowerApps canvas app — Agent Registry for Copilot Studio — covering definition of ready, dev/test/UAT lifecycle, and definition of done through to production release. Measurable: working app that captures all pre-build elements and tracks agent state through each stage.\n\n## Deferred / Ongoing\n\n## Completed This Year"
+    },
+    "timestamp": "2026-06-04T21:12:32.970Z"
+  },
+  {
+    "name": "Edit",
+    "input": {
+      "replace_all": false,
+      "file_path": "/Users/dominictalbot/.claude/PAI/USER/TELOS/GOALS.md",
+      "old_string": "## Deferred / Ongoing",
+      "new_string": "- **G1:** Land a senior role at target company — contributing meaningfully using architecture, engineering, and AI skills. Measurable: offer accepted, doing work that feels like real contribution and gives genuine job satisfaction.\n\n## Deferred / Ongoing"
+    },
+    "timestamp": "2026-06-04T21:15:18.777Z"
+  },
+  {
+    "name": "Edit",
+    "input": {
+      "replace_all": false,
+      "file_path": "/Users/dominictalbot/.claude/PAI/USER/TELOS/GOALS.md",
+      "old_string": "- **G1:** Land a senior role at target company — contributing meaningfully using architecture, engineering, and AI skills. Measurable: offer accepted, doing work that feels like real contribution and gives genuine job satisfaction.",
+      "new_string": "- **G1:** Land a senior role at target company — contributing meaningfully using architecture, engineering, and AI skills. Measurable: offer accepted, doing work that feels like real contribution and gives genuine job satisfaction.\n- **G2:** Get personal knowledge organised — reduce cognitive load and stress. Measurable: a system I actually use, that helps me stay on top of things without the overwhelm. (Context: ADHD — the system needs to work with my brain, not against it.)"
+    },
+    "timestamp": "2026-06-04T21:16:06.155Z"
+  },
+  {
+    "name": "Read",
+    "input": {
+      "file_path": "/Users/dominictalbot/.claude/PAI/USER/TELOS/PROBLEMS.md"
+    },
+    "timestamp": "2026-06-04T21:20:44.456Z"
+  },
+  {
+    "name": "Edit",
+    "input": {
+      "replace_all": false,
+      "file_path": "/Users/dominictalbot/.claude/PAI/USER/TELOS/PROBLEMS.md",
+      "old_string": "- **P0:** (sample) Most knowledge workers spend more time fighting their tools than doing the work the tools are supposed to enable.\n- **P1:** (sample) High-quality information is unevenly distributed — people without insider networks pay a real cost in worse decisions.\n- **P2:** (sample) Personal data is held by platforms that don't share the user's incentives.",
+      "new_string": "- **P0:** AI hype over substance — businesses are being sold promise, not delivery. Vendors win; organisations are left holding shelfware.\n- **P1:** Organisations lack the skills to evaluate what they're buying — no internal benchmark, no way to call BS on the pitch.\n- **P2:** Enterprise architects are being used as rubber stamps, not thought leaders — their leverage is wasted on sign-off ceremonies instead of shaping strategy."
+    },
+    "timestamp": "2026-06-04T21:21:50.050Z"
+  },
+  {
+    "name": "Read",
+    "input": {
+      "file_path": "/Users/dominictalbot/.claude/PAI/USER/TELOS/STRATEGIES.md"
+    },
+    "timestamp": "2026-06-04T21:22:58.233Z"
+  },
+  {
+    "name": "Edit",
+    "input": {
+      "replace_all": false,
+      "file_path": "/Users/dominictalbot/.claude/PAI/USER/TELOS/STRATEGIES.md",
+      "old_string": "- **S0:** (sample) Ship the crappy version, then iterate in public — speed of feedback beats polish in the first 80%.\n- **S1:** (sample) Write before building — if I can't explain it in plain prose, the design isn't ready.\n- **S2:** (sample) Default to open — open-source the tools, share the work, let distribution come from usefulness.",
+      "new_string": "- **S0:** Learn by consuming broadly first — read, watch, get the ebooks — then lock it in through thought experiments and prototyping.\n- **S1:** Always prototype before forming an opinion. Hands-on beats theory every time. No commitment without a working test.\n- **S2:** Build something and show it working — demonstration over explanation. Share everything with like-minded people; knowledge compounds in community.\n- **S3:** Work with people who care about the same things — find the practitioners, avoid the evangelists."
+    },
+    "timestamp": "2026-06-04T21:25:19.452Z"
+  },
+  {
+    "name": "Read",
+    "input": {
+      "file_path": "/Users/dominictalbot/.claude/PAI/USER/TELOS/CHALLENGES.md"
+    },
+    "timestamp": "2026-06-04T21:27:04.272Z"
+  },
+  {
+    "name": "Edit",
+    "input": {
+      "replace_all": false,
+      "file_path": "/Users/dominictalbot/.claude/PAI/USER/TELOS/CHALLENGES.md",
+      "old_string": "- **C0:** (sample) I tend to start more projects than I finish — when something gets hard or boring, a new idea looks more attractive than completing the current one.\n- **C1:** (sample) I avoid hard conversations until they become harder than they needed to be.\n- **C2:** (sample) I optimize small surface-area tasks (inbox, tweaks) when I'm avoiding the one big thing that actually matters this week.",
+      "new_string": "- **C0:** Focus and distraction — ADHD means shiny new things constantly compete with what I'm supposed to be doing.\n- **C1:** Staying organised and retaining what I learn — knowledge slips without a system to catch it.\n- **C2:** Too many ideas, not enough system — projects stall, context gets lost, and switching between them is painful. Need infrastructure that keeps things moving without me having to rebuild context from scratch every time."
+    },
+    "timestamp": "2026-06-04T21:27:09.822Z"
+  },
+  {
+    "name": "Read",
+    "input": {
+      "file_path": "/Users/dominictalbot/.claude/PAI/USER/TELOS/NARRATIVES.md"
+    },
+    "timestamp": "2026-06-04T21:27:29.702Z"
+  },
+  {
+    "name": "Edit",
+    "input": {
+      "replace_all": false,
+      "file_path": "/Users/dominictalbot/.claude/PAI/USER/TELOS/NARRATIVES.md",
+      "old_string": "- **N0:** (sample) I build tools that move power from institutions to individuals.\n- **N1:** (sample) The next decade rewards people who can ship working software end-to-end without waiting for a team.\n- **N2:** (sample — conference one-liner) I'm a [your craft] who helps [your audience] do [your outcome].",
+      "new_string": "- **N0:** I'm an experienced, deeply technical architect who can take any idea from concept to delivery — handling every step along the way.\n- **N1:** Practical, well-considered, rubber-on-the-road AI — I take ideas and turn them into things that add actual value to individuals and organisations. Not hype, not theory — working outcomes.\n- **N2:** I cut through the AI noise and build the thing that actually solves the problem."
+    },
+    "timestamp": "2026-06-04T21:30:34.710Z"
+  },
+  {
+    "name": "Read",
+    "input": {
+      "file_path": "/Users/dominictalbot/.claude/PAI/USER/TELOS/BELIEFS.md"
+    },
+    "timestamp": "2026-06-04T21:31:17.239Z"
+  },
+  {
+    "name": "Edit",
+    "input": {
+      "replace_all": false,
+      "file_path": "/Users/dominictalbot/.claude/PAI/USER/TELOS/BELIEFS.md",
+      "old_string": "## Core Beliefs\n\n- (sample) Most problems are systems problems, not people problems.\n- (sample) Iteration beats planning past a certain point of uncertainty.\n- (sample) Truth lives downstream of action — you learn what's real by trying things.\n- (sample) Compounding small habits outperforms heroic effort over a long enough horizon.\n\n## Provisional Beliefs\n\n- (sample) Generalists win the next decade more than specialists do — provisional, watching this play out.\n- (sample) Most public discourse is a poor signal for what actually matters — provisional, could be wrong about the magnitude.",
+      "new_string": "## Core Beliefs\n\n- AI is about outcomes, not technology — the tech is irrelevant if it doesn't deliver a real result.\n- Technology is the enabler. Without people, process, and policy, the opportunity is wasted. AI is not a magic fix — organisations have to adapt their behaviour to get the best out of it.\n- I am always growing and learning. That never stops.\n- Build simply, test early, iterate fast — but strong foundations first. TDD, specs, roadmaps, solid documentation from the start. Clear goals and small slices of value delivered as soon as possible.\n\n## Provisional Beliefs"
+    },
+    "timestamp": "2026-06-04T21:34:39.893Z"
+  }
+]

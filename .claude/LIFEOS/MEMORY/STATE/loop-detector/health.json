@@ -1,0 +1,130 @@
+{
+  "window": [
+    {
+      "sig": "Bash:1eab1ef18bb109ae99f48bfe7efaba9dde08e27bdb46438214bd6c65eb3ff2ff",
+      "tool": "Bash",
+      "failed": false,
+      "ts": "2026-08-20T13:31:24+01:00"
+    },
+    {
+      "sig": "unknown:44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "tool": "unknown",
+      "failed": true,
+      "ts": "2026-08-20T13:31:33+01:00"
+    },
+    {
+      "sig": "Bash:1eab1ef18bb109ae99f48bfe7efaba9dde08e27bdb46438214bd6c65eb3ff2ff",
+      "tool": "Bash",
+      "failed": false,
+      "ts": "2026-08-20T13:36:48+01:00"
+    },
+    {
+      "sig": "Bash:1eab1ef18bb109ae99f48bfe7efaba9dde08e27bdb46438214bd6c65eb3ff2ff",
+      "tool": "Bash",
+      "failed": false,
+      "ts": "2026-08-20T13:36:48+01:00"
+    },
+    {
+      "sig": "unknown:44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "tool": "unknown",
+      "failed": true,
+      "ts": "2026-08-20T13:36:57+01:00"
+    },
+    {
+      "sig": "Bash:1eab1ef18bb109ae99f48bfe7efaba9dde08e27bdb46438214bd6c65eb3ff2ff",
+      "tool": "Bash",
+      "failed": false,
+      "ts": "2026-08-20T13:38:22+01:00"
+    },
+    {
+      "sig": "Bash:1eab1ef18bb109ae99f48bfe7efaba9dde08e27bdb46438214bd6c65eb3ff2ff",
+      "tool": "Bash",
+      "failed": false,
+      "ts": "2026-08-20T13:38:22+01:00"
+    },
+    {
+      "sig": "unknown:44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "tool": "unknown",
+      "failed": true,
+      "ts": "2026-08-20T13:38:31+01:00"
+    },
+    {
+      "sig": "Bash:1eab1ef18bb109ae99f48bfe7efaba9dde08e27bdb46438214bd6c65eb3ff2ff",
+      "tool": "Bash",
+      "failed": false,
+      "ts": "2026-08-20T13:39:26+01:00"
+    },
+    {
+      "sig": "Bash:1eab1ef18bb109ae99f48bfe7efaba9dde08e27bdb46438214bd6c65eb3ff2ff",
+      "tool": "Bash",
+      "failed": false,
+      "ts": "2026-08-20T13:39:26+01:00"
+    },
+    {
+      "sig": "unknown:44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "tool": "unknown",
+      "failed": true,
+      "ts": "2026-08-20T13:39:35+01:00"
+    },
+    {
+      "sig": "Bash:1eab1ef18bb109ae99f48bfe7efaba9dde08e27bdb46438214bd6c65eb3ff2ff",
+      "tool": "Bash",
+      "failed": false,
+      "ts": "2026-08-20T13:39:54+01:00"
+    },
+    {
+      "sig": "Bash:1eab1ef18bb109ae99f48bfe7efaba9dde08e27bdb46438214bd6c65eb3ff2ff",
+      "tool": "Bash",
+      "failed": false,
+      "ts": "2026-08-20T13:39:54+01:00"
+    },
+    {
+      "sig": "unknown:44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "tool": "unknown",
+      "failed": true,
+      "ts": "2026-08-20T13:40:03+01:00"
+    },
+    {
+      "sig": "Bash:1eab1ef18bb109ae99f48bfe7efaba9dde08e27bdb46438214bd6c65eb3ff2ff",
+      "tool": "Bash",
+      "failed": false,
+      "ts": "2026-08-20T13:41:08+01:00"
+    },
+    {
+      "sig": "Bash:1eab1ef18bb109ae99f48bfe7efaba9dde08e27bdb46438214bd6c65eb3ff2ff",
+      "tool": "Bash",
+      "failed": false,
+      "ts": "2026-08-20T13:41:08+01:00"
+    },
+    {
+      "sig": "unknown:44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "tool": "unknown",
+      "failed": true,
+      "ts": "2026-08-20T13:41:17+01:00"
+    },
+    {
+      "sig": "Bash:1eab1ef18bb109ae99f48bfe7efaba9dde08e27bdb46438214bd6c65eb3ff2ff",
+      "tool": "Bash",
+      "failed": false,
+      "ts": "2026-08-20T14:56:29+01:00"
+    },
+    {
+      "sig": "Bash:1eab1ef18bb109ae99f48bfe7efaba9dde08e27bdb46438214bd6c65eb3ff2ff",
+      "tool": "Bash",
+      "failed": false,
+      "ts": "2026-08-20T14:56:29+01:00"
+    },
+    {
+      "sig": "unknown:44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "tool": "unknown",
+      "failed": true,
+      "ts": "2026-08-20T14:56:39+01:00"
+    }
+  ],
+  "alerted": [
+    "exact:Bash:1eab1ef18bb109ae99f48bfe7efaba9dde08e27bdb46438214bd6c65eb3ff2ff",
+    "exact:unknown:44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+  ],
+  "seq": 21,
+  "lastAlert": 9
+}

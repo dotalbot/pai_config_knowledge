@@ -1,0 +1,4 @@
+{"ts":"2026-08-20T13:54:04.498Z","session":"434f1e02","prompt_head":"please check, i tried the command lifeos, but I had to use claude, I restarted t","fired":["Teach:teach me"]}
+{"ts":"2026-08-20T14:08:03.686Z","session":"34561945","prompt_head":"this is some context: How to work with me well: talk to me as a peer (I'll push ","fired":["Teach:/teach-me"]}
+{"ts":"2026-08-20T14:17:15.583Z","session":"34561945","prompt_head":"we will address this in due course, in the mean time: 1. Vault context wiring (0","fired":["Cortex:retrieve","Knowledge:retrieve"]}
+{"ts":"2026-08-20T14:19:46.459Z","session":"34561945","prompt_head":"continue, remember there was a change in the obisidan design, there is document/","fired":["ContextSearch:remember"]}

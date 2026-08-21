@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-06-05T19:26:16.108Z",
+  "sessionId": "dc3dd97c-12e9-49c5-9559-d014e3cef5b9",
+  "eventType": "alert",
+  "inspector": "PatternInspector",
+  "tool": "Bash",
+  "target": "cat /tmp/frontier_pptx/ppt/slides/slide9.xml | python3 -c \"\nimport sys, re\ncontent = sys.stdin.read()\nidx = content.find('Enter text here')\nprint(repr(content[max(0,idx-400):idx+100]))\n\"",
+  "reason": "Python inline execution (logged for audit)",
+  "actionTaken": "Alert logged, allowed execution"
+}

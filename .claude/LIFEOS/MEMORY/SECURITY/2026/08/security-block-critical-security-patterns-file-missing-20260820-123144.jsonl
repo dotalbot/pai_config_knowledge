@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-08-20T12:31:44.505Z",
+  "sessionId": "h",
+  "eventType": "block",
+  "inspector": "PatternInspector",
+  "tool": "Bash",
+  "target": "echo hi",
+  "reason": "CRITICAL: Security patterns file missing — fail-closed",
+  "actionTaken": "Hard block — exit 2"
+}

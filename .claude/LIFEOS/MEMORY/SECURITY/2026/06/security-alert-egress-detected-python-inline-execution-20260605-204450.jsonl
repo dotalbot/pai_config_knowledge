@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-06-05T19:44:50.496Z",
+  "sessionId": "dc3dd97c-12e9-49c5-9559-d014e3cef5b9",
+  "eventType": "alert",
+  "inspector": "EgressInspector",
+  "tool": "Bash",
+  "target": "python3 -c \"\nxml = open('/tmp/frontier_pptx/ppt/slides/slide12.xml').read()\n# Find text before/between placeholders by finding ALL text in the slide\nimport re\n# Find all text runs\ntexts = re.findall(r'<a:t>([^<]*)</a:t>', xml)\nprint('All text content:')\nfor i, t in enumerate(texts):\n    t = t.strip()\n    if t:\n        print(f'  [{i}] {t[:80]}')\n\"\n",
+  "reason": "Egress detected: Python inline execution",
+  "actionTaken": "Alert logged, allowed execution"
+}

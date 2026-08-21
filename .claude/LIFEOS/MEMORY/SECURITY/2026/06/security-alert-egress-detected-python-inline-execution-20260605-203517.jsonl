@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-06-05T19:35:17.535Z",
+  "sessionId": "dc3dd97c-12e9-49c5-9559-d014e3cef5b9",
+  "eventType": "alert",
+  "inspector": "EgressInspector",
+  "tool": "Bash",
+  "target": "# Check slide 12 - how many original ETH were there\nunzip -p \"/Users/dominictalbot/.claude/uploads/dc3dd97c-12e9-49c5-9559-d014e3cef5b9/cb6488e4-Frontier_Partner__JT.pptx\" ppt/slides/slide12.xml | python3 -c \"\nimport sys,re; c=sys.stdin.read()\nprint('Original ETH count:', c.count('Enter text here'))\n\"\n# Check slide 21 remaining placeholder text\nunzip -p /tmp/Frontier_Partner_JT_Filled.pptx ppt/slides/slide21.xml | python3 -c \"\nimport sys,re; c=sys.stdin.read()\nidx = c.find('Enter text here')\npri",
+  "reason": "Egress detected: Python inline execution",
+  "actionTaken": "Alert logged, allowed execution"
+}

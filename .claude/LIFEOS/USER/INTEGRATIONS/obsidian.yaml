@@ -1,0 +1,75 @@
+# Obsidian integration config — single source of truth for the vault path.
+# Created 2026-08-20 during the LifeOS migration to replace 6 hardcoded VAULT
+# constants scattered across hooks and tools. Change the path here ONCE and every
+# integration that reads this file follows.
+#
+# Consumers: hooks/handlers/ObsidianSessionNote.ts (session notes → "07 PAI/"),
+# and (to be repointed) the legacy PAI capture server / inbox router.
+#
+# When you move to CLI-controlled sync, set `sync.cli` + `sync.enabled` and the
+# integrations can route writes through the CLI instead of direct filesystem writes.
+
+vault:
+  # Absolute path to the Obsidian vault root on this machine.
+  path: /home/jellypai/obsidian
+  # Subfolder session notes are written into.
+  session_notes_dir: "07 PAI"
+  # Inbox folder used by the capture server / router.
+  inbox_dir: "00 INBOX"
+
+sync:
+  # Set true once an Obsidian CLI controls sync; integrations then prefer the CLI.
+  enabled: false
+  # Name/path of the Obsidian CLI binary (e.g. "obsidian-cli" or an absolute path).
+  cli: ""
+  # If true, writes go through the CLI; if false, direct filesystem writes (current behavior).
+  use_cli_for_writes: false
+
+# ─────────────────────────────────────────────────────────────────────────────
+# READ PATH — vault folders JellyPai pulls context FROM (added 2026-08-20).
+#
+# Read-only by deliberate choice: the DA reads these, never writes them. The
+# only vault write remains the session note into `session_notes_dir` above.
+#
+# Folder roles follow the two-brain model in `01 Thinking/Maps/Vault Guide.md`:
+#   01 Thinking → human brain. Atomic notes, your own judgment. Highest trust.
+#   02 Doing    → AI brain. Material explicitly written to be handed to an agent.
+#
+# `02 Doing` is currently EMPTY. It is listed anyway so the read path starts
+# working the moment the first note lands there, with no config change needed.
+# ─────────────────────────────────────────────────────────────────────────────
+
+read:
+  enabled: true
+  # Searched in order; earlier entries outrank later ones on equal relevance.
+  sources:
+    - dir: "02 Doing"
+      # Written expressly as agent context, so it outranks everything else.
+      weight: 1.5
+      note: "AI-facing context. Empty today — populate via the 🤖 Doing template."
+    - dir: "01 Thinking"
+      # Distilled human judgment: the highest-signal prose in the vault.
+      weight: 1.2
+      note: "Zettelkasten. Ideas/, Concepts/, Maps/, People/, Challenges/."
+    - dir: "00 INBOX"
+      # Raw and unprocessed by definition — surfaced, but never authoritative.
+      weight: 0.5
+      note: "Unprocessed capture. Low trust by design."
+
+  # Never read: legacy dumps, generated logs, and binary-adjacent trees. Archive
+  # alone is ~9,900 files / 808MB and would swamp any relevance ranking.
+  exclude:
+    - "Archive"
+    - "Attachments"
+    - "Excalidraw"
+    - "Clippings"
+    - ".obsidian"
+    - "07 PAI"        # our own session notes — reading them back is an echo chamber
+    - "Toolkit/Scripts"
+    - "Toolkit/Snippets"
+
+  # Guardrails so a vault read can never blow up a session's context budget.
+  limits:
+    max_notes: 5
+    max_chars_per_note: 4000
+    max_total_chars: 15000

@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-06-05T19:48:51.800Z",
+  "sessionId": "dc3dd97c-12e9-49c5-9559-d014e3cef5b9",
+  "eventType": "alert",
+  "inspector": "EgressInspector",
+  "tool": "Bash",
+  "target": "python3 -c \"\nimport zipfile, re\n\nORANGE = 'E8620A'\nslides = [4,7,8,9,11,12,13,17,19,21,23]\n\nwith zipfile.ZipFile('/tmp/Frontier_Partner_JT_Filled.pptx') as z:\n    for s in slides:\n        xml = z.read(f'ppt/slides/slide{s}.xml').decode()\n        orange = len(re.findall(ORANGE, xml))\n        remaining = len(re.findall('Enter text here', xml))\n        stage_r = len(re.findall('Enter stage here', xml))\n        role_r  = len(re.findall('Enter role here', xml))\n        extras = f' | stage_r={stage_r}",
+  "reason": "Egress detected: Python inline execution",
+  "actionTaken": "Alert logged, allowed execution"
+}

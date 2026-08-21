@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-06-05T13:39:33.244Z",
+  "sessionId": "dc3dd97c-12e9-49c5-9559-d014e3cef5b9",
+  "eventType": "alert",
+  "inspector": "PatternInspector",
+  "tool": "Bash",
+  "target": "curl -s \"http://192.168.1.1:18888/v1/default/banks\" --max-time 5 2>/dev/null | python3 -c \"\nimport json,sys\nd=json.load(sys.stdin)\nprint(json.dumps(d, indent=2))\n\" 2>/dev/null | head -60",
+  "reason": "Python inline execution (logged for audit)",
+  "actionTaken": "Alert logged, allowed execution"
+}

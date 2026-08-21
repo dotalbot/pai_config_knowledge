@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-06-05T13:39:28.828Z",
+  "sessionId": "dc3dd97c-12e9-49c5-9559-d014e3cef5b9",
+  "eventType": "alert",
+  "inspector": "EgressInspector",
+  "tool": "Bash",
+  "target": "curl -s \"http://192.168.1.1:18888/v1/default/banks\" --max-time 5 2>/dev/null | python3 -c \"\nimport json,sys\nd=json.load(sys.stdin)\nbanks = d.get('banks', d if isinstance(d,list) else [])\nfor b in banks:\n    print(b.get('id','?'), '|', b.get('name',''))\n\" 2>/dev/null",
+  "reason": "Egress detected: Python inline execution",
+  "actionTaken": "Alert logged, allowed execution"
+}

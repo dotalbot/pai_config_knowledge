@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-06-05T19:27:47.270Z",
+  "sessionId": "dc3dd97c-12e9-49c5-9559-d014e3cef5b9",
+  "eventType": "alert",
+  "inspector": "EgressInspector",
+  "tool": "Bash",
+  "target": "cat /tmp/frontier_pptx/ppt/slides/slide11.xml | python3 -c \"\nimport sys, re\ncontent = sys.stdin.read()\n# Extract all text boxes in order\nshapes = re.findall(r'<p:sp>.*?</p:sp>', content, re.DOTALL)\nfor i, sp in enumerate(shapes):\n    texts = re.findall(r'<a:t>([^<]*)</a:t>', sp)\n    text_clean = ' | '.join(t for t in texts if t.strip())\n    if text_clean:\n        print(f'Shape {i}: {text_clean[:100]}')\n\"",
+  "reason": "Egress detected: Python inline execution",
+  "actionTaken": "Alert logged, allowed execution"
+}

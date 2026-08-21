@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-06-05T19:35:02.823Z",
+  "sessionId": "dc3dd97c-12e9-49c5-9559-d014e3cef5b9",
+  "eventType": "alert",
+  "inspector": "PatternInspector",
+  "tool": "Bash",
+  "target": "# Check remaining unfilled on slides 7, 12, 21, 23\nfor slide in 7 12 21 23; do\n  echo \"=== Slide $slide remaining ===\"\n  unzip -p /tmp/Frontier_Partner_JT_Filled.pptx ppt/slides/slide${slide}.xml 2>/dev/null | python3 -c \"\nimport sys, re\nc = sys.stdin.read()\nfor m in re.finditer('Enter text here', c):\n    idx = m.start()\n    start = c.rfind('<a:p>', 0, idx)\n    end = c.find('</a:p>', idx) + len('</a:p>')\n    print('  context:', c[max(0,idx-60):idx+40])\n    print()\n\"\ndone",
+  "reason": "Python inline execution (logged for audit)",
+  "actionTaken": "Alert logged, allowed execution"
+}

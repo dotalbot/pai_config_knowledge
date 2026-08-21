@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-06-05T18:34:01.406Z",
+  "sessionId": "dc3dd97c-12e9-49c5-9559-d014e3cef5b9",
+  "eventType": "alert",
+  "inspector": "PatternInspector",
+  "tool": "Bash",
+  "target": "cat /Users/dominictalbot/.claude/.env 2>/dev/null | grep -v \"^#\" | grep -v \"^$\" | sed 's/=.*/=REDACTED/'",
+  "reason": "Reading .env file via cat (logged)",
+  "actionTaken": "Alert logged, allowed execution"
+}

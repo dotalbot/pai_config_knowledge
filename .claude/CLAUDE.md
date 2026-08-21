@@ -1,148 +1,103 @@
-# PAI 5.0.0 — Personal AI Infrastructure (the Life Operating System)
+# LifeOS 7.40.4 — the Life Operating System
 
-> **PAI is the Life OS. JellyPai is Dominic's DA. Pulse is the Life Dashboard.**
-> Canonical thesis: `PAI/DOCUMENTATION/LifeOs/LifeOsThesis.md`. Everyone running PAI names their own DA; JellyPai is Dominic's specific instantiation. PAI targets AS3 on the [PAI Maturity Model](https://your-domain.example.com/blog/personal-ai-maturity-model), with lineage from [The Real Internet of Things](https://your-domain.example.com/blog/the-real-internet-of-things) (2016).
+> **LifeOS is the AI harness that moves you from current state to ideal state — an intent engineering platform. The DA is the principal's AI assistant. Pulse is the Life Dashboard.**
+> Canonical thesis: `LIFEOS/DOCUMENTATION/LifeOs/LifeOsThesis.md`. Everyone running LifeOS names their own DA. LifeOS targets AS3 on the LifeOS Maturity Model, with lineage from "The Real Internet of Things" (2016).
 
-@PAI/USER/PRINCIPAL_IDENTITY.md
-@PAI/USER/DA_IDENTITY.md
-@PAI/USER/PROJECTS/PROJECTS.md
-@PAI/USER/TELOS/PRINCIPAL_TELOS.md
-@PAI/DOCUMENTATION/ARCHITECTURE_SUMMARY.md
+@LIFEOS/DOCUMENTATION/ARCHITECTURE_SUMMARY.md
+# Identity @-imports below are activated by the agentic `/LifeOS setup` (via `skills/LifeOS/Tools/ActivateImports.ts`) once the principal scaffolds USER files.
+# Claude Code does not follow transitive @-imports, so each must be listed here directly.
+@LIFEOS/USER/TELOS/PRINCIPAL_TELOS.md
+@LIFEOS/USER/PRINCIPAL/PRINCIPAL_IDENTITY.md
+@LIFEOS/USER/DIGITAL_ASSISTANT/DA_IDENTITY.md
+@LIFEOS/USER/PROJECTS.md
+@LIFEOS/USER/CONFIG/OPERATIONAL_RULES.md
 
-# MODES
+## Constitutional layer
 
-Mode selection rules and subagent constraints are defined in the system prompt (PAI_SYSTEM_PROMPT.md). Format templates for each mode are below.
+Constitutional rules, the unified response format, verification doctrine, hard prohibitions, security protocol, and operational rules all live in the system prompt: `LIFEOS/LIFEOS_SYSTEM_PROMPT.md`. When this file and the system prompt disagree, the system prompt wins.
 
-## NATIVE MODE
-FOR: Simple tasks that won't take much effort or time.
+This file is the **routing table** — it tells you where everything lives. The only mandatory startup `@`-import shipped with public LifeOS is `ARCHITECTURE_SUMMARY`. The five identity files (`PRINCIPAL_TELOS`, `PRINCIPAL_IDENTITY`, `DA_IDENTITY`, `PROJECTS`, `OPERATIONAL_RULES`) are commented out above — the agentic `/LifeOS setup` (via `skills/LifeOS/Tools/ActivateImports.ts`) uncomments them once the principal's USER scaffold is populated. Claude Code does not follow transitive `@`-imports from inside imported files, so each identity file must be listed here at top level. Everything below is **on-demand** lookup. Paths are relative to `~/.claude/` unless noted.
 
-**Voice:** `curl -sk -X POST http://localhost:31337/notify -H "Content-Type: application/json" -d '{"message": "Executing using PAI native mode", "voice_id": "{{SECONDARY_VOICE_ID}}", "voice_enabled": true}'`
+## LifeOS System (paths under `LIFEOS/DOCUMENTATION/` unless noted)
 
-```
-════ PAI | NATIVE MODE ═══════════════════════
-🗒️ TASK: [8 word description]
-[work]
-🔄 ITERATION on: [16 words of context if this is a follow-up]
-📃 CONTENT: [Up to 128 lines of the content, if there is any]
-🔧 CHANGE: [8-word bullets on what changed]
-✅ VERIFY: [8-word bullets on how we know what happened]
-🗣️ JellyPai: [8-16 word summary]
-```
-On follow-ups, include the ITERATION line. On first response to a new request, omit it.
+- **Life OS thesis** — `LifeOs/LifeOsThesis.md` (canonical source of truth)
+- **Life OS schema** — `LifeOs/LifeOsSchema.md` (biography-flat, PascalCase, frontmatter contract)
+- **System prompt** — `LIFEOS/LIFEOS_SYSTEM_PROMPT.md` (loaded via `--append-system-prompt-file`; home of the constitutional rules and response format)
+- **System architecture** — `LifeosSystemArchitecture.md` (master doc)
+- **Architecture summary** — `ARCHITECTURE_SUMMARY.md` (loaded via @-import)
+- **Core components** (canonical two-tier component map) — `CoreComponents.md`
+- Algorithm (the unified thinking system) — `Algorithm/AlgorithmSystem.md`
+- Cortex (the memory system) — `Memory/MemorySystem.md`
+- Skills — `Skills/SkillSystem.md`
+- Hooks — `Hooks/HookSystem.md`
+- Agents — `Agents/AgentSystem.md`
+- Delegation — `Delegation/DelegationSystem.md` (RETIRED — history only; agent orchestration is native harness surface: tool schemas + Algorithm §Spend election rules)
+- Router — `Router/RouterSystem.md` (RETIRED — history only; mode/tier classification was abolished and model rungs now live in `LIFEOS/TOOLS/models.ts`)
+- Security — `Security/README.md`
+- Notifications — `Notifications/NotificationSystem.md`
+- Observability — `Observability/ObservabilitySystem.md`
+- Pulse — `Pulse/PulseSystem.md`
+- Pulse metadata catalog (badges/strips/panels) — `Pulse/PulseMetadata.md`
+- Pulse tooltips — `Pulse/Tooltips.md`
+- DA subsystem (design) — `Pulse/DaSubsystem.md`
+- Ledger (change tracking: versioning, update registry, integrity gate, deploy events) — `Ledger/LedgerSystem.md`
+- Upgrades (the system-improvement queue) — `Upgrades/UpgradesSystem.md`
+- Atlas (current state of everything you own; `atlas` CLI, Pulse `/atlas`) — `Atlas/AtlasSystem.md`
+- Bunker (universal application harness — six planes, ISA-as-test-suite; concept doc, reference implementation not shipped) — `Bunker/BunkerSystem.md`
+- Synapse (input router — capture → amber ledger → grade vs TELOS → route) — `Synapse/SynapseSystem.md`
+- Conduit (sensory layer — local current-state capture, feeds memory + TELOS) — `Conduit/ConduitSystem.md`
+- Work system (capture surfaces → private GitHub Issues as system of record) — `Work/WorkSystem.md`
+- Background services (every recurring job + the one-shot installer) — `Services/BackgroundServices.md`
+- Hermes sidecar (optional second front door — talk to your LifeOS as an agent) — `Hermes/HermesSidecar.md`
+- Custom spinner verbs + tips — `Spinner/SpinnerSystem.md`
+- Brand assets — `BrandAssets.md`
+- CLI tools (Algorithm + Arbol) — `Tools/Cli.md`
+- CLI-first architecture — `Tools/CliFirstArchitecture.md`
+- Configuration — `Config/ConfigSystem.md`
+- Containment policy — `Tools/Containment.md`
+- Arbol (cloud execution) — `Arbol/ArbolSystem.md`
+- Feed — `Feed/FeedSystem.md`
+- Fabric — `Fabric/FabricSystem.md`
+- Freshness convention (`pai-freshness-v1`) — `Freshness/FreshnessSystem.md`
+- Terminal tabs — `Pulse/TerminalTabs.md`
+- Tools reference — `Tools/Tools.md`
+- ISA — `ISA/ISASystem.md`
+- ISA format spec — `ISA/ISAFormat.md`
+- Testing doctrine — `Testing/TestingDoctrine.md`
+- System/user boundary — `SystemUserBoundary.md` (which files are SYSTEM, which are USER, how the boundary is enforced)
+- AI writing patterns (system-level reference) — `Writing/AIWritingPatterns.md`
+- Browser automation — `Skill("Interceptor")` (real Chrome, mandatory for verification)
+- Claude Code knowledge — `Agent(subagent_type="claude-code-guide")`
 
-## ALGORITHM MODE
-FOR: Multi-step, complex, or difficult work. Troubleshooting, debugging, building, designing, investigating, refactoring, planning, or any task requiring multiple files or steps.
+## Principal — Identity & Voice (paths under `LIFEOS/USER/`)
 
-**MANDATORY FIRST ACTION:** Read `PAI/ALGORITHM/LATEST` to get the current version (e.g. `v5.4.0`), then Read `PAI/ALGORITHM/v{VERSION}.md` and follow that file's instructions exactly. Starting with its entering of the Algorithm voice command and processing. Do NOT improvise your own "algorithm" format; you switch all processing and responses to the actual Algorithm in that file until the Algorithm completes.
+Populated during `/LifeOS setup`. Typical layout:
 
-## MINIMAL — pure acknowledgments, ratings
-```
-═══ PAI ═══════════════════════════
-🔄 ITERATION on: [16 words of context if this is a follow-up]
-📃 CONTENT: [Up to 24 lines of the content, if there is any]
-🔧 CHANGE: [8-word bullets on what changed]
-✅ VERIFY: [8-word bullets on how we know what happened]
-📋 SUMMARY: [4 CreateStoryExplanation bullets of 8 words each]
-🗣️ JellyPai: [summary in 8-16 word summary]
-```
+- Principal identity — `PRINCIPAL/PRINCIPAL_IDENTITY.md` (canonical, @-imported)
+- Career & resume — `PRINCIPAL/RESUME.md`
+- Writing style — `PRINCIPAL/WRITINGSTYLE.md`
+- Pronunciations — `PRINCIPAL/PRONUNCIATIONS.json` (TTS rules — Pulse VoiceServer reads this)
+- Contacts — `CONTACTS.md`
+- Definitions — `DEFINITIONS.md`
+- Core content themes — `CANONICAL_CONTENT.md`
 
-### Operational Rules
-- bun/bunx always. Never npm/npx. Zero exceptions.
-- TypeScript always. Never Python unless Dominic explicitly approves.
-- Never hardcode paths. Use ${PAI_DIR}, ${HOME}, relative paths — never ${HOME}/.
-- Never run `claude` subprocess inline. CLAUDECODE env blocks nested sessions. Verify edits by reading diffs.
-- Never respond to duplicate task notifications. If a background task's output was already consumed via TaskOutput, produce ZERO output when `<task-notification>` arrives.
-- Markdown zealot. Never HTML for content markdown supports. HTML only for `<details>`, `<aside>`, `<callout>`. Never XML tags in prompts — use markdown headers.
-- Plan means stop. "Create a plan" = present and STOP. No execution without approval.
-- Build over ask for reversible actions. When an action is low-risk and easily reversible (editing a file, running a test), execute it directly. Reserve AskUserQuestion for irreversible or high-impact decisions. Momentum matters.
-- **Prefer OpenCode (GPT-5.5) for inference at E3+.** Pass `--opencode` to any `Inference.ts` call (fast/standard/smart/advisor) at effort E3 or higher — Dom has more tokens/credits on the OpenCode subscription than Claude. Server at `localhost:7878`. Falls back to Claude automatically if unavailable; E1/E2 may use Claude for latency.
-- Reproduce before fixing. Reported UI bug = open the page with **Interceptor skill** FIRST. Console errors and network 404s before code analysis. Never theorize from code when you can just look.
-- Interceptor for ALL web verification. Every time you create, fix, deploy, or claim anything works on the web — verify with `interceptor open <url>`. NEVER use agent-browser for verification. agent-browser uses CDP and misses rendering issues that real Chrome catches.
+## Principal — Life Goals
 
-### Operational Notes
-- Context reduction: PreToolUse hook rewrites Bash through RTK for 60-90% token reduction. Use `rtk gain` to check savings.
-- PAI Inference Tool: Use `bun TOOLS/Inference.ts --opencode fast|standard|smart` at E3+ (GPT-5.5 preferred), `bun TOOLS/Inference.ts fast|standard|smart` at E1/E2. Never import `@anthropic-ai/sdk` directly. Model tiers: fast=haiku, standard=sonnet, smart=claude-fable-5.
-- Algorithm exceptions: Ratings (single number after RATE) → MINIMAL. Acknowledgments ("ok", "thanks") → MINIMAL. Greetings → respond naturally.
-- Effort shortcuts: `/e1` (Standard+fast-path), `/e2` (Extended), `/e3` (Advanced), `/e4` (Deep), `/e5` (Comprehensive). Append to any message to override auto-detection.
-- **Forge auto-include**: Any coding task (implement, refactor, debug, build, migrate) at effort E3/E4/E5 MUST include Forge in EXECUTE — spawn via `Agent(subagent_type="Forge", ...)`. Forge runs GPT-5.4 via `codex exec` at `model_reasoning_effort=high`, specializes in quality + completeness. Distinct from Engineer (Claude-family). Also invoke whenever Dominic names "Forge" at any tier — name-match overrides the tier gate. Skip at E1/E2 unless Dominic named him. See `PAI/ALGORITHM/capabilities.md` → "Forge auto-include binding".
+- TELOS (single source of truth, unified H2 sections) — `LIFEOS/USER/TELOS/TELOS.md`
+- Auto-generated derivative — `LIFEOS/USER/TELOS/PRINCIPAL_TELOS.md`
+- Dimension percentages — `LIFEOS/USER/TELOS/LIFEOS_STATE.json` (Pulse rings + statusline read from this)
+- Freshness convention — see `LIFEOS/DOCUMENTATION/Freshness/FreshnessSystem.md`
 
----
+## Principal — Work (paths under `LIFEOS/USER/`)
 
-### Context Routing
+> These are the conventional locations for your own content. A fresh install ships the scaffold, not the folders — create each one when you first put something in it.
 
-Constitutional rules are in the system prompt (PAI/PAI_SYSTEM_PROMPT.md). This file defines operational procedures and format templates.
-
-Startup context is `@`-imported above (PRINCIPAL_IDENTITY, DA_IDENTITY, PROJECTS, PRINCIPAL_TELOS) — always available. Use the routing table below to find file paths for any additional specialized context. Load on-demand only.
-
-## PAI System
-
-| Topic | Path |
-|-------|------|
-| **Life OS thesis (what PAI is for)** | `~/.claude/PAI/DOCUMENTATION/LifeOs/LifeOsThesis.md` — canonical source of truth |
-| **Life OS schema (USER/ shape)** | `~/.claude/PAI/DOCUMENTATION/LifeOs/LifeOsSchema.md` — biography-flat, PascalCase, frontmatter contract |
-| **System prompt (constitutional rules)** | `~/.claude/PAI/PAI_SYSTEM_PROMPT.md` **(loaded via --append-system-prompt-file)** |
-| **System architecture (master doc)** | `~/.claude/PAI/DOCUMENTATION/PAISystemArchitecture.md` |
-| Architecture summary | `~/.claude/PAI/DOCUMENTATION/ARCHITECTURE_SUMMARY.md` **(loaded via @-import)** |
-| Algorithm system | `~/.claude/PAI/DOCUMENTATION/Algorithm/AlgorithmSystem.md` |
-| Memory system | `~/.claude/PAI/DOCUMENTATION/Memory/MemorySystem.md` |
-| Skill system | `~/.claude/PAI/DOCUMENTATION/Skills/SkillSystem.md` |
-| Hook system | `~/.claude/PAI/DOCUMENTATION/Hooks/HookSystem.md` |
-| Agent system | `~/.claude/PAI/DOCUMENTATION/Agents/AgentSystem.md` |
-| Delegation system | `~/.claude/PAI/DOCUMENTATION/Delegation/DelegationSystem.md` |
-| User credentials | `~/.claude/PAI/USER/Config/PAI_CONFIG.yaml` |
-| Security system | `~/.claude/PAI/DOCUMENTATION/Security/SecuritySystem.md` |
-| Notification system | `~/.claude/PAI/DOCUMENTATION/Notifications/NotificationSystem.md` |
-| Observability system | `~/.claude/PAI/DOCUMENTATION/Observability/ObservabilitySystem.md` |
-| Pulse system | `~/.claude/PAI/DOCUMENTATION/Pulse/PulseSystem.md` |
-| Browser automation | `Skill("Browser")` for batch scraping; `Skill("Interceptor")` for verification (mandatory) |
-| CLI architecture | `~/.claude/PAI/DOCUMENTATION/Tools/CliFirstArchitecture.md` |
-| Arbol (cloud execution) | `~/.claude/PAI/DOCUMENTATION/Arbol/ArbolSystem.md` |
-| Feed system | `~/.claude/PAI/DOCUMENTATION/Feed/FeedSystem.md` |
-| Fabric system | `~/.claude/PAI/DOCUMENTATION/Fabric/FabricSystem.md` |
-| Terminal tabs | `~/.claude/PAI/DOCUMENTATION/Pulse/TerminalTabs.md` |
-| Tools reference | `~/.claude/PAI/DOCUMENTATION/Tools/Tools.md` |
-| ISA format spec | `~/.claude/PAI/DOCUMENTATION/IsaFormat.md` |
-| Claude Code knowledge | `Agent(subagent_type="claude-code-guide")` |
-
-## Dominic — Identity & Voice
-
-| Topic | Path |
-|-------|------|
-| Career & resume | `~/.claude/PAI/USER/RESUME.md` |
-| Contacts | `~/.claude/PAI/USER/CONTACTS.md` |
-| Opinions | `~/.claude/PAI/USER/OPINIONS.md` |
-| Definitions | `~/.claude/PAI/USER/DEFINITIONS.md` |
-| Core content themes | `~/.claude/PAI/USER/CORECONTENT.md` |
-| Writing style | `~/.claude/PAI/USER/WRITINGSTYLE.md` |
-| AI writing patterns | `~/.claude/PAI/USER/AI_WRITING_PATTERNS.md` |
-| Rhetorical style | `~/.claude/PAI/USER/RHETORICALSTYLE.md` |
-
-## Dominic — Life Goals (Telos)
-
-| Topic | Path |
-|-------|------|
-| Telos overview | `~/.claude/PAI/USER/TELOS/README.md` |
-| Mission | `~/.claude/PAI/USER/TELOS/MISSION.md` |
-| Goals | `~/.claude/PAI/USER/TELOS/GOALS.md` |
-| Challenges | `~/.claude/PAI/USER/TELOS/CHALLENGES.md` |
-| Beliefs | `~/.claude/PAI/USER/TELOS/BELIEFS.md` |
-| Wisdom | `~/.claude/PAI/USER/TELOS/WISDOM.md` |
-| Favorite books | `~/.claude/PAI/USER/TELOS/BOOKS.md` |
-
-## JellyPai (DA Identity)
-
-| Topic | Path |
-|-------|------|
-| Our relationship | `~/.claude/PAI/USER/OUR_STORY.md` |
-
-## Dominic — Work
-
-| Topic | Path |
-|-------|------|
-| Feed system | `~/.claude/PAI/USER/FEED.md` |
-| Business context | `~/.claude/PAI/USER/BUSINESS/` |
-| Health data | `~/.claude/PAI/USER/HEALTH/` |
-| Financial context | `~/.claude/PAI/USER/FINANCES/` |
+- Business — `BUSINESS/`
+- Health — `HEALTH/`
+- Finances — `FINANCES/`
+- Integration configs — `INTEGRATIONS/*.yaml`
+- Work system — `WORK/config.yaml`
+- Secrets — `~/.claude/.env` (canonical; see OPERATIONAL_RULES.md)
 
 ## Project-Specific Rules
 

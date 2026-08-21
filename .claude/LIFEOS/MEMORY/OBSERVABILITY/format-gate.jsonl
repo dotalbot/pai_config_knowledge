@@ -1,0 +1,12 @@
+{"ts":"2026-08-20T12:27:20.940Z","session_id":"434f1e02-e104-463a-9b1a-71397305a5ae","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"━━━ 📃 SUMMARY ━━━\""}
+{"ts":"2026-08-20T12:41:50.386Z","session_id":"434f1e02-e104-463a-9b1a-71397305a5ae","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"━━━ 📃 SUMMARY ━━━\""}
+{"ts":"2026-08-20T13:58:37.831Z","session_id":"434f1e02-e104-463a-9b1a-71397305a5ae","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"Everything's done. For the reteach, the ALGO-NUD\""}
+{"ts":"2026-08-20T14:08:13.666Z","session_id":"34561945-e99b-4457-a017-cfa156c4921b","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-20T14:08:29.809Z","session_id":"34561945-e99b-4457-a017-cfa156c4921b","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-20T14:09:11.660Z","session_id":"34561945-e99b-4457-a017-cfa156c4921b","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-20T14:11:57.306Z","session_id":"34561945-e99b-4457-a017-cfa156c4921b","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"Confirmed ungated — it renders whenever agents a\""}
+{"ts":"2026-08-20T14:15:38.863Z","session_id":"34561945-e99b-4457-a017-cfa156c4921b","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-20T14:16:24.571Z","session_id":"34561945-e99b-4457-a017-cfa156c4921b","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-20T14:24:08.045Z","session_id":"34561945-e99b-4457-a017-cfa156c4921b","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"67ms. Read path is working.\""}
+{"ts":"2026-08-20T15:06:55.665Z","session_id":"34561945-e99b-4457-a017-cfa156c4921b","decision":"flag","code":"too-many-emdashes","detail":"3 em-dashes in prose (max 2)"}
+{"ts":"2026-08-20T18:33:38.217Z","session_id":"34561945-e99b-4457-a017-cfa156c4921b","decision":"flag","code":"too-many-emdashes","detail":"3 em-dashes in prose (max 2)"}

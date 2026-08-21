@@ -1,0 +1,8 @@
+{
+  "rating": 3,
+  "summary": "User frustrated repeating self after dismissive AI response",
+  "detailed_context": "The user provided critical instructional feedback ('never assume people understand, read the room'), but the AI responded dismissively with 'Another?' instead of engaging with the substance. The user then offered a related statement, received the same terse 'Another?' response, and is now repeating the statement. This repetition signals clear frustration—they're trying to emphasize a point the AI seems to be missing. The user's core message (reading context, not assuming understanding) remains unacknowledged, indicating the AI failed to grasp the teaching moment.",
+  "session_id": "dc3dd97c-12e9-49c5-9559-d014e3cef5b9",
+  "captured_at": "2026-06-04T21:39:10.901Z",
+  "transcript_source": "dc3dd97c-12e9-49c5-9559-d014e3cef5b9.jsonl"
+}

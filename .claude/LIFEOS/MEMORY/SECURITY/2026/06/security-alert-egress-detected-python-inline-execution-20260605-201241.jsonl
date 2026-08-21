@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-06-05T19:12:41.435Z",
+  "sessionId": "dc3dd97c-12e9-49c5-9559-d014e3cef5b9",
+  "eventType": "alert",
+  "inspector": "EgressInspector",
+  "tool": "Bash",
+  "target": "for i in $(seq 1 10); do echo \"=== SLIDE $i ===\"; cat /tmp/frontier_pptx/ppt/slides/slide${i}.xml | python3 -c \"import sys,re; content=sys.stdin.read(); texts=re.findall(r'<a:t>([^<]*)</a:t>', content); print('\\n'.join(t for t in texts if t.strip()))\"; done",
+  "reason": "Egress detected: Python inline execution",
+  "actionTaken": "Alert logged, allowed execution"
+}

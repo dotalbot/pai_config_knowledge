@@ -1,0 +1,148 @@
+{
+  "sessions": {
+    "opencode-pai-migration": {
+      "isa": "/home/jellypai/.claude/PAI/MEMORY/WORK/opencode-pai-migration/ISA.md",
+      "task": "Analyze old opencode PAI setup, plan replacement with current LifeOS",
+      "sessionName": "Analyze old opencode PAI setup, plan replacement with current LifeOS",
+      "sessionUUID": "434f1e02-e104-463a-9b1a-71397305a5ae",
+      "phase": "complete",
+      "progress": "0/12",
+      "started": "2026-08-20",
+      "updatedAt": "2026-08-20T14:05:58.171Z",
+      "criteria": [
+        {
+          "id": "ISC-1",
+          "description": "Locate the current live LifeOS/PAI install and confirm it is the authoritative one — Read `~/.claude` + skill version.",
+          "type": "criterion",
+          "status": "completed",
+          "createdInPhase": "PLAN"
+        },
+        {
+          "id": "ISC-2",
+          "description": "Locate the OpenCode config + binary and determine if OpenCode itself is still in use.",
+          "type": "criterion",
+          "status": "completed",
+          "createdInPhase": "PLAN"
+        },
+        {
+          "id": "ISC-3",
+          "description": "Find all stale/duplicate PAI trees outside the live one (`.claude_backup`, `.config/PAI`, literal-`$HOME` dirs).",
+          "type": "criterion",
+          "status": "completed",
+          "createdInPhase": "PLAN"
+        },
+        {
+          "id": "ISC-4",
+          "description": "Quantify each candidate cleanup target by size and last-write time.",
+          "type": "criterion",
+          "status": "completed",
+          "createdInPhase": "PLAN"
+        },
+        {
+          "id": "ISC-5",
+          "description": "Determine whether any junk dir is still being actively written (mtime + settings grep).",
+          "type": "criterion",
+          "status": "completed",
+          "createdInPhase": "PLAN"
+        },
+        {
+          "id": "ISC-6",
+          "description": "Root-cause the literal-`$HOME` directories (settings.json `$HOME/...` unbraced path bug).",
+          "type": "criterion",
+          "status": "completed",
+          "createdInPhase": "PLAN"
+        },
+        {
+          "id": "ISC-7",
+          "description": "Confirm whether LifeOS `setup` has actually run (no `~/.claude/LIFEOS` config tree present).",
+          "type": "criterion",
+          "status": "completed",
+          "createdInPhase": "PLAN"
+        },
+        {
+          "id": "ISC-8",
+          "description": "Present findings table (target | what it is | size | safe-to-remove | reversible).",
+          "type": "criterion",
+          "status": "pending",
+          "createdInPhase": "PLAN"
+        },
+        {
+          "id": "ISC-9",
+          "description": "Present ordered cleanup plan with the root-cause fix sequenced first.",
+          "type": "criterion",
+          "status": "pending",
+          "createdInPhase": "PLAN"
+        },
+        {
+          "id": "ISC-10",
+          "description": "Anti: Do NOT delete or move any file or directory this run.",
+          "type": "anti-criterion",
+          "status": "pending",
+          "createdInPhase": "PLAN"
+        },
+        {
+          "id": "ISC-11",
+          "description": "Anti: Do NOT modify the live `~/.claude` tree (including settings.json) without a separate approval.",
+          "type": "anti-criterion",
+          "status": "pending",
+          "createdInPhase": "PLAN"
+        },
+        {
+          "id": "ISC-12",
+          "description": "Antecedent: Plan is presented as a numbered, per-target-approvable list so Dominic can accept/decline each.",
+          "type": "criterion",
+          "status": "pending",
+          "createdInPhase": "PLAN"
+        }
+      ],
+      "ratings": [],
+      "intent": "Dominic ran his LifeOS work driven from OpenCode (as harness + GPT-5.5 inference backend on :7878). He wants **Claude Code (this `~/.claude` install) to become the PRIMARY harness**: migrate the good work here, update from the stale live version (PAI 5.0.0 / Algorithm v6.3.0) …",
+      "bodyHash": "4778ac4faf46bc85b73df313653eaabc21f6d1def711e3e9957851ce723724f6",
+      "lastBodySize": 16545,
+      "ascent": {
+        "key": "cairn",
+        "icon": "🪨",
+        "label": "Cairn",
+        "color": "#34d399"
+      },
+      "agents": [
+        {
+          "name": "434f1e02-e104-463a-9b1a-71397305a5ae::Full subsystem inventory audit",
+          "agentType": "Explore",
+          "status": "active",
+          "phase": "BUILD"
+        },
+        {
+          "name": "434f1e02-e104-463a-9b1a-71397305a5ae::Obsidian + PAI prior-work archaeology",
+          "agentType": "Explore",
+          "status": "active",
+          "phase": "BUILD"
+        }
+      ],
+      "lastToolActivity": "2026-08-20T13:58:09.940Z"
+    },
+    "native-health": {
+      "task": "health check ping",
+      "sessionUUID": "health",
+      "phase": "native",
+      "progress": "0/0",
+      "started": "2026-08-20T13:56:31.242Z",
+      "updatedAt": "2026-08-20T13:56:34.818Z",
+      "ratings": [],
+      "sessionName": "Verify System Health Check Status"
+    },
+    "native-34561945-e99b-4457-a017-cfa156c4921b": {
+      "task": "this is some context: How to work with me well: talk to me as a peer (I'll push back), tell me the outcome not the mecha",
+      "sessionName": "Integrate Vault Context Lifeos Memory",
+      "sessionUUID": "34561945-e99b-4457-a017-cfa156c4921b",
+      "phase": "native",
+      "progress": "0/0",
+      "started": "2026-08-20T14:08:03.670Z",
+      "updatedAt": "2026-08-20T18:33:19.519Z",
+      "ratings": [],
+      "lastToolActivity": "2026-08-20T18:33:28.971Z"
+    }
+  },
+  "_events_offset": 28102,
+  "_folded_at": "2026-08-20T18:33:28.972Z"
+}

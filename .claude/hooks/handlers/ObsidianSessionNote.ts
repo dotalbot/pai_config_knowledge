@@ -7,11 +7,30 @@
  * Writes a structured markdown note to the vault's 07 PAI/ folder.
  */
 
-import { readFileSync, mkdirSync, writeFileSync } from 'fs'
+import { readFileSync, mkdirSync, writeFileSync, existsSync } from 'fs'
 import { join } from 'path'
 
-const VAULT = '/opt/docker/appdata/obsidian-jellybase/vault/OB_v2'
-const PAI_DIR = join(VAULT, '07 PAI')
+// Vault path is configured centrally in LIFEOS/USER/INTEGRATIONS/obsidian.yaml
+// (single source of truth — was hardcoded in 6 places before the 2026-08-20 migration).
+// Falls back to the historical path if the config file is absent, so this never breaks.
+const FALLBACK_VAULT = '/opt/docker/appdata/obsidian-jellybase/vault/OB_v2'
+const FALLBACK_NOTES_DIR = '07 PAI'
+
+function loadVaultConfig(): { vault: string; notesDir: string } {
+  const cfg = join(process.env.LIFEOS_DIR || join(process.env.HOME || '', '.claude', 'LIFEOS'), 'USER', 'INTEGRATIONS', 'obsidian.yaml')
+  try {
+    if (existsSync(cfg)) {
+      const text = readFileSync(cfg, 'utf8')
+      const path = text.match(/^\s*path:\s*(.+?)\s*$/m)?.[1]?.replace(/^["']|["']$/g, '')
+      const notesDir = text.match(/^\s*session_notes_dir:\s*(.+?)\s*$/m)?.[1]?.replace(/^["']|["']$/g, '')
+      return { vault: path || FALLBACK_VAULT, notesDir: notesDir || FALLBACK_NOTES_DIR }
+    }
+  } catch { /* fall through to defaults */ }
+  return { vault: FALLBACK_VAULT, notesDir: FALLBACK_NOTES_DIR }
+}
+
+const { vault: VAULT, notesDir: NOTES_SUBDIR } = loadVaultConfig()
+const PAI_DIR = join(VAULT, NOTES_SUBDIR)
 
 interface SessionNote {
   date: string

@@ -1,0 +1,15 @@
+════ LifeOS ═══════════════════════════
+
+**`01 Thinking/Ideas/Enterprise Architecture Approach for Legacy Modernisation, tech debt.md`** — 63,725 bytes, modified 18 Aug.
+
+Worth flagging what I noticed reading it earlier: it opens with *"Details provided by Andy's AI search"*. So it's largely generated research you collected, not your own prose. That's relevant to the question I asked, and I'll come back to it.
+
+On voice: noted, and it's fine. The endpoint returned 200, so Pulse is accepting the POSTs on localhost — they're being synthesized into the void on a headless box. No error, just no speaker. The tutorial works text-only; every narration is also written out as prose, which is the workflow's own contract. I'll keep firing them since they cost nothing and will just start working if you ever attach audio or tunnel it.
+
+Say the word if you'd rather I drop the curls entirely for this session.
+
+My question still stands, and the "Andy's AI search" detail sharpens it:
+
+**Does that 63KB note belong in `02 Doing` as-is, or does something different go there — and if different, what?**
+
+🗣️ JellyPai: Note is Enterprise Architecture Approach for Legacy Modernisation, tech debt. Does it go in Doing as-is, or does something else?

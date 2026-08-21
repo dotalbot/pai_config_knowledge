@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-06-05T19:44:29.187Z",
+  "sessionId": "dc3dd97c-12e9-49c5-9559-d014e3cef5b9",
+  "eventType": "alert",
+  "inspector": "PatternInspector",
+  "tool": "Bash",
+  "target": "python3 -c \"\nimport re, sys\nxml = open('/tmp/frontier_pptx/ppt/slides/slide12.xml').read()\n# Find all paragraphs containing 'Enter text here'\nidx = 0\ncount = 0\nwhile True:\n    pos = xml.find('Enter text here', idx)\n    if pos < 0: break\n    count += 1\n    # Get surrounding context (200 chars before)\n    start = max(0, pos-200)\n    end = min(len(xml), pos+100)\n    context = xml[start:end].replace('\\n','')[:200]\n    print(f'--- Placeholder {count} ---')\n    print(context[:200])\n    idx = pos + 1\n\"",
+  "reason": "Python inline execution (logged for audit)",
+  "actionTaken": "Alert logged, allowed execution"
+}

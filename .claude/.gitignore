@@ -232,3 +232,8 @@ teams/
 default/
 surface-verify/
 skills/Art/Tools/node_modules/
+
+# Interceptor verification captures — never commit (name-anchored; capture format varies)
+interceptor-screenshot-*
+interceptor-capture-*
+interceptor-macos-screenshot-*

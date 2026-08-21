@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-06-05T19:26:39.608Z",
+  "sessionId": "dc3dd97c-12e9-49c5-9559-d014e3cef5b9",
+  "eventType": "alert",
+  "inspector": "EgressInspector",
+  "tool": "Bash",
+  "target": "cat /tmp/frontier_pptx/ppt/slides/slide9.xml | python3 -c \"\nimport sys, re\ncontent = sys.stdin.read()\n# Find full paragraph containing 'Enter text here'\nidx = content.find('Enter text here')\n# Find start of <a:p>\nstart = content.rfind('<a:p>', 0, idx)\n# Find end of </a:p>\nend = content.find('</a:p>', idx) + len('</a:p>')\nprint(content[start:end])\n\"",
+  "reason": "Egress detected: Python inline execution",
+  "actionTaken": "Alert logged, allowed execution"
+}

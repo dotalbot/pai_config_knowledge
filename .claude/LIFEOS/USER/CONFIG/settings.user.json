@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "defaultMode": "auto"
+  },
+  "statusLine": {
+    "type": "command",
+    "command": "/home/jellypai/.claude/LIFEOS/USER/CONFIG/bin/StatusLine.sh",
+    "refreshInterval": 2
+  }
+}

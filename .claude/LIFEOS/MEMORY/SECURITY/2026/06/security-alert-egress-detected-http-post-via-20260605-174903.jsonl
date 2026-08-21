@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-06-05T16:49:03.628Z",
+  "sessionId": "dc3dd97c-12e9-49c5-9559-d014e3cef5b9",
+  "eventType": "alert",
+  "inspector": "EgressInspector",
+  "tool": "Bash",
+  "target": "curl -s -X POST \"http://192.168.1.1:18888/v1/default/banks/global-dominic/memories/recall\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"query\": \"MS-102 exam preparation Microsoft 365\", \"limit\": 5}' \\\n  --max-time 5 2>/dev/null | python3 -m json.tool 2>/dev/null | head -40",
+  "reason": "Egress detected: HTTP POST via curl",
+  "actionTaken": "Alert logged, allowed execution"
+}

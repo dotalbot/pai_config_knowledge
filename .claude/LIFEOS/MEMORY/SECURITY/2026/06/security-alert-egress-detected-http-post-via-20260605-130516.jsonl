@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-06-05T12:05:16.840Z",
+  "sessionId": "dc3dd97c-12e9-49c5-9559-d014e3cef5b9",
+  "eventType": "alert",
+  "inspector": "EgressInspector",
+  "tool": "Bash",
+  "target": "curl -s -X POST http://localhost:31337/notify \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"message\": \"Phase 2 complete. All five ideal state dimensions captured.\"}' \\\n  > /dev/null 2>&1 &",
+  "reason": "Egress detected: HTTP POST via curl",
+  "actionTaken": "Alert logged, allowed execution"
+}

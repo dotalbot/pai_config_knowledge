@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-06-05T11:18:12.515Z",
+  "sessionId": "dc3dd97c-12e9-49c5-9559-d014e3cef5b9",
+  "eventType": "alert",
+  "inspector": "EgressInspector",
+  "tool": "Bash",
+  "target": "curl -s -X POST http://localhost:31337/notify \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"message\": \"Starting the interview. Scanning phases first.\"}' \\\n  > /dev/null 2>&1 &\nbun ~/.claude/PAI/TOOLS/InterviewScan.ts 2>/dev/null",
+  "reason": "Egress detected: HTTP POST via curl",
+  "actionTaken": "Alert logged, allowed execution"
+}

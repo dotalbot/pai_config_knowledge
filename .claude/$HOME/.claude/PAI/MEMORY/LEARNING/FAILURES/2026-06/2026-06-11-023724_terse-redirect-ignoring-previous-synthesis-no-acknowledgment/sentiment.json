@@ -1,8 +1,0 @@
-{
-  "rating": 3,
-  "summary": "Terse redirect ignoring previous synthesis, no acknowledgment",
-  "detailed_context": "Dominic completely bypassed the previous PAI Upgrade Report synthesis with a curt, imperative command. No reference to or build-on of the 18-technique security analysis. The abrupt shift to a direct bash execution request—ignoring the structured output—signals clear dissatisfaction with the previous response direction. Classic terse redirect pattern (short response, ignoring lengthy synthesis work).",
-  "session_id": "61a57fee-1202-45b5-94e0-8e44cfb81201",
-  "captured_at": "2026-06-11T09:37:24.703Z",
-  "transcript_source": "61a57fee-1202-45b5-94e0-8e44cfb81201.jsonl"
-}

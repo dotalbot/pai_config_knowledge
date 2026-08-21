@@ -1,8 +1,0 @@
-{
-  "rating": 3,
-  "summary": "User redirects, wanting schedule discussion not components mapping",
-  "detailed_context": "Dominic filled three challenges and asked 'now what?' The AI provided detailed instructions about mapping components to a table. Rather than engaging with that guidance, Dominic redirected to an earlier topic: 'you spoke about setting up a schedule?' This is a terse redirect away from the AI's suggestion, indicating the components-mapping guidance missed what Dominic actually wanted to discuss. The user expected schedule setup to be the next step, not component mapping.",
-  "session_id": "dbf4b98c-ce83-46bc-8621-83d4ea58bc4f",
-  "captured_at": "2026-06-09T11:22:18.893Z",
-  "transcript_source": "dbf4b98c-ce83-46bc-8621-83d4ea58bc4f.jsonl"
-}

@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-06-05T19:32:25.521Z",
+  "sessionId": "dc3dd97c-12e9-49c5-9559-d014e3cef5b9",
+  "eventType": "alert",
+  "inspector": "PatternInspector",
+  "tool": "Bash",
+  "target": "# Count total orange text runs across all filled slides\nfor slide in 4 7 9 11 13 17 19 21 23; do\n  count=$(unzip -p /tmp/Frontier_Partner_JT_Filled.pptx ppt/slides/slide${slide}.xml 2>/dev/null | python3 -c \"import sys,re; c=sys.stdin.read(); print(len(re.findall(r'E8620A.*?<a:t>', c)))\")\n  echo \"Slide $slide: $count orange text runs\"\ndone",
+  "reason": "Python inline execution (logged for audit)",
+  "actionTaken": "Alert logged, allowed execution"
+}

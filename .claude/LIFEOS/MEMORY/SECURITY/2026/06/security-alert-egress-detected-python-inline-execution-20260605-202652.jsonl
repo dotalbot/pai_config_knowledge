@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-06-05T19:26:52.783Z",
+  "sessionId": "dc3dd97c-12e9-49c5-9559-d014e3cef5b9",
+  "eventType": "alert",
+  "inspector": "EgressInspector",
+  "tool": "Bash",
+  "target": "cat /tmp/frontier_pptx/ppt/slides/slide7.xml | python3 -c \"\nimport sys, re\ncontent = sys.stdin.read()\nplaceholders = ['Enter text here', 'Add new role here', 'Enter stage here', 'Enter role here']\nfor ph in placeholders:\n    idx = content.find(ph)\n    if idx >= 0:\n        start = content.rfind('<a:p>', 0, idx)\n        end = content.find('</a:p>', idx) + len('</a:p>')\n        print(f'--- {ph} ---')\n        print(content[start:end])\n        print()\n\"",
+  "reason": "Egress detected: Python inline execution",
+  "actionTaken": "Alert logged, allowed execution"
+}

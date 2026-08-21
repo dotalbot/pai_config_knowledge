@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-06-05T19:32:20.268Z",
+  "sessionId": "dc3dd97c-12e9-49c5-9559-d014e3cef5b9",
+  "eventType": "alert",
+  "inspector": "PatternInspector",
+  "tool": "Bash",
+  "target": "# Verify content actually got written - check slide 9 for specific text\nunzip -p /tmp/Frontier_Partner_JT_Filled.pptx ppt/slides/slide9.xml | python3 -c \"\nimport sys, re\ncontent = sys.stdin.read()\ntexts = re.findall(r'E8620A.*?<a:t>([^<]+)</a:t>', content)\nprint(f'Orange text runs found: {len(texts)}')\nfor t in texts[:5]:\n    print(f'  - {t[:80]}')\n\"",
+  "reason": "Python inline execution (logged for audit)",
+  "actionTaken": "Alert logged, allowed execution"
+}

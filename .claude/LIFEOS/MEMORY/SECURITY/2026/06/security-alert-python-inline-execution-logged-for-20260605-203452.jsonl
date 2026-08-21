@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-06-05T19:34:52.928Z",
+  "sessionId": "dc3dd97c-12e9-49c5-9559-d014e3cef5b9",
+  "eventType": "alert",
+  "inspector": "PatternInspector",
+  "tool": "Bash",
+  "target": "# Slide 17 content IS there but not orange - check the rPr structure\nunzip -p /tmp/Frontier_Partner_JT_Filled.pptx ppt/slides/slide17.xml | python3 -c \"\nimport sys, re\nc = sys.stdin.read()\nidx = c.find('accountability')\nstart = c.rfind('<a:p>', 0, idx)\nend = c.find('</a:p>', idx) + len('</a:p>')\nprint(c[start:end][:400])\n\"",
+  "reason": "Python inline execution (logged for audit)",
+  "actionTaken": "Alert logged, allowed execution"
+}

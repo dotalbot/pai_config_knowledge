@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-06-05T19:27:30.140Z",
+  "sessionId": "dc3dd97c-12e9-49c5-9559-d014e3cef5b9",
+  "eventType": "alert",
+  "inspector": "EgressInspector",
+  "tool": "Bash",
+  "target": "cat /tmp/frontier_pptx/ppt/slides/slide11.xml | python3 -c \"\nimport sys, re\ncontent = sys.stdin.read()\n# Find all occurrences of 'Enter text here'\nimport re\nfor m in re.finditer('Enter text here', content):\n    idx = m.start()\n    start = content.rfind('<p:sp>', 0, idx)\n    # Get brief context\n    ctx_start = max(0, idx-100)\n    ctx_end = min(len(content), idx+50)\n    print(f'pos {idx}: ...{content[ctx_start:ctx_end]}...')\n    print('---')\n\" 2>/dev/null | head -80",
+  "reason": "Egress detected: Python inline execution",
+  "actionTaken": "Alert logged, allowed execution"
+}

@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-06-05T16:54:57.100Z",
+  "sessionId": "dc3dd97c-12e9-49c5-9559-d014e3cef5b9",
+  "eventType": "alert",
+  "inspector": "PatternInspector",
+  "tool": "Bash",
+  "target": "curl -s -X POST http://localhost:31337/notify \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"message\": \"Building your MS-102 three week study plan.\"}' \\\n  > /dev/null 2>&1 &",
+  "reason": "Outbound HTTP POST via curl (logged for audit)",
+  "actionTaken": "Alert logged, allowed execution"
+}

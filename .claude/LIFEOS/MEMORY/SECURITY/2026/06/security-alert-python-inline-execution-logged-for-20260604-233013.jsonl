@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-06-04T22:30:13.952Z",
+  "sessionId": "dc3dd97c-12e9-49c5-9559-d014e3cef5b9",
+  "eventType": "alert",
+  "inspector": "PatternInspector",
+  "tool": "Bash",
+  "target": "python3 -c \"\nimport json\nwith open('/tmp/yt_transcript2.en.json3') as f:\n    data = json.load(f)\nevents = data.get('events', [])\nlines = []\nfor e in events:\n    segs = e.get('segs', [])\n    text = ''.join(s.get('utf8','') for s in segs).strip()\n    if text and text != '\\n':\n        lines.append(text)\nfull = ' '.join(lines)\nprint(f'Total chars: {len(full)}')\n# Get video title if available\nprint('---TRANSCRIPT---')\nprint(full)\n\" 2>/dev/null | head -5",
+  "reason": "Python inline execution (logged for audit)",
+  "actionTaken": "Alert logged, allowed execution"
+}

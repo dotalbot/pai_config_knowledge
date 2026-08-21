@@ -1,0 +1,8 @@
+{
+  "rating": 3,
+  "summary": "User answered question but had to repeat—unclear if first response was received",
+  "detailed_context": "Dominic answered the movie question ('80s movies, scifi') but then wrote 'hello?' suggesting no acknowledgment was received or the connection felt broken. He's now repeating the same answer. This indicates mild-to-clear frustration—not with the question itself, but with feeling unheard. The 'hello?' is a confirmation-seeking signal common when responses go unacknowledged. Next: acknowledge the answer directly and continue the conversation naturally.",
+  "session_id": "dc3dd97c-12e9-49c5-9559-d014e3cef5b9",
+  "captured_at": "2026-06-05T15:30:26.411Z",
+  "transcript_source": "dc3dd97c-12e9-49c5-9559-d014e3cef5b9.jsonl"
+}

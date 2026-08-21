@@ -1,0 +1,15 @@
+{"ts":"2026-08-20T12:31:33.102Z","tool":"","cmd_prefix":"","cmd_sha":"e7ac0786668e0ff0","decision":"neutral","reasons":["default-defer"],"cache":"n/a"}
+{"ts":"2026-08-20T12:31:33.128Z","tool":"","cmd_prefix":"","cmd_sha":"e7ac0786668e0ff0","decision":"neutral","reasons":["default-defer"],"cache":"n/a"}
+{"ts":"2026-08-20T12:36:57.644Z","tool":"","cmd_prefix":"","cmd_sha":"e7ac0786668e0ff0","decision":"neutral","reasons":["default-defer"],"cache":"n/a"}
+{"ts":"2026-08-20T12:36:57.669Z","tool":"","cmd_prefix":"","cmd_sha":"e7ac0786668e0ff0","decision":"neutral","reasons":["default-defer"],"cache":"n/a"}
+{"ts":"2026-08-20T12:38:31.360Z","tool":"","cmd_prefix":"","cmd_sha":"e7ac0786668e0ff0","decision":"neutral","reasons":["default-defer"],"cache":"n/a"}
+{"ts":"2026-08-20T12:38:31.387Z","tool":"","cmd_prefix":"","cmd_sha":"e7ac0786668e0ff0","decision":"neutral","reasons":["default-defer"],"cache":"n/a"}
+{"ts":"2026-08-20T12:39:35.279Z","tool":"","cmd_prefix":"","cmd_sha":"e7ac0786668e0ff0","decision":"neutral","reasons":["default-defer"],"cache":"n/a"}
+{"ts":"2026-08-20T12:39:35.304Z","tool":"","cmd_prefix":"","cmd_sha":"e7ac0786668e0ff0","decision":"neutral","reasons":["default-defer"],"cache":"n/a"}
+{"ts":"2026-08-20T12:40:02.899Z","tool":"","cmd_prefix":"","cmd_sha":"e7ac0786668e0ff0","decision":"neutral","reasons":["default-defer"],"cache":"n/a"}
+{"ts":"2026-08-20T12:40:02.923Z","tool":"","cmd_prefix":"","cmd_sha":"e7ac0786668e0ff0","decision":"neutral","reasons":["default-defer"],"cache":"n/a"}
+{"ts":"2026-08-20T12:40:18.069Z","tool":"Bash","cmd_prefix":"mkdir -p ~/.claude/LIFEOS/USER/INTEGRATIONS\necho \"created INTEGR","cmd_sha":"c78d6b08998cf89f","decision":"allow","reasons":["trusted-workspace-command"],"cache":"miss"}
+{"ts":"2026-08-20T12:41:16.990Z","tool":"","cmd_prefix":"","cmd_sha":"e7ac0786668e0ff0","decision":"neutral","reasons":["default-defer"],"cache":"n/a"}
+{"ts":"2026-08-20T12:41:17.015Z","tool":"","cmd_prefix":"","cmd_sha":"e7ac0786668e0ff0","decision":"neutral","reasons":["default-defer"],"cache":"n/a"}
+{"ts":"2026-08-20T13:56:39.309Z","tool":"","cmd_prefix":"","cmd_sha":"e7ac0786668e0ff0","decision":"neutral","reasons":["default-defer"],"cache":"n/a"}
+{"ts":"2026-08-20T13:56:39.334Z","tool":"","cmd_prefix":"","cmd_sha":"e7ac0786668e0ff0","decision":"neutral","reasons":["default-defer"],"cache":"n/a"}

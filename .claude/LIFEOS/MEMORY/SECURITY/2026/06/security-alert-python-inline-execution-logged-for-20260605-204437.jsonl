@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-06-05T19:44:37.699Z",
+  "sessionId": "dc3dd97c-12e9-49c5-9559-d014e3cef5b9",
+  "eventType": "alert",
+  "inspector": "PatternInspector",
+  "tool": "Bash",
+  "target": "python3 -c \"\nimport re\nxml = open('/tmp/frontier_pptx/ppt/slides/slide12.xml').read()\n# Extract all shape names (nvSpPr titles)\nnames = re.findall(r'<p:cNvPr[^>]+name=\\\"([^\\\"]+)\\\"', xml)\nprint('Shape names:')\nfor n in names:\n    print(' ', n)\n\"\n",
+  "reason": "Python inline execution (logged for audit)",
+  "actionTaken": "Alert logged, allowed execution"
+}

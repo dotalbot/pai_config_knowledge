@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-06-05T19:41:34.718Z",
+  "sessionId": "dc3dd97c-12e9-49c5-9559-d014e3cef5b9",
+  "eventType": "alert",
+  "inspector": "PatternInspector",
+  "tool": "Bash",
+  "target": "# Check slide 23 remaining\nunzip -p /tmp/Frontier_Partner_JT_Filled.pptx ppt/slides/slide23.xml | python3 -c \"\nimport sys,re; c=sys.stdin.read()\nidx = c.find('Enter text here')\nstart = c.rfind('<p:sp>', 0, idx)\ntexts_before = re.findall(r'<a:t>([^<]+)</a:t>', c[start:idx])\nprint('Context:', [t for t in texts_before if t.strip()])\n\"\n# Check slide 12 - what are the 4 remaining\nunzip -p /tmp/Frontier_Partner_JT_Filled.pptx ppt/slides/slide12.xml | python3 -c \"\nimport sys,re; c=sys.stdin.read()\nposi",
+  "reason": "Python inline execution (logged for audit)",
+  "actionTaken": "Alert logged, allowed execution"
+}

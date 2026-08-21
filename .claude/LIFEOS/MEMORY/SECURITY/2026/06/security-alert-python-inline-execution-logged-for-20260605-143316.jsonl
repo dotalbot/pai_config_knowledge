@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-06-05T13:33:16.021Z",
+  "sessionId": "dc3dd97c-12e9-49c5-9559-d014e3cef5b9",
+  "eventType": "alert",
+  "inspector": "PatternInspector",
+  "tool": "Bash",
+  "target": "curl -s \"http://192.168.1.1:18888/v1/default/banks\" --max-time 5 2>/dev/null | python3 -c \"import json,sys; d=json.load(sys.stdin); [print(b.get('id'), b.get('name',''), b.get('description','')) for b in d.get('banks', d if isinstance(d,list) else [])]\" 2>/dev/null || curl -s \"http://192.168.1.1:18888/v1/default/banks\" --max-time 5 2>/dev/null | python3 -m json.tool 2>/dev/null | head -40",
+  "reason": "Python inline execution (logged for audit)",
+  "actionTaken": "Alert logged, allowed execution"
+}

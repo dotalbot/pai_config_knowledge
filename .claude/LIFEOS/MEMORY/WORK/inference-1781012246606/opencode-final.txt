@@ -1,0 +1,142 @@
+1. **Title Options**
+
+| Option | Title | What It Signals Internally | Career Market Value | Risk |
+|---|---:|---|---|---|
+| Safe / diplomatic | **Senior Solutions Architect, AI & Copilot** | Fits the posted JD, keeps hierarchy calm, makes Dom look like an upgrade rather than a land-grab. | Market-readable at **£100k-£120k**. Good but not transformative. | Too narrow. Risks trapping him in delivery architecture instead of strategic ownership. |
+| Ambitious-but-fair | **Principal Architect, AI & Microsoft 365** | Says: first true architecture leader, accountable for technical direction, client credibility, internal AI transformation. | Market-readable at **£115k-£140k**. Strong consultancy/title signal. | Some founders may ask, “Principal over whom?” Answer: principal by technical authority, not people management. |
+| Stretch | **Head of AI Architecture** | Says: Dom owns the AI architecture agenda across internal transformation and client-facing offers. | Market-readable at **£130k-£160k+** and sets him up for CTO/Chief Architect later. | Could scare a 54-person founder-led firm if they hear it as “executive power grab.” Best introduced as a 12-month title path, not day-one demand. |
+
+Best ask: **Principal Architect, AI & Microsoft 365**.
+
+Fallback: **Senior Solutions Architect, AI & Copilot**, with a written path to **Head of AI Architecture** after 12 months.
+
+---
+
+2. **Salary Anchor**
+
+Dom should name **£125,000 base** first.
+
+Why:
+
+- Posted range tops at **£105k**, but that is for the JD, not the actual role Dom is shaping.
+- Dom is not just filling Senior Solutions Architect. He is potentially becoming their **first architecture function**, **first engineering-capable AI practitioner**, and **internal Frontier Firm transformation lead**.
+- UK top-end Senior/Principal AI/Copilot architecture market is **£100k-£125k**.
+- Fractional equivalent is **£96k-£180k/year**, and Dom would be giving them full-time access.
+- Microsoft direct pays **£128k-£174k**, so **£125k** is still founder-friendly compared with enterprise tech compensation.
+
+Recommended phrasing:
+
+> “The posted range makes sense for a Senior Solutions Architect delivery role. The role we’re discussing sounds broader: first architect, internal AI transformation, client-facing AI/Copilot architecture, and helping build technical capability around Microsoft partnership. For that scope, I’d anchor the base at **£125k**.”
+
+Target outcome:
+
+- Strong outcome: **£120k base**
+- Acceptable outcome: **£110k-£115k base plus structured upside**
+- Do not accept plain **£105k** unless there is a written step-up, bonus, and equity/profit-share mechanism.
+
+---
+
+3. **Equity Conversation**
+
+Best mechanism: **phantom equity or profit-share**, not ordinary equity as the first ask.
+
+Why:
+
+- A 54-person founder-led UK consultancy with no PE may be emotionally protective of actual equity.
+- EMI options are possible, but only make sense if they already have or are willing to create a share option scheme.
+- Phantom equity gives Dom upside tied to value creation without forcing founders to dilute immediately.
+- Profit-share is simplest operationally but weaker than phantom equity because it can be affected by accounting decisions.
+
+Recommended order of ask:
+
+1. **Phantom equity: 1.0%-1.5% of company value growth above today’s baseline**
+2. If they resist: **AI/Copilot practice profit-share: 5%-8% of gross profit from net-new AI/Copilot architecture revenue Dom originates or materially enables**
+3. If they already have EMI: **EMI options worth 0.5%-1.0% fully diluted**, vesting over 4 years with a 1-year cliff
+
+Exact ask:
+
+> “I’m not trying to create a founder-level equity issue. But if I’m helping create a new AI architecture capability, improve Microsoft partner status, and open higher-value client work, I’d like some upside linked to that value creation. The cleanest version could be phantom equity: **1% of company value growth above today’s baseline**, vesting over four years. If actual equity is too heavy administratively, I’d also be open to a profit-share tied specifically to AI/Copilot revenue.”
+
+Numbers:
+
+- Ask: **1.0% phantom equity**
+- Stretch: **1.5% phantom equity**
+- Fallback: **5%-8% profit-share on AI/Copilot gross profit**
+- EMI option ask: **0.5%-1.0%**
+
+Do not ask for more than **1.5%** initially. Above that starts sounding like co-founder economics.
+
+---
+
+4. **Growth Structure**
+
+Dom should propose a structured 24-month package.
+
+Day-one package:
+
+- Title: **Principal Architect, AI & Microsoft 365**
+- Base: **£120k-£125k**
+- Bonus: **15%-20% of base**
+- Upside: **1% phantom equity** or **5%-8% AI/Copilot gross profit-share**
+
+6-month checkpoint:
+
+Trigger if Dom delivers at least 3 of these:
+
+- Internal AI/Copilot roadmap approved by leadership
+- 2 reusable Copilot Studio / Power Platform accelerators built
+- 3 senior client architecture workshops delivered
+- Microsoft Solutions Partner plan documented and underway
+- £150k+ qualified AI/Copilot pipeline influenced
+
+Outcome:
+
+- Confirm strategic remit
+- Bonus eligibility activated
+- Title remains Principal Architect or moves to **Lead AI Architect** if they need softer wording
+
+12-month review:
+
+Trigger if Dom delivers:
+
+- **£300k-£500k net-new AI/Copilot pipeline influenced**
+- **£150k-£250k closed revenue influenced**
+- Microsoft Solutions Partner designation achieved or materially advanced
+- Internal AI operating model adopted
+- At least 2 consultants mentored into credible Copilot/Power Platform delivery capability
+
+Outcome:
+
+- Base increases to **£135k**
+- Title moves to **Head of AI Architecture**
+- Bonus increases to **20%-25%**
+- Phantom/profit-share continues vesting
+
+24-month review:
+
+Trigger if Dom delivers:
+
+- **£750k-£1.2M AI/Copilot pipeline influenced**
+- **£400k-£600k closed annual revenue influenced**
+- Repeatable AI/Copilot offer established
+- 4-6 consultants enabled around architecture/delivery
+- Defence/ADS-adjacent higher-value client work opened
+
+Outcome:
+
+- Base increases to **£145k-£155k**
+- Title: **Head of AI Architecture** or **Chief Architect**
+- Bonus: **25%-30%**
+- Phantom equity increases from **1.0% to 1.5%**, or profit-share increases to **8%-10%**
+
+---
+
+5. **One Red Flag To Address Head-On**
+
+The red flag: **They may want Dom’s strategic architecture, AI transformation, Microsoft partnership uplift, mentoring, and hands-on delivery, but pay him as a standard Senior Solutions Architect.**
+
+Dom should say this directly but diplomatically:
+
+> “The only thing I’d want to avoid is mismatched expectations. If this is primarily a Senior Solutions Architect delivery role, the posted range makes sense. If the real opportunity is to help The Inform Team build its first architecture capability, shape the AI/Copilot offer, support Microsoft partner progression, mentor consultants, and create new client value, then I’d suggest we structure the role, title, and upside around that broader remit.”
+
+That frames the negotiation correctly: not “pay me more because I want more,” but “define the real scope, then match the package to it.”

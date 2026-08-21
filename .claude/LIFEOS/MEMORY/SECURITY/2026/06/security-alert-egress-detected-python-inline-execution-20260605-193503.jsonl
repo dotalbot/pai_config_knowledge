@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-06-05T18:35:03.710Z",
+  "sessionId": "dc3dd97c-12e9-49c5-9559-d014e3cef5b9",
+  "eventType": "alert",
+  "inspector": "EgressInspector",
+  "tool": "Bash",
+  "target": "tail -3 /Users/dominictalbot/.claude/projects/-Users-dominictalbot--claude/ec5b3eda-431b-49e9-a360-fd68f1e3de48.jsonl 2>/dev/null | python3 -c \"import sys,json; [print(json.loads(l).get('type','?'), json.loads(l).get('content','')[:100] if isinstance(json.loads(l).get('content',''), str) else '') for l in sys.stdin]\" 2>/dev/null || tail -c 500 /Users/dominictalbot/.claude/projects/-Users-dominictalbot--claude/ec5b3eda-431b-49e9-a360-fd68f1e3de48.jsonl",
+  "reason": "Egress detected: Python inline execution",
+  "actionTaken": "Alert logged, allowed execution"
+}

@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-06-05T19:34:47.795Z",
+  "sessionId": "dc3dd97c-12e9-49c5-9559-d014e3cef5b9",
+  "eventType": "alert",
+  "inspector": "EgressInspector",
+  "tool": "Bash",
+  "target": "# Check slide 17 - what happened\nunzip -p /tmp/Frontier_Partner_JT_Filled.pptx ppt/slides/slide17.xml | python3 -c \"\nimport sys, re\nc = sys.stdin.read()\nprint('Enter text here count:', c.count('Enter text here'))\nprint('E8620A count:', c.count('E8620A'))\n# Find pain points text\nfor phrase in ['accountability', 'siloed', 'Inconsistent']:\n    print(f'{phrase} found:', phrase in c)\n\"",
+  "reason": "Egress detected: Python inline execution",
+  "actionTaken": "Alert logged, allowed execution"
+}

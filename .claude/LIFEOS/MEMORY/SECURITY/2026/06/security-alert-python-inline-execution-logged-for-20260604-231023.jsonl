@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-06-04T22:10:23.703Z",
+  "sessionId": "dc3dd97c-12e9-49c5-9559-d014e3cef5b9",
+  "eventType": "alert",
+  "inspector": "PatternInspector",
+  "tool": "Bash",
+  "target": "python3 -c \"\nimport json, sys\nwith open('/tmp/yt_transcript.en.json3') as f:\n    data = json.load(f)\nevents = data.get('events', [])\nlines = []\nfor e in events:\n    segs = e.get('segs', [])\n    text = ''.join(s.get('utf8','') for s in segs).strip()\n    if text and text != '\\n':\n        lines.append(text)\nprint(' '.join(lines))\n\" 2>/dev/null | fold -s -w 100 | head -400",
+  "reason": "Python inline execution (logged for audit)",
+  "actionTaken": "Alert logged, allowed execution"
+}

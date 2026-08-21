@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-06-05T19:27:59.857Z",
+  "sessionId": "dc3dd97c-12e9-49c5-9559-d014e3cef5b9",
+  "eventType": "alert",
+  "inspector": "PatternInspector",
+  "tool": "Bash",
+  "target": "cat /tmp/frontier_pptx/ppt/slides/slide11.xml | python3 -c \"\nimport sys, re\ncontent = sys.stdin.read()\nshapes = re.findall(r'<p:sp>.*?</p:sp>', content, re.DOTALL)\nfor i, sp in enumerate(shapes):\n    texts = re.findall(r'<a:t>([^<]*)</a:t>', sp)\n    text_clean = ' | '.join(t for t in texts if t.strip())\n    # Get position\n    off = re.search(r'<a:off x=\\\"(\\d+)\\\" y=\\\"(\\d+)\\\"', sp)\n    pos = f'x={int(off.group(1))//914400:.2f}\\\" y={int(off.group(2))//914400:.2f}\\\"' if off else 'no pos'\n    if text",
+  "reason": "Python inline execution (logged for audit)",
+  "actionTaken": "Alert logged, allowed execution"
+}
