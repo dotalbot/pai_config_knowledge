@@ -10,3 +10,33 @@
 {"ts":"2026-08-20T14:24:08.045Z","session_id":"34561945-e99b-4457-a017-cfa156c4921b","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"67ms. Read path is working.\""}
 {"ts":"2026-08-20T15:06:55.665Z","session_id":"34561945-e99b-4457-a017-cfa156c4921b","decision":"flag","code":"too-many-emdashes","detail":"3 em-dashes in prose (max 2)"}
 {"ts":"2026-08-20T18:33:38.217Z","session_id":"34561945-e99b-4457-a017-cfa156c4921b","decision":"flag","code":"too-many-emdashes","detail":"3 em-dashes in prose (max 2)"}
+{"ts":"2026-08-21T09:32:54.585Z","session_id":"7c122d5e-33d0-4425-9a37-1b4f607f00e9","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"No problem — go be with him. We'll pick this up \""}
+{"ts":"2026-08-21T20:02:28.876Z","session_id":"34561945-e99b-4457-a017-cfa156c4921b","decision":"flag","code":"too-many-emdashes","detail":"3 em-dashes in prose (max 2)"}
+{"ts":"2026-08-21T20:18:26.538Z","session_id":"34561945-e99b-4457-a017-cfa156c4921b","decision":"flag","code":"too-many-emdashes","detail":"3 em-dashes in prose (max 2)"}
+{"ts":"2026-08-21T20:36:12.156Z","session_id":"34561945-e99b-4457-a017-cfa156c4921b","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-21T20:42:04.245Z","session_id":"34561945-e99b-4457-a017-cfa156c4921b","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-21T20:49:35.295Z","session_id":"34561945-e99b-4457-a017-cfa156c4921b","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-21T20:54:57.067Z","session_id":"34561945-e99b-4457-a017-cfa156c4921b","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-21T20:59:37.168Z","session_id":"34561945-e99b-4457-a017-cfa156c4921b","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-21T21:06:56.968Z","session_id":"34561945-e99b-4457-a017-cfa156c4921b","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-21T21:12:25.623Z","session_id":"34561945-e99b-4457-a017-cfa156c4921b","decision":"flag","code":"too-many-emdashes","detail":"4 em-dashes in prose (max 2)"}
+{"ts":"2026-08-21T21:16:14.931Z","session_id":"34561945-e99b-4457-a017-cfa156c4921b","decision":"flag","code":"too-many-emdashes","detail":"3 em-dashes in prose (max 2)"}
+{"ts":"2026-08-21T21:21:05.865Z","session_id":"34561945-e99b-4457-a017-cfa156c4921b","decision":"flag","code":"too-many-emdashes","detail":"4 em-dashes in prose (max 2)"}
+{"ts":"2026-08-21T21:23:51.750Z","session_id":"34561945-e99b-4457-a017-cfa156c4921b","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"This is exactly the right candidate — a repeatab\""}
+{"ts":"2026-08-21T21:32:54.535Z","session_id":"34561945-e99b-4457-a017-cfa156c4921b","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-21T21:35:20.303Z","session_id":"34561945-e99b-4457-a017-cfa156c4921b","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"They're relevance scores from the retrieval tool\""}
+{"ts":"2026-08-21T21:38:12.976Z","session_id":"34561945-e99b-4457-a017-cfa156c4921b","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-21T21:45:16.324Z","session_id":"34561945-e99b-4457-a017-cfa156c4921b","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"That's the answer, and it stops the git step her\""}
+{"ts":"2026-08-21T21:50:06.920Z","session_id":"34561945-e99b-4457-a017-cfa156c4921b","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-21T21:55:45.682Z","session_id":"34561945-e99b-4457-a017-cfa156c4921b","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"This needs a decision from you before I commit, \""}
+{"ts":"2026-08-21T21:58:12.645Z","session_id":"34561945-e99b-4457-a017-cfa156c4921b","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-21T22:02:55.859Z","session_id":"34561945-e99b-4457-a017-cfa156c4921b","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-21T22:05:46.534Z","session_id":"34561945-e99b-4457-a017-cfa156c4921b","decision":"flag","code":"too-many-emdashes","detail":"3 em-dashes in prose (max 2)"}
+{"ts":"2026-08-21T22:08:58.061Z","session_id":"34561945-e99b-4457-a017-cfa156c4921b","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"I've read enough. Let me stop and ask, because t\""}
+{"ts":"2026-08-21T22:13:19.847Z","session_id":"34561945-e99b-4457-a017-cfa156c4921b","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-21T22:45:27.891Z","session_id":"34561945-e99b-4457-a017-cfa156c4921b","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-21T22:53:24.151Z","session_id":"34561945-e99b-4457-a017-cfa156c4921b","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-21T23:20:10.276Z","session_id":"34561945-e99b-4457-a017-cfa156c4921b","decision":"flag","code":"too-many-emdashes","detail":"4 em-dashes in prose (max 2)"}
+{"ts":"2026-08-21T23:31:50.881Z","session_id":"34561945-e99b-4457-a017-cfa156c4921b","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"Right — the vault lives at `~/obsidian`, outside\""}
+{"ts":"2026-08-21T23:34:21.262Z","session_id":"34561945-e99b-4457-a017-cfa156c4921b","decision":"flag","code":"too-many-emdashes","detail":"3 em-dashes in prose (max 2)"}
+{"ts":"2026-08-21T23:36:45.955Z","session_id":"34561945-e99b-4457-a017-cfa156c4921b","decision":"flag","code":"too-many-emdashes","detail":"4 em-dashes in prose (max 2)"}

@@ -48,3 +48,7 @@
 {"timestamp":"2026-08-20T14:56:39+01:00","event":"config_change","session_id":"health","config_path":"settings.json","config_key":"unchanged","change_summary":"no diff detected (possible race)"}
 {"timestamp":"2026-08-20T15:14:22+01:00","event":"config_change","session_id":"34561945-e99b-4457-a017-cfa156c4921b","config_path":"settings.json","config_key":"statusLine","change_summary":"statusLine.{command}: modified"}
 {"timestamp":"2026-08-20T15:14:22+01:00","event":"config_change","session_id":"34561945-e99b-4457-a017-cfa156c4921b","config_path":"settings.json","config_key":"statusLine","change_summary":"statusLine.{command}: modified"}
+{"timestamp":"2026-08-21T10:32:50+01:00","event":"config_change","session_id":"34561945-e99b-4457-a017-cfa156c4921b","config_path":"settings.json","config_key":"unchanged","change_summary":"no diff detected (possible race)"}
+{"timestamp":"2026-08-21T10:32:50+01:00","event":"config_change","session_id":"34561945-e99b-4457-a017-cfa156c4921b","config_path":"settings.json","config_key":"unchanged","change_summary":"no diff detected (possible race)"}
+{"timestamp":"2026-08-21T21:16:56+01:00","event":"config_change","session_id":"34561945-e99b-4457-a017-cfa156c4921b","config_path":"settings.json","config_key":"unchanged","change_summary":"no diff detected (possible race)"}
+{"timestamp":"2026-08-21T21:16:56+01:00","event":"config_change","session_id":"34561945-e99b-4457-a017-cfa156c4921b","config_path":"settings.json","config_key":"unchanged","change_summary":"no diff detected (possible race)"}

@@ -75,7 +75,8 @@ Populated during `/LifeOS setup`. Typical layout:
 
 - Principal identity — `PRINCIPAL/PRINCIPAL_IDENTITY.md` (canonical, @-imported)
 - Career & resume — `PRINCIPAL/RESUME.md`
-- Writing style — `PRINCIPAL/WRITINGSTYLE.md`
+- Writing style — `PRINCIPAL/WRITINGSTYLE.md` ⚠️ **DEFERRED** — needs 3-5 real writing samples from Dom before it can be filled; ask when a natural opening appears
+- Rhetorical style — `PRINCIPAL/RHETORICALSTYLE.md` (filled 2026-08-21: three argument moves + diagrams-are-a-requirement)
 - Pronunciations — `PRINCIPAL/PRONUNCIATIONS.json` (TTS rules — Pulse VoiceServer reads this)
 - Contacts — `CONTACTS.md`
 - Definitions — `DEFINITIONS.md`

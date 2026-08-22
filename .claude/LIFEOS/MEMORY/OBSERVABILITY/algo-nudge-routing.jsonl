@@ -2,3 +2,11 @@
 {"ts":"2026-08-20T14:08:03.686Z","session":"34561945","prompt_head":"this is some context: How to work with me well: talk to me as a peer (I'll push ","fired":["Teach:/teach-me"]}
 {"ts":"2026-08-20T14:17:15.583Z","session":"34561945","prompt_head":"we will address this in due course, in the mean time: 1. Vault context wiring (0","fired":["Cortex:retrieve","Knowledge:retrieve"]}
 {"ts":"2026-08-20T14:19:46.459Z","session":"34561945","prompt_head":"continue, remember there was a change in the obisidan design, there is document/","fired":["ContextSearch:remember"]}
+{"ts":"2026-08-21T09:32:51.049Z","session":"7c122d5e","prompt_head":"Previous conversation:\nPrincipal: I think the existing obsidian vault is a somet","fired":["Cortex:knowledge base","Knowledge:knowledge base","ContextSearch:remember"]}
+{"ts":"2026-08-21T20:17:25.897Z","session":"34561945","prompt_head":"i have now install fabric, do I need to set up a provider for it or can we use i","fired":["Fabric:fabric"]}
+{"ts":"2026-08-21T20:47:26.142Z","session":"34561945","prompt_head":"keep those three, make a note and reminder that I need to adjust the template to","fired":["Loop:revisit"]}
+{"ts":"2026-08-21T20:54:38.526Z","session":"34561945","prompt_head":"what will the tutorial provide, and don't we need the standards in place ?, yes ","fired":["Teach:tutorial"]}
+{"ts":"2026-08-21T21:31:27.687Z","session":"34561945","prompt_head":"scope creep, and missing evidence of security sign-off to answer that. the TDA w","fired":["DESIGN-CLASS:architect + security"]}
+{"ts":"2026-08-21T21:35:03.814Z","session":"34561945","prompt_head":"\"how do I review an architecture decision\" returns it at 20.3, what are these nu","fired":["ApertureOscillation:architecture decision"]}
+{"ts":"2026-08-21T22:08:13.546Z","session":"34561945","prompt_head":"yes, let's do the systems thinking note","fired":["SystemsThinking:systems thinking"]}
+{"ts":"2026-08-21T22:44:10.306Z","session":"34561945","prompt_head":"what is this, it came a tip: PRDSync.hook.ts fires on Write/Edit of PRD.md and s","fired":["ExtractWisdom:extract from youtube","Telos:dashboard"]}

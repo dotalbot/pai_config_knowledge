@@ -46,11 +46,16 @@ read:
     - dir: "02 Doing"
       # Written expressly as agent context, so it outranks everything else.
       weight: 1.5
-      note: "AI-facing context. Empty today — populate via the 🤖 Doing template."
+      note: "AI-facing context. Five sections per Vicky Zhao: About Me, Frameworks, Examples, Knowledge, Knowledge Map."
     - dir: "01 Thinking"
       # Distilled human judgment: the highest-signal prose in the vault.
       weight: 1.2
       note: "Zettelkasten. Ideas/, Concepts/, Maps/, People/, Challenges/."
+    - dir: "Sources"
+      # Processed source documents — other people's material, worked up.
+      # Below Thinking: useful reference, but not Dom's own judgment.
+      weight: 0.9
+      note: "YouTube/article write-ups. Sources/Lists/ is bare link collections."
     - dir: "00 INBOX"
       # Raw and unprocessed by definition — surfaced, but never authoritative.
       weight: 0.5

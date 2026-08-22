@@ -8,6 +8,27 @@
 - **G0 — Build a PowerApps canvas app** (from TELOS/GOALS).
 - **G1 — Land a senior role at target company** (from TELOS/GOALS).
 
+## Open asks — things Dom owes JellyPai
+
+Surface these when a natural opening appears. Do not nag every session.
+
+- **Verdict on the Logk memory architecture.** `Projects/Logk/docs/architecture/
+  LOGK_MEMORY_ARCHITECTURE.md` is an 18KB AI-generated three-layer proposal
+  (Hindsight / Cognee / Logk + Golden Spine) that Dom has not ruled on. Until he
+  does it is a proposal, not a decision. Full brief:
+  `00 INBOX/TODO — Give verdict on Logk memory architecture.md`
+- **Locate the logk repo, then land LOGK_MEMORY_ARCHITECTURE.md in it.** No logk
+  repo exists on this machine (only jelly-life-os, pai_config_knowledge,
+  Agent_register, home-network). `Projects/Logk/` in the vault mirrors a repo that
+  is elsewhere or not yet created. Brief:
+  `00 INBOX/TODO — Get LOGK_MEMORY_ARCHITECTURE into the logk repo.md`
+- **Writing samples** (3-5, his own prose) so `WRITINGSTYLE.md` can be filled from
+  evidence instead of introspection. Brief: `00 INBOX/TODO — Give JellyPai writing samples.md`
+- **Rework three notes** with the new Thinking Note template. Brief:
+  `00 INBOX/TODO — Adjust Thinking Note template for critical thinking.md`
+- **Rotate the `jellydbuser` PostgreSQL password** — it sat in plaintext in the
+  vault from Feb until 2026-08-21.
+
 ## Repos
 
 - `~/repo/jelly-life-os` — git@github.com:dotalbot/jelly-life-os.git

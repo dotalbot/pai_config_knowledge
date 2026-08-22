@@ -237,3 +237,67 @@ skills/Art/Tools/node_modules/
 interceptor-screenshot-*
 interceptor-capture-*
 interceptor-macos-screenshot-*
+
+# ══════════════════════════════════════════════════════════
+# LIFEOS/ — mirrors the PAI/ rules above (added 2026-08-21)
+#
+# The 2026-08-20 migration moved PAI/ -> LIFEOS/ but .gitignore was never
+# updated, leaving 34 dead PAI/ rules and the live LIFEOS/ tree unprotected.
+# Both trees currently exist and both are written to.
+# ══════════════════════════════════════════════════════════
+LIFEOS/USER/CREDENTIALS/
+LIFEOS/.env
+LIFEOS/PULSE/certs/
+LIFEOS/MEMORY/LEARNING/
+LIFEOS/MEMORY/OBSERVABILITY/
+LIFEOS/MEMORY/SECURITY/
+LIFEOS/MEMORY/STATE/
+LIFEOS/MEMORY/VOICE/
+LIFEOS/MEMORY/ARCHIVE/
+LIFEOS/MEMORY/KNOWLEDGE/_embeddings/
+LIFEOS/MEMORY/KNOWLEDGE/_harvest-queue/
+LIFEOS/USER/ARBOL/
+LIFEOS/USER/CREDENTIALS/
+LIFEOS/USER/browser-state/
+LIFEOS/USER/FINANCES/
+LIFEOS/USER/HEALTH/
+LIFEOS/USER/Plans/
+LIFEOS/debug/
+LIFEOS/Monitor/
+LIFEOS/Components/
+LIFEOS/tmp/
+LIFEOS/research/
+LIFEOS/screenshots/
+LIFEOS/services/
+LIFEOS/output/
+LIFEOS/data/
+LIFEOS/repos/
+LIFEOS/helios/
+LIFEOS/Releases/
+LIFEOS/ide/
+LIFEOS/IDE/
+LIFEOS/voice-server
+LIFEOS/PAIWorker/
+LIFEOS/PAI_RELEASES/
+
+# Secrets — belt and braces, any depth
+**/.env
+**/.credentials.json
+**/CREDENTIALS/
+*.pem
+*.key
+
+# Third-party personal data — Dom's call 2026-08-21.
+# CONTACTS holds other people's information, not just Dom's; OPINIONS is
+# candid and not intended for any history, private remote or not.
+LIFEOS/USER/CONTACTS.md
+LIFEOS/USER/OPINIONS.md
+**/CONTACTS.md
+**/OPINIONS.md
+
+# Runtime churn — rewritten every ~2min by the Pulse process, plus this
+# session's own transcript log. Tracking these means a permanently dirty
+# working tree and meaningless diffs. Added 2026-08-21.
+LIFEOS/PULSE/state/
+LIFEOS/PULSE/Performance/aggregator-state.json
+history.jsonl

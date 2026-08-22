@@ -14,7 +14,7 @@ import { join } from "path";
 
 const STATE_FILE = join(
   process.env.HOME || "",
-  ".claude/PAI/MEMORY/STATE/last-prompt.json",
+  ".claude/LIFEOS/MEMORY/STATE/last-prompt.json",
 );
 
 interface HookInput {
