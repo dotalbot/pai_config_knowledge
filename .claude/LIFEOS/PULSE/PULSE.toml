@@ -8,6 +8,24 @@
 # output = voice | ntfy | email | log
 # Sentinels: NO_ACTION, NO_URGENT, NO_EVENTS → suppress dispatch
 
+# ── TLS ──
+#
+# Browsers only grant microphone access in a secure context (https:// or
+# http://localhost). Reaching Pulse from a phone over the tailnet therefore
+# needs a real certificate.
+#
+# `tailscale cert <magicdns-name>` issues a genuine Let's Encrypt cert for the
+# tailnet name. Renew with the same command; certs are ~90 day.
+#
+# Applies to non-loopback listeners ONLY. Loopback stays plain HTTP because
+# in-process callers use http://localhost:31337 and localhost is already a
+# secure context — encrypting it would break every hook for no gain.
+
+[tls]
+enabled = true
+cert = "${HOME}/.claude/LIFEOS/USER/CONFIG/certs/jellybase.cheetah-iwato.ts.net.crt"
+key = "${HOME}/.claude/LIFEOS/USER/CONFIG/certs/jellybase.cheetah-iwato.ts.net.key"
+
 # ── Module Configuration ──
 
 # [modules] is the one place to switch a Pulse surface off. Every key defaults

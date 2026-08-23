@@ -7,3 +7,16 @@
 - Source: https://www.youtube.com/watch?v=g3SrYIUv-OE (Daniel Miessler, YouTube)
 - Primary: Ideas/ai-will-replace-knowledge-workers
 - Ripple: 1 People note created (daniel-miessler), 0 contradictions flagged
+
+## [2026-08-22] harvest | Session harvest — LifeOS migration, Pulse/TLS, /talk, vault, infra findings
+- Source: session 34561945-e99b-4457-a017-cfa156c4921b (internal)
+- Primary: Ideas/lifeos-pai-migration, Ideas/pulse-tailnet-binding-and-tls,
+  Ideas/talk-voice-interface, Ideas/obsidian-vault-structure-and-inbox-router,
+  Ideas/stale-cron-and-migration-debt-findings
+- Ripple: 1 note updated (ObsidianVaultAndSync — reverse link + body wikilink), 0 contradictions flagged
+- Verification: every claim checked against the machine before writing. Two reported
+  findings did NOT survive: the gitignore was already fixed 2026-08-21, and no Telegram
+  token exists in the working tree, tracked files, or git history. Stale crons = 1, not 3.
+- Not written (already canonical elsewhere): Dom's three rhetorical moves + the
+  diagrams-as-requirement rule live in LIFEOS/USER/PRINCIPAL/RHETORICALSTYLE.md.
+  The "4 Ps" and "Architecture Decision Review" could not be verified anywhere.

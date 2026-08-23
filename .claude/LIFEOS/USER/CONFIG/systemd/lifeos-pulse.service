@@ -1,0 +1,26 @@
+[Unit]
+Description=LifeOS Pulse — dashboard, voice, cron, /talk
+Documentation=file:///home/jellypai/.claude/LIFEOS/DOCUMENTATION/Pulse/PulseSystem.md
+After=network-online.target tailscaled.service
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/jellypai/.claude/LIFEOS/PULSE
+ExecStart=/home/jellypai/.bun/bin/bun run pulse.ts
+Restart=on-failure
+RestartSec=5
+
+# Bind the Tailscale interface (plus loopback, added automatically) so the /talk
+# page is reachable from Dom's phone on the tailnet. NOT 0.0.0.0 — this host also
+# has a LAN address, a public IPv6 address and Docker bridges, and Pulse has no
+# route authentication.
+Environment=LIFEOS_PULSE_BIND_HOST=100.125.86.118
+Environment=LIFEOS_DIR=/home/jellypai/.claude/LIFEOS
+Environment=HOME=/home/jellypai
+Environment=PATH=/home/jellypai/.local/bin:/home/jellypai/.bun/bin:/usr/local/bin:/usr/bin:/bin
+
+# PAI_DIR is deliberately NOT set — the PAI tree was archived 2026-08-21.
+
+[Install]
+WantedBy=default.target

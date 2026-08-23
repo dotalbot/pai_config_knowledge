@@ -301,3 +301,8 @@ LIFEOS/USER/OPINIONS.md
 LIFEOS/PULSE/state/
 LIFEOS/PULSE/Performance/aggregator-state.json
 history.jsonl
+
+# TLS certs issued by `tailscale cert` for the Pulse HTTPS listener.
+# The private key is already caught by *.key; the .crt is public but the whole
+# directory is machine-specific and renewable, so none of it belongs in git.
+LIFEOS/USER/CONFIG/certs/

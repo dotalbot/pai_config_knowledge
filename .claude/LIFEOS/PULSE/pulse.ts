@@ -378,7 +378,7 @@ interface PulseConfig {
    * ported from public PR #1748, @elhoim
    */
   modules: Record<string, boolean>
-  tls?: { enabled: boolean; cert: string; key: string } // unused — TLS removed
+  tls?: { enabled: boolean; cert: string; key: string } // re-implemented 2026-08-22 (see Bun.serve below)
   voice?: { enabled: boolean; [key: string]: unknown }
   imessage?: { enabled: boolean; [key: string]: unknown }
   observability?: { enabled: boolean; dashboard_dir?: string; [key: string]: unknown }
@@ -802,16 +802,235 @@ async function main() {
     }
   }
 
+// ── Talk page ──
+// Minimal mic UI for a phone on the tailnet. Uses the browser's
+// SpeechRecognition (input) and speechSynthesis (output), so the server needs
+// no audio hardware at all. Requires a secure context — served over HTTPS on
+// the tailnet listener. (2026-08-22)
+const TALK_PAGE_HTML = `<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Talk</title>
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  body { margin:0; min-height:100dvh; display:flex; flex-direction:column;
+         background:#0a0a0a; color:#e5e5e5;
+         font:16px/1.55 ui-sans-serif,system-ui,-apple-system,sans-serif; }
+  header { padding:1rem 1.25rem .5rem; font-size:.8rem; letter-spacing:.08em;
+           text-transform:uppercase; color:#737373; }
+  #log { flex:1; overflow-y:auto; padding:0 1.25rem 1rem; }
+  .turn { margin:0 0 1.1rem; }
+  .who { font-size:.7rem; letter-spacing:.09em; text-transform:uppercase;
+         color:#737373; margin-bottom:.2rem; }
+  .you .who { color:#60a5fa; }
+  .me  .who { color:#4ade80; }
+  .txt { white-space:pre-wrap; }
+  footer { padding:1rem 1.25rem calc(1rem + env(safe-area-inset-bottom));
+           border-top:1px solid #1f1f1f; display:flex; gap:.75rem; align-items:center; }
+  button { flex:1; border:0; border-radius:999px; padding:1.15rem;
+           font-size:1.05rem; font-weight:600; background:#1d4ed8; color:#fff; }
+  button[disabled] { opacity:.45; }
+  button.rec { background:#dc2626; }\n  input { flex:1; min-width:0; border:1px solid #262626; border-radius:999px;\n          padding:1.1rem 1.25rem; font-size:1rem; background:#111; color:#e5e5e5; }\n  input:focus { outline:none; border-color:#1d4ed8; }
+  #status { font-size:.8rem; color:#737373; min-height:1.2em;
+            padding:0 1.25rem .5rem; }
+</style>
+</head>
+<body>
+<header>JellyPai &middot; voice</header>
+<div id="log"></div>
+<div id="status"></div>
+<footer>\n  <input id="typed" type="text" placeholder="or type here…" autocomplete="off">\n  <button id="mic">Tap to talk</button>\n</footer>
+<script>
+const logEl = document.getElementById('log');
+const statusEl = document.getElementById('status');
+const micBtn = document.getElementById('mic');
+
+function addTurn(who, cls, text) {
+  const d = document.createElement('div');
+  d.className = 'turn ' + cls;
+  d.innerHTML = '<div class="who"></div><div class="txt"></div>';
+  d.querySelector('.who').textContent = who;
+  d.querySelector('.txt').textContent = text;
+  logEl.appendChild(d);
+  logEl.scrollTop = logEl.scrollHeight;
+  return d.querySelector('.txt');
+}
+
+function say(msg) {
+  statusEl.textContent = msg;
+  const d = document.createElement('div');
+  d.className = 'turn';
+  d.innerHTML = '<div class="who" style="color:#f59e0b">system</div><div class="txt"></div>';
+  d.querySelector('.txt').textContent = msg;
+  logEl.appendChild(d);
+  logEl.scrollTop = logEl.scrollHeight;
+}
+
+const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+if (!SR) {
+  say('This browser has no SpeechRecognition API. On iOS every browser uses ' +
+      'the Safari engine, which does not implement it — you need Chrome on ' +
+      'Android or a desktop. You can still type below.');
+  micBtn.disabled = true;
+} else {
+  say('Ready. Secure context: ' + window.isSecureContext + '.');
+}
+
+let rec = null, listening = false;
+
+function startRec() {
+  if (!SR || listening) return;
+  rec = new SR();
+  rec.lang = 'en-GB';
+  rec.interimResults = true;
+  rec.continuous = true;
+  let finalText = '';
+  let interimText = '';
+  let liveEl = null;
+
+  rec.onstart = () => {
+    listening = true;
+    micBtn.classList.add('rec');
+    micBtn.textContent = 'Tap when done';
+    statusEl.textContent = '';
+  };
+  rec.onresult = (e) => {
+    let interim = '';
+    finalText = '';
+    for (let i = 0; i < e.results.length; i++) {
+      const t = e.results[i][0].transcript;
+      if (e.results[i].isFinal) finalText += t; else interim += t;
+    }
+    interimText = interim;
+    if (!liveEl) liveEl = addTurn('You', 'you', '');
+    liveEl.textContent = finalText || interim;
+  };
+  rec.onerror = (e) => {
+    const hint = {
+      'not-allowed': 'permission denied — allow the mic for this site',
+      'service-not-allowed': 'the browser blocked speech recognition',
+      'no-speech': 'no speech detected — hold the button while talking',
+      'audio-capture': 'no microphone found',
+      'network': 'recognition needs a network round-trip and it failed',
+      'aborted': 'recognition was aborted',
+    }[e.error] || e.error;
+    say('Mic error: ' + hint);
+  };
+  rec.onend = () => {
+    listening = false;
+    micBtn.classList.remove('rec');
+    micBtn.textContent = 'Tap to talk';
+    // Releasing the button stops recognition immediately, often before the
+    // engine promotes its interim guess to a final result. The original code
+    // read finalText only, so a correctly-transcribed phrase vanished if you
+    // let go promptly — you had to hold the button and wait. Fall back to the
+    // last interim text, which is what was already on screen. (2026-08-22)
+    const said = (finalText.trim() || interimText.trim());
+    if (said) {
+      if (liveEl) liveEl.textContent = said;
+      ask(said);
+    } else if (liveEl) {
+      liveEl.parentElement.remove();
+    }
+  };
+  // start() throws on some engines (already-started, no mic permission,
+  // insecure context). Unguarded it died silently: onstart never fired, the
+  // button never changed, and the user saw nothing. (2026-08-22)
+  try {
+    rec.start();
+  } catch (err) {
+    listening = false;
+    micBtn.classList.remove('rec');
+    micBtn.textContent = 'Tap to talk';
+    say('Could not start the mic: ' + err);
+  }
+}
+
+function stopRec() { if (rec && listening) rec.stop(); }
+
+async function ask(prompt) {
+  statusEl.textContent = 'Thinking…';
+  micBtn.disabled = true;
+  try {
+    const r = await fetch('/talk', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ prompt })
+    });
+    const j = await r.json();
+    if (j.error) { statusEl.textContent = 'Error: ' + j.error; return; }
+    addTurn('JellyPai', 'me', j.reply);
+    statusEl.textContent = '';
+    speak(j.reply);
+  } catch (err) {
+    statusEl.textContent = 'Request failed: ' + err;
+  } finally {
+    micBtn.disabled = false;
+  }
+}
+
+function speak(text) {
+  if (!window.speechSynthesis) return;
+  speechSynthesis.cancel();
+  const u = new SpeechSynthesisUtterance(text);
+  u.lang = 'en-GB';
+  u.rate = 1.02;
+  speechSynthesis.speak(u);
+}
+
+// Press and hold on touch; click-to-toggle on desktop.
+// TAP to start, TAP again to stop — not press-and-hold. Holding a button while
+// speaking is awkward one-handed, and releasing it stopped recognition
+// mid-sentence. continuous=true keeps the engine listening between pauses so a
+// natural gap does not end the turn. (2026-08-22)
+micBtn.addEventListener('touchstart', (e) => {
+  e.preventDefault();
+  listening ? stopRec() : startRec();
+}, {passive:false});
+const typedEl = document.getElementById('typed');\ntypedEl.addEventListener('keydown', (e) => {\n  if (e.key !== 'Enter') return;\n  const t = typedEl.value.trim();\n  if (!t) return;\n  typedEl.value = '';\n  addTurn('You', 'you', t);\n  ask(t);\n});\n\nmicBtn.addEventListener('click', () => { listening ? stopRec() : startRec(); });
+</script>
+</body>
+</html>`;
+
   // ── HTTP/HTTPS Server (single port, all routes) ──
 
   // Bind loopback by default — safe for public release on shared networks.
-  // Opt in to all-interface binding (for LAN access from phone, Mac mini
-  // fleet, etc.) via LIFEOS_PULSE_BIND_ALL=1 in the env or .env file.
+  //
+  // Two opt-ins, in order of preference:
+  //
+  //   LIFEOS_PULSE_BIND_HOST=<addr>  bind ONE specific interface (preferred).
+  //     Set it to a Tailscale address (100.x.y.z) to reach Pulse from a phone
+  //     on the tailnet while staying invisible on LAN, public IPv6 and Docker
+  //     bridges. This is the narrow option: exactly one interface, nothing else.
+  //
+  //   LIFEOS_PULSE_BIND_ALL=1        bind 0.0.0.0 — EVERY interface.
+  //     On a multi-homed host that includes the LAN, any public IPv6 address
+  //     and Docker bridges. Pulse has no route authentication, so this puts an
+  //     unauthenticated dashboard wherever the host is reachable. Prefer
+  //     BIND_HOST unless every interface genuinely needs it. (2026-08-22)
+  //
+  // Both disable the anti-DNS-rebinding Host check, which only makes sense
+  // in loopback-only mode: a non-loopback bind receives non-loopback Host
+  // headers by design.
+  const bindHost = (process.env.LIFEOS_PULSE_BIND_HOST ?? "").trim()
   const bindAll = (process.env.LIFEOS_PULSE_BIND_ALL ?? "").trim() === "1"
-  const server = Bun.serve({
-    hostname: bindAll ? "0.0.0.0" : "127.0.0.1",
-    port: config.port,
-    async fetch(req) {
+
+  // Bun.serve binds ONE hostname per call. When BIND_HOST names a specific
+  // interface we therefore start TWO listeners sharing one handler: the named
+  // interface, plus loopback. Without the loopback listener every in-process
+  // caller of http://localhost:31337 breaks — the /notify voice calls from
+  // hooks and skills all use localhost. (2026-08-22)
+  const bindHostnames = bindHost
+    ? (bindHost === "127.0.0.1" ? ["127.0.0.1"] : [bindHost, "127.0.0.1"])
+    : [bindAll ? "0.0.0.0" : "127.0.0.1"]
+
+  // The rebinding guard only applies when loopback is the ONLY thing bound.
+  const loopbackOnly = bindHostnames.length === 1 && bindHostnames[0] === "127.0.0.1"
+
+  const handleRequest = async (req: Request): Promise<Response> => {
       const url = new URL(req.url)
       const pathname = url.pathname
 
@@ -819,7 +1038,7 @@ async function main() {
       // loopback. A rebinding page the user visits sends its own hostname; real local clients
       // send 127.0.0.1/localhost or omit Host. Disabled under LIFEOS_PULSE_BIND_ALL (LAN opt-in
       // sends a non-loopback Host by design). Guard logic + tests in lib/host-guard.ts.
-      if (!bindAll && !isLoopbackHostHeader(req.headers.get("host"), config.port)) {
+      if (loopbackOnly && !isLoopbackHostHeader(req.headers.get("host"), config.port)) {
         return new Response("forbidden: non-loopback Host header", { status: 403 })
       }
 
@@ -834,6 +1053,67 @@ async function main() {
       // ported from public PR #1748, @elhoim
       if (req.method === "GET" && pathname === "/api/config/modules") {
         return Response.json({ modules: config.modules })
+      }
+
+      // GET /talk — the mic page. Served inline rather than added to the
+      // Next.js export so it does not depend on a dashboard rebuild.
+      if (req.method === "GET" && pathname === "/talk") {
+        return new Response(TALK_PAGE_HTML, {
+          headers: { "Content-Type": "text/html; charset=utf-8" },
+        })
+      }
+
+      // ── Talk: inbound voice input from a phone on the tailnet ──
+      //
+      // POST /talk {"prompt": "..."} -> {"reply": "..."}
+      //
+      // The phone does the listening: its browser runs SpeechRecognition and
+      // posts transcribed TEXT here. No audio ever crosses the wire and the
+      // server needs no microphone, which matters because this box has neither
+      // an ALSA device nor a PulseAudio server. Requires HTTPS on the tailnet
+      // listener — browsers only expose a mic in a secure context. (2026-08-22)
+      //
+      // Loopback-safe: answering costs tokens, so this is deliberately NOT
+      // reachable from anywhere the tailnet cannot see.
+      if (req.method === "POST" && pathname === "/talk") {
+        try {
+          const body = (await req.json()) as { prompt?: string; level?: string }
+          const prompt = (body.prompt ?? "").trim()
+          if (!prompt) return Response.json({ error: "empty prompt" }, { status: 400 })
+          if (prompt.length > 4000) return Response.json({ error: "prompt too long" }, { status: 413 })
+
+          const level = ["low", "medium", "high", "max"].includes(body.level ?? "")
+            ? (body.level as string)
+            : "medium"
+
+          const systemPrompt =
+            "You are the user's digital assistant, answering out loud over a voice link. " +
+            "Reply in plain spoken English: no markdown, no bullet points, no code blocks, " +
+            "no symbols that a text-to-speech engine would read literally. Keep it under " +
+            "roughly eighty words unless asked for more. Lead with the answer."
+
+          const proc = Bun.spawn(
+            ["bun", "run", join(LIFEOS_DIR, "TOOLS", "Inference.ts"), "--level", level, systemPrompt, prompt],
+            { stdout: "pipe", stderr: "pipe", env: { ...process.env } },
+          )
+          const out = await new Response(proc.stdout).text()
+          await proc.exited
+
+          // Inference.ts prints a "[model] requested=... → executed=..." banner
+          // before the answer; strip it so only the spoken reply comes back.
+          const reply = out
+            .split("\n")
+            .filter((l) => !l.startsWith("[model]"))
+            .join("\n")
+            .trim()
+
+          if (!reply) return Response.json({ error: "no reply from inference" }, { status: 502 })
+          log("info", "Talk: answered", { promptChars: prompt.length, replyChars: reply.length, level })
+          return Response.json({ reply })
+        } catch (err) {
+          log("error", "Talk: failed", { error: String(err) })
+          return Response.json({ error: "inference failed" }, { status: 500 })
+        }
       }
 
       // Voice routes: /notify, /notify/personality, /voice, /voice/health
@@ -1062,10 +1342,49 @@ async function main() {
       }
 
       return new Response("Not found", { status: 404 })
-    },
-  })
+  }
 
-  log("info", "HTTP server listening", { port: server.port })
+  // TLS. Browsers only grant microphone access in a secure context — https://
+  // or http://localhost — so reaching Pulse from a phone over the tailnet needs
+  // a real cert. `tailscale cert <magicdns-name>` issues a genuine Let's Encrypt
+  // cert for the tailnet name, which is what this consumes. (2026-08-22)
+  //
+  // Loopback deliberately stays PLAIN HTTP: in-process callers use
+  // http://localhost:31337 and localhost is already a secure context, so
+  // encrypting it would break every hook for no security gain.
+  let tlsOptions: { cert: string; key: string } | undefined
+  if (config.tls?.enabled) {
+    try {
+      tlsOptions = {
+        cert: readFileSync(config.tls.cert, "utf-8"),
+        key: readFileSync(config.tls.key, "utf-8"),
+      }
+    } catch (err) {
+      // Fail loudly but keep serving plain HTTP — a missing cert should not
+      // take the dashboard down.
+      log("error", "TLS enabled but cert/key unreadable — serving plain HTTP", {
+        cert: config.tls.cert,
+        error: String(err),
+      })
+    }
+  }
+
+  const servers = bindHostnames.map((hostname) => {
+    const useTls = tlsOptions && hostname !== "127.0.0.1"
+    return Bun.serve({
+      hostname,
+      port: config.port,
+      fetch: handleRequest,
+      ...(useTls ? { tls: tlsOptions } : {}),
+    })
+  })
+  const server = servers[0]
+
+  log("info", "HTTP server listening", {
+    port: server.port,
+    hostnames: bindHostnames,
+    tls: tlsOptions ? "on (non-loopback)" : "off",
+  })
 
   // Menu bar app is launched by its own launchd agent (com.lifeos.pulse-menubar)
   // Do NOT spawn it here — that causes duplicate menu bar icons
@@ -1205,7 +1524,7 @@ async function main() {
   }
 
   // ── Cleanup ──
-  server.stop()
+  for (const s of servers) s.stop()
   if (imessageModule) imessageModule.stopIMessage?.()
   if (assistantModule) assistantModule.stopAssistant?.()
   if (syslogModule) await syslogModule.stop?.()

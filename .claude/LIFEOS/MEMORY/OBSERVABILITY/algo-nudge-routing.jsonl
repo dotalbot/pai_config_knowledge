@@ -10,3 +10,4 @@
 {"ts":"2026-08-21T21:35:03.814Z","session":"34561945","prompt_head":"\"how do I review an architecture decision\" returns it at 20.3, what are these nu","fired":["ApertureOscillation:architecture decision"]}
 {"ts":"2026-08-21T22:08:13.546Z","session":"34561945","prompt_head":"yes, let's do the systems thinking note","fired":["SystemsThinking:systems thinking"]}
 {"ts":"2026-08-21T22:44:10.306Z","session":"34561945","prompt_head":"what is this, it came a tip: PRDSync.hook.ts fires on Write/Edit of PRD.md and s","fired":["ExtractWisdom:extract from youtube","Telos:dashboard"]}
+{"ts":"2026-08-22T20:41:21.516Z","session":"34561945","prompt_head":"~/obsidian is the live one, I asked you to put in a cron to run 'ob sync' every ","fired":["ContextSearch:recall","Cortex:recall"]}

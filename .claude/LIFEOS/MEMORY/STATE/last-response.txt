@@ -1,23 +1,23 @@
 ════ LifeOS ═══════════════════════════
 
-Reminder logged first, and it found a blocker worth knowing.
+Built and committed as `9c8ed85`. And yes — it should have been part of LifeOS. The skill has referenced that path since it was authored, so this is a shipping gap in the distribution rather than something your install lost.
 
 🔧 CHANGE:
 
-- New `00 INBOX/TODO — Get LOGK_MEMORY_ARCHITECTURE into the logk repo.md`
+- New `~/.claude/workflows/UpgradeFanout.js` — owns only the deadline, fail-open behaviour, and the `{findings, coverage, grounding, totals}` return shape. Source briefs stay in the workflow doc
 
-- `LIFEOS/USER/PROJECTS.md` — added as an open ask, committed `819ea11`
+- Both contract facts the doc records from 2026-08-06 are honoured: `args` parsed defensively since it arrives as a JSON string, and the deadline is a raced timer because `AbortSignal` doesn't exist in that runtime
 
-**The blocker: there is no logk repo on this machine.** A sweep found only four under `~/repo/` — `jelly-life-os`, `pai_config_knowledge`, `Agent_register`, `home-network`. And `~/obsidian/Projects/Logk/` isn't a git working tree. So the vault holds 142 notes mirroring a repo that lives elsewhere or doesn't exist yet. The reminder asks you to resolve that first, since copying a file into a repo I can't find isn't possible.
+✅ VERIFY:
 
-**Now, on the three notes — my list is stale and I should say so plainly.** Two of the three are already handled: `Systems Thinking — How To See Clearly` moved to `Sources/YouTube/`, and `Cognee verses Hindsight` moved to `Projects/Logk/docs/architecture/`. Only `01 Thinking/Ideas/AI code development.md` remains, and I already split it down to 3.9KB.
+- Contract check passes on all eight required elements
 
-Reworking it with the new template would be a poor use of your time. It's a build log of your Gmail/Gatherer project — a record of what you did, not a note about an idea. Forcing "Where I disagree" onto your own work log produces nothing.
+- `node --check` rejects the top-level `return`, but so does Anthropic's own official plugin workflow script — the runtime wraps the body, so that linter is the wrong lens
 
-**What the audit actually shows:** 46 of 47 Thinking notes have no `## What I think` section. The only one that does is the note you dictated to me today. So this isn't a three-note job, it's the whole folder.
+**On "what else might be missing", I swept and the answer is reassuring.** All 57 hooks wired in `settings.json` exist on disk. Every tool the running system references exists. The twelve apparent gaps I first found were false positives living in `skills/LifeOS.backup-20260820-112821/` and `skills/LifeOS/install/`, which are a migration backup and the installer payload.
 
-The honest options: rework the handful with real substance (`Vault Restructure Proposal`, the two Inform Team notes), or leave the back catalogue and apply the template going forward.
+Four genuine stale references remain, all documentation-only: `AlgoPhase.ts`, `algorithm.ts`, `MigrateDAIdentity.ts` and `SyncSpinnerAssets.ts` are described in docs but nothing executes them.
 
-I'd pick the second. The old notes are mostly stubs and reference material; your effort is better spent on new thinking than on retrofitting judgment onto notes you may no longer hold.
+I also nearly reported those twelve as real gaps. My first exclusion used a `grep` flag that silently didn't apply, and I only caught it because the same list came back unchanged.
 
-🗣️ JellyPai: Two of the three are already handled and the third is a build log. Retrofit the back catalogue, or apply the template 
+🗣️ JellyPai: Script built. One real gap, four stale doc references, and every wired hook accounted for.

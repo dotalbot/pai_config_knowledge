@@ -22,10 +22,14 @@ Surface these when a natural opening appears. Do not nag every session.
   Agent_register, home-network). `Projects/Logk/` in the vault mirrors a repo that
   is elsewhere or not yet created. Brief:
   `00 INBOX/TODO — Get LOGK_MEMORY_ARCHITECTURE into the logk repo.md`
+- **Do the thinking on steelmanning.** Two source docs are staged
+  ([[Steel Man Argument — Philosophy Vibe]], [[Steelmanning — concepts beyond the
+  video]]); `01 Thinking/` deliberately left empty. Unusual case: steelmanning is
+  already one of Dom's three argument moves in RHETORICALSTYLE.md, so this is
+  examining a practice he already claims. Brief:
+  `00 INBOX/TODO — Do the thinking on steelmanning.md`
 - **Writing samples** (3-5, his own prose) so `WRITINGSTYLE.md` can be filled from
   evidence instead of introspection. Brief: `00 INBOX/TODO — Give JellyPai writing samples.md`
-- **Rework three notes** with the new Thinking Note template. Brief:
-  `00 INBOX/TODO — Adjust Thinking Note template for critical thinking.md`
 - **Rotate the `jellydbuser` PostgreSQL password** — it sat in plaintext in the
   vault from Feb until 2026-08-21.
 
