@@ -21,3 +21,72 @@
 - Effort shortcuts: `/e1` (Standard+fast-path), `/e2` (Extended), `/e3` (Advanced), `/e4` (Deep), `/e5` (Comprehensive). Append to any message to override auto-detection.
 - Units: Metric (Celsius, meters, kilograms).
 - Tools: `rg` over `grep`, `fd` over `find`.
+
+## Vault and source capture
+
+- **Obsidian vault lives at `~/obsidian`.** Canonical as of 2026-08-23. The old
+  `/opt/docker/appdata/obsidian-jellybase/vault/OB_v2` path is SUPERSEDED — that
+  directory still exists on disk with stale content, so finding it is not
+  evidence it is current. Never quote a vault path from session history or a
+  tool log; check `~/obsidian` exists and read from there.
+- **`04 VAULT` no longer exists.** YouTube and article write-ups go to
+  `~/obsidian/Sources/` per `~/obsidian/Sources/README.md`: Sources holds the
+  processed write-up of someone else's material, `01 Thinking` holds Dom's own
+  words. A clipper template still naming `04 VAULT/YouTube` is out of date.
+- **YouTube extraction is two stages, capture then process.**
+  - *Capture* — the Obsidian Web Clipper "YouTube (Open Transcript)_2" template.
+    Fixed skeleton (Summary, Key Takeaways, Mindmap, Notable Quotes, Best Ideas,
+    Tools, Reflection, Key Message), full transcript in a callout, frontmatter
+    from page schema. This is raw input. Lands in `00 INBOX` or `Sources/YouTube`.
+  - *Process* — rework into the Sources house style: `type: source`,
+    `medium: youtube`, `status: processed`, `author`, `url`, `duration`,
+    `published`, `tags`, `thinking-notes: []`; a `⬆️::` breadcrumb to
+    `[[Sources/README|Sources]]`; a scope callout stating what the source does
+    and does not cover; headings derived from the argument rather than the fixed
+    skeleton; transcript dropped; a trailing `## ⬇️ Thinking notes from this
+    source` section linking atomic notes in `01 Thinking`.
+    Reference exemplar: `~/obsidian/Sources/YouTube/Steel Man Argument — Philosophy Vibe.md`.
+  - When Dom says "extract from youtube" without qualifying, produce the capture
+    format. Process only on request, or when the material earns a write-up.
+
+## Research fan-out roster
+
+Verified 2026-08-23 by running all four legs on one brief. The Research skill's
+"4 agents — Claude + Gemini + Grok + Perplexity" description overstates what
+this install actually does: `PerplexityResearcher`, `GrokResearcher` and
+`GeminiResearcher` declare only `WebSearch` and hold no provider key, so they
+are Claude agents with different personas over the same search. Only
+`CodexResearcher` shells out to another vendor.
+
+- **Drop `PerplexityResearcher`.** Went idle four times across three direct
+  asks, including one narrowed to a single question with an explicit
+  "or just say you're blocked" option. Produced nothing either way. Do not
+  include it in a fan-out.
+- **`GeminiResearcher` is quota-dead via the CLI.** The free tier returns
+  `RESOURCE_EXHAUSTED`, and `limit: 0` on the default model. Its internal
+  web-search tool is what 429s, so it cannot ground a URL. Its retry loops
+  write 30-35KB files containing only stack traces — file size looks like
+  success and zero headings is the tell. Route Gemini through OpenRouter
+  instead, or fund a Google project.
+- **OpenRouter is the cross-vendor path.** `OPENROUTER_API_KEY` in `.env`.
+  Gives the MODEL, not a search tool: never ask an OpenRouter leg for URLs or
+  citations, and mark anything it names as an unverified lead. Use it for
+  framing and disagreement, not evidence.
+- **`deepseek/deepseek-v4-flash`** — added to the roster 2026-08-23. Very cheap
+  (~$0.00000005/input token). It is a REASONING model: the message object
+  carries both `content` and `reasoning`, and too low a `max_tokens` truncates
+  before `content` is emitted (16 returned null; 200 worked).
+- **A leg that goes silent is failed — close it, don't wait.** 2026-08-23 run:
+  three of five legs died by going idle without reporting, across repeated asks
+  that explicitly offered "or just name the blocker in one sentence". The two
+  that succeeded both surfaced their own constraints unprompted (a quota wall,
+  its own prompt bias, three corrections to the brief). Self-reported limits are
+  the signal that a leg is working; silence never resolves into output.
+- **Check spend to tell "did nothing" from "did it and lost it".** The DeepSeek
+  leg went idle three times having consumed ~$0.07 of tokens — responses came
+  back and were never reported. The OpenRouter key endpoint distinguishes the
+  two failure modes when an agent won't say.
+- **Brief the legs on distinct decompositions, not just distinct personas.**
+  The most valuable artefact of the 2026-08-23 run came from the quota-blocked
+  agent: eight self-contained sub-queries naming specific primary sources. The
+  useful diversity in this pattern is in how the problem is carved up.

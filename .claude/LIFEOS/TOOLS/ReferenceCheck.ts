@@ -71,6 +71,9 @@ const EXCLUDE_DIR_NAMES = new Set([
 
 // Top-level path segments (relative to CLAUDE_DIR) that are entirely ignored.
 const EXCLUDE_PATH_PREFIXES = [
+  '.agents/skills',            // `npx skills add` payloads — vendored upstream docs, overwritten
+                               // on update; their refs describe the VENDOR's repo layout, not ours
+                               // (2026-08-23: hindsight-docs referenced skills/hindsight-memory/SKILL.md)
   'LIFEOS/MEMORY',
   'LIFEOS/USER/MEMORY',        // post-Phase-G symlink target — MEMORY moved into the user's private USER-data repo (2026-05-22→23)
   'LIFEOS/PULSE/Observability/.next',

@@ -1,3 +1,11 @@
+---
+last_updated: 2026-08-21
+last_updated_by: da
+convention: pai-freshness-v1
+last_reviewed: 2026-06-04
+last_reviewed_by: interview
+---
+
 # Principal Identity — Dom
 
 Loaded at every session startup via CLAUDE.md `@` import. Gives the DA a concise identity reference.

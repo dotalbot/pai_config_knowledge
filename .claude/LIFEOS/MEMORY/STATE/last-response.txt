@@ -1,23 +1,9 @@
 ════ LifeOS ═══════════════════════════
 
-Built and committed as `9c8ed85`. And yes — it should have been part of LifeOS. The skill has referenced that path since it was authored, so this is a shipping gap in the distribution rather than something your install lost.
+**`Projects/ConveyorDesk/CONVEYOR_DESK_SPEC.md`** in your Obsidian vault — one file, 16KB, everything in it: HLD, LLD, both review dispositions, your D1/D2 rulings, and the Hermes build notes. Last sync ran at 22:00 and reported fully synced, so it's already on your Mac.
 
-🔧 CHANGE:
+In Obsidian: **Projects → ConveyorDesk → CONVEYOR_DESK_SPEC**.
 
-- New `~/.claude/workflows/UpgradeFanout.js` — owns only the deadline, fail-open behaviour, and the `{findings, coverage, grounding, totals}` return shape. Source briefs stay in the workflow doc
+The supporting pieces live where they run rather than in the vault: the queue contract at `~/conveyor/README.md` on this host, the send script and Shortcut guide in `~/conveyor/_setup/`, and the sweeper in the `~/.claude` repo. The spec is the only thing Hermes needs.
 
-- Both contract facts the doc records from 2026-08-06 are honoured: `args` parsed defensively since it arrives as a JSON string, and the deadline is a raced timer because `AbortSignal` doesn't exist in that runtime
-
-✅ VERIFY:
-
-- Contract check passes on all eight required elements
-
-- `node --check` rejects the top-level `return`, but so does Anthropic's own official plugin workflow script — the runtime wraps the body, so that linter is the wrong lens
-
-**On "what else might be missing", I swept and the answer is reassuring.** All 57 hooks wired in `settings.json` exist on disk. Every tool the running system references exists. The twelve apparent gaps I first found were false positives living in `skills/LifeOS.backup-20260820-112821/` and `skills/LifeOS/install/`, which are a migration backup and the installer payload.
-
-Four genuine stale references remain, all documentation-only: `AlgoPhase.ts`, `algorithm.ts`, `MigrateDAIdentity.ts` and `SyncSpinnerAssets.ts` are described in docs but nothing executes them.
-
-I also nearly reported those twelve as real gaps. My first exclusion used a `grep` flag that silently didn't apply, and I only caught it because the same list came back unchanged.
-
-🗣️ JellyPai: Script built. One real gap, four stale doc references, and every wired hook accounted for.
+🗣️ JellyPai: Open it from the Projects folder and it's ready to hand over.

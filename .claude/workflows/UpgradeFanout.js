@@ -93,7 +93,11 @@ const FINDING_SCHEMA = {
 
 // The deadline is a wall clock, not a per-agent budget: a source that has not
 // returned when it fires is reported as timed out and the run reports anyway.
-const startedAt = Date.now()
+// NOTE: Date.now() / new Date() are BANNED in workflow scripts — they break
+// resume and the runtime throws on them. setTimeout is fine, so the deadline
+// below is a raced timer with no clock reads. Elapsed time is reported by the
+// runtime itself; do not compute it here. (Learned 2026-08-23: the first real
+// run of this script died on exactly this.)
 const deadline = new Promise((resolve) =>
   setTimeout(() => resolve({ __deadline: true }), DEADLINE_MS),
 )
@@ -166,7 +170,6 @@ const totals = {
   timedOut: coverage.filter((c) => c.status === 'timed_out').length,
   failed: coverage.filter((c) => c.status === 'failed').length,
   findings: findings.length,
-  elapsedMs: Date.now() - startedAt,
 }
 
 log(`Sweep done — ${totals.returned}/${totals.requested} returned, ${totals.findings} finding(s)`)

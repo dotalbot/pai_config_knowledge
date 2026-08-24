@@ -165,6 +165,11 @@ function findFiles(root: string, extraArgs: string[]): string[] {
       // system — their internal files are vendor-owned and get overwritten
       // on plugin updates, so their broken refs are not ours to fix.
       '-o', '-path', '*/Plugins/cache', '-o', '-path', '*/Plugins/marketplaces',
+      // Same rule for `npx skills add` payloads under .agents/skills: vendored
+      // upstream docs, overwritten on update. Their internal refs point at the
+      // vendor's own repo layout, not ours (2026-08-23: hindsight-docs added 2
+      // BLOCKs for skills/hindsight-memory/SKILL.md, a file in THEIR tree).
+      '-o', '-path', '*/.agents/skills',
       ')', '-prune', '-o',
       ...extraArgs, '-print',
     ], { encoding: 'utf8', maxBuffer: 64 * 1024 * 1024 });

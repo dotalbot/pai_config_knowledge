@@ -306,3 +306,12 @@ history.jsonl
 # The private key is already caught by *.key; the .crt is public but the whole
 # directory is machine-specific and renewable, so none of it belongs in git.
 LIFEOS/USER/CONFIG/certs/
+
+# `npx skills add` payloads — vendored upstream docs, reinstallable, not ours to version
+.agents/
+skills-lock.json
+.claude/skills/
+
+# macOS AppleDouble sidecars from Mac-side sync — inert, never ours
+._*
+.DS_Store

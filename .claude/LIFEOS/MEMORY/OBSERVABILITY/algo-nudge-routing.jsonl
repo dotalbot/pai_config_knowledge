@@ -11,3 +11,10 @@
 {"ts":"2026-08-21T22:08:13.546Z","session":"34561945","prompt_head":"yes, let's do the systems thinking note","fired":["SystemsThinking:systems thinking"]}
 {"ts":"2026-08-21T22:44:10.306Z","session":"34561945","prompt_head":"what is this, it came a tip: PRDSync.hook.ts fires on Write/Edit of PRD.md and s","fired":["ExtractWisdom:extract from youtube","Telos:dashboard"]}
 {"ts":"2026-08-22T20:41:21.516Z","session":"34561945","prompt_head":"~/obsidian is the live one, I asked you to put in a cron to run 'ob sync' every ","fired":["ContextSearch:recall","Cortex:recall"]}
+{"ts":"2026-08-23T12:27:04.562Z","session":"45054c06","prompt_head":"when I ask you to extract from youtube, please use this format from now on: {\n  ","fired":["ExtractWisdom:extract from youtube","Fabric:summarize","Loop:revisit"]}
+{"ts":"2026-08-23T20:03:59.674Z","session":"fb03d196","prompt_head":"You are performing a one-time structural survey of THIS repository to seed its H","fired":["Telos:dependencies","Fabric:summarize","Cortex:ingest"]}
+{"ts":"2026-08-23T20:03:59.675Z","session":"fb03d196","prompt_head":"You are performing a one-time structural survey of THIS repository to seed its H","fired":["DESIGN-CLASS:separate + architecture"]}
+{"ts":"2026-08-23T20:04:16.250Z","session":"c757e1ab","prompt_head":"You are performing a one-time structural survey of THIS repository to seed its H","fired":["Telos:dependencies","Fabric:summarize","Cortex:ingest"]}
+{"ts":"2026-08-23T20:04:16.250Z","session":"c757e1ab","prompt_head":"You are performing a one-time structural survey of THIS repository to seed its H","fired":["DESIGN-CLASS:separate + architecture"]}
+{"ts":"2026-08-23T20:31:26.219Z","session":"45054c06","prompt_head":"add: DeepSeek V4 Flash from Openrouter as another one to fan out, lets drop perp","fired":["Delegation:fan out"]}
+{"ts":"2026-08-23T21:45:31.969Z","session":"45054c06","prompt_head":"Here is where it gets fun though, the files could be any microsoft type file, or","fired":["RedTeam:red team","Delegation:fan out"]}

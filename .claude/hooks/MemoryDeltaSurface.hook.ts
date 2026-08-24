@@ -46,6 +46,12 @@ const HEARTBEAT = pathResolve(CLAUDE_ROOT, "LIFEOS/MEMORY/STATE/delta-surface-he
 const AUTONOMIC_WRITER = "MemorySystem.add";
 const FRESHNESS_MAX_AGE_MS = 24 * 60 * 60 * 1000; // older cache → warn, don't lie
 const LINE_HARD_CAP = 180;
+// Hindsight coding-agent bank state. Read from a local cache written by the
+// stop hook's own run; never a network call — this hook is on the prompt path
+// and a hung request would stall every turn. Absent/stale cache ⇒ no segment.
+const HINDSIGHT_CFG = pathResolve(homedir(), ".hindsight/coding-agent.json");
+const HINDSIGHT_STATE = pathResolve(CLAUDE_ROOT, "LIFEOS/MEMORY/STATE/hindsight-bank.json");
+const HINDSIGHT_MAX_AGE_MS = 12 * 60 * 60 * 1000;
 
 interface WriteRow {
   ts: string;
@@ -115,6 +121,32 @@ function ageStr(ms: number): string {
 
 /** Freshness segment from the statusline render cache. Never lies: a missing
  * or stale cache degrades to an explicit warning instead of confident numbers. */
+/**
+ * Hindsight segment: which bank this repo maps to and its fact count.
+ * Cache-only and fail-open — Hindsight writes are automatic and invisible, so
+ * the 🧠 line is the only place they surface. Silent on any error by design:
+ * a memory indicator that breaks the response format is worse than no
+ * indicator. Note this reports the SECOND memory system (auto, statistical);
+ * everything else on the line is Cortex (deliberate, file-based).
+ */
+function hindsightSegment(): string | null {
+  try {
+    if (!existsSync(HINDSIGHT_CFG) || !existsSync(HINDSIGHT_STATE)) return null;
+    const raw = JSON.parse(readFileSync(HINDSIGHT_STATE, "utf8")) as {
+      bank?: string; facts?: number; ts?: string; wrote?: number;
+    };
+    if (!raw?.bank) return null;
+    if (raw.ts && Date.now() - Date.parse(raw.ts) > HINDSIGHT_MAX_AGE_MS) return null;
+    const bank = String(raw.bank).slice(0, 40).replace(/[^\w:.-]/g, "");
+    if (!bank) return null;
+    const facts = Number.isFinite(raw.facts) ? ` ${raw.facts}f` : "";
+    const wrote = Number.isFinite(raw.wrote) && (raw.wrote as number) > 0 ? ` +${raw.wrote}` : "";
+    return `hindsight: ${bank}${facts}${wrote}`;
+  } catch {
+    return null;
+  }
+}
+
 function freshnessSegment(): string {
   try {
     if (!existsSync(FRESHNESS_CACHE)) return "freshness: no data";
@@ -218,6 +250,7 @@ export function run(): string | null {
       if (dropped > 0) parts.push(`−${dropped} dropped`);
       const samples = [...learnedSamples.map((s) => `"${s}"`), ...droppedSamples.map((s) => `−"${s}"`)];
       line = `🧠 MEMORY: ${parts.join(" · ")}${samples.length ? ` — ${samples.join(", ")}` : ""} · ${fresh}`;
+      { const hs = hindsightSegment(); if (hs) line += ` · ${hs}`; }
     } else {
       // HEARTBEAT form: how fresh + proof the loop is alive.
       const segs: string[] = [fresh];
@@ -233,6 +266,7 @@ export function run(): string | null {
       } else {
         segs.push("no curation runs yet");
       }
+      { const hs = hindsightSegment(); if (hs) segs.push(hs); }
       line = `🧠 MEMORY: ${segs.join(" · ")}`;
     }
 

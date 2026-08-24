@@ -86,6 +86,7 @@
     "ask": [],
     "defaultMode": "auto"
   },
+  "model": "opus",
   "fallbackModel": [
     "claude-opus-4-8",
     "claude-sonnet-4-6"
@@ -544,6 +545,15 @@
             "async": true
           }
         ]
+      },
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"/home/jellypai/.hindsight/coding-agents/dist/claude-hook.js\"",
+            "timeout": 30
+          }
+        ]
       }
     ],
     "SubagentStop": [
@@ -585,6 +595,15 @@
             "command": "bun /home/jellypai/.claude/LIFEOS/TOOLS/SettingsBackport.ts; bun /home/jellypai/.claude/LIFEOS/TOOLS/MergeSettings.ts --system /home/jellypai/.claude/settings.system.json --user /home/jellypai/.claude/LIFEOS/USER/CONFIG/settings.user.json --output /home/jellypai/.claude/settings.json",
             "timeout": 15,
             "async": true
+          }
+        ]
+      },
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"/home/jellypai/.hindsight/coding-agents/dist/claude-sessionstart-hook.js\"",
+            "timeout": 30
           }
         ]
       }
@@ -637,6 +656,20 @@
             "command": "/home/jellypai/.claude/hooks/MemoryHealthGate.hook.ts",
             "timeout": 15,
             "async": true
+          }
+        ]
+      },
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"/home/jellypai/.hindsight/coding-agents/dist/claude-stop-hook.js\"",
+            "timeout": 60
+          },
+          {
+            "type": "command",
+            "command": "bun /home/jellypai/.claude/LIFEOS/TOOLS/HindsightBankState.ts",
+            "timeout": 15
           }
         ]
       }
@@ -1624,6 +1657,7 @@
   "tui": "default",
   "autoMemoryEnabled": false,
   "skipDangerousModePermissionPrompt": true,
+  "skipWorkflowUsageWarning": true,
   "theme": "dark-ansi",
   "editorMode": "normal",
   "fileCheckpointingEnabled": true,

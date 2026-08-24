@@ -1,6 +1,6 @@
 {
-  "last_fired_turn": 85,
-  "turn_count": 85,
-  "last_text": "FORMAT CONTRACT (check before writing, not after): max 15 prose lines; banner first, 🗣️ closer last, max 2 em-dashes. Last response was clean (8 lines).",
+  "last_fired_turn": 132,
+  "turn_count": 132,
+  "last_text": "FORMAT CONTRACT (check before writing, not after): max 15 prose lines; banner first, 🗣️ closer last, max 2 em-dashes. Last response broke: 3 em-dashes.",
   "schema_version": 1
 }

@@ -1,3 +1,11 @@
+---
+last_updated: 2026-08-22
+last_updated_by: da
+convention: pai-freshness-v1
+last_reviewed: 2026-08-22
+last_reviewed_by: migration-7.40.4
+---
+
 # Projects — Dom
 
 > Seeded during the 2026-08-20 migration to LifeOS 7.40.4. The old install never populated a global PROJECTS file; this is a starter derived from active TELOS goals. Update as work progresses.

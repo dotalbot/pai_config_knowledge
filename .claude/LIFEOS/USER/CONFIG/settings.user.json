@@ -6,5 +6,56 @@
     "type": "command",
     "command": "/home/jellypai/.claude/LIFEOS/USER/CONFIG/bin/StatusLine.sh",
     "refreshInterval": 2
+  },
+  "theme": "dark-ansi",
+  "skipWorkflowUsageWarning": true,
+  "hooks": {
+    "UserPromptSubmit": {
+      "__merge": "append",
+      "values": [
+        {
+          "hooks": [
+            {
+              "type": "command",
+              "command": "node \"/home/jellypai/.hindsight/coding-agents/dist/claude-hook.js\"",
+              "timeout": 30
+            }
+          ]
+        }
+      ]
+    },
+    "SessionStart": {
+      "__merge": "append",
+      "values": [
+        {
+          "hooks": [
+            {
+              "type": "command",
+              "command": "node \"/home/jellypai/.hindsight/coding-agents/dist/claude-sessionstart-hook.js\"",
+              "timeout": 30
+            }
+          ]
+        }
+      ]
+    },
+    "Stop": {
+      "__merge": "append",
+      "values": [
+        {
+          "hooks": [
+            {
+              "type": "command",
+              "command": "node \"/home/jellypai/.hindsight/coding-agents/dist/claude-stop-hook.js\"",
+              "timeout": 60
+            },
+            {
+              "type": "command",
+              "command": "bun /home/jellypai/.claude/LIFEOS/TOOLS/HindsightBankState.ts",
+              "timeout": 15
+            }
+          ]
+        }
+      ]
+    }
   }
 }

@@ -1,3 +1,11 @@
+---
+last_updated: 2026-08-21
+last_updated_by: da
+convention: pai-freshness-v1
+last_reviewed: 2026-08-21
+last_reviewed_by: migration-7.40.4
+---
+
 # DA Identity — JellyPai
 
 > Bootstrap default — functional before interview. Run `/interview` to name your DA, pick a voice, and define personality.

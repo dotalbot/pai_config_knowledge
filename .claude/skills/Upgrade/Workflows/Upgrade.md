@@ -53,7 +53,9 @@ bun ~/.claude/LIFEOS/TOOLS/Upgrades.ts add --source upgrade-skill \
   --confidence <0-1> --evidence "<source URL or report ref>"
 ```
 
-The store dedups by claim hash — re-running a scan never double-writes. Prior-Status grounding gains a source: check `bun ~/.claude/LIFEOS/TOOLS/Upgrades.ts list --json` for already-rejected (🚫) or already-applied (💬) claims alongside the existing `MEMORY/KNOWLEDGE/REJECTED/` check. Records surface in Pulse `/upgrades`; the applied half lands in the Ledger via `CreateUpdate.ts --upgrade-id`.
+The store dedups by claim hash — re-running a scan never double-writes. Prior-Status grounding gains a source: check `bun ~/.claude/LIFEOS/TOOLS/Upgrades.ts list --source upgrade-skill --json` for already-rejected (🚫) or already-applied (💬) claims alongside the existing `MEMORY/KNOWLEDGE/REJECTED/` check.
+
+**`--source upgrade-skill` is required, not optional.** The store is shared: `hooks/SatisfactionCapture.hook.ts` v1.4.0 also writes `source: directive` records — verbatim principal instructions caught by phrase match ("from now on", "going forward", "in the future"). Those are standing rules, not scan recommendations: they carry no `target_surface` and no proposed encoding, so they cannot serve as Prior-Status evidence. An unfiltered `list` mixes them in and reads as a corrupted store (2026-08-23: four directive records were briefly mistaken for exactly that). Records surface in Pulse `/upgrades`; the applied half lands in the Ledger via `CreateUpdate.ts --upgrade-id`.
 
 ## Registry Feedback
 
