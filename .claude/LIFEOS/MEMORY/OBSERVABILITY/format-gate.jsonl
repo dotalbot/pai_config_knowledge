@@ -142,3 +142,43 @@
 {"ts":"2026-08-23T21:52:53.648Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"pass","memoryDelta":false}
 {"ts":"2026-08-23T22:00:11.850Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"flag","code":"too-many-emdashes","detail":"3 em-dashes in prose (max 2)"}
 {"ts":"2026-08-23T22:02:03.674Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-24T07:41:21.436Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-24T07:46:48.950Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"This isn't unreviewed template content — it's re\""}
+{"ts":"2026-08-24T07:47:45.877Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"Confirmed, no change needed. Next question.\""}
+{"ts":"2026-08-24T08:38:42.348Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-24T08:43:11.858Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-24T08:44:15.939Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-24T08:45:15.236Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"flag","code":"too-many-emdashes","detail":"3 em-dashes in prose (max 2)"}
+{"ts":"2026-08-24T08:48:01.327Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-24T08:49:35.770Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-24T08:50:05.743Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"That line is one sentence carrying a lot, and it\""}
+{"ts":"2026-08-24T08:51:20.347Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-24T09:29:50.894Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-24T09:30:37.880Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-24T09:33:50.144Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"flag","code":"too-many-emdashes","detail":"5 em-dashes in prose (max 2)"}
+{"ts":"2026-08-24T09:58:40.359Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-24T11:21:04.284Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"flag","code":"too-many-emdashes","detail":"4 em-dashes in prose (max 2)"}
+{"ts":"2026-08-24T11:47:04.787Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-24T11:49:49.369Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"flag","code":"too-many-emdashes","detail":"4 em-dashes in prose (max 2)"}
+{"ts":"2026-08-24T11:51:10.263Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-24T14:44:44.593Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"flag","code":"too-many-emdashes","detail":"4 em-dashes in prose (max 2)"}
+{"ts":"2026-08-24T14:46:22.014Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-24T14:50:11.876Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"The scan percentages haven't moved, which is wor\""}
+{"ts":"2026-08-24T15:21:32.242Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"flag","code":"too-many-emdashes","detail":"4 em-dashes in prose (max 2)"}
+{"ts":"2026-08-24T15:34:20.243Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-24T15:56:34.802Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"flag","code":"too-many-emdashes","detail":"3 em-dashes in prose (max 2)"}
+{"ts":"2026-08-24T16:00:05.525Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-24T16:19:18.276Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"flag","code":"too-many-emdashes","detail":"3 em-dashes in prose (max 2)"}
+{"ts":"2026-08-24T16:22:07.891Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"flag","code":"too-many-emdashes","detail":"3 em-dashes in prose (max 2)"}
+{"ts":"2026-08-24T16:56:23.941Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"flag","code":"too-many-emdashes","detail":"4 em-dashes in prose (max 2)"}
+{"ts":"2026-08-24T16:57:43.294Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"flag","code":"too-many-emdashes","detail":"5 em-dashes in prose (max 2)"}
+{"ts":"2026-08-24T16:58:41.855Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"flag","code":"too-many-emdashes","detail":"3 em-dashes in prose (max 2)"}
+{"ts":"2026-08-24T17:00:33.508Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-24T17:01:57.681Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"Those Logk hits are retrieval evaluation for you\""}
+{"ts":"2026-08-24T17:03:32.306Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-24T19:37:20.668Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"Much clearer, and it changes the shape of P1 con\""}
+{"ts":"2026-08-24T21:01:03.611Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-24T21:02:40.788Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"Four open items. I'll take them one at a time, s\""}
+{"ts":"2026-08-24T21:07:43.394Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-24T21:08:16.508Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"Fair enough, and that's a real distinction I was\""}
+{"ts":"2026-08-24T21:12:58.388Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"pass","memoryDelta":false}

@@ -1,0 +1,12 @@
+{
+  "enabled": true,
+  "pollIntervalSec": 120,
+  "sources": {
+    "appFocus": true,
+    "git": true,
+    "claudeSession": true,
+    "github": false
+  },
+  "repos": [],
+  "retentionDays": 30
+}

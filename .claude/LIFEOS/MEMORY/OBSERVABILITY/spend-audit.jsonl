@@ -43,3 +43,16 @@
 {"ts":"2026-08-23T21:57:29+01:00","session_id":"45054c06-e647-42ff-9503-176edd848091","audited":false,"reason":"not-eligible"}
 {"ts":"2026-08-23T22:20:56+01:00","session_id":"45054c06-e647-42ff-9503-176edd848091","audited":false,"reason":"not-eligible"}
 {"ts":"2026-08-23T22:48:26+01:00","session_id":"45054c06-e647-42ff-9503-176edd848091","audited":false,"reason":"not-eligible"}
+{"ts":"2026-08-24T08:41:21+01:00","session_id":"45054c06-e647-42ff-9503-176edd848091","audited":false,"reason":"not-eligible"}
+{"ts":"2026-08-24T09:38:42+01:00","session_id":"45054c06-e647-42ff-9503-176edd848091","audited":false,"reason":"not-eligible"}
+{"ts":"2026-08-24T10:29:50+01:00","session_id":"45054c06-e647-42ff-9503-176edd848091","audited":false,"reason":"not-eligible"}
+{"ts":"2026-08-24T10:58:40+01:00","session_id":"45054c06-e647-42ff-9503-176edd848091","audited":false,"reason":"not-eligible"}
+{"ts":"2026-08-24T12:21:04+01:00","session_id":"45054c06-e647-42ff-9503-176edd848091","audited":false,"reason":"not-eligible"}
+{"ts":"2026-08-24T12:47:04+01:00","session_id":"45054c06-e647-42ff-9503-176edd848091","audited":false,"reason":"not-eligible"}
+{"ts":"2026-08-24T15:44:44+01:00","session_id":"45054c06-e647-42ff-9503-176edd848091","audited":false,"reason":"not-eligible"}
+{"ts":"2026-08-24T16:21:32+01:00","session_id":"45054c06-e647-42ff-9503-176edd848091","audited":false,"reason":"not-eligible"}
+{"ts":"2026-08-24T16:56:34+01:00","session_id":"45054c06-e647-42ff-9503-176edd848091","audited":false,"reason":"not-eligible"}
+{"ts":"2026-08-24T17:19:18+01:00","session_id":"45054c06-e647-42ff-9503-176edd848091","audited":false,"reason":"not-eligible"}
+{"ts":"2026-08-24T17:56:23+01:00","session_id":"45054c06-e647-42ff-9503-176edd848091","audited":false,"reason":"not-eligible"}
+{"ts":"2026-08-24T20:37:20+01:00","session_id":"45054c06-e647-42ff-9503-176edd848091","audited":true,"trigger":"zero-capability-sweep","prompt_gist":"In regards to P1, this is still the case, when I said we are on the road to defining this, I meant we are working on frameworks and ways to provide a pragmatic path for the customer (internal in Infor","capabilities":{"skills":[],"agents":[],"tool_calls":0},"verdict":{"verdict":"match","confidence":0.92,"expected":"Clarifying question on a conceptual point; inline synthesis of what was said; no research or external verification needed","actual":"Inline playback synthesis + clarifying question to disambiguate scope","reason":"Heavy ask (conceptual re-framing) answered with fitted machinery (active listening, restatement, diagnostic question) — zero tool calls justified because the ask was about interpretation, not fact or research"}}
+{"ts":"2026-08-24T22:01:03+01:00","session_id":"45054c06-e647-42ff-9503-176edd848091","audited":false,"reason":"not-eligible"}

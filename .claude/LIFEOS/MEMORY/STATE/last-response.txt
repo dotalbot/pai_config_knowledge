@@ -1,9 +1,15 @@
 ════ LifeOS ═══════════════════════════
 
-**`Projects/ConveyorDesk/CONVEYOR_DESK_SPEC.md`** in your Obsidian vault — one file, 16KB, everything in it: HLD, LLD, both review dispositions, your D1/D2 rulings, and the Hermes build notes. Last sync ran at 22:00 and reported fully synced, so it's already on your Mac.
+Corrected, and your split is better than mine was. Committed as `3403648`.
 
-In Obsidian: **Projects → ConveyorDesk → CONVEYOR_DESK_SPEC**.
+**My rule was too absolute.** I'd banned derived notes and summaries from the vault as well as the source, which would have made quarantined material effectively unusable — you could send it but never work on it where you actually work. That defeats the point.
 
-The supporting pieces live where they run rather than in the vault: the queue contract at `~/conveyor/README.md` on this host, the send script and Shortcut guide in `~/conveyor/_setup/`, and the sweeper in the `~/.claude` repo. The spec is the only thing Hermes needs.
+**The rule now reads:** source material stays in `~/conveyor/quarantine/`, derived work in your own words goes to the vault. The line is verbatim reproduction, not sensitivity. A "summary" that's really the source rearranged doesn't count as derived; your analysis and framing built on top of it does.
 
-🗣️ JellyPai: Open it from the Projects folder and it's ready to hand over.
+That's the right boundary because it matches what actually matters. Nobody minds you having thoughts about your own work in your own notes. What you don't want is somebody else's document sitting in a synced personal store.
+
+Both the operational rule and the quarantine README now say this, so it binds every session rather than depending on me remembering this conversation.
+
+**Ready when you are:** `rsync -az <file> jellybase:~/conveyor/quarantine/`
+
+🗣️ JellyPai: Send it over and say roughly what it is, and I'll read it properly before we go further on P1.

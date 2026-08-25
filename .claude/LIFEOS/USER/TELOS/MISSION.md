@@ -1,6 +1,12 @@
-# Mission
+---
+last_updated: 2026-08-24
+last_updated_by: da
+convention: pai-freshness-v1
+last_reviewed: 2026-08-24
+last_reviewed_by: dom-interview
+---
 
-> 🎯 SAMPLE TEMPLATE — This file shows the SHAPE of your TELOS data. Every entry below is a placeholder. Run `/interview` (or talk to your DA) to replace these samples with your actual mission, goals, beliefs, etc. Pulse will show populated entries here once you run the interview.
+# Mission
 
 > What you're here to do — the most durable north star.
 

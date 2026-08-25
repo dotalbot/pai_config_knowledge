@@ -1,6 +1,12 @@
-# Wisdom
+---
+last_updated: 2026-08-24
+last_updated_by: da
+convention: pai-freshness-v1
+last_reviewed: 2026-08-24
+last_reviewed_by: dom-interview
+---
 
-> 🎯 SAMPLE TEMPLATE — This file shows the SHAPE of your TELOS data. Every entry below is a placeholder. Run `/interview` (or talk to your DA) to replace these samples with your actual mission, goals, beliefs, etc. Pulse will show populated entries here once you run the interview.
+# Wisdom
 
 > Hard-won insights you keep coming back to — the distilled output of years of living.
 
@@ -8,6 +14,8 @@
 - If the student doesn't understand, it's the teacher's fault. Never assume comprehension — read the room.
 - 30 years of experience takes 30 years. You can't shortcut earned judgment.
 - Be precise when it matters. Provide just enough detail for the stage you're at — but never cut corners.
+
+*All four confirmed 2026-08-24.*
 
 ## Format
 

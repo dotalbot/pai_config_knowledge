@@ -14,11 +14,27 @@ last_reviewed_by: migration-7.40.4
 
 - **LifeOS migration → Claude Code primary** — migrated off OpenCode harness to Claude Code as primary; updated PAI 5.0.0/Algo v6.3.0 → LifeOS 7.40.4/Algo v8.20.2; archived and retired OpenCode. (In progress — see `LIFEOS/MEMORY/WORK/opencode-pai-migration/ISA.md`.)
 - **G0 — Build a PowerApps canvas app** (from TELOS/GOALS).
-- **G1 — Land a senior role at target company** (from TELOS/GOALS).
+- ~~G1 — Land a senior role~~ ✅ **achieved 2026-08** — in post 3 weeks. See TELOS/GOALS Completed.
 
 ## Open asks — things Dom owes JellyPai
 
 Surface these when a natural opening appears. Do not nag every session.
+
+- **Fix GenerateTelosSummary completed-goal labelling.** It reports the
+  completed goal as "G5" — a label that exists in no source file. Cause: the
+  regex `\*\*(\w+)\*\*` at GenerateTelosSummary.ts:717 cannot match a bold
+  span containing spaces or an em dash, so it falls through to something that
+  synthesises an ID. Cosmetic, but PRINCIPAL_TELOS.md is @-imported every
+  session, so it misreports which goal completed. (Found 2026-08-24 during
+  /interview; deliberately not fixed mid-interview.)
+- **Feed-in on P1 — AI evaluation capability.** Dom is actively working this
+  space in the new role and TELOS has only the June one-liner. Needs a proper
+  session: what "defining this" means, who it is for, what exists so far.
+  (Raised 2026-08-24 during /interview.)
+- **Feed-in on P2 — influencing the new organisation.** The problem has reframed
+  from "architects are rubber stamps" to "how do I influence from inside".
+  Different problem, different moves, and nothing about the new org is in TELOS.
+  (Raised 2026-08-24 during /interview.)
 
 - **Verdict on the Logk memory architecture.** `Projects/Logk/docs/architecture/
   LOGK_MEMORY_ARCHITECTURE.md` is an 18KB AI-generated three-layer proposal

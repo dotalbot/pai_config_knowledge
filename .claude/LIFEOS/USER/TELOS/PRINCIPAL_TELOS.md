@@ -1,5 +1,5 @@
 ---
-last_updated: 2026-08-23T15:50:37.147Z
+last_updated: 2026-08-24T16:59:11.208Z
 last_updated_by: GenerateTelosSummary
 convention: pai-freshness-v1
 derived_from: LIFEOS/USER/TELOS/TELOS.md
@@ -9,7 +9,7 @@ generator: LIFEOS/TOOLS/GenerateTelosSummary.ts
 # Principal TELOS — Dom
 
 > Auto-generated from TELOS source files. Do not edit manually.
-> Generated: 2026-08-23T15:50:37.147Z | Sources: MISSION, GOALS, PROBLEMS, STRATEGIES, PROJECTS, NARRATIVES, CHALLENGES, WRONG, TRAUMAS, MODELS, WISDOM
+> Generated: 2026-08-24T16:59:11.208Z | Sources: MISSION, GOALS, PROBLEMS, STRATEGIES, PROJECTS, NARRATIVES, CHALLENGES, WRONG, TRAUMAS, MODELS, WISDOM
 
 ## Missions
 
@@ -20,8 +20,9 @@ generator: LIFEOS/TOOLS/GenerateTelosSummary.ts
 ## Active Goals (2026)
 
 - **G0**: Build a PowerApps canvas app
-- **G1**: Land a senior role at target company
 - **G2**: Get personal knowledge organised
+
+_Completed this year (full text in TELOS/GOALS.md): G5_
 
 ## Problems Being Solved
 

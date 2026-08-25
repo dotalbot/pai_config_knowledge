@@ -1,12 +1,22 @@
-# Narratives
+---
+last_updated: 2026-08-24
+last_updated_by: da
+convention: pai-freshness-v1
+last_reviewed: 2026-08-24
+last_reviewed_by: dom-interview
+---
 
-> 🎯 SAMPLE TEMPLATE — This file shows the SHAPE of your TELOS data. Every entry below is a placeholder. Run `/interview` (or talk to your DA) to replace these samples with your actual mission, goals, beliefs, etc. Pulse will show populated entries here once you run the interview.
+# Narratives
 
 > The stories you tell yourself (and others) about the world — the frames your work operates within.
 
 - **N0:** I'm an experienced, deeply technical architect who can take any idea from concept to delivery — handling every step along the way.
 - **N1:** Practical, well-considered, rubber-on-the-road AI — I take ideas and turn them into things that add actual value to individuals and organisations. Not hype, not theory — working outcomes.
 - **N2:** I cut through the AI noise and build the thing that actually solves the problem.
+
+*Reviewed 2026-08-24: all three confirmed as still fitting, three weeks into
+the new role. Note they were written from a candidate's position and survive the
+change of seat unaltered — which is the durability test for a narrative.*
 
 ## Notes
 

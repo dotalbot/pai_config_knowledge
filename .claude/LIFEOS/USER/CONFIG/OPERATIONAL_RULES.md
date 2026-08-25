@@ -90,3 +90,23 @@ are Claude agents with different personas over the same search. Only
   The most valuable artefact of the 2026-08-23 run came from the quota-blocked
   agent: eight self-contained sub-queries naming specific primary sources. The
   useful diversity in this pattern is in how the problem is carved up.
+
+## Work-confidential material — the vault boundary
+
+**The split is source vs derived, not confidential vs not** (Dom's ruling,
+2026-08-24). The vault is encrypted, so the concern is not interception:
+
+- **Source material stays out of the vault.** Employer and client documents
+  arrive via `~/conveyor/quarantine/` (chmod 700) and stay there. The original
+  is not copied into `~/obsidian/`.
+- **Derived work generally CAN go to the vault** — Dom's own notes, analysis,
+  structure and thinking built on top of it. That is his work product, and it
+  is where he needs to iterate on it.
+- The line is verbatim reproduction: do not lift the source document into the
+  vault under the guise of a summary. Derived means Dom's words and framing,
+  not the original rearranged.
+- Never to Daemon, never into a release artefact, regardless of derivation.
+- When genuinely unsure which side something falls, ask before writing.
+- Created 2026-08-24 for the Inform AI-maturity framework; corrected the same
+  day after Dom's ruling — my first version banned derived notes too, which
+  would have made the material useless to work with.

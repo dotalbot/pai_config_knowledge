@@ -1,6 +1,12 @@
-# Beliefs
+---
+last_updated: 2026-08-24
+last_updated_by: da
+convention: pai-freshness-v1
+last_reviewed: 2026-08-24
+last_reviewed_by: dom-interview
+---
 
-> 🎯 SAMPLE TEMPLATE — This file shows the SHAPE of your TELOS data. Every entry below is a placeholder. Run `/interview` (or talk to your DA) to replace these samples with your actual mission, goals, beliefs, etc. Pulse will show populated entries here once you run the interview.
+# Beliefs
 
 > What you hold true about the world — axioms that shape your decisions.
 
@@ -11,7 +17,12 @@
 - I am always growing and learning. That never stops.
 - Build simply, test early, iterate fast — but strong foundations first. TDD, specs, roadmaps, solid documentation from the start. Clear goals and small slices of value delivered as soon as possible.
 
+*All four confirmed core, 2026-08-24.*
+
 ## Provisional Beliefs
+
+*(none captured yet — this is where something you are leaning toward but have
+not committed to would live)*
 
 ---
 *Beliefs differ from opinions: a belief frames everything downstream. The DA uses these to understand *why* you react certain ways to suggestions. If a recommendation conflicts with a core belief, it won't land regardless of how logical it is.*
