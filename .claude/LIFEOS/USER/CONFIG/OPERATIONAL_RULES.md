@@ -110,3 +110,56 @@ are Claude agents with different personas over the same search. Only
 - Created 2026-08-24 for the Inform AI-maturity framework; corrected the same
   day after Dom's ruling — my first version banned derived notes too, which
   would have made the material useless to work with.
+
+## Obsidian templates — QuickAdd is where Dom creates from
+
+- **QuickAdd is the template entry point, not the core Templates plugin.** Any
+  new or renamed vault template needs a matching QuickAdd choice, or Dom cannot
+  reach it from the page icon — the template file existing is not enough.
+- **Ask about QuickAdd whenever templates change.** Adding a template, renaming
+  one, or moving the templates folder all break QuickAdd choices silently.
+  Raise it rather than waiting for him to find the picker empty.
+- Config lives at `.obsidian/plugins/quickadd/data.json`, and choices carry an
+  absolute-from-vault-root `templatePath`. A moved folder orphans every choice.
+- **The Mac holds the authoritative `.obsidian/`.** `~/obsidian/.obsidian` on
+  this host is empty; whether app config syncs is a separate Obsidian Sync
+  toggle from note syncing. Propose the change, let Dom apply it, or confirm
+  the sync path first.
+- Recorded 2026-08-25 at Dom's request, after new templates were invisible to
+  the picker.
+
+## Obsidian Sync — this host pushes notes, never config
+
+Settled 2026-08-25. Baseline: bidirectional, merge, device `jellybase (Linux)`,
+file types image/audio/pdf/video, **Configs: none**.
+
+- **Never write into `~/obsidian/.obsidian/` from this host.** The Mac holds the
+  authoritative app config — three months of plugin settings, hotkeys and
+  appearance. This host's copy is empty. Writing here risks an empty config
+  overwriting a populated one if config syncing is later enabled.
+  (I did exactly this on 2026-08-25 — wrote `templates.json` into an empty
+  `.obsidian/` and the sync log shows it was pushed upstream. Deleted.)
+- **Do not set `--mode pull-only` to protect config.** It is vault-wide —
+  "only download, ignore local changes" — so it silently stops this host
+  pushing NOTES too. Everything LifeOS writes to the vault would stop reaching
+  the Mac, without erroring.
+- **Dom enables config syncing from the Mac**, so the populated side sets the
+  baseline. Until then, config changes are his to make in the app.
+- Checking the setting: `ob sync-status --path /home/jellypai/obsidian`.
+  The sync log records `Configs: none (config syncing disabled)` per run.
+
+## Inform DevOps — parked workstreams are legacy
+
+Dom's ruling, 2026-08-25, after reviewing their contents:
+
+- **Autobots** (231 open) · **Compliance and cyber** (91) · **Copilot adoption**
+  (72) · **Copilot agents** (66) · **Agent Log Lords** (9) are **LEGACY**. Not
+  work needed at the moment. Roughly 470 items, ~30% of the open backlog.
+- **They come back only if Erica brings them forward.** Do not propose restarting
+  them, do not surface them as a decision queue, and do not treat their age as a
+  problem to fix — being still is correct for legacy work.
+- **Show them collapsed and labelled legacy** in the cockpit, never mixed with
+  live work. They must not inflate stale/unowned counts for active streams.
+- I argued Compliance and cyber should be un-parked, on the basis that the MOD
+  framework deadline at Christmas needs it. Dom ruled otherwise. If that
+  deadline resurfaces, raise it as a question rather than re-litigating this.

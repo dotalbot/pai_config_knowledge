@@ -1,15 +1,15 @@
 ════ LifeOS ═══════════════════════════
 
-Corrected, and your split is better than mine was. Committed as `3403648`.
+Written to `02 Doing/Cockpit/AI strategy — four items, resolved.md` and synced.
 
-**My rule was too absolute.** I'd banned derived notes and summaries from the vault as well as the source, which would have made quarantined material effectively unusable — you could send it but never work on it where you actually work. That defeats the point.
+**The headline: only one of the four is actually a problem.** 17435 and 17520 are genuinely different things and both should exist. 17435 is the service you sell, sitting under *Services — Strategy, Readiness & maturity*. 17520 is Inform's own strategy, and its description says an AI strategy has been sold to a client but not yet delivered — so building yours first proves the approach internally. That's "develop at source" expressed as two work items: **the offering and the rehearsal**. 17523 is a legitimate child of 17520, not a duplicate.
 
-**The rule now reads:** source material stays in `~/conveyor/quarantine/`, derived work in your own words goes to the vault. The line is verbatim reproduction, not sensitivity. A "summary" that's really the source rearranged doesn't count as derived; your analysis and framing built on top of it does.
+**17576 is the one to fix.** No parent, 129-character description against 17520's 2,489, same subject, also yours. And it carries the only "In Progress" state in the entire chain, so the board shows activity against the item with least substance behind it.
 
-That's the right boundary because it matches what actually matters. Nobody minds you having thoughts about your own work in your own notes. What you don't want is somebody else's document sitting in a synced personal store.
+**I recommend re-parenting rather than closing.** It's In Progress and you own it, so it reflects real work. Deleting live work to tidy a diagram is the wrong trade.
 
-Both the operational rule and the quarantine README now say this, so it binds every session rather than depending on me remembering this conversation.
+The note also flags three ownership gaps: 17435 unowned since 7 July, 17524 Roadmap unowned, and 17520's own description saying owners are still to be agreed with Steve.
 
-**Ready when you are:** `rsync -az <file> jellybase:~/conveyor/quarantine/`
+Five actions are listed as checkboxes, all needing DevOps write access.
 
-🗣️ JellyPai: Send it over and say roughly what it is, and I'll read it properly before we go further on P1.
+🗣️ JellyPai: Make those edits when you're in DevOps and I'll re-run the cockpit to confirm the chain resolves cleanly.

@@ -2,8 +2,12 @@
 /**
  * ConveyorSweep.ts — claim jobs from the conveyor queue.
  *
- * Runs on cron (no systemd user bus on this host, and inotify-tools is absent,
- * so polling is the honest choice rather than the elegant one).
+ * Runs on a systemd user timer (lifeos-conveyor.timer), every 2 minutes.
+ *
+ * Originally cron: I had concluded there was no systemd user bus here, because
+ * `systemctl --user` failed. That was wrong — the bus was fine, XDG_RUNTIME_DIR
+ * was simply unset in my shell. "Command fails" and "capability absent" are
+ * different findings; I treated one as the other (corrected 2026-08-25).
  *
  * What it does: moves each settled job from new/ to processing/, parses the
  * filename grammar and any frontmatter, and appends a claim record that the DA

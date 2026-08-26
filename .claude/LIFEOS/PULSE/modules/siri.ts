@@ -24,7 +24,7 @@ import { homedir } from "node:os";
 import { getDAName, getPrincipalName } from "../../../hooks/lib/identity";
 
 const CWD = `${homedir()}/.claude`
-const IDLE_TIMEOUT_MS = 60 * 60 * 1000 // 60 min idle gap resets the SDK thread
+const IDLE_TIMEOUT_MS = 4 * 60 * 60 * 1000 // 4 h idle gap resets the SDK thread (raised from 60 min 2026-08-25: an hour cut threads mid-topic — Dom asked for templates and the session had already forgotten recommending them)
 const SDK_TIMEOUT_MS = 50_000 // Shortcuts' Get Contents of URL times out ~60s; stay under it
 const MAX_TURNS = 10 // speed over depth — this is a spoken exchange, not a work session
 const MAX_INPUT_CHARS = 2_000

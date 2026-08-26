@@ -182,3 +182,40 @@
 {"ts":"2026-08-24T21:07:43.394Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"pass","memoryDelta":false}
 {"ts":"2026-08-24T21:08:16.508Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"Fair enough, and that's a real distinction I was\""}
 {"ts":"2026-08-24T21:12:58.388Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-25T08:20:33.196Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-25T08:24:17.531Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"Confirmed: no `--watch` flag, and `siri.ts` is d\""}
+{"ts":"2026-08-25T08:24:47.696Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-25T08:27:48.146Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"The unit exists (`lifeos-pulse.service`) but I c\""}
+{"ts":"2026-08-25T08:31:09.611Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"flag","code":"too-many-emdashes","detail":"3 em-dashes in prose (max 2)"}
+{"ts":"2026-08-25T08:34:45.006Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"I have the diagnosis, but I should be careful no\""}
+{"ts":"2026-08-25T08:38:16.702Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"flag","code":"too-many-emdashes","detail":"3 em-dashes in prose (max 2)"}
+{"ts":"2026-08-25T08:40:56.176Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-25T08:49:33.497Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"flag","code":"too-many-emdashes","detail":"4 em-dashes in prose (max 2)"}
+{"ts":"2026-08-25T08:55:49.230Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"That's a definitive answer, and it's more intere\""}
+{"ts":"2026-08-25T08:59:44.688Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"That's the answer. `sync-config --configs` exist\""}
+{"ts":"2026-08-25T09:02:04.920Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"That confirms the trap. `--mode pull-only` is va\""}
+{"ts":"2026-08-25T09:06:33.668Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-25T09:11:14.889Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"flag","code":"too-many-emdashes","detail":"3 em-dashes in prose (max 2)"}
+{"ts":"2026-08-25T09:23:16.111Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-25T09:25:39.983Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"That table makes it clear.\""}
+{"ts":"2026-08-25T09:29:40.083Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"flag","code":"too-many-emdashes","detail":"4 em-dashes in prose (max 2)"}
+{"ts":"2026-08-25T09:32:46.945Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"flag","code":"too-many-emdashes","detail":"3 em-dashes in prose (max 2)"}
+{"ts":"2026-08-25T09:34:05.758Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-25T14:44:17.367Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"flag","code":"too-many-emdashes","detail":"3 em-dashes in prose (max 2)"}
+{"ts":"2026-08-25T15:10:24.380Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"flag","code":"too-many-emdashes","detail":"3 em-dashes in prose (max 2)"}
+{"ts":"2026-08-25T15:19:26.652Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"flag","code":"too-many-emdashes","detail":"5 em-dashes in prose (max 2)"}
+{"ts":"2026-08-25T15:22:38.198Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-25T15:31:01.960Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-25T15:59:27.419Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"Every metric is computable live, and the small d\""}
+{"ts":"2026-08-25T16:02:21.607Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"That's the answer to question 3, and it's not \\\"p\""}
+{"ts":"2026-08-25T16:05:49.317Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"That answers your own open question, which is wo\""}
+{"ts":"2026-08-25T16:09:27.791Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-25T16:13:47.258Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-25T19:06:57.565Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"flag","code":"too-many-emdashes","detail":"3 em-dashes in prose (max 2)"}
+{"ts":"2026-08-25T19:13:55.249Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"That's a substantive finding — and it answers a \""}
+{"ts":"2026-08-25T19:15:10.368Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"flag","code":"too-many-emdashes","detail":"3 em-dashes in prose (max 2)"}
+{"ts":"2026-08-25T19:18:24.757Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"flag","code":"too-many-emdashes","detail":"3 em-dashes in prose (max 2)"}
+{"ts":"2026-08-25T20:07:45.065Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"That resolves it completely — and there's a work\""}
+{"ts":"2026-08-25T20:12:58.526Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-25T21:38:12.277Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"Now the picture is complete. The two Products ar\""}
+{"ts":"2026-08-25T22:07:43.380Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"pass","memoryDelta":false}
