@@ -155,7 +155,7 @@ async function main() {
     const p = node(w.fields["System.Parent"]);
     if (!p) continue;
     const pf = p.fields;
-    L.push(`| ${esc(w.fields["System.Title"]).slice(0,34)} | [${esc(pf["System.Title"]).slice(0,32)}](https://dev.azure.com/${ORG}/${P}/_workitems/edit/${p.id}) | ${pf["System.WorkItemType"]} | ${((pf["System.AreaPath"] as string) ?? "—").split("\\").slice(1).join(" / ") || "—"} |`);
+    L.push(`| ${esc(w.fields["System.Title"]).slice(0,34)} | [${esc(pf["System.Title"]).slice(0,32)}](https://dev.azure.com/${ORG}/${P}/_workitems/edit/${p.id}) | ${pf["System.WorkItemType"]} | ${((pf["System.AreaPath"] as string) ?? "").split("\\").slice(1).join(" / ") || "(project root)"} |`);
   }
   L.push("");
 

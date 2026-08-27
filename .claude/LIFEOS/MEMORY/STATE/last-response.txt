@@ -1,15 +1,13 @@
 ════ LifeOS ═══════════════════════════
 
-Written to `02 Doing/Cockpit/AI strategy — four items, resolved.md` and synced.
+Corrected and synced. The framing fix mattered more than I expected.
 
-**The headline: only one of the four is actually a problem.** 17435 and 17520 are genuinely different things and both should exist. 17435 is the service you sell, sitting under *Services — Strategy, Readiness & maturity*. 17520 is Inform's own strategy, and its description says an AI strategy has been sold to a client but not yet delivered — so building yours first proves the approach internally. That's "develop at source" expressed as two work items: **the offering and the rehearsal**. 17523 is a legitimate child of 17520, not a duplicate.
+**The structure you described already exists on the board.** `17522 Transform the data core` sits under the AI/data/digital Product Family, with `17527 Dataverse planning and migration` as a Feature beneath it. So the hierarchy Erica described in the meeting is already modelled correctly — it just has **no owners and no activity on either item**. That's a better position than needing new tickets.
 
-**17576 is the one to fix.** No parent, 129-character description against 17520's 2,489, same subject, also yours. And it carries the only "In Progress" state in the entire chain, so the board shows activity against the item with least substance behind it.
+**Frontmatter now reads** `project: Digital landscape transformation` with `workstream: Dataverse migration`, and I added a callout in the body explaining why scoping it as "the Dataverse project" would undersize it.
 
-**I recommend re-parenting rather than closing.** It's In Progress and you own it, so it reflects real work. Deleting live work to tidy a diagram is the wrong trade.
+**Eight suggestions, none applied.** The two that stand out: assign yourself to both 17522 and 17527, since Erica named you as lead and both are unowned; and put the end-September date on 17520, because she gave a hard date that appears nowhere on the board.
 
-The note also flags three ownership gaps: 17435 unowned since 7 July, 17524 Roadmap unowned, and 17520's own description saying owners are still to be agreed with Steve.
+**Three questions the board cannot answer**, which are the ones worth your judgement. `6359 Microsoft Dataverse` sits in Discovery with four children including a Done business case — is it superseded by 17527 or still live? `16887 My Inform (Dataverse SWA)` is in Development under Tom, building on Dataverse while the migration is unplanned. And the engineering operating model went "into the mix" with no home at all.
 
-Five actions are listed as checkboxes, all needing DevOps write access.
-
-🗣️ JellyPai: Make those edits when you're in DevOps and I'll re-run the cockpit to confirm the chain resolves cleanly.
+🗣️ JellyPai: Have a read, then tell me if that shape is what a skill should produce every time.
