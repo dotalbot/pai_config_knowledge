@@ -223,3 +223,25 @@
 {"ts":"2026-08-26T11:16:47.572Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"pass","memoryDelta":false}
 {"ts":"2026-08-26T19:50:34.483Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"pass","memoryDelta":false}
 {"ts":"2026-08-26T19:57:46.668Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-27T14:41:58.888Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"flag","code":"too-many-emdashes","detail":"3 em-dashes in prose (max 2)"}
+{"ts":"2026-08-27T15:01:32.856Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-27T15:05:14.693Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"All six say the same thing in their own words: *\""}
+{"ts":"2026-08-27T15:16:32.392Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"Six archived, one real job left. Now the mechani\""}
+{"ts":"2026-08-27T15:21:45.894Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"flag","code":"too-many-emdashes","detail":"3 em-dashes in prose (max 2)"}
+{"ts":"2026-08-27T15:24:13.633Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-27T15:39:23.605Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"flag","code":"too-many-emdashes","detail":"4 em-dashes in prose (max 2)"}
+{"ts":"2026-08-27T15:56:56.471Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"That surfaces a real conflict with your 5-minute\""}
+{"ts":"2026-08-27T16:00:36.691Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"That's a clean answer: your inbox is five TODO f\""}
+{"ts":"2026-08-27T16:03:44.358Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"20ms and 43MB. That settles it — the router is e\""}
+{"ts":"2026-08-27T16:06:19.928Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"Then it's simpler than I was making it, because \""}
+{"ts":"2026-08-27T16:11:35.537Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"flag","code":"too-many-emdashes","detail":"3 em-dashes in prose (max 2)"}
+{"ts":"2026-08-27T16:28:09.371Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"flag","code":"too-many-emdashes","detail":"4 em-dashes in prose (max 2)"}
+{"ts":"2026-08-27T20:45:55.493Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"flag","code":"too-many-emdashes","detail":"3 em-dashes in prose (max 2)"}
+{"ts":"2026-08-27T21:08:23.176Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"That's a substantial architecture document — a T\""}
+{"ts":"2026-08-27T21:20:43.414Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"flag","code":"too-many-emdashes","detail":"3 em-dashes in prose (max 2)"}
+{"ts":"2026-08-27T21:25:17.189Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-27T21:29:19.223Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"Sync is healthy — it connects, reports \\\"Fully sy\""}
+{"ts":"2026-08-27T21:29:49.352Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-27T21:40:44.782Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"flag","code":"too-many-emdashes","detail":"3 em-dashes in prose (max 2)"}
+{"ts":"2026-08-27T21:47:00.887Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"flag","code":"too-many-emdashes","detail":"4 em-dashes in prose (max 2)"}
+{"ts":"2026-08-27T22:08:29.668Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"flag","code":"too-many-emdashes","detail":"3 em-dashes in prose (max 2)"}

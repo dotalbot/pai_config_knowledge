@@ -223,3 +223,26 @@
 {"ts":"2026-08-26T11:16:47.605Z","decision":"no-claim"}
 {"ts":"2026-08-26T19:50:34.530Z","decision":"no-claim"}
 {"ts":"2026-08-26T19:57:46.704Z","decision":"no-claim"}
+{"ts":"2026-08-27T14:41:58.933Z","decision":"no-claim"}
+{"ts":"2026-08-27T15:01:32.892Z","decision":"no-claim"}
+{"ts":"2026-08-27T15:05:14.729Z","decision":"no-claim"}
+{"ts":"2026-08-27T15:16:32.428Z","decision":"no-claim"}
+{"ts":"2026-08-27T15:21:45.929Z","decision":"no-claim"}
+{"ts":"2026-08-27T15:24:13.673Z","decision":"no-claim"}
+{"ts":"2026-08-27T15:39:23.644Z","decision":"no-claim"}
+{"ts":"2026-08-27T15:56:56.506Z","decision":"no-claim"}
+{"ts":"2026-08-27T16:00:36.733Z","decision":"no-claim"}
+{"ts":"2026-08-27T16:03:44.392Z","decision":"no-claim"}
+{"ts":"2026-08-27T16:06:20.001Z","decision":"pass-verified","type":"T5","unit":"** A conveyor draft is published by the conveyor publisher"}
+{"ts":"2026-08-27T16:06:20.002Z","decision":"no-claim"}
+{"ts":"2026-08-27T16:11:35.572Z","decision":"no-claim"}
+{"ts":"2026-08-27T16:28:09.408Z","decision":"no-claim"}
+{"ts":"2026-08-27T20:45:55.529Z","decision":"pass-no-activity","type":"T4"}
+{"ts":"2026-08-27T21:08:23.210Z","decision":"no-claim"}
+{"ts":"2026-08-27T21:20:43.452Z","decision":"no-claim"}
+{"ts":"2026-08-27T21:25:17.223Z","decision":"no-claim"}
+{"ts":"2026-08-27T21:29:19.261Z","decision":"no-claim"}
+{"ts":"2026-08-27T21:29:49.386Z","decision":"no-claim"}
+{"ts":"2026-08-27T21:40:44.824Z","decision":"no-claim"}
+{"ts":"2026-08-27T21:47:00.887Z","decision":"pass-honest-downgrade"}
+{"ts":"2026-08-27T22:08:29.669Z","decision":"pass-honest-downgrade"}

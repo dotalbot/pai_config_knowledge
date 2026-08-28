@@ -1,0 +1,110 @@
+#!/usr/bin/env bun
+/**
+ * conveyor — review and drive the Conveyor queue.
+ *
+ * Recipes spec §2. Deliberately shows no payload content: jobs may carry client
+ * material, and this prints to a terminal that may be shared or logged.
+ */
+import { readdirSync, readFileSync, existsSync, statSync, appendFileSync, mkdirSync } from "node:fs";
+import { join } from "node:path";
+import { homedir } from "node:os";
+import { execFileSync } from "node:child_process";
+
+const ROOT = join(homedir(), "conveyor");
+const VAULT = join(homedir(), "obsidian");
+const STATE = join(homedir(), ".claude/LIFEOS/MEMORY/STATE");
+const STATES = ["new", "processing", "review", "done", "failed", "needs_input", "archive"];
+const TOOLS = join(homedir(), ".claude/LIFEOS/TOOLS");
+
+const jobs = (s: string) => existsSync(join(ROOT, s))
+  ? readdirSync(join(ROOT, s)).filter(n => /^\d{8}-\d{6}/.test(n)) : [];
+const ageH = (p: string) => (Date.now() - statSync(p).mtimeMs) / 3.6e6;
+const fmt = (h: number) => h < 1 ? `${Math.round(h * 60)}m` : h < 48 ? `${h.toFixed(0)}h` : `${(h / 24).toFixed(0)}d`;
+
+function status() {
+  console.log("queue");
+  for (const s of STATES) {
+    const n = jobs(s);
+    if (!n.length && s === "archive") continue;
+    const oldest = n.length ? Math.max(...n.map(j => ageH(join(ROOT, s, j)))) : 0;
+    console.log(`  ${s.padEnd(13)} ${String(n.length).padStart(3)}${n.length ? `   oldest ${fmt(oldest)}` : ""}`);
+  }
+  const hb = join(STATE, "conveyor-worker-heartbeat.json");
+  if (existsSync(hb)) {
+    const h = JSON.parse(readFileSync(hb, "utf8"));
+    const mins = (Date.now() - Date.parse(h.ts)) / 6e4;
+    console.log(`\nworker      last ran ${fmt(mins / 60)} ago${mins > 10 ? "  ⚠️ STALE" : ""}`);
+  } else console.log("\nworker      no heartbeat — has it ever run?");
+
+  const drafts = existsSync(join(VAULT, "00 INBOX"))
+    ? readdirSync(join(VAULT, "00 INBOX")).filter(f => f.startsWith("DRAFT — ")) : [];
+  console.log(`drafts      ${drafts.length} in 00 INBOX awaiting review`);
+}
+
+function list(state = "review") {
+  const n = jobs(state);
+  if (!n.length) return console.log(`nothing in ${state}/`);
+  console.log(`${state}/  (${n.length})`);
+  for (const j of n.sort()) {
+    let kind = "?", ctx = "";
+    try {
+      const m = JSON.parse(readFileSync(join(ROOT, state, j, "meta.json"), "utf8"));
+      kind = m.kind ?? "?"; ctx = (m.context ?? "").slice(0, 46);
+    } catch {}
+    console.log(`  ${fmt(ageH(join(ROOT, state, j))).padStart(4)}  ${kind.padEnd(11)} ${j.slice(0, 46)}`);
+    if (ctx) console.log(`        ${ctx}${ctx.length >= 46 ? "…" : ""}`);
+  }
+}
+
+function show(id: string) {
+  const st = STATES.find(s => jobs(s).some(j => j.startsWith(id)));
+  if (!st) return console.error(`no job matching "${id}"`);
+  const j = jobs(st).find(x => x.startsWith(id))!;
+  const dir = join(ROOT, st, j);
+  console.log(`${j}\n  state    ${st}\n  age      ${fmt(ageH(dir))}`);
+  try {
+    const m = JSON.parse(readFileSync(join(dir, "meta.json"), "utf8"));
+    console.log(`  kind     ${m.kind}\n  output   ${m.output}\n  project  ${m.project ?? "—"}`);
+    if (m.context) console.log(`  context  ${m.context}`);
+    console.log(`  payload  ${m.source?.original_name ?? "?"} · ${m.source?.size ?? "?"} bytes`);
+  } catch { console.log("  meta.json unreadable"); }
+  try {
+    const inv = JSON.parse(readFileSync(join(dir, "inventory.json"), "utf8"));
+    console.log(`  extract  ${inv.extraction?.extractor} · ${inv.extraction?.chars} chars`);
+    if (inv.draft) console.log(`  draft    ${inv.draft.replace(homedir(), "~")}`);
+  } catch {}
+  for (const f of ["reason.md", "question.md"]) {
+    const p = join(dir, f);
+    if (existsSync(p)) console.log(`\n  ${f}:\n${readFileSync(p, "utf8").split("\n").map(l => "    " + l).join("\n")}`);
+  }
+  console.log("\n  (payload content deliberately not shown)");
+}
+
+function publish(id?: string) {
+  const args = [join(TOOLS, "ConveyorPublish.ts")];
+  if (id) args.push(`--job=${id}`);
+  console.log(execFileSync("bun", args, { encoding: "utf8" }));
+}
+
+function approve(id: string) {
+  mkdirSync(ROOT, { recursive: true });
+  appendFileSync(join(ROOT, "approved-backlog.txt"), id + "\n");
+  console.log(`approved for processing: ${id}\n(the worker picks it up on its next run, within 2 minutes)`);
+}
+
+const [cmd, arg] = process.argv.slice(2);
+switch (cmd) {
+  case "status": case undefined: status(); break;
+  case "list": list(arg); break;
+  case "show": arg ? show(arg) : console.error("usage: conveyor show <jobid>"); break;
+  case "publish": publish(arg); break;
+  case "approve": arg ? approve(arg) : console.error("usage: conveyor approve <jobid>"); break;
+  default:
+    console.log(`conveyor — review and drive the queue
+
+  status              depth by state, worker heartbeat, drafts awaiting review
+  list [state]        jobs in a state (default: review)
+  show <jobid>        metadata, gates, draft path — never payload content
+  publish [jobid]     run the publisher now, instead of waiting for the timer
+  approve <jobid>     add a backlog job to approved-backlog.txt`);
+}

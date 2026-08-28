@@ -1,13 +1,23 @@
 ════ LifeOS ═══════════════════════════
 
-Corrected and synced. The framing fix mattered more than I expected.
+Good catch, and it was a real design flaw rather than a stray file.
 
-**The structure you described already exists on the board.** `17522 Transform the data core` sits under the AI/data/digital Product Family, with `17527 Dataverse planning and migration` as a Feature beneath it. So the hierarchy Erica described in the meeting is already modelled correctly — it just has **no owners and no activity on either item**. That's a better position than needing new tickets.
+**What was there:** the `.published` marker — 1.8KB of spent receipt that my publisher renamed rather than removed. I'd chosen renaming during development so nothing could be lost irrecoverably, but the effect was litter accumulating in the one place you actually read. An inbox that fills with its own spent paperwork stops being an inbox.
 
-**Frontmatter now reads** `project: Digital landscape transformation` with `workstream: Dataverse migration`, and I added a callout in the body explaining why scoping it as "the Dataverse project" would undersize it.
+**Fixed properly rather than just deleted.** The receipt is audit material, so it now moves to `<jobdir>/receipt.md` on publish, sitting alongside the payload, extract, audit and inventory. If no job directory exists it still falls back to the rename rather than deleting something unrecoverable.
 
-**Eight suggestions, none applied.** The two that stand out: assign yourself to both 17522 and 17527, since Erica named you as lead and both are unowned; and put the end-September date on 17520, because she gave a hard date that appears nowhere on the board.
+**Your inbox is back to your five TODOs.**
 
-**Three questions the board cannot answer**, which are the ones worth your judgement. `6359 Microsoft Dataverse` sits in Discovery with four children including a Done business case — is it superseded by 17527 or still live? `16887 My Inform (Dataverse SWA)` is in Development under Tom, building on Dataverse while the migration is unplanned. And the engineering operating model went "into the mix" with no home at all.
+Worth noting this would have compounded: every published job would have left one behind, so you'd have found it eventually with a dozen of them. Better caught on the first real run.
 
-🗣️ JellyPai: Have a read, then tell me if that shape is what a skill should produce every time.
+🔧 CHANGE:
+
+- `ConveyorPublish.ts` — receipts filed with the job; existing TDA340 stray retired the same way. Committed `26326c9`, pushed.
+
+✅ VERIFY:
+
+- Job directory holds six files including `receipt.md`; publisher loads clean on dry run
+- `00 INBOX` contains only your five TODO files
+- Not verified: the fix on a fresh publish, which the next real job will exercise
+
+🗣️ JellyPai: That's the pipeline tidy now — the TDA340 note itself is still worth your read when you have a moment.
