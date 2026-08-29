@@ -72,3 +72,5 @@
 {"timestamp":"2026-08-23T21:04:17+01:00","event":"config_change","session_id":"45054c06-e647-42ff-9503-176edd848091","config_path":"settings.json","config_key":"unchanged","change_summary":"no diff detected (possible race)"}
 {"timestamp":"2026-08-23T21:08:13+01:00","event":"config_change","session_id":"45054c06-e647-42ff-9503-176edd848091","config_path":"settings.json","config_key":"unchanged","change_summary":"no diff detected (possible race)"}
 {"timestamp":"2026-08-23T21:08:13+01:00","event":"config_change","session_id":"45054c06-e647-42ff-9503-176edd848091","config_path":"settings.json","config_key":"unchanged","change_summary":"no diff detected (possible race)"}
+{"timestamp":"2026-08-28T11:27:41+01:00","event":"config_change","session_id":"45054c06-e647-42ff-9503-176edd848091","config_path":"settings.json","config_key":"model","change_summary":"model: added"}
+{"timestamp":"2026-08-28T11:27:41+01:00","event":"config_change","session_id":"45054c06-e647-42ff-9503-176edd848091","config_path":"settings.json","config_key":"model","change_summary":"model: added"}

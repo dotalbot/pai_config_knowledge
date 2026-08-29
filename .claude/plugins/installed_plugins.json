@@ -4,20 +4,20 @@
     "code-review@claude-plugins-official": [
       {
         "scope": "user",
-        "installPath": "/home/jellypai/.claude/plugins/cache/claude-plugins-official/code-review/3c87ae165442",
-        "version": "3c87ae165442",
+        "installPath": "/home/jellypai/.claude/plugins/cache/claude-plugins-official/code-review/0620a687ddd5",
+        "version": "0620a687ddd5",
         "installedAt": "2026-06-04T21:02:32.152Z",
-        "lastUpdated": "2026-08-23T20:14:47.622Z",
+        "lastUpdated": "2026-08-28T10:29:03.852Z",
         "gitCommitSha": "3c87ae165442e925655c4086c9e5c42f59174762"
       }
     ],
     "pr-review-toolkit@claude-plugins-official": [
       {
         "scope": "user",
-        "installPath": "/home/jellypai/.claude/plugins/cache/claude-plugins-official/pr-review-toolkit/3c87ae165442",
-        "version": "3c87ae165442",
+        "installPath": "/home/jellypai/.claude/plugins/cache/claude-plugins-official/pr-review-toolkit/0620a687ddd5",
+        "version": "0620a687ddd5",
         "installedAt": "2026-06-04T21:02:32.152Z",
-        "lastUpdated": "2026-08-23T20:14:47.623Z",
+        "lastUpdated": "2026-08-28T10:29:03.852Z",
         "gitCommitSha": "3c87ae165442e925655c4086c9e5c42f59174762"
       }
     ],

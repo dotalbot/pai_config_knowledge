@@ -245,3 +245,8 @@
 {"ts":"2026-08-27T21:40:45.083Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"no-content","strong":false,"weak":false,"words":211}
 {"ts":"2026-08-27T21:47:01.146Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"no-content","strong":false,"weak":false,"words":177}
 {"ts":"2026-08-27T22:08:29.930Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"no-content","strong":false,"weak":false,"words":202}
+{"ts":"2026-08-28T09:52:26.839Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"no-content","strong":false,"weak":false,"words":172}
+{"ts":"2026-08-28T09:57:24.124Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"no-content","strong":false,"weak":false,"words":180}
+{"ts":"2026-08-28T10:27:57.708Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"telemetry-weak","weak":true,"words":385}
+{"ts":"2026-08-28T10:29:20.850Z","session_id":"9c7fc6e0-d052-486d-9605-0bdb31cc91ee","decision":"no-content","strong":false,"weak":false,"words":152}
+{"ts":"2026-08-28T10:31:04.280Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"no-content","strong":false,"weak":false,"words":227}

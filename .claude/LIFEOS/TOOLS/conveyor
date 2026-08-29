@@ -5,7 +5,7 @@
  * Recipes spec §2. Deliberately shows no payload content: jobs may carry client
  * material, and this prints to a terminal that may be shared or logged.
  */
-import { readdirSync, readFileSync, existsSync, statSync, appendFileSync, mkdirSync } from "node:fs";
+import { readdirSync, readFileSync, writeFileSync, existsSync, statSync, appendFileSync, mkdirSync, renameSync } from "node:fs";
 import { join } from "node:path";
 import { homedir } from "node:os";
 import { execFileSync } from "node:child_process";
@@ -92,13 +92,51 @@ function approve(id: string) {
   console.log(`approved for processing: ${id}\n(the worker picks it up on its next run, within 2 minutes)`);
 }
 
-const [cmd, arg] = process.argv.slice(2);
+// Closing the loop on a stage 2 job. Doing this by hand left three tombstones
+// in the queue for one finished job (2026-08-28) — queue depth is the number
+// Pulse reads, so a leak there is a broken instrument, not untidiness.
+// Records the vault write, drops the queue entry, moves review/ -> done/.
+function complete(id: string, vaultPath?: string) {
+  const from = join(ROOT, "review", id), to = join(ROOT, "done", id);
+  const dir = existsSync(from) ? from : existsSync(to) ? to : null;
+  if (!dir) { console.error(`no such job in review/ or done/: ${id}`); process.exit(1); }
+
+  if (vaultPath) {
+    const rel = vaultPath.startsWith(VAULT) ? vaultPath.slice(VAULT.length + 1) : vaultPath;
+    if (!existsSync(join(VAULT, rel))) {
+      // Never record a write we cannot see. A completion claim with no file
+      // behind it is exactly the "should work" this system forbids.
+      console.error(`refusing: no file at ${rel} in the vault`); process.exit(1);
+    }
+    const inv = join(dir, "inventory.json");
+    const d = existsSync(inv) ? JSON.parse(readFileSync(inv, "utf8")) : {};
+    d.vault_writes = [...new Set([...(d.vault_writes ?? []), rel])];
+    d.stage2 = { ...(d.stage2 ?? {}), completed: new Date().toISOString() };
+    writeFileSync(inv, JSON.stringify(d, null, 2));
+    console.log(`  recorded vault write: ${rel}`);
+  }
+
+  const out = execFileSync("bun", ["-e",
+    `import {dequeue} from "${join(TOOLS, "ConveyorPublish.ts")}"; console.log(dequeue(${JSON.stringify(id)}))`],
+    { encoding: "utf8" }).trim().split("\n");
+  const dropped = Number(out[out.length - 1]);
+  console.log(`  queue entries dropped: ${dropped}`);
+
+  if (dir === from) {
+    mkdirSync(join(ROOT, "done"), { recursive: true });
+    renameSync(from, to);
+    console.log("  review -> done");
+  } else console.log("  already in done/");
+}
+
+const [cmd, arg, arg2] = process.argv.slice(2);
 switch (cmd) {
   case "status": case undefined: status(); break;
   case "list": list(arg); break;
   case "show": arg ? show(arg) : console.error("usage: conveyor show <jobid>"); break;
   case "publish": publish(arg); break;
   case "approve": arg ? approve(arg) : console.error("usage: conveyor approve <jobid>"); break;
+  case "complete": arg ? complete(arg, arg2) : console.error("usage: conveyor complete <jobid> [vault/path.md]"); break;
   default:
     console.log(`conveyor — review and drive the queue
 
@@ -106,5 +144,6 @@ switch (cmd) {
   list [state]        jobs in a state (default: review)
   show <jobid>        metadata, gates, draft path — never payload content
   publish [jobid]     run the publisher now, instead of waiting for the timer
-  approve <jobid>     add a backlog job to approved-backlog.txt`);
+  approve <jobid>     add a backlog job to approved-backlog.txt
+  complete <jobid> [path]  close a stage 2 job: record the write, dequeue, review -> done`);
 }

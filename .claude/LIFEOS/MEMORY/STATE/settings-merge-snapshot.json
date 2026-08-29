@@ -1863,5 +1863,6 @@
   "fileCheckpointingEnabled": true,
   "remoteControlAtStartup": true,
   "inputNeededNotifEnabled": false,
-  "skipWorkflowUsageWarning": true
+  "skipWorkflowUsageWarning": true,
+  "model": "opus"
 }

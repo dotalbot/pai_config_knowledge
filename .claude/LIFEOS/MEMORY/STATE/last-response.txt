@@ -1,23 +1,35 @@
 ════ LifeOS ═══════════════════════════
 
-Good catch, and it was a real design flaw rather than a stray file.
+Queue leak is fixed, and it was hiding a worse bug.
 
-**What was there:** the `.published` marker — 1.8KB of spent receipt that my publisher renamed rather than removed. I'd chosen renaming during development so nothing could be lost irrecoverably, but the effect was litter accumulating in the one place you actually read. An inbox that fills with its own spent paperwork stops being an inbox.
+The pending queue is now a **set keyed by job** rather than an append log. `enqueue` refuses a duplicate and says so; `dequeue` removes on completion. New verb closes the loop:
 
-**Fixed properly rather than just deleted.** The receipt is audit material, so it now moves to `<jobdir>/receipt.md` on publish, sitting alongside the payload, extract, audit and inventory. If no job directory exists it still falls back to the rename rather than deleting something unrecoverable.
+```
+conveyor complete <jobid> [vault/path.md]
+```
 
-**Your inbox is back to your five TODOs.**
+It records the vault write, drops the queue entry, moves `review/ → done/`, and refuses to record a write it cannot actually see in the vault.
 
-Worth noting this would have compounded: every published job would have left one behind, so you'd have found it eventually with a dozen of them. Better caught on the first real run.
+**The thing worth knowing:** wiring that up surfaced a real defect. Importing `dequeue` from the publisher ran the publisher's `main()` as a side effect, so *reading a helper triggered a live publish sweep*. A review gate firing from an import is the same class of failure as the regex bug yesterday. Now guarded by `import.meta.main`. I found it because the dropped-count printed `NaN` and I chased it instead of accepting the number.
 
 🔧 CHANGE:
 
-- `ConveyorPublish.ts` — receipts filed with the job; existing TDA340 stray retired the same way. Committed `26326c9`, pushed.
+- `ConveyorPublish.ts` 1.0.0 → 1.1.0: set-based queue helpers, idempotent enqueue, exported `dequeue`, `main()` guarded on import
+
+- `conveyor`: added `complete`, hardened the count parse against stray stdout
+
+- Cleared the three stale TDA340 tombstones; committed and pushed
 
 ✅ VERIFY:
 
-- Job directory holds six files including `receipt.md`; publisher loads clean on dry run
-- `00 INBOX` contains only your five TODO files
-- Not verified: the fix on a fresh publish, which the next real job will exercise
+- Set logic tested against the shipped functions: duplicate refused, unrelated job untouched, `dequeue` exact, missing job a no-op
 
-🗣️ JellyPai: That's the pipeline tidy now — the TDA340 note itself is still worth your read when you have a moment.
+- `complete` refused a nonexistent vault path, then closed the real Erica job with `dropped: 1`, queue depth 1 → 0
+
+- Import runs no sweep; script invocation still does
+
+- Live systemd timer observed running `publisher 1.1.0` at 10:30:37, not asserted from the file
+
+Queue depth is now a number Pulse can trust when you wire that panel.
+
+🗣️ JellyPai: Two review-gate bugs in two days, both silent, both found by pulling on something that looked slightly off.

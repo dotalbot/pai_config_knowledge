@@ -1,7 +1,5 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-settings.json",
-  "cleanupPeriodDays": 3650,
-  "skillListingBudgetFraction": 0.15,
   "env": {
     "PAI_DIR": "/home/jellypai/.claude/PAI",
     "PROJECTS_DIR": "/home/jellypai/Projects",
@@ -86,7 +84,6 @@
     "ask": [],
     "defaultMode": "auto"
   },
-  "model": "opus",
   "fallbackModel": [
     "claude-opus-4-8",
     "claude-sonnet-4-6"
@@ -1654,16 +1651,8 @@
   "awaySummaryEnabled": false,
   "requiredMinimumVersion": "2.1.139",
   "plansDirectory": "Plans/",
-  "tui": "default",
-  "autoMemoryEnabled": false,
   "skipDangerousModePermissionPrompt": true,
-  "skipWorkflowUsageWarning": true,
-  "theme": "dark-ansi",
-  "editorMode": "normal",
-  "fileCheckpointingEnabled": true,
   "teammateMode": "in-process",
-  "remoteControlAtStartup": true,
-  "inputNeededNotifEnabled": false,
   "agentPushNotifEnabled": true,
   "skipAutoPermissionPrompt": true,
   "autoMode": {
@@ -1864,5 +1853,16 @@
     "research": 2,
     "ratings": 130,
     "updatedAt": "2026-06-19T18:25:36.946Z"
-  }
+  },
+  "skillListingBudgetFraction": 0.15,
+  "tui": "default",
+  "autoMemoryEnabled": false,
+  "cleanupPeriodDays": 3650,
+  "theme": "dark-ansi",
+  "editorMode": "normal",
+  "fileCheckpointingEnabled": true,
+  "remoteControlAtStartup": true,
+  "inputNeededNotifEnabled": false,
+  "skipWorkflowUsageWarning": true,
+  "model": "opus"
 }

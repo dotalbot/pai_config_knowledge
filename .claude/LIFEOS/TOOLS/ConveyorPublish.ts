@@ -18,8 +18,9 @@
 import { readdirSync, readFileSync, writeFileSync, renameSync, mkdirSync, existsSync, appendFileSync, statSync } from "node:fs";
 import { join, basename, dirname } from "node:path";
 import { homedir } from "node:os";
+import { execFileSync } from "node:child_process";
 
-const VERSION = "1.0.0";
+const VERSION = "1.1.0";
 const VAULT = join(homedir(), "obsidian");
 const INBOX = join(VAULT, "00 INBOX");
 const ROOT = join(homedir(), "conveyor");
@@ -53,6 +54,37 @@ function addedContext(body: string): string {
   return m[1].split("\n").filter(l => !l.trim().startsWith(">") && l.trim()).join("\n").trim();
 }
 
+// The stage 2 queue is a SET keyed by job, not an append log. It was an append
+// log until 2026-08-28, and it leaked twice over: a failed receipt-move left
+// the draft in the inbox so the next sweep re-enqueued the same job, and
+// nothing ever removed an entry when stage 2 finished. Three tombstones for
+// one completed job made queue depth meaningless — which is the number Pulse
+// is meant to read. Rewrite the whole file each time; it is tens of lines.
+function queueRead(): any[] {
+  if (!existsSync(PENDING)) return [];
+  return readFileSync(PENDING, "utf8").split("\n").filter(Boolean)
+    .map(l => { try { return JSON.parse(l); } catch { return null; } }).filter(Boolean);
+}
+
+function queueWrite(rows: any[]): void {
+  writeFileSync(PENDING, rows.map(r => JSON.stringify(r)).join("\n") + (rows.length ? "\n" : ""));
+}
+
+function enqueue(entry: any): "queued" | "already queued" {
+  const rows = queueRead();
+  if (rows.some(r => r.job === entry.job)) return "already queued";
+  rows.push(entry);
+  queueWrite(rows);
+  return "queued";
+}
+
+export function dequeue(job: string): number {
+  const rows = queueRead();
+  const kept = rows.filter(r => r.job !== job);
+  if (kept.length !== rows.length) queueWrite(kept);
+  return rows.length - kept.length;
+}
+
 function publish(d: Draft, dry: boolean): string {
   const jobid = d.fm.conveyor_job, recipe = d.fm.recipe ?? "unknown";
   const dest = d.fm.destination ?? "00 INBOX";
@@ -64,13 +96,32 @@ function publish(d: Draft, dry: boolean): string {
 
   if (needsModel) {
     // Stage 2 is model work. Queue it; the DA runs it, not this timer.
+    // Recipe prep: deterministic facts a regex gets right and a model would not.
+    // The brief lands in the job directory; stage 2 works from it.
+    let brief = "", queued = "queued";
     if (!dry) {
-      appendFileSync(PENDING, JSON.stringify({
+      try {
+        const jobDir = existsSync(join(REVIEW, jobid)) ? join(REVIEW, jobid) : join(DONE, jobid);
+        if (recipe === "transcript" && existsSync(join(jobDir, "extract.txt"))) {
+          execFileSync("bun", [join(homedir(), ".claude/LIFEOS/TOOLS/recipes/TranscriptRecipe.ts"), jobDir],
+            { encoding: "utf8", timeout: 60000 });
+          brief = join(jobDir, "stage2-brief.md");
+        }
+      } catch { /* prep is best-effort; stage 2 can still read extract.txt */ }
+      queued = enqueue({
+        brief: brief || null,
         ts: new Date().toISOString(), job: jobid, recipe, draft: d.path,
         destination: dest, added_context: ctx || null, has_context: !!ctx,
-      }) + "\n");
+      });
     }
-    return `queued for stage 2 (${recipe}${ctx ? ", with context" : ", no context added"})`;
+    // File the spent receipt here too. Yesterday's fix only covered the
+    // deterministic path, which returns further down — so model recipes still
+    // left the draft in the inbox (caught 2026-08-28: same bug, second branch).
+    try {
+      const jd = existsSync(join(REVIEW, jobid)) ? join(REVIEW, jobid) : join(DONE, jobid);
+      if (!dry && existsSync(jd)) renameSync(d.path, join(jd, "receipt.md"));
+    } catch { /* leave the draft rather than lose it */ }
+    return `${queued} for stage 2 (${recipe}${ctx ? ", with context" : ", no context added"})`;
   }
 
   // Deterministic recipes publish directly.
@@ -127,4 +178,7 @@ function main() {
   console.log(`publisher ${VERSION}${dry ? " (dry run)" : ""}: acted=${acted} still_pinned=${pinned}`);
   if (chase.length) console.log(`  awaiting review >${CHASE_HOURS}h: ${chase.join(", ")}`);
 }
-main();
+// Guard the sweep. `conveyor complete` imports dequeue() from this file, and an
+// unguarded main() meant importing the publisher PUBLISHED — a review gate that
+// fires as a side effect of reading a helper (caught 2026-08-28 by NaN output).
+if (import.meta.main) main();

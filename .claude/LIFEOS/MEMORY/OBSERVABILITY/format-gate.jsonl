@@ -245,3 +245,8 @@
 {"ts":"2026-08-27T21:40:44.782Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"flag","code":"too-many-emdashes","detail":"3 em-dashes in prose (max 2)"}
 {"ts":"2026-08-27T21:47:00.887Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"flag","code":"too-many-emdashes","detail":"4 em-dashes in prose (max 2)"}
 {"ts":"2026-08-27T22:08:29.668Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"flag","code":"too-many-emdashes","detail":"3 em-dashes in prose (max 2)"}
+{"ts":"2026-08-28T09:52:26.545Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-28T09:57:23.828Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-28T10:27:57.398Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"flag","code":"too-many-emdashes","detail":"13 em-dashes in prose (max 2)"}
+{"ts":"2026-08-28T10:29:20.686Z","session_id":"9c7fc6e0-d052-486d-9605-0bdb31cc91ee","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"Survey complete. I've sampled the repository str\""}
+{"ts":"2026-08-28T10:31:03.984Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"pass","memoryDelta":false}
