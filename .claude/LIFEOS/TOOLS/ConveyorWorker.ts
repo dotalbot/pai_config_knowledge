@@ -4,9 +4,15 @@
  *
  * Spec: "ConveyorDesk → LifeOS Automatic Processing Worker" (2026-08-27).
  *
- * Every claimed job reaches exactly one terminal state (done/failed/needs_input),
- * preserves its payload byte-for-byte, and leaves an audit trail. One malformed
- * or hostile job must never block the others.
+ * Every claimed job reaches exactly one terminal state (done/review/failed/
+ * needs_input), preserves its payload byte-for-byte, and leaves an audit trail.
+ * One malformed or hostile job must never block the others.
+ *
+ * OUTPUT CONTAINMENT (1.1.1). `output: local` writes NOTHING beneath the vault
+ * and ends at done/. `output: vault` publishes one pinned draft to 00 INBOX via
+ * an atomic no-replace link and ends at review/; ConveyorPublish alone moves it
+ * to its final destination. inventory.vault_writes is authoritative and must
+ * never be empty when a file was written under the vault.
  *
  * DELIBERATELY NOT DONE HERE (spec §5): no LLM is invoked. A timer firing must
  * never call a model. Extraction and classification are deterministic; anything
@@ -19,20 +25,50 @@
 import {
   readdirSync, lstatSync, readFileSync, writeFileSync, renameSync, mkdirSync,
   existsSync, statSync, openSync, fsyncSync, closeSync, appendFileSync,
+  linkSync, unlinkSync, writeSync, realpathSync,
 } from "node:fs";
 import { join, basename } from "node:path";
 import { homedir } from "node:os";
 import { createHash } from "node:crypto";
 import { execFileSync } from "node:child_process";
 
-const VERSION = "1.1.0";
-const ROOT = join(homedir(), "conveyor");
+const VERSION = "1.1.1";
+
+/**
+ * HOME is read once, here, so an isolated test can point the whole worker at a
+ * fixture tree. Never call homedir() below this line.
+ */
+const HOME = process.env.CONVEYOR_HOME ?? homedir();
+const ROOT = join(HOME, "conveyor");
+
+/** Worker-owned temp prefix. Cleanup only ever touches files matching this. */
+const TMP_PREFIX = ".conveyor-worker-";
+/** A temp older than this is debris from a crashed run (addendum 2 §D). */
+const STALE_TMP_MS = 60 * 60 * 1000;
+/** Bounded write chunk; also lets a test force short writes. */
+const CHUNK = Number(process.env.CONVEYOR_WRITE_CHUNK ?? 1 << 20);
+
+/**
+ * Fault-injection seam. Inert unless CONVEYOR_FAULT names a point, so the
+ * crash/failure paths required by review are executable rather than described.
+ */
+function FAULT(point: string) {
+  if (process.env.CONVEYOR_FAULT !== point) return;
+  // A crash is a process death, not an exception: throwing here would be
+  // swallowed by the per-job handler and mis-recorded as a failed job. The
+  // whole point of these seams is to leave the on-disk state a real crash
+  // leaves, so the next run's recovery path is what gets tested.
+  if (point.startsWith("after_link") || point.startsWith("after_temp")) {
+    throw new Error(`injected fault at ${point}`);   // cleanup-path: recoverable
+  }
+  process.exit(137);                                 // crash-path: hard exit
+}
 const DIRS = {
   processing: join(ROOT, "processing"), done: join(ROOT, "done"),
   failed: join(ROOT, "failed"), needs: join(ROOT, "needs_input"),
   review: join(ROOT, "review"),
 };
-const STATE = join(homedir(), ".claude/LIFEOS/MEMORY/STATE");
+const STATE = join(HOME, ".claude/LIFEOS/MEMORY/STATE");
 const HEARTBEAT = join(STATE, "conveyor-worker-heartbeat.json");
 const LOG = join(STATE, "conveyor-worker.jsonl");
 const APPROVED = join(ROOT, "approved-backlog.txt");
@@ -41,12 +77,14 @@ const APPROVED = join(ROOT, "approved-backlog.txt");
 const WORKER_EPOCH = "20260827-140000";
 const MAX_META = 64 * 1024;
 const MAX_EXTRACT = 2 * 1024 * 1024;
+/** meta.context is user-typed free text from ConveyorDesk (addendum 2 §C). */
+const MAX_CONTEXT = 4 * 1024;
 const KINDS = new Set(["transcript", "research", "doc", "idea", "task", "ask", "unknown"]);
 const JOBID = /^\d{8}-\d{6}-[a-z0-9]{4}--[a-z]+--[a-z0-9-]+$/;
 
 type Outcome = { state: "done" | "failed" | "needs" | "review"; reason?: string; question?: string; draft?: string };
 
-const VAULT = join(homedir(), "obsidian");
+const VAULT = join(HOME, "obsidian");
 const INBOX = join(VAULT, "00 INBOX");
 
 const sha256 = (p: string) => createHash("sha256").update(readFileSync(p)).digest("hex");
@@ -55,8 +93,147 @@ const isLink = (p: string) => { try { return lstatSync(p).isSymbolicLink(); } ca
 /** fsync a file, then its directory, so a terminal move never outruns its data. */
 function durable(path: string) {
   for (const p of [path, join(path, "..")]) {
-    try { const fd = openSync(p, existsSync(p) && statSync(p).isDirectory() ? "r" : "r"); fsyncSync(fd); closeSync(fd); } catch {}
+    try { const fd = openSync(p, "r"); fsyncSync(fd); closeSync(fd); } catch {}
   }
+}
+
+/**
+ * fsync that THROWS. `durable()` swallows errors, which is tolerable for
+ * best-effort flushes but not for the draft transaction: §2's ordering is only
+ * meaningful if the sync actually happened. A silent failure there would let
+ * the worker believe it had committed bytes it had not.
+ */
+function fsyncStrict(path: string) {
+  const fd = openSync(path, "r");
+  try { fsyncSync(fd); } finally { closeSync(fd); }
+}
+
+/** Outcome of reconciling the pinned INBOX draft (addendum §1 A/B/C). */
+type DraftOutcome =
+  | { kind: "created"; path: string; sha256: string; cleanup?: string[] }
+  | { kind: "existing_identical"; path: string; sha256: string }
+  | { kind: "existing_modified_preserved"; path: string; sha256: string }
+  | { kind: "collision"; reason: string };
+
+/** Read `conveyor_job` from a draft's frontmatter, bounded. Null if absent. */
+function draftJobId(path: string): string | null {
+  let raw: string;
+  try { raw = readFileSync(path, "utf8").slice(0, MAX_META); } catch { return null; }
+  if (!raw.startsWith("---")) return null;
+  const end = raw.indexOf("\n---", 3);
+  if (end === -1) return null;
+  const m = raw.slice(0, end).match(/^conveyor_job:\s*(\S+)\s*$/m);
+  return m ? m[1] : null;
+}
+
+/**
+ * Remove this worker's own stale temporaries from INBOX. Deliberately narrow
+ * (addendum §2): prefix match, job id, direct child, regular non-symlink, owned
+ * by us, older than the threshold, and never the live temp for this run.
+ * An unrelated .tmp file is not ours and is never touched.
+ */
+function sweepStaleTemps(inbox: string, jobid: string, active: string | null) {
+  let names: string[];
+  try { names = readdirSync(inbox); } catch { return; }
+  const uid = typeof process.getuid === "function" ? process.getuid() : -1;
+  for (const n of names) {
+    if (!n.startsWith(TMP_PREFIX) || !n.includes(jobid)) continue;
+    const full = join(inbox, n);
+    if (active && full === active) continue;
+    try {
+      const st = lstatSync(full);
+      if (!st.isFile() || st.isSymbolicLink()) continue;
+      if (uid !== -1 && st.uid !== uid) continue;
+      if (Date.now() - st.mtimeMs < STALE_TMP_MS) continue;
+      unlinkSync(full);
+    } catch { /* a temp we cannot stat or remove is left alone, never fatal */ }
+  }
+}
+
+/**
+ * Publish the pinned draft with an exclusive, no-replace transaction.
+ *
+ * POSIX rename() REPLACES its destination, so it can never be used here — that
+ * is precisely the overwrite this fix exists to prevent. link() fails EEXIST
+ * instead, which is the primitive we want. Verified on ext4 (the vault's fs).
+ *
+ * EEXIST is the reconciliation path. EPERM/EOPNOTSUPP/EXDEV mean the filesystem
+ * cannot give us no-replace semantics at all, and we fail closed rather than
+ * degrade to a replacing write.
+ */
+function publishDraft(inbox: string, finalPath: string, bytes: string, jobid: string): DraftOutcome {
+  mkdirSync(inbox, { recursive: true });
+  sweepStaleTemps(inbox, jobid, null);
+
+  const tmp = join(inbox, `${TMP_PREFIX}${jobid}.${process.pid}.tmp`);
+  // wx = exclusive create, 0600. Never follows an existing entry.
+  let fd: number;
+  try { fd = openSync(tmp, "wx", 0o600); }
+  catch (e: any) { return { kind: "collision", reason: `could not create worker temp: ${e.code ?? e.message}` }; }
+  try {
+    // writeSync may write fewer bytes than asked. Loop on the returned count;
+    // zero progress is a hard failure, never a silently truncated draft.
+    const buf = Buffer.from(bytes, "utf8");
+    let off = 0;
+    while (off < buf.length) {
+      const n = writeSync(fd, buf, off, Math.min(CHUNK, buf.length - off), null);
+      if (!(n > 0)) throw new Error(`write made no progress at byte ${off}/${buf.length}`);
+      off += n;
+    }
+    fsyncSync(fd);
+  } catch (e: any) {
+    closeSync(fd);
+    try { unlinkSync(tmp); } catch {}
+    return { kind: "collision", reason: `draft temp write failed: ${e.message}` };
+  }
+  closeSync(fd);
+  FAULT("after_temp_write");
+
+  // The link is the visibility commit. Everything after it is cleanup, and a
+  // cleanup failure must never be reported as "no draft was created" — the
+  // draft IS there, and saying otherwise would make inventory lie (finding 1).
+  try {
+    linkSync(tmp, finalPath);          // atomic, no-replace
+  } catch (e: any) {
+    const code = e.code;
+    try { unlinkSync(tmp); } catch {}
+    if (code !== "EEXIST") {
+      // No no-replace primitive available: fail closed, never fall back.
+      return { kind: "collision", reason: `atomic no-replace link unavailable (${code ?? "unknown"}) — refusing to publish` };
+    }
+    return reconcileExisting(finalPath, bytes, jobid);
+  }
+
+  // Committed. Cleanup is best-effort and is reported, never fatal.
+  const cleanup: string[] = [];
+  try { FAULT("after_link"); fsyncStrict(inbox); } catch (e: any) { cleanup.push(`inbox fsync after link: ${e.code ?? e.message}`); }
+  try { FAULT("after_link_fsync"); unlinkSync(tmp); } catch (e: any) { cleanup.push(`temp unlink: ${e.code ?? e.message}`); }
+  try { FAULT("after_temp_unlink"); fsyncStrict(inbox); } catch (e: any) { cleanup.push(`inbox fsync after cleanup: ${e.code ?? e.message}`); }
+
+  // Record the hash actually observed on the final path, not the generated one.
+  let observed: string;
+  try { observed = sha256(finalPath); }
+  catch (e: any) { observed = `unreadable: ${e.code ?? e.message}`; }
+  return { kind: "created", path: finalPath, sha256: observed, cleanup: cleanup.length ? cleanup : undefined };
+}
+
+/** The final path already exists. Decide A / B / C without ever writing to it. */
+function reconcileExisting(finalPath: string, bytes: string, jobid: string): DraftOutcome {
+  let st;
+  try { st = lstatSync(finalPath); } catch (e: any) { return { kind: "collision", reason: `existing draft could not be inspected: ${e.code ?? e.message}` }; }
+  if (st.isSymbolicLink()) return { kind: "collision", reason: "existing draft path is a symlink" };
+  if (!st.isFile()) return { kind: "collision", reason: "existing draft path is not a regular file" };
+
+  const owner = draftJobId(finalPath);
+  if (owner === null) return { kind: "collision", reason: "existing draft has no parseable conveyor_job frontmatter" };
+  if (owner !== jobid) return { kind: "collision", reason: "existing draft belongs to a different conveyor job" };
+
+  const observed = sha256(finalPath);
+  const generated = createHash("sha256").update(bytes).digest("hex");
+  // A: byte-identical — an idempotent republication of our own prior draft.
+  if (observed === generated) return { kind: "existing_identical", path: finalPath, sha256: observed };
+  // B: same job, different bytes — Dom edited or unpinned it. Never overwrite.
+  return { kind: "existing_modified_preserved", path: finalPath, sha256: observed };
 }
 
 /** Injection shapes. Reported, never obeyed — payload text is data. */
@@ -107,10 +284,20 @@ const RECIPES: Record<string, { dest: string; stage2: boolean; note: string }> =
   unknown:    { dest: "00 INBOX",             stage2: true,  note: "kind inferred — say what was inferred and why" },
 };
 
-function writeDraft(jobid: string, kind: string, meta: any, text: string, facts: string[]): string {
+/**
+ * Build the draft bytes. PURE: a function of (jobid, kind, meta, text, facts)
+ * and nothing else.
+ *
+ * Addendum 2 §B — this purity is load-bearing. Case A ("existing identical")
+ * compares generated bytes against the file on disk, so any clock- or
+ * environment-derived value here would make a next-day retry look like a user
+ * edit and permanently defeat idempotency. `date` is therefore derived from the
+ * job, never from now(). Do not introduce new(Date), random, hostname, or env
+ * into this function.
+ */
+function draftBytes(jobid: string, kind: string, meta: any, text: string, facts: string[]): string {
   const r = RECIPES[kind] ?? RECIPES.unknown;
-  const slug = jobid.split("--").slice(2).join("--") || jobid;
-  const path = join(INBOX, `DRAFT — ${slug}.md`);
+  const slug = draftSlug(jobid);
   const head = text.trim().split("\n").filter(l => l.trim()).slice(0, 12).join("\n");
   const body = [
     "---",
@@ -119,7 +306,7 @@ function writeDraft(jobid: string, kind: string, meta: any, text: string, facts:
     `recipe: ${kind}`,
     `destination: ${r.dest}`,
     `stage2_needs_model: ${r.stage2}`,
-    `date: ${new Date().toISOString().slice(0, 10)}`,
+    `date: ${jobDate(jobid, meta)}`,
     "tags: [conveyor, draft]",
     "---", "",
     `# DRAFT — ${slug}`, "",
@@ -142,9 +329,22 @@ function writeDraft(jobid: string, kind: string, meta: any, text: string, facts:
       : "No model needed — this recipe is deterministic.",
     "",
   ].join("\n");
-  mkdirSync(INBOX, { recursive: true });
-  writeFileSync(path, body);
-  return path;
+  return body;
+}
+
+/** The draft's slug, and the deterministic final INBOX path built from it. */
+const draftSlug = (jobid: string) => jobid.split("--").slice(2).join("--") || jobid;
+const draftPath = (inbox: string, jobid: string) => join(inbox, `DRAFT — ${draftSlug(jobid)}.md`);
+
+/**
+ * A date that depends only on the job. Prefers the sender's declared drop time,
+ * falls back to the job id's own YYYYMMDD prefix. Never the wall clock.
+ */
+function jobDate(jobid: string, meta: any): string {
+  const dropped = meta?.source?.dropped_at;
+  if (typeof dropped === "string" && /^\d{4}-\d{2}-\d{2}/.test(dropped)) return dropped.slice(0, 10);
+  const m = jobid.match(/^(\d{4})(\d{2})(\d{2})-/);
+  return m ? `${m[1]}-${m[2]}-${m[3]}` : "unknown";
 }
 
 function moveTo(job: string, from: string, to: string) {
@@ -214,6 +414,29 @@ function processJob(dir: string): Outcome {
   }
   add("safety", "secret gate clear · injection gate clear");
 
+  /*
+   * Addendum 2 §C — meta.context is user-typed free text from the ConveyorDesk
+   * UI. The gates above test the PAYLOAD extraction only, so context reached
+   * the vault entirely ungated. Scan it here, before any draft bytes exist and
+   * before the publication transaction opens. Unsafe context is never
+   * reproduced — not in question.md, audit.md, the log, or the draft.
+   */
+  const rawCtx = meta.context == null ? "" : String(meta.context);
+  let ctxNote = "No sender context given";
+  if (rawCtx) {
+    if (Buffer.byteLength(rawCtx, "utf8") > MAX_CONTEXT)
+      return { state: "needs", question: `Sender context exceeds the ${MAX_CONTEXT}-byte bound. Not reproduced here. Shorten it and resubmit.` };
+    if (SECRET.test(rawCtx))
+      return { state: "needs", question: "Credential-shaped content detected in the sender context. Stopped before any draft was written. Content not reproduced here or in any log." };
+    if (INJECTION.test(rawCtx))
+      return { state: "needs", question: "Sender context contains instruction-shaped text aimed at changing agent behaviour. Treated as data, not obeyed. No draft was written." };
+    ctxNote = `Sender context: *${rawCtx.slice(0, 200)}*`;
+    add("context", `scanned · ${Buffer.byteLength(rawCtx, "utf8")} B · secret clear · injection clear`);
+  } else {
+    add("context", "none given");
+  }
+  const contextScanned = true;   // the gate above ran to completion (finding 3)
+
   // §6.7 outputs into the job directory
   writeFileSync(join(dir, "extract.txt"), text);
   const inv = {
@@ -226,26 +449,65 @@ function processJob(dir: string): Outcome {
       { name: "meta.json", role: "sender metadata", sha256: sha256(metaP) },
       { name: "extract.txt", role: "deterministic extraction", sha256: sha256(join(dir, "extract.txt")) },
     ],
-    vault_writes: [] as string[],
+    vault_writes: [] as any[],
+    context_scanned: contextScanned,
   };
   add("output policy", output === "vault"
-    ? "vault declared — worker v1 keeps output local and records the deferral; vault publication is a separate governed step"
-    : "local — nothing written outside the job directory");
-  // Stage 1 ends at review/, never done/. Publication is Dom's act (spec §1).
-  let draft = "";
-  try { draft = writeDraft(jobid, kind, meta, text, [
+    ? "vault declared — a pinned draft is published to 00 INBOX for review; publication to its final destination remains ConveyorPublish's act"
+    : "local — nothing is written outside the job directory");
+
+  // Addendum 2 §B — the stage-1 draft is job-local for EVERY policy. On the
+  // vault path it is additionally published to INBOX below.
+  const facts = [
     `**${basename(payload)}** · ${size.toLocaleString()} bytes · ${mime}`,
     `Extracted with **${how}** — ${chars.toLocaleString()} characters`,
     `Declared by: \`${declared.original_name ?? "?"}\``,
     `Safety gates: secret clear, injection clear`,
-    meta.context ? `Sender context: *${String(meta.context).slice(0, 200)}*` : "No sender context given",
-  ]); } catch (e: any) { return { state: "failed", reason: `draft write failed: ${e.message}` }; }
-  inv.draft = draft;
+    ctxNote,
+  ];
+  const bytes = draftBytes(jobid, kind, meta, text, facts);
+  try { writeFileSync(join(dir, "stage1-draft.md"), bytes); }
+  catch (e: any) { return { state: "failed", reason: `stage-1 draft write failed: ${e.message}` }; }
+  inv.files.push({ name: "stage1-draft.md", role: "deterministic stage-1 draft", sha256: sha256(join(dir, "stage1-draft.md")) });
+
+  // §5 — output: local ends here. done/, and nothing under the vault.
+  if (output !== "vault") {
+    inv.vault_writes = [];
+    writeFileSync(join(dir, "inventory.json"), JSON.stringify(inv, null, 2));
+    add("draft", "stage1-draft.md written inside the job directory; no vault write");
+    add("result", "done — local output, nothing written outside the job directory");
+    writeFileSync(join(dir, "audit.md"), audit.concat(["", `Payload preserved: sha256 unchanged at ${hash}`]).join("\n"));
+    durable(dir);
+    return { state: "done" };
+  }
+
+  // §6 — output: vault. Publish the pinned draft, then hand off to review/.
+  const finalPath = draftPath(INBOX, jobid);
+  const pub = publishDraft(INBOX, finalPath, bytes, jobid);
+  if (pub.kind === "collision") {
+    // Fail closed (addendum §1 C). The existing INBOX file is never modified.
+    return { state: "needs", question: `Draft publication stopped: ${pub.reason}. The job and its payload are retained; nothing in 00 INBOX was modified.` };
+  }
+  FAULT("after_draft_visible");   // crash test A: draft exists, inventory not yet written
+  inv.vault_writes = [{
+    path: finalPath,
+    outcome: pub.kind,
+    sha256: pub.sha256,
+    observed_at: new Date().toISOString(),
+    role: "pinned_review_draft",
+  }];
   writeFileSync(join(dir, "inventory.json"), JSON.stringify(inv, null, 2));
-  add("draft", `receipt written to 00 INBOX, pinned`);
-  writeFileSync(join(dir, "audit.md"), audit.concat(["", `- **result**: review (awaiting Dom)`, "", `Payload preserved: sha256 unchanged at ${hash}`]).join("\n"));
+  add("draft", pub.kind === "created"
+    ? `pinned draft published to 00 INBOX (${basename(finalPath)})`
+    : pub.kind === "existing_identical"
+      ? "identical draft already in 00 INBOX — treated as an idempotent republication, not rewritten"
+      : "an existing modified draft was found in 00 INBOX and preserved byte-for-byte");
+  add("result", "review — awaiting Dom's unpin");
+  if (pub.cleanup) add("cleanup", `draft is published; non-fatal cleanup issues: ${pub.cleanup.join("; ")}`);
+  writeFileSync(join(dir, "audit.md"), audit.concat(["", `Payload preserved: sha256 unchanged at ${hash}`]).join("\n"));
   durable(dir);
-  return { state: "review", draft };
+  FAULT("after_reconcile");       // crash test B: inventory written, rename not yet done
+  return { state: "review", draft: finalPath };
 }
 
 function main() {

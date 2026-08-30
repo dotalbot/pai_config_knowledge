@@ -315,3 +315,6 @@ skills-lock.json
 # macOS AppleDouble sidecars from Mac-side sync — inert, never ours
 ._*
 .DS_Store
+
+# Claude Code telemetry debris (failed-event dumps carry session IDs)
+telemetry/

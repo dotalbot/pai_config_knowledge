@@ -91,6 +91,29 @@ are Claude agents with different personas over the same search. Only
   agent: eight self-contained sub-queries naming specific primary sources. The
   useful diversity in this pattern is in how the problem is carved up.
 
+## Reference corpus — `~/corpus/` is read-only
+
+Created 2026-08-29 at Dom's approval. A durable **mirror**, distinct from the
+conveyor queue: files here have no terminal state, they are read repeatedly.
+
+- `~/corpus/inform/` (chmod 700) — work material. **Inherits the quarantine
+  contract below in full**: source never enters `~/obsidian/`, never reaches
+  Daemon or a release artefact, derived-means-Dom's-words.
+- `~/corpus/personal/` — his own reference material.
+- `~/corpus/.manifest/` (chmod 700) — rsync provenance; paths leak estate structure.
+
+**I READ from corpus and NEVER WRITE to it.** Dom's laptop is the authority
+copy; a mirror I can edit is not a mirror. No typo fixes, no reorganising, no
+renames. To change something, he changes it at source and re-runs rsync.
+Revisit the write question when SharePoint access lands — updating at source is
+a separate, deliberate decision.
+
+The tree inside `inform/` mirrors the SharePoint structure on purpose, so the
+eventual cutover is a path swap and not a migration.
+
+**Not backed up** — no git, no Obsidian sync, by design. Never let corpus hold
+the only copy of anything. Contract: `~/corpus/README.md`.
+
 ## Work-confidential material — the vault boundary
 
 **The split is source vs derived, not confidential vs not** (Dom's ruling,

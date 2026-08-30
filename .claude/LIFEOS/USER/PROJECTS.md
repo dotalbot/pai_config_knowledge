@@ -20,6 +20,18 @@ last_reviewed_by: migration-7.40.4
 
 Surface these when a natural opening appears. Do not nag every session.
 
+- **BLOCKED until Tue 2026-09-01 — SharePoint access needs Inform app
+  authorisation.** rclone v1.75.0 is installed at `~/.local/bin/rclone` and
+  `~/.config/rclone` is created at chmod 700, so the machine side is done. The
+  blocker is tenant consent: rclone's default OneDrive client ID needs
+  third-party app approval Dom does not hold. He is asking IT on Tuesday
+  (Monday 2026-08-31 is a UK public holiday). On approval the remaining step is
+  `rclone authorize "onedrive"` on the Mac, paste the JSON token, then bind the
+  remote to the site URL and verify with a folder listing. If consent is
+  refused, fall back to Graph API with an IT-approved app registration
+  (`Sites.Read.All`). Reminder: Inform source docs go to
+  `~/conveyor/quarantine/`, never `~/obsidian`. (Parked 2026-08-29.)
+
 - **Fix GenerateTelosSummary completed-goal labelling.** It reports the
   completed goal as "G5" — a label that exists in no source file. Cause: the
   regex `\*\*(\w+)\*\*` at GenerateTelosSummary.ts:717 cannot match a bold

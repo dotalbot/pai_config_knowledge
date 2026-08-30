@@ -250,3 +250,37 @@
 {"ts":"2026-08-28T10:27:57.398Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"flag","code":"too-many-emdashes","detail":"13 em-dashes in prose (max 2)"}
 {"ts":"2026-08-28T10:29:20.686Z","session_id":"9c7fc6e0-d052-486d-9605-0bdb31cc91ee","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"Survey complete. I've sampled the repository str\""}
 {"ts":"2026-08-28T10:31:03.984Z","session_id":"45054c06-e647-42ff-9503-176edd848091","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-29T11:54:32.701Z","session_id":"441e9228-7582-40e5-ae97-ddfc8cf63223","decision":"flag","code":"too-many-emdashes","detail":"3 em-dashes in prose (max 2)"}
+{"ts":"2026-08-29T11:54:33.070Z","session_id":"934ce9b8-c04b-4eaf-849b-872e95f9f92d","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"Survey complete. I've ingested four documents in\""}
+{"ts":"2026-08-29T11:56:28.508Z","session_id":"441e9228-7582-40e5-ae97-ddfc8cf63223","decision":"flag","code":"too-many-emdashes","detail":"6 em-dashes in prose (max 2)"}
+{"ts":"2026-08-29T11:57:20.950Z","session_id":"441e9228-7582-40e5-ae97-ddfc8cf63223","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-29T11:59:23.609Z","session_id":"441e9228-7582-40e5-ae97-ddfc8cf63223","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-29T12:06:56.397Z","session_id":"441e9228-7582-40e5-ae97-ddfc8cf63223","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-29T12:14:34.325Z","session_id":"441e9228-7582-40e5-ae97-ddfc8cf63223","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-29T12:17:57.276Z","session_id":"441e9228-7582-40e5-ae97-ddfc8cf63223","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-29T12:21:48.505Z","session_id":"441e9228-7582-40e5-ae97-ddfc8cf63223","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-29T16:42:38.597Z","session_id":"441e9228-7582-40e5-ae97-ddfc8cf63223","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"Which directories, and I'll set it up properly.\""}
+{"ts":"2026-08-29T16:43:21.009Z","session_id":"441e9228-7582-40e5-ae97-ddfc8cf63223","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-29T16:44:33.218Z","session_id":"441e9228-7582-40e5-ae97-ddfc8cf63223","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-29T16:45:41.345Z","session_id":"441e9228-7582-40e5-ae97-ddfc8cf63223","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-29T16:48:21.350Z","session_id":"441e9228-7582-40e5-ae97-ddfc8cf63223","decision":"flag","code":"too-many-emdashes","detail":"4 em-dashes in prose (max 2)"}
+{"ts":"2026-08-29T16:49:52.957Z","session_id":"441e9228-7582-40e5-ae97-ddfc8cf63223","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-29T17:09:57.719Z","session_id":"441e9228-7582-40e5-ae97-ddfc8cf63223","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-29T17:40:10.185Z","session_id":"441e9228-7582-40e5-ae97-ddfc8cf63223","decision":"flag","code":"too-many-emdashes","detail":"3 em-dashes in prose (max 2)"}
+{"ts":"2026-08-29T17:42:00.019Z","session_id":"441e9228-7582-40e5-ae97-ddfc8cf63223","decision":"flag","code":"too-many-emdashes","detail":"3 em-dashes in prose (max 2)"}
+{"ts":"2026-08-29T17:46:38.483Z","session_id":"441e9228-7582-40e5-ae97-ddfc8cf63223","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"Yes — but only for the *draft* stage, not for pu\""}
+{"ts":"2026-08-29T17:49:21.002Z","session_id":"441e9228-7582-40e5-ae97-ddfc8cf63223","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-29T17:52:48.994Z","session_id":"441e9228-7582-40e5-ae97-ddfc8cf63223","decision":"flag","code":"too-many-emdashes","detail":"4 em-dashes in prose (max 2)"}
+{"ts":"2026-08-29T17:54:51.292Z","session_id":"441e9228-7582-40e5-ae97-ddfc8cf63223","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-29T17:59:48.838Z","session_id":"441e9228-7582-40e5-ae97-ddfc8cf63223","decision":"flag","code":"too-many-emdashes","detail":"5 em-dashes in prose (max 2)"}
+{"ts":"2026-08-29T18:01:40.238Z","session_id":"441e9228-7582-40e5-ae97-ddfc8cf63223","decision":"flag","code":"too-many-emdashes","detail":"3 em-dashes in prose (max 2)"}
+{"ts":"2026-08-29T18:06:04.989Z","session_id":"441e9228-7582-40e5-ae97-ddfc8cf63223","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-29T18:08:50.312Z","session_id":"441e9228-7582-40e5-ae97-ddfc8cf63223","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-29T18:15:31.916Z","session_id":"441e9228-7582-40e5-ae97-ddfc8cf63223","decision":"flag","code":"too-many-emdashes","detail":"3 em-dashes in prose (max 2)"}
+{"ts":"2026-08-29T19:03:11.781Z","session_id":"441e9228-7582-40e5-ae97-ddfc8cf63223","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-29T19:07:07.703Z","session_id":"441e9228-7582-40e5-ae97-ddfc8cf63223","decision":"flag","code":"too-many-emdashes","detail":"5 em-dashes in prose (max 2)"}
+{"ts":"2026-08-29T19:33:02.507Z","session_id":"441e9228-7582-40e5-ae97-ddfc8cf63223","decision":"flag","code":"too-many-emdashes","detail":"3 em-dashes in prose (max 2)"}
+{"ts":"2026-08-29T19:37:45.100Z","session_id":"441e9228-7582-40e5-ae97-ddfc8cf63223","decision":"flag","code":"too-many-emdashes","detail":"4 em-dashes in prose (max 2)"}
+{"ts":"2026-08-29T19:42:57.443Z","session_id":"441e9228-7582-40e5-ae97-ddfc8cf63223","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-29T19:46:33.752Z","session_id":"441e9228-7582-40e5-ae97-ddfc8cf63223","decision":"flag","code":"too-many-emdashes","detail":"3 em-dashes in prose (max 2)"}
+{"ts":"2026-08-29T20:08:20.023Z","session_id":"441e9228-7582-40e5-ae97-ddfc8cf63223","decision":"pass","memoryDelta":false}

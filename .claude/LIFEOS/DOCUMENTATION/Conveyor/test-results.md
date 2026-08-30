@@ -81,3 +81,112 @@ gate specified in `CONVEYOR_RECIPES_SPEC.md`.
 **Still Dom's to verify**: whether the ConveyorDesk transport policy on the Mac
 is disabled (his §14, marked VERIFY REQUIRED). `~/conveyor/new` is empty, which
 is consistent with the app being offline but does not prove it.
+
+---
+
+# ConveyorWorker 1.1.1 — output containment
+
+Worker **1.1.1**, 2026-08-29. Branch `fix/conveyor-worker-output-containment`
+from `8d98e86`. Supersedes 1.0.0 for output policy; every 1.0.0 safety property
+was re-run and still holds.
+
+**Worker SHA-256:** `4c291acfc80239ae2e5209f4301c73ecab4a8a27e637c8cff73ed952d18c97e1`
+**1.1.0 (defective):** `c474004b785adb5d5ec4a9836b4ce3814d3b91f1796c637e42d54d9c782aebe4`
+
+## The defect
+
+1.1.0 called `writeDraft()` unconditionally, **before** any output-policy
+branch, so **every** successful job wrote `~/obsidian/00 INBOX/DRAFT — <slug>.md`
+— including jobs declaring `output: local`. Second defect: `processJob` returned
+`state: "review"` unconditionally, so local jobs never reached `done/`.
+
+**Latent, never realised.** `00 INBOX` held zero DRAFT files and the timer was
+disabled throughout.
+
+## Behaviour in 1.1.1
+
+| `meta.output` | Terminal | Vault write |
+|---|---|---|
+| `local` | `done/` | **none** — `stage1-draft.md` stays in the job directory |
+| `vault` | `review/` | one pinned INBOX draft, atomic no-replace |
+
+`ConveyorPublish` and the pin/unpin protocol are unchanged.
+
+## Test matrix — 27/27, all committed and executable
+
+Suite: `LIFEOS/TOOLS/tests/ConveyorWorker.containment.test.ts`. Every child
+process receives **both** `HOME` and `CONVEYOR_HOME` pointed at a fixture tree.
+
+Run: `bun test LIFEOS/TOOLS/tests/ConveyorWorker.containment.test.ts`
+
+| # | Case | Result |
+|---|---|---|
+| 1 | `output:local` → `done/`, zero files beneath the fixture vault | PASS |
+| 2 | `output:vault` → `review/`, pinned draft, honest `vault_writes` | PASS |
+| B | Draft byte-stable across days — retry takes case A | PASS |
+| B2 | User-edited draft preserved byte-for-byte, never repinned | PASS |
+| C | Unrelated draft at same path → fail-closed collision | PASS |
+| C2 | Symlinked draft path rejected without following it | PASS |
+| 3a | Secret in `meta.context` → no draft, never reproduced | PASS |
+| 3b | Injection in `meta.context` → no draft, not obeyed | PASS |
+| 3c | Oversized `meta.context` → fails closed before any draft | PASS |
+| 4 | Secret in payload → `needs_input`, no vault write | PASS |
+| 5 | Malformed two-payload job fails; valid job still completes | PASS |
+| 6 | Payload hash contradicting `meta.json` → fails closed | PASS |
+| 7 | Existing terminal destination → fails safe | PASS |
+| 8 | Pre-epoch backlog skipped (`skipped=1`) | PASS |
+| 9 | Symlinked payload rejected | PASS |
+| 10 | Stale worker temp swept; unrelated `.tmp` untouched | PASS |
+| 11 | Heartbeat counts `done` and `review` separately | PASS |
+| F1a | fsync failure after successful link still records the draft | PASS |
+| F1b | Temp-unlink failure after link still records the draft | PASS |
+| F1c | Second directory-fsync failure still records the draft | PASS |
+| F1d | Retry after post-link failure — one draft, one job | PASS |
+| F1e | User-edited draft survives a post-link failure and retry | PASS |
+| F2 | Short-write path reconstructs exact bytes (17-byte chunks) | PASS |
+| F4a | Crash after draft visible, before inventory — retry converges | PASS |
+| F4b | Crash after inventory, before rename — retry converges | PASS |
+| F4c | Crash retry never overwrites an edited draft | PASS |
+| F5 | Unpinned draft discovered by `ConveyorPublish --dry-run` | PASS |
+
+F5 invokes the real publisher against the fixture tree and asserts
+`acted=1`, `still_pinned=0`, and that the dry run wrote nothing.
+
+## RED/GREEN
+
+RED against 1.1.0 with **only** the `CONVEYOR_HOME` indirection backported, so
+failures isolate the defect rather than the old code's inability to be
+redirected: **12 fail / 5 pass**. Test 1 failed at the `done/` assertion.
+GREEN on 1.1.1: **27 pass / 0 fail**.
+
+## Implementation notes
+
+- **`link()`, never `rename()`.** POSIX rename *replaces*; `link()` fails
+  `EEXIST`, which is the reconciliation trigger. Verified on ext4.
+  `EPERM`/`EOPNOTSUPP`/`EXDEV` fail closed rather than degrading.
+- **The link is the visibility commit.** A post-link fsync or unlink failure is
+  cleanup: recorded in `audit.md`, never reported as "nothing was written".
+  Reporting it as a collision would have made inventory omit a draft plainly
+  sitting in INBOX.
+- **`writeSync` is looped** on its returned byte count. Zero progress is fatal;
+  a partial draft is never fsynced or linked.
+- **`fsyncStrict()`** added because `durable()` swallows every error, which the
+  transaction ordering cannot tolerate.
+- **`draftBytes()` is pure.** `date:` derives from `meta.source.dropped_at`,
+  falling back to the job id prefix. Previously `new Date()`, which made a
+  next-day retry byte-different for identical input.
+- **Crash seams exit the process** rather than throwing. A thrown error is
+  caught by the per-job handler and mis-recorded as a failed job, which is not
+  the on-disk state a real crash leaves. Found while writing F4b.
+- **Temp sweep is narrow:** worker prefix + job id + direct child + regular
+  non-symlink + owned by us + older than an hour + not the live temp.
+
+## Not verified / still open
+
+- **`output` vocabulary mismatch unfixed, out of scope.** `~/conveyor/README.md`
+  documents `vault | reply | both`; the worker implements `vault | local` and
+  silently collapses anything unrecognised.
+- **Crash coverage is two points, not six** (Dom's reduction). The terminal
+  `moveTo` rename remains the only commit point.
+- **The worker timer remains disabled** pending acceptance. Real queue and real
+  `~/obsidian` verified byte-identical before and after every run.
