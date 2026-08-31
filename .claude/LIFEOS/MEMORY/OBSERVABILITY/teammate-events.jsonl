@@ -28,3 +28,9 @@
 {"timestamp":"2026-08-23T22:04:29+01:00","event":"teammate_idle","session_id":"45054c06-e647-42ff-9503-176edd848091","teammate_name":"coe-gemini","team_name":"session-24dcee58"}
 {"timestamp":"2026-08-23T22:49:36+01:00","event":"teammate_idle","session_id":"45054c06-e647-42ff-9503-176edd848091","teammate_name":"ingest-redteam","team_name":"session-24dcee58"}
 {"timestamp":"2026-08-23T22:52:00+01:00","event":"teammate_idle","session_id":"45054c06-e647-42ff-9503-176edd848091","teammate_name":"coe-gemini","team_name":"session-24dcee58"}
+{"timestamp":"2026-08-30T23:47:43+01:00","event":"teammate_idle","session_id":"441e9228-7582-40e5-ae97-ddfc8cf63223","teammate_name":"CatoReview","team_name":"session-441e9228"}
+{"timestamp":"2026-08-30T23:49:34+01:00","event":"teammate_idle","session_id":"441e9228-7582-40e5-ae97-ddfc8cf63223","teammate_name":"CatoReview","team_name":"session-441e9228"}
+{"timestamp":"2026-08-30T23:50:11+01:00","event":"teammate_idle","session_id":"441e9228-7582-40e5-ae97-ddfc8cf63223","teammate_name":"CatoReview","team_name":"session-441e9228"}
+{"timestamp":"2026-08-30T23:50:49+01:00","event":"teammate_idle","session_id":"441e9228-7582-40e5-ae97-ddfc8cf63223","teammate_name":"CatoReview","team_name":"session-441e9228"}
+{"timestamp":"2026-08-30T23:51:44+01:00","event":"teammate_idle","session_id":"441e9228-7582-40e5-ae97-ddfc8cf63223","teammate_name":"CatoReview","team_name":"session-441e9228"}
+{"timestamp":"2026-08-30T23:52:25+01:00","event":"teammate_idle","session_id":"441e9228-7582-40e5-ae97-ddfc8cf63223","teammate_name":"CatoReview","team_name":"session-441e9228"}

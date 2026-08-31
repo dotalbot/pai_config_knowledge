@@ -91,6 +91,36 @@ are Claude agents with different personas over the same search. Only
   agent: eight self-contained sub-queries naming specific primary sources. The
   useful diversity in this pattern is in how the problem is carved up.
 
+## Codex image generation — the AppArmor sandbox gotcha
+
+**Codex CAN generate raster images** via its built-in image tool, and the output
+is genuinely good hand-drawn sketchnote style (verified 2026-08-31: a 1254x1254
+PNG, correct style, correct text).
+
+**The failure mode looks like a capability problem and is not.** On Ubuntu 24.04,
+`kernel.apparmor_restrict_unprivileged_userns=1` blocks the unprivileged user
+namespaces bubblewrap needs. Codex then reports *"Generated the raster image, but
+the execution sandbox prevented saving it"* — it really did generate the image
+and really cannot write the file.
+
+**Diagnose in two commands:**
+
+    sysctl -n kernel.apparmor_restrict_unprivileged_userns   # 1 = broken
+    bwrap --ro-bind / / --dev /dev echo ok                   # "setting up uid map: Permission denied"
+
+**The fix (Dom applied it 2026-08-31, NOT persisted across reboot):**
+
+    sudo sysctl -w kernel.apparmor_restrict_unprivileged_userns=0
+
+**If codex image generation fails again, check this FIRST** — the setting reverts
+on reboot until it is written into `/etc/sysctl.d/`. Offer to make it permanent
+rather than re-diagnosing from scratch.
+
+**Do NOT reach for the bypass flags.** `--sandbox danger-full-access` and
+`--dangerously-bypass-approvals-and-sandbox` disable sandboxing entirely and are
+correctly blocked by the permission classifier. `--sandbox workspace-write` is
+the right mode once the sysctl is fixed.
+
 ## Reference corpus — `~/corpus/` is read-only
 
 Created 2026-08-29 at Dom's approval. A durable **mirror**, distinct from the
