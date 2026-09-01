@@ -313,3 +313,8 @@
 {"ts":"2026-08-31T00:35:21.767Z","session_id":"441e9228-7582-40e5-ae97-ddfc8cf63223","decision":"flag","code":"too-many-emdashes","detail":"3 em-dashes in prose (max 2)"}
 {"ts":"2026-08-31T00:44:57.268Z","session_id":"441e9228-7582-40e5-ae97-ddfc8cf63223","decision":"flag","code":"too-many-emdashes","detail":"4 em-dashes in prose (max 2)"}
 {"ts":"2026-08-31T00:50:53.639Z","session_id":"441e9228-7582-40e5-ae97-ddfc8cf63223","decision":"pass","memoryDelta":false}
+{"ts":"2026-08-31T19:26:02.618Z","session_id":"441e9228-7582-40e5-ae97-ddfc8cf63223","decision":"flag","code":"too-many-emdashes","detail":"7 em-dashes in prose (max 2)"}
+{"ts":"2026-08-31T19:34:17.901Z","session_id":"441e9228-7582-40e5-ae97-ddfc8cf63223","decision":"flag","code":"too-many-emdashes","detail":"3 em-dashes in prose (max 2)"}
+{"ts":"2026-08-31T19:37:43.694Z","session_id":"441e9228-7582-40e5-ae97-ddfc8cf63223","decision":"flag","code":"too-many-emdashes","detail":"4 em-dashes in prose (max 2)"}
+{"ts":"2026-08-31T19:39:46.886Z","session_id":"441e9228-7582-40e5-ae97-ddfc8cf63223","decision":"flag","code":"too-many-emdashes","detail":"3 em-dashes in prose (max 2)"}
+{"ts":"2026-08-31T21:14:49.701Z","session_id":"ee0d5a72-0b71-4316-b81e-cfc14a2d0e1d","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"Done. I've completed the structural survey of th\""}

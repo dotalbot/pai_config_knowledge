@@ -1,13 +1,11 @@
-════ LifeOS ═══════════════════════════
+Done. I've completed the structural survey of this repository and seeded Hindsight memory with four comprehensive knowledge documents:
 
-All eleven images done and inspected. The synthesizer pass raised six concerns, written to `02_REVIEW/Concerns_With_The_V3_Set.md`.
+1. **Repository component map** — The top-level modules and their responsibilities: Algorithm, ISA System, Cortex Memory, TELOS/identity, Hooks, Skills, LIFEOS/TOOLS, Pulse dashboard, security boundaries, and data flow.
 
-**The one that matters before Tuesday.** The economics sheet states *"the norm is £160–200k"* as fact. That number came from the independent reviewer's own knowledge — **never sourced, and I did not verify it.** Everything else on that sheet is arithmetic on Inform's own figures and survives challenge. If Emma or Sam asks whose benchmark, the honest answer is currently "an AI told us", and that would undermine your strongest argument. Source it or drop the comparator and keep only the internal maths.
+2. **Repository core concepts** — Eight irreducible ideas a new contributor must understand: current-to-ideal-state framing, the ISA primitive, hill climbing with evidence, verification as first-class, intelligent spend scaling, tiered autonomic memory, deterministic hooks, and self-activating skills.
 
-**Second concern, structural.** Every image is shaded READY / PARTLY / NOT READY. That looks derived. It isn't — I assigned it, from counts I computed, using a rule I invented. The reviewer already caught one count wrong. Visual language doesn't carry that nuance.
+3. **Repository conventions and patterns** — Naming (ISCs, skills, hooks), file organization (~/.claude structure), documentation patterns (frontmatter, freshness convention), testing & verification (ISC as harness, modality matching, class sweeps), error handling, Algorithm patterns (phases, resume, second looks), observability, skill development, and git conventions.
 
-**Third.** Fourteen artefacts for a meeting whose entire ask is a name against each capability, when the design's own answer names excessive documentation as unacceptable overhead.
+4. **Repository tech stack and features** — TypeScript + Bun + Markdown, core dependencies, ISA-as-specification architecture, 171 LIFEOS utilities, Pulse observability, 75+ agents, 75+ skills by domain, security & privacy enforcement, deployment via Bunker/Ledger, and notable features (euphoric surprise metric, hill climbing, resume semantics, concurrent-session locking, self-healing infrastructure).
 
-**On the images themselves:** the barrier gates make "trigger not timer" self-explanatory, the 2am clock and phone carries C4 without words, and the disconnected chain on C6 is the best of the set. C1 is regenerating after a text split.
-
-🗣️ JellyPai: Eleven images landed and the set holds up. The unsourced benchmark is the one thing I'd fix before it reaches the directors.
+The survey sampled ISA.md, ARCHITECTURE_SUMMARY.md, Algorithm v8.20.2, CoreComponents, ISA SKILL.md, hook structure, LIFEOS/TOOLS inventory, agent definitions, and memory system docs. Hindsight will now use these documents to inform future sessions working in this codebase.

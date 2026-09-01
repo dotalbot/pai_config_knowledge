@@ -132,11 +132,23 @@ conveyor queue: files here have no terminal state, they are read repeatedly.
 - `~/corpus/personal/` — his own reference material.
 - `~/corpus/.manifest/` (chmod 700) — rsync provenance; paths leak estate structure.
 
-**I READ from corpus and NEVER WRITE to it.** Dom's laptop is the authority
-copy; a mirror I can edit is not a mirror. No typo fixes, no reorganising, no
-renames. To change something, he changes it at source and re-runs rsync.
-Revisit the write question when SharePoint access lands — updating at source is
-a separate, deliberate decision.
+**Read-only everywhere EXCEPT `Working_area/`** (amended 2026-08-31, when Dom
+moved corpus onto bidirectional unison sync):
+
+- **`~/corpus/inform/**` — READ ONLY.** Synced source material from SharePoint
+  and his Mac. No typo fixes, no reorganising, no renames. To change something
+  he changes it at source. A mirror I can edit is not a mirror.
+- **`~/corpus/inform/Working_area/**` — SHARED, I may write.** Generated work
+  lives here: analyses, capability packs, whitepapers, images, scripts. He edits
+  freely too; unison reconciles both directions.
+
+The distinction is **source versus derived**, the same line as the vault
+boundary. Never write derived output into a source folder, and never edit source
+material anywhere.
+
+Note the original rule was written for a one-way rsync mirror where my writes
+would be overwritten on the next pull. With unison they propagate, so the
+boundary has to be stated by folder rather than assumed by transport.
 
 The tree inside `inform/` mirrors the SharePoint structure on purpose, so the
 eventual cutover is a path swap and not a migration.

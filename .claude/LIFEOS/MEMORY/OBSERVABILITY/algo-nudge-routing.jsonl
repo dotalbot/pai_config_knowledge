@@ -30,3 +30,5 @@
 {"ts":"2026-08-29T20:07:08.301Z","session":"441e9228","prompt_head":"The ConveyorWorker 1.1.1 containment fix is accepted.\n\nAccepted identity:\n\n  bas","fired":["Novelty:origin"]}
 {"ts":"2026-08-30T22:39:35.330Z","session":"441e9228","prompt_head":"Ok, I want you to do the following and this I want the redteam for, Firstly, stu","fired":["CreateSkill:new skill"]}
 {"ts":"2026-08-30T23:47:11.655Z","session":"441e9228","prompt_head":"So where is all of this text, which is great captured: uilt `START HERE — Digita","fired":["DESIGN-CLASS:design + permission"]}
+{"ts":"2026-08-31T21:12:42.293Z","session":"ee0d5a72","prompt_head":"You are performing a one-time structural survey of THIS repository to seed its H","fired":["Telos:dependencies","Fabric:summarize","Cortex:ingest"]}
+{"ts":"2026-08-31T21:12:42.293Z","session":"ee0d5a72","prompt_head":"You are performing a one-time structural survey of THIS repository to seed its H","fired":["DESIGN-CLASS:separate + architecture"]}
