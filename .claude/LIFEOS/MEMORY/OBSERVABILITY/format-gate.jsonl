@@ -318,3 +318,19 @@
 {"ts":"2026-08-31T19:37:43.694Z","session_id":"441e9228-7582-40e5-ae97-ddfc8cf63223","decision":"flag","code":"too-many-emdashes","detail":"4 em-dashes in prose (max 2)"}
 {"ts":"2026-08-31T19:39:46.886Z","session_id":"441e9228-7582-40e5-ae97-ddfc8cf63223","decision":"flag","code":"too-many-emdashes","detail":"3 em-dashes in prose (max 2)"}
 {"ts":"2026-08-31T21:14:49.701Z","session_id":"ee0d5a72-0b71-4316-b81e-cfc14a2d0e1d","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"Done. I've completed the structural survey of th\""}
+{"ts":"2026-09-01T10:31:35.784Z","session_id":"441e9228-7582-40e5-ae97-ddfc8cf63223","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"Both files are on the corpus sync, so unison wil\""}
+{"ts":"2026-09-01T10:43:44.581Z","session_id":"441e9228-7582-40e5-ae97-ddfc8cf63223","decision":"pass","memoryDelta":false}
+{"ts":"2026-09-01T14:32:51.221Z","session_id":"441e9228-7582-40e5-ae97-ddfc8cf63223","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"Committed. You were right to push back — the ans\""}
+{"ts":"2026-09-01T15:05:16.443Z","session_id":"441e9228-7582-40e5-ae97-ddfc8cf63223","decision":"pass","memoryDelta":false}
+{"ts":"2026-09-01T17:08:50.802Z","session_id":"441e9228-7582-40e5-ae97-ddfc8cf63223","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"Both delivered. Everything is on the corpus sync\""}
+{"ts":"2026-09-01T19:02:45.321Z","session_id":"441e9228-7582-40e5-ae97-ddfc8cf63223","decision":"pass","memoryDelta":false}
+{"ts":"2026-09-01T19:09:19.829Z","session_id":"441e9228-7582-40e5-ae97-ddfc8cf63223","decision":"pass","memoryDelta":false}
+{"ts":"2026-09-01T19:43:06.681Z","session_id":"441e9228-7582-40e5-ae97-ddfc8cf63223","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"Captured. And it measures up better than my orig\""}
+{"ts":"2026-09-01T19:46:54.723Z","session_id":"441e9228-7582-40e5-ae97-ddfc8cf63223","decision":"pass","memoryDelta":false}
+{"ts":"2026-09-01T20:06:02.155Z","session_id":"441e9228-7582-40e5-ae97-ddfc8cf63223","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"Layer 1 is built. But I have to lead with a corr\""}
+{"ts":"2026-09-01T20:52:32.695Z","session_id":"441e9228-7582-40e5-ae97-ddfc8cf63223","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"All resolve. Six atomic notes written, grounded \""}
+{"ts":"2026-09-01T20:53:03.522Z","session_id":"441e9228-7582-40e5-ae97-ddfc8cf63223","decision":"skip-recovery","stop_hook_active":true}
+{"ts":"2026-09-01T20:59:19.252Z","session_id":"441e9228-7582-40e5-ae97-ddfc8cf63223","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"That one broken link is pre-existing in a note I\""}
+{"ts":"2026-09-01T21:29:00.134Z","session_id":"441e9228-7582-40e5-ae97-ddfc8cf63223","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"Clean — logo top-right with room to breathe, no \""}
+{"ts":"2026-09-01T21:34:37.475Z","session_id":"441e9228-7582-40e5-ae97-ddfc8cf63223","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"Yes — five more, and the sharpest came from your\""}
+{"ts":"2026-09-01T21:50:19.249Z","session_id":"441e9228-7582-40e5-ae97-ddfc8cf63223","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"Ten outputs delivered, in `strategy_visuals/laye\""}

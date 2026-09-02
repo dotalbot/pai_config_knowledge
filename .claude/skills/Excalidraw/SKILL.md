@@ -49,6 +49,33 @@ These override default behavior. If the directory does not exist, prompt the use
 - File format: always `.excalidraw` native JSON — never `.excalidraw.md` Obsidian wrapper
 - Verify with `python3 -c "import json; json.load(open('<path>'))"` before claiming done
 
+## Rendering — verify what you generated
+
+**Always render and LOOK at the output before claiming a diagram is done.** Valid
+JSON proves nothing about layout: overlapping text, labels colliding with boxes and
+section rules crossing headings all pass a schema check and are obvious on sight.
+
+```bash
+~/.claude/skills/Excalidraw/Tools/renderer/render.sh in.excalidraw out.png
+~/.claude/skills/Excalidraw/Tools/renderer/render.sh in.excalidraw out.svg
+```
+
+Wraps `@swiftlysingh/excalidraw-cli`, which drives Excalidraw's own `exportToSvg`
+under a jsdom shim. **No Chromium, no native build**, and it embeds the real
+Excalifont so output matches excalidraw.com.
+
+Dead ends already tried, do not repeat (2026-09-01):
+
+- `@excalidraw/excalidraw-cli` — does not exist on npm, 404
+- `excalidraw_export` — needs `canvas`, node-gyp fails on node 22, no prebuilt binary
+- `excalidraw-to-svg` — pins the stale 2022 UMD `@excalidraw/utils@^0.1.2`, dies under modern jsdom
+- Puppeteer + headless Chrome — works, but 391MB for a render step
+- `@moona3k/excalidraw-export` — usable fallback, but renders rounded corners square
+- `excalidraw-render` (PyPI) — correct geometry, loses the hand-drawn look entirely
+
+The working `@excalidraw/utils` is only published as `0.1.3-test32`; `latest` on that
+package has been a broken prerelease since 2022. Depend on it through the CLI.
+
 ## Gotchas
 
 **These are the non-obvious failure modes. Claude gets these wrong without explicit guidance.**

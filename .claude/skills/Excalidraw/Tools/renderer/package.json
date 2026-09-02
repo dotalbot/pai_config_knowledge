@@ -1,0 +1,9 @@
+{
+  "name": "lifeos-excalidraw-renderer",
+  "private": true,
+  "type": "module",
+  "description": "Headless Excalidraw render/generate. Wraps @swiftlysingh/excalidraw-cli (real @excalidraw/utils exportToSvg under jsdom). No Chromium, no native build.",
+  "dependencies": {
+    "@swiftlysingh/excalidraw-cli": "^1.2.0"
+  }
+}

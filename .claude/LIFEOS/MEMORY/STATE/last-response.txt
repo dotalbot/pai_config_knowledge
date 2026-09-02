@@ -1,11 +1,29 @@
-Done. I've completed the structural survey of this repository and seeded Hindsight memory with four comprehensive knowledge documents:
+Ten outputs delivered, in `strategy_visuals/layers/`.
 
-1. **Repository component map** — The top-level modules and their responsibilities: Algorithm, ISA System, Cortex Memory, TELOS/identity, Hooks, Skills, LIFEOS/TOOLS, Pulse dashboard, security boundaries, and data flow.
+════ LifeOS ═══════════════════════════
 
-2. **Repository core concepts** — Eight irreducible ideas a new contributor must understand: current-to-ideal-state framing, the ISA primitive, hill climbing with evidence, verification as first-class, intelligent spend scaling, tiered autonomic memory, deterministic hooks, and self-activating skills.
+Five Excalidraw drawings and five sketchnotes, one pair per layer. Every one carries an executive summary at the top and the provenance encoding throughout, and all ten are branded with the Inform logo.
 
-3. **Repository conventions and patterns** — Naming (ISCs, skills, hooks), file organization (~/.claude structure), documentation patterns (frontmatter, freshness convention), testing & verification (ISC as harness, modality matching, class sweeps), error handling, Algorithm patterns (phases, resume, second looks), observability, skill development, and git conventions.
+The drawings hold the detail: L1 has the market shift, the numbers, what already changed and the tiered offer. L2 gives all six capabilities their own panel with an Obsidian link and an open question each, plus the six gaps along the foot. L5 lists six measures, four of them open, with the warning that the 40% figure is fabricated and must not become a baseline.
 
-4. **Repository tech stack and features** — TypeScript + Bun + Markdown, core dependencies, ISA-as-specification architecture, 171 LIFEOS utilities, Pulse observability, 75+ agents, 75+ skills by domain, security & privacy enforcement, deployment via Bunker/Ledger, and notable features (euphoric surprise metric, hill climbing, resume semantics, concurrent-session locking, self-healing infrastructure).
+**L3 does the thing your note asked for.** Each of the 4 Ps splits into *what Digital owns* and *what the rest of the business owns*, so the gap for the wider organisation is explicit rather than implied. Technology sits underneath as a bar.
 
-The survey sampled ISA.md, ARCHITECTURE_SUMMARY.md, Algorithm v8.20.2, CoreComponents, ISA SKILL.md, hook structure, LIFEOS/TOOLS inventory, agent definitions, and memory system docs. Hindsight will now use these documents to inform future sessions working in this codebase.
+**L4 is the most filled out**, as you wanted. Seven months, four lanes, lane-packed so overlapping work stacks rather than collides, with two milestone lines and every item carrying its owner or its source.
+
+The sketches are the same content for the room. L2 came out particularly well as a hub-and-spoke with the six around a centre and the gaps beneath.
+
+I read all ten at full size. Three geometry bugs got fixed along the way: overlapping panels in L1, content written into the wrong panel, and a legend colliding with the logo.
+
+🔧 CHANGE:
+
+- `strategy_visuals/layers/` with 15 files plus README and prompts
+
+- Strategy note links the per-layer table
+
+✅ VERIFY:
+
+- Every output inspected visually, not just rendered
+
+- All sketches confirmed flat on white, no transparency
+
+🗣️ JellyPai: L5 stays the weak one, and it's the layer that decides whether any of the rest gets proven.
