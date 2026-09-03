@@ -1,92 +1,101 @@
 {
-  "last_check_timestamp": "2026-08-23T07:30:08.651Z",
+  "last_check_timestamp": "2026-09-02T20:29:18.699Z",
   "sources": {
     "feed_simon_willison": {
-      "last_link": "https://simonwillison.net/2026/Aug/22/linus-torvalds/",
-      "last_title": "Quoting Linus Torvalds",
-      "last_checked": "2026-08-23T07:30:06.426Z"
+      "last_link": "https://simonwillison.net/2026/Sep/2/llm-gemini/",
+      "last_title": "llm-gemini 0.34",
+      "last_checked": "2026-09-02T20:29:16.467Z"
     },
     "feed_aider": {
       "last_link": "https://aider.chat/2025/05/08/qwen3.html",
       "last_title": "Qwen3 benchmark results",
-      "last_checked": "2026-08-23T07:30:06.598Z"
+      "last_checked": "2026-09-02T20:29:16.462Z"
     },
     "feed_hamel_husain": {
       "last_link": "https://hamel.dev/",
       "last_title": "AI Product Engineering Notes",
-      "last_checked": "2026-08-23T07:30:07.568Z"
+      "last_checked": "2026-09-02T20:29:16.492Z"
     },
     "feed_thorsten_ball_(register_spill)": {
-      "last_link": "https://registerspill.thorstenball.com/p/joy-and-curiosity-96",
-      "last_title": "Joy & Curiosity #96",
-      "last_checked": "2026-08-23T07:30:07.674Z"
+      "last_link": "https://registerspill.thorstenball.com/p/joy-and-curiosity-97",
+      "last_title": "Joy & Curiosity #97",
+      "last_checked": "2026-09-02T20:29:16.544Z"
     },
     "feed_eugene_yan": {
       "last_link": "https://eugeneyan.com//writing/cybersecurity-evals/",
       "last_title": "Patterns for Building Cybersecurity Evals",
-      "last_checked": "2026-08-23T07:30:07.501Z"
+      "last_checked": "2026-09-02T20:29:17.503Z"
     },
     "feed_jason_liu": {
       "last_link": "https://jxnl.co/writing/2026/07/05/taste/",
       "last_title": "If You Want Taste, You're Gonna Have to Eat",
-      "last_checked": "2026-08-23T07:30:07.488Z"
+      "last_checked": "2026-09-02T20:29:18.525Z"
     },
     "index_cursor_changelog": {
       "seen_links": [
+        "https://www.cursor.com/changelog/start-from-scratch",
         "https://www.cursor.com/changelog/08-19-26",
         "https://www.cursor.com/changelog/origin-code-hosting",
         "https://www.cursor.com/changelog/08-13-26",
         "https://www.cursor.com/changelog/google-workspace-plugins",
-        "https://www.cursor.com/changelog/ipad",
-        "https://www.cursor.com/changelog/page/2"
+        "https://www.cursor.com/changelog/page/2",
+        "https://www.cursor.com/changelog/ipad"
       ],
-      "last_checked": "2026-08-23T07:30:07.578Z"
+      "last_checked": "2026-09-02T20:29:16.600Z"
     },
     "index_anthropic_news": {
       "seen_links": [
-        "https://www.anthropic.com/news/claude-opus-5",
-        "https://www.anthropic.com/news/hard-questions",
-        "https://www.anthropic.com/news/redeploying-fable-5",
-        "https://www.anthropic.com/news/claude-sonnet-5",
+        "https://www.anthropic.com/news/model-hardware-standard-research-preview",
         "https://www.anthropic.com/news/claude-text-watermark",
+        "https://www.anthropic.com/news/claude-opus-5",
+        "https://www.anthropic.com/news/enterprise-frontier-safeguards",
+        "https://www.anthropic.com/news/improving-alignment-security-efforts",
+        "https://www.anthropic.com/news/expanding-support-for-scientists",
+        "https://www.anthropic.com/news/wellbeing-research-grants",
         "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
         "https://www.anthropic.com/news/tino-cuellar",
         "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
         "https://www.anthropic.com/news/position-open-weights-models",
+        "https://www.anthropic.com/news/announcing-our-updated-responsible-scaling-policy",
+        "https://www.anthropic.com/news/hard-questions",
+        "https://www.anthropic.com/news/redeploying-fable-5",
+        "https://www.anthropic.com/news/claude-sonnet-5",
         "https://www.anthropic.com/news/cognizant-anthropic",
         "https://www.anthropic.com/news/economic-futures-research-fund-agenda",
         "https://www.anthropic.com/news/anthropic-economic-index-connector",
-        "https://www.anthropic.com/news/donation-public-first-action",
-        "https://www.anthropic.com/news/announcing-our-updated-responsible-scaling-policy"
+        "https://www.anthropic.com/news/donation-public-first-action"
       ],
-      "last_checked": "2026-08-23T07:30:06.681Z"
+      "last_checked": "2026-09-02T20:29:17.380Z"
     },
     "github_claude-agent-sdk-typescript_releases": {
-      "last_version": "v0.3.241",
-      "last_title": "v0.3.241: v0.3.241",
-      "last_checked": "2026-08-23T07:30:07.137Z"
+      "last_version": "v0.3.258",
+      "last_title": "v0.3.258: v0.3.258",
+      "last_checked": "2026-09-02T20:29:16.654Z"
     },
     "index_anthropic_research": {
       "seen_links": [
         "https://www.anthropic.com/research/team/alignment",
-        "https://www.anthropic.com/research/team/economic-research",
+        "https://www.anthropic.com/research/team/economics",
         "https://www.anthropic.com/research/team/interpretability",
         "https://www.anthropic.com/research/team/societal-impacts",
         "https://www.anthropic.com/research/team/frontier-red-team",
         "https://www.anthropic.com/research/riemann-zeta",
+        "https://www.anthropic.com/research/Claude-accelerates-protein-design",
+        "https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs",
         "https://www.anthropic.com/research/global-workspace",
         "https://www.anthropic.com/research/teaching-claude-why",
-        "https://www.anthropic.com/research/Claude-accelerates-protein-design",
+        "https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures",
+        "https://www.anthropic.com/research/enabling-independent-research",
         "https://www.anthropic.com/research/multiagent-systems",
-        "https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs",
         "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
         "https://www.anthropic.com/research/project-pilot",
         "https://www.anthropic.com/research/how-canada-uses-claude",
         "https://www.anthropic.com/research/claude-values-models-languages",
+        "https://www.anthropic.com/research/team/economic-research",
         "https://www.anthropic.com/research/claude-plays-robotics",
         "https://www.anthropic.com/research/off-switch-dual-use"
       ],
-      "last_checked": "2026-08-23T07:30:07.887Z"
+      "last_checked": "2026-09-02T20:29:16.686Z"
     },
     "index_anthropic_engineering": {
       "seen_links": [
@@ -116,87 +125,87 @@
         "https://www.anthropic.com/engineering/building-effective-agents",
         "https://www.anthropic.com/engineering/contextual-retrieval"
       ],
-      "last_checked": "2026-08-23T07:30:07.611Z"
+      "last_checked": "2026-09-02T20:29:16.666Z"
     },
     "github_claude-code_releases": {
-      "last_version": "v2.1.241",
-      "last_title": "v2.1.241: v2.1.241",
-      "last_checked": "2026-08-23T07:30:06.981Z"
+      "last_version": "v2.1.258",
+      "last_title": "v2.1.258: v2.1.258",
+      "last_checked": "2026-09-02T20:29:16.763Z"
     },
     "github_cline_releases": {
-      "last_version": "v4.1.13",
-      "last_title": "v4.1.13: v4.1.13",
-      "last_checked": "2026-08-23T07:30:07.408Z"
+      "last_version": "v4.1.17",
+      "last_title": "v4.1.17: v4.1.17",
+      "last_checked": "2026-09-02T20:29:16.753Z"
     },
     "github_awesome-claude-code_commits": {
-      "last_sha": "80a709c154bc13c5c4d37149c82a66f56123182a",
+      "last_sha": "1058a0e52696eb5814516b2eb9da97cc8e6bd35f",
       "last_title": "chore: update repo ticker data and SVGs [skip ci]",
-      "last_checked": "2026-08-23T07:30:07.077Z"
+      "last_checked": "2026-09-02T20:29:16.686Z"
     },
     "github_skills_commits": {
-      "last_sha": "3b3fad96af16a10759d930941b4520ba0c40edae",
-      "last_title": "Update claude-api skill: Python SDK 0.x -> 1.x upgrade guide (#1623)",
-      "last_checked": "2026-08-23T07:30:06.980Z"
+      "last_sha": "53048666b05b4799081517d00e09e0a2dd688678",
+      "last_title": "Update claude-api skill: Claude Fable 5.1 / Mythos 5.1, Managed Agents updates, cost-optimize (#1704)",
+      "last_checked": "2026-09-02T20:29:16.707Z"
     },
     "github_modelcontextprotocol_releases": {
       "last_version": "2026-07-28",
       "last_title": "2026-07-28: 2026-07-28",
-      "last_checked": "2026-08-23T07:30:07.175Z"
+      "last_checked": "2026-09-02T20:29:16.692Z"
     },
     "github_claude-cookbooks_commits": {
-      "last_sha": "35f2eec7e44897c537e44441b7dff2f0ecbfb804",
-      "last_title": "Merge pull request #834 from anthropics/aravind-ant/fix-mdx-compile",
-      "last_checked": "2026-08-23T07:30:06.799Z"
+      "last_sha": "26b5cdce81d357596f5df7f44f50908a80be40cf",
+      "last_title": "Retire claude-opus-4-1 across cookbooks; align validator model mappings to CLAUDE.md; !pip -> %pip (#807)",
+      "last_checked": "2026-09-02T20:29:16.752Z"
     },
     "github_codex_releases": {
-      "last_version": "rust-v0.150.0-alpha.7",
-      "last_title": "rust-v0.150.0-alpha.7: 0.150.0-alpha.7",
-      "last_checked": "2026-08-23T07:30:07.391Z"
+      "last_version": "rust-v0.153.0-alpha.6",
+      "last_title": "rust-v0.153.0-alpha.6: 0.153.0-alpha.6",
+      "last_checked": "2026-09-02T20:29:17.030Z"
     },
     "changelog_claude_code_changelog": {
-      "last_hash": "71ca32e3ab533d5e59b571fd8715693b",
+      "last_hash": "0b85bab644d2509a9130f9300a6770aa",
       "last_title": "Claude Code CHANGELOG: Changelog\n",
-      "last_checked": "2026-08-23T07:30:08.652Z"
+      "last_checked": "2026-09-02T20:29:18.699Z"
     },
     "docs_claude_code_docs": {
-      "last_hash": "c3d8a5ea7f22f1d87588c5ddb76daf5c",
+      "last_hash": "155cd18d918c93b08372a8b1fcda6d52",
       "last_title": "Claude Code Docs: Documentation updated",
-      "last_checked": "2026-08-23T07:30:08.652Z"
+      "last_checked": "2026-09-02T20:29:18.699Z"
     },
     "docs_agent_sdk_docs": {
-      "last_hash": "c3d8a5ea7f22f1d87588c5ddb76daf5c",
+      "last_hash": "155cd18d918c93b08372a8b1fcda6d52",
       "last_title": "Agent SDK Docs: Documentation updated",
-      "last_checked": "2026-08-23T07:30:08.652Z"
+      "last_checked": "2026-09-02T20:29:18.699Z"
     },
     "docs_mcp_specification": {
-      "last_hash": "d71893580ab792822a0c34a36edb2b99",
+      "last_hash": "8ffb68844f4531e7e12fde11226405eb",
       "last_title": "MCP Specification: Documentation updated",
-      "last_checked": "2026-08-23T07:30:08.652Z"
+      "last_checked": "2026-09-02T20:29:18.699Z"
     },
     "blog_alignment_science_blog": {
       "last_hash": "4258a31de9cbcb914e8e5fff5e51a9a8",
       "last_title": "Alignment Science Blog: Alignment Science Blog",
-      "last_checked": "2026-08-23T07:30:08.652Z"
+      "last_checked": "2026-09-02T20:29:18.699Z"
     },
     "blog_transformer_circuits": {
       "last_hash": "880f258b3ab6f4e24b69e166edc5f1b1",
       "last_title": "Transformer Circuits: Anthropic’s Interpretability Research",
-      "last_checked": "2026-08-23T07:30:08.652Z"
+      "last_checked": "2026-09-02T20:29:18.699Z"
     },
     "changelog_claude_api_release_notes": {
-      "last_hash": "6ee4abb987ac60cf9b424535111edcd8",
+      "last_hash": "2da536f959d965ec10a0776b9452939a",
       "last_title": "Claude API Release Notes: Latest update",
-      "last_checked": "2026-08-23T07:30:08.652Z"
+      "last_checked": "2026-09-02T20:29:18.699Z"
     },
     "feed_latent_space": {
-      "last_link": "https://www.latent.space/p/ainews-10-worse-100x-cheaper-10000x",
-      "last_title": "[AINews] 10% worse, 100x cheaper, 10000x faster: Why Simulation is taking over",
-      "last_checked": "2026-08-23T07:30:06.473Z"
+      "last_link": "https://www.latent.space/p/ainews-claude-fablemythos-51-new",
+      "last_title": "[AINews] Claude Fable/Mythos 5.1: new SOTA model, 75% cache price cut but 70% more output tokens",
+      "last_checked": "2026-09-02T20:29:18.013Z"
     },
     "feed_chip_huyen": {
       "last_link": "https://huyenchip.com//2025/01/16/ai-engineering-pitfalls.html",
       "last_title": "Common pitfalls when building generative AI applications",
-      "last_checked": "2026-08-23T07:30:06.910Z"
+      "last_checked": "2026-09-02T20:29:17.965Z"
     }
   }
 }

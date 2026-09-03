@@ -1,29 +1,25 @@
-Ten outputs delivered, in `strategy_visuals/layers/`.
+Recorded. Here's what's genuinely open, across the system and the Inform work.
 
 ════ LifeOS ═══════════════════════════
 
-Five Excalidraw drawings and five sketchnotes, one pair per layer. Every one carries an executive summary at the top and the provenance encoding throughout, and all ten are branded with the Inform logo.
+**System side, three open records.** The reflection-corpus one is now explained by the registration finding, so it isn't a separate problem. Fable 5.1 needs a live model ID verified before any bump, and I deliberately left it at 0.55 confidence rather than acting on a commit title. The registration finding rechecks 9 September.
 
-The drawings hold the detail: L1 has the market shift, the numbers, what already changed and the tiered offer. L2 gives all six capabilities their own panel with an Obsidian link and an open question each, plus the six gaps along the foot. L5 lists six measures, four of them open, with the warning that the 40% figure is fabricated and must not become a baseline.
+**Inform side is where the real deadlines sit**, and two things have hard dates.
 
-**L3 does the thing your note asked for.** Each of the 4 Ps splits into *what Digital owns* and *what the rest of the business owns*, so the gap for the wider organisation is explicit rather than implied. Technology sits underneath as a bar.
+**The AI strategy is due end of September** and does not exist as a document. ADO 17520 says the Frontier Firm journey cannot begin without it, Steve supplies it, and you hold him to it. That's four weeks out.
 
-**L4 is the most filled out**, as you wanted. Seven months, four lanes, lane-packed so overlapping work stacks rather than collides, with two milestone lines and every item carrying its owner or its source.
+**Foundation ready is 15 September**, which is thirteen days away and still has no definition of done. Nothing tests it, so it will be declared ready on the day regardless. That's the cheapest thing to fix and the one most likely to embarrass later.
 
-The sketches are the same content for the room. L2 came out particularly well as a hub-and-spoke with the six around a centre and the gaps beneath.
+Beneath both, the ownership gap hasn't moved. Only Client solutions has a name against it, which leaves roughly half the roadmap without an accountable person.
 
-I read all ten at full size. Three geometry bugs got fixed along the way: overlapping panels in L1, content written into the wrong panel, and a legend colliding with the logo.
+And the three fabricated figures are flagged in the corpus but still live in the v3 pack itself. Anyone reading those files directly still meets them.
 
 🔧 CHANGE:
 
-- `strategy_visuals/layers/` with 15 files plus README and prompts
-
-- Strategy note links the per-layer table
+- Behavioural finding recorded, recheck 2026-09-09
 
 ✅ VERIFY:
 
-- Every output inspected visually, not just rendered
+- Store lists 3 recommended, 1 applied
 
-- All sketches confirmed flat on white, no transparency
-
-🗣️ JellyPai: L5 stays the weak one, and it's the layer that decides whether any of the rest gets proven.
+🗣️ JellyPai: I'd define "foundation ready" next, since it's thirteen days out and currently untestable.

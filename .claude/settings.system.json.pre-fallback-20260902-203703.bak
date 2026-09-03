@@ -1,7 +1,5 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-settings.json",
-  "cleanupPeriodDays": 3650,
-  "skillListingBudgetFraction": 0.15,
   "env": {
     "PAI_DIR": "/home/jellypai/.claude/PAI",
     "PROJECTS_DIR": "/home/jellypai/Projects",
@@ -51,8 +49,12 @@
       "ToolSearch",
       "Monitor",
       "RemoteTrigger",
+      "Write(~/.claude/**)",
+      "Write(~/Projects/**)",
       "Edit(~/.claude/**)",
       "Edit(~/Projects/**)",
+      "MultiEdit(~/.claude/**)",
+      "MultiEdit(~/Projects/**)",
       "Bash",
       "Agent(general-purpose)",
       "Agent(Explore)",
@@ -80,16 +82,17 @@
       "mcp__claude_ai_Google_Calendar__*",
       "mcp__claude_ai_Google_Drive__*",
       "mcp__claude_ai_Microsoft_Learn__*",
-      "Edit(~/Downloads/**)"
+      "Write(~/Downloads/**)",
+      "Edit(~/Downloads/**)",
+      "MultiEdit(~/Downloads/**)"
     ],
     "deny": [],
     "ask": [],
-    "defaultMode": "auto"
+    "defaultMode": "default"
   },
-  "model": "opus[1m]",
   "fallbackModel": [
-    "claude-opus-5",
-    "claude-sonnet-5"
+    "claude-opus-4-8",
+    "claude-sonnet-4-6"
   ],
   "hooks": {
     "PreToolUse": [
@@ -545,15 +548,6 @@
             "async": true
           }
         ]
-      },
-      {
-        "hooks": [
-          {
-            "type": "command",
-            "command": "node \"/home/jellypai/.hindsight/coding-agents/dist/claude-hook.js\"",
-            "timeout": 30
-          }
-        ]
       }
     ],
     "SubagentStop": [
@@ -595,15 +589,6 @@
             "command": "bun /home/jellypai/.claude/LIFEOS/TOOLS/SettingsBackport.ts; bun /home/jellypai/.claude/LIFEOS/TOOLS/MergeSettings.ts --system /home/jellypai/.claude/settings.system.json --user /home/jellypai/.claude/LIFEOS/USER/CONFIG/settings.user.json --output /home/jellypai/.claude/settings.json",
             "timeout": 15,
             "async": true
-          }
-        ]
-      },
-      {
-        "hooks": [
-          {
-            "type": "command",
-            "command": "node \"/home/jellypai/.hindsight/coding-agents/dist/claude-sessionstart-hook.js\"",
-            "timeout": 30
           }
         ]
       }
@@ -656,20 +641,6 @@
             "command": "/home/jellypai/.claude/hooks/MemoryHealthGate.hook.ts",
             "timeout": 15,
             "async": true
-          }
-        ]
-      },
-      {
-        "hooks": [
-          {
-            "type": "command",
-            "command": "node \"/home/jellypai/.hindsight/coding-agents/dist/claude-stop-hook.js\"",
-            "timeout": 60
-          },
-          {
-            "type": "command",
-            "command": "bun /home/jellypai/.claude/LIFEOS/TOOLS/HindsightBankState.ts",
-            "timeout": 15
           }
         ]
       }
@@ -867,7 +838,7 @@
   "httpHookAllowedEnvVars": [],
   "statusLine": {
     "type": "command",
-    "command": "/home/jellypai/.claude/LIFEOS/USER/CONFIG/bin/StatusLine.sh",
+    "command": "/home/jellypai/.claude/LIFEOS/LIFEOS_StatusLine.sh",
     "refreshInterval": 2
   },
   "enabledPlugins": {
@@ -1654,16 +1625,8 @@
   "awaySummaryEnabled": false,
   "requiredMinimumVersion": "2.1.139",
   "plansDirectory": "Plans/",
-  "tui": "default",
-  "autoMemoryEnabled": false,
   "skipDangerousModePermissionPrompt": true,
-  "skipWorkflowUsageWarning": true,
-  "theme": "dark-ansi",
-  "editorMode": "normal",
-  "fileCheckpointingEnabled": true,
   "teammateMode": "in-process",
-  "remoteControlAtStartup": true,
-  "inputNeededNotifEnabled": false,
   "agentPushNotifEnabled": true,
   "skipAutoPermissionPrompt": true,
   "autoMode": {
@@ -1864,5 +1827,14 @@
     "research": 2,
     "ratings": 130,
     "updatedAt": "2026-06-19T18:25:36.946Z"
-  }
+  },
+  "skillListingBudgetFraction": 0.15,
+  "tui": "default",
+  "autoMemoryEnabled": false,
+  "cleanupPeriodDays": 3650,
+  "theme": "dark",
+  "editorMode": "normal",
+  "fileCheckpointingEnabled": true,
+  "remoteControlAtStartup": true,
+  "inputNeededNotifEnabled": false
 }
