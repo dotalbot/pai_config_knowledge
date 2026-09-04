@@ -343,3 +343,5 @@
 {"ts":"2026-09-02T20:50:08.024Z","decision":"no-claim"}
 {"ts":"2026-09-02T20:53:44.819Z","decision":"no-claim"}
 {"ts":"2026-09-02T20:59:11.134Z","decision":"no-claim"}
+{"ts":"2026-09-03T17:28:08.331Z","decision":"pass-honest-downgrade"}
+{"ts":"2026-09-03T17:29:41.016Z","decision":"no-claim"}

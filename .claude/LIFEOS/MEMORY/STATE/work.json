@@ -261,7 +261,7 @@
       "phase": "native",
       "progress": "0/0",
       "started": "2026-09-01T10:25:21.553Z",
-      "updatedAt": "2026-09-02T20:58:14.931Z",
+      "updatedAt": "2026-09-03T17:29:12.550Z",
       "ratings": [],
       "sessionName": "Create Digital Department Six Component",
       "lastToolActivity": "2026-09-02T20:58:34.113Z"
@@ -284,6 +284,6 @@
       }
     }
   },
-  "_events_offset": 317301,
-  "_folded_at": "2026-09-02T20:58:34.115Z"
+  "_events_offset": 317773,
+  "_folded_at": "2026-09-03T17:29:12.551Z"
 }

@@ -1,25 +1,17 @@
-Recorded. Here's what's genuinely open, across the system and the Inform work.
+Erica's three buckets, from the 26 August 1:1 where she set them out. Her shorthand was *people delivery, client delivery, Inform delivery*.
 
-════ LifeOS ═══════════════════════════
+**1 · Inform delivery** — the digital/tech strategy and delivering against it. On the workshop sheets this filled with Team, channels, Inform digital, and Strategy + Roadmap. Internal-facing.
 
-**System side, three open records.** The reflection-corpus one is now explained by the registration finding, so it isn't a separate problem. Fable 5.1 needs a live model ID verified before any bump, and I deliberately left it at 0.55 confidence rather than acting on a commit title. The registration finding rechecks 9 September.
+**2 · Capability management and maturity** — managing the team as a whole: resourcing, upskilling, delivery excellence, sharing back, communities.
 
-**Inform side is where the real deadlines sit**, and two things have hard dates.
+**3 · Client solutions** — design and delivery of solutions, products and services to clients, plus overall management of client delivery.
 
-**The AI strategy is due end of September** and does not exist as a document. ADO 17520 says the Frontier Firm journey cannot begin without it, Steve supplies it, and you hold him to it. That's four weeks out.
+Two things worth carrying with them.
 
-**Foundation ready is 15 September**, which is thirteen days away and still has no definition of done. Nothing tests it, so it will be declared ready on the day regardless. That's the cheapest thing to fix and the one most likely to embarrass later.
+**Only bucket 3 has a name against it.** Erica's own, written on sheet 1. Buckets 1 and 2 are unowned, which is why roughly half the roadmap has no accountable person.
 
-Beneath both, the ownership gap hasn't moved. Only Client solutions has a name against it, which leaves roughly half the roadmap without an accountable person.
+**Buckets 1 and 3 collided on paper** — bucket 1 said "delivering against it", bucket 3 said "design and delivery". The workshop resolved it structurally rather than by argument: bucket 1 became internal-facing, bucket 3 client-facing. That's the advisory versus build-and-run split, and it was never named out loud, so it's worth confirming rather than assuming it's settled.
 
-And the three fabricated figures are flagged in the corpus but still live in the v3 pack itself. Anyone reading those files directly still meets them.
+They sit over a shared **Core Capabilities** ellipse, with AI strategy and Frontier Firm outside all three as the North Star.
 
-🔧 CHANGE:
-
-- Behavioural finding recorded, recheck 2026-09-09
-
-✅ VERIFY:
-
-- Store lists 3 recommended, 1 applied
-
-🗣️ JellyPai: I'd define "foundation ready" next, since it's thirteen days out and currently untestable.
+🗣️ JellyPai: The unowned two are the live problem, since the 15 September milestone sits mostly in bucket 1.
