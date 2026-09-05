@@ -1,17 +1,15 @@
-Erica's three buckets, from the 26 August 1:1 where she set them out. Her shorthand was *people delivery, client delivery, Inform delivery*.
+════ LifeOS ═══════════════════════════
 
-**1 · Inform delivery** — the digital/tech strategy and delivering against it. On the workshop sheets this filled with Team, channels, Inform digital, and Strategy + Roadmap. Internal-facing.
+The closest match in the vault is **Marina Wyss**, an ML engineer at Twitch. Her transcript is the only one by a woman that argues for keeping your own thinking separate from AI.
 
-**2 · Capability management and maturity** — managing the team as a whole: resourcing, upskilling, delivery excellence, sharing back, communities.
+- **Path:** `~/obsidian/Sources/YouTube/Give Me 7 Minutes and I'll Save You 35+ Hours a Week with AI.md`
+- **Her line:** "how I use AI to save over 7 hours every day without outsourcing my thinking." Her test is whether doing a task yourself makes you better at something you care about. If yes, keep it manual.
+- **Full transcript** is in the collapsed callout at the bottom of the note, with timestamps.
 
-**3 · Client solutions** — design and delivery of solutions, products and services to clients, plus overall management of client delivery.
+One caveat. The phrase "multiple brains" appears nowhere in the vault. I searched every note for brains, second brain, external brain, extended mind, cognitive offload and outsourced thinking, across Sources, Cards, INBOX, Clippings, Journal and corpus. Marina's video does not use that framing either.
 
-Two things worth carrying with them.
+The only other woman with a captured transcript is **Charlotte Fraza**, a neuroscientist, at `02 Cards/Concepts/Becoming Obsessed with Learning - Through a Simple Notebook.md`. That one is about a curiosity notebook and does not mention AI at all.
 
-**Only bucket 3 has a name against it.** Erica's own, written on sheet 1. Buckets 1 and 2 are unowned, which is why roughly half the roadmap has no accountable person.
+If neither is it, the video was probably watched but never clipped. Give me a channel name or a rough date and I can find it on YouTube instead.
 
-**Buckets 1 and 3 collided on paper** — bucket 1 said "delivering against it", bucket 3 said "design and delivery". The workshop resolved it structurally rather than by argument: bucket 1 became internal-facing, bucket 3 client-facing. That's the advisory versus build-and-run split, and it was never named out loud, so it's worth confirming rather than assuming it's settled.
-
-They sit over a shared **Core Capabilities** ellipse, with AI strategy and Frontier Firm outside all three as the North Star.
-
-🗣️ JellyPai: The unowned two are the live problem, since the 15 September milestone sits mostly in bucket 1.
+🗣️ JellyPai: Marina Wyss is your best bet, but "multiple brains" is not in the vault under any name.

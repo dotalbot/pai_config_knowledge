@@ -85,8 +85,8 @@
     "defaultMode": "auto"
   },
   "fallbackModel": [
-    "claude-opus-4-8",
-    "claude-sonnet-4-6"
+    "claude-opus-5",
+    "claude-sonnet-5"
   ],
   "hooks": {
     "PreToolUse": [
@@ -1864,5 +1864,5 @@
   "remoteControlAtStartup": true,
   "inputNeededNotifEnabled": false,
   "skipWorkflowUsageWarning": true,
-  "model": "opus"
+  "model": "opus[1m]"
 }
