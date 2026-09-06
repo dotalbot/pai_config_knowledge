@@ -354,3 +354,4 @@
 {"ts":"2026-09-04T12:19:06.354Z","session_id":"441e9228-7582-40e5-ae97-ddfc8cf63223","decision":"pass","memoryDelta":false}
 {"ts":"2026-09-04T12:42:34.850Z","session_id":"441e9228-7582-40e5-ae97-ddfc8cf63223","decision":"pass","memoryDelta":false}
 {"ts":"2026-09-04T15:25:00.724Z","session_id":"441e9228-7582-40e5-ae97-ddfc8cf63223","decision":"pass","memoryDelta":false}
+{"ts":"2026-09-05T13:14:20.326Z","session_id":"295aa35d-90c5-409f-9f97-3b455487527e","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"Good — your vault already has strong opinions ab\""}

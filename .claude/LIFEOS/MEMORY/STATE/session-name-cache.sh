@@ -1,2 +1,2 @@
-cached_session_id='441e9228-7582-40e5-ae97-ddfc8cf63223'
-cached_session_label='Find Multiple Brains AI Transcript'
+cached_session_id='295aa35d-90c5-409f-9f97-3b455487527e'
+cached_session_label='Design Obsidian Snippet Capture Skill'

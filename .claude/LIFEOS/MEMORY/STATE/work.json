@@ -258,13 +258,19 @@
     "native-441e9228-7582-40e5-ae97-ddfc8cf63223": {
       "task": "look in the obisian vault, I am looking for transcript from a lady which gave the concepts of multiple brains and sepera",
       "sessionUUID": "441e9228-7582-40e5-ae97-ddfc8cf63223",
-      "phase": "native",
+      "phase": "complete",
       "progress": "0/0",
       "started": "2026-09-04T15:23:54.832Z",
-      "updatedAt": "2026-09-04T15:23:58.093Z",
+      "updatedAt": "2026-09-05T13:09:52.790Z",
       "ratings": [],
       "sessionName": "Find Multiple Brains AI Transcript",
-      "lastToolActivity": "2026-09-04T15:24:33.974Z"
+      "lastToolActivity": "2026-09-04T15:24:33.974Z",
+      "ascent": {
+        "key": "cairn",
+        "icon": "🪨",
+        "label": "Cairn",
+        "color": "#34d399"
+      }
     },
     "native-ee0d5a72-0b71-4316-b81e-cfc14a2d0e1d": {
       "task": "You are performing a one-time structural survey of THIS repository to seed its Hindsight memory. Work efficiently — DO N",
@@ -282,8 +288,19 @@
         "label": "Cairn",
         "color": "#34d399"
       }
+    },
+    "native-295aa35d-90c5-409f-9f97-3b455487527e": {
+      "task": "I want you to develop a skill which I can call with a string added after it, you will determine from the string what to ",
+      "sessionName": "Design Obsidian Snippet Capture Skill",
+      "sessionUUID": "295aa35d-90c5-409f-9f97-3b455487527e",
+      "phase": "native",
+      "progress": "0/0",
+      "started": "2026-09-05T13:13:08.865Z",
+      "updatedAt": "2026-09-05T13:34:45.188Z",
+      "ratings": [],
+      "lastToolActivity": "2026-09-05T13:13:39.706Z"
     }
   },
-  "_events_offset": 327632,
-  "_folded_at": "2026-09-04T15:24:33.976Z"
+  "_events_offset": 329278,
+  "_folded_at": "2026-09-05T13:34:45.189Z"
 }

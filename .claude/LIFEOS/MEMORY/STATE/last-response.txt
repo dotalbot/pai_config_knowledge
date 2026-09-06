@@ -1,15 +1,19 @@
-════ LifeOS ═══════════════════════════
+Good — your vault already has strong opinions about this. That changes the design. Let me put the real questions to you.
 
-The closest match in the vault is **Marina Wyss**, an ML engineer at Twitch. Her transcript is the only one by a woman that argues for keeping your own thinking separate from AI.
+Here's what I found, and where I think your ask collides with your own vault:
 
-- **Path:** `~/obsidian/Sources/YouTube/Give Me 7 Minutes and I'll Save You 35+ Hours a Week with AI.md`
-- **Her line:** "how I use AI to save over 7 hours every day without outsourcing my thinking." Her test is whether doing a task yourself makes you better at something you care about. If yes, keep it manual.
-- **Full transcript** is in the collapsed callout at the bottom of the note, with timestamps.
+**Your vault already answers "where does a snippet go" — and the answer is `00 INBOX`, one line, `status: unprocessed`.** The Vault Guide's tool lifecycle (lines 165-184) is explicit: capture cheap, promote later, the verdict is what earns keep. Sources/Lists exists specifically as the honest holding pen for "bookmarks with a folder."
 
-One caveat. The phrase "multiple brains" appears nowhere in the vault. I searched every note for brains, second brain, external brain, extended mind, cognitive offload and outsourced thinking, across Sources, Cards, INBOX, Clippings, Journal and corpus. Marina's video does not use that framing either.
+So the challenge: **you're asking me to build a filing system, but your documented problem isn't filing — it's that nothing gets processed.** Five TODOs from 2026-08-22 are still sitting in INBOX unprocessed, two weeks on. A skill that files faster makes a bigger unprocessed pile.
 
-The only other woman with a captured transcript is **Charlotte Fraza**, a neuroscientist, at `02 Cards/Concepts/Becoming Obsessed with Learning - Through a Simple Notebook.md`. That one is about a curiosity notebook and does not mention AI at all.
+**Q1 — What's the actual failure you're fixing?**
 
-If neither is it, the video was probably watched but never clipped. Give me a channel name or a rough date and I can find it on YouTube instead.
+- (a) Capture friction — things get lost because opening Obsidian mid-video is too slow. Skill = fast, dumb, one destination.
+- (b) Retrieval — you capture fine but can't find it later. Skill = classification + indexing, richer frontmatter.
+- (c) Processing — the pile grows and never gets worked. Skill = capture *plus* a resurfacing mechanism.
 
-🗣️ JellyPai: Marina Wyss is your best bet, but "multiple brains" is not in the vault under any name.
+My read is (a) with (c) lurking, but you know which one bites.
+
+**Q2 — Does this skill enrich, or just file?** A URL can be fetched, titled, tagged, and summarised in one pass, which makes retrieval work. But that's 20-40s per capture and turns "save this" into a job. Fast-and-dumb (title + URL + timestamp, sub-second) or fetch-and-enrich?
+
+**Q3 — One destination or routed?** Your vault has real destinations already: `00 INBOX` (raw), `Sources/YouTube`, `Sources/Articles`, `Sources/Lists`. I'd argue everything lands in `00 INBOX` regardless of type — routing at capture time is a decision you're making before you know if the thing is worth anything, and Sources' own README says a processed write-up is what earns a Sources slot. Do you want me to route, or hold the line t

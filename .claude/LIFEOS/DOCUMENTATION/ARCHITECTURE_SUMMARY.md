@@ -1,5 +1,5 @@
 ---
-last_updated: 2026-09-04T15:25:00.926Z
+last_updated: 2026-09-05T13:14:20.350Z
 last_updated_by: ArchitectureSummaryGenerator
 convention: pai-freshness-v1
 derived_from: LIFEOS/DOCUMENTATION/LifeosSystemArchitecture.md
