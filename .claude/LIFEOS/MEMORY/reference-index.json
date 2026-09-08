@@ -1,0 +1,191 @@
+{
+  "version": 1,
+  "updated": "2026-09-07T21:25:49.097Z",
+  "entries": [
+    {
+      "path": "Reference/Channels/MacVince.md",
+      "title": "MacVince",
+      "kind": "channel",
+      "medium": "youtube",
+      "url": "https://www.youtube.com/@macvince",
+      "author": "Vince",
+      "source": "MacVince",
+      "tags": [
+        "macOS",
+        "apple",
+        "Productivity",
+        "howto",
+        "youtube"
+      ],
+      "summary": "A Mac-focused channel by Vince covering macOS settings and features, app recommendations, and hardware buying advice. The recurring formats are setup guides (first things to do on a new Mac, settings to change on launch), 'apps I regret not using sooner' round-ups, OS release walkthroughs, and buying questions such as how much RAM you actually need. Independent of Apple, and pitched at getting mor",
+      "captured": "2026-09-07",
+      "status": "captured"
+    },
+    {
+      "path": "Reference/Channels/The Next New Thing.md",
+      "title": "The Next New Thing",
+      "kind": "channel",
+      "medium": "youtube",
+      "url": "https://www.youtube.com/@thenextnewthingAI",
+      "author": "Andrew Warner",
+      "source": "The Next New Thing",
+      "tags": [
+        "AI",
+        "agents",
+        "automation",
+        "youtube"
+      ],
+      "summary": "Near-daily short-form coverage of AI tooling and agent workflows, hosted by Andrew Warner (of Mixergy) and presented by Zapier. The channel's stated angle is how to build profitable AI startups, but the actual output is closer to a scouting feed: new agent tools, GitHub repo round-ups, MCP servers, local models and hardware, usually framed around what it costs and whether it works. Useful as a sou",
+      "captured": "2026-09-07",
+      "status": "captured"
+    },
+    {
+      "path": "Reference/Channels/Vicky Zhao.md",
+      "title": "Vicky Zhao",
+      "kind": "channel",
+      "medium": "youtube",
+      "source": "Vicky Zhao",
+      "tags": [
+        "reference",
+        "anchor"
+      ],
+      "summary": "_Description pending — what this source covers and its typical format._",
+      "captured": "2026-09-07",
+      "status": "captured"
+    },
+    {
+      "path": "Reference/YouTube/#1 Hypnotism Expert- “Your Personality is a Trance, Do This to Wake Up” - Dr. David Spiegel.md",
+      "title": "#1 Hypnotism Expert: “Your Personality is a Trance, Do This to Wake Up” | Dr. David Spiegel",
+      "kind": "video",
+      "medium": "youtube",
+      "url": "https://youtu.be/EwmoAKwNChs",
+      "author": "Dr. David Spiegel",
+      "source": "André Duqum",
+      "tags": [
+        "psychology",
+        "neuroscience",
+        "identity",
+        "health",
+        "Concept"
+      ],
+      "summary": "![#1 Hypnotism Expert: “Your Personality is a Trance, Do This to Wake Up” | Dr. David Spiegel](https://youtu.be/EwmoAKwNChs)",
+      "captured": "2026-09-07",
+      "status": "captured"
+    },
+    {
+      "path": "Reference/YouTube/17 FREE Mac Apps You'll Actually Use.md",
+      "title": "17 FREE Mac Apps You'll Actually Use",
+      "kind": "video",
+      "medium": "youtube",
+      "url": "https://youtu.be/_9EaQd5tQLk",
+      "author": "Stephen Robles",
+      "source": "Stephen Robles",
+      "tags": [
+        "macOS",
+        "apple",
+        "Productivity",
+        "tools",
+        "howto"
+      ],
+      "summary": "![17 FREE Mac Apps You'll Actually Use](https://youtu.be/_9EaQd5tQLk)",
+      "captured": "2026-09-07",
+      "status": "captured"
+    },
+    {
+      "path": "Reference/YouTube/Geoffrey Litt- Dynamic Documents as Personal Software.md",
+      "title": "Geoffrey Litt: Dynamic Documents as Personal Software",
+      "kind": "video",
+      "medium": "youtube",
+      "url": "https://youtu.be/MccJdr61xnc",
+      "author": "Geoffrey Litt",
+      "source": "Recurse Center",
+      "tags": [
+        "malleable-software",
+        "Development",
+        "Concept",
+        "AI",
+        "design",
+        "Productivity"
+      ],
+      "summary": "![Geoffrey Litt: Dynamic Documents as Personal Software](https://youtu.be/MccJdr61xnc)",
+      "captured": "2026-09-07",
+      "status": "captured"
+    },
+    {
+      "path": "Reference/YouTube/Obsidian- The Thinking Person's Set Up (FULL SET UP).md",
+      "title": "Obsidian: The Thinking Person's Set Up (FULL SET UP)",
+      "kind": "video",
+      "medium": "youtube",
+      "url": "https://youtu.be/Aded2v7_vag",
+      "author": "Vicky Zhao",
+      "source": "Vicky Zhao",
+      "tags": [
+        "Obsidian",
+        "Zettelkasten",
+        "Productivity",
+        "note-taking",
+        "thinking"
+      ],
+      "summary": "![Obsidian: The Thinking Person's Set Up (FULL SET UP)](https://youtu.be/Aded2v7_vag)",
+      "captured": "2026-09-07",
+      "status": "captured"
+    },
+    {
+      "path": "Reference/YouTube/Steel Man Argument - Explained.md",
+      "title": "Steel Man Argument - Explained",
+      "kind": "video",
+      "medium": "youtube",
+      "url": "https://youtu.be/veeGKTzbYjc",
+      "author": "Philosophy Vibe",
+      "source": "Philosophy Vibe",
+      "tags": [
+        "steelman",
+        "argumentation",
+        "philosophy"
+      ],
+      "summary": "Argues that the strongest form of disagreement is to improve your opponent's argument before answering it, because defeating a weak version proves nothing. Uses a two-voice dialogue to contrast strawmanning with steelmanning across two worked examples.",
+      "captured": "2026-09-07",
+      "status": "captured"
+    },
+    {
+      "path": "Reference/YouTube/The Definitive Guide to Setting Up Your AI Second Brain.md",
+      "title": "The Definitive Guide to Setting Up Your AI Second Brain",
+      "kind": "video",
+      "medium": "youtube",
+      "url": "https://youtu.be/47oi3Q9apK0",
+      "author": "Vicky Zhao",
+      "source": "Vicky Zhao",
+      "tags": [
+        "Obsidian",
+        "Zettelkasten",
+        "AI",
+        "ai-context",
+        "second-brain",
+        "note-taking"
+      ],
+      "summary": "![The Definitive Guide to Setting Up Your AI Second Brain](https://youtu.be/47oi3Q9apK0)",
+      "captured": "2026-09-07",
+      "status": "captured"
+    },
+    {
+      "path": "Reference/YouTube/Turn Any Book Into an AI Skill You'll Actually Use.md",
+      "title": "Turn Any Book Into an AI Skill You'll Actually Use",
+      "kind": "video",
+      "medium": "youtube",
+      "url": "https://youtu.be/8PM_t3NWrAE",
+      "author": "Vicky Zhao",
+      "source": "Vicky Zhao",
+      "tags": [
+        "AI",
+        "skills",
+        "learning",
+        "books",
+        "feedback-loops",
+        "behaviour-change"
+      ],
+      "summary": "![Turn Any Book Into an AI Skill You'll Actually Use](https://youtu.be/8PM_t3NWrAE)",
+      "captured": "2026-09-07",
+      "status": "captured"
+    }
+  ]
+}

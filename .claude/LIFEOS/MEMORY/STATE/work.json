@@ -296,11 +296,22 @@
       "phase": "native",
       "progress": "0/0",
       "started": "2026-09-05T13:13:08.865Z",
-      "updatedAt": "2026-09-05T13:34:45.188Z",
+      "updatedAt": "2026-09-07T10:42:37.933Z",
       "ratings": [],
-      "lastToolActivity": "2026-09-05T13:13:39.706Z"
+      "lastToolActivity": "2026-09-07T10:44:15.329Z"
+    },
+    "native-ef445269-830e-40bd-a8ae-7b42a6ef33e3": {
+      "task": "/Capture Youtu",
+      "sessionName": "Capture Skill Run",
+      "sessionUUID": "ef445269-830e-40bd-a8ae-7b42a6ef33e3",
+      "phase": "native",
+      "progress": "0/0",
+      "started": "2026-09-07T10:50:49.205Z",
+      "updatedAt": "2026-09-07T21:24:59.544Z",
+      "ratings": [],
+      "lastToolActivity": "2026-09-07T21:25:49.169Z"
     }
   },
-  "_events_offset": 329278,
-  "_folded_at": "2026-09-05T13:34:45.189Z"
+  "_events_offset": 350137,
+  "_folded_at": "2026-09-07T21:25:49.170Z"
 }

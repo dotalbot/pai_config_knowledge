@@ -355,3 +355,18 @@
 {"ts":"2026-09-04T12:42:34.850Z","session_id":"441e9228-7582-40e5-ae97-ddfc8cf63223","decision":"pass","memoryDelta":false}
 {"ts":"2026-09-04T15:25:00.724Z","session_id":"441e9228-7582-40e5-ae97-ddfc8cf63223","decision":"pass","memoryDelta":false}
 {"ts":"2026-09-05T13:14:20.326Z","session_id":"295aa35d-90c5-409f-9f97-3b455487527e","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"Good — your vault already has strong opinions ab\""}
+{"ts":"2026-09-07T09:55:34.291Z","session_id":"295aa35d-90c5-409f-9f97-3b455487527e","decision":"flag","code":"too-many-emdashes","detail":"6 em-dashes in prose (max 2)"}
+{"ts":"2026-09-07T10:03:08.453Z","session_id":"295aa35d-90c5-409f-9f97-3b455487527e","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"Verified: sync runs every ~3 minutes, `Conflict \""}
+{"ts":"2026-09-07T10:07:36.490Z","session_id":"295aa35d-90c5-409f-9f97-3b455487527e","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"That's correctly inside a fenced code block — my\""}
+{"ts":"2026-09-07T10:17:35.570Z","session_id":"295aa35d-90c5-409f-9f97-3b455487527e","decision":"flag","code":"too-many-emdashes","detail":"5 em-dashes in prose (max 2)"}
+{"ts":"2026-09-07T10:44:26.753Z","session_id":"295aa35d-90c5-409f-9f97-3b455487527e","decision":"pass","memoryDelta":false}
+{"ts":"2026-09-07T10:51:58.358Z","session_id":"ef445269-830e-40bd-a8ae-7b42a6ef33e3","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"Verified the note exists on disk with the summar\""}
+{"ts":"2026-09-07T10:55:04.260Z","session_id":"ef445269-830e-40bd-a8ae-7b42a6ef33e3","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"Two things surfaced. The anchor didn't mint beca\""}
+{"ts":"2026-09-07T10:59:05.798Z","session_id":"ef445269-830e-40bd-a8ae-7b42a6ef33e3","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"Committed on your working branch (not a worktree\""}
+{"ts":"2026-09-07T11:13:29.926Z","session_id":"ef445269-830e-40bd-a8ae-7b42a6ef33e3","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"I found the format and applied it — with one dev\""}
+{"ts":"2026-09-07T12:51:34.515Z","session_id":"ef445269-830e-40bd-a8ae-7b42a6ef33e3","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"You're asking where things are stored now. Two a\""}
+{"ts":"2026-09-07T20:47:58.121Z","session_id":"ef445269-830e-40bd-a8ae-7b42a6ef33e3","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"Anchor created at `~/obsidian/Reference/Channels\""}
+{"ts":"2026-09-07T21:00:53.591Z","session_id":"ef445269-830e-40bd-a8ae-7b42a6ef33e3","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"Saved **Geoffrey Litt: Dynamic Documents as Pers\""}
+{"ts":"2026-09-07T21:10:18.621Z","session_id":"ef445269-830e-40bd-a8ae-7b42a6ef33e3","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"Saved **Dr. David Spiegel on hypnosis** (Know Th\""}
+{"ts":"2026-09-07T21:22:07.516Z","session_id":"ef445269-830e-40bd-a8ae-7b42a6ef33e3","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"Anchor created at `~/obsidian/Reference/Channels\""}
+{"ts":"2026-09-07T21:26:02.839Z","session_id":"ef445269-830e-40bd-a8ae-7b42a6ef33e3","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"Saved **17 FREE Mac Apps You'll Actually Use** t\""}

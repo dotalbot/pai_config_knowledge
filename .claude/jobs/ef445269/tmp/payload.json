@@ -1,0 +1,11 @@
+{
+  "kind": "video",
+  "url": "https://youtu.be/Aded2v7_vag",
+  "title": "Obsidian: The Thinking Person's Set Up (FULL SET UP)",
+  "author": "Vicky Zhao",
+  "channelUrl": "https://www.youtube.com/@VickyZhaoBEEAMP",
+  "summary": "Argues that a note system only becomes a tool for thought when it protects and expands thinking, not when it stores more — so the setup must stay deliberately minimal. Three non-negotiables: spend under 1% of your time tweaking the system, never bulk-import your existing notes (start with the one note that is top of mind and let important ideas pull themselves back in), and sync across every device or capture dies at the moment of the idea. The target is getting off the consumption hamster wheel: input that never becomes output is not learning, it is hoarding.",
+  "tags": ["Obsidian", "Zettelkasten", "Productivity", "note-taking", "thinking"],
+  "related": ["The Definitive Guide to Setting Up Your AI Second Brain", "Vault Guide"],
+  "provenance": "Transcript fetched via fabric -y; metadata via YouTube oEmbed."
+}

@@ -1,19 +1,9 @@
-Good — your vault already has strong opinions about this. That changes the design. Let me put the real questions to you.
+Saved **17 FREE Mac Apps You'll Actually Use** to `Reference/YouTube/` — 133 lines, full rich format, all 17 apps captured with pricing and setup steps.
 
-Here's what I found, and where I think your ask collides with your own vault:
+Worth flagging: this is **Stephen Robles, not MacVince**. Different channel, so no anchor was minted — it's the first item from him. It does share the macOS tags with the MacVince anchor, so the two will surface together.
 
-**Your vault already answers "where does a snippet go" — and the answer is `00 INBOX`, one line, `status: unprocessed`.** The Vault Guide's tool lifecycle (lines 165-184) is explicit: capture cheap, promote later, the verdict is what earns keep. Sources/Lists exists specifically as the honest holding pen for "bookmarks with a folder."
+Two things I'd actually use. **EasyDMG** set as the default DMG handler removes that install-drag-eject-delete sequence permanently, and the closing bonus is a years-old built-in: Archive Utility has a setting to trash the zip after expanding it. As he puts it, all these options were sitting in the Mac the whole time.
 
-So the challenge: **you're asking me to build a filing system, but your documented problem isn't filing — it's that nothing gets processed.** Five TODOs from 2026-08-22 are still sitting in INBOX unprocessed, two weeks on. A skill that files faster makes a bigger unprocessed pile.
+I also repaired the Vicky Zhao anchor while here. It was scaffolded before my earlier channel-kind fix, so it lacked the `channel:` line the two newer anchors have. Child list unaffected, now consistent.
 
-**Q1 — What's the actual failure you're fixing?**
-
-- (a) Capture friction — things get lost because opening Obsidian mid-video is too slow. Skill = fast, dumb, one destination.
-- (b) Retrieval — you capture fine but can't find it later. Skill = classification + indexing, richer frontmatter.
-- (c) Processing — the pile grows and never gets worked. Skill = capture *plus* a resurfacing mechanism.
-
-My read is (a) with (c) lurking, but you know which one bites.
-
-**Q2 — Does this skill enrich, or just file?** A URL can be fetched, titled, tagged, and summarised in one pass, which makes retrieval work. But that's 20-40s per capture and turns "save this" into a job. Fast-and-dumb (title + URL + timestamp, sub-second) or fetch-and-enrich?
-
-**Q3 — One destination or routed?** Your vault has real destinations already: `00 INBOX` (raw), `Sources/YouTube`, `Sources/Articles`, `Sources/Lists`. I'd argue everything lands in `00 INBOX` regardless of type — routing at capture time is a decision you're making before you know if the thing is worth anything, and Sources' own README says a processed write-up is what earns a Sources slot. Do you want me to route, or hold the line t
+🗣️ All 17 apps captured with pricing and setup steps, and a stale anchor tidied on the way past.

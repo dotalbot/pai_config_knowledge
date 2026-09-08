@@ -1,0 +1,66 @@
+{
+  "proto": 1,
+  "supervisorPid": 1092983,
+  "updatedAt": 1788807088950,
+  "workers": {
+    "ef445269": {
+      "pid": 1093026,
+      "procStart": "186433882",
+      "sessionId": "ef445269-830e-40bd-a8ae-7b42a6ef33e3",
+      "rendezvousSock": "/tmp/cc-daemon-1005/ab1d699e/rv/ef445269.sock",
+      "ptySock": "/tmp/cc-daemon-1005/ab1d699e/pty/ef445269.sock",
+      "cliVersion": "2.1.263",
+      "startedAt": 1788778228489,
+      "attempt": 1,
+      "cwd": "/home/jellypai/.claude",
+      "dispatch": {
+        "proto": 1,
+        "short": "ef445269",
+        "nonce": "c20ba7ef",
+        "sessionId": "ef445269-830e-40bd-a8ae-7b42a6ef33e3",
+        "createdAt": 1788778228348,
+        "source": "spare",
+        "cwd": "/home/jellypai/.claude",
+        "launch": {
+          "mode": "prompt",
+          "args": [
+            "--session-id",
+            "ef445269-830e-40bd-a8ae-7b42a6ef33e3",
+            "--agent",
+            "claude",
+            "--inherit-permission-mode",
+            "auto"
+          ],
+          "restoresTranscript": false
+        },
+        "env": {},
+        "isolation": "none",
+        "respawnFlags": [
+          "--agent",
+          "claude",
+          "--inherit-permission-mode",
+          "auto"
+        ],
+        "agent": "claude",
+        "seed": {
+          "intent": ""
+        },
+        "cols": 138,
+        "rows": 33
+      },
+      "decModes": [
+        1000,
+        1002,
+        1003,
+        1006,
+        2004,
+        2031,
+        1004
+      ],
+      "rvAuth": "db9b1aa62c03e585a612186db3ac627e",
+      "ptyAuth": "c28cb4c648149081d881650f3e84ce62",
+      "replPid": 1093052,
+      "replProcStart": "186433893"
+    }
+  }
+}

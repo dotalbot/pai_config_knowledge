@@ -356,3 +356,18 @@
 {"ts":"2026-09-04T12:42:34.924Z","decision":"no-claim"}
 {"ts":"2026-09-04T15:25:00.777Z","decision":"no-claim"}
 {"ts":"2026-09-05T13:14:20.331Z","decision":"no-claim"}
+{"ts":"2026-09-07T09:55:34.296Z","decision":"no-claim"}
+{"ts":"2026-09-07T10:03:08.459Z","decision":"no-claim"}
+{"ts":"2026-09-07T10:07:36.496Z","decision":"no-claim"}
+{"ts":"2026-09-07T10:17:35.578Z","decision":"pass-no-activity","type":"T4"}
+{"ts":"2026-09-07T10:44:26.762Z","decision":"pass-no-activity","type":"T4"}
+{"ts":"2026-09-07T10:51:58.363Z","decision":"no-claim"}
+{"ts":"2026-09-07T10:55:04.265Z","decision":"no-claim"}
+{"ts":"2026-09-07T10:59:05.804Z","decision":"no-claim"}
+{"ts":"2026-09-07T11:13:29.935Z","decision":"pass-subagent","type":"T4","unit":"36 tests passing","wouldBlock":false}
+{"ts":"2026-09-07T12:51:34.523Z","decision":"no-claim"}
+{"ts":"2026-09-07T20:47:58.130Z","decision":"pass-no-activity","type":"T4"}
+{"ts":"2026-09-07T21:00:53.602Z","decision":"no-claim"}
+{"ts":"2026-09-07T21:10:18.634Z","decision":"no-claim"}
+{"ts":"2026-09-07T21:22:07.528Z","decision":"no-claim"}
+{"ts":"2026-09-07T21:26:02.851Z","decision":"no-claim"}

@@ -1,0 +1,11 @@
+{
+  "kind": "video",
+  "url": "https://youtu.be/8PM_t3NWrAE",
+  "title": "Turn Any Book Into an AI Skill You'll Actually Use",
+  "author": "Vicky Zhao",
+  "channelUrl": "https://www.youtube.com/@VickyZhaoBEEAMP",
+  "summary": "Argues that the usual way people turn a book into an AI skill fails because of compounding abstraction: the author already abstracted experience into a book, a summary strips the nuance and examples, and asking an LLM to distil that into a skill is an abstraction of an abstraction of an abstraction — which is why the resulting skill is vague and average. Feed the AI rich context instead of compressed summaries, since AI is good at digesting volume. A skill only earns its place if it does three things: knows when to invoke the method, drives an actual behaviour change, and records and reviews what happened — closing a feedback loop, which AI is unusually good at maintaining because it tracks and surfaces over time. Frames mastery through shu-ha-ri, the Japanese martial arts and tea ceremony progression. Learning has not occurred until behaviour changes; anything short of that is intellectual fantasising.",
+  "tags": ["AI", "skills", "learning", "books", "feedback-loops", "behaviour-change"],
+  "related": ["Obsidian- The Thinking Person's Set Up (FULL SET UP)", "The Definitive Guide to Setting Up Your AI Second Brain"],
+  "provenance": "Transcript fetched via fabric -y; metadata via YouTube oEmbed."
+}
