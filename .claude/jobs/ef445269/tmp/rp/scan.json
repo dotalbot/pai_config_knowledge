@@ -1,0 +1,602 @@
+[
+  {
+    "name": "PowerPlatform_DEV",
+    "project": "Digital solutions team",
+    "sizeMB": 37.33,
+    "empty": false,
+    "lastCommit": "2026-09-04T09:31:32Z",
+    "daysSince": 4,
+    "commitCount": 358,
+    "last30": 25,
+    "last90": 358,
+    "contributors": [
+      {
+        "name": "Jake Boraston",
+        "commits": 358,
+        "share": 100
+      }
+    ],
+    "soleOwner": "Jake Boraston",
+    "prCount": 2,
+    "reviewedPRs": 0,
+    "topLevel": [
+      ".obsidian",
+      "CBC-Capacity-Seed-Prompt.md",
+      "CBC-Delivery-Progress.md",
+      "Documentation",
+      "README.md",
+      "Solutions"
+    ],
+    "agentFiles": []
+  },
+  {
+    "name": "Client work",
+    "project": "Digital solutions team",
+    "sizeMB": 1.07,
+    "empty": false,
+    "lastCommit": "2026-09-02T09:48:41Z",
+    "daysSince": 6,
+    "commitCount": 336,
+    "last30": 125,
+    "last90": 336,
+    "contributors": [
+      {
+        "name": "thomas-capaldi",
+        "commits": 173,
+        "share": 51.5
+      },
+      {
+        "name": "Jake Boraston",
+        "commits": 163,
+        "share": 48.5
+      }
+    ],
+    "soleOwner": null,
+    "prCount": 51,
+    "reviewedPRs": 23,
+    "topLevel": [
+      ".claude",
+      "CLAUDE.md",
+      "Copilot Studio Build Caveats.md",
+      "Ofgem",
+      "README.md",
+      "scripts"
+    ],
+    "agentFiles": [
+      ".claude",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "name": "Digital solutions team",
+    "project": "Digital solutions team",
+    "sizeMB": 260.62,
+    "empty": false,
+    "lastCommit": "2026-08-27T16:13:21Z",
+    "daysSince": 11,
+    "commitCount": 500,
+    "last30": 55,
+    "last90": 224,
+    "contributors": [
+      {
+        "name": "Jake Boraston",
+        "commits": 385,
+        "share": 77
+      },
+      {
+        "name": "Automatic Build",
+        "commits": 113,
+        "share": 22.6
+      },
+      {
+        "name": "JakeBoraston",
+        "commits": 2,
+        "share": 0.4
+      }
+    ],
+    "soleOwner": null,
+    "prCount": 56,
+    "reviewedPRs": 11,
+    "topLevel": [
+      ".claude",
+      ".gitignore",
+      "Agents",
+      "AppGraveyard",
+      "CLAUDE.md",
+      "CodeApps",
+      "Documentation",
+      "Dynamics - Sandbox to SOURCE.yml",
+      "Dynamics-Solutions",
+      "ERD",
+      "ErrorReport",
+      "FLOW_ERROR_TRIAGE.md",
+      "GEMINI.md",
+      "Get-DataverseFlowErrors.ps1",
+      "Get-FlowError.ps1",
+      "Get-LeaveApprovalIds.ps1",
+      "Get-SPListData.ps1",
+      "Inform - DEV to SOURCE (Split Canvas App).yml",
+      "Inform - DEV to SOURCE.yml",
+      "RELEASE-PIPELINE-SETUP.md",
+      "Release - TEST to PROD.yml",
+      "RepositoryReadMe.md",
+      "Solutions",
+      "SolutionsAnalyser",
+      "SvelteComponents",
+      "eslint-rules",
+      "eslint.config.mjs",
+      "package-lock.json",
+      "package.json"
+    ],
+    "agentFiles": [
+      ".claude",
+      "CLAUDE.md",
+      "GEMINI.md"
+    ]
+  },
+  {
+    "name": "DominicTalbot",
+    "project": "Digital solutions team",
+    "sizeMB": 0.67,
+    "empty": false,
+    "lastCommit": "2026-08-06T19:14:02Z",
+    "daysSince": 32,
+    "commitCount": 34,
+    "last30": 0,
+    "last90": 34,
+    "contributors": [
+      {
+        "name": "Dominic Talbot",
+        "commits": 33,
+        "share": 97.1
+      },
+      {
+        "name": "Thomas Capaldi",
+        "commits": 1,
+        "share": 2.9
+      }
+    ],
+    "soleOwner": "Dominic Talbot",
+    "prCount": 1,
+    "reviewedPRs": 1,
+    "topLevel": [
+      "README.md"
+    ],
+    "agentFiles": []
+  },
+  {
+    "name": "Power Platform architecture and DevOps for Copilot Studio agents",
+    "project": "Digital solutions team",
+    "sizeMB": 0.98,
+    "empty": false,
+    "lastCommit": "2026-07-29T07:10:22Z",
+    "daysSince": 41,
+    "commitCount": 105,
+    "last30": 0,
+    "last90": 5,
+    "contributors": [
+      {
+        "name": "thomas-capaldi",
+        "commits": 105,
+        "share": 100
+      }
+    ],
+    "soleOwner": "thomas-capaldi",
+    "prCount": 0,
+    "reviewedPRs": 0,
+    "topLevel": [
+      ".claude",
+      ".gitattributes",
+      ".gitignore",
+      "README.md",
+      "agent-zero",
+      "api",
+      "azure-pipelines.yml",
+      "dev-docs",
+      "ofgem-docs",
+      "zensical"
+    ],
+    "agentFiles": [
+      ".claude"
+    ]
+  },
+  {
+    "name": "Microsoft certifications",
+    "project": "Digital solutions team",
+    "sizeMB": 32.45,
+    "empty": false,
+    "lastCommit": "2026-07-09T20:35:48Z",
+    "daysSince": 60,
+    "commitCount": 84,
+    "last30": 0,
+    "last90": 84,
+    "contributors": [
+      {
+        "name": "thomas-capaldi",
+        "commits": 84,
+        "share": 100
+      }
+    ],
+    "soleOwner": "thomas-capaldi",
+    "prCount": 0,
+    "reviewedPRs": 0,
+    "topLevel": [
+      ".gitattributes",
+      ".gitignore",
+      ".mcp.json",
+      "CLAUDE.md",
+      "MS-102",
+      "PROGRESS.md",
+      "README.md",
+      "azure-static-web-apps-polite-stone-0ca64e903.yml",
+      "web"
+    ],
+    "agentFiles": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "name": "Copilot Knowledge Base",
+    "project": "Digital solutions team",
+    "sizeMB": 1.5,
+    "empty": false,
+    "lastCommit": "2026-07-09T09:28:06Z",
+    "daysSince": 61,
+    "commitCount": 198,
+    "last30": 0,
+    "last90": 11,
+    "contributors": [
+      {
+        "name": "thomas-capaldi",
+        "commits": 198,
+        "share": 100
+      }
+    ],
+    "soleOwner": "thomas-capaldi",
+    "prCount": 7,
+    "reviewedPRs": 6,
+    "topLevel": [
+      ".claude",
+      ".gitattributes",
+      ".gitignore",
+      ".nvmrc",
+      ".vscode",
+      "CLAUDE.md",
+      "README.md",
+      "api",
+      "azure-static-web-apps-polite-river-0aab5ac03.yml",
+      "dev-docs",
+      "research",
+      "scripts",
+      "social",
+      "zensical"
+    ],
+    "agentFiles": [
+      ".claude",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "name": "Marketing App",
+    "project": "Digital solutions team",
+    "sizeMB": 0.27,
+    "empty": false,
+    "lastCommit": "2026-03-23T15:10:10Z",
+    "daysSince": 168,
+    "commitCount": 51,
+    "last30": 0,
+    "last90": 0,
+    "contributors": [
+      {
+        "name": "thomas-capaldi",
+        "commits": 51,
+        "share": 100
+      }
+    ],
+    "soleOwner": "thomas-capaldi",
+    "prCount": 0,
+    "reviewedPRs": 0,
+    "topLevel": [
+      ".gitattributes",
+      ".gitignore",
+      "CLAUDE.md",
+      "README.md",
+      "api",
+      "app",
+      "azure-static-web-apps-icy-bay-0da923403.yml",
+      "dev-docs"
+    ],
+    "agentFiles": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "name": "Dataverse architecture planning",
+    "project": "Digital solutions team",
+    "sizeMB": 0.28,
+    "empty": false,
+    "lastCommit": "2026-03-19T18:20:29Z",
+    "daysSince": 172,
+    "commitCount": 22,
+    "last30": 0,
+    "last90": 0,
+    "contributors": [
+      {
+        "name": "thomas-capaldi",
+        "commits": 21,
+        "share": 95.5
+      },
+      {
+        "name": "Jake Boraston",
+        "commits": 1,
+        "share": 4.5
+      }
+    ],
+    "soleOwner": "thomas-capaldi",
+    "prCount": 0,
+    "reviewedPRs": 0,
+    "topLevel": [
+      ".env.example",
+      ".gitattributes",
+      ".gitignore",
+      "CLAUDE.md",
+      "JakesConsiderations.md",
+      "README.md",
+      "docs",
+      "scripts",
+      "visualisations"
+    ],
+    "agentFiles": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "name": "My Inform App",
+    "project": "Digital solutions team",
+    "sizeMB": 1.26,
+    "empty": false,
+    "lastCommit": "2026-03-08T15:51:07Z",
+    "daysSince": 183,
+    "commitCount": 31,
+    "last30": 0,
+    "last90": 0,
+    "contributors": [
+      {
+        "name": "thomas-capaldi",
+        "commits": 31,
+        "share": 100
+      }
+    ],
+    "soleOwner": "thomas-capaldi",
+    "prCount": 2,
+    "reviewedPRs": 0,
+    "topLevel": [
+      ".claude",
+      ".gitattributes",
+      ".gitignore",
+      ".mcp.json",
+      "CLAUDE.md",
+      "README.md",
+      "app",
+      "azure-static-web-apps-agreeable-bush-0795c9703.yml",
+      "docs"
+    ],
+    "agentFiles": [
+      ".claude",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "name": "InformSanity",
+    "project": "Digital solutions team",
+    "sizeMB": 0.69,
+    "empty": false,
+    "lastCommit": "2026-03-04T19:27:39Z",
+    "daysSince": 187,
+    "commitCount": 50,
+    "last30": 0,
+    "last90": 0,
+    "contributors": [
+      {
+        "name": "Jake Boraston",
+        "commits": 50,
+        "share": 100
+      }
+    ],
+    "soleOwner": "Jake Boraston",
+    "prCount": 0,
+    "reviewedPRs": 0,
+    "topLevel": [
+      ".claude",
+      ".gemini",
+      ".gitignore",
+      "CLAUDE.md",
+      "GEMINI.md",
+      "Notes.md",
+      "README.md",
+      "Todo.md",
+      "apps",
+      "architecture.html",
+      "azure-pipelines.yml",
+      "block-preview.html",
+      "package-lock.json",
+      "package.json",
+      "packages",
+      "scripts",
+      "tsconfig.base.json"
+    ],
+    "agentFiles": [
+      ".claude",
+      "CLAUDE.md",
+      "GEMINI.md"
+    ]
+  },
+  {
+    "name": "Inform website content update and Svelte testing",
+    "project": "Digital solutions team",
+    "sizeMB": 8.45,
+    "empty": false,
+    "lastCommit": "2026-02-16T18:57:40Z",
+    "daysSince": 203,
+    "commitCount": 14,
+    "last30": 0,
+    "last90": 0,
+    "contributors": [
+      {
+        "name": "thomas-capaldi",
+        "commits": 14,
+        "share": 100
+      }
+    ],
+    "soleOwner": "thomas-capaldi",
+    "prCount": 0,
+    "reviewedPRs": 0,
+    "topLevel": [
+      ".claude",
+      "CLAUDE.md",
+      "README.md",
+      "azure-pipelines.yml",
+      "docs",
+      "website"
+    ],
+    "agentFiles": [
+      ".claude",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "name": "GitHub Copilot Upskilling",
+    "project": "Digital solutions team",
+    "sizeMB": 0.14,
+    "empty": false,
+    "lastCommit": "2026-02-10T15:10:04Z",
+    "daysSince": 209,
+    "commitCount": 4,
+    "last30": 0,
+    "last90": 0,
+    "contributors": [
+      {
+        "name": "thomas-capaldi",
+        "commits": 4,
+        "share": 100
+      }
+    ],
+    "soleOwner": "thomas-capaldi",
+    "prCount": 0,
+    "reviewedPRs": 0,
+    "topLevel": [
+      "CLAUDE.md",
+      "README.md",
+      "github-copilot-training",
+      "sveltekit-swa-project"
+    ],
+    "agentFiles": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "name": "Quilter",
+    "project": "Digital solutions team",
+    "sizeMB": 14.85,
+    "empty": false,
+    "lastCommit": "2026-01-30T19:46:32Z",
+    "daysSince": 220,
+    "commitCount": 19,
+    "last30": 0,
+    "last90": 0,
+    "contributors": [
+      {
+        "name": "thomas-capaldi",
+        "commits": 19,
+        "share": 100
+      }
+    ],
+    "soleOwner": "thomas-capaldi",
+    "prCount": 0,
+    "reviewedPRs": 0,
+    "topLevel": [
+      ".claude",
+      ".gitattributes",
+      ".gitignore",
+      "README.md",
+      "candidate-assessment-agent",
+      "candidate-assessment-agents"
+    ],
+    "agentFiles": [
+      ".claude"
+    ]
+  },
+  {
+    "name": "Tom testing",
+    "project": "Digital solutions team",
+    "sizeMB": 0.22,
+    "empty": false,
+    "lastCommit": "2026-01-21T19:13:33Z",
+    "daysSince": 229,
+    "commitCount": 3,
+    "last30": 0,
+    "last90": 0,
+    "contributors": [
+      {
+        "name": "Thomas Capaldi",
+        "commits": 3,
+        "share": 100
+      }
+    ],
+    "soleOwner": "Thomas Capaldi",
+    "prCount": 0,
+    "reviewedPRs": 0,
+    "topLevel": [
+      "Inform-Management-Azure",
+      "README.md",
+      "booking-tool",
+      "docs-admin",
+      "feasibility-studies",
+      "sveltekit-markdown-kb"
+    ],
+    "agentFiles": []
+  },
+  {
+    "name": "Azure Container Apps and MCP servers",
+    "project": "Digital solutions team",
+    "sizeMB": 0,
+    "empty": false,
+    "lastCommit": "2026-01-18T13:26:08Z",
+    "daysSince": 232,
+    "commitCount": 2,
+    "last30": 0,
+    "last90": 0,
+    "contributors": [
+      {
+        "name": "Thomas Capaldi",
+        "commits": 2,
+        "share": 100
+      }
+    ],
+    "soleOwner": "Thomas Capaldi",
+    "prCount": 0,
+    "reviewedPRs": 0,
+    "topLevel": [
+      "README.md",
+      "azure-devops-mcp-for-copilot-studio"
+    ],
+    "agentFiles": []
+  },
+  {
+    "name": "DevOps Playground",
+    "project": "DevOps Playground",
+    "sizeMB": 0,
+    "empty": true,
+    "lastCommit": null,
+    "daysSince": null,
+    "commitCount": 0,
+    "last30": 0,
+    "last90": 0,
+    "contributors": [],
+    "soleOwner": null,
+    "prCount": 0,
+    "reviewedPRs": 0,
+    "topLevel": [],
+    "agentFiles": []
+  }
+]

@@ -307,11 +307,22 @@
       "phase": "native",
       "progress": "0/0",
       "started": "2026-09-07T10:50:49.205Z",
-      "updatedAt": "2026-09-07T21:24:59.544Z",
+      "updatedAt": "2026-09-08T21:32:07.559Z",
       "ratings": [],
-      "lastToolActivity": "2026-09-07T21:25:49.169Z"
+      "lastToolActivity": "2026-09-08T21:27:56.208Z"
+    },
+    "native-92f50909-63da-4d52-9c9c-b30c53ee7660": {
+      "task": "Please check the azure devops board structure, you might have a document in obsidian, I am looking for a simple breakdow",
+      "sessionName": "Define Azure Devops Board Hierarchy",
+      "sessionUUID": "92f50909-63da-4d52-9c9c-b30c53ee7660",
+      "phase": "native",
+      "progress": "0/0",
+      "started": "2026-09-08T09:59:59.277Z",
+      "updatedAt": "2026-09-08T10:00:02.435Z",
+      "ratings": [],
+      "lastToolActivity": "2026-09-08T10:01:02.865Z"
     }
   },
-  "_events_offset": 350137,
-  "_folded_at": "2026-09-07T21:25:49.170Z"
+  "_events_offset": 368779,
+  "_folded_at": "2026-09-08T21:32:07.560Z"
 }

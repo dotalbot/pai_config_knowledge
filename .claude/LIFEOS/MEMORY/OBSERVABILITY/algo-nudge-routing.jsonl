@@ -35,3 +35,5 @@
 {"ts":"2026-09-01T20:00:09.129Z","session":"441e9228","prompt_head":"Ok, so lets create some layers so we can represent this: Frontier firm has layer","fired":["Telos:executive summary"]}
 {"ts":"2026-09-01T21:11:25.662Z","session":"441e9228","prompt_head":"ok, please read the .md I have created: 'Frontier firm strategy with roadmap  - ","fired":["Cortex:contradictions","Knowledge:contradictions"]}
 {"ts":"2026-09-07T11:06:40.326Z","session":"ef445269","prompt_head":"have a search, you had a really good format for capturing youtube content, have ","fired":["SystemsThinking:systems thinking"]}
+{"ts":"2026-09-08T09:46:29.960Z","session":"ef445269","prompt_head":"Ok, I want you to build a new skill around repo analysis as well as work trackin","fired":["CreateSkill:new skill"]}
+{"ts":"2026-09-08T20:45:55.984Z","session":"ef445269","prompt_head":"so of the active repos, please give me a breakdown of the actual work done on th","fired":["Cortex:last week"]}

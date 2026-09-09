@@ -1,0 +1,3602 @@
+[
+  {
+    "id": "e79c4e08",
+    "author": "Jake Boraston",
+    "date": "2026-08-27T16:13:21Z",
+    "comment": "Merge pull request 133 from fix/contract-line-manager into main",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "16c20b78",
+    "author": "Jake Boraston",
+    "date": "2026-08-27T16:13:08Z",
+    "comment": "Name the line manager in the employment contract",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "b3d3643c",
+    "author": "Automatic Build",
+    "date": "2026-08-27T14:20:32Z",
+    "comment": "Inform Management v1.0.0.797 - Ticket OT9634 Manager not in Employee Contract fix, now adds manager and supervisor.",
+    "adds": 2,
+    "edits": 30,
+    "deletes": 0
+  },
+  {
+    "id": "9733f106",
+    "author": "Jake Boraston",
+    "date": "2026-08-26T14:36:29Z",
+    "comment": "Merge pull request 132 from feat/iris-people-export into main",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "171d5834",
+    "author": "Jake Boraston",
+    "date": "2026-08-26T14:36:23Z",
+    "comment": "Iris: export the people directory to CSV",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "620a3047",
+    "author": "Automatic Build",
+    "date": "2026-08-26T14:03:19Z",
+    "comment": "DeliveryHub v1.1.0.2 - Push to TEST for MOD Delivery Hub UAT Updates",
+    "adds": 189,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "1792d2ec",
+    "author": "Jake Boraston",
+    "date": "2026-08-21T08:05:04Z",
+    "comment": "Merged PR 128: Iris: recover from a route chunk that fails to load (blank routes)",
+    "adds": 1,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "4db76006",
+    "author": "Jake Boraston",
+    "date": "2026-08-21T07:50:59Z",
+    "comment": "Merge pull request 128 from fix/iris-route-chunk-recovery into main",
+    "adds": 1,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "d9067aad",
+    "author": "Jake Boraston",
+    "date": "2026-08-21T07:50:34Z",
+    "comment": "Iris: recover from a route chunk that fails to load",
+    "adds": 1,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "3e62be48",
+    "author": "Jake Boraston",
+    "date": "2026-08-21T07:49:57Z",
+    "comment": "Iris: recover from a route chunk that fails to load",
+    "adds": 1,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "93f6e648",
+    "author": "Automatic Build",
+    "date": "2026-08-20T10:40:36Z",
+    "comment": "My Inform v1.0.0.813 - Updating old app links",
+    "adds": 0,
+    "edits": 14,
+    "deletes": 0
+  },
+  {
+    "id": "ef82a03b",
+    "author": "Automatic Build",
+    "date": "2026-08-20T09:37:48Z",
+    "comment": "Inform Management v1.0.0.797 - Updating old links to apps",
+    "adds": 0,
+    "edits": 10,
+    "deletes": 0
+  },
+  {
+    "id": "6fae4bca",
+    "author": "Jake Boraston",
+    "date": "2026-08-17T13:40:08Z",
+    "comment": "Merged PR 121: Iris: applicant tracker follow-ups from hiring review feedback",
+    "adds": 7,
+    "edits": 86,
+    "deletes": 1
+  },
+  {
+    "id": "14e71583",
+    "author": "Jake Boraston",
+    "date": "2026-08-17T13:38:43Z",
+    "comment": "Merged PR 122: Iris: fix the supplier form rejecting every keystroke",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "9bcf1f18",
+    "author": "Jake Boraston",
+    "date": "2026-08-17T13:09:31Z",
+    "comment": "Merge pull request 121 from feat/iris-applicant-tracker-followups into main",
+    "adds": 7,
+    "edits": 87,
+    "deletes": 1
+  },
+  {
+    "id": "c4d1d9ed",
+    "author": "Jake Boraston",
+    "date": "2026-08-17T13:09:15Z",
+    "comment": "Add SharePoint list update mode and the Work IQ MCP notes",
+    "adds": 1,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "80dda585",
+    "author": "Jake Boraston",
+    "date": "2026-08-17T13:09:07Z",
+    "comment": "Stop the derived_inert and binding warnings from the sidebar and TabBar",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "baabb284",
+    "author": "Jake Boraston",
+    "date": "2026-08-17T13:08:52Z",
+    "comment": "Add ESLint across Iris and @dst/ui, wired into npm run check",
+    "adds": 2,
+    "edits": 6,
+    "deletes": 0
+  },
+  {
+    "id": "2353f80b",
+    "author": "Jake Boraston",
+    "date": "2026-08-17T13:08:30Z",
+    "comment": "Iris: add CODING_STANDARDS.md and make CLAUDE.md point at it",
+    "adds": 1,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "dd289b3c",
+    "author": "Jake Boraston",
+    "date": "2026-08-17T13:08:19Z",
+    "comment": "Iris: sweep $effect down to what genuinely needs to be an effect",
+    "adds": 0,
+    "edits": 63,
+    "deletes": 0
+  },
+  {
+    "id": "8608cea3",
+    "author": "Jake Boraston",
+    "date": "2026-08-17T13:07:26Z",
+    "comment": "Iris: keep spent-out activities visible in the budgets view",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "81aa2072",
+    "author": "Jake Boraston",
+    "date": "2026-08-17T13:07:16Z",
+    "comment": "Iris: read planner leave from Leave Requests, not the LeaveDays cache",
+    "adds": 1,
+    "edits": 4,
+    "deletes": 1
+  },
+  {
+    "id": "c8a9bb55",
+    "author": "Jake Boraston",
+    "date": "2026-08-14T17:30:07Z",
+    "comment": "Merge pull request 121 from feat/iris-applicant-tracker-followups into main",
+    "adds": 2,
+    "edits": 14,
+    "deletes": 0
+  },
+  {
+    "id": "1a5b4bfe",
+    "author": "Jake Boraston",
+    "date": "2026-08-14T17:30:04Z",
+    "comment": "Iris: format leaver dates instead of printing the raw SharePoint value",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "ca60835b",
+    "author": "Jake Boraston",
+    "date": "2026-08-14T17:11:38Z",
+    "comment": "Merge pull request 121 from feat/iris-applicant-tracker-followups into main",
+    "adds": 2,
+    "edits": 14,
+    "deletes": 0
+  },
+  {
+    "id": "009a58ea",
+    "author": "Jake Boraston",
+    "date": "2026-08-14T17:11:35Z",
+    "comment": "Iris: stop re-onboarding corrupting a returning person's records",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "b1e93a03",
+    "author": "Jake Boraston",
+    "date": "2026-08-14T16:29:16Z",
+    "comment": "Merge pull request 121 from feat/iris-applicant-tracker-followups into main",
+    "adds": 2,
+    "edits": 14,
+    "deletes": 0
+  },
+  {
+    "id": "1564c652",
+    "author": "Jake Boraston",
+    "date": "2026-08-14T16:29:14Z",
+    "comment": "Iris: commit the informEmail helper the orchestrator imports",
+    "adds": 1,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "c60cbdfa",
+    "author": "Jake Boraston",
+    "date": "2026-08-14T16:16:11Z",
+    "comment": "Merge pull request 121 from feat/iris-applicant-tracker-followups into main",
+    "adds": 1,
+    "edits": 13,
+    "deletes": 0
+  },
+  {
+    "id": "d2c06067",
+    "author": "Jake Boraston",
+    "date": "2026-08-14T16:16:08Z",
+    "comment": "Iris: keep focus and teach the empty state on the leaver picker",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "5fdacb21",
+    "author": "Jake Boraston",
+    "date": "2026-08-14T16:01:38Z",
+    "comment": "Merge pull request 121 from feat/iris-applicant-tracker-followups into main",
+    "adds": 1,
+    "edits": 13,
+    "deletes": 0
+  },
+  {
+    "id": "f51dfb58",
+    "author": "Jake Boraston",
+    "date": "2026-08-14T16:01:35Z",
+    "comment": "Iris: onboard a returning person onto their existing record",
+    "adds": 0,
+    "edits": 5,
+    "deletes": 0
+  },
+  {
+    "id": "10cc00ff",
+    "author": "Jake Boraston",
+    "date": "2026-08-14T15:03:20Z",
+    "comment": "Merge pull request 122 from fix/supplier-modal-inputs into main",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "85f1654f",
+    "author": "Jake Boraston",
+    "date": "2026-08-14T15:03:18Z",
+    "comment": "Iris: drop the supplier prefill effect rather than guard it",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "b822d116",
+    "author": "Jake Boraston",
+    "date": "2026-08-14T15:03:07Z",
+    "comment": "Merge pull request 121 from feat/iris-applicant-tracker-followups into main",
+    "adds": 1,
+    "edits": 8,
+    "deletes": 0
+  },
+  {
+    "id": "c77371d3",
+    "author": "Jake Boraston",
+    "date": "2026-08-14T15:03:04Z",
+    "comment": "Iris: drop the supplier prefill effect rather than guard it",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "ba4b9a14",
+    "author": "Jake Boraston",
+    "date": "2026-08-14T14:51:50Z",
+    "comment": "Merge pull request 121 from feat/iris-applicant-tracker-followups into main",
+    "adds": 1,
+    "edits": 8,
+    "deletes": 0
+  },
+  {
+    "id": "4297e233",
+    "author": "Jake Boraston",
+    "date": "2026-08-14T14:50:35Z",
+    "comment": "Iris: fix the supplier form rejecting every keystroke",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "4dd747f0",
+    "author": "Jake Boraston",
+    "date": "2026-08-14T14:50:26Z",
+    "comment": "Merge pull request 122 from fix/supplier-modal-inputs into main",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "157db073",
+    "author": "Jake Boraston",
+    "date": "2026-08-14T14:49:17Z",
+    "comment": "Iris: fix the supplier form rejecting every keystroke",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "573a6822",
+    "author": "Jake Boraston",
+    "date": "2026-08-13T08:37:28Z",
+    "comment": "Merge pull request 121 from feat/iris-applicant-tracker-followups into main",
+    "adds": 1,
+    "edits": 7,
+    "deletes": 0
+  },
+  {
+    "id": "e5deaa9a",
+    "author": "Jake Boraston",
+    "date": "2026-08-13T08:37:24Z",
+    "comment": "Iris: word the ranking prompt as strongest candidates",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "81749fe0",
+    "author": "Jake Boraston",
+    "date": "2026-08-13T08:12:08Z",
+    "comment": "Merge pull request 121 from feat/iris-applicant-tracker-followups into main",
+    "adds": 1,
+    "edits": 7,
+    "deletes": 0
+  },
+  {
+    "id": "287393e6",
+    "author": "Jake Boraston",
+    "date": "2026-08-13T08:09:37Z",
+    "comment": "Iris: let the assistant suggest which applicants to read first",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "c41bd062",
+    "author": "Jake Boraston",
+    "date": "2026-08-13T07:59:26Z",
+    "comment": "Iris: applicant tracker follow-ups from hiring review feedback",
+    "adds": 1,
+    "edits": 7,
+    "deletes": 0
+  },
+  {
+    "id": "9777cc6d",
+    "author": "Jake Boraston",
+    "date": "2026-08-13T07:09:18Z",
+    "comment": "Merged PR 120: Iris: applicant tracker tweaks from hiring review feedback",
+    "adds": 1,
+    "edits": 9,
+    "deletes": 0
+  },
+  {
+    "id": "e497c950",
+    "author": "Jake Boraston",
+    "date": "2026-08-13T07:03:29Z",
+    "comment": "Merge pull request 120 from feat/iris-applicant-tracker-tweaks into main",
+    "adds": 1,
+    "edits": 9,
+    "deletes": 0
+  },
+  {
+    "id": "ab59c49f",
+    "author": "Jake Boraston",
+    "date": "2026-08-13T07:01:30Z",
+    "comment": "Iris: applicant tracker tweaks from hiring review feedback",
+    "adds": 1,
+    "edits": 9,
+    "deletes": 0
+  },
+  {
+    "id": "3af79062",
+    "author": "Jake Boraston",
+    "date": "2026-08-11T07:29:51Z",
+    "comment": "Merged PR 110: Iris: team wall hex grid + backgrounds, and timesheet shift-drag copy",
+    "adds": 5,
+    "edits": 7,
+    "deletes": 0
+  },
+  {
+    "id": "3be13feb",
+    "author": "Jake Boraston",
+    "date": "2026-08-11T07:19:59Z",
+    "comment": "Merge pull request 110 from iris-team-wall-background into main",
+    "adds": 5,
+    "edits": 7,
+    "deletes": 0
+  },
+  {
+    "id": "6ed2f5a0",
+    "author": "Jake Boraston",
+    "date": "2026-08-11T07:19:03Z",
+    "comment": "Iris home: hide the hero wordmark when the team wall is the background",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "850c7a1a",
+    "author": "Jake Boraston",
+    "date": "2026-08-11T07:14:13Z",
+    "comment": "Merge pull request 110 from iris-team-wall-background into main",
+    "adds": 5,
+    "edits": 7,
+    "deletes": 0
+  },
+  {
+    "id": "2d22fa9d",
+    "author": "Jake Boraston",
+    "date": "2026-08-11T07:09:30Z",
+    "comment": "Iris timesheets: shift-drag to copy a card to another day",
+    "adds": 0,
+    "edits": 4,
+    "deletes": 0
+  },
+  {
+    "id": "8ff12567",
+    "author": "Jake Boraston",
+    "date": "2026-08-10T22:20:39Z",
+    "comment": "Merge pull request 110 from iris-team-wall-background into main",
+    "adds": 5,
+    "edits": 3,
+    "deletes": 0
+  },
+  {
+    "id": "c7d69951",
+    "author": "Jake Boraston",
+    "date": "2026-08-10T22:20:14Z",
+    "comment": "Iris: team wall hex grid, plus Grainient and Dot Field backgrounds",
+    "adds": 5,
+    "edits": 3,
+    "deletes": 0
+  },
+  {
+    "id": "d9119c5f",
+    "author": "Jake Boraston",
+    "date": "2026-08-04T15:41:31Z",
+    "comment": "Merged PR 81: Iris: planner leave fixes, department filter, Leave Requests view, resizable tables",
+    "adds": 3,
+    "edits": 15,
+    "deletes": 0
+  },
+  {
+    "id": "67abe78a",
+    "author": "Automatic Build",
+    "date": "2026-08-03T08:04:43Z",
+    "comment": "My Inform v1.0.0.813 - Small tweak to try and fix memory issues with running the app in Teams",
+    "adds": 0,
+    "edits": 60,
+    "deletes": 0
+  },
+  {
+    "id": "3096bc48",
+    "author": "Jake Boraston",
+    "date": "2026-07-29T07:37:41Z",
+    "comment": "Merge pull request 81 from iris-planner-leave-improvements into main",
+    "adds": 3,
+    "edits": 15,
+    "deletes": 0
+  },
+  {
+    "id": "2101bf1d",
+    "author": "Jake Boraston",
+    "date": "2026-07-29T07:36:47Z",
+    "comment": "Iris: planner leave fixes, department filter, Leave Requests view, resizable tables",
+    "adds": 3,
+    "edits": 15,
+    "deletes": 0
+  },
+  {
+    "id": "d535165a",
+    "author": "Jake Boraston",
+    "date": "2026-07-28T12:02:41Z",
+    "comment": "Merged PR 80: Add Work IQ assistant to Iris (chat, per-route context/actions, timesheet drafting)",
+    "adds": 12,
+    "edits": 29,
+    "deletes": 0
+  },
+  {
+    "id": "11c4ccaf",
+    "author": "Jake Boraston",
+    "date": "2026-07-28T12:00:46Z",
+    "comment": "Merge pull request 80 from iris-work-iq-assistant into main",
+    "adds": 12,
+    "edits": 29,
+    "deletes": 0
+  },
+  {
+    "id": "f11fc3da",
+    "author": "Jake Boraston",
+    "date": "2026-07-28T12:00:06Z",
+    "comment": "Add Work IQ assistant to Iris (chat, per-route context/actions, timesheet drafting)",
+    "adds": 12,
+    "edits": 29,
+    "deletes": 0
+  },
+  {
+    "id": "145df322",
+    "author": "Automatic Build",
+    "date": "2026-07-24T09:02:27Z",
+    "comment": "Inform Management v1.0.0.797 - fix for Contractor Contract v2 flow PDF conversion issue",
+    "adds": 0,
+    "edits": 10,
+    "deletes": 0
+  },
+  {
+    "id": "693523eb",
+    "author": "Automatic Build",
+    "date": "2026-07-23T09:16:26Z",
+    "comment": "Platform Analytics v1.0.0.6 - Added more feature to the agents details page",
+    "adds": 4,
+    "edits": 6,
+    "deletes": 4
+  },
+  {
+    "id": "6a805203",
+    "author": "Jake Boraston",
+    "date": "2026-07-22T22:30:23Z",
+    "comment": "Merged PR 76: Leave accuracy in the planner, select-option keys, WaveBackground, reliability report",
+    "adds": 29,
+    "edits": 23,
+    "deletes": 0
+  },
+  {
+    "id": "f5321cc8",
+    "author": "Jake Boraston",
+    "date": "2026-07-22T22:29:12Z",
+    "comment": "Merge pull request 76 from iris-leave-and-select-keys into main",
+    "adds": 29,
+    "edits": 23,
+    "deletes": 0
+  },
+  {
+    "id": "ab1a4d8d",
+    "author": "Jake Boraston",
+    "date": "2026-07-22T22:29:10Z",
+    "comment": "feat(platform-analytics): show an agent's instructions and conversation starters",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "a0363101",
+    "author": "Jake Boraston",
+    "date": "2026-07-22T22:22:19Z",
+    "comment": "Merge remote-tracking branch 'origin/main' into iris-leave-and-select-keys",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "b565fc04",
+    "author": "Jake Boraston",
+    "date": "2026-07-22T22:22:19Z",
+    "comment": "Merge remote-tracking branch 'origin/feat/agent-topics-knowledge-sources' into iris-leave-and-select-keys",
+    "adds": 0,
+    "edits": 3,
+    "deletes": 0
+  },
+  {
+    "id": "3e6537ca",
+    "author": "Jake Boraston",
+    "date": "2026-07-22T22:15:43Z",
+    "comment": "Merge pull request 76 from iris-leave-and-select-keys into main",
+    "adds": 29,
+    "edits": 20,
+    "deletes": 0
+  },
+  {
+    "id": "779d21f2",
+    "author": "Jake Boraston",
+    "date": "2026-07-22T22:15:36Z",
+    "comment": "feat(iris): choose the home page background",
+    "adds": 0,
+    "edits": 3,
+    "deletes": 0
+  },
+  {
+    "id": "7c6eeda3",
+    "author": "Jake Boraston",
+    "date": "2026-07-22T22:15:35Z",
+    "comment": "feat(ui): interactionRadius on WaveBackground",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "f640d239",
+    "author": "Jake Boraston",
+    "date": "2026-07-22T21:56:58Z",
+    "comment": "Merged PR 78: docs: add Dataverse default table reference",
+    "adds": 0,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "f972f60b",
+    "author": "Jake Boraston",
+    "date": "2026-07-22T21:56:55Z",
+    "comment": "Merge pull request 78 from docs/dataverse-default-tables into main",
+    "adds": 0,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "24403a51",
+    "author": "Jake Boraston",
+    "date": "2026-07-22T21:56:10Z",
+    "comment": "Merged PR 77: fix(platform-analytics): resolve the connection reference component type per...",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "647e4202",
+    "author": "Jake Boraston",
+    "date": "2026-07-22T21:56:07Z",
+    "comment": "Merge pull request 77 from fix/connection-reference-component-type into main",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "186096cf",
+    "author": "Jake Boraston",
+    "date": "2026-07-22T21:52:21Z",
+    "comment": "feat(platform-analytics): list an agent's topics and knowledge sources",
+    "adds": 0,
+    "edits": 3,
+    "deletes": 0
+  },
+  {
+    "id": "419ab30b",
+    "author": "Jake Boraston",
+    "date": "2026-07-22T21:49:06Z",
+    "comment": "Merge pull request 76 from iris-leave-and-select-keys into main",
+    "adds": 29,
+    "edits": 17,
+    "deletes": 0
+  },
+  {
+    "id": "714978fd",
+    "author": "Jake Boraston",
+    "date": "2026-07-22T21:46:40Z",
+    "comment": "feat(report): automation reliability report",
+    "adds": 26,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "3607b3c2",
+    "author": "Jake Boraston",
+    "date": "2026-07-22T21:46:16Z",
+    "comment": "fix(ui): WaveBackground reacts to prop changes and survives bad input",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "aee32057",
+    "author": "Jake Boraston",
+    "date": "2026-07-22T21:31:42Z",
+    "comment": "feat(ui): WaveBackground performance pass and library docs",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "ec3e5460",
+    "author": "Jake Boraston",
+    "date": "2026-07-22T21:30:47Z",
+    "comment": "fix(iris): stop generating select options that cannot be selected",
+    "adds": 0,
+    "edits": 6,
+    "deletes": 0
+  },
+  {
+    "id": "48a86112",
+    "author": "Jake Boraston",
+    "date": "2026-07-22T21:30:33Z",
+    "comment": "fix(iris): leave lands on the right day, and part days look like part days",
+    "adds": 0,
+    "edits": 6,
+    "deletes": 0
+  },
+  {
+    "id": "04bafb27",
+    "author": "Jake Boraston",
+    "date": "2026-07-22T21:30:14Z",
+    "comment": "fix(ui): one dedupe for select options, and say when it drops one",
+    "adds": 1,
+    "edits": 4,
+    "deletes": 0
+  },
+  {
+    "id": "5b0e0823",
+    "author": "Jake Boraston",
+    "date": "2026-07-22T21:30:02Z",
+    "comment": "feat(ui): WaveBackground",
+    "adds": 2,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "ebb850ae",
+    "author": "Jake Boraston",
+    "date": "2026-07-22T21:16:20Z",
+    "comment": "fix(platform-analytics): resolve the connection reference component type per environment",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "ee4c1591",
+    "author": "Automatic Build",
+    "date": "2026-07-22T18:29:22Z",
+    "comment": "Platform Analytics v1.0.0.5 - Updated fix for connections node graph, and move to higher version of code apps cli",
+    "adds": 2,
+    "edits": 8,
+    "deletes": 2
+  },
+  {
+    "id": "ab1d7a4a",
+    "author": "Jake Boraston",
+    "date": "2026-07-22T15:57:56Z",
+    "comment": "Merged PR 75: chore(platform-analytics): move off the deprecated pac code CLI",
+    "adds": 0,
+    "edits": 5,
+    "deletes": 0
+  },
+  {
+    "id": "f5ba034b",
+    "author": "Jake Boraston",
+    "date": "2026-07-22T15:57:50Z",
+    "comment": "Merge pull request 75 from chore/code-apps-npm-cli into main",
+    "adds": 0,
+    "edits": 5,
+    "deletes": 0
+  },
+  {
+    "id": "bef414d2",
+    "author": "Jake Boraston",
+    "date": "2026-07-22T15:53:48Z",
+    "comment": "Merged PR 74: fix(platform-analytics): keep the cluster graph inside its canvas",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "c58aafdd",
+    "author": "Jake Boraston",
+    "date": "2026-07-22T15:53:44Z",
+    "comment": "Merge pull request 74 from fix/platform-analytics-graph into main",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "0a72eab5",
+    "author": "Jake Boraston",
+    "date": "2026-07-22T15:43:03Z",
+    "comment": "chore(platform-analytics): move off the deprecated pac code CLI",
+    "adds": 0,
+    "edits": 5,
+    "deletes": 0
+  },
+  {
+    "id": "0fa7e771",
+    "author": "Jake Boraston",
+    "date": "2026-07-22T12:35:06Z",
+    "comment": "fix(platform-analytics): keep the cluster graph inside its canvas",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "88e96b0c",
+    "author": "Jake Boraston",
+    "date": "2026-07-21T22:43:49Z",
+    "comment": "Merged PR 73: feat(platform-analytics): four new Dataverse areas, lazy loading, and a stand...",
+    "adds": 28,
+    "edits": 39,
+    "deletes": 3
+  },
+  {
+    "id": "f7fe7cf6",
+    "author": "Jake Boraston",
+    "date": "2026-07-21T22:43:43Z",
+    "comment": "Merge pull request 73 from feat/platform-analytics-redesign into main",
+    "adds": 28,
+    "edits": 39,
+    "deletes": 3
+  },
+  {
+    "id": "685e8ce2",
+    "author": "Jake Boraston",
+    "date": "2026-07-21T22:43:01Z",
+    "comment": "Merged PR 72: Add My Profile route; remove timesheet history",
+    "adds": 6,
+    "edits": 7,
+    "deletes": 2
+  },
+  {
+    "id": "fc0e8afa",
+    "author": "Jake Boraston",
+    "date": "2026-07-21T22:41:33Z",
+    "comment": "Merge pull request 72 from iris-my-profile into main",
+    "adds": 6,
+    "edits": 7,
+    "deletes": 2
+  },
+  {
+    "id": "04fd0661",
+    "author": "Jake Boraston",
+    "date": "2026-07-21T22:38:12Z",
+    "comment": "chore(iris): drop the timesheet history route, give Profile its own icon",
+    "adds": 0,
+    "edits": 3,
+    "deletes": 2
+  },
+  {
+    "id": "7bdfa913",
+    "author": "Jake Boraston",
+    "date": "2026-07-21T22:38:12Z",
+    "comment": "feat(iris): My profile route, loading only what each tab shows",
+    "adds": 6,
+    "edits": 3,
+    "deletes": 0
+  },
+  {
+    "id": "aa26a408",
+    "author": "Jake Boraston",
+    "date": "2026-07-21T22:38:12Z",
+    "comment": "feat(ui): TabBar prefetch hook, and give the panel a height",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "f5e7562e",
+    "author": "Jake Boraston",
+    "date": "2026-07-21T22:17:07Z",
+    "comment": "feat(platform-analytics): four new Dataverse areas, lazy loading, and a standalone design system",
+    "adds": 28,
+    "edits": 39,
+    "deletes": 3
+  },
+  {
+    "id": "02940989",
+    "author": "Automatic Build",
+    "date": "2026-07-21T21:40:49Z",
+    "comment": "Platform Analytics v1.0.0.4 - Now includes, solution history, environment variables, system jobs, connections d3 node graph",
+    "adds": 4,
+    "edits": 8,
+    "deletes": 4
+  },
+  {
+    "id": "8a3d5819",
+    "author": "Jake Boraston",
+    "date": "2026-07-21T21:08:18Z",
+    "comment": "Merged PR 71: Finish the table migration: one table system, app-level table deleted",
+    "adds": 3,
+    "edits": 20,
+    "deletes": 12
+  },
+  {
+    "id": "d97d88a1",
+    "author": "Jake Boraston",
+    "date": "2026-07-21T20:25:58Z",
+    "comment": "Merge pull request 71 from iris-table-consolidation into main",
+    "adds": 3,
+    "edits": 20,
+    "deletes": 12
+  },
+  {
+    "id": "b2477451",
+    "author": "Jake Boraston",
+    "date": "2026-07-21T20:18:20Z",
+    "comment": "feat(iris): share one heatmap vocabulary between profile and timesheets",
+    "adds": 3,
+    "edits": 6,
+    "deletes": 0
+  },
+  {
+    "id": "0ea815e1",
+    "author": "Jake Boraston",
+    "date": "2026-07-21T20:18:19Z",
+    "comment": "refactor(iris): finish the table migration and delete the app-level table",
+    "adds": 0,
+    "edits": 13,
+    "deletes": 12
+  },
+  {
+    "id": "4b6ded6b",
+    "author": "Jake Boraston",
+    "date": "2026-07-21T20:17:36Z",
+    "comment": "feat(ui): extend DataTable from what real consumers needed",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "fb22134b",
+    "author": "Jake Boraston",
+    "date": "2026-07-21T19:00:01Z",
+    "comment": "Merged PR 70: Add DataTable to @dst/ui and migrate three Iris tables onto it",
+    "adds": 21,
+    "edits": 37,
+    "deletes": 0
+  },
+  {
+    "id": "a0b2ee3c",
+    "author": "Jake Boraston",
+    "date": "2026-07-21T17:00:59Z",
+    "comment": "Merge pull request 70 from iris-datatable-component into main",
+    "adds": 21,
+    "edits": 37,
+    "deletes": 0
+  },
+  {
+    "id": "24283ad4",
+    "author": "Jake Boraston",
+    "date": "2026-07-21T16:57:00Z",
+    "comment": "chore(ui): storybook 10.5.3 automigration",
+    "adds": 0,
+    "edits": 3,
+    "deletes": 0
+  },
+  {
+    "id": "aba4e5bc",
+    "author": "Jake Boraston",
+    "date": "2026-07-21T16:57:00Z",
+    "comment": "chore: CBC Delivery design docs, leave-approval script, gitignore graphify-out",
+    "adds": 19,
+    "edits": 3,
+    "deletes": 0
+  },
+  {
+    "id": "ddf077a2",
+    "author": "Jake Boraston",
+    "date": "2026-07-21T16:56:31Z",
+    "comment": "fix(iris): resolve route heights against the app shell, not the viewport",
+    "adds": 0,
+    "edits": 25,
+    "deletes": 0
+  },
+  {
+    "id": "f326c055",
+    "author": "Jake Boraston",
+    "date": "2026-07-21T16:56:22Z",
+    "comment": "refactor(iris): move three tables onto the shared DataTable",
+    "adds": 0,
+    "edits": 5,
+    "deletes": 0
+  },
+  {
+    "id": "7db100cb",
+    "author": "Jake Boraston",
+    "date": "2026-07-21T16:56:11Z",
+    "comment": "feat(ui): add DataTable to the shared component library",
+    "adds": 2,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "ad9d3de5",
+    "author": "Jake Boraston",
+    "date": "2026-07-21T15:40:38Z",
+    "comment": "docs: add Dataverse default table reference",
+    "adds": 2,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "35f1046f",
+    "author": "Automatic Build",
+    "date": "2026-07-21T13:51:49Z",
+    "comment": "AgentTesting v1.0.0.803 - Second stage of testing - removed topic from solution, this should now be removed from the solution",
+    "adds": 0,
+    "edits": 0,
+    "deletes": 4
+  },
+  {
+    "id": "fb457dca",
+    "author": "Automatic Build",
+    "date": "2026-07-21T13:33:09Z",
+    "comment": "AgentTesting v1.0.0.803 - Did not bring required object to test pipeline upgrade, bringing in now",
+    "adds": 32,
+    "edits": 5,
+    "deletes": 0
+  },
+  {
+    "id": "7a590be7",
+    "author": "Automatic Build",
+    "date": "2026-07-21T09:54:03Z",
+    "comment": "AgentTesting v1.0.0.803 - Testing stage and upgrade part 1 of 2",
+    "adds": 0,
+    "edits": 7,
+    "deletes": 64
+  },
+  {
+    "id": "4e2fe907",
+    "author": "Jake Boraston",
+    "date": "2026-07-20T12:34:42Z",
+    "comment": "Merged PR 69: fix(iris): pack the People overview into a grid instead of one tall column",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "321655c2",
+    "author": "Jake Boraston",
+    "date": "2026-07-20T12:33:57Z",
+    "comment": "Merged PR 68: docs(iris): refresh Iris documentation - correct stale facts, rewrite README, archive closed plans",
+    "adds": 0,
+    "edits": 5,
+    "deletes": 2
+  },
+  {
+    "id": "34cab4ab",
+    "author": "Jake Boraston",
+    "date": "2026-07-20T11:59:55Z",
+    "comment": "Merge pull request 69 from iris-people-overview into main",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "1376757a",
+    "author": "Jake Boraston",
+    "date": "2026-07-20T11:59:33Z",
+    "comment": "fix(iris): pack the People overview into a grid instead of one tall column",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "56bf6f99",
+    "author": "Jake Boraston",
+    "date": "2026-07-20T11:59:11Z",
+    "comment": "Merge pull request 68 from iris-docs-refresh into main",
+    "adds": 0,
+    "edits": 5,
+    "deletes": 2
+  },
+  {
+    "id": "aa69a685",
+    "author": "Jake Boraston",
+    "date": "2026-07-20T11:58:31Z",
+    "comment": "docs(iris): retire template boilerplate and archive closed plans",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 2
+  },
+  {
+    "id": "718817dc",
+    "author": "Jake Boraston",
+    "date": "2026-07-20T11:57:11Z",
+    "comment": "docs(iris): correct stale facts in CLAUDE.md and rewrite the README",
+    "adds": 0,
+    "edits": 3,
+    "deletes": 0
+  },
+  {
+    "id": "c1349969",
+    "author": "Automatic Build",
+    "date": "2026-07-20T09:57:23Z",
+    "comment": "My Inform v1.0.0.813 - Personal Details Report issue with finding PDF Version in flow",
+    "adds": 0,
+    "edits": 83,
+    "deletes": 0
+  },
+  {
+    "id": "325065e4",
+    "author": "Jake Boraston",
+    "date": "2026-07-20T08:21:12Z",
+    "comment": "Merged PR 67: Iris + @dst/ui: live-bug fixes (switch state, badge hue, chart hover, filter dot, lead-list crash)",
+    "adds": 0,
+    "edits": 14,
+    "deletes": 0
+  },
+  {
+    "id": "3f323d2f",
+    "author": "Jake Boraston",
+    "date": "2026-07-20T08:14:01Z",
+    "comment": "Merge pull request 67 from iris-fixes-followup into main",
+    "adds": 0,
+    "edits": 14,
+    "deletes": 0
+  },
+  {
+    "id": "98314749",
+    "author": "Jake Boraston",
+    "date": "2026-07-20T08:13:31Z",
+    "comment": "Iris: drop two unused deps and fix the failing type check",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "47dea989",
+    "author": "Jake Boraston",
+    "date": "2026-07-20T08:13:17Z",
+    "comment": "Iris + @dst/ui: fix duplicate-key crash in every dropdown, switch geometry, timesheet header",
+    "adds": 0,
+    "edits": 8,
+    "deletes": 0
+  },
+  {
+    "id": "946d64a7",
+    "author": "Jake Boraston",
+    "date": "2026-07-17T16:34:36Z",
+    "comment": "Merge pull request 67 from iris-fixes-followup into main",
+    "adds": 0,
+    "edits": 8,
+    "deletes": 0
+  },
+  {
+    "id": "11802ada",
+    "author": "Jake Boraston",
+    "date": "2026-07-17T16:34:09Z",
+    "comment": "Iris: chart highlight, sheet blur, filter dot, and a lead-list crash",
+    "adds": 0,
+    "edits": 6,
+    "deletes": 0
+  },
+  {
+    "id": "9389bb58",
+    "author": "Jake Boraston",
+    "date": "2026-07-17T16:34:09Z",
+    "comment": "@dst/ui: fix Switch state styling and give Badge its hue in the label",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "037a582a",
+    "author": "Jake Boraston",
+    "date": "2026-07-17T16:14:21Z",
+    "comment": "@dst/ui: fix Switch state styling and give Badge its hue in the label",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "24e3094c",
+    "author": "Jake Boraston",
+    "date": "2026-07-17T16:14:21Z",
+    "comment": "Iris: chart highlight, sheet blur, filter dot, and a lead-list crash",
+    "adds": 0,
+    "edits": 6,
+    "deletes": 0
+  },
+  {
+    "id": "f6a20c89",
+    "author": "Jake Boraston",
+    "date": "2026-07-17T15:56:51Z",
+    "comment": "Merged PR 66: Iris + @dst/ui: audit follow-ups (fixes, live-bug fixes, UI polish)",
+    "adds": 0,
+    "edits": 25,
+    "deletes": 1
+  },
+  {
+    "id": "0599be58",
+    "author": "Jake Boraston",
+    "date": "2026-07-17T15:44:13Z",
+    "comment": "Merge pull request 66 from iris-audit-followups into main",
+    "adds": 0,
+    "edits": 25,
+    "deletes": 1
+  },
+  {
+    "id": "f24ae7db",
+    "author": "Jake Boraston",
+    "date": "2026-07-17T15:08:34Z",
+    "comment": "@dst/ui: position dropdowns before they render so they don't push the page",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "729a5b93",
+    "author": "Jake Boraston",
+    "date": "2026-07-17T14:49:56Z",
+    "comment": "Fix chip hover clip and onboarding responsibilities overlap",
+    "adds": 0,
+    "edits": 3,
+    "deletes": 0
+  },
+  {
+    "id": "a5211658",
+    "author": "Jake Boraston",
+    "date": "2026-07-17T14:49:56Z",
+    "comment": "Sidebar: drop the People/Security sub-titles and cluster related sections",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "4aaf1b38",
+    "author": "Jake Boraston",
+    "date": "2026-07-17T14:29:33Z",
+    "comment": "Recruitment: size the applicant filters to their data instead of full-width",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "afa83fd4",
+    "author": "Jake Boraston",
+    "date": "2026-07-17T14:29:33Z",
+    "comment": "Recruitment: fix infinite effect loop opening the vacancy edit modal",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "838eac1c",
+    "author": "Jake Boraston",
+    "date": "2026-07-17T14:08:55Z",
+    "comment": "@dst/ui: SearchableSelect/MultiSelect dedupe options to survive duplicate values",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "9cfe266a",
+    "author": "Jake Boraston",
+    "date": "2026-07-17T13:39:50Z",
+    "comment": "Timesheets: remove the bottom Week Summary panel to give the board its height",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 1
+  },
+  {
+    "id": "f181c1c5",
+    "author": "Jake Boraston",
+    "date": "2026-07-17T13:26:54Z",
+    "comment": "Sidebar: Home back to the top, Settings to the bottom, drop the General group",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "9b6c206c",
+    "author": "Jake Boraston",
+    "date": "2026-07-17T12:49:25Z",
+    "comment": "Iris UI fixes: chart legend overflow, badge text, chart hover, planner toggle",
+    "adds": 0,
+    "edits": 8,
+    "deletes": 0
+  },
+  {
+    "id": "3998b7c5",
+    "author": "Jake Boraston",
+    "date": "2026-07-17T11:21:28Z",
+    "comment": "Onboarding: wire up StepStatusModal for manual step-status overrides",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "5d3f5261",
+    "author": "Jake Boraston",
+    "date": "2026-07-17T11:21:18Z",
+    "comment": "@dst/ui: adopt(id) in an effect to clear state_referenced_locally warnings",
+    "adds": 0,
+    "edits": 7,
+    "deletes": 0
+  },
+  {
+    "id": "57f220b9",
+    "author": "Jake Boraston",
+    "date": "2026-07-17T11:11:41Z",
+    "comment": "NumberInput: generic value type; onboarding numeric fields go number|null",
+    "adds": 0,
+    "edits": 4,
+    "deletes": 0
+  },
+  {
+    "id": "acde2fc9",
+    "author": "Jake Boraston",
+    "date": "2026-07-17T11:01:11Z",
+    "comment": "Merged PR 65: Iris + @dst/ui: UX audit remediation across all slices",
+    "adds": 29,
+    "edits": 164,
+    "deletes": 9
+  },
+  {
+    "id": "e356ab20",
+    "author": "Jake Boraston",
+    "date": "2026-07-17T10:44:58Z",
+    "comment": "Merge pull request 65 from iris-ui-refactor-and-skill-finder into main",
+    "adds": 29,
+    "edits": 164,
+    "deletes": 9
+  },
+  {
+    "id": "ba5ee897",
+    "author": "Jake Boraston",
+    "date": "2026-07-17T10:37:38Z",
+    "comment": "Iris + @dst/ui: UX audit remediation across all slices",
+    "adds": 20,
+    "edits": 164,
+    "deletes": 7
+  },
+  {
+    "id": "918a62d4",
+    "author": "Automatic Build",
+    "date": "2026-07-14T10:28:19Z",
+    "comment": "Client Management App v1.0.0.480 - Filter NPS survey flow client lookup instead of scanning all clients",
+    "adds": 0,
+    "edits": 10,
+    "deletes": 0
+  },
+  {
+    "id": "8090d59d",
+    "author": "Jake Boraston",
+    "date": "2026-07-13T15:12:31Z",
+    "comment": "Iris: @dst/ui growth, $effect cleanup, Skill finder, app-wide design-system adoption",
+    "adds": 9,
+    "edits": 80,
+    "deletes": 2
+  },
+  {
+    "id": "6377cbcc",
+    "author": "Jake Boraston",
+    "date": "2026-07-13T07:40:36Z",
+    "comment": "perf(iris): remove \"Delivery so far\" actuals - connector quota hog",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "45bba347",
+    "author": "Jake Boraston",
+    "date": "2026-07-13T07:17:02Z",
+    "comment": "fix(iris): table headers onto the standard deep-blue/white",
+    "adds": 0,
+    "edits": 3,
+    "deletes": 0
+  },
+  {
+    "id": "958699f9",
+    "author": "Jake Boraston",
+    "date": "2026-07-10T17:16:00Z",
+    "comment": "fix(iris): planner layout on laptop screens",
+    "adds": 0,
+    "edits": 3,
+    "deletes": 0
+  },
+  {
+    "id": "c2593dae",
+    "author": "Jake Boraston",
+    "date": "2026-07-10T16:56:28Z",
+    "comment": "chore(iris): bin the legacy projects dashboard and client picker",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 6
+  },
+  {
+    "id": "12d26e38",
+    "author": "Jake Boraston",
+    "date": "2026-07-10T16:51:08Z",
+    "comment": "feat(iris): programmes-as-projects, project workspace, costing loop closed",
+    "adds": 7,
+    "edits": 15,
+    "deletes": 0
+  },
+  {
+    "id": "be550184",
+    "author": "Jake Boraston",
+    "date": "2026-07-10T13:22:59Z",
+    "comment": "feat(iris): costing first slice - roles + rates, project estimates, baselines",
+    "adds": 3,
+    "edits": 7,
+    "deletes": 0
+  },
+  {
+    "id": "cdcd466e",
+    "author": "Jake Boraston",
+    "date": "2026-07-10T12:24:51Z",
+    "comment": "feat(iris): project gantt refinements - activities, roles, task unification, consistent headers",
+    "adds": 1,
+    "edits": 22,
+    "deletes": 1
+  },
+  {
+    "id": "eb5387e7",
+    "author": "Jake Boraston",
+    "date": "2026-07-10T10:49:51Z",
+    "comment": "feat(iris): generic role allocations with capacity+skills-ranked fill",
+    "adds": 1,
+    "edits": 5,
+    "deletes": 0
+  },
+  {
+    "id": "9e7dc4a6",
+    "author": "Jake Boraston",
+    "date": "2026-07-10T10:33:02Z",
+    "comment": "feat(iris): project costing schema (PO-style planning rates)",
+    "adds": 13,
+    "edits": 7,
+    "deletes": 0
+  },
+  {
+    "id": "67571ea1",
+    "author": "Jake Boraston",
+    "date": "2026-07-10T10:31:20Z",
+    "comment": "feat(iris): planner tweaks - timesheets fix, per-assignment add-task, full-height leave",
+    "adds": 0,
+    "edits": 5,
+    "deletes": 0
+  },
+  {
+    "id": "4a9f3ac2",
+    "author": "Jake Boraston",
+    "date": "2026-07-10T09:10:09Z",
+    "comment": "feat(iris): row-per-allocation planner layout with nested tasks",
+    "adds": 0,
+    "edits": 4,
+    "deletes": 0
+  },
+  {
+    "id": "12cd9018",
+    "author": "Jake Boraston",
+    "date": "2026-07-07T17:11:05Z",
+    "comment": "Merge branch 'feat/iris-ui-component-cleanup'",
+    "adds": 33,
+    "edits": 49,
+    "deletes": 2
+  },
+  {
+    "id": "c80ed79f",
+    "author": "Jake Boraston",
+    "date": "2026-07-07T17:08:27Z",
+    "comment": "feat(iris): let recipients remove themselves from a shared view",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "386bf4ea",
+    "author": "Jake Boraston",
+    "date": "2026-07-07T16:59:56Z",
+    "comment": "chore(dst-ui): add Storybook harness + component stories; Badge/Spinner polish",
+    "adds": 10,
+    "edits": 6,
+    "deletes": 0
+  },
+  {
+    "id": "3959e73c",
+    "author": "Jake Boraston",
+    "date": "2026-07-07T16:59:39Z",
+    "comment": "feat(iris): compact planner legend when many clients are shown",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "cde0f8aa",
+    "author": "Jake Boraston",
+    "date": "2026-07-07T16:56:50Z",
+    "comment": "feat(iris): shareable views, filterable stat cards, stat-card icons",
+    "adds": 0,
+    "edits": 7,
+    "deletes": 0
+  },
+  {
+    "id": "fcebf198",
+    "author": "Jake Boraston",
+    "date": "2026-07-07T16:35:09Z",
+    "comment": "feat(iris): alphabetical gantt order, left-aligned axis dates, simpler multi-select clear",
+    "adds": 0,
+    "edits": 3,
+    "deletes": 0
+  },
+  {
+    "id": "4631d95e",
+    "author": "Jake Boraston",
+    "date": "2026-07-07T16:22:12Z",
+    "comment": "feat(iris): saved views in Dataverse + destructive-action confirmations",
+    "adds": 4,
+    "edits": 8,
+    "deletes": 0
+  },
+  {
+    "id": "a64a78c2",
+    "author": "Jake Boraston",
+    "date": "2026-07-07T16:02:10Z",
+    "comment": "feat(iris): drag tasks to reassign/reorder + two-line searchable-select options",
+    "adds": 0,
+    "edits": 4,
+    "deletes": 0
+  },
+  {
+    "id": "d0e59585",
+    "author": "Jake Boraston",
+    "date": "2026-07-07T15:39:28Z",
+    "comment": "feat(iris): searchable-select sublabel + scope task dependency picker",
+    "adds": 0,
+    "edits": 3,
+    "deletes": 0
+  },
+  {
+    "id": "8469f566",
+    "author": "Jake Boraston",
+    "date": "2026-07-07T15:36:56Z",
+    "comment": "feat(iris): resourcing - task dependency chains",
+    "adds": 0,
+    "edits": 4,
+    "deletes": 0
+  },
+  {
+    "id": "eab64265",
+    "author": "Jake Boraston",
+    "date": "2026-07-07T15:25:31Z",
+    "comment": "feat(iris): resourcing - hide completed tasks by default, default people filter to current user",
+    "adds": 0,
+    "edits": 3,
+    "deletes": 0
+  },
+  {
+    "id": "ed6a19bf",
+    "author": "Jake Boraston",
+    "date": "2026-07-07T15:03:57Z",
+    "comment": "feat(iris): resourcing - per-person tasks, free-hours, today line",
+    "adds": 3,
+    "edits": 13,
+    "deletes": 0
+  },
+  {
+    "id": "a4d9d26f",
+    "author": "Jake Boraston",
+    "date": "2026-07-07T14:38:25Z",
+    "comment": "feat(iris): resourcing - drop roles, per-day working patterns, saved views",
+    "adds": 2,
+    "edits": 7,
+    "deletes": 0
+  },
+  {
+    "id": "687e7b95",
+    "author": "Jake Boraston",
+    "date": "2026-07-07T14:11:35Z",
+    "comment": "feat(iris): add Resourcing planner module",
+    "adds": 24,
+    "edits": 15,
+    "deletes": 0
+  },
+  {
+    "id": "46611f35",
+    "author": "Jake Boraston",
+    "date": "2026-07-06T16:35:02Z",
+    "comment": "Merge pull request 64 from feat/dst-ui-component-stories into main",
+    "adds": 12,
+    "edits": 3,
+    "deletes": 0
+  },
+  {
+    "id": "9ee16702",
+    "author": "Jake Boraston",
+    "date": "2026-07-06T16:33:12Z",
+    "comment": "feat(dst-ui): full Storybook story coverage + component fixes",
+    "adds": 12,
+    "edits": 3,
+    "deletes": 0
+  },
+  {
+    "id": "f4bfb38e",
+    "author": "Jake Boraston",
+    "date": "2026-07-06T14:21:14Z",
+    "comment": "Merged PR 63: feat(dst-ui): add Storybook preview harness for @dst/ui",
+    "adds": 10,
+    "edits": 4,
+    "deletes": 0
+  },
+  {
+    "id": "8dcfd972",
+    "author": "Jake Boraston",
+    "date": "2026-07-06T14:19:32Z",
+    "comment": "Merge pull request 63 from feat/dst-ui-storybook into main",
+    "adds": 10,
+    "edits": 4,
+    "deletes": 0
+  },
+  {
+    "id": "68ab8f8c",
+    "author": "Jake Boraston",
+    "date": "2026-07-06T14:19:31Z",
+    "comment": "Merge remote-tracking branch 'origin/main' into feat/dst-ui-storybook",
+    "adds": 0,
+    "edits": 7,
+    "deletes": 1
+  },
+  {
+    "id": "22b49d73",
+    "author": "Jake Boraston",
+    "date": "2026-07-06T14:14:27Z",
+    "comment": "Merged PR 60: FlowAnalytics: adopt @dst/ui (workspace + theme coexistence, first screen)",
+    "adds": 0,
+    "edits": 7,
+    "deletes": 1
+  },
+  {
+    "id": "98ad62f4",
+    "author": "Jake Boraston",
+    "date": "2026-07-06T14:09:24Z",
+    "comment": "Merge pull request 63 from feat/dst-ui-storybook into main",
+    "adds": 10,
+    "edits": 4,
+    "deletes": 0
+  },
+  {
+    "id": "650e8a14",
+    "author": "Jake Boraston",
+    "date": "2026-07-06T14:07:32Z",
+    "comment": "feat(dst-ui): add Storybook preview harness for @dst/ui",
+    "adds": 10,
+    "edits": 4,
+    "deletes": 0
+  },
+  {
+    "id": "328bd261",
+    "author": "Jake Boraston",
+    "date": "2026-07-06T09:29:28Z",
+    "comment": "Merge pull request 62 from feat/iris-ui-component-cleanup into main",
+    "adds": 0,
+    "edits": 32,
+    "deletes": 2
+  },
+  {
+    "id": "30b1bc79",
+    "author": "Jake Boraston",
+    "date": "2026-07-06T09:29:11Z",
+    "comment": "fix(iris): unblock vite build - svelte 5.56.4 + layerchart 2.0.1 stable",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "dea29360",
+    "author": "Jake Boraston",
+    "date": "2026-07-06T09:29:11Z",
+    "comment": "refactor(iris): rebuild SLA Compliance gauge on layerchart Arc",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "a20d6f2f",
+    "author": "Jake Boraston",
+    "date": "2026-07-06T07:58:07Z",
+    "comment": "Merge pull request 62 from feat/iris-ui-component-cleanup into main",
+    "adds": 0,
+    "edits": 29,
+    "deletes": 2
+  },
+  {
+    "id": "c7e8e085",
+    "author": "Jake Boraston",
+    "date": "2026-07-06T07:53:04Z",
+    "comment": "refactor(iris): standardise UI on @dst/ui wrappers across the app",
+    "adds": 0,
+    "edits": 29,
+    "deletes": 2
+  },
+  {
+    "id": "ac78f10e",
+    "author": "Automatic Build",
+    "date": "2026-06-29T07:59:07Z",
+    "comment": "Platform Analytics v1.0.0.3 - A few minor improvements",
+    "adds": 13,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "290c3ee6",
+    "author": "Automatic Build",
+    "date": "2026-06-26T13:44:54Z",
+    "comment": "My Inform v1.0.0.811 - Fixed env var issues",
+    "adds": 0,
+    "edits": 7,
+    "deletes": 0
+  },
+  {
+    "id": "8be4b350",
+    "author": "Automatic Build",
+    "date": "2026-06-26T12:59:24Z",
+    "comment": "My Inform v1.0.0.811 - Hopefully fixed timesheet issue for timesheet reminder and calculate activities by sorting update modal for timesheets",
+    "adds": 2,
+    "edits": 147,
+    "deletes": 6
+  },
+  {
+    "id": "de2b9948",
+    "author": "Jake Boraston",
+    "date": "2026-06-23T16:15:52Z",
+    "comment": "Merge pull request 60 from feat/flowanalytics-adopt-dst-ui into main",
+    "adds": 0,
+    "edits": 7,
+    "deletes": 1
+  },
+  {
+    "id": "9d978bfc",
+    "author": "Jake Boraston",
+    "date": "2026-06-23T15:56:59Z",
+    "comment": "feat(flowanalytics): adopt @dst/ui (workspace + theme coexistence), migrate CanvasApps badges/spinner",
+    "adds": 0,
+    "edits": 7,
+    "deletes": 1
+  },
+  {
+    "id": "7f3108a8",
+    "author": "Jake Boraston",
+    "date": "2026-06-23T12:14:03Z",
+    "comment": "Merged PR 59: @dst/ui: add generic Badge component + standalone svelte-check",
+    "adds": 2,
+    "edits": 4,
+    "deletes": 0
+  },
+  {
+    "id": "74955e52",
+    "author": "Jake Boraston",
+    "date": "2026-06-23T12:12:53Z",
+    "comment": "Merge pull request 59 from feat/dst-ui-badge into main",
+    "adds": 2,
+    "edits": 4,
+    "deletes": 0
+  },
+  {
+    "id": "08622f8a",
+    "author": "Jake Boraston",
+    "date": "2026-06-23T12:11:50Z",
+    "comment": "feat(dst-ui): add generic Badge component + standalone svelte-check",
+    "adds": 2,
+    "edits": 4,
+    "deletes": 0
+  },
+  {
+    "id": "6c1f5ac3",
+    "author": "Jake Boraston",
+    "date": "2026-06-23T11:01:59Z",
+    "comment": "Merged PR 58: Shared @dst/ui component library + npm workspace (Iris migrated)",
+    "adds": 9,
+    "edits": 130,
+    "deletes": 0
+  },
+  {
+    "id": "85efa498",
+    "author": "Jake Boraston",
+    "date": "2026-06-23T11:01:45Z",
+    "comment": "Merged PR 57: FlowAnalytics: per-flow/agent heatmaps, maker deep links, agent detail page",
+    "adds": 1,
+    "edits": 28,
+    "deletes": 0
+  },
+  {
+    "id": "5c39992f",
+    "author": "Jake Boraston",
+    "date": "2026-06-23T10:53:12Z",
+    "comment": "Merge pull request 58 from feat/dst-ui-shared-library into main",
+    "adds": 9,
+    "edits": 130,
+    "deletes": 0
+  },
+  {
+    "id": "3515f7fd",
+    "author": "Jake Boraston",
+    "date": "2026-06-23T10:48:20Z",
+    "comment": "feat: shared @dst/ui component library + npm workspace; migrate Iris onto it",
+    "adds": 9,
+    "edits": 130,
+    "deletes": 0
+  },
+  {
+    "id": "b41a70b1",
+    "author": "Jake Boraston",
+    "date": "2026-06-23T10:41:30Z",
+    "comment": "Merge pull request 57 from feat/platform-analytics-heatmap-links-agents into main",
+    "adds": 1,
+    "edits": 28,
+    "deletes": 0
+  },
+  {
+    "id": "21574431",
+    "author": "Jake Boraston",
+    "date": "2026-06-23T10:39:51Z",
+    "comment": "chore(flowanalytics): refresh generated Dataverse model/service bindings",
+    "adds": 0,
+    "edits": 20,
+    "deletes": 0
+  },
+  {
+    "id": "7f09b6a7",
+    "author": "Jake Boraston",
+    "date": "2026-06-23T09:11:31Z",
+    "comment": "feat(flowanalytics): per-flow/agent heatmaps, maker deep links, agent detail page",
+    "adds": 1,
+    "edits": 8,
+    "deletes": 0
+  },
+  {
+    "id": "0fb5a91c",
+    "author": "Automatic Build",
+    "date": "2026-06-15T07:27:53Z",
+    "comment": "Client Management App v1.0.0.480 - Max nested loop depth for original power automate flow fix in add or remove resource to team.",
+    "adds": 0,
+    "edits": 7,
+    "deletes": 0
+  },
+  {
+    "id": "3f4ef399",
+    "author": "Jake Boraston",
+    "date": "2026-06-15T07:15:08Z",
+    "comment": "Merged PR 56: Fix: resolve nesting-limit error in team add/remove flow (1.0.0.480)",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "f36533fa",
+    "author": "Jake Boraston",
+    "date": "2026-06-15T07:14:57Z",
+    "comment": "Merged PR 55: fix(iris): onboarding dialogs no longer block clicks when closed",
+    "adds": 0,
+    "edits": 4,
+    "deletes": 0
+  },
+  {
+    "id": "c07e3049",
+    "author": "Jake Boraston",
+    "date": "2026-06-15T07:14:16Z",
+    "comment": "Merge pull request 56 from fix/cma-team-nesting-limit into main",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "34e3a6e3",
+    "author": "Jake Boraston",
+    "date": "2026-06-15T07:13:47Z",
+    "comment": "Fix: resolve nesting-limit error in team add/remove idempotency",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "2f86a85d",
+    "author": "Jake Boraston",
+    "date": "2026-06-11T12:23:05Z",
+    "comment": "Merge pull request 55 from fix/onboarding-dialog-freeze into main",
+    "adds": 0,
+    "edits": 4,
+    "deletes": 0
+  },
+  {
+    "id": "8945d405",
+    "author": "Jake Boraston",
+    "date": "2026-06-11T11:38:42Z",
+    "comment": "fix(iris): onboarding dialogs no longer block clicks when closed",
+    "adds": 0,
+    "edits": 4,
+    "deletes": 0
+  },
+  {
+    "id": "2e22b5ff",
+    "author": "Jake Boraston",
+    "date": "2026-06-10T16:56:28Z",
+    "comment": "Merged PR 54: fix(iris): timezone-safe timesheet day mapping (BST/DST)",
+    "adds": 0,
+    "edits": 4,
+    "deletes": 0
+  },
+  {
+    "id": "357324e1",
+    "author": "Jake Boraston",
+    "date": "2026-06-10T16:49:30Z",
+    "comment": "Merge pull request 54 from fix/iris-timesheet-bst-dst into main",
+    "adds": 0,
+    "edits": 4,
+    "deletes": 0
+  },
+  {
+    "id": "b12927ef",
+    "author": "Jake Boraston",
+    "date": "2026-06-10T16:48:13Z",
+    "comment": "fix(iris): timezone-safe timesheet day mapping (BST/DST)",
+    "adds": 0,
+    "edits": 4,
+    "deletes": 0
+  },
+  {
+    "id": "f30cc751",
+    "author": "Jake Boraston",
+    "date": "2026-06-10T15:42:43Z",
+    "comment": "Merged PR 52: Migrate Iris UI from DaisyUI to shadcn-svelte",
+    "adds": 116,
+    "edits": 122,
+    "deletes": 4
+  },
+  {
+    "id": "fcc4699e",
+    "author": "Jake Boraston",
+    "date": "2026-06-10T15:35:08Z",
+    "comment": "Merge pull request 52 from shadcn-svelte-migration into main",
+    "adds": 116,
+    "edits": 122,
+    "deletes": 4
+  },
+  {
+    "id": "9a44c85e",
+    "author": "Jake Boraston",
+    "date": "2026-06-10T15:34:46Z",
+    "comment": "Merge remote-tracking branch 'origin/main' into shadcn-svelte-migration",
+    "adds": 0,
+    "edits": 19,
+    "deletes": 0
+  },
+  {
+    "id": "51354a8d",
+    "author": "Jake Boraston",
+    "date": "2026-06-10T15:05:17Z",
+    "comment": "feat(iris): Resource Day Rates management + bulk pay rise",
+    "adds": 6,
+    "edits": 6,
+    "deletes": 0
+  },
+  {
+    "id": "398086ff",
+    "author": "Jake Boraston",
+    "date": "2026-06-10T10:59:28Z",
+    "comment": "chore(iris): remove dead byClient map and unused ActivityPicker",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 1
+  },
+  {
+    "id": "6ec2290f",
+    "author": "Jake Boraston",
+    "date": "2026-06-10T10:52:54Z",
+    "comment": "docs(iris): document shadcn-svelte UI library and state inventory in CLAUDE.md",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "2e1605e0",
+    "author": "Jake Boraston",
+    "date": "2026-06-10T10:51:27Z",
+    "comment": "Fix timesheet audience picker: join on client code, react to live client",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "95c85e76",
+    "author": "Jake Boraston",
+    "date": "2026-06-10T08:07:23Z",
+    "comment": "Migrate Iris UI from DaisyUI to shadcn-svelte",
+    "adds": 12,
+    "edits": 111,
+    "deletes": 1
+  },
+  {
+    "id": "fb190d31",
+    "author": "Automatic Build",
+    "date": "2026-06-09T14:41:26Z",
+    "comment": "Inform Management v1.0.0.797 - Capital Training Report V2 failed, a timesheet record had a blank ActualHours, so float could not convert it and the run errored. Fix: guarded all 12 Days calculations t",
+    "adds": 0,
+    "edits": 7,
+    "deletes": 0
+  },
+  {
+    "id": "f0fe9486",
+    "author": "Jake Boraston",
+    "date": "2026-06-09T14:34:20Z",
+    "comment": "Merged PR 51: Fix: guard ActualHours float in Capital Training Report V2 (1.0.0.797)",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "ff9d1e15",
+    "author": "Jake Boraston",
+    "date": "2026-06-09T13:19:34Z",
+    "comment": "Merge pull request 51 from fix/capital-training-actualhours-guard into main",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "ec9583c5",
+    "author": "Jake Boraston",
+    "date": "2026-06-09T13:17:07Z",
+    "comment": "Fix: guard ActualHours float conversion in Capital Training Report V2",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "637fbf21",
+    "author": "Automatic Build",
+    "date": "2026-06-09T12:55:34Z",
+    "comment": "Client Management App v1.0.0.479 - Add user to group is now idempotent (the 'already a member' 400 is tolerated as the desired end state; genuine errors are still logged and re-raised); Remove member ",
+    "adds": 0,
+    "edits": 9,
+    "deletes": 0
+  },
+  {
+    "id": "71e60081",
+    "author": "Jake Boraston",
+    "date": "2026-06-09T10:43:34Z",
+    "comment": "Merge pull request 50 from fix/cma-team-membership-idempotent into main",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "4f03d88a",
+    "author": "Jake Boraston",
+    "date": "2026-06-09T10:38:50Z",
+    "comment": "Fix: make Client Management team add/remove idempotent",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "19e74fed",
+    "author": "Jake Boraston",
+    "date": "2026-06-08T15:15:59Z",
+    "comment": "shadcn migration: Modal->Dialog, SearchableSelect re-skin, class-based dark mode",
+    "adds": 11,
+    "edits": 4,
+    "deletes": 0
+  },
+  {
+    "id": "11c41dc8",
+    "author": "Jake Boraston",
+    "date": "2026-06-08T14:24:08Z",
+    "comment": "shadcn migration: inputs batch + input contrast fix",
+    "adds": 18,
+    "edits": 7,
+    "deletes": 0
+  },
+  {
+    "id": "f67632a7",
+    "author": "Jake Boraston",
+    "date": "2026-06-08T13:59:17Z",
+    "comment": "shadcn-svelte migration: scaffold + sidebar, button, badge, status badge",
+    "adds": 69,
+    "edits": 16,
+    "deletes": 2
+  },
+  {
+    "id": "3370e589",
+    "author": "Jake Boraston",
+    "date": "2026-06-08T09:36:08Z",
+    "comment": "Merged PR 48: Iris: fix UTC date-boundary bug in timesheet/leave date filters",
+    "adds": 0,
+    "edits": 3,
+    "deletes": 0
+  },
+  {
+    "id": "361cc513",
+    "author": "Automatic Build",
+    "date": "2026-06-08T09:07:49Z",
+    "comment": "Annual Leave v1.0.0.360 - Null error with child flow trigger for approval step",
+    "adds": 0,
+    "edits": 4,
+    "deletes": 0
+  },
+  {
+    "id": "76c01012",
+    "author": "Jake Boraston",
+    "date": "2026-06-08T09:00:32Z",
+    "comment": "Merge pull request 49 from fix-monitor-reaction-null-input into main",
+    "adds": 0,
+    "edits": 4,
+    "deletes": 0
+  },
+  {
+    "id": "46b7d626",
+    "author": "Jake Boraston",
+    "date": "2026-06-08T09:00:16Z",
+    "comment": "Annual Leave v1.0.0.360 - Fix monitor child-flow crash on approvals with no comment",
+    "adds": 0,
+    "edits": 4,
+    "deletes": 0
+  },
+  {
+    "id": "223471f0",
+    "author": "Jake Boraston",
+    "date": "2026-06-08T08:51:21Z",
+    "comment": "Merge pull request 48 from iris-local-date-timezone-fix into main",
+    "adds": 0,
+    "edits": 3,
+    "deletes": 0
+  },
+  {
+    "id": "47479ec2",
+    "author": "Jake Boraston",
+    "date": "2026-06-08T08:44:33Z",
+    "comment": "Iris: fix UTC date-boundary bug in timesheet/leave date filters",
+    "adds": 0,
+    "edits": 3,
+    "deletes": 0
+  },
+  {
+    "id": "06b23779",
+    "author": "Automatic Build",
+    "date": "2026-06-08T07:42:35Z",
+    "comment": "Annual Leave v1.0.0.359 - Dataverse table query commit overwritten initial link update work - due to it working on a stale version on the repo",
+    "adds": 0,
+    "edits": 4,
+    "deletes": 0
+  },
+  {
+    "id": "70223b04",
+    "author": "Automatic Build",
+    "date": "2026-06-08T07:15:40Z",
+    "comment": "Annual Leave v1.0.0.357 - Updated Leave Approval Monitor to utilise Approvals Dataverse table rather than relying on the wait for an approval with a timeout action as this was throwing false negatives",
+    "adds": 0,
+    "edits": 9,
+    "deletes": 0
+  },
+  {
+    "id": "5dd709ce",
+    "author": "Automatic Build",
+    "date": "2026-06-08T06:27:05Z",
+    "comment": "Annual Leave v1.0.0.358 - Updated link in leave monitor, to go to power automate in prod, rather than trying to access it via Teams.",
+    "adds": 0,
+    "edits": 9,
+    "deletes": 0
+  },
+  {
+    "id": "3306856c",
+    "author": "Automatic Build",
+    "date": "2026-05-29T08:29:34Z",
+    "comment": "Annual Leave v1.0.0.357 - Bug fix in Leave Approval Flow Approval ID action missing required field",
+    "adds": 0,
+    "edits": 6,
+    "deletes": 0
+  },
+  {
+    "id": "feb35e82",
+    "author": "Automatic Build",
+    "date": "2026-05-28T10:50:52Z",
+    "comment": "Annual Leave v1.0.0.356 - Small fix to reminder flow",
+    "adds": 0,
+    "edits": 6,
+    "deletes": 0
+  },
+  {
+    "id": "0f4e6c98",
+    "author": "Automatic Build",
+    "date": "2026-05-28T10:24:08Z",
+    "comment": "Annual Leave v1.0.0.355 - Updated Annual Leave Daily Check to check approvers working pattern before sending message",
+    "adds": 4,
+    "edits": 4,
+    "deletes": 0
+  },
+  {
+    "id": "04ad6a78",
+    "author": "Automatic Build",
+    "date": "2026-05-27T13:53:58Z",
+    "comment": "Annual Leave v1.0.0.354 - Annual leave process update including daily notifications, need to include working pattern fix before push",
+    "adds": 9,
+    "edits": 8,
+    "deletes": 0
+  },
+  {
+    "id": "3a86d586",
+    "author": "Automatic Build",
+    "date": "2026-05-21T12:41:49Z",
+    "comment": "My Inform v1.0.0.810 - Updated links from DEFAULT to PROD",
+    "adds": 0,
+    "edits": 6,
+    "deletes": 0
+  },
+  {
+    "id": "d6dfe0fa",
+    "author": "Automatic Build",
+    "date": "2026-05-21T12:25:30Z",
+    "comment": "New Starter Process v1.0.0.720 - Updated links from DEFAULT to PROD",
+    "adds": 0,
+    "edits": 14,
+    "deletes": 0
+  },
+  {
+    "id": "ab55af2e",
+    "author": "Automatic Build",
+    "date": "2026-05-21T10:08:20Z",
+    "comment": "Error Tracking v1.0.0.343 - Updated flow links from DEFAULT to PROD",
+    "adds": 1,
+    "edits": 4,
+    "deletes": 0
+  },
+  {
+    "id": "e4c510be",
+    "author": "Automatic Build",
+    "date": "2026-05-21T09:15:02Z",
+    "comment": "Inform Management v1.0.0.796 - Updated links in flows from DEFAULT to PROD",
+    "adds": 0,
+    "edits": 6,
+    "deletes": 0
+  },
+  {
+    "id": "dcb0e6be",
+    "author": "Jake Boraston",
+    "date": "2026-05-19T22:48:02Z",
+    "comment": "Iris: Fix People KPIs — avg weekly hours, leave units, card ordering",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "63eb6517",
+    "author": "Jake Boraston",
+    "date": "2026-05-19T22:39:38Z",
+    "comment": "Iris: LayerChart v2 upgrade, chart fixes, People overview KPIs",
+    "adds": 0,
+    "edits": 12,
+    "deletes": 0
+  },
+  {
+    "id": "dd537aef",
+    "author": "Jake Boraston",
+    "date": "2026-05-19T22:05:36Z",
+    "comment": "Iris: Replace ECharts with LayerChart — 81% bundle reduction",
+    "adds": 0,
+    "edits": 12,
+    "deletes": 0
+  },
+  {
+    "id": "4e0e0215",
+    "author": "Jake Boraston",
+    "date": "2026-05-19T21:26:03Z",
+    "comment": "Iris: People module — profile redesign, donut chart, server-side filters, UX fixes",
+    "adds": 5,
+    "edits": 11,
+    "deletes": 0
+  },
+  {
+    "id": "30c441be",
+    "author": "Jake Boraston",
+    "date": "2026-05-19T17:37:34Z",
+    "comment": "Fix Developer Hub notification flows failing on branch deletions",
+    "adds": 0,
+    "edits": 3,
+    "deletes": 0
+  },
+  {
+    "id": "57c6fe1a",
+    "author": "Jake Boraston",
+    "date": "2026-05-19T17:37:34Z",
+    "comment": "Iris: People module, dynamic choices, shared UI components, clearances UX",
+    "adds": 7,
+    "edits": 10,
+    "deletes": 0
+  },
+  {
+    "id": "820b2199",
+    "author": "Jake Boraston",
+    "date": "2026-05-19T17:37:34Z",
+    "comment": "Iris: Dynamic choice options via getReferencedEntity, Accordion component, timesheet UX",
+    "adds": 2,
+    "edits": 14,
+    "deletes": 0
+  },
+  {
+    "id": "d80bb8ac",
+    "author": "Jake Boraston",
+    "date": "2026-05-19T17:37:34Z",
+    "comment": "Iris: Standardise text styling and table headers across all modules",
+    "adds": 0,
+    "edits": 30,
+    "deletes": 0
+  },
+  {
+    "id": "23cdab89",
+    "author": "Jake Boraston",
+    "date": "2026-05-19T16:37:35Z",
+    "comment": "ObjectiveIQ v1.0.1.0 - Voice cleanup, production hardening, and Copilot Studio reference patterns",
+    "adds": 21,
+    "edits": 7,
+    "deletes": 10
+  },
+  {
+    "id": "98e05e15",
+    "author": "Automatic Build",
+    "date": "2026-05-18T12:42:01Z",
+    "comment": "Client Management App v1.0.0.478 - Delay in create client team flow to fix flow error",
+    "adds": 0,
+    "edits": 7,
+    "deletes": 0
+  },
+  {
+    "id": "84cdd83a",
+    "author": "Jake Boraston",
+    "date": "2026-05-18T12:32:33Z",
+    "comment": "Merged PR 47: Fix 404 on Add Member after Team creation",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "78c3888e",
+    "author": "Jake Boraston",
+    "date": "2026-05-18T10:28:03Z",
+    "comment": "Merge pull request 47 from fix/create-team-member-add-404 into main",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "d3cb2bd9",
+    "author": "Jake Boraston",
+    "date": "2026-05-18T10:18:47Z",
+    "comment": "Fix 404 on Add Member after Team creation (Graph race condition)",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "ef54f154",
+    "author": "Automatic Build",
+    "date": "2026-05-15T17:17:30Z",
+    "comment": "ObjectiveIQ v1.0.0.0 - Pulling in first draft of appraisals agent",
+    "adds": 107,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "d8637231",
+    "author": "Jake Boraston",
+    "date": "2026-05-14T16:30:27Z",
+    "comment": "Iris: Security clearances overhaul, applicant modal improvements",
+    "adds": 0,
+    "edits": 10,
+    "deletes": 0
+  },
+  {
+    "id": "44880972",
+    "author": "Jake Boraston",
+    "date": "2026-05-13T17:07:33Z",
+    "comment": "Iris: Add Security Clearances module (Feature 13792)",
+    "adds": 7,
+    "edits": 7,
+    "deletes": 0
+  },
+  {
+    "id": "43f9a8ad",
+    "author": "Jake Boraston",
+    "date": "2026-05-13T15:54:12Z",
+    "comment": "Merge branch 'main' of https://dev.azure.com/The-Inform-Team/Digital%20solutions%20team/_git/Digital%20solutions%20team",
+    "adds": 1,
+    "edits": 31,
+    "deletes": 0
+  },
+  {
+    "id": "0736439d",
+    "author": "Jake Boraston",
+    "date": "2026-05-13T15:54:09Z",
+    "comment": "Small updates to Platform Analytics to show week on week Flow success rate",
+    "adds": 2,
+    "edits": 4,
+    "deletes": 0
+  },
+  {
+    "id": "61369f12",
+    "author": "Jake Boraston",
+    "date": "2026-05-13T15:53:24Z",
+    "comment": "Iris: Unify StatusBadge into shared ui component with size prop",
+    "adds": 1,
+    "edits": 16,
+    "deletes": 5
+  },
+  {
+    "id": "21b8e175",
+    "author": "Jake Boraston",
+    "date": "2026-05-13T14:25:06Z",
+    "comment": "Flow Error Triage Info",
+    "adds": 1,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "0b1f7be7",
+    "author": "Jake Boraston",
+    "date": "2026-05-11T23:14:47Z",
+    "comment": "Iris: WCAG AA compliance — contrast, text sizes, disabled fields, tables",
+    "adds": 0,
+    "edits": 124,
+    "deletes": 0
+  },
+  {
+    "id": "9273d2ab",
+    "author": "Jake Boraston",
+    "date": "2026-05-11T22:27:22Z",
+    "comment": "Iris: Fix shadowing bug, active client filter, dedup, route persistence",
+    "adds": 1,
+    "edits": 4,
+    "deletes": 0
+  },
+  {
+    "id": "f7314827",
+    "author": "Jake Boraston",
+    "date": "2026-05-11T18:02:37Z",
+    "comment": "Iris: Cull CLAUDE.md from 1044 to 369 lines",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "b81e8002",
+    "author": "Jake Boraston",
+    "date": "2026-05-11T16:53:11Z",
+    "comment": "Iris: Update CLAUDE.md for store migration and Profile removal",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "fe9f51eb",
+    "author": "Jake Boraston",
+    "date": "2026-05-11T16:42:51Z",
+    "comment": "Iris: Migrate remaining standalone stores to Svelte 5 classes",
+    "adds": 3,
+    "edits": 4,
+    "deletes": 3
+  },
+  {
+    "id": "ad88c031",
+    "author": "Jake Boraston",
+    "date": "2026-05-11T16:36:55Z",
+    "comment": "Iris: Migrate all Projects stores to Svelte 5 classes",
+    "adds": 7,
+    "edits": 19,
+    "deletes": 7
+  },
+  {
+    "id": "7514db8a",
+    "author": "Jake Boraston",
+    "date": "2026-05-11T16:15:41Z",
+    "comment": "Iris: Migrate all Operations stores to Svelte 5 classes",
+    "adds": 5,
+    "edits": 25,
+    "deletes": 7
+  },
+  {
+    "id": "96778a20",
+    "author": "Jake Boraston",
+    "date": "2026-05-11T15:52:58Z",
+    "comment": "Merge branch 'main' of https://dev.azure.com/The-Inform-Team/Digital%20solutions%20team/_git/Digital%20solutions%20team",
+    "adds": 0,
+    "edits": 6,
+    "deletes": 0
+  },
+  {
+    "id": "ce19e3da",
+    "author": "Automatic Build",
+    "date": "2026-05-11T15:43:50Z",
+    "comment": "Resource Management v1.0.0.471 - reverted flow changes (removing departed user references)",
+    "adds": 0,
+    "edits": 8,
+    "deletes": 0
+  },
+  {
+    "id": "344670c6",
+    "author": "Jake Boraston",
+    "date": "2026-05-11T15:36:43Z",
+    "comment": "Resource Management v1.0.0.471 - reverted flow changes (removing departed user references)",
+    "adds": 0,
+    "edits": 4,
+    "deletes": 0
+  },
+  {
+    "id": "e2bd8410",
+    "author": "Jake Boraston",
+    "date": "2026-05-11T15:28:15Z",
+    "comment": "Merge branch 'main' of https://dev.azure.com/The-Inform-Team/Digital%20solutions%20team/_git/Digital%20solutions%20team",
+    "adds": 0,
+    "edits": 6,
+    "deletes": 0
+  },
+  {
+    "id": "149dd057",
+    "author": "Jake Boraston",
+    "date": "2026-05-11T15:26:34Z",
+    "comment": "Iris: Consolidate 5 permission stores into reusable SecurityGroupCheck class",
+    "adds": 5,
+    "edits": 12,
+    "deletes": 4
+  },
+  {
+    "id": "e80bfc18",
+    "author": "Automatic Build",
+    "date": "2026-05-11T15:15:43Z",
+    "comment": "Operations App v1.0.0.345 - reverted flow changes (removing departed user references)",
+    "adds": 0,
+    "edits": 8,
+    "deletes": 0
+  },
+  {
+    "id": "f97ac346",
+    "author": "Jake Boraston",
+    "date": "2026-05-11T15:11:30Z",
+    "comment": "Operations App v1.0.0.345 - reverted flow changes (removing departed user references)",
+    "adds": 0,
+    "edits": 4,
+    "deletes": 0
+  },
+  {
+    "id": "2074c459",
+    "author": "Jake Boraston",
+    "date": "2026-05-11T15:03:51Z",
+    "comment": "Iris: Migrate app-wide foundation stores to Svelte 5 classes",
+    "adds": 5,
+    "edits": 21,
+    "deletes": 5
+  },
+  {
+    "id": "d60d81e6",
+    "author": "Jake Boraston",
+    "date": "2026-05-11T15:02:04Z",
+    "comment": "Merge branch 'main' of https://dev.azure.com/The-Inform-Team/Digital%20solutions%20team/_git/Digital%20solutions%20team",
+    "adds": 0,
+    "edits": 4,
+    "deletes": 0
+  },
+  {
+    "id": "858c3932",
+    "author": "Automatic Build",
+    "date": "2026-05-11T14:56:23Z",
+    "comment": "New Starter Process v1.0.0.719 - reverted flow changes (removing departed user references)",
+    "adds": 0,
+    "edits": 6,
+    "deletes": 0
+  },
+  {
+    "id": "7ac9ca85",
+    "author": "Jake Boraston",
+    "date": "2026-05-11T14:46:24Z",
+    "comment": "New Starter Process v1.0.0.719 - reverted flow changes (removing departed user references)",
+    "adds": 0,
+    "edits": 5,
+    "deletes": 0
+  },
+  {
+    "id": "94a4be0d",
+    "author": "Jake Boraston",
+    "date": "2026-05-11T14:43:14Z",
+    "comment": "Iris: Migrate toast store to Svelte 5 class singleton",
+    "adds": 1,
+    "edits": 17,
+    "deletes": 1
+  },
+  {
+    "id": "bdf3352b",
+    "author": "Automatic Build",
+    "date": "2026-05-11T14:26:05Z",
+    "comment": "Inform Management v1.0.0.796 - reverted flow changes (removing departed user references)",
+    "adds": 0,
+    "edits": 10,
+    "deletes": 0
+  },
+  {
+    "id": "11957bd6",
+    "author": "Jake Boraston",
+    "date": "2026-05-11T14:21:28Z",
+    "comment": "InformManagement v1.0.0.796 - Re-apply departed user account cleanup",
+    "adds": 0,
+    "edits": 3,
+    "deletes": 0
+  },
+  {
+    "id": "f16cfade",
+    "author": "Jake Boraston",
+    "date": "2026-05-11T14:18:51Z",
+    "comment": "Iris: Remove Profile page, fix a11y warnings, add resource pickers",
+    "adds": 1,
+    "edits": 19,
+    "deletes": 11
+  },
+  {
+    "id": "3253c34d",
+    "author": "Jake Boraston",
+    "date": "2026-05-11T13:54:07Z",
+    "comment": "Merge branch 'main' of https://dev.azure.com/The-Inform-Team/Digital%20solutions%20team/_git/Digital%20solutions%20team",
+    "adds": 0,
+    "edits": 6,
+    "deletes": 0
+  },
+  {
+    "id": "afef7e77",
+    "author": "Automatic Build",
+    "date": "2026-05-11T13:18:39Z",
+    "comment": "Data Management v1.0.0.806 - reverted flow changes (removing departed user references)",
+    "adds": 0,
+    "edits": 8,
+    "deletes": 0
+  },
+  {
+    "id": "cb48bc03",
+    "author": "Jake Boraston",
+    "date": "2026-05-11T12:34:05Z",
+    "comment": "DataManagement v1.0.0.806 - Re-apply departed user account cleanup",
+    "adds": 0,
+    "edits": 3,
+    "deletes": 0
+  },
+  {
+    "id": "eaa5cab5",
+    "author": "Jake Boraston",
+    "date": "2026-05-08T22:10:38Z",
+    "comment": "Merged PR 46: Iris: Project Management Module",
+    "adds": 52,
+    "edits": 14,
+    "deletes": 0
+  },
+  {
+    "id": "d7b56c70",
+    "author": "Jake Boraston",
+    "date": "2026-05-08T22:09:05Z",
+    "comment": "Merge pull request 46 from feature/project-management-module into main",
+    "adds": 52,
+    "edits": 14,
+    "deletes": 0
+  },
+  {
+    "id": "c768e894",
+    "author": "Jake Boraston",
+    "date": "2026-05-08T22:08:16Z",
+    "comment": "Auto-generate client code, fix avatar z-index on sticky header",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "1b2f25b8",
+    "author": "Jake Boraston",
+    "date": "2026-05-08T22:04:25Z",
+    "comment": "Client CRUD, assignments as own page, shared client picker, avatars",
+    "adds": 5,
+    "edits": 5,
+    "deletes": 0
+  },
+  {
+    "id": "a520071a",
+    "author": "Jake Boraston",
+    "date": "2026-05-08T21:43:39Z",
+    "comment": "Team management view with CUD, avatar before task name",
+    "adds": 0,
+    "edits": 4,
+    "deletes": 0
+  },
+  {
+    "id": "07224bb3",
+    "author": "Jake Boraston",
+    "date": "2026-05-08T21:31:55Z",
+    "comment": "Remove Phase, fix RAG consistency, programme on cards, UI cleanup",
+    "adds": 0,
+    "edits": 15,
+    "deletes": 0
+  },
+  {
+    "id": "60598875",
+    "author": "Jake Boraston",
+    "date": "2026-05-08T21:01:06Z",
+    "comment": "Activities as parent rows, programme filtering, add-task buttons, fixes",
+    "adds": 1,
+    "edits": 9,
+    "deletes": 0
+  },
+  {
+    "id": "601d4d0a",
+    "author": "Jake Boraston",
+    "date": "2026-05-08T20:26:02Z",
+    "comment": "Activities as parent level, programme linking, project edit, data source fixes",
+    "adds": 12,
+    "edits": 16,
+    "deletes": 0
+  },
+  {
+    "id": "961b653a",
+    "author": "Jake Boraston",
+    "date": "2026-05-08T16:42:34Z",
+    "comment": "Add project detail page, task management, Gantt chart, and UI improvements",
+    "adds": 9,
+    "edits": 14,
+    "deletes": 0
+  },
+  {
+    "id": "ab6eb9d3",
+    "author": "Jake Boraston",
+    "date": "2026-05-08T10:06:46Z",
+    "comment": "Add Dataverse tables, generated services, and project dashboard UI",
+    "adds": 21,
+    "edits": 4,
+    "deletes": 0
+  },
+  {
+    "id": "f875c069",
+    "author": "Jake Boraston",
+    "date": "2026-05-08T08:59:38Z",
+    "comment": "Add PM module foundation — client context store, picker, and routing",
+    "adds": 4,
+    "edits": 3,
+    "deletes": 0
+  },
+  {
+    "id": "85a6f86d",
+    "author": "Jake Boraston",
+    "date": "2026-05-07T16:43:18Z",
+    "comment": "Update PM module docs with client-context-first approach",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "4b04ac4a",
+    "author": "Jake Boraston",
+    "date": "2026-05-07T15:24:36Z",
+    "comment": "Plans for creating project management features inside IRIS",
+    "adds": 2,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "fdb221e9",
+    "author": "Jake Boraston",
+    "date": "2026-05-07T15:23:21Z",
+    "comment": "Iris: Fix onboarding submit bugs, add email column and role code filter to applicants",
+    "adds": 0,
+    "edits": 5,
+    "deletes": 0
+  },
+  {
+    "id": "e3559831",
+    "author": "Jake Boraston",
+    "date": "2026-05-06T15:32:20Z",
+    "comment": "Iris: Add robust British date parser for SharePoint text date fields",
+    "adds": 0,
+    "edits": 4,
+    "deletes": 0
+  },
+  {
+    "id": "81b27a8f",
+    "author": "Jake Boraston",
+    "date": "2026-05-06T12:43:14Z",
+    "comment": "Iris: Fix Outcome field not saving, make sidebar scrollable",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "c844b100",
+    "author": "Jake Boraston",
+    "date": "2026-05-06T12:00:39Z",
+    "comment": "Iris: Add FormField, TextInput, TextArea, NumberInput, Checkbox, DateInput, Modal, Alert components and roll out across app",
+    "adds": 8,
+    "edits": 19,
+    "deletes": 0
+  },
+  {
+    "id": "39595493",
+    "author": "Automatic Build",
+    "date": "2026-05-05T15:42:41Z",
+    "comment": "Resource Management v1.0.0.470 - Removed Lindas mention from flows",
+    "adds": 1,
+    "edits": 7,
+    "deletes": 0
+  },
+  {
+    "id": "d8a6321d",
+    "author": "Automatic Build",
+    "date": "2026-05-05T15:30:22Z",
+    "comment": "Operations App v1.0.0.344 - Transfer Request Temp - Removed Lindas mention",
+    "adds": 1,
+    "edits": 7,
+    "deletes": 0
+  },
+  {
+    "id": "2bba003a",
+    "author": "Automatic Build",
+    "date": "2026-05-05T14:59:35Z",
+    "comment": "New Starter Process v1.0.0.718 - Title and Email - Operations",
+    "adds": 1,
+    "edits": 5,
+    "deletes": 0
+  },
+  {
+    "id": "86bda2a3",
+    "author": "Automatic Build",
+    "date": "2026-05-05T14:38:56Z",
+    "comment": "Inform Management v1.0.0.795 - Removed Linda mention and cleared Jo-Anne BCC",
+    "adds": 0,
+    "edits": 8,
+    "deletes": 0
+  },
+  {
+    "id": "22e7ffa5",
+    "author": "Automatic Build",
+    "date": "2026-05-05T14:24:34Z",
+    "comment": "Data Management v1.0.0.805 - Removed Linda from filter - reassigned approver to Khalid",
+    "adds": 0,
+    "edits": 6,
+    "deletes": 0
+  },
+  {
+    "id": "ebe75e88",
+    "author": "Jake Boraston",
+    "date": "2026-05-05T14:13:43Z",
+    "comment": "Remove hard-coded references to disabled/departed user accounts (Linda, Jo-Anne)",
+    "adds": 0,
+    "edits": 7,
+    "deletes": 0
+  },
+  {
+    "id": "c35319fa",
+    "author": "Jake Boraston",
+    "date": "2026-05-01T14:49:21Z",
+    "comment": "Iris: Add reusable Button component and roll out across app",
+    "adds": 1,
+    "edits": 56,
+    "deletes": 0
+  },
+  {
+    "id": "8bd1f758",
+    "author": "Automatic Build",
+    "date": "2026-05-01T13:15:12Z",
+    "comment": "Data Management v1.0.0.805 - Schedule Creation of Confidential Records is missing project timesheets that have a timesheet ID of null adding into the filter",
+    "adds": 0,
+    "edits": 4,
+    "deletes": 0
+  },
+  {
+    "id": "c5dc6a36",
+    "author": "Jake Boraston",
+    "date": "2026-05-01T13:09:02Z",
+    "comment": "DataManagement v1.0.0.805 - Fix null Hub Expense ID filter in Schedule Creation of Confidential Records",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "89a0c847",
+    "author": "Automatic Build",
+    "date": "2026-05-01T10:08:40Z",
+    "comment": "Data Management v1.0.0.804 - Updated big offending flow calculate activities to equate for two bugs, NaN and missing titles",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "41c123ea",
+    "author": "Jake Boraston",
+    "date": "2026-05-01T09:58:48Z",
+    "comment": "DataManagement v1.0.0.804 - Fix NaN and empty Title bugs in CalculateActivities",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "f3b4677e",
+    "author": "Automatic Build",
+    "date": "2026-05-01T08:47:50Z",
+    "comment": "My Inform v1.0.0.810 - Added run after claude to branch of remove timesheet flow to remove project timesheet even if project timesheet has timesheet ID but it throws a 404.",
+    "adds": 0,
+    "edits": 4,
+    "deletes": 0
+  },
+  {
+    "id": "4ad02a0b",
+    "author": "Jake Boraston",
+    "date": "2026-05-01T08:40:40Z",
+    "comment": "Timesheetsapp v1.0.0.810 - Handle missing timesheet on project timesheet removal",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "9d8d8d21",
+    "author": "Jake Boraston",
+    "date": "2026-05-01T08:23:22Z",
+    "comment": "Merged PR 45: Iris: Add Timesheets module and fix Recruitment/Operations bugs",
+    "adds": 33,
+    "edits": 28,
+    "deletes": 1
+  },
+  {
+    "id": "6277f6c3",
+    "author": "Jake Boraston",
+    "date": "2026-05-01T08:22:14Z",
+    "comment": "Merge pull request 45 from fix/flow-bugs-insurance-and-assets into main",
+    "adds": 33,
+    "edits": 28,
+    "deletes": 1
+  },
+  {
+    "id": "377faab8",
+    "author": "Jake Boraston",
+    "date": "2026-05-01T08:07:03Z",
+    "comment": "Development tools v1.0.0.802 - Remove commit changes from Build Repo Teams card",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "8be8c100",
+    "author": "Jake Boraston",
+    "date": "2026-04-30T23:45:46Z",
+    "comment": "Add Timesheets module to Iris with Kanban board, calendar integration, and task timer",
+    "adds": 33,
+    "edits": 28,
+    "deletes": 1
+  },
+  {
+    "id": "9e71b765",
+    "author": "Automatic Build",
+    "date": "2026-04-30T14:47:22Z",
+    "comment": "Client Management App v1.0.0.477 - Updated New Order Screen to have two more sales order category codes.",
+    "adds": 0,
+    "edits": 34,
+    "deletes": 0
+  },
+  {
+    "id": "e41178ab",
+    "author": "Jake Boraston",
+    "date": "2026-04-30T13:10:45Z",
+    "comment": "Merged PR 44: Tooling: Get-DataverseFlowErrors.ps1 - tenant-wide flow failure view",
+    "adds": 1,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "ddf26269",
+    "author": "Jake Boraston",
+    "date": "2026-04-30T12:32:12Z",
+    "comment": "Merge pull request 44 from tooling/dataverse-flow-errors into main",
+    "adds": 1,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "fd47c817",
+    "author": "Jake Boraston",
+    "date": "2026-04-30T12:32:00Z",
+    "comment": "Tooling: add Get-DataverseFlowErrors.ps1 for tenant-wide flow failure view",
+    "adds": 1,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "349cee64",
+    "author": "Jake Boraston",
+    "date": "2026-04-30T09:04:16Z",
+    "comment": "Merge pull request 43 from flow-fix/dev-hub-add-branch-to-card into main",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "b5a28ba3",
+    "author": "Jake Boraston",
+    "date": "2026-04-30T09:04:04Z",
+    "comment": "Development tools v1.0.0.801 - Useful enrichments to Build Repo Teams card",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "0046fa97",
+    "author": "Jake Boraston",
+    "date": "2026-04-30T08:46:30Z",
+    "comment": "Development tools v1.0.0.800 - Show branch on Build Repo Teams card",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "a0498a3d",
+    "author": "Automatic Build",
+    "date": "2026-04-30T08:10:47Z",
+    "comment": "Client Management App v1.0.0.477 - Fixed issue with adding resource to team flow - added a backup action to check actual entra id object exists before trying to add the user to the team",
+    "adds": 0,
+    "edits": 8,
+    "deletes": 0
+  },
+  {
+    "id": "165441d8",
+    "author": "Jake Boraston",
+    "date": "2026-04-30T08:03:08Z",
+    "comment": "Merged PR 42: Client Management App v1.0.0.477 - Probe Entra before adding resource to Team",
+    "adds": 0,
+    "edits": 3,
+    "deletes": 0
+  },
+  {
+    "id": "cd665511",
+    "author": "Jake Boraston",
+    "date": "2026-04-30T07:39:05Z",
+    "comment": "Merge pull request 42 from flow-fix/add-remove-resource-entra-probe into main",
+    "adds": 0,
+    "edits": 3,
+    "deletes": 0
+  },
+  {
+    "id": "6e8f28b4",
+    "author": "Jake Boraston",
+    "date": "2026-04-30T07:38:38Z",
+    "comment": "Client Management App v1.0.0.477 - Probe Entra before adding resource to Team",
+    "adds": 0,
+    "edits": 3,
+    "deletes": 0
+  },
+  {
+    "id": "877d57d0",
+    "author": "Automatic Build",
+    "date": "2026-04-29T16:23:47Z",
+    "comment": "My Inform v1.0.0.809 - Fixed issue with when a consultant task is created race condition",
+    "adds": 0,
+    "edits": 4,
+    "deletes": 0
+  },
+  {
+    "id": "fbbb0949",
+    "author": "Jake Boraston",
+    "date": "2026-04-29T16:10:08Z",
+    "comment": "Merged PR 41: Timesheetsapp v1.0.0.809 - Skip on-create consultant-task notifications when recipient not yet in Entra",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "d2fa1a72",
+    "author": "Jake Boraston",
+    "date": "2026-04-29T16:07:19Z",
+    "comment": "Merge pull request 41 from flow-fix/oncreate-consultant-tasks-skip-unprovisioned into main",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "5caa680e",
+    "author": "Jake Boraston",
+    "date": "2026-04-29T16:06:53Z",
+    "comment": "Timesheetsapp v1.0.0.809 - Skip on-create consultant-task notifications when recipient not yet in Entra",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "c8e22d7a",
+    "author": "Automatic Build",
+    "date": "2026-04-29T16:04:27Z",
+    "comment": "My Inform v1.0.0.808 - Fixed issue with race condition with sending task notification and onboarding",
+    "adds": 0,
+    "edits": 4,
+    "deletes": 0
+  },
+  {
+    "id": "d1e97473",
+    "author": "Jake Boraston",
+    "date": "2026-04-29T15:42:43Z",
+    "comment": "Merged PR 40: Timesheetsapp v1.0.0.808 - Skip consultant-task notifications when recipient not yet in Entra",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "8f9e3bde",
+    "author": "Jake Boraston",
+    "date": "2026-04-29T15:40:40Z",
+    "comment": "Merge pull request 40 from flow-fix/consultant-tasks-skip-unprovisioned into main",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "a036ca9c",
+    "author": "Jake Boraston",
+    "date": "2026-04-29T15:40:11Z",
+    "comment": "Timesheetsapp v1.0.0.808 - Skip consultant-task notifications when recipient not yet in Entra",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "efd944e5",
+    "author": "Automatic Build",
+    "date": "2026-04-29T14:22:23Z",
+    "comment": "Data Management v1.0.0.803 - Fixed zero hour flow no timesheet found issue",
+    "adds": 0,
+    "edits": 4,
+    "deletes": 0
+  },
+  {
+    "id": "d817c867",
+    "author": "Jake Boraston",
+    "date": "2026-04-29T14:11:31Z",
+    "comment": "Merged PR 39: Development tools v1.0.0.799 - Distinguish PR merges from commits in Developer Hub Teams card",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "8d93ce74",
+    "author": "Jake Boraston",
+    "date": "2026-04-29T13:54:59Z",
+    "comment": "Merge pull request 39 from flow-fix/dev-hub-pr-vs-commit-wording into main",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "b74024ec",
+    "author": "Jake Boraston",
+    "date": "2026-04-29T13:54:48Z",
+    "comment": "Development tools v1.0.0.799 - Distinguish PR merges from commits in Developer Hub Teams card",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "35725c45",
+    "author": "Jake Boraston",
+    "date": "2026-04-29T13:47:53Z",
+    "comment": "Merge pull request 38 from tooling/sp-list-update-mode into main",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "d82b333c",
+    "author": "Jake Boraston",
+    "date": "2026-04-29T13:47:52Z",
+    "comment": "Merge pull request 38 from tooling/sp-list-update-mode into main",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "bb080487",
+    "author": "Jake Boraston",
+    "date": "2026-04-29T13:35:36Z",
+    "comment": "Merged PR 37: Data Management v1.0.0.803 - Self-heal orphan PT rows in zero-hour cleanup flow",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "fd25195b",
+    "author": "Jake Boraston",
+    "date": "2026-04-29T13:35:31Z",
+    "comment": "Merge pull request 37 from flow-fix/zero-hour-runafter into main",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "188ed6fb",
+    "author": "Jake Boraston",
+    "date": "2026-04-29T13:05:17Z",
+    "comment": "Data Management v1.0.0.803 - Self-heal orphan PT rows in zero-hour cleanup flow",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "0774a2c1",
+    "author": "Jake Boraston",
+    "date": "2026-04-29T12:55:06Z",
+    "comment": "Tooling: add update mode to Get-SPListData.ps1",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "b284bf74",
+    "author": "Jake Boraston",
+    "date": "2026-04-29T10:02:17Z",
+    "comment": "Merged PR 36: Tooling: extend Get-FlowError.ps1 with deep scan, skip cascade, and Terminate...",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "8ae3c959",
+    "author": "Jake Boraston",
+    "date": "2026-04-29T10:02:12Z",
+    "comment": "Merge pull request 36 from tooling/flow-error-deep-scan into main",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "1ce222d3",
+    "author": "Jake Boraston",
+    "date": "2026-04-29T10:01:07Z",
+    "comment": "Tooling: extend Get-FlowError.ps1 with deep scan, skip cascade, and Terminate detection",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "122da802",
+    "author": "Jake Boraston",
+    "date": "2026-04-29T08:13:13Z",
+    "comment": "Merged PR 35: Tooling: add Get-FlowError.ps1 for diagnosing Power Automate flow errors",
+    "adds": 1,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "eb07a632",
+    "author": "Jake Boraston",
+    "date": "2026-04-29T08:12:48Z",
+    "comment": "Merge pull request 35 from tooling/flow-error-script into main",
+    "adds": 1,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "3eefafde",
+    "author": "Jake Boraston",
+    "date": "2026-04-29T07:40:32Z",
+    "comment": "Tooling: add Get-FlowError.ps1 for diagnosing Power Automate flow errors",
+    "adds": 1,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "391d9b11",
+    "author": "Automatic Build",
+    "date": "2026-04-29T07:18:08Z",
+    "comment": "Data Management v1.0.0.802 - Fix for backup flow failing on large lists like Timesheets and Project timesheet",
+    "adds": 0,
+    "edits": 6,
+    "deletes": 0
+  },
+  {
+    "id": "2f09829b",
+    "author": "Automatic Build",
+    "date": "2026-04-28T09:06:49Z",
+    "comment": "Inform Management v1.0.0.795 - Fixed insurance flow send email action",
+    "adds": 1,
+    "edits": 7,
+    "deletes": 0
+  },
+  {
+    "id": "ce1272f2",
+    "author": "Jake Boraston",
+    "date": "2026-04-28T08:50:29Z",
+    "comment": "Merged PR 34: Fix flow bugs: insurance email and asset filtering",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "087283e9",
+    "author": "Jake Boraston",
+    "date": "2026-04-28T08:50:07Z",
+    "comment": "Merge pull request 34 from fix/flow-bugs-insurance-and-assets into main",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "077a09c1",
+    "author": "Jake Boraston",
+    "date": "2026-04-28T08:49:22Z",
+    "comment": "Revert \"Personal Details Report: fix OData filter for Choice field\"",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "a8d2349b",
+    "author": "Jake Boraston",
+    "date": "2026-04-28T08:49:22Z",
+    "comment": "Revert \"Personal Details Report: move asset filtering to OData query, remove client-side condition\"",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "84cce2b9",
+    "author": "Jake Boraston",
+    "date": "2026-04-28T08:18:19Z",
+    "comment": "Merge pull request 34 from fix/flow-bugs-insurance-and-assets into main",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "59cb5da3",
+    "author": "Jake Boraston",
+    "date": "2026-04-28T08:17:37Z",
+    "comment": "Personal Details Report: fix OData filter for Choice field",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "6c0135cf",
+    "author": "Jake Boraston",
+    "date": "2026-04-28T08:09:16Z",
+    "comment": "Merge pull request 34 from fix/flow-bugs-insurance-and-assets into main",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "892aee75",
+    "author": "Jake Boraston",
+    "date": "2026-04-28T08:02:57Z",
+    "comment": "Personal Details Report: move asset filtering to OData query, remove client-side condition",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "d9cf41e6",
+    "author": "Jake Boraston",
+    "date": "2026-04-28T07:53:22Z",
+    "comment": "Fix empty() function call in Log contractor insurance certificate flow",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "7310611b",
+    "author": "Automatic Build",
+    "date": "2026-04-27T08:59:03Z",
+    "comment": "My Inform v1.0.0.807 - Small tweak to recent activity screen to assist new joiners and users with no recent activity",
+    "adds": 0,
+    "edits": 68,
+    "deletes": 0
+  },
+  {
+    "id": "e2aedcdb",
+    "author": "Automatic Build",
+    "date": "2026-04-24T14:23:03Z",
+    "comment": "My Inform v1.0.0.807 - Fixed issue with personal details report not converting to PDF, causing the flow to break",
+    "adds": 0,
+    "edits": 6,
+    "deletes": 0
+  },
+  {
+    "id": "7d647742",
+    "author": "Jake Boraston",
+    "date": "2026-04-24T14:13:30Z",
+    "comment": "Personal Details Report: use {FilenameWithExtension} instead of {Name} for PDF conversion path",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "a0918cf1",
+    "author": "Jake Boraston",
+    "date": "2026-04-24T14:07:04Z",
+    "comment": "Personal Details Report: fix double .docx extension in Convert to PDF file path",
+    "adds": 0,
+    "edits": 3,
+    "deletes": 0
+  },
+  {
+    "id": "90933995",
+    "author": "Jake Boraston",
+    "date": "2026-04-24T13:47:03Z",
+    "comment": "Iris: remove urlParamRouter, simplify power context store; extend Get-SPListData query capabilities",
+    "adds": 0,
+    "edits": 6,
+    "deletes": 1
+  },
+  {
+    "id": "b5dbc1f1",
+    "author": "Jake Boraston",
+    "date": "2026-04-24T13:47:03Z",
+    "comment": "Iris: Phase 2 — submit orchestrator wired end-to-end",
+    "adds": 34,
+    "edits": 8,
+    "deletes": 0
+  },
+  {
+    "id": "d353c7c1",
+    "author": "Jake Boraston",
+    "date": "2026-04-24T13:47:03Z",
+    "comment": "Personal Details Report: add 1-minute delay before PDF conversion to fix SharePoint file lock race condition",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "1d25d5ad",
+    "author": "Automatic Build",
+    "date": "2026-04-24T12:54:04Z",
+    "comment": "My Inform v1.0.0.805 - Power automate update overwritten changes made to Canvas App, rolled back app version and pulling in to get changes to PROD",
+    "adds": 0,
+    "edits": 54,
+    "deletes": 0
+  },
+  {
+    "id": "4c781d65",
+    "author": "Automatic Build",
+    "date": "2026-04-24T12:24:57Z",
+    "comment": "My Inform v1.0.0.805 - Potential fix for issue related to personal details report not running",
+    "adds": 0,
+    "edits": 58,
+    "deletes": 0
+  },
+  {
+    "id": "b437dd6b",
+    "author": "Automatic Build",
+    "date": "2026-04-24T09:34:05Z",
+    "comment": "My Inform v1.0.0.804 - Fixed update personal details dropdown not showing link to form, also included personal details report as an option for I need something.",
+    "adds": 4,
+    "edits": 5,
+    "deletes": 0
+  },
+  {
+    "id": "63b0b713",
+    "author": "Automatic Build",
+    "date": "2026-04-24T08:46:19Z",
+    "comment": "My Inform v1.0.0.804 - Fixed update personal details dropdown not showing link to form, also included personal details report as an option for I need something.",
+    "adds": 0,
+    "edits": 58,
+    "deletes": 0
+  },
+  {
+    "id": "0e19c21c",
+    "author": "Jake Boraston",
+    "date": "2026-04-20T16:15:18Z",
+    "comment": "Iris: Phase 1 Increments 3 & 4 — Role & Access + Work & Kit",
+    "adds": 24,
+    "edits": 15,
+    "deletes": 0
+  },
+  {
+    "id": "c37ffe25",
+    "author": "Jake Boraston",
+    "date": "2026-04-20T16:15:18Z",
+    "comment": "Iris: collapsible applicant filter bar with pipeline summary",
+    "adds": 0,
+    "edits": 3,
+    "deletes": 0
+  },
+  {
+    "id": "fccf062b",
+    "author": "Jake Boraston",
+    "date": "2026-04-20T16:15:18Z",
+    "comment": "Iris: fix vacancy update 400 by writing RecruitmentLead as SPListExpandedUser objects",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "96075651",
+    "author": "Automatic Build",
+    "date": "2026-04-17T10:41:59Z",
+    "comment": "Client Management App v1.0.0.476 - Bug fix for Client management - client name and code were not pulling through to new order item flow",
+    "adds": 27,
+    "edits": 42,
+    "deletes": 2
+  },
+  {
+    "id": "eb05658e",
+    "author": "Jake Boraston",
+    "date": "2026-04-17T10:36:31Z",
+    "comment": "Remove -f from DEV to SOURCE pipeline git push",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "fe553ea8",
+    "author": "Jake Boraston",
+    "date": "2026-04-17T09:54:08Z",
+    "comment": "ClientManagementApp: fix blank ClientCode/Name on new-client orders",
+    "adds": 0,
+    "edits": 5,
+    "deletes": 0
+  },
+  {
+    "id": "9c2f9458",
+    "author": "Jake Boraston",
+    "date": "2026-04-17T07:44:26Z",
+    "comment": "Developmenttools: Fix replace() parenthesis in Populate List Tracking flow",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "2fe1bf06",
+    "author": "Jake Boraston",
+    "date": "2026-04-16T22:31:24Z",
+    "comment": "Iris: Phase 1 Increment 2 — Step 2 Arrangement",
+    "adds": 4,
+    "edits": 9,
+    "deletes": 0
+  },
+  {
+    "id": "14b8c36f",
+    "author": "Jake Boraston",
+    "date": "2026-04-16T21:59:40Z",
+    "comment": "Iris: Phase 1 onboarding form shell + dashboard polish",
+    "adds": 13,
+    "edits": 32,
+    "deletes": 0
+  },
+  {
+    "id": "6015e90e",
+    "author": "Jake Boraston",
+    "date": "2026-04-16T20:18:55Z",
+    "comment": "Iris: Add Onboarding module dashboard and extract PermissionGate",
+    "adds": 38,
+    "edits": 13,
+    "deletes": 0
+  },
+  {
+    "id": "2a0e0d52",
+    "author": "Jake Boraston",
+    "date": "2026-04-16T19:38:24Z",
+    "comment": "Merge branch 'main' of https://dev.azure.com/The-Inform-Team/Digital%20solutions%20team/_git/Digital%20solutions%20team",
+    "adds": 2,
+    "edits": 68,
+    "deletes": 0
+  },
+  {
+    "id": "32b6f74a",
+    "author": "Jake Boraston",
+    "date": "2026-04-16T19:36:42Z",
+    "comment": "Updated DEV to SOURCE pipeline to include solution version number in commit message and as build version",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  }
+]

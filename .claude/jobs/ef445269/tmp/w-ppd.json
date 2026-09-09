@@ -1,0 +1,3224 @@
+[
+  {
+    "id": "e68f2d77",
+    "author": "Jake Boraston",
+    "date": "2026-09-04T09:31:32Z",
+    "comment": "Re-apply the descriptions DEV overwrote on Steps 7, 9, 10 and 11",
+    "adds": 0,
+    "edits": 4,
+    "deletes": 0
+  },
+  {
+    "id": "9af8421e",
+    "author": "Jake Boraston",
+    "date": "2026-09-04T09:27:39Z",
+    "comment": "flow updates",
+    "adds": 0,
+    "edits": 4,
+    "deletes": 0
+  },
+  {
+    "id": "1f863f92",
+    "author": "Jake Boraston",
+    "date": "2026-09-04T09:08:17Z",
+    "comment": "Rewrite the flow descriptions across the solution",
+    "adds": 0,
+    "edits": 18,
+    "deletes": 0
+  },
+  {
+    "id": "3c9c0725",
+    "author": "Jake Boraston",
+    "date": "2026-09-04T06:54:27Z",
+    "comment": "Fix the progress bar expression rejected by the template validator",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "ea22abcc",
+    "author": "Jake Boraston",
+    "date": "2026-09-03T14:29:20Z",
+    "comment": "flow 1 updates",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "01c04258",
+    "author": "Jake Boraston",
+    "date": "2026-09-03T10:13:39Z",
+    "comment": "Log card update failures and stop announcing a ticket before it exists",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "96d9137d",
+    "author": "Jake Boraston",
+    "date": "2026-09-03T10:12:01Z",
+    "comment": "Restore the Step 12 finance note and harden three expressions",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "14e763dd",
+    "author": "Jake Boraston",
+    "date": "2026-09-03T10:10:08Z",
+    "comment": "Reconstruct the cancelled card from the step number",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "25bf0196",
+    "author": "Jake Boraston",
+    "date": "2026-09-03T10:02:41Z",
+    "comment": "Fix card ordering and a null reference in the step flows",
+    "adds": 0,
+    "edits": 11,
+    "deletes": 0
+  },
+  {
+    "id": "54fede9f",
+    "author": "Jake Boraston",
+    "date": "2026-09-03T09:15:23Z",
+    "comment": "Steps 2 to 12: replace hand written Teams replies with the child flow",
+    "adds": 0,
+    "edits": 12,
+    "deletes": 0
+  },
+  {
+    "id": "7930e997",
+    "author": "Jake Boraston",
+    "date": "2026-09-03T09:10:28Z",
+    "comment": "solution updates, env var default.",
+    "adds": 0,
+    "edits": 5,
+    "deletes": 0
+  },
+  {
+    "id": "0eb1b6f8",
+    "author": "Jake Boraston",
+    "date": "2026-09-03T09:03:27Z",
+    "comment": "Step 1: post the onboarding card instead of a plain message",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "ff2ca288",
+    "author": "Jake Boraston",
+    "date": "2026-09-03T08:49:24Z",
+    "comment": "Fix InvalidTemplate: join the mention token branch before the reply",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "f9f0c11e",
+    "author": "Jake Boraston",
+    "date": "2026-09-03T08:28:08Z",
+    "comment": "Declare the child flow as a solution root component",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "72efa5b9",
+    "author": "Jake Boraston",
+    "date": "2026-09-02T14:58:44Z",
+    "comment": "Add NewStarter - Update Progress Card child flow",
+    "adds": 2,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "e1e6eae3",
+    "author": "Jake Boraston",
+    "date": "2026-08-27T09:21:17Z",
+    "comment": "Name the line manager in the employment contract",
+    "adds": 0,
+    "edits": 3,
+    "deletes": 0
+  },
+  {
+    "id": "fbeca5dd",
+    "author": "Jake Boraston",
+    "date": "2026-08-26T17:08:52Z",
+    "comment": "Add adaptive card design and build plan for New Starter Process",
+    "adds": 6,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "a2427644",
+    "author": "Jake Boraston",
+    "date": "2026-08-26T17:08:39Z",
+    "comment": "Add Teams group and channel environment variables to New Starter Process",
+    "adds": 2,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "3f4364f7",
+    "author": "Jake Boraston",
+    "date": "2026-08-26T15:17:37Z",
+    "comment": "Release card: add first-time deployment button",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "fcf069ad",
+    "author": "Jake Boraston",
+    "date": "2026-08-20T08:36:10Z",
+    "comment": "Merge: timesheets app updates",
+    "adds": 0,
+    "edits": 34,
+    "deletes": 0
+  },
+  {
+    "id": "adcadedb",
+    "author": "Jake Boraston",
+    "date": "2026-08-20T08:36:09Z",
+    "comment": "timesheets app updates (3/3)",
+    "adds": 2,
+    "edits": 5,
+    "deletes": 0
+  },
+  {
+    "id": "2a4eaa17",
+    "author": "Jake Boraston",
+    "date": "2026-08-20T08:36:06Z",
+    "comment": "timesheets app updates (2/3)",
+    "adds": 12,
+    "edits": 6,
+    "deletes": 0
+  },
+  {
+    "id": "81f9ed7d",
+    "author": "Jake Boraston",
+    "date": "2026-08-20T08:36:02Z",
+    "comment": "timesheets app updates (1/3)",
+    "adds": 0,
+    "edits": 9,
+    "deletes": 14
+  },
+  {
+    "id": "812caed7",
+    "author": "Jake Boraston",
+    "date": "2026-08-19T15:38:25Z",
+    "comment": "Merge pull request 126 from fix/task-links-prod-my-inform into main",
+    "adds": 0,
+    "edits": 3,
+    "deletes": 0
+  },
+  {
+    "id": "acb6fb0a",
+    "author": "Jake Boraston",
+    "date": "2026-08-19T15:37:50Z",
+    "comment": "Consultant task notifications: point links at PROD My Inform",
+    "adds": 0,
+    "edits": 3,
+    "deletes": 0
+  },
+  {
+    "id": "7df42c7e",
+    "author": "Jake Boraston",
+    "date": "2026-08-08T07:05:02Z",
+    "comment": "﻿Auto-fix flow failures: Log contractor insurance certificate",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "7c1f9b82",
+    "author": "Jake Boraston",
+    "date": "2026-08-05T15:07:05Z",
+    "comment": "Inform Management: fix new joiner email editing and DOB",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "3ca943e2",
+    "author": "Jake Boraston",
+    "date": "2026-07-27T17:18:00Z",
+    "comment": "CBC report flow: open the report link in the browser",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "5bd95279",
+    "author": "Jake Boraston",
+    "date": "2026-07-27T16:54:55Z",
+    "comment": "CBC report flow: add the copy step + wire env vars and link",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "f272e4dd",
+    "author": "Jake Boraston",
+    "date": "2026-07-27T16:43:26Z",
+    "comment": "Env Var added and connection reference for teams",
+    "adds": 2,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "f57650d1",
+    "author": "Jake Boraston",
+    "date": "2026-07-27T15:58:08Z",
+    "comment": "Added Env Var, And Start of Flow",
+    "adds": 3,
+    "edits": 4,
+    "deletes": 0
+  },
+  {
+    "id": "c07f16cc",
+    "author": "Jake Boraston",
+    "date": "2026-07-24T15:19:37Z",
+    "comment": "Merge pull request 79 from flow-fix/pr-plumbing-test-20260724-161928 into main",
+    "adds": 1,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "90e7fe7d",
+    "author": "Jake Boraston",
+    "date": "2026-07-24T15:19:32Z",
+    "comment": "Plumbing test: prove draft PR path (auto-abandoned)",
+    "adds": 1,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "c07cdca2",
+    "author": "Jake Boraston",
+    "date": "2026-07-24T08:44:48Z",
+    "comment": "Contractor Contract V2: use FilenameWithExtension for PDF conversion path",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "1ab477a7",
+    "author": "Jake Boraston",
+    "date": "2026-07-24T08:27:58Z",
+    "comment": "Contractor Contract V2: retry Word-to-PDF conversion and guard empty output",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "6358da27",
+    "author": "Jake Boraston",
+    "date": "2026-07-22T20:29:59Z",
+    "comment": "Rename the canvas app DisplayName to Delivery Hub",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "fa98eeec",
+    "author": "Jake Boraston",
+    "date": "2026-07-22T20:17:48Z",
+    "comment": "Rename the app to Delivery Hub",
+    "adds": 0,
+    "edits": 10,
+    "deletes": 0
+  },
+  {
+    "id": "72b63189",
+    "author": "Jake Boraston",
+    "date": "2026-07-22T20:04:24Z",
+    "comment": "updated filter and added toggle to my requests to filter out completed work (2/2)",
+    "adds": 0,
+    "edits": 11,
+    "deletes": 0
+  },
+  {
+    "id": "ab6dc48f",
+    "author": "Jake Boraston",
+    "date": "2026-07-22T20:04:24Z",
+    "comment": "Merge: updated filter and added toggle to my requests to filter out completed work",
+    "adds": 0,
+    "edits": 18,
+    "deletes": 0
+  },
+  {
+    "id": "8b39cdc9",
+    "author": "Jake Boraston",
+    "date": "2026-07-22T20:04:22Z",
+    "comment": "updated filter and added toggle to my requests to filter out completed work (1/2)",
+    "adds": 0,
+    "edits": 7,
+    "deletes": 0
+  },
+  {
+    "id": "6ed33d95",
+    "author": "Jake Boraston",
+    "date": "2026-07-22T19:46:15Z",
+    "comment": "CBC: restore two changes dropped by the Studio re-export",
+    "adds": 0,
+    "edits": 3,
+    "deletes": 0
+  },
+  {
+    "id": "b907c2ea",
+    "author": "Jake Boraston",
+    "date": "2026-07-22T19:33:51Z",
+    "comment": "Merge: form is now max width to stop if spreading too wide",
+    "adds": 0,
+    "edits": 27,
+    "deletes": 0
+  },
+  {
+    "id": "6f486531",
+    "author": "Jake Boraston",
+    "date": "2026-07-22T19:33:50Z",
+    "comment": "form is now max width to stop if spreading too wide (2/2)",
+    "adds": 0,
+    "edits": 19,
+    "deletes": 0
+  },
+  {
+    "id": "9be7614c",
+    "author": "Jake Boraston",
+    "date": "2026-07-22T19:33:48Z",
+    "comment": "form is now max width to stop if spreading too wide (1/2)",
+    "adds": 0,
+    "edits": 8,
+    "deletes": 0
+  },
+  {
+    "id": "76163e1a",
+    "author": "Jake Boraston",
+    "date": "2026-07-22T19:31:58Z",
+    "comment": "CBC: sort on each work type's own date, not just the deadline",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "efe1bc24",
+    "author": "Jake Boraston",
+    "date": "2026-07-22T19:02:05Z",
+    "comment": "CBC: clear request state on leaving Request detail",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "ae7e990b",
+    "author": "Jake Boraston",
+    "date": "2026-07-22T18:39:44Z",
+    "comment": "CBC: admins can correct request fields in place",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "4d7daa2d",
+    "author": "Jake Boraston",
+    "date": "2026-07-22T18:22:23Z",
+    "comment": "CBC: fix cancelled exclusion dropping records (Jake's catch)",
+    "adds": 0,
+    "edits": 3,
+    "deletes": 0
+  },
+  {
+    "id": "fcd245fe",
+    "author": "Jake Boraston",
+    "date": "2026-07-22T17:59:08Z",
+    "comment": "CBC: make \"Allocated to\" editable in place for admins",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "ff2f6e1a",
+    "author": "Jake Boraston",
+    "date": "2026-07-22T17:42:18Z",
+    "comment": "CBC: match new controls to existing styling",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "97c4e466",
+    "author": "Jake Boraston",
+    "date": "2026-07-22T17:16:40Z",
+    "comment": "CBC: admin reassign + filter the board by function",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "9bf82f00",
+    "author": "Jake Boraston",
+    "date": "2026-07-22T16:06:40Z",
+    "comment": "CBC: soft delete + editable request detail",
+    "adds": 0,
+    "edits": 7,
+    "deletes": 0
+  },
+  {
+    "id": "bd99eefa",
+    "author": "Jake Boraston",
+    "date": "2026-07-22T15:48:47Z",
+    "comment": "CBC: stop duplicate project categories (Core Comms twice)",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "b9756bcb",
+    "author": "Jake Boraston",
+    "date": "2026-07-22T15:47:41Z",
+    "comment": "CBC: fix intake cross-contamination (headline not matching detail)",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "0d7a4471",
+    "author": "Jake Boraston",
+    "date": "2026-07-20T07:09:26Z",
+    "comment": "Revert quick-add modal work on My timesheets",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "8d0d2f0f",
+    "author": "Jake Boraston",
+    "date": "2026-07-17T16:50:19Z",
+    "comment": "My Inform timesheets: apply canvas-app-craft to the quick-add modal",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "100cbe4d",
+    "author": "Jake Boraston",
+    "date": "2026-07-17T16:40:17Z",
+    "comment": "My Inform timesheets: fix quick-add modal parenting + use context variables",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "54bbfe62",
+    "author": "Jake Boraston",
+    "date": "2026-07-17T15:57:47Z",
+    "comment": "My Inform timesheets: calendar + favourites in the quick-add modal (increments 2-3)",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "3193a80f",
+    "author": "Jake Boraston",
+    "date": "2026-07-17T15:47:48Z",
+    "comment": "added Co-Authoring (3/3)",
+    "adds": 3,
+    "edits": 6,
+    "deletes": 0
+  },
+  {
+    "id": "3ddbdabe",
+    "author": "Jake Boraston",
+    "date": "2026-07-17T15:47:48Z",
+    "comment": "Merge: added Co-Authoring",
+    "adds": 0,
+    "edits": 32,
+    "deletes": 0
+  },
+  {
+    "id": "11a11894",
+    "author": "Jake Boraston",
+    "date": "2026-07-17T15:47:45Z",
+    "comment": "added Co-Authoring (2/3)",
+    "adds": 11,
+    "edits": 4,
+    "deletes": 0
+  },
+  {
+    "id": "752c290a",
+    "author": "Jake Boraston",
+    "date": "2026-07-17T15:47:42Z",
+    "comment": "added Co-Authoring (1/3)",
+    "adds": 0,
+    "edits": 8,
+    "deletes": 14
+  },
+  {
+    "id": "0d10a3e1",
+    "author": "Jake Boraston",
+    "date": "2026-07-17T14:48:04Z",
+    "comment": "My Inform timesheets: quick-add modal off the green + (increment 1)",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "b54d24f8",
+    "author": "Jake Boraston",
+    "date": "2026-07-17T13:38:48Z",
+    "comment": "Merge: outlook connector now in My Inform App",
+    "adds": 0,
+    "edits": 25,
+    "deletes": 0
+  },
+  {
+    "id": "50161f72",
+    "author": "Jake Boraston",
+    "date": "2026-07-17T13:38:47Z",
+    "comment": "outlook connector now in My Inform App (3/3)",
+    "adds": 0,
+    "edits": 6,
+    "deletes": 0
+  },
+  {
+    "id": "19735189",
+    "author": "Jake Boraston",
+    "date": "2026-07-17T13:38:45Z",
+    "comment": "outlook connector now in My Inform App (2/3)",
+    "adds": 0,
+    "edits": 13,
+    "deletes": 0
+  },
+  {
+    "id": "47ea606e",
+    "author": "Jake Boraston",
+    "date": "2026-07-17T13:38:42Z",
+    "comment": "outlook connector now in My Inform App (1/3)",
+    "adds": 0,
+    "edits": 6,
+    "deletes": 0
+  },
+  {
+    "id": "149ef565",
+    "author": "Jake Boraston",
+    "date": "2026-07-15T08:59:28Z",
+    "comment": "Personal Details Report: extend pre-PDF-conversion delay to 2 minutes",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "170dbb30",
+    "author": "Jake Boraston",
+    "date": "2026-07-15T07:55:43Z",
+    "comment": "Merge: canvas app changes",
+    "adds": 1,
+    "edits": 30,
+    "deletes": 1
+  },
+  {
+    "id": "3d1b35af",
+    "author": "Jake Boraston",
+    "date": "2026-07-15T07:55:42Z",
+    "comment": "canvas app changes",
+    "adds": 1,
+    "edits": 7,
+    "deletes": 0
+  },
+  {
+    "id": "d7c58719",
+    "author": "Jake Boraston",
+    "date": "2026-07-15T07:55:39Z",
+    "comment": "canvas app changes",
+    "adds": 0,
+    "edits": 15,
+    "deletes": 0
+  },
+  {
+    "id": "91220cb4",
+    "author": "Jake Boraston",
+    "date": "2026-07-15T07:55:37Z",
+    "comment": "canvas app changes",
+    "adds": 0,
+    "edits": 8,
+    "deletes": 1
+  },
+  {
+    "id": "c56f487a",
+    "author": "Jake Boraston",
+    "date": "2026-07-15T07:49:09Z",
+    "comment": "Fix Personal Details Report PDF conversion: use filename with extension",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "cdc97d18",
+    "author": "Jake Boraston",
+    "date": "2026-07-14T17:16:09Z",
+    "comment": "Re-apply urgent create-at-final fix and AppID case-link over 92b86eb",
+    "adds": 0,
+    "edits": 3,
+    "deletes": 0
+  },
+  {
+    "id": "92b86eb3",
+    "author": "Jake Boraston",
+    "date": "2026-07-14T17:06:14Z",
+    "comment": "flow 3-4 updates",
+    "adds": 0,
+    "edits": 5,
+    "deletes": 0
+  },
+  {
+    "id": "d61dfd44",
+    "author": "Jake Boraston",
+    "date": "2026-07-14T16:59:06Z",
+    "comment": "Flow 4 - create urgent/vulnerable intake at final status (fix duplicate cards)",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "86ab01e4",
+    "author": "Jake Boraston",
+    "date": "2026-07-14T10:07:21Z",
+    "comment": "Filter NPS survey flow client lookup instead of scanning all clients",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "b8640124",
+    "author": "Jake Boraston",
+    "date": "2026-07-13T16:39:48Z",
+    "comment": "Flow 3 - resolve case-link org dynamically, app id via env var",
+    "adds": 1,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "c4447447",
+    "author": "Jake Boraston",
+    "date": "2026-07-13T08:33:21Z",
+    "comment": "Guard timesheet billing flow against unmatched resource email",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "d74b2169",
+    "author": "Jake Boraston",
+    "date": "2026-07-10T14:23:59Z",
+    "comment": "Flow 3 - restyle outcome card (status banner, tick, single-body layout)",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "81375b68",
+    "author": "Jake Boraston",
+    "date": "2026-07-09T14:46:24Z",
+    "comment": "Flow 3 - fix blank request type on plain approve (coalesce vs empty string)",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "b5416f5c",
+    "author": "Jake Boraston",
+    "date": "2026-07-09T14:22:14Z",
+    "comment": "Flow 3 - correct UpdateCardInConversation param nesting to single body/",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "e1970add",
+    "author": "Jake Boraston",
+    "date": "2026-07-09T14:12:43Z",
+    "comment": "Flow 3 - apply corrected type to enquiry, single card, outcome card on action",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "86780ad1",
+    "author": "Jake Boraston",
+    "date": "2026-07-09T11:49:12Z",
+    "comment": "Flows 3 & 4 - build Graph draft bodies as objects, not spliced JSON strings",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "0de03e6e",
+    "author": "Jake Boraston",
+    "date": "2026-07-09T11:34:30Z",
+    "comment": "Flow 3 - add Urgent Phone Number env var and wire it to the ack template",
+    "adds": 1,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "75a2479a",
+    "author": "Jake Boraston",
+    "date": "2026-07-09T11:23:25Z",
+    "comment": "Flows 3 & 4 - align template token substitution to the {{...}} tokens",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "4e080819",
+    "author": "Jake Boraston",
+    "date": "2026-07-09T11:06:49Z",
+    "comment": "Flow 3 - show request type code + name, richer post-response message",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "4f02b19a",
+    "author": "Jake Boraston",
+    "date": "2026-07-09T10:56:33Z",
+    "comment": "Flows 3 & 4 - draft missing-info instead of send, drop greeting, categorise original",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "3412f981",
+    "author": "Jake Boraston",
+    "date": "2026-07-09T09:11:46Z",
+    "comment": "Flow 3 - request-type dropdown, reroute-by-email draft, shared-mailbox drafts, render-safe conditions",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "dc20d61b",
+    "author": "Jake Boraston",
+    "date": "2026-07-09T08:50:12Z",
+    "comment": "Flow 3 - interpolate approve-draft subject and body (@{} not bare @if)",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "4422c5ad",
+    "author": "Jake Boraston",
+    "date": "2026-07-09T08:17:10Z",
+    "comment": "Flow 3 - replace invalid createArray() with json('[]') in card v2",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "f06b946d",
+    "author": "Jake Boraston",
+    "date": "2026-07-09T08:00:50Z",
+    "comment": "Darach and system changes pull",
+    "adds": 1,
+    "edits": 6,
+    "deletes": 2
+  },
+  {
+    "id": "7016fea9",
+    "author": "Jake Boraston",
+    "date": "2026-07-09T07:51:24Z",
+    "comment": "Flow 3 - adaptive card v2 (per-decision sub-forms, links, in-Teams validation)",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "cf073ec3",
+    "author": "Jake Boraston",
+    "date": "2026-07-08T10:43:43Z",
+    "comment": "Flow 4 - handle Boolean ProductionSendEnabled in the send gate",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "7ef7d5a5",
+    "author": "Jake Boraston",
+    "date": "2026-07-08T10:18:19Z",
+    "comment": "Flow 4 - Get_RequestType selects scc_code, not scc_requesttypecode",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "cbac8e8a",
+    "author": "Jake Boraston",
+    "date": "2026-07-08T09:02:44Z",
+    "comment": "Darachs changes",
+    "adds": 3,
+    "edits": 9,
+    "deletes": 0
+  },
+  {
+    "id": "f9db91f2",
+    "author": "Jake Boraston",
+    "date": "2026-07-07T14:12:51Z",
+    "comment": "Flow 4 - guard Get_RequestType against enquiries with no request type",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "72b26446",
+    "author": "Jake Boraston",
+    "date": "2026-07-06T15:49:01Z",
+    "comment": "Flow 3 - Condition Already Surfaced renders a value",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "11301ab2",
+    "author": "Jake Boraston",
+    "date": "2026-07-06T15:09:41Z",
+    "comment": "Flow 3 - make Condition Already Surfaced render in the designer",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "d5197360",
+    "author": "Jake Boraston",
+    "date": "2026-07-06T14:34:51Z",
+    "comment": "Flow 4 - close spec gaps (alerts, reply counters, dup-send guard, concurrency)",
+    "adds": 0,
+    "edits": 3,
+    "deletes": 0
+  },
+  {
+    "id": "7a4f88d7",
+    "author": "Jake Boraston",
+    "date": "2026-07-06T14:11:49Z",
+    "comment": "Flow 4 - wire f2Completeness prompt into Completeness Core",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "8ff9118b",
+    "author": "Jake Boraston",
+    "date": "2026-07-06T13:30:47Z",
+    "comment": "Darach's updates and added AI Prompt F2 to soution, and updated connections",
+    "adds": 3,
+    "edits": 9,
+    "deletes": 1
+  },
+  {
+    "id": "efcfe7bc",
+    "author": "Jake Boraston",
+    "date": "2026-07-06T07:28:42Z",
+    "comment": "Flow 4 - set Completeness Core Office 365 connection to embedded",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "ef661287",
+    "author": "Jake Boraston",
+    "date": "2026-07-03T16:05:35Z",
+    "comment": "Various updates, flow 1, 2 , 3",
+    "adds": 6,
+    "edits": 7,
+    "deletes": 0
+  },
+  {
+    "id": "3fd591ee",
+    "author": "Jake Boraston",
+    "date": "2026-07-03T15:50:55Z",
+    "comment": "Flow 4 - correct shared-mailbox send parameter key",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "9737fafd",
+    "author": "Jake Boraston",
+    "date": "2026-07-03T15:45:09Z",
+    "comment": "Flow 4 - fix political write target and add Core response action",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "07dff4de",
+    "author": "Jake Boraston",
+    "date": "2026-07-03T15:21:23Z",
+    "comment": "Flow 4 - fix child-flow trigger inputs and caller mapping",
+    "adds": 0,
+    "edits": 3,
+    "deletes": 0
+  },
+  {
+    "id": "624eea76",
+    "author": "Jake Boraston",
+    "date": "2026-07-03T14:54:21Z",
+    "comment": "Flow 4 - rename flows to the Flow N naming convention",
+    "adds": 0,
+    "edits": 5,
+    "deletes": 0
+  },
+  {
+    "id": "4ae5154d",
+    "author": "Jake Boraston",
+    "date": "2026-07-03T14:31:23Z",
+    "comment": "F2 Flow 4 - completeness and intake state (WI 278)",
+    "adds": 8,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "9fc01920",
+    "author": "Jake Boraston",
+    "date": "2026-07-03T14:14:59Z",
+    "comment": "Updates to flow 1",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "936ea74a",
+    "author": "Jake Boraston",
+    "date": "2026-07-03T11:54:18Z",
+    "comment": "first commit for SCCF1 solution",
+    "adds": 700,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "2fd6dafd",
+    "author": "Jake Boraston",
+    "date": "2026-07-03T09:49:35Z",
+    "comment": "Creating new project folder Solutions/SCCF1Architecture",
+    "adds": 1,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "087a792e",
+    "author": "Jake Boraston",
+    "date": "2026-06-29T08:07:16Z",
+    "comment": "CBC progress: add per-day time totals for timesheets",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "1f79bae8",
+    "author": "Jake Boraston",
+    "date": "2026-06-29T07:44:44Z",
+    "comment": "CBC docs: daily-log progress doc, version history, user guides",
+    "adds": 4,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "58ffe4e5",
+    "author": "Jake Boraston",
+    "date": "2026-06-26T14:48:01Z",
+    "comment": "CBC: hide Work Queue person filter for non-admins",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "68d94bf3",
+    "author": "Jake Boraston",
+    "date": "2026-06-26T14:05:03Z",
+    "comment": "CBC: materialise rows in With() before Coalesce sort (kills delegation warnings)",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "0f8ba54a",
+    "author": "Jake Boraston",
+    "date": "2026-06-26T13:46:29Z",
+    "comment": "CBC: My Requests - sort by deadline, completed requests last",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "a9ed235c",
+    "author": "Jake Boraston",
+    "date": "2026-06-26T13:40:08Z",
+    "comment": "fixed env var issue",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "791f5924",
+    "author": "Jake Boraston",
+    "date": "2026-06-26T12:45:08Z",
+    "comment": "Merge: Fix for Employee Leave list errors",
+    "adds": 0,
+    "edits": 55,
+    "deletes": 0
+  },
+  {
+    "id": "195f9501",
+    "author": "Jake Boraston",
+    "date": "2026-06-26T12:45:07Z",
+    "comment": "Fix for Employee Leave list errors (3/3)",
+    "adds": 2,
+    "edits": 23,
+    "deletes": 0
+  },
+  {
+    "id": "70277f5f",
+    "author": "Jake Boraston",
+    "date": "2026-06-26T12:45:04Z",
+    "comment": "Fix for Employee Leave list errors (2/3)",
+    "adds": 10,
+    "edits": 11,
+    "deletes": 0
+  },
+  {
+    "id": "5daf755d",
+    "author": "Jake Boraston",
+    "date": "2026-06-26T12:45:00Z",
+    "comment": "Fix for Employee Leave list errors (1/3)",
+    "adds": 0,
+    "edits": 9,
+    "deletes": 12
+  },
+  {
+    "id": "9e30001b",
+    "author": "Jake Boraston",
+    "date": "2026-06-26T12:26:53Z",
+    "comment": "Add missing value records for renamed InformWay/InformHub env vars",
+    "adds": 2,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "18cee6ce",
+    "author": "Jake Boraston",
+    "date": "2026-06-26T12:08:40Z",
+    "comment": "Repoint Timesheetsapp env-var references after the InformWay/InformHub rename",
+    "adds": 0,
+    "edits": 5,
+    "deletes": 0
+  },
+  {
+    "id": "b73bc33a",
+    "author": "Jake Boraston",
+    "date": "2026-06-26T09:49:49Z",
+    "comment": "Fix Apply changes blanking Activity/Programme on My Timesheets",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "639abdfe",
+    "author": "Jake Boraston",
+    "date": "2026-06-26T09:33:36Z",
+    "comment": "Merge: first commit",
+    "adds": 136,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "673a9f3d",
+    "author": "Jake Boraston",
+    "date": "2026-06-26T09:33:36Z",
+    "comment": "first commit (3/3)",
+    "adds": 105,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "0a82826a",
+    "author": "Jake Boraston",
+    "date": "2026-06-26T09:33:29Z",
+    "comment": "first commit (2/3)",
+    "adds": 21,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "d71f2714",
+    "author": "Jake Boraston",
+    "date": "2026-06-26T09:33:26Z",
+    "comment": "first commit (1/3)",
+    "adds": 10,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "e44e9128",
+    "author": "Jake Boraston",
+    "date": "2026-06-26T09:06:55Z",
+    "comment": "removed references in multiple solutions to allow commit",
+    "adds": 0,
+    "edits": 4,
+    "deletes": 14
+  },
+  {
+    "id": "e6cf577a",
+    "author": "Jake Boraston",
+    "date": "2026-06-25T15:09:06Z",
+    "comment": "CBC: admin section heights, submit button, BC dates, scoped home cards",
+    "adds": 0,
+    "edits": 4,
+    "deletes": 0
+  },
+  {
+    "id": "be3e1711",
+    "author": "Jake Boraston",
+    "date": "2026-06-25T14:57:16Z",
+    "comment": "CBC: sort blank deadlines last on the board + My Requests",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "18faeb88",
+    "author": "Jake Boraston",
+    "date": "2026-06-25T14:52:22Z",
+    "comment": "Merge: app updates",
+    "adds": 0,
+    "edits": 18,
+    "deletes": 0
+  },
+  {
+    "id": "5d7e7c77",
+    "author": "Jake Boraston",
+    "date": "2026-06-25T14:52:21Z",
+    "comment": "app updates (2/2)",
+    "adds": 0,
+    "edits": 9,
+    "deletes": 0
+  },
+  {
+    "id": "73d1faa8",
+    "author": "Jake Boraston",
+    "date": "2026-06-25T14:52:18Z",
+    "comment": "app updates (1/2)",
+    "adds": 0,
+    "edits": 9,
+    "deletes": 0
+  },
+  {
+    "id": "7c7f8544",
+    "author": "Jake Boraston",
+    "date": "2026-06-25T09:10:48Z",
+    "comment": "Merge: app changes, updated on change of deadline date",
+    "adds": 0,
+    "edits": 19,
+    "deletes": 0
+  },
+  {
+    "id": "a3536db7",
+    "author": "Jake Boraston",
+    "date": "2026-06-25T09:10:46Z",
+    "comment": "app changes, updated on change of deadline date (2/2)",
+    "adds": 0,
+    "edits": 9,
+    "deletes": 0
+  },
+  {
+    "id": "247fc05e",
+    "author": "Jake Boraston",
+    "date": "2026-06-25T09:10:44Z",
+    "comment": "app changes, updated on change of deadline date (1/2)",
+    "adds": 0,
+    "edits": 10,
+    "deletes": 0
+  },
+  {
+    "id": "dd6db824",
+    "author": "Jake Boraston",
+    "date": "2026-06-25T08:34:35Z",
+    "comment": "CBC: keep deadline Comms-specific; make it editable post-creation",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "620a5041",
+    "author": "Jake Boraston",
+    "date": "2026-06-25T08:27:47Z",
+    "comment": "CBC: deadline as a date picker + always captured at intake",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "48a38ce8",
+    "author": "Jake Boraston",
+    "date": "2026-06-25T08:12:39Z",
+    "comment": "CBC: flex-height history cards + phase dropdown default",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "8f833118",
+    "author": "Jake Boraston",
+    "date": "2026-06-25T08:06:06Z",
+    "comment": "Merge: history and post update side pane",
+    "adds": 0,
+    "edits": 20,
+    "deletes": 0
+  },
+  {
+    "id": "a08cca0d",
+    "author": "Jake Boraston",
+    "date": "2026-06-25T08:06:05Z",
+    "comment": "history and post update side pane",
+    "adds": 0,
+    "edits": 11,
+    "deletes": 0
+  },
+  {
+    "id": "0dcbfa16",
+    "author": "Jake Boraston",
+    "date": "2026-06-25T08:06:02Z",
+    "comment": "history and post update side pane",
+    "adds": 0,
+    "edits": 9,
+    "deletes": 0
+  },
+  {
+    "id": "2c0bc475",
+    "author": "Jake Boraston",
+    "date": "2026-06-25T07:15:39Z",
+    "comment": "CBC: user updates, team status changes, phase auto-order, intake fix",
+    "adds": 0,
+    "edits": 4,
+    "deletes": 0
+  },
+  {
+    "id": "9d3066ec",
+    "author": "Jake Boraston",
+    "date": "2026-06-24T14:11:38Z",
+    "comment": "Merge: small app tweaks",
+    "adds": 0,
+    "edits": 21,
+    "deletes": 0
+  },
+  {
+    "id": "ecd728e4",
+    "author": "Jake Boraston",
+    "date": "2026-06-24T14:11:37Z",
+    "comment": "small app tweaks (2/2)",
+    "adds": 0,
+    "edits": 12,
+    "deletes": 0
+  },
+  {
+    "id": "e73ae695",
+    "author": "Jake Boraston",
+    "date": "2026-06-24T14:11:34Z",
+    "comment": "small app tweaks (1/2)",
+    "adds": 0,
+    "edits": 9,
+    "deletes": 0
+  },
+  {
+    "id": "40506d0b",
+    "author": "Jake Boraston",
+    "date": "2026-06-24T07:52:26Z",
+    "comment": "CBC: de-duplicate T-shirt size - single source in CBCSizing.Size",
+    "adds": 8,
+    "edits": 5,
+    "deletes": 0
+  },
+  {
+    "id": "59c7b532",
+    "author": "Jake Boraston",
+    "date": "2026-06-24T07:02:15Z",
+    "comment": "Merge: a few minor UI improvements",
+    "adds": 0,
+    "edits": 24,
+    "deletes": 0
+  },
+  {
+    "id": "120a3fad",
+    "author": "Jake Boraston",
+    "date": "2026-06-24T07:02:14Z",
+    "comment": "a few minor UI improvements (2/2)",
+    "adds": 0,
+    "edits": 13,
+    "deletes": 0
+  },
+  {
+    "id": "fa984a4e",
+    "author": "Jake Boraston",
+    "date": "2026-06-24T07:02:11Z",
+    "comment": "a few minor UI improvements (1/2)",
+    "adds": 0,
+    "edits": 11,
+    "deletes": 0
+  },
+  {
+    "id": "7cc51f71",
+    "author": "Jake Boraston",
+    "date": "2026-06-23T17:05:13Z",
+    "comment": "app changes",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "b05fd1cb",
+    "author": "Jake Boraston",
+    "date": "2026-06-23T16:57:38Z",
+    "comment": "CBC: add accessibility labels + tab stops across all screens",
+    "adds": 0,
+    "edits": 11,
+    "deletes": 0
+  },
+  {
+    "id": "83ba6fda",
+    "author": "Jake Boraston",
+    "date": "2026-06-23T16:09:11Z",
+    "comment": "CBC: make nfIsAdmin delegable + branch gallery filters by role",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "1f7c0ee0",
+    "author": "Jake Boraston",
+    "date": "2026-06-23T14:03:18Z",
+    "comment": "CBC: fix overscroll bar on My Requests chips",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "b5baa84a",
+    "author": "Jake Boraston",
+    "date": "2026-06-23T13:53:53Z",
+    "comment": "CBC: role-based view gating + quality-gate flow design",
+    "adds": 1,
+    "edits": 5,
+    "deletes": 0
+  },
+  {
+    "id": "16b474ff",
+    "author": "Jake Boraston",
+    "date": "2026-06-23T13:05:46Z",
+    "comment": "CBC: widen scroll gutter to 16, align all Work Queue galleries to Triaged",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "e0f38c22",
+    "author": "Jake Boraston",
+    "date": "2026-06-23T12:31:03Z",
+    "comment": "Merge: small changes",
+    "adds": 0,
+    "edits": 18,
+    "deletes": 0
+  },
+  {
+    "id": "b423d7fe",
+    "author": "Jake Boraston",
+    "date": "2026-06-23T12:31:02Z",
+    "comment": "small changes (2/2)",
+    "adds": 0,
+    "edits": 10,
+    "deletes": 0
+  },
+  {
+    "id": "1d338503",
+    "author": "Jake Boraston",
+    "date": "2026-06-23T12:30:59Z",
+    "comment": "small changes (1/2)",
+    "adds": 0,
+    "edits": 8,
+    "deletes": 0
+  },
+  {
+    "id": "b97e2b4d",
+    "author": "Jake Boraston",
+    "date": "2026-06-22T15:11:40Z",
+    "comment": "Rename cryptic With/ForAll variables to meaningful names",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "03a96b3d",
+    "author": "Jake Boraston",
+    "date": "2026-06-22T15:04:20Z",
+    "comment": "Merge: visual fixes",
+    "adds": 0,
+    "edits": 22,
+    "deletes": 0
+  },
+  {
+    "id": "2d826976",
+    "author": "Jake Boraston",
+    "date": "2026-06-22T15:04:19Z",
+    "comment": "visual fixes (2/2)",
+    "adds": 0,
+    "edits": 13,
+    "deletes": 0
+  },
+  {
+    "id": "c0be5771",
+    "author": "Jake Boraston",
+    "date": "2026-06-22T15:04:16Z",
+    "comment": "visual fixes (1/2)",
+    "adds": 0,
+    "edits": 9,
+    "deletes": 0
+  },
+  {
+    "id": "990c0cd9",
+    "author": "Jake Boraston",
+    "date": "2026-06-22T13:40:32Z",
+    "comment": "Intake people pickers: SearchUser (V1) -> SearchUserV2",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "f269b333",
+    "author": "Jake Boraston",
+    "date": "2026-06-22T13:12:39Z",
+    "comment": "Request detail: hydrate gblReq so all fields show",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "f0620a8f",
+    "author": "Jake Boraston",
+    "date": "2026-06-22T12:58:35Z",
+    "comment": "Admin: fix SearchUserV2/defaults, hydrate edit records, Set -> UpdateContext",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "8cef0e33",
+    "author": "Jake Boraston",
+    "date": "2026-06-22T12:25:59Z",
+    "comment": "Merge: form fixes",
+    "adds": 0,
+    "edits": 20,
+    "deletes": 0
+  },
+  {
+    "id": "c3556669",
+    "author": "Jake Boraston",
+    "date": "2026-06-22T12:25:58Z",
+    "comment": "form fixes (2/2)",
+    "adds": 0,
+    "edits": 9,
+    "deletes": 0
+  },
+  {
+    "id": "86b59980",
+    "author": "Jake Boraston",
+    "date": "2026-06-22T12:25:54Z",
+    "comment": "form fixes (1/2)",
+    "adds": 0,
+    "edits": 11,
+    "deletes": 0
+  },
+  {
+    "id": "5a36179a",
+    "author": "Jake Boraston",
+    "date": "2026-06-22T10:11:07Z",
+    "comment": "Docs: migration plan decisions confirmed (client DEV, unmanaged, data brought over)",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "b4a4a071",
+    "author": "Jake Boraston",
+    "date": "2026-06-22T10:04:19Z",
+    "comment": "Docs: add client tenant migration plan (runbook)",
+    "adds": 1,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "93808e8c",
+    "author": "Jake Boraston",
+    "date": "2026-06-22T10:02:53Z",
+    "comment": "BC Q16 + T Q13: add Comms only / Other choices; completes intake batch",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "af2dfdff",
+    "author": "Jake Boraston",
+    "date": "2026-06-22T09:59:54Z",
+    "comment": "Docs: catalogue categories maintained in-app, not a build task",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "b6f6696c",
+    "author": "Jake Boraston",
+    "date": "2026-06-22T09:50:06Z",
+    "comment": "Docs: Work Type now multi-select + 22 June milestone",
+    "adds": 0,
+    "edits": 3,
+    "deletes": 0
+  },
+  {
+    "id": "f76121b5",
+    "author": "Jake Boraston",
+    "date": "2026-06-22T09:47:55Z",
+    "comment": "Q9: Work Type as multi-select (combination = pick 2+)",
+    "adds": 0,
+    "edits": 4,
+    "deletes": 0
+  },
+  {
+    "id": "ee1ff4dd",
+    "author": "Jake Boraston",
+    "date": "2026-06-19T15:57:22Z",
+    "comment": "My Requests: flatten request card into native gallery controls",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "0500353e",
+    "author": "Jake Boraston",
+    "date": "2026-06-19T15:53:31Z",
+    "comment": "Merge: update to task view",
+    "adds": 2,
+    "edits": 16,
+    "deletes": 2
+  },
+  {
+    "id": "3b6f35e2",
+    "author": "Jake Boraston",
+    "date": "2026-06-19T15:53:30Z",
+    "comment": "update to task view (2/2)",
+    "adds": 0,
+    "edits": 9,
+    "deletes": 0
+  },
+  {
+    "id": "359c91fd",
+    "author": "Jake Boraston",
+    "date": "2026-06-19T15:53:27Z",
+    "comment": "update to task view (1/2)",
+    "adds": 2,
+    "edits": 7,
+    "deletes": 2
+  },
+  {
+    "id": "21eb4d72",
+    "author": "Jake Boraston",
+    "date": "2026-06-19T15:31:28Z",
+    "comment": "Remove shadows from the new Request detail field containers",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "fd917d9f",
+    "author": "Jake Boraston",
+    "date": "2026-06-19T14:47:51Z",
+    "comment": "Request detail: label + read-only inputs instead of concatenated text",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "94970fa0",
+    "author": "Jake Boraston",
+    "date": "2026-06-19T14:28:01Z",
+    "comment": "Merge: visual updates, new request button on home page and flex box wrapped the inputs on the forms.",
+    "adds": 0,
+    "edits": 23,
+    "deletes": 0
+  },
+  {
+    "id": "523ce887",
+    "author": "Jake Boraston",
+    "date": "2026-06-19T14:28:00Z",
+    "comment": "visual updates, new request button on home page and flex box wrapped the inputs on the forms. (2/2)",
+    "adds": 0,
+    "edits": 12,
+    "deletes": 0
+  },
+  {
+    "id": "0ea13ec3",
+    "author": "Jake Boraston",
+    "date": "2026-06-19T14:27:58Z",
+    "comment": "visual updates, new request button on home page and flex box wrapped the inputs on the forms. (1/2)",
+    "adds": 0,
+    "edits": 11,
+    "deletes": 0
+  },
+  {
+    "id": "e52c746d",
+    "author": "Jake Boraston",
+    "date": "2026-06-19T13:55:55Z",
+    "comment": "Docs: log 19 June catalogue additions, cascade fix and intake polish",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "4844a40c",
+    "author": "Jake Boraston",
+    "date": "2026-06-19T12:39:01Z",
+    "comment": "Reorder header nav to journey order",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "feca31d7",
+    "author": "Jake Boraston",
+    "date": "2026-06-19T09:50:48Z",
+    "comment": "Collapse supplier-name field unless external supplier = Yes",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "a5921b73",
+    "author": "Jake Boraston",
+    "date": "2026-06-19T09:40:12Z",
+    "comment": "Add headroom to branch heights so fields don't clip",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "22ff977f",
+    "author": "Jake Boraston",
+    "date": "2026-06-19T09:36:40Z",
+    "comment": "Fix cascade showing empty Sub-area/Detail dropdowns",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "71d4fb61",
+    "author": "Jake Boraston",
+    "date": "2026-06-18T16:11:52Z",
+    "comment": "Move Work Type into its own container below the Project section",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "b079d5c5",
+    "author": "Jake Boraston",
+    "date": "2026-06-18T10:50:45Z",
+    "comment": "Give every branch group + wrapper an explicit height",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "de7f1b99",
+    "author": "Jake Boraston",
+    "date": "2026-06-18T10:17:46Z",
+    "comment": "Fix branch containers clipping at fixed 72px height",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "ade8d76d",
+    "author": "Jake Boraston",
+    "date": "2026-06-18T08:53:13Z",
+    "comment": "Docs: reflect intake form reconciliation",
+    "adds": 0,
+    "edits": 3,
+    "deletes": 0
+  },
+  {
+    "id": "c0b99331",
+    "author": "Jake Boraston",
+    "date": "2026-06-18T08:51:43Z",
+    "comment": "Reconcile intake form to the cleaner requirements CSV",
+    "adds": 0,
+    "edits": 3,
+    "deletes": 0
+  },
+  {
+    "id": "78a72ec2",
+    "author": "Jake Boraston",
+    "date": "2026-06-17T12:53:08Z",
+    "comment": "Docs: add updated schema.dbml to CBC-Delivery as-built docs",
+    "adds": 1,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "fea4752e",
+    "author": "Jake Boraston",
+    "date": "2026-06-17T12:45:54Z",
+    "comment": "Docs: reflect intake form updates (Business Area, Work Type, supplier, comms only, cascade Other)",
+    "adds": 0,
+    "edits": 3,
+    "deletes": 0
+  },
+  {
+    "id": "ea7b1ac0",
+    "author": "Jake Boraston",
+    "date": "2026-06-17T12:43:12Z",
+    "comment": "Q16: add \"Comms only?\" Yes/No to the Business Change branch",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "9ddfe3eb",
+    "author": "Jake Boraston",
+    "date": "2026-06-17T12:03:58Z",
+    "comment": "Q7/Q8/Q13: free-text capture for \"Other\" in the project cascade",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "00e409c6",
+    "author": "Jake Boraston",
+    "date": "2026-06-17T09:18:03Z",
+    "comment": "Q9: rework Work Type - Combination (+ free text) and Not sure",
+    "adds": 0,
+    "edits": 3,
+    "deletes": 0
+  },
+  {
+    "id": "3a492f81",
+    "author": "Jake Boraston",
+    "date": "2026-06-17T09:02:44Z",
+    "comment": "Q17: capture external supplier + supplier name on intake",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "7fa8bf85",
+    "author": "Jake Boraston",
+    "date": "2026-06-17T08:42:00Z",
+    "comment": "Q3: show BusinessAreaOther free-text on Request detail when area = Other",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "b5849fec",
+    "author": "Jake Boraston",
+    "date": "2026-06-17T08:29:31Z",
+    "comment": "Q3: wire Business Area \"Other\" free-text into intake submit",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "03aa3d2f",
+    "author": "Jake Boraston",
+    "date": "2026-06-17T08:13:06Z",
+    "comment": "added BusinessAreaOther column to CBCRequests",
+    "adds": 0,
+    "edits": 19,
+    "deletes": 0
+  },
+  {
+    "id": "ab6190ab",
+    "author": "Jake Boraston",
+    "date": "2026-06-17T07:54:32Z",
+    "comment": "control rename drpIntakeBusinessAreaOther",
+    "adds": 0,
+    "edits": 22,
+    "deletes": 0
+  },
+  {
+    "id": "00483bcd",
+    "author": "Jake Boraston",
+    "date": "2026-06-15T13:46:19Z",
+    "comment": "Kanban cards: tokenise title/label size + label height",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "37285e56",
+    "author": "Jake Boraston",
+    "date": "2026-06-15T13:32:38Z",
+    "comment": "visual updates",
+    "adds": 0,
+    "edits": 21,
+    "deletes": 0
+  },
+  {
+    "id": "f51d9546",
+    "author": "Jake Boraston",
+    "date": "2026-06-15T13:09:39Z",
+    "comment": "Work queue Kanban: tidy card heights, 200px column min-width",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "703b319b",
+    "author": "Jake Boraston",
+    "date": "2026-06-15T12:46:37Z",
+    "comment": "Docs: site env var is now CBC-owned (CBC-SharePointSite)",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "fcd312b9",
+    "author": "Jake Boraston",
+    "date": "2026-06-15T12:43:23Z",
+    "comment": "Restore Kanban Work queue (reverted by the env-var commit)",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "9cbc05b4",
+    "author": "Jake Boraston",
+    "date": "2026-06-15T12:39:07Z",
+    "comment": "env var updates",
+    "adds": 1,
+    "edits": 30,
+    "deletes": 1
+  },
+  {
+    "id": "29a862fa",
+    "author": "Jake Boraston",
+    "date": "2026-06-15T12:24:43Z",
+    "comment": "Work queue: Kanban board (five stage columns), supported pattern",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "4e635212",
+    "author": "Jake Boraston",
+    "date": "2026-06-15T09:36:39Z",
+    "comment": "Docs: add stakeholder-questions list; tidy Overview known limitations",
+    "adds": 1,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "90be18e0",
+    "author": "Jake Boraston",
+    "date": "2026-06-15T08:23:04Z",
+    "comment": "first commit for OperationsApp",
+    "adds": 48,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "a2d0ec26",
+    "author": "Jake Boraston",
+    "date": "2026-06-15T08:22:48Z",
+    "comment": "Merge: first commit for ClientManagementApp",
+    "adds": 85,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "e1f697af",
+    "author": "Jake Boraston",
+    "date": "2026-06-15T08:22:47Z",
+    "comment": "first commit for ClientManagementApp (2/2)",
+    "adds": 63,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "08f0bbfb",
+    "author": "Jake Boraston",
+    "date": "2026-06-15T08:22:42Z",
+    "comment": "first commit for ClientManagementApp (1/2)",
+    "adds": 22,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "c787357f",
+    "author": "Jake Boraston",
+    "date": "2026-06-15T08:22:26Z",
+    "comment": "Timesheets Reminder",
+    "adds": 13,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "62a3527a",
+    "author": "Jake Boraston",
+    "date": "2026-06-15T08:22:10Z",
+    "comment": "Creating new project folder Solutions/OperationsApp",
+    "adds": 1,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "2a7eb2d8",
+    "author": "Jake Boraston",
+    "date": "2026-06-15T08:22:02Z",
+    "comment": "Creating new project folder Solutions/ClientManagementApp",
+    "adds": 1,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "6a20fe93",
+    "author": "Jake Boraston",
+    "date": "2026-06-15T08:21:53Z",
+    "comment": "Creating new project folder Solutions/Timesheets",
+    "adds": 1,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "8eaea38e",
+    "author": "Jake Boraston",
+    "date": "2026-06-15T08:19:49Z",
+    "comment": "Creating new project folder Solutions/Timesheetsapp",
+    "adds": 1,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "79ac05d3",
+    "author": "Jake Boraston",
+    "date": "2026-06-15T08:19:15Z",
+    "comment": "first commit for Appraisals",
+    "adds": 51,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "a245b07e",
+    "author": "Jake Boraston",
+    "date": "2026-06-15T07:59:11Z",
+    "comment": "first commit for Inform Component Library",
+    "adds": 46,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "fae02189",
+    "author": "Jake Boraston",
+    "date": "2026-06-15T07:58:44Z",
+    "comment": "Creating new project folder Solutions/InformComponentLibrary",
+    "adds": 1,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "c2a7a36a",
+    "author": "Jake Boraston",
+    "date": "2026-06-15T07:58:33Z",
+    "comment": "first commit for Day rates",
+    "adds": 10,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "fd2ea6d1",
+    "author": "Jake Boraston",
+    "date": "2026-06-15T07:58:14Z",
+    "comment": "first commit for development tools",
+    "adds": 42,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "ae67495e",
+    "author": "Jake Boraston",
+    "date": "2026-06-15T07:57:30Z",
+    "comment": "Creating new project folder Solutions/Appraisals",
+    "adds": 1,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "4fd6c234",
+    "author": "Jake Boraston",
+    "date": "2026-06-15T07:57:24Z",
+    "comment": "Creating new project folder Solutions/Dayrates",
+    "adds": 1,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "dfdd942c",
+    "author": "Jake Boraston",
+    "date": "2026-06-15T07:57:16Z",
+    "comment": "Creating new project folder Solutions/Developmenttools",
+    "adds": 1,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "38b3a6cd",
+    "author": "Jake Boraston",
+    "date": "2026-06-15T07:56:23Z",
+    "comment": "Merge: first commit for Inform Management",
+    "adds": 163,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "8ca26796",
+    "author": "Jake Boraston",
+    "date": "2026-06-15T07:56:22Z",
+    "comment": "first commit for Inform Management",
+    "adds": 125,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "8c3e52a0",
+    "author": "Jake Boraston",
+    "date": "2026-06-15T07:56:14Z",
+    "comment": "first commit for Inform Management",
+    "adds": 14,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "681a5c82",
+    "author": "Jake Boraston",
+    "date": "2026-06-15T07:56:11Z",
+    "comment": "first commit for Inform Management",
+    "adds": 7,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "e8039676",
+    "author": "Jake Boraston",
+    "date": "2026-06-15T07:56:09Z",
+    "comment": "first commit for Inform Management",
+    "adds": 6,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "d69ade14",
+    "author": "Jake Boraston",
+    "date": "2026-06-15T07:56:07Z",
+    "comment": "first commit for Inform Management",
+    "adds": 4,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "02b34004",
+    "author": "Jake Boraston",
+    "date": "2026-06-15T07:56:05Z",
+    "comment": "first commit for Inform Management",
+    "adds": 7,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "4870e6d3",
+    "author": "Jake Boraston",
+    "date": "2026-06-15T07:55:48Z",
+    "comment": "first commit for Resource Management",
+    "adds": 65,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "72fb839b",
+    "author": "Jake Boraston",
+    "date": "2026-06-15T07:55:48Z",
+    "comment": "Merge: first commit for Resource Management",
+    "adds": 77,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "b0c09a60",
+    "author": "Jake Boraston",
+    "date": "2026-06-15T07:55:43Z",
+    "comment": "first commit for Resource Management",
+    "adds": 12,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "22fb750a",
+    "author": "Jake Boraston",
+    "date": "2026-06-15T07:55:39Z",
+    "comment": "Merge: first commit for My Inform Mobile App",
+    "adds": 122,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "46efb78d",
+    "author": "Jake Boraston",
+    "date": "2026-06-15T07:55:38Z",
+    "comment": "first commit for My Inform Mobile App",
+    "adds": 99,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "92926d2b",
+    "author": "Jake Boraston",
+    "date": "2026-06-15T07:55:33Z",
+    "comment": "first commit for My Inform Mobile App",
+    "adds": 23,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "ec6e4317",
+    "author": "Jake Boraston",
+    "date": "2026-06-15T07:55:10Z",
+    "comment": "Creating new project folder Solutions/ResourceManagement",
+    "adds": 1,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "b43fc58e",
+    "author": "Jake Boraston",
+    "date": "2026-06-15T07:55:02Z",
+    "comment": "Creating new project folder Solutions/InformManagement",
+    "adds": 1,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "86d67b1a",
+    "author": "Jake Boraston",
+    "date": "2026-06-15T07:54:55Z",
+    "comment": "Creating new project folder Solutions/MyInformMobileApp",
+    "adds": 1,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "69634b93",
+    "author": "Jake Boraston",
+    "date": "2026-06-15T07:54:48Z",
+    "comment": "first commit for Error Tracking",
+    "adds": 41,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "4212f92e",
+    "author": "Jake Boraston",
+    "date": "2026-06-15T07:54:43Z",
+    "comment": "first commit for Data Management",
+    "adds": 124,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "b6826a8f",
+    "author": "Jake Boraston",
+    "date": "2026-06-15T07:54:03Z",
+    "comment": "first commit for Create Studio Azure DevOps",
+    "adds": 16,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "57e57147",
+    "author": "Jake Boraston",
+    "date": "2026-06-15T07:50:39Z",
+    "comment": "Creating new project folder Solutions/creativeStudioAzureDevOps",
+    "adds": 1,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "a0b33968",
+    "author": "Jake Boraston",
+    "date": "2026-06-15T07:49:09Z",
+    "comment": "Creating new project folder Solutions/DataManagement",
+    "adds": 1,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "b31971fb",
+    "author": "Jake Boraston",
+    "date": "2026-06-15T07:46:00Z",
+    "comment": "Creating new project folder Solutions/ErrorTracking",
+    "adds": 1,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "a29cf66e",
+    "author": "Jake Boraston",
+    "date": "2026-06-15T07:40:06Z",
+    "comment": "first commit for New Starter Process",
+    "adds": 48,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "f7901ed4",
+    "author": "Jake Boraston",
+    "date": "2026-06-15T07:35:08Z",
+    "comment": "Creating new project folder Solutions/NewStarterProcess",
+    "adds": 1,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "17e5dd7f",
+    "author": "Jake Boraston",
+    "date": "2026-06-15T07:32:15Z",
+    "comment": "first commit for Annual Leave",
+    "adds": 78,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "0c7932ae",
+    "author": "Jake Boraston",
+    "date": "2026-06-15T07:30:13Z",
+    "comment": "Creating new project folder Solutions/AnnualLeave",
+    "adds": 1,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "7960c372",
+    "author": "Jake Boraston",
+    "date": "2026-06-15T07:30:02Z",
+    "comment": "first commit for Microsoft Funding Friend",
+    "adds": 51,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "dc7c7123",
+    "author": "Jake Boraston",
+    "date": "2026-06-15T07:29:30Z",
+    "comment": "first commit for Security Checks",
+    "adds": 13,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "be6f7cd5",
+    "author": "Jake Boraston",
+    "date": "2026-06-15T07:29:14Z",
+    "comment": "first commit for Website",
+    "adds": 10,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "c6449539",
+    "author": "Jake Boraston",
+    "date": "2026-06-15T07:28:55Z",
+    "comment": "Creating new project folder Solutions/MicrosoftFundingFriend",
+    "adds": 1,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "ea596272",
+    "author": "Jake Boraston",
+    "date": "2026-06-15T07:28:47Z",
+    "comment": "Creating new project folder Solutions/SecurityChecks",
+    "adds": 1,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "bc9bcf41",
+    "author": "Jake Boraston",
+    "date": "2026-06-15T07:28:37Z",
+    "comment": "Creating new project folder Solutions/Website",
+    "adds": 1,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "605dd16a",
+    "author": "Jake Boraston",
+    "date": "2026-06-15T07:27:52Z",
+    "comment": "first commit for Platform Analytics",
+    "adds": 9,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "36f4c618",
+    "author": "Jake Boraston",
+    "date": "2026-06-15T07:27:47Z",
+    "comment": "fist commit for ObjectiveIQ",
+    "adds": 64,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "b9bed89b",
+    "author": "Jake Boraston",
+    "date": "2026-06-15T07:27:20Z",
+    "comment": "Creating new project folder Solutions/PlatformAnalytics",
+    "adds": 1,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "46960a32",
+    "author": "Jake Boraston",
+    "date": "2026-06-15T07:26:52Z",
+    "comment": "Creating new project folder Solutions/ObjectiveIQ",
+    "adds": 1,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "fe771782",
+    "author": "Jake Boraston",
+    "date": "2026-06-15T07:25:47Z",
+    "comment": "first commit for CBC",
+    "adds": 68,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "7dee1f24",
+    "author": "Jake Boraston",
+    "date": "2026-06-15T07:24:48Z",
+    "comment": "Creating new project folder Solutions/CBC",
+    "adds": 1,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "bd320381",
+    "author": "Jake Boraston",
+    "date": "2026-06-15T07:22:29Z",
+    "comment": "Deleted Solutions - moving to other git integration mode",
+    "adds": 0,
+    "edits": 0,
+    "deletes": 612
+  },
+  {
+    "id": "74047111",
+    "author": "Jake Boraston",
+    "date": "2026-06-12T15:57:28Z",
+    "comment": "Reports & capacity: same date-match fix as the Capacity grid",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "1521c898",
+    "author": "Jake Boraston",
+    "date": "2026-06-12T15:54:53Z",
+    "comment": "Fix Capacity grid showing 0: match on Title key, not the date",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "b64c46f3",
+    "author": "Jake Boraston",
+    "date": "2026-06-12T15:48:50Z",
+    "comment": "Docs: reflect the Admin area in the Overview + Version History",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "75fc4f99",
+    "author": "Jake Boraston",
+    "date": "2026-06-12T15:42:26Z",
+    "comment": "Admin: drop redundant \"Administration\" heading; fix Capacity grid height",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "761ac21f",
+    "author": "Jake Boraston",
+    "date": "2026-06-12T15:35:38Z",
+    "comment": "Admin: Capacity month-grid editor",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "3ffde1db",
+    "author": "Jake Boraston",
+    "date": "2026-06-12T15:20:55Z",
+    "comment": "Request detail dropdowns: fix blank-display of stored choice",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "4224d8b3",
+    "author": "Jake Boraston",
+    "date": "2026-06-12T15:18:55Z",
+    "comment": "Admin dropdowns: bind Default to the choice object so selection shows",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "2d20e587",
+    "author": "Jake Boraston",
+    "date": "2026-06-12T15:08:37Z",
+    "comment": "Fix Sizing gallery sort: choice column can't be SortByColumns",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "8af20da0",
+    "author": "Jake Boraston",
+    "date": "2026-06-12T15:03:17Z",
+    "comment": "Admin: Projects, Phases and Sizing editors",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "4a432f46",
+    "author": "Jake Boraston",
+    "date": "2026-06-12T14:48:56Z",
+    "comment": "Admin Team editor: Office 365 people picker instead of manual name/email",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "eff21776",
+    "author": "Jake Boraston",
+    "date": "2026-06-12T14:48:56Z",
+    "comment": "Docs: add no-script SharePoint lists build guide",
+    "adds": 1,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "601076a0",
+    "author": "Jake Boraston",
+    "date": "2026-06-12T14:41:46Z",
+    "comment": "office 365 added",
+    "adds": 2,
+    "edits": 21,
+    "deletes": 1
+  },
+  {
+    "id": "94c70adc",
+    "author": "Jake Boraston",
+    "date": "2026-06-12T14:32:30Z",
+    "comment": "Admin Team editor: fix split-panel height (form was clipped)",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "3bfd007c",
+    "author": "Jake Boraston",
+    "date": "2026-06-12T14:21:48Z",
+    "comment": "Fix Admin.pa.yaml parse error (PA1001): colon-space in string literal",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "be289b31",
+    "author": "Jake Boraston",
+    "date": "2026-06-12T14:17:43Z",
+    "comment": "Admin area (Phase A): gated nav + Team members editor",
+    "adds": 1,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "2683e69a",
+    "author": "Jake Boraston",
+    "date": "2026-06-12T13:26:44Z",
+    "comment": "Progress doc: correct Phase 4 (2 docs not 10) and env var detail",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "a4a07cbd",
+    "author": "Jake Boraston",
+    "date": "2026-06-12T13:24:50Z",
+    "comment": "Docs: add CBC Delivery solution overview + version history",
+    "adds": 2,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "5d49e2ab",
+    "author": "Jake Boraston",
+    "date": "2026-06-12T11:15:10Z",
+    "comment": "Doc: release is a client-tenant migration, not internal ALM",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "eb8edc1d",
+    "author": "Jake Boraston",
+    "date": "2026-06-12T11:06:19Z",
+    "comment": "Progress doc: bring current (Phase 3 - reporting, delegation, polish)",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "e6f86f67",
+    "author": "Jake Boraston",
+    "date": "2026-06-12T10:37:14Z",
+    "comment": "Text sizing, and component updates",
+    "adds": 4,
+    "edits": 30,
+    "deletes": 0
+  },
+  {
+    "id": "aca80933",
+    "author": "Jake Boraston",
+    "date": "2026-06-12T09:50:26Z",
+    "comment": "Delegable person filter; Home stat cards -> ModernCard with accent tints",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "99ddfcd0",
+    "author": "Jake Boraston",
+    "date": "2026-06-12T09:37:34Z",
+    "comment": "further update to form fields",
+    "adds": 0,
+    "edits": 17,
+    "deletes": 0
+  },
+  {
+    "id": "07d0920d",
+    "author": "Jake Boraston",
+    "date": "2026-06-12T09:25:50Z",
+    "comment": "small updates to the form view",
+    "adds": 0,
+    "edits": 20,
+    "deletes": 0
+  },
+  {
+    "id": "52c501b8",
+    "author": "Jake Boraston",
+    "date": "2026-06-12T07:25:06Z",
+    "comment": "Fix gallery card width flicker: reference gallery by name, not Parent",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "1c7bf2d2",
+    "author": "Jake Boraston",
+    "date": "2026-06-11T16:54:18Z",
+    "comment": "Reports: load collections on OnVisible, point aggregates at them (no delegation)",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "57a01d67",
+    "author": "Jake Boraston",
+    "date": "2026-06-11T16:46:18Z",
+    "comment": "spacing updates",
+    "adds": 0,
+    "edits": 20,
+    "deletes": 0
+  },
+  {
+    "id": "a571565b",
+    "author": "Jake Boraston",
+    "date": "2026-06-11T16:26:18Z",
+    "comment": "Reports: fix Align.End/Start -> Right/Left; move capacity section to top",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "2087697a",
+    "author": "Jake Boraston",
+    "date": "2026-06-11T16:21:32Z",
+    "comment": "Fix scrReports: add Variant: Vertical to capacity gallery (PA1011)",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "12a3af46",
+    "author": "Jake Boraston",
+    "date": "2026-06-11T16:16:11Z",
+    "comment": "Fix scrReports parse error: block scalars for With() capacity formulas",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "836091cb",
+    "author": "Jake Boraston",
+    "date": "2026-06-11T16:12:26Z",
+    "comment": "Progress doc: reporting screen complete (v1)",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "e58e8044",
+    "author": "Jake Boraston",
+    "date": "2026-06-11T16:09:15Z",
+    "comment": "Reports: team capacity gallery",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "7b7aef61",
+    "author": "Jake Boraston",
+    "date": "2026-06-11T16:01:04Z",
+    "comment": "Reports: add Throughput + by-work-type + by-priority sections",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "39e11c61",
+    "author": "Jake Boraston",
+    "date": "2026-06-11T15:55:08Z",
+    "comment": "updates reports component to flexible height",
+    "adds": 7,
+    "edits": 17,
+    "deletes": 3
+  },
+  {
+    "id": "9009de2f",
+    "author": "Jake Boraston",
+    "date": "2026-06-11T15:46:41Z",
+    "comment": "scrReports pipeline: flexible-height container + wrap (per Jake)",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "ca7828aa",
+    "author": "Jake Boraston",
+    "date": "2026-06-11T15:43:03Z",
+    "comment": "scrReports pipeline layout: flex tiles into one row",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "e9595361",
+    "author": "Jake Boraston",
+    "date": "2026-06-11T15:36:45Z",
+    "comment": "Reporting screen (Phase 1): scrReports + Pipeline section; Reports nav",
+    "adds": 1,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "b91d4ad3",
+    "author": "Jake Boraston",
+    "date": "2026-06-11T15:23:43Z",
+    "comment": "Progress doc: component set complete",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "23a714ea",
+    "author": "Jake Boraston",
+    "date": "2026-06-11T15:22:58Z",
+    "comment": "Wire components: cmpRequestCard into both galleries; cmpChip on Request Detail",
+    "adds": 0,
+    "edits": 3,
+    "deletes": 0
+  },
+  {
+    "id": "d0d94f30",
+    "author": "Jake Boraston",
+    "date": "2026-06-11T15:19:10Z",
+    "comment": "Fixes: cmpRequestCard chips-row shadow off; Home welcome text padding 0",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "8ebdf7f6",
+    "author": "Jake Boraston",
+    "date": "2026-06-11T15:14:48Z",
+    "comment": "Fix cmpRequestCard: flatten chips (canvas components can't nest)",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "ad19fdac",
+    "author": "Jake Boraston",
+    "date": "2026-06-11T15:12:14Z",
+    "comment": "cmpRequestCard component (nests cmpChip x3) - unused, for verification",
+    "adds": 1,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "d4a2eaff",
+    "author": "Jake Boraston",
+    "date": "2026-06-11T15:10:19Z",
+    "comment": "cmpStatCard component + 4 instances on Home",
+    "adds": 1,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "b20ccdf8",
+    "author": "Jake Boraston",
+    "date": "2026-06-11T14:54:34Z",
+    "comment": "cmpChip: remove top/bottom padding (ModernText overscroll); add progress + capacity docs",
+    "adds": 2,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "62dca59c",
+    "author": "Jake Boraston",
+    "date": "2026-06-11T14:50:53Z",
+    "comment": "Test: author cmpChip component from scratch (Src + metadata only)",
+    "adds": 1,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "49007848",
+    "author": "Jake Boraston",
+    "date": "2026-06-11T14:43:07Z",
+    "comment": "Naming convention: Intake form controls -> convention",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "a8c786ad",
+    "author": "Jake Boraston",
+    "date": "2026-06-11T14:30:08Z",
+    "comment": "Header component: roll cmpHeader instance onto WorkQueue/MyRequests/Intake",
+    "adds": 0,
+    "edits": 3,
+    "deletes": 0
+  },
+  {
+    "id": "a5cd38f8",
+    "author": "Jake Boraston",
+    "date": "2026-06-11T14:16:46Z",
+    "comment": "Header component update",
+    "adds": 1,
+    "edits": 15,
+    "deletes": 1
+  },
+  {
+    "id": "8847cd18",
+    "author": "Jake Boraston",
+    "date": "2026-06-11T14:09:31Z",
+    "comment": "Header component: build header into Component1, instance on Home",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "bedb82ee",
+    "author": "Jake Boraston",
+    "date": "2026-06-11T14:02:13Z",
+    "comment": "component access app scope on",
+    "adds": 0,
+    "edits": 6,
+    "deletes": 0
+  },
+  {
+    "id": "efb7c0ad",
+    "author": "Jake Boraston",
+    "date": "2026-06-11T13:27:09Z",
+    "comment": "mock component for Claude to check out",
+    "adds": 3,
+    "edits": 13,
+    "deletes": 0
+  },
+  {
+    "id": "79c2602d",
+    "author": "Jake Boraston",
+    "date": "2026-06-11T13:20:27Z",
+    "comment": "Naming convention: MyRequests controls -> convention",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "5e8f1411",
+    "author": "Jake Boraston",
+    "date": "2026-06-11T13:15:53Z",
+    "comment": "Naming convention: WorkQueue controls -> convention",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "9cfa3b99",
+    "author": "Jake Boraston",
+    "date": "2026-06-11T13:11:55Z",
+    "comment": "InformWork toggle defaults on (Checked = InformWork <> \"No\")",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "fb81145c",
+    "author": "Jake Boraston",
+    "date": "2026-06-11T13:11:54Z",
+    "comment": "Naming convention: Home controls -> con/lbl/btn + Home + Role",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "b0e63e28",
+    "author": "Jake Boraston",
+    "date": "2026-06-11T13:06:21Z",
+    "comment": "small updates to font sizing and added label to stage filter",
+    "adds": 0,
+    "edits": 15,
+    "deletes": 0
+  },
+  {
+    "id": "0a0a0e85",
+    "author": "Jake Boraston",
+    "date": "2026-06-11T12:51:50Z",
+    "comment": "Rename test: hSub -> lblHomeSubtitle (Src only)",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "2d6f7f57",
+    "author": "Jake Boraston",
+    "date": "2026-06-11T12:49:34Z",
+    "comment": "first commit for Operations App",
+    "adds": 4,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "677e6b24",
+    "author": "Jake Boraston",
+    "date": "2026-06-11T12:49:17Z",
+    "comment": "first commit for Client Management App",
+    "adds": 4,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "29aab377",
+    "author": "Jake Boraston",
+    "date": "2026-06-11T12:49:01Z",
+    "comment": "first commit for Timesheets Reminder",
+    "adds": 12,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "036e1e72",
+    "author": "Jake Boraston",
+    "date": "2026-06-11T12:47:51Z",
+    "comment": "Merge: first commit for My Inform",
+    "adds": 118,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "19de5e7d",
+    "author": "Jake Boraston",
+    "date": "2026-06-11T12:47:50Z",
+    "comment": "first commit for My Inform (3/3)",
+    "adds": 88,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "d9e177d1",
+    "author": "Jake Boraston",
+    "date": "2026-06-11T12:47:44Z",
+    "comment": "first commit for My Inform (2/3)",
+    "adds": 20,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "6cefc9ee",
+    "author": "Jake Boraston",
+    "date": "2026-06-11T12:47:40Z",
+    "comment": "first commit for My Inform (1/3)",
+    "adds": 10,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "5bf3630b",
+    "author": "Jake Boraston",
+    "date": "2026-06-11T12:47:07Z",
+    "comment": "first commit for Inform Component Library",
+    "adds": 46,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "46cc0ee9",
+    "author": "Jake Boraston",
+    "date": "2026-06-11T12:46:52Z",
+    "comment": "first commit for Appraisals",
+    "adds": 48,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "47ffbee2",
+    "author": "Jake Boraston",
+    "date": "2026-06-11T12:46:24Z",
+    "comment": "first commit for Day rates",
+    "adds": 9,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "7dfe1819",
+    "author": "Jake Boraston",
+    "date": "2026-06-11T12:46:11Z",
+    "comment": "first commit for Development tools",
+    "adds": 41,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "39ae3e8e",
+    "author": "Jake Boraston",
+    "date": "2026-06-11T12:45:54Z",
+    "comment": "commit for Resource Management",
+    "adds": 4,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "1f30de5a",
+    "author": "Jake Boraston",
+    "date": "2026-06-11T12:45:38Z",
+    "comment": "commit for Inform Management",
+    "adds": 4,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "67d37bf3",
+    "author": "Jake Boraston",
+    "date": "2026-06-11T12:45:20Z",
+    "comment": "first commit for My Inform Mobile App",
+    "adds": 4,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "d29dff20",
+    "author": "Jake Boraston",
+    "date": "2026-06-11T12:44:41Z",
+    "comment": "first commit for Creative Studio Azure DevOps",
+    "adds": 16,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "e168d451",
+    "author": "Jake Boraston",
+    "date": "2026-06-11T12:44:15Z",
+    "comment": "first commit for DataManagement",
+    "adds": 4,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "e990351b",
+    "author": "Jake Boraston",
+    "date": "2026-06-11T12:43:42Z",
+    "comment": "first commit for Error Trakcking",
+    "adds": 40,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "2df923ad",
+    "author": "Jake Boraston",
+    "date": "2026-06-11T12:43:22Z",
+    "comment": "first commit for AgentTesting",
+    "adds": 38,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "6ab42246",
+    "author": "Jake Boraston",
+    "date": "2026-06-11T12:43:04Z",
+    "comment": "first commit for New Starter Process",
+    "adds": 4,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "caecd768",
+    "author": "Jake Boraston",
+    "date": "2026-06-11T12:41:56Z",
+    "comment": "first commit for annual leave",
+    "adds": 4,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "1cf9e87c",
+    "author": "Jake Boraston",
+    "date": "2026-06-11T12:41:21Z",
+    "comment": "first commit for Funding Friend Agent",
+    "adds": 49,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "cebac584",
+    "author": "Jake Boraston",
+    "date": "2026-06-11T12:38:54Z",
+    "comment": "first Commit for SecutiryChecks solution",
+    "adds": 13,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "ac5ae93e",
+    "author": "Jake Boraston",
+    "date": "2026-06-11T12:38:32Z",
+    "comment": "First commit for Website solution",
+    "adds": 10,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "80263303",
+    "author": "Jake Boraston",
+    "date": "2026-06-11T12:38:05Z",
+    "comment": "First commit for Platform Analysis",
+    "adds": 9,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "b3827f9e",
+    "author": "Jake Boraston",
+    "date": "2026-06-11T12:37:26Z",
+    "comment": "first commit for Objective IQ",
+    "adds": 62,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "a91d4d3b",
+    "author": "Jake Boraston",
+    "date": "2026-06-11T12:35:29Z",
+    "comment": "Show InformWork toggle on triage panel; revert sync-test text",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "a1b5d211",
+    "author": "Jake Boraston",
+    "date": "2026-06-11T12:30:08Z",
+    "comment": "Sync test: append (sync test) to Home subtitle",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "5944c395",
+    "author": "Jake Boraston",
+    "date": "2026-06-11T12:25:58Z",
+    "comment": "App updates",
+    "adds": 2,
+    "edits": 18,
+    "deletes": 0
+  },
+  {
+    "id": "cc6d173f",
+    "author": "Jake Boraston",
+    "date": "2026-06-11T12:15:34Z",
+    "comment": "added env vars",
+    "adds": 20,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "30ed5932",
+    "author": "Jake Boraston",
+    "date": "2026-06-11T12:14:46Z",
+    "comment": "first commit",
+    "adds": 29,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "2f6a2ac7",
+    "author": "Jake Boraston",
+    "date": "2026-06-11T12:09:04Z",
+    "comment": "Added README.md",
+    "adds": 1,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "435592b1",
+    "author": "Jake Boraston",
+    "date": "2026-06-11T12:07:05Z",
+    "comment": "Added README.md",
+    "adds": 1,
+    "edits": 0,
+    "deletes": 0
+  }
+]

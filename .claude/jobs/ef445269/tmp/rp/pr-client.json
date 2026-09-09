@@ -1,0 +1,605 @@
+[
+  {
+    "id": 141,
+    "title": "Ofgem agents: agent flow activation gate and environment funding findings",
+    "status": "active",
+    "created": "2026-09-01T21:49:45.9185874Z",
+    "by": "Thomas Capaldi",
+    "reviewers": [],
+    "source": "ofgem/agent-flow-activation-funding",
+    "target": "main"
+  },
+  {
+    "id": 140,
+    "title": "UCD Librarian: export, intake form and assessment; Late Data Entry-set grader fix",
+    "status": "completed",
+    "created": "2026-09-01T11:31:03.3002292Z",
+    "closed": "2026-09-02T09:48:42.7325857Z",
+    "by": "Jake Boraston",
+    "reviewers": [],
+    "source": "JakeDEV",
+    "target": "main"
+  },
+  {
+    "id": 139,
+    "title": "ALM rollback runbook: desk review corrections, and the route challenged",
+    "status": "completed",
+    "created": "2026-09-01T10:13:17.6600993Z",
+    "closed": "2026-09-01T17:47:45.9770182Z",
+    "by": "Thomas Capaldi",
+    "reviewers": [],
+    "source": "ofgem/alm-rollback-review",
+    "target": "main"
+  },
+  {
+    "id": 138,
+    "title": "Ofgem agents: Production release notes for Late Data, FIT and EE Insights",
+    "status": "completed",
+    "created": "2026-08-28T19:02:39.0581078Z",
+    "closed": "2026-08-31T10:39:02.6559284Z",
+    "by": "Thomas Capaldi",
+    "reviewers": [
+      "Thomas Capaldi"
+    ],
+    "source": "ofgem/agent-release-notes",
+    "target": "main"
+  },
+  {
+    "id": 137,
+    "title": "Late Data Agent: evaluation sets for the conversational contract",
+    "status": "completed",
+    "created": "2026-08-28T14:27:07.2924081Z",
+    "closed": "2026-08-28T14:28:37.1952802Z",
+    "by": "Jake Boraston",
+    "reviewers": [],
+    "source": "ofgem/latedata-evaluation-sets",
+    "target": "main"
+  },
+  {
+    "id": 136,
+    "title": "E&E Insights: evaluation sets, and the confirmed test-set source schema",
+    "status": "completed",
+    "created": "2026-08-28T12:24:00.0588753Z",
+    "closed": "2026-08-28T12:27:33.2304734Z",
+    "by": "Jake Boraston",
+    "reviewers": [],
+    "source": "ofgem/ee-evaluation-sets",
+    "target": "main"
+  },
+  {
+    "id": 135,
+    "title": "Ofgem agents: E&E and LateData solution exports, eval-set-as-source proof",
+    "status": "completed",
+    "created": "2026-08-28T10:17:59.8509771Z",
+    "closed": "2026-08-28T10:18:44.5010916Z",
+    "by": "Jake Boraston",
+    "reviewers": [],
+    "source": "ofgem/agent-solution-exports",
+    "target": "main"
+  },
+  {
+    "id": 134,
+    "title": "Ofgem agents: LateData v3, FIT enquiry-format fix, evaluation test sets as source",
+    "status": "completed",
+    "created": "2026-08-28T09:44:31.9365998Z",
+    "closed": "2026-08-28T09:45:38.5004607Z",
+    "by": "Jake Boraston",
+    "reviewers": [],
+    "source": "JakeDEV",
+    "target": "main"
+  },
+  {
+    "id": 131,
+    "title": "WIP: Idea evaluation and Feature disposition proposals",
+    "status": "active",
+    "created": "2026-08-26T13:36:24.4839557Z",
+    "by": "Thomas Capaldi",
+    "reviewers": [],
+    "source": "ofgem/idea-feature-evaluation-proposals",
+    "target": "main"
+  },
+  {
+    "id": 130,
+    "title": "WIP: writing-review catches the document rating its own content",
+    "status": "active",
+    "created": "2026-08-24T21:39:26.622211Z",
+    "by": "Thomas Capaldi",
+    "reviewers": [
+      "Thomas Capaldi"
+    ],
+    "source": "skills/writing-review-self-rating",
+    "target": "main"
+  },
+  {
+    "id": 129,
+    "title": "Azure DevOps connector: action-level probe findings and DLP assessment",
+    "status": "active",
+    "created": "2026-08-24T21:37:58.7396437Z",
+    "by": "Thomas Capaldi",
+    "reviewers": [
+      "Thomas Capaldi"
+    ],
+    "source": "ofgem/azure-devops-connector",
+    "target": "main"
+  },
+  {
+    "id": 127,
+    "title": "Ofgem agents: E&E submissions flow, FIT draft and gap changes, evaluation test cases",
+    "status": "completed",
+    "created": "2026-08-20T14:01:49.7415749Z",
+    "closed": "2026-08-20T14:19:55.7183771Z",
+    "by": "Jake Boraston",
+    "reviewers": [],
+    "source": "JakeDEV",
+    "target": "main"
+  },
+  {
+    "id": 125,
+    "title": "Record which credential reaches what in each Azure DevOps org",
+    "status": "completed",
+    "created": "2026-08-17T22:39:20.2958591Z",
+    "closed": "2026-08-17T22:42:08.152101Z",
+    "by": "Thomas Capaldi",
+    "reviewers": [
+      "Thomas Capaldi"
+    ],
+    "source": "docs/inform-org-credentials",
+    "target": "main"
+  },
+  {
+    "id": 124,
+    "title": "Rollback runbook: delete-and-reimport becomes the default route",
+    "status": "completed",
+    "created": "2026-08-17T22:37:23.8776424Z",
+    "closed": "2026-08-17T22:41:41.9809836Z",
+    "by": "Thomas Capaldi",
+    "reviewers": [
+      "Thomas Capaldi"
+    ],
+    "source": "docs/rollback-runbook-delete-route",
+    "target": "main"
+  },
+  {
+    "id": 123,
+    "title": "Ofgem wiki: review, correct and publish the documentation set",
+    "status": "completed",
+    "created": "2026-08-17T21:23:02.3824408Z",
+    "closed": "2026-08-17T21:27:09.5757378Z",
+    "by": "Thomas Capaldi",
+    "reviewers": [
+      "Thomas Capaldi"
+    ],
+    "source": "docs/wiki-review-and-publish",
+    "target": "main"
+  },
+  {
+    "id": 119,
+    "title": "EEInsightsReporting: global variables, Headlines name filter, payload trim",
+    "status": "completed",
+    "created": "2026-08-12T10:05:19.8641069Z",
+    "closed": "2026-08-18T07:34:55.8288087Z",
+    "by": "Jake Boraston",
+    "reviewers": [],
+    "source": "JakeDEV",
+    "target": "main"
+  },
+  {
+    "id": 118,
+    "title": "EEInsightsReporting: consolidate to a README and a lean build plan",
+    "status": "completed",
+    "created": "2026-08-12T08:59:14.9560896Z",
+    "closed": "2026-08-12T09:10:45.8749251Z",
+    "by": "Jake Boraston",
+    "reviewers": [],
+    "source": "ee-fix-docs",
+    "target": "main"
+  },
+  {
+    "id": 117,
+    "title": "WIP: Azure DevOps connector DLP assessment (draft, not for Ofgem yet)",
+    "status": "completed",
+    "created": "2026-08-12T00:21:57.0203218Z",
+    "closed": "2026-08-12T00:25:56.8253988Z",
+    "by": "Thomas Capaldi",
+    "reviewers": [
+      "Thomas Capaldi"
+    ],
+    "source": "docs/devops-connector-dlp-assessment",
+    "target": "main"
+  },
+  {
+    "id": 116,
+    "title": "writing-review skill refined (updated). DevOps readme updated, DevOps checkli...",
+    "status": "completed",
+    "created": "2026-08-11T17:30:06.1667745Z",
+    "closed": "2026-08-11T17:30:16.8076113Z",
+    "by": "Thomas Capaldi",
+    "reviewers": [
+      "Thomas Capaldi"
+    ],
+    "source": "docs/documentation-updates",
+    "target": "main"
+  },
+  {
+    "id": 115,
+    "title": "FITEnquiriesResponder: bring the docs in line with the built agent",
+    "status": "completed",
+    "created": "2026-08-11T16:43:54.7177295Z",
+    "closed": "2026-08-12T09:10:33.7287225Z",
+    "by": "Jake Boraston",
+    "reviewers": [],
+    "source": "JakeDEV",
+    "target": "main"
+  },
+  {
+    "id": 114,
+    "title": "FITEnquiriesResponder: unblocked, proceeding with ungrounded responses ON",
+    "status": "completed",
+    "created": "2026-08-11T15:37:29.1406487Z",
+    "closed": "2026-08-11T15:41:33.2355139Z",
+    "by": "Jake Boraston",
+    "reviewers": [],
+    "source": "JakeDEV",
+    "target": "main"
+  },
+  {
+    "id": 113,
+    "title": "EEInsightsReporting: settle the build path, add the build plan",
+    "status": "completed",
+    "created": "2026-08-11T09:34:43.0766879Z",
+    "closed": "2026-08-11T15:30:59.6920607Z",
+    "by": "Jake Boraston",
+    "reviewers": [],
+    "source": "JakeDEV",
+    "target": "main"
+  },
+  {
+    "id": 112,
+    "title": "FITEnquiriesResponder: interim ungrounded-ON decision and PII-safe review",
+    "status": "completed",
+    "created": "2026-08-11T08:12:54.1240154Z",
+    "closed": "2026-08-11T08:13:49.2069479Z",
+    "by": "Jake Boraston",
+    "reviewers": [],
+    "source": "fit-ungrounded-decision",
+    "target": "main"
+  },
+  {
+    "id": 111,
+    "title": "EEInsightsReporting: new agent design (E&E monthly insights)",
+    "status": "completed",
+    "created": "2026-08-11T08:09:00.0009002Z",
+    "closed": "2026-08-11T08:12:49.4837502Z",
+    "by": "Jake Boraston",
+    "reviewers": [],
+    "source": "JakeDEV",
+    "target": "main"
+  },
+  {
+    "id": 109,
+    "title": "FIT Enquiries Responder: agent build, system topics, and grounding findings",
+    "status": "completed",
+    "created": "2026-08-07T17:43:35.2349152Z",
+    "closed": "2026-08-10T07:41:39.2313084Z",
+    "by": "Jake Boraston",
+    "reviewers": [],
+    "source": "JakeDEV",
+    "target": "main"
+  },
+  {
+    "id": 108,
+    "title": "Say when acceptance criteria use checkboxes and when they use bullets",
+    "status": "completed",
+    "created": "2026-08-07T14:32:25.2579377Z",
+    "closed": "2026-08-07T15:58:56.723826Z",
+    "by": "Thomas Capaldi",
+    "reviewers": [
+      "Thomas Capaldi"
+    ],
+    "source": "docs/ac-format-convention",
+    "target": "main"
+  },
+  {
+    "id": 107,
+    "title": "Document the agent board convention: one Feature per release train",
+    "status": "completed",
+    "created": "2026-08-07T13:03:49.7004933Z",
+    "closed": "2026-08-07T14:15:19.4850365Z",
+    "by": "Thomas Capaldi",
+    "reviewers": [
+      "Thomas Capaldi"
+    ],
+    "source": "docs/agent-board-convention",
+    "target": "main"
+  },
+  {
+    "id": 106,
+    "title": "Report length separately from the score in /writing-review",
+    "status": "completed",
+    "created": "2026-08-07T12:06:03.9684141Z",
+    "closed": "2026-08-07T12:08:04.5641088Z",
+    "by": "Thomas Capaldi",
+    "reviewers": [
+      "Thomas Capaldi"
+    ],
+    "source": "docs/writing-review-length",
+    "target": "main"
+  },
+  {
+    "id": 105,
+    "title": "Add a concision brief to the writing-review work item checklist",
+    "status": "completed",
+    "created": "2026-08-07T11:56:05.0440848Z",
+    "closed": "2026-08-07T11:57:01.4922322Z",
+    "by": "Thomas Capaldi",
+    "reviewers": [
+      "Thomas Capaldi"
+    ],
+    "source": "docs/writing-review-concision",
+    "target": "main"
+  },
+  {
+    "id": 104,
+    "title": "Edit the ALM runbook for AI-writing tells, and add a repeatable review",
+    "status": "completed",
+    "created": "2026-08-07T10:55:56.6557216Z",
+    "closed": "2026-08-07T10:58:36.0878963Z",
+    "by": "Thomas Capaldi",
+    "reviewers": [
+      "Thomas Capaldi"
+    ],
+    "source": "docs/ai-writing-review",
+    "target": "main"
+  },
+  {
+    "id": 103,
+    "title": "Add a repeatable process for customising an agent's system topics",
+    "status": "completed",
+    "created": "2026-08-07T09:55:55.3585896Z",
+    "closed": "2026-08-07T10:07:02.7071969Z",
+    "by": "Thomas Capaldi",
+    "reviewers": [
+      "Thomas Capaldi"
+    ],
+    "source": "docs/topic-customisation-process",
+    "target": "main"
+  },
+  {
+    "id": 102,
+    "title": "Paste-safe instruction file, and record the two instruction limits",
+    "status": "completed",
+    "created": "2026-08-07T09:29:56.0210499Z",
+    "closed": "2026-08-07T10:06:17.0817406Z",
+    "by": "Thomas Capaldi",
+    "reviewers": [
+      "Thomas Capaldi"
+    ],
+    "source": "promote/ofgem-parity",
+    "target": "main"
+  },
+  {
+    "id": 101,
+    "title": "LateDataAgent: client-migration prep and progress + Copilot Studio caveats",
+    "status": "completed",
+    "created": "2026-08-07T07:37:20.9587322Z",
+    "closed": "2026-08-07T12:16:57.654754Z",
+    "by": "Jake Boraston",
+    "reviewers": [],
+    "source": "JakeDEV",
+    "target": "main"
+  },
+  {
+    "id": 100,
+    "title": "Sync the Ofgem paste source and add a promotion runbook",
+    "status": "completed",
+    "created": "2026-08-06T20:23:53.2939245Z",
+    "closed": "2026-08-07T07:58:03.8524931Z",
+    "by": "Thomas Capaldi",
+    "reviewers": [
+      "Thomas Capaldi"
+    ],
+    "source": "promote/ofgem-parity",
+    "target": "main"
+  },
+  {
+    "id": 99,
+    "title": "Add tester-facing docs: a one-page guide and the DevOps import walkthrough",
+    "status": "completed",
+    "created": "2026-08-06T15:45:11.7763616Z",
+    "closed": "2026-08-06T17:36:52.8879035Z",
+    "by": "Thomas Capaldi",
+    "reviewers": [],
+    "source": "docs/test-plan-into-devops",
+    "target": "main"
+  },
+  {
+    "id": 98,
+    "title": "Correct the instruction character counting rule (it's deterministic)",
+    "status": "completed",
+    "created": "2026-08-06T13:46:25.391207Z",
+    "closed": "2026-08-06T17:36:38.0779801Z",
+    "by": "Thomas Capaldi",
+    "reviewers": [],
+    "source": "docs/fix-budget-figures",
+    "target": "main"
+  },
+  {
+    "id": 97,
+    "title": "Correct the DevOps CSV import format, add a working template",
+    "status": "completed",
+    "created": "2026-08-06T13:30:04.9201473Z",
+    "closed": "2026-08-06T13:37:55.8632468Z",
+    "by": "Thomas Capaldi",
+    "reviewers": [
+      "Thomas Capaldi"
+    ],
+    "source": "feat/csv-import-template",
+    "target": "main"
+  },
+  {
+    "id": 96,
+    "title": "Docs: tighten prose, codify writing conventions, add TL;DRs",
+    "status": "completed",
+    "created": "2026-08-06T13:00:00.7860771Z",
+    "closed": "2026-08-06T13:23:24.2029801Z",
+    "by": "Thomas Capaldi",
+    "reviewers": [
+      "Thomas Capaldi"
+    ],
+    "source": "docs/tighten-prose",
+    "target": "main"
+  },
+  {
+    "id": 95,
+    "title": "Reframe the VS Code extension: not in use here, but the right call elsewhere",
+    "status": "completed",
+    "created": "2026-08-06T12:45:26.3679157Z",
+    "closed": "2026-08-06T12:47:51.5758817Z",
+    "by": "Thomas Capaldi",
+    "reviewers": [
+      "Thomas Capaldi"
+    ],
+    "source": "docs/extension-framing",
+    "target": "main"
+  },
+  {
+    "id": 94,
+    "title": "Rewrite the ALM rollback runbook against the real pipeline",
+    "status": "completed",
+    "created": "2026-08-06T12:34:28.079221Z",
+    "closed": "2026-08-06T12:47:11.8664507Z",
+    "by": "Thomas Capaldi",
+    "reviewers": [
+      "Thomas Capaldi"
+    ],
+    "source": "docs/alm-rollback-runbook-rewrite",
+    "target": "main"
+  },
+  {
+    "id": 93,
+    "title": "Copilot Studio: move platform guides into Ofgem/Agents, and a real README",
+    "status": "completed",
+    "created": "2026-08-06T12:20:41.0318146Z",
+    "closed": "2026-08-06T12:28:28.9453805Z",
+    "by": "Thomas Capaldi",
+    "reviewers": [
+      "Thomas Capaldi"
+    ],
+    "source": "docs/copilot-studio-system-topics",
+    "target": "main"
+  },
+  {
+    "id": 92,
+    "title": "Copilot Studio: guide to replacing stock system topic text",
+    "status": "completed",
+    "created": "2026-08-06T11:53:49.7009724Z",
+    "closed": "2026-08-06T12:10:34.9478085Z",
+    "by": "Thomas Capaldi",
+    "reviewers": [],
+    "source": "docs/copilot-studio-system-topics",
+    "target": "main"
+  },
+  {
+    "id": 91,
+    "title": "Copilot Studio: two-tenant working model, 6 Aug test results, line-endings fix",
+    "status": "completed",
+    "created": "2026-08-06T11:22:05.5607864Z",
+    "closed": "2026-08-06T11:23:50.5758791Z",
+    "by": "Thomas Capaldi",
+    "reviewers": [],
+    "source": "docs/agent-working-practices",
+    "target": "main"
+  },
+  {
+    "id": 90,
+    "title": "LateDataAgent: complete Late Meter Submission Agent + Copilot Studio build caveats",
+    "status": "completed",
+    "created": "2026-08-06T08:49:14.8471086Z",
+    "closed": "2026-08-06T09:07:34.4839943Z",
+    "by": "Jake Boraston",
+    "reviewers": [],
+    "source": "JakeDEV",
+    "target": "main"
+  },
+  {
+    "id": 89,
+    "title": "Copilot Studio: source control and tooling guide",
+    "status": "completed",
+    "created": "2026-08-05T20:51:21.3256257Z",
+    "closed": "2026-08-06T08:18:11.2877105Z",
+    "by": "Thomas Capaldi",
+    "reviewers": [],
+    "source": "docs/copilot-studio-tooling",
+    "target": "main"
+  },
+  {
+    "id": 88,
+    "title": "AIDevOpsTestPlanGenerator: multi-sheet Excel lookup topic and docs",
+    "status": "completed",
+    "created": "2026-08-05T16:01:03.5408832Z",
+    "closed": "2026-08-05T16:15:17.7097616Z",
+    "by": "Thomas Capaldi",
+    "reviewers": [
+      "Thomas Capaldi"
+    ],
+    "source": "ofgem/testplan-agent-multi-sheet-lookup",
+    "target": "main"
+  },
+  {
+    "id": 87,
+    "title": "Ofgem DevOps: script tooling for Idea intake fields, Markdown checklists, work item copies",
+    "status": "completed",
+    "created": "2026-08-05T16:01:02.5469761Z",
+    "closed": "2026-08-05T16:14:40.1792933Z",
+    "by": "Thomas Capaldi",
+    "reviewers": [
+      "Thomas Capaldi"
+    ],
+    "source": "ofgem-devops-scripts-updates",
+    "target": "main"
+  },
+  {
+    "id": 86,
+    "title": "LateDataAgent: input-gathering, missed-period calculation, and solution relocation",
+    "status": "completed",
+    "created": "2026-08-04T15:02:05.2330746Z",
+    "closed": "2026-08-04T15:41:49.8121743Z",
+    "by": "Jake Boraston",
+    "reviewers": [],
+    "source": "JakeDEV",
+    "target": "main"
+  },
+  {
+    "id": 85,
+    "title": "LateMeterSubmissionAgent: validation, confirmation gate, status branching",
+    "status": "completed",
+    "created": "2026-08-03T14:34:30.1715491Z",
+    "closed": "2026-08-03T14:37:01.5349683Z",
+    "by": "Jake Boraston",
+    "reviewers": [],
+    "source": "feature/latedataagent-chat-attachment-input",
+    "target": "main"
+  },
+  {
+    "id": 83,
+    "title": "LateMeterSubmissionAgent: handover doc + connection reference packaged",
+    "status": "completed",
+    "created": "2026-07-29T17:33:30.6537625Z",
+    "closed": "2026-07-29T17:34:40.4099071Z",
+    "by": "Jake Boraston",
+    "reviewers": [],
+    "source": "feature/latedataagent-chat-attachment-input",
+    "target": "main"
+  },
+  {
+    "id": 82,
+    "title": "LateMeterSubmissionAgent: chat-attachment input, filing + extract flows, read slice",
+    "status": "completed",
+    "created": "2026-07-29T16:54:41.6393626Z",
+    "closed": "2026-07-29T16:55:51.2371949Z",
+    "by": "Jake Boraston",
+    "reviewers": [],
+    "source": "feature/latedataagent-chat-attachment-input",
+    "target": "main"
+  }
+]

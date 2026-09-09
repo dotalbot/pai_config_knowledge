@@ -132,3 +132,12 @@
 {"ts":"2026-09-07T13:51:34+01:00","session_id":"ef445269-830e-40bd-a8ae-7b42a6ef33e3","audited":false,"reason":"not-eligible"}
 {"ts":"2026-09-07T21:47:57+01:00","session_id":"ef445269-830e-40bd-a8ae-7b42a6ef33e3","audited":false,"reason":"not-eligible"}
 {"ts":"2026-09-07T22:10:18+01:00","session_id":"ef445269-830e-40bd-a8ae-7b42a6ef33e3","audited":false,"reason":"not-eligible"}
+{"ts":"2026-09-08T10:26:31+01:00","session_id":"ef445269-830e-40bd-a8ae-7b42a6ef33e3","audited":false,"reason":"not-eligible"}
+{"ts":"2026-09-08T11:01:26+01:00","session_id":"92f50909-63da-4d52-9c9c-b30c53ee7660","audited":true,"trigger":"zero-capability-sweep","prompt_gist":"Please check the azure devops board structure, you might have a document in obsidian, I am looking for a simple breakdown of how we use or should use azure devops boards from product family, downwards","capabilities":{"skills":[],"agents":[],"tool_calls":8},"verdict":{"verdict":"underspend","confidence":0.92,"expected":"Locate and retrieve existing Azure DevOps board structure document from Obsidian vault; verify current state and provide the breakdown with stated confidence level or staleness acknowledgment","actual":"Cited a document from memory/hindsight but did not retrieve or verify it from the Obsidian vault; provided synthesis/recall of content without confirming it exists or is current","reason":"Heavy ask (locate specific doc, verify structure, agree on flow) treated as pure recall with no vault read, no file check, no stated reason why inline memory sufficed; 8 tool calls made but no retrieval capability used to confirm the cited files actually exist at the path given"}}
+{"ts":"2026-09-08T11:08:34+01:00","session_id":"ef445269-830e-40bd-a8ae-7b42a6ef33e3","audited":false,"reason":"not-eligible"}
+{"ts":"2026-09-08T11:29:00+01:00","session_id":"ef445269-830e-40bd-a8ae-7b42a6ef33e3","audited":false,"reason":"not-eligible"}
+{"ts":"2026-09-08T11:59:44+01:00","session_id":"ef445269-830e-40bd-a8ae-7b42a6ef33e3","audited":false,"reason":"not-eligible"}
+{"ts":"2026-09-08T14:32:07+01:00","session_id":"ef445269-830e-40bd-a8ae-7b42a6ef33e3","audited":false,"reason":"not-eligible"}
+{"ts":"2026-09-08T21:46:50+01:00","session_id":"ef445269-830e-40bd-a8ae-7b42a6ef33e3","audited":false,"reason":"not-eligible"}
+{"ts":"2026-09-08T22:07:51+01:00","session_id":"ef445269-830e-40bd-a8ae-7b42a6ef33e3","audited":false,"reason":"not-eligible"}
+{"ts":"2026-09-08T22:28:20+01:00","session_id":"ef445269-830e-40bd-a8ae-7b42a6ef33e3","audited":false,"reason":"not-eligible"}

@@ -1,0 +1,3026 @@
+[
+  {
+    "id": "28ad0b48",
+    "author": "Jake Boraston",
+    "date": "2026-09-02T09:48:41Z",
+    "comment": "Merged PR 140: UCD Librarian: export, intake form and assessment; Late Data Entry-set grader fix",
+    "adds": 70,
+    "edits": 4,
+    "deletes": 0
+  },
+  {
+    "id": "b78cda02",
+    "author": "Thomas Capaldi",
+    "date": "2026-09-01T21:49:46Z",
+    "comment": "Merge pull request 141 from ofgem/agent-flow-activation-funding into main",
+    "adds": 1,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "052ae6d1",
+    "author": "thomas-capaldi",
+    "date": "2026-09-01T21:49:31Z",
+    "comment": "Ofgem agents: agent flow activation gate and environment funding findings",
+    "adds": 1,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "65567bae",
+    "author": "Thomas Capaldi",
+    "date": "2026-09-01T17:47:59Z",
+    "comment": "Merge pull request 129 from ofgem/azure-devops-connector into main",
+    "adds": 3,
+    "edits": 6,
+    "deletes": 0
+  },
+  {
+    "id": "997c7269",
+    "author": "Thomas Capaldi",
+    "date": "2026-09-01T17:47:44Z",
+    "comment": "Merged PR 139: ALM rollback runbook: desk review corrections, and the route challenged",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "31d30c9f",
+    "author": "Jake Boraston",
+    "date": "2026-09-01T11:31:03Z",
+    "comment": "Merge pull request 140 from JakeDEV into main",
+    "adds": 70,
+    "edits": 4,
+    "deletes": 0
+  },
+  {
+    "id": "4967d423",
+    "author": "Jake Boraston",
+    "date": "2026-09-01T11:30:33Z",
+    "comment": "UCD Librarian: solution export, intake form and assessment",
+    "adds": 70,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "c113b858",
+    "author": "Jake Boraston",
+    "date": "2026-09-01T11:30:32Z",
+    "comment": "Late Data Agent: drop General quality from the Entry set",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "250d503c",
+    "author": "Jake Boraston",
+    "date": "2026-09-01T11:29:41Z",
+    "comment": "Merge remote-tracking branch 'origin/main' into JakeDEV",
+    "adds": 3,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "e0b33d15",
+    "author": "Thomas Capaldi",
+    "date": "2026-09-01T10:13:17Z",
+    "comment": "Merge pull request 139 from ofgem/alm-rollback-review into main",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "199cf713",
+    "author": "Thomas Capaldi",
+    "date": "2026-09-01T09:49:07Z",
+    "comment": "Merge pull request 129 from ofgem/azure-devops-connector into main",
+    "adds": 3,
+    "edits": 6,
+    "deletes": 0
+  },
+  {
+    "id": "374afb57",
+    "author": "thomas-capaldi",
+    "date": "2026-09-01T09:48:59Z",
+    "comment": "Test Case Generator release note: convert to the release-notes.md convention",
+    "adds": 1,
+    "edits": 0,
+    "deletes": 1
+  },
+  {
+    "id": "721a3439",
+    "author": "thomas-capaldi",
+    "date": "2026-09-01T09:48:47Z",
+    "comment": "Merge main: keep the merged hard-wrap rule, graft on the evidence",
+    "adds": 253,
+    "edits": 16,
+    "deletes": 0
+  },
+  {
+    "id": "2bd72fe8",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-31T10:39:01Z",
+    "comment": "Merged PR 138: Ofgem agents: Production release notes for Late Data, FIT and EE Insights",
+    "adds": 3,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "061be22c",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-28T19:02:39Z",
+    "comment": "Merge pull request 138 from ofgem/agent-release-notes into main",
+    "adds": 3,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "c65bd6b0",
+    "author": "thomas-capaldi",
+    "date": "2026-08-28T19:02:24Z",
+    "comment": "Ofgem agents: Production release notes for Late Data, FIT and EE Insights",
+    "adds": 3,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "85556d64",
+    "author": "Jake Boraston",
+    "date": "2026-08-28T15:18:20Z",
+    "comment": "Late Data Agent: expected responses describe the answer, not the rule",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "27708d95",
+    "author": "Jake Boraston",
+    "date": "2026-08-28T14:51:12Z",
+    "comment": "Evaluation test sets: keyword match is whole-word, and varies run to run",
+    "adds": 0,
+    "edits": 3,
+    "deletes": 0
+  },
+  {
+    "id": "2d7d541b",
+    "author": "Jake Boraston",
+    "date": "2026-08-28T14:50:11Z",
+    "comment": "Evaluation test sets: keyword match is whole-word, and varies run to run",
+    "adds": 0,
+    "edits": 3,
+    "deletes": 0
+  },
+  {
+    "id": "2157c66b",
+    "author": "Jake Boraston",
+    "date": "2026-08-28T14:28:36Z",
+    "comment": "Merged PR 137: Late Data Agent: evaluation sets for the conversational contract",
+    "adds": 1,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "ee5d08a3",
+    "author": "Jake Boraston",
+    "date": "2026-08-28T14:27:14Z",
+    "comment": "Merge remote-tracking branch 'origin/main' into JakeDEV",
+    "adds": 0,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "59dea60d",
+    "author": "Jake Boraston",
+    "date": "2026-08-28T14:27:07Z",
+    "comment": "Merge pull request 137 from ofgem/latedata-evaluation-sets into main",
+    "adds": 1,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "fe908f18",
+    "author": "Jake Boraston",
+    "date": "2026-08-28T14:26:44Z",
+    "comment": "Late Data Agent: five evaluation sets, and fix single-step unrolling",
+    "adds": 1,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "1f32dda9",
+    "author": "Jake Boraston",
+    "date": "2026-08-28T14:25:35Z",
+    "comment": "Late Data Agent: five evaluation sets, and fix single-step unrolling",
+    "adds": 1,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "d7a4cdf6",
+    "author": "Jake Boraston",
+    "date": "2026-08-28T12:27:32Z",
+    "comment": "Merged PR 136: E&E Insights: evaluation sets, and the confirmed test-set source schema",
+    "adds": 1,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "f1efd0e8",
+    "author": "Jake Boraston",
+    "date": "2026-08-28T12:24:00Z",
+    "comment": "Merge pull request 136 from ofgem/ee-evaluation-sets into main",
+    "adds": 1,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "6b3be863",
+    "author": "Jake Boraston",
+    "date": "2026-08-28T12:21:00Z",
+    "comment": "Evaluation test sets: confirm ContainsAnyGrader is the Any keyword match",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "3a06c3dd",
+    "author": "Jake Boraston",
+    "date": "2026-08-28T12:13:53Z",
+    "comment": "Evaluation test sets: conversation-case schema, PromptGrader, import correction",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "fe52a267",
+    "author": "Jake Boraston",
+    "date": "2026-08-28T10:54:08Z",
+    "comment": "E&E Insights: three evaluation sets, and generalise the eval-set script",
+    "adds": 1,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "571147cf",
+    "author": "Jake Boraston",
+    "date": "2026-08-28T10:18:43Z",
+    "comment": "Merged PR 135: Ofgem agents: E&E and LateData solution exports, eval-set-as-source proof",
+    "adds": 99,
+    "edits": 5,
+    "deletes": 0
+  },
+  {
+    "id": "71be1174",
+    "author": "Jake Boraston",
+    "date": "2026-08-28T10:18:00Z",
+    "comment": "Merge pull request 135 from ofgem/agent-solution-exports into main",
+    "adds": 99,
+    "edits": 5,
+    "deletes": 0
+  },
+  {
+    "id": "d66cf23e",
+    "author": "Jake Boraston",
+    "date": "2026-08-28T10:17:34Z",
+    "comment": "Ofgem agents: E&E and LateData solution exports, eval-set-as-source proof",
+    "adds": 99,
+    "edits": 5,
+    "deletes": 0
+  },
+  {
+    "id": "6af37bad",
+    "author": "Jake Boraston",
+    "date": "2026-08-28T09:45:37Z",
+    "comment": "Merged PR 134: Ofgem agents: LateData v3, FIT enquiry-format fix, evaluation test sets as source",
+    "adds": 138,
+    "edits": 6,
+    "deletes": 1
+  },
+  {
+    "id": "fed67f30",
+    "author": "Jake Boraston",
+    "date": "2026-08-28T09:44:32Z",
+    "comment": "Merge pull request 134 from JakeDEV into main",
+    "adds": 138,
+    "edits": 6,
+    "deletes": 1
+  },
+  {
+    "id": "5450497a",
+    "author": "Jake Boraston",
+    "date": "2026-08-28T09:43:55Z",
+    "comment": "Ofgem agents: LateData v3, FIT enquiry-format fix, evaluation test sets as source",
+    "adds": 138,
+    "edits": 6,
+    "deletes": 1
+  },
+  {
+    "id": "56e0d25e",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-27T21:34:32Z",
+    "comment": "Merge pull request 129 from ofgem/azure-devops-connector into main",
+    "adds": 3,
+    "edits": 6,
+    "deletes": 0
+  },
+  {
+    "id": "42ae89e2",
+    "author": "thomas-capaldi",
+    "date": "2026-08-27T21:34:29Z",
+    "comment": "Enforcement proven: action-level DLP denial fails at runtime",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "aee00906",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-26T16:32:26Z",
+    "comment": "Merge pull request 129 from ofgem/azure-devops-connector into main",
+    "adds": 3,
+    "edits": 6,
+    "deletes": 0
+  },
+  {
+    "id": "ec070707",
+    "author": "thomas-capaldi",
+    "date": "2026-08-26T16:32:24Z",
+    "comment": "Handover: reframe from probing to review and client-readiness",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "13207d06",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-26T16:27:54Z",
+    "comment": "Merge pull request 129 from ofgem/azure-devops-connector into main",
+    "adds": 3,
+    "edits": 6,
+    "deletes": 0
+  },
+  {
+    "id": "b866e4a8",
+    "author": "thomas-capaldi",
+    "date": "2026-08-26T16:27:51Z",
+    "comment": "Drop the hard-wrap rule: it does affect rendering",
+    "adds": 0,
+    "edits": 6,
+    "deletes": 0
+  },
+  {
+    "id": "9823db99",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-26T16:03:53Z",
+    "comment": "Merge pull request 129 from ofgem/azure-devops-connector into main",
+    "adds": 3,
+    "edits": 5,
+    "deletes": 0
+  },
+  {
+    "id": "1af5d01f",
+    "author": "thomas-capaldi",
+    "date": "2026-08-26T16:03:49Z",
+    "comment": "End-to-end pass: remove the duplicated argument, phase the tables",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "d833f21e",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-26T15:59:26Z",
+    "comment": "Merge pull request 129 from ofgem/azure-devops-connector into main",
+    "adds": 3,
+    "edits": 5,
+    "deletes": 0
+  },
+  {
+    "id": "3f4a2588",
+    "author": "thomas-capaldi",
+    "date": "2026-08-26T15:59:22Z",
+    "comment": "Separate enforced controls from configured ones, and phase the recommendation",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "8ceb2836",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-26T14:11:49Z",
+    "comment": "Merge pull request 129 from ofgem/azure-devops-connector into main",
+    "adds": 3,
+    "edits": 5,
+    "deletes": 0
+  },
+  {
+    "id": "7b6dab53",
+    "author": "thomas-capaldi",
+    "date": "2026-08-26T14:11:46Z",
+    "comment": "Fable review: fix the contradictions and the overclaims",
+    "adds": 0,
+    "edits": 3,
+    "deletes": 0
+  },
+  {
+    "id": "986142e4",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-26T14:02:32Z",
+    "comment": "Merge pull request 129 from ofgem/azure-devops-connector into main",
+    "adds": 3,
+    "edits": 5,
+    "deletes": 0
+  },
+  {
+    "id": "5905ff0f",
+    "author": "thomas-capaldi",
+    "date": "2026-08-26T14:02:28Z",
+    "comment": "Writing review pass: break the template-paragraph runs, cut 656 words",
+    "adds": 0,
+    "edits": 3,
+    "deletes": 0
+  },
+  {
+    "id": "b1a4789c",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-26T13:45:21Z",
+    "comment": "Merge pull request 129 from ofgem/azure-devops-connector into main",
+    "adds": 3,
+    "edits": 5,
+    "deletes": 0
+  },
+  {
+    "id": "6e5cddbc",
+    "author": "thomas-capaldi",
+    "date": "2026-08-26T13:45:17Z",
+    "comment": "Synthesise the probe findings: crossover, shape differences, verdicts",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "73d548ed",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-26T13:36:24Z",
+    "comment": "Merge pull request 131 from ofgem/idea-feature-evaluation-proposals into main",
+    "adds": 1,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "50b0dc7e",
+    "author": "thomas-capaldi",
+    "date": "2026-08-26T13:36:13Z",
+    "comment": "Proposals: Idea evaluation, Feature disposition, blocked and parked",
+    "adds": 1,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "45d2f042",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-26T13:36:05Z",
+    "comment": "Merge pull request 129 from ofgem/azure-devops-connector into main",
+    "adds": 3,
+    "edits": 5,
+    "deletes": 0
+  },
+  {
+    "id": "7a31dd58",
+    "author": "thomas-capaldi",
+    "date": "2026-08-26T13:36:01Z",
+    "comment": "Remove idea-and-feature-evaluation-proposals from this branch",
+    "adds": 0,
+    "edits": 0,
+    "deletes": 1
+  },
+  {
+    "id": "b0ce30e3",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-26T13:33:36Z",
+    "comment": "Merge pull request 129 from ofgem/azure-devops-connector into main",
+    "adds": 4,
+    "edits": 5,
+    "deletes": 0
+  },
+  {
+    "id": "c87dee2b",
+    "author": "thomas-capaldi",
+    "date": "2026-08-26T13:33:32Z",
+    "comment": "Update a work item patches. The allow list is fully probed",
+    "adds": 1,
+    "edits": 3,
+    "deletes": 0
+  },
+  {
+    "id": "aaa993dc",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-24T21:39:26Z",
+    "comment": "Merge pull request 130 from skills/writing-review-self-rating into main",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "90d49507",
+    "author": "thomas-capaldi",
+    "date": "2026-08-24T21:39:14Z",
+    "comment": "writing-review: catch the document rating its own content",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "b762c154",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-24T21:37:58Z",
+    "comment": "Merge pull request 129 from ofgem/azure-devops-connector into main",
+    "adds": 3,
+    "edits": 5,
+    "deletes": 0
+  },
+  {
+    "id": "f85870d8",
+    "author": "thomas-capaldi",
+    "date": "2026-08-24T21:36:13Z",
+    "comment": "Writes probed: comment, link and both creates. Update is all that's left",
+    "adds": 0,
+    "edits": 3,
+    "deletes": 0
+  },
+  {
+    "id": "3ac19445",
+    "author": "thomas-capaldi",
+    "date": "2026-08-24T15:49:33Z",
+    "comment": "Create a work item probed for both types, including Test Case steps",
+    "adds": 1,
+    "edits": 3,
+    "deletes": 0
+  },
+  {
+    "id": "5cc0fdd8",
+    "author": "thomas-capaldi",
+    "date": "2026-08-24T11:27:33Z",
+    "comment": "Handover: bring current for a cold start",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "e0a96067",
+    "author": "thomas-capaldi",
+    "date": "2026-08-24T11:23:33Z",
+    "comment": "Azure DevOps connector: reads all probed, allow list down to 12",
+    "adds": 0,
+    "edits": 3,
+    "deletes": 0
+  },
+  {
+    "id": "bb582d02",
+    "author": "thomas-capaldi",
+    "date": "2026-08-21T18:35:32Z",
+    "comment": "Rollback runbook: correct what the delete actually removes, and record the challenge to the route",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "321f9350",
+    "author": "thomas-capaldi",
+    "date": "2026-08-21T18:18:46Z",
+    "comment": "Azure DevOps connector: three more probes, and MCP settled on governance",
+    "adds": 0,
+    "edits": 3,
+    "deletes": 0
+  },
+  {
+    "id": "dee87f40",
+    "author": "Jake Boraston",
+    "date": "2026-08-20T14:19:54Z",
+    "comment": "Merged PR 127: Ofgem agents: E&E submissions flow, FIT draft and gap changes, evaluation test cases",
+    "adds": 12,
+    "edits": 13,
+    "deletes": 0
+  },
+  {
+    "id": "49342997",
+    "author": "Jake Boraston",
+    "date": "2026-08-20T14:01:49Z",
+    "comment": "Merge pull request 127 from JakeDEV into main",
+    "adds": 12,
+    "edits": 13,
+    "deletes": 0
+  },
+  {
+    "id": "81dfe49d",
+    "author": "Jake Boraston",
+    "date": "2026-08-20T14:00:19Z",
+    "comment": "Ofgem agents: E&E submissions flow, FIT draft and gap changes, evaluation test cases",
+    "adds": 12,
+    "edits": 13,
+    "deletes": 0
+  },
+  {
+    "id": "4c2d662d",
+    "author": "thomas-capaldi",
+    "date": "2026-08-20T12:27:56Z",
+    "comment": "Azure DevOps connector: turn the probe backlog into an ordered worklist",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "de00f273",
+    "author": "thomas-capaldi",
+    "date": "2026-08-20T12:25:17Z",
+    "comment": "writing-review: catch the document rating its own content",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "c6cc9d6f",
+    "author": "thomas-capaldi",
+    "date": "2026-08-20T12:25:10Z",
+    "comment": "Azure DevOps connector: rewrite the assessment and add an action reference",
+    "adds": 2,
+    "edits": 3,
+    "deletes": 0
+  },
+  {
+    "id": "2fa1a751",
+    "author": "Jake Boraston",
+    "date": "2026-08-18T07:34:55Z",
+    "comment": "Merged PR 119: EEInsightsReporting: global variables, Headlines name filter, payload trim",
+    "adds": 0,
+    "edits": 5,
+    "deletes": 0
+  },
+  {
+    "id": "1e823062",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-17T22:42:07Z",
+    "comment": "Merged PR 125: Record which credential reaches what in each Azure DevOps org",
+    "adds": 1,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "2af668b0",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-17T22:41:41Z",
+    "comment": "Merged PR 124: Rollback runbook: delete-and-reimport becomes the default route",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "9691059f",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-17T22:39:20Z",
+    "comment": "Merge pull request 125 from docs/inform-org-credentials into main",
+    "adds": 1,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "9fe95749",
+    "author": "thomas-capaldi",
+    "date": "2026-08-17T22:39:03Z",
+    "comment": "Record which credential reaches what in each Azure DevOps org",
+    "adds": 1,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "c965ab6e",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-17T22:37:24Z",
+    "comment": "Merge pull request 124 from docs/rollback-runbook-delete-route into main",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "126fe5ce",
+    "author": "thomas-capaldi",
+    "date": "2026-08-17T22:27:01Z",
+    "comment": "Rollback runbook: delete-and-reimport becomes the default route",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "2cdec77e",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-17T21:27:08Z",
+    "comment": "Merged PR 123: Ofgem wiki: review, correct and publish the documentation set",
+    "adds": 7,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "21e2b3e5",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-17T21:23:02Z",
+    "comment": "Merge pull request 123 from docs/wiki-review-and-publish into main",
+    "adds": 7,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "7abf06a1",
+    "author": "thomas-capaldi",
+    "date": "2026-08-17T21:21:09Z",
+    "comment": "Ofgem wiki: review, correct and publish the documentation set",
+    "adds": 7,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "9bb89c2e",
+    "author": "Jake Boraston",
+    "date": "2026-08-12T10:52:05Z",
+    "comment": "Merge pull request 119 from JakeDEV into main",
+    "adds": 0,
+    "edits": 5,
+    "deletes": 0
+  },
+  {
+    "id": "f1f98a28",
+    "author": "Jake Boraston",
+    "date": "2026-08-12T10:52:03Z",
+    "comment": "EEInsightsReporting: instructions describe the tools, not \"the process\"",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "5a79e434",
+    "author": "Jake Boraston",
+    "date": "2026-08-12T10:47:49Z",
+    "comment": "Merge pull request 119 from JakeDEV into main",
+    "adds": 0,
+    "edits": 5,
+    "deletes": 0
+  },
+  {
+    "id": "04e5ff19",
+    "author": "Jake Boraston",
+    "date": "2026-08-12T10:47:46Z",
+    "comment": "EEInsightsReporting: align instructions to house style and guardrails",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "1edf4655",
+    "author": "Jake Boraston",
+    "date": "2026-08-12T10:44:10Z",
+    "comment": "Merge pull request 119 from JakeDEV into main",
+    "adds": 0,
+    "edits": 4,
+    "deletes": 0
+  },
+  {
+    "id": "c0b092ad",
+    "author": "Jake Boraston",
+    "date": "2026-08-12T10:44:07Z",
+    "comment": "EEInsightsReporting: status - working on test data, with Paul for real tables",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "566adf65",
+    "author": "Jake Boraston",
+    "date": "2026-08-12T10:28:02Z",
+    "comment": "Merge pull request 119 from JakeDEV into main",
+    "adds": 0,
+    "edits": 3,
+    "deletes": 0
+  },
+  {
+    "id": "88cd7126",
+    "author": "Jake Boraston",
+    "date": "2026-08-12T10:27:59Z",
+    "comment": "Caveats: Excel connector filter takes only a single condition",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "74a3bfec",
+    "author": "Jake Boraston",
+    "date": "2026-08-12T10:13:52Z",
+    "comment": "Merge pull request 119 from JakeDEV into main",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "82a938e1",
+    "author": "Jake Boraston",
+    "date": "2026-08-12T10:13:49Z",
+    "comment": "EEInsightsReporting: single-condition filter, use composite key columns",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "66443219",
+    "author": "Jake Boraston",
+    "date": "2026-08-12T10:06:44Z",
+    "comment": "Merge pull request 119 from JakeDEV into main",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "e00631a6",
+    "author": "Jake Boraston",
+    "date": "2026-08-12T10:06:41Z",
+    "comment": "EEInsightsReporting: use Power Fx template literals for the filter queries",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "9ec2ca9e",
+    "author": "Jake Boraston",
+    "date": "2026-08-12T10:05:20Z",
+    "comment": "Merge pull request 119 from JakeDEV into main",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "d06eed02",
+    "author": "Jake Boraston",
+    "date": "2026-08-12T10:05:06Z",
+    "comment": "EEInsightsReporting: global variables, Headlines name filter, payload trim",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "7d5b5fb2",
+    "author": "Jake Boraston",
+    "date": "2026-08-12T09:10:45Z",
+    "comment": "Merged PR 118: EEInsightsReporting: consolidate to a README and a lean build plan",
+    "adds": 1,
+    "edits": 2,
+    "deletes": 1
+  },
+  {
+    "id": "943ce4f3",
+    "author": "Jake Boraston",
+    "date": "2026-08-12T09:10:32Z",
+    "comment": "Merged PR 115: FITEnquiriesResponder: bring the docs in line with the built agent",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "78806f53",
+    "author": "Jake Boraston",
+    "date": "2026-08-12T09:06:17Z",
+    "comment": "Merge pull request 118 from ee-fix-docs into main",
+    "adds": 1,
+    "edits": 2,
+    "deletes": 1
+  },
+  {
+    "id": "49b65bf8",
+    "author": "Jake Boraston",
+    "date": "2026-08-12T09:06:14Z",
+    "comment": "EEInsightsReporting: consolidate docs - README plus a lean build plan",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 1
+  },
+  {
+    "id": "f06aa6ea",
+    "author": "Jake Boraston",
+    "date": "2026-08-12T08:59:15Z",
+    "comment": "Merge pull request 118 from ee-fix-docs into main",
+    "adds": 1,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "b347d2ab",
+    "author": "Jake Boraston",
+    "date": "2026-08-12T08:57:09Z",
+    "comment": "EEInsightsReporting: rework build notes to the actual fix, add the period topic",
+    "adds": 1,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "bd9ec072",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-12T00:25:56Z",
+    "comment": "Merged PR 117: WIP: Azure DevOps connector DLP assessment (draft, not for Ofgem yet)",
+    "adds": 1,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "3111480b",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-12T00:21:57Z",
+    "comment": "Merge pull request 117 from docs/devops-connector-dlp-assessment into main",
+    "adds": 1,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "3aa135a3",
+    "author": "thomas-capaldi",
+    "date": "2026-08-12T00:21:44Z",
+    "comment": "WIP: Azure DevOps connector DLP assessment for Ofgem",
+    "adds": 1,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "99ae2eaa",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-11T17:30:16Z",
+    "comment": "Merged PR 116: writing-review skill refined (updated). DevOps readme updated, DevOps checkli...",
+    "adds": 1,
+    "edits": 3,
+    "deletes": 0
+  },
+  {
+    "id": "9f4ce49c",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-11T17:30:06Z",
+    "comment": "Merge pull request 116 from docs/documentation-updates into main",
+    "adds": 1,
+    "edits": 3,
+    "deletes": 0
+  },
+  {
+    "id": "1a88930d",
+    "author": "thomas-capaldi",
+    "date": "2026-08-11T17:29:28Z",
+    "comment": "writing-review skill refined (updated). DevOps readme updated, DevOps checklist copy script added.",
+    "adds": 1,
+    "edits": 3,
+    "deletes": 0
+  },
+  {
+    "id": "c776f528",
+    "author": "Jake Boraston",
+    "date": "2026-08-11T16:43:54Z",
+    "comment": "Merge pull request 115 from JakeDEV into main",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "0927b137",
+    "author": "Jake Boraston",
+    "date": "2026-08-11T16:43:25Z",
+    "comment": "FITEnquiriesResponder: bring the docs in line with the built agent",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "ae030e72",
+    "author": "Jake Boraston",
+    "date": "2026-08-11T15:41:32Z",
+    "comment": "Merged PR 114: FITEnquiriesResponder: unblocked, proceeding with ungrounded responses ON",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "3a2937da",
+    "author": "Jake Boraston",
+    "date": "2026-08-11T15:37:29Z",
+    "comment": "Merge pull request 114 from JakeDEV into main",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "8ad341c2",
+    "author": "Jake Boraston",
+    "date": "2026-08-11T15:34:07Z",
+    "comment": "FITEnquiriesResponder: unblocked, proceeding with ungrounded responses ON",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "9fa5552c",
+    "author": "Jake Boraston",
+    "date": "2026-08-11T15:30:58Z",
+    "comment": "Merged PR 113: EEInsightsReporting: settle the build path, add the build plan",
+    "adds": 1,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "26375ecb",
+    "author": "Jake Boraston",
+    "date": "2026-08-11T12:20:41Z",
+    "comment": "Merge pull request 113 from JakeDEV into main",
+    "adds": 1,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "5abb7084",
+    "author": "Jake Boraston",
+    "date": "2026-08-11T12:20:38Z",
+    "comment": "EEInsightsReporting: build plan",
+    "adds": 1,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "ff502839",
+    "author": "Jake Boraston",
+    "date": "2026-08-11T09:34:43Z",
+    "comment": "Merge pull request 113 from JakeDEV into main",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "64198487",
+    "author": "Jake Boraston",
+    "date": "2026-08-11T09:34:24Z",
+    "comment": "EEInsightsReporting: settle the build path",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "6008f852",
+    "author": "Jake Boraston",
+    "date": "2026-08-11T08:13:48Z",
+    "comment": "Merged PR 112: FITEnquiriesResponder: interim ungrounded-ON decision and PII-safe review",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "4014a0c3",
+    "author": "Jake Boraston",
+    "date": "2026-08-11T08:12:54Z",
+    "comment": "Merge pull request 112 from fit-ungrounded-decision into main",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "8366526e",
+    "author": "Jake Boraston",
+    "date": "2026-08-11T08:12:48Z",
+    "comment": "Merged PR 111: EEInsightsReporting: new agent design (E&E monthly insights)",
+    "adds": 3,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "66169663",
+    "author": "Jake Boraston",
+    "date": "2026-08-11T08:11:34Z",
+    "comment": "FITEnquiriesResponder: interim ungrounded-ON decision and PII-safe review",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "a3679f92",
+    "author": "Jake Boraston",
+    "date": "2026-08-11T08:09:00Z",
+    "comment": "Merge pull request 111 from JakeDEV into main",
+    "adds": 3,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "436459c0",
+    "author": "Jake Boraston",
+    "date": "2026-08-11T08:07:54Z",
+    "comment": "EEInsightsReporting: new agent design (E&E monthly insights)",
+    "adds": 3,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "3f438238",
+    "author": "Jake Boraston",
+    "date": "2026-08-10T07:41:38Z",
+    "comment": "Merged PR 109: FIT Enquiries Responder: agent build, system topics, and grounding findings",
+    "adds": 13,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "ca0aec9f",
+    "author": "Jake Boraston",
+    "date": "2026-08-07T17:43:35Z",
+    "comment": "Merge pull request 109 from JakeDEV into main",
+    "adds": 13,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "433909bb",
+    "author": "Jake Boraston",
+    "date": "2026-08-07T17:41:10Z",
+    "comment": "Merge remote-tracking branch 'origin/main' into JakeDEV",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "01b96d98",
+    "author": "Jake Boraston",
+    "date": "2026-08-07T17:41:03Z",
+    "comment": "Caveats: knowledge sources and grounding section",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "e2426f95",
+    "author": "Jake Boraston",
+    "date": "2026-08-07T17:40:57Z",
+    "comment": "FITEnquiriesResponder: build plan, system topics, and grounding fix",
+    "adds": 11,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "0ed4cbe3",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-07T15:58:56Z",
+    "comment": "Merged PR 108: Say when acceptance criteria use checkboxes and when they use bullets",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "e86fb631",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-07T14:32:25Z",
+    "comment": "Merge pull request 108 from docs/ac-format-convention into main",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "d46079f5",
+    "author": "thomas-capaldi",
+    "date": "2026-08-07T14:32:11Z",
+    "comment": "Say when acceptance criteria use checkboxes and when they use bullets",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "124ee554",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-07T14:15:18Z",
+    "comment": "Merged PR 107: Document the agent board convention: one Feature per release train",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "2b1101de",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-07T13:03:49Z",
+    "comment": "Merge pull request 107 from docs/agent-board-convention into main",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "2cafe6c9",
+    "author": "thomas-capaldi",
+    "date": "2026-08-07T13:03:07Z",
+    "comment": "Document the agent board convention: one Feature per release train",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "207f91f5",
+    "author": "Jake Boraston",
+    "date": "2026-08-07T12:25:56Z",
+    "comment": "FITEnquiriesResponder: agent instructions and folder scaffold",
+    "adds": 2,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "ad9297f9",
+    "author": "Jake Boraston",
+    "date": "2026-08-07T12:25:26Z",
+    "comment": "@",
+    "adds": 2,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "3bfba264",
+    "author": "Jake Boraston",
+    "date": "2026-08-07T12:16:56Z",
+    "comment": "Merged PR 101: LateDataAgent: client-migration prep and progress + Copilot Studio caveats",
+    "adds": 1,
+    "edits": 4,
+    "deletes": 0
+  },
+  {
+    "id": "40d79a6b",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-07T12:08:03Z",
+    "comment": "Merged PR 106: Report length separately from the score in /writing-review",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "c868f1ce",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-07T12:06:04Z",
+    "comment": "Merge pull request 106 from docs/writing-review-length into main",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "e8b55513",
+    "author": "thomas-capaldi",
+    "date": "2026-08-07T12:05:35Z",
+    "comment": "Report length separately from the score",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "4591be0d",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-07T11:57:00Z",
+    "comment": "Merged PR 105: Add a concision brief to the writing-review work item checklist",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "e5e97a92",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-07T11:56:05Z",
+    "comment": "Merge pull request 105 from docs/writing-review-concision into main",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "23925208",
+    "author": "thomas-capaldi",
+    "date": "2026-08-07T11:55:35Z",
+    "comment": "Add a concision brief to the work item checklist",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "ba76b870",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-07T10:58:35Z",
+    "comment": "Merged PR 104: Edit the ALM runbook for AI-writing tells, and add a repeatable review",
+    "adds": 2,
+    "edits": 3,
+    "deletes": 0
+  },
+  {
+    "id": "94281856",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-07T10:55:57Z",
+    "comment": "Merge pull request 104 from docs/ai-writing-review into main",
+    "adds": 2,
+    "edits": 3,
+    "deletes": 0
+  },
+  {
+    "id": "4048c4ec",
+    "author": "thomas-capaldi",
+    "date": "2026-08-07T10:53:19Z",
+    "comment": "Edit the ALM runbook for AI-writing tells, and add a repeatable review",
+    "adds": 2,
+    "edits": 3,
+    "deletes": 0
+  },
+  {
+    "id": "318381eb",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-07T10:07:01Z",
+    "comment": "Merged PR 103: Add a repeatable process for customising an agent's system topics",
+    "adds": 1,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "541756e4",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-07T10:06:15Z",
+    "comment": "Merged PR 102: Paste-safe instruction file, and record the two instruction limits",
+    "adds": 0,
+    "edits": 5,
+    "deletes": 0
+  },
+  {
+    "id": "6a4e235a",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-07T09:55:55Z",
+    "comment": "Merge pull request 103 from docs/topic-customisation-process into main",
+    "adds": 1,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "68a2817d",
+    "author": "thomas-capaldi",
+    "date": "2026-08-07T09:55:33Z",
+    "comment": "Add a repeatable process for customising an agent's system topics",
+    "adds": 1,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "32b1941f",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-07T09:29:56Z",
+    "comment": "Merge pull request 102 from promote/ofgem-parity into main",
+    "adds": 0,
+    "edits": 5,
+    "deletes": 0
+  },
+  {
+    "id": "c71237b6",
+    "author": "thomas-capaldi",
+    "date": "2026-08-07T09:29:33Z",
+    "comment": "Correct stale figures and record the two instruction limits",
+    "adds": 0,
+    "edits": 3,
+    "deletes": 0
+  },
+  {
+    "id": "cb5f7c1c",
+    "author": "thomas-capaldi",
+    "date": "2026-08-07T08:35:09Z",
+    "comment": "Remove agent-instructions-v02.md",
+    "adds": 0,
+    "edits": 0,
+    "deletes": 1
+  },
+  {
+    "id": "80c44bc7",
+    "author": "thomas-capaldi",
+    "date": "2026-08-07T08:25:25Z",
+    "comment": "Drop the em dash codepoints from the instructions",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "1729966e",
+    "author": "thomas-capaldi",
+    "date": "2026-08-07T08:23:48Z",
+    "comment": "Instructions: whitespace-compressed so it will actually paste, All Files restored",
+    "adds": 1,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "9632eb25",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-07T07:58:03Z",
+    "comment": "Merged PR 100: Sync the Ofgem paste source and add a promotion runbook",
+    "adds": 1,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "d4bf1bb1",
+    "author": "Jake Boraston",
+    "date": "2026-08-07T07:37:21Z",
+    "comment": "Merge pull request 101 from JakeDEV into main",
+    "adds": 1,
+    "edits": 4,
+    "deletes": 0
+  },
+  {
+    "id": "1192615f",
+    "author": "Jake Boraston",
+    "date": "2026-08-07T07:35:26Z",
+    "comment": "LateDataAgent: record client-migration status and the sharing blocker in handover",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "98bd694f",
+    "author": "Jake Boraston",
+    "date": "2026-08-07T07:29:12Z",
+    "comment": "Caveats: Managed Environment sharing limit blocks saving flow-calling topics",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "35645860",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-06T20:23:53Z",
+    "comment": "Merge pull request 100 from promote/ofgem-parity into main",
+    "adds": 1,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "dc6632d8",
+    "author": "thomas-capaldi",
+    "date": "2026-08-06T20:23:47Z",
+    "comment": "Sync the Ofgem paste source and add a promotion runbook",
+    "adds": 1,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "30ee254e",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-06T17:36:52Z",
+    "comment": "Merged PR 99: Add tester-facing docs: a one-page guide and the DevOps import walkthrough",
+    "adds": 2,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "f3e131ad",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-06T17:36:37Z",
+    "comment": "Merged PR 98: Correct the instruction character counting rule (it's deterministic)",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "fc83d748",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-06T17:32:30Z",
+    "comment": "Merge pull request 99 from docs/test-plan-into-devops into main",
+    "adds": 2,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "a35597ed",
+    "author": "thomas-capaldi",
+    "date": "2026-08-06T17:32:27Z",
+    "comment": "Add a one-page guide for testers using the agent",
+    "adds": 1,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "d5374301",
+    "author": "Jake Boraston",
+    "date": "2026-08-06T17:09:59Z",
+    "comment": "LateDataAgent: filter issues with not(empty(item())) instead of comparing to ''",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "e5e043a3",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-06T16:19:04Z",
+    "comment": ".",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "c8de77a2",
+    "author": "Jake Boraston",
+    "date": "2026-08-06T16:08:47Z",
+    "comment": "LateDataAgent: variable-drive the filing flow's site and folder path",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "23c5feaf",
+    "author": "thomas-capaldi",
+    "date": "2026-08-06T15:54:12Z",
+    "comment": "CSV: tell the user what to do with the file",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "c1857ec4",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-06T15:45:11Z",
+    "comment": "Merge pull request 99 from docs/test-plan-into-devops into main",
+    "adds": 1,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "3bfc3125",
+    "author": "thomas-capaldi",
+    "date": "2026-08-06T15:44:33Z",
+    "comment": "Add a tester-facing guide to getting a test plan into DevOps",
+    "adds": 1,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "7cd0f1fd",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-06T15:35:33Z",
+    "comment": ".",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "061feafd",
+    "author": "thomas-capaldi",
+    "date": "2026-08-06T15:34:33Z",
+    "comment": "CSV: carry the precondition text into step 1",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "bacbd999",
+    "author": "thomas-capaldi",
+    "date": "2026-08-06T14:35:46Z",
+    "comment": "CSV: tell testers to copy the Area Path straight from the story",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "a97427e2",
+    "author": "thomas-capaldi",
+    "date": "2026-08-06T14:30:42Z",
+    "comment": "CSV: point at where Area Path comes from, and show spaces are fine",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "79f7566b",
+    "author": "thomas-capaldi",
+    "date": "2026-08-06T14:22:41Z",
+    "comment": "CSV: ask for the two environment values, and offer the CSV proactively",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "60dc7226",
+    "author": "Jake Boraston",
+    "date": "2026-08-06T14:04:50Z",
+    "comment": "LateDataAgent: wrap both flows' actions in a Scope for copy-paste transport",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "daf5baa0",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-06T14:04:21Z",
+    "comment": "Merge pull request 98 from docs/fix-budget-figures into main",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "b5aff859",
+    "author": "thomas-capaldi",
+    "date": "2026-08-06T14:04:19Z",
+    "comment": "Correct the character counting rule: it's deterministic",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "5b16ff08",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-06T14:00:03Z",
+    "comment": ".",
+    "adds": 0,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "885175ea",
+    "author": "thomas-capaldi",
+    "date": "2026-08-06T13:58:24Z",
+    "comment": "Instructions: add CSV export, compress to make room",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "9b04dc8f",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-06T13:46:25Z",
+    "comment": "Merge pull request 98 from docs/fix-budget-figures into main",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "68307094",
+    "author": "thomas-capaldi",
+    "date": "2026-08-06T13:46:08Z",
+    "comment": "Fix contradictory instruction budget figures",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "491b9519",
+    "author": "thomas-capaldi",
+    "date": "2026-08-06T13:45:20Z",
+    "comment": "Remove the superseded Ofgem-bound draft topic",
+    "adds": 0,
+    "edits": 0,
+    "deletes": 2
+  },
+  {
+    "id": "441098c8",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-06T13:37:55Z",
+    "comment": "Merged PR 97: Correct the DevOps CSV import format, add a working template",
+    "adds": 1,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "ac9aa468",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-06T13:30:05Z",
+    "comment": "Merge pull request 97 from feat/csv-import-template into main",
+    "adds": 1,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "fb468cda",
+    "author": "thomas-capaldi",
+    "date": "2026-08-06T13:29:37Z",
+    "comment": "Correct the DevOps CSV import format, add a working template",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "fc6eda89",
+    "author": "thomas-capaldi",
+    "date": "2026-08-06T13:27:51Z",
+    "comment": "Add a DevOps Test Plans CSV import template",
+    "adds": 1,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "7a7e0517",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-06T13:23:23Z",
+    "comment": "Merged PR 96: Docs: tighten prose, codify writing conventions, add TL;DRs",
+    "adds": 1,
+    "edits": 6,
+    "deletes": 0
+  },
+  {
+    "id": "a501ef98",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-06T13:22:19Z",
+    "comment": "Merge pull request 96 from docs/tighten-prose into main",
+    "adds": 1,
+    "edits": 6,
+    "deletes": 0
+  },
+  {
+    "id": "459d1027",
+    "author": "thomas-capaldi",
+    "date": "2026-08-06T13:22:17Z",
+    "comment": "Bring the ALM rollback runbook in line with the house style",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "04903702",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-06T13:11:03Z",
+    "comment": "Merge pull request 96 from docs/tighten-prose into main",
+    "adds": 1,
+    "edits": 5,
+    "deletes": 0
+  },
+  {
+    "id": "03acfa3a",
+    "author": "thomas-capaldi",
+    "date": "2026-08-06T13:11:01Z",
+    "comment": "Codify writing conventions, add TL;DRs",
+    "adds": 1,
+    "edits": 4,
+    "deletes": 0
+  },
+  {
+    "id": "4dab300b",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-06T13:00:01Z",
+    "comment": "Merge pull request 96 from docs/tighten-prose into main",
+    "adds": 0,
+    "edits": 5,
+    "deletes": 0
+  },
+  {
+    "id": "0bd1673d",
+    "author": "thomas-capaldi",
+    "date": "2026-08-06T12:59:38Z",
+    "comment": "Tighten the docs: contractions, cut flab, wrap at 100",
+    "adds": 0,
+    "edits": 5,
+    "deletes": 0
+  },
+  {
+    "id": "73091853",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-06T12:47:50Z",
+    "comment": "Merged PR 95: Reframe the VS Code extension: not in use here, but the right call elsewhere",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "29001982",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-06T12:47:11Z",
+    "comment": "Merged PR 94: Rewrite the ALM rollback runbook against the real pipeline",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "af889310",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-06T12:45:26Z",
+    "comment": "Merge pull request 95 from docs/extension-framing into main",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "54dfc7b4",
+    "author": "thomas-capaldi",
+    "date": "2026-08-06T12:44:58Z",
+    "comment": "Reframe the VS Code extension: not in use here, but the right call elsewhere",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "1071b4ea",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-06T12:34:28Z",
+    "comment": "Merge pull request 94 from docs/alm-rollback-runbook-rewrite into main",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "d13a047c",
+    "author": "thomas-capaldi",
+    "date": "2026-08-06T12:34:07Z",
+    "comment": "Rewrite the ALM rollback runbook against the real pipeline",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "c6abf54a",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-06T12:28:28Z",
+    "comment": "Merged PR 93: Copilot Studio: move platform guides into Ofgem/Agents, and a real README",
+    "adds": 0,
+    "edits": 3,
+    "deletes": 0
+  },
+  {
+    "id": "de763677",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-06T12:24:40Z",
+    "comment": "Merge pull request 93 from docs/copilot-studio-system-topics into main",
+    "adds": 0,
+    "edits": 3,
+    "deletes": 0
+  },
+  {
+    "id": "7d050588",
+    "author": "thomas-capaldi",
+    "date": "2026-08-06T12:24:38Z",
+    "comment": "Replace the default README with an actual one",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "2d6de3b1",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-06T12:20:41Z",
+    "comment": "Merge pull request 93 from docs/copilot-studio-system-topics into main",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "ec9efb3f",
+    "author": "thomas-capaldi",
+    "date": "2026-08-06T12:17:02Z",
+    "comment": "Move the Copilot Studio platform guides into Ofgem/Agents",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "a8596b5e",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-06T12:10:34Z",
+    "comment": "Merged PR 92: Copilot Studio: guide to replacing stock system topic text",
+    "adds": 11,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "453fabcd",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-06T12:01:55Z",
+    "comment": "Merge pull request 92 from docs/copilot-studio-system-topics into main",
+    "adds": 11,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "b815f094",
+    "author": "thomas-capaldi",
+    "date": "2026-08-06T12:01:53Z",
+    "comment": "Add copy-paste topic templates for agents with no Git connection",
+    "adds": 10,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "1c2cd647",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-06T11:53:49Z",
+    "comment": "Merge pull request 92 from docs/copilot-studio-system-topics into main",
+    "adds": 1,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "04d9e552",
+    "author": "thomas-capaldi",
+    "date": "2026-08-06T11:52:13Z",
+    "comment": "Add a reusable guide to replacing stock system topic text",
+    "adds": 1,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "ca534886",
+    "author": "thomas-capaldi",
+    "date": "2026-08-06T11:37:55Z",
+    "comment": "Use 'Okay' rather than 'OK' across system topic replies",
+    "adds": 0,
+    "edits": 3,
+    "deletes": 0
+  },
+  {
+    "id": "54337b35",
+    "author": "thomas-capaldi",
+    "date": "2026-08-06T11:35:40Z",
+    "comment": "Goodbye: soften the decline message wording",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "79f09672",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-06T11:23:49Z",
+    "comment": "Merged PR 91: Copilot Studio: two-tenant working model, 6 Aug test results, line-endings fix",
+    "adds": 1,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "08877ba9",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-06T11:22:05Z",
+    "comment": "Merge pull request 91 from docs/agent-working-practices into main",
+    "adds": 1,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "436c4f6b",
+    "author": "thomas-capaldi",
+    "date": "2026-08-06T11:12:50Z",
+    "comment": "Line endings: name the real fix, demote the per-clone override",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "a34e369c",
+    "author": "thomas-capaldi",
+    "date": "2026-08-06T11:11:49Z",
+    "comment": "Bring the generalised solution -text rule onto this sync branch",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "b3bacbb1",
+    "author": "thomas-capaldi",
+    "date": "2026-08-06T11:05:28Z",
+    "comment": "System topics: replace stock boilerplate with agent-specific text",
+    "adds": 0,
+    "edits": 9,
+    "deletes": 0
+  },
+  {
+    "id": "d10e7476",
+    "author": "thomas-capaldi",
+    "date": "2026-08-06T10:57:03Z",
+    "comment": "Record what the 6 Aug Inform testing proved",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "b4f292ba",
+    "author": "thomas-capaldi",
+    "date": "2026-08-06T10:32:03Z",
+    "comment": "Instructions: refuse off-topic requests, fix stale tool name",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "32e2e6f5",
+    "author": "thomas-capaldi",
+    "date": "2026-08-06T10:09:24Z",
+    "comment": "Document the two-tenant working model for the test plan generator",
+    "adds": 1,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "2f9ed0e7",
+    "author": "thomas-capaldi",
+    "date": "2026-08-06T09:59:15Z",
+    "comment": "Complete multi-sheet Excel lookup topic logic",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "aa64f228",
+    "author": "thomas-capaldi",
+    "date": "2026-08-06T09:40:07Z",
+    "comment": "Merge remote sync: connection reference and Untitled topic",
+    "adds": 4,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "80906d63",
+    "author": "Jake Boraston",
+    "date": "2026-08-06T09:39:57Z",
+    "comment": "LateDataAgent: agent instructions as plain-text .txt, AIDevOps house style",
+    "adds": 1,
+    "edits": 0,
+    "deletes": 1
+  },
+  {
+    "id": "621f9a40",
+    "author": "thomas-capaldi",
+    "date": "2026-08-06T09:39:50Z",
+    "comment": "Add GetUserStoryRowAllSheets draft topic (Ofgem-bound, unpushed)",
+    "adds": 2,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "ae606d04",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-06T09:31:36Z",
+    "comment": "basic topic added",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "96a6e537",
+    "author": "Jake Boraston",
+    "date": "2026-08-06T09:19:45Z",
+    "comment": "LateDataAgent: add agent instructions aligned to the deterministic process",
+    "adds": 1,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "e58d7cc0",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-06T09:18:28Z",
+    "comment": ".",
+    "adds": 4,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "090e8763",
+    "author": "Jake Boraston",
+    "date": "2026-08-06T09:07:33Z",
+    "comment": "Merged PR 90: LateDataAgent: complete Late Meter Submission Agent + Copilot Studio build caveats",
+    "adds": 5,
+    "edits": 9,
+    "deletes": 0
+  },
+  {
+    "id": "d3edfb6e",
+    "author": "Jake Boraston",
+    "date": "2026-08-06T09:05:57Z",
+    "comment": "Merge pull request 90 from JakeDEV into main",
+    "adds": 5,
+    "edits": 9,
+    "deletes": 0
+  },
+  {
+    "id": "a830617c",
+    "author": "Jake Boraston",
+    "date": "2026-08-06T09:05:54Z",
+    "comment": "Merge remote-tracking branch 'origin/main' into JakeDEV",
+    "adds": 7,
+    "edits": 9,
+    "deletes": 0
+  },
+  {
+    "id": "b0394d6d",
+    "author": "Jake Boraston",
+    "date": "2026-08-06T08:39:14Z",
+    "comment": "Caveats: add build-method context + Context tags, tighten entry spacing",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "fcb28f18",
+    "author": "Jake Boraston",
+    "date": "2026-08-06T08:29:28Z",
+    "comment": "Space out caveat entries so each part renders on its own line",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "21526191",
+    "author": "Jake Boraston",
+    "date": "2026-08-06T08:22:19Z",
+    "comment": "Add Copilot Studio Build Caveats diary at repo top level",
+    "adds": 1,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "44dab111",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-06T08:18:10Z",
+    "comment": "Merged PR 89: Copilot Studio: source control and tooling guide",
+    "adds": 2,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "7d9d4b17",
+    "author": "Jake Boraston",
+    "date": "2026-08-06T08:13:22Z",
+    "comment": "LateDataAgent: document hard-coded values for the client-environment rebuild",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "490b9a79",
+    "author": "Jake Boraston",
+    "date": "2026-08-06T08:12:33Z",
+    "comment": "LateMeterSubmissionAgent: delete scratch folder via Delete item (by ItemId)",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "e04c8000",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-06T08:11:10Z",
+    "comment": "Merge pull request 89 from docs/copilot-studio-tooling into main",
+    "adds": 2,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "b418f9d8",
+    "author": "thomas-capaldi",
+    "date": "2026-08-06T08:11:07Z",
+    "comment": "Rollback runbook: deployment settings wiring is dormant copied config, not a live bug",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "837dc5d4",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-06T08:04:55Z",
+    "comment": "Merge pull request 89 from docs/copilot-studio-tooling into main",
+    "adds": 2,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "7a6daa9b",
+    "author": "thomas-capaldi",
+    "date": "2026-08-06T08:04:53Z",
+    "comment": "Copilot Studio ALM: deployment mechanisms, rollback semantics, Ofgem runbook",
+    "adds": 1,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "945b179a",
+    "author": "Jake Boraston",
+    "date": "2026-08-06T08:01:04Z",
+    "comment": "LateMeterSubmissionAgent: use Id (not {Identifier}) for the scratch delete",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "0ddcd560",
+    "author": "Jake Boraston",
+    "date": "2026-08-06T07:48:45Z",
+    "comment": "LateMeterSubmissionAgent: scratch cleanup via GetFolderMetadata + DeleteFile",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "7714a3e2",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-05T20:51:21Z",
+    "comment": "Merge pull request 89 from docs/copilot-studio-tooling into main",
+    "adds": 1,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "e19074c4",
+    "author": "thomas-capaldi",
+    "date": "2026-08-05T20:50:50Z",
+    "comment": "Copilot Studio: source control and tooling guide",
+    "adds": 1,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "0de6cc80",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-05T18:27:25Z",
+    "comment": "First commit",
+    "adds": 35,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "6559d9a7",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-05T18:09:50Z",
+    "comment": "Creating new project folder Ofgem/Agents/DevOpsTestPlanGenerator/solution",
+    "adds": 1,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "91cd6354",
+    "author": "Jake Boraston",
+    "date": "2026-08-05T17:00:16Z",
+    "comment": "Revert \"LateMeterSubmissionAgent: reintroduce scratch delete (step 2, extract flow only)\"",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "053c7558",
+    "author": "Jake Boraston",
+    "date": "2026-08-05T16:53:39Z",
+    "comment": "LateMeterSubmissionAgent: reintroduce scratch delete (step 2, extract flow only)",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "3a11563f",
+    "author": "Jake Boraston",
+    "date": "2026-08-05T16:48:37Z",
+    "comment": "LateMeterSubmissionAgent: reintroduce Response Letters folder (step 1, folder only)",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "b1552437",
+    "author": "Jake Boraston",
+    "date": "2026-08-05T16:34:54Z",
+    "comment": "Revert \"LateMeterSubmissionAgent: clean up the extract flow scratch folder\"",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "f8a18149",
+    "author": "Jake Boraston",
+    "date": "2026-08-05T16:34:54Z",
+    "comment": "Revert \"LateMeterSubmissionAgent: save letters to Response Letters folder; drop orphan ref\"",
+    "adds": 1,
+    "edits": 3,
+    "deletes": 0
+  },
+  {
+    "id": "b65d99f4",
+    "author": "Jake Boraston",
+    "date": "2026-08-05T16:15:47Z",
+    "comment": "LateMeterSubmissionAgent: clean up the extract flow scratch folder",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "7157ed3e",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-05T16:15:17Z",
+    "comment": "Merged PR 88: AIDevOpsTestPlanGenerator: multi-sheet Excel lookup topic and docs",
+    "adds": 3,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "cf8502db",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-05T16:14:39Z",
+    "comment": "Merged PR 87: Ofgem DevOps: script tooling for Idea intake fields, Markdown checklists, work item copies",
+    "adds": 1,
+    "edits": 7,
+    "deletes": 0
+  },
+  {
+    "id": "d679624b",
+    "author": "Jake Boraston",
+    "date": "2026-08-05T16:11:27Z",
+    "comment": "LateMeterSubmissionAgent: save letters to Response Letters folder; drop orphan ref",
+    "adds": 0,
+    "edits": 3,
+    "deletes": 1
+  },
+  {
+    "id": "af3bd330",
+    "author": "Jake Boraston",
+    "date": "2026-08-05T16:01:22Z",
+    "comment": "LateDataAgent: record the agent as complete end to end",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "26f1579d",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-05T16:01:03Z",
+    "comment": "Merge pull request 88 from ofgem/testplan-agent-multi-sheet-lookup into main",
+    "adds": 3,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "b8f7a31c",
+    "author": "Thomas Capaldi",
+    "date": "2026-08-05T16:01:03Z",
+    "comment": "Merge pull request 87 from ofgem-devops-scripts-updates into main",
+    "adds": 1,
+    "edits": 7,
+    "deletes": 0
+  },
+  {
+    "id": "de8917c3",
+    "author": "thomas-capaldi",
+    "date": "2026-08-05T15:17:27Z",
+    "comment": "AIDevOpsTestPlanGenerator: multi-sheet Excel lookup topic and docs",
+    "adds": 3,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "c60dfb18",
+    "author": "thomas-capaldi",
+    "date": "2026-08-05T15:17:00Z",
+    "comment": "Ofgem: gitignore repo-status-progress.md session note",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "ab5eb7b8",
+    "author": "Jake Boraston",
+    "date": "2026-08-05T15:13:00Z",
+    "comment": "LateMeterSubmissionAgent: compose the letter link (connector {Link} was blank)",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "3b5448c1",
+    "author": "Jake Boraston",
+    "date": "2026-08-05T12:32:57Z",
+    "comment": "LateMeterSubmissionAgent: save the letter to SharePoint and return the link",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "65a4a9cf",
+    "author": "Jake Boraston",
+    "date": "2026-08-05T12:25:24Z",
+    "comment": "LateMeterSubmissionAgent: temporary debug node to reveal Populate output shape",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "e93bdba8",
+    "author": "Jake Boraston",
+    "date": "2026-08-05T12:17:58Z",
+    "comment": "LateMeterSubmissionAgent: map DateToday now it is a Plain Text control",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "ea620a17",
+    "author": "Jake Boraston",
+    "date": "2026-08-05T12:16:55Z",
+    "comment": "populate action updated",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "c9f3a772",
+    "author": "Jake Boraston",
+    "date": "2026-08-05T12:13:51Z",
+    "comment": "LateMeterSubmissionAgent: show the full calculation working, no magic numbers",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "da0bf2b4",
+    "author": "Jake Boraston",
+    "date": "2026-08-05T11:32:45Z",
+    "comment": "LateMeterSubmissionAgent: map all letter template controls in the Word action",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "96d126b1",
+    "author": "Jake Boraston",
+    "date": "2026-08-05T11:28:40Z",
+    "comment": "topic update",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "43c81cfa",
+    "author": "Jake Boraston",
+    "date": "2026-08-05T11:21:02Z",
+    "comment": "added Late Data Tool into Topic",
+    "adds": 0,
+    "edits": 3,
+    "deletes": 2
+  },
+  {
+    "id": "ce555fa9",
+    "author": "Jake Boraston",
+    "date": "2026-08-05T11:09:44Z",
+    "comment": "LateMeterSubmissionAgent: add Topic.DateToday for the letter",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "9c3b3020",
+    "author": "Jake Boraston",
+    "date": "2026-08-05T11:06:13Z",
+    "comment": "added Populate word doc tool",
+    "adds": 4,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "d77044dc",
+    "author": "Jake Boraston",
+    "date": "2026-08-05T10:43:31Z",
+    "comment": "LateDataAgent: record multi-period calc as built and verified",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "93fce371",
+    "author": "Jake Boraston",
+    "date": "2026-08-05T09:45:47Z",
+    "comment": "LateMeterSubmissionAgent: join issues to text in the flow, not the topic",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "c0637f30",
+    "author": "Jake Boraston",
+    "date": "2026-08-05T09:36:46Z",
+    "comment": "LateMeterSubmissionAgent: give every topic node a meaningful display name",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "1ae52037",
+    "author": "Jake Boraston",
+    "date": "2026-08-05T09:33:39Z",
+    "comment": "update topic",
+    "adds": 0,
+    "edits": 4,
+    "deletes": 0
+  },
+  {
+    "id": "48928118",
+    "author": "Jake Boraston",
+    "date": "2026-08-05T09:27:00Z",
+    "comment": "LateMeterSubmissionAgent: fix topic PowerFx errors in the period loop",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "2b26ac09",
+    "author": "Jake Boraston",
+    "date": "2026-08-05T09:16:57Z",
+    "comment": "LateMeterSubmissionAgent: rework topic to be form-driven and multi-period",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "261cf106",
+    "author": "Jake Boraston",
+    "date": "2026-08-05T08:06:52Z",
+    "comment": "LateMeterSubmissionAgent: rework extract flow for the real form (9 fields)",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "fd8cbfdd",
+    "author": "thomas-capaldi",
+    "date": "2026-08-04T17:54:12Z",
+    "comment": "Ofgem DevOps: script tooling for Idea intake fields, Markdown checklist auto-conversion, work item copy fixes",
+    "adds": 1,
+    "edits": 6,
+    "deletes": 0
+  },
+  {
+    "id": "36f42588",
+    "author": "Jake Boraston",
+    "date": "2026-08-04T17:35:09Z",
+    "comment": "LateDataAgent: add input form and letter template to samples",
+    "adds": 2,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "506311a4",
+    "author": "Jake Boraston",
+    "date": "2026-08-04T15:41:49Z",
+    "comment": "Merged PR 86: LateDataAgent: input-gathering, missed-period calculation, and solution relocation",
+    "adds": 3,
+    "edits": 6,
+    "deletes": 3
+  },
+  {
+    "id": "f212545f",
+    "author": "Jake Boraston",
+    "date": "2026-08-04T15:02:05Z",
+    "comment": "Merge pull request 86 from JakeDEV into main",
+    "adds": 3,
+    "edits": 6,
+    "deletes": 3
+  },
+  {
+    "id": "4ac23f9c",
+    "author": "Jake Boraston",
+    "date": "2026-08-04T14:59:10Z",
+    "comment": "LateDataAgent: write up calculation-spec (built + verified) and update handover",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "01383d3a",
+    "author": "Jake Boraston",
+    "date": "2026-08-04T14:34:24Z",
+    "comment": "LateMeterSubmissionAgent: parse previous date UK-first and confirm it spelled out",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "1a3e7a13",
+    "author": "Jake Boraston",
+    "date": "2026-08-04T14:11:52Z",
+    "comment": "LateMeterSubmissionAgent: fix day counts across BST/GMT (timezone off-by-one)",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "8156a87f",
+    "author": "Jake Boraston",
+    "date": "2026-08-04T13:58:49Z",
+    "comment": "LateMeterSubmissionAgent: normalise dates to midnight before day maths",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "e4a5f11e",
+    "author": "Jake Boraston",
+    "date": "2026-08-04T13:48:20Z",
+    "comment": "LateMeterSubmissionAgent: show calc working (diagnose wrong estimate) + fix empty-response",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "3af8dacd",
+    "author": "Jake Boraston",
+    "date": "2026-08-04T12:50:36Z",
+    "comment": "Move solution line-ending rule to parent .gitattributes, out of the solution folder",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 1
+  },
+  {
+    "id": "d27d1d67",
+    "author": "Jake Boraston",
+    "date": "2026-08-04T12:04:44Z",
+    "comment": "Stop line-ending churn on the relocated Power Platform solution",
+    "adds": 1,
+    "edits": 24,
+    "deletes": 0
+  },
+  {
+    "id": "be7c6cc2",
+    "author": "Jake Boraston",
+    "date": "2026-08-03T15:44:46Z",
+    "comment": "LateMeterSubmissionAgent: estimate the missed-period reading in the topic",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "28c38915",
+    "author": "Jake Boraston",
+    "date": "2026-08-03T15:18:05Z",
+    "comment": "LateMeterSubmissionAgent: format previous submission date as dd/mm/yyyy",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "3e075e4c",
+    "author": "Jake Boraston",
+    "date": "2026-08-03T15:13:58Z",
+    "comment": "updated question to use date instead of date time",
+    "adds": 0,
+    "edits": 8,
+    "deletes": 0
+  },
+  {
+    "id": "ddccedca",
+    "author": "Jake Boraston",
+    "date": "2026-08-03T15:01:52Z",
+    "comment": "LateMeterSubmissionAgent: gather previous submission date and period count",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "f610d00b",
+    "author": "Jake Boraston",
+    "date": "2026-08-03T14:49:35Z",
+    "comment": "moved directory to make the agent solution make more sense per client",
+    "adds": 0,
+    "edits": 31,
+    "deletes": 0
+  },
+  {
+    "id": "2f83f96a",
+    "author": "Jake Boraston",
+    "date": "2026-08-03T14:47:18Z",
+    "comment": "Remove duplicate solution at old path Agents/LateMeterSubmissionAgent",
+    "adds": 0,
+    "edits": 0,
+    "deletes": 48
+  },
+  {
+    "id": "4c7c1505",
+    "author": "Jake Boraston",
+    "date": "2026-08-03T14:38:21Z",
+    "comment": "first commit from new branch",
+    "adds": 47,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "1fee08f2",
+    "author": "Jake Boraston",
+    "date": "2026-08-03T14:37:41Z",
+    "comment": "Creating new project folder Ofgem/Agents/LateDataAgent/solution",
+    "adds": 1,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "0fa97697",
+    "author": "Jake Boraston",
+    "date": "2026-08-03T14:37:00Z",
+    "comment": "Merged PR 85: LateMeterSubmissionAgent: validation, confirmation gate, status branching",
+    "adds": 1,
+    "edits": 5,
+    "deletes": 0
+  },
+  {
+    "id": "2ffbf2fd",
+    "author": "Jake Boraston",
+    "date": "2026-08-03T14:34:30Z",
+    "comment": "Merge pull request 85 from feature/latedataagent-chat-attachment-input into main",
+    "adds": 1,
+    "edits": 5,
+    "deletes": 0
+  },
+  {
+    "id": "a19d3373",
+    "author": "Jake Boraston",
+    "date": "2026-08-03T14:33:30Z",
+    "comment": "LateDataAgent: bring handover up to date (validation, confirm gate, conn ref resolved)",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "40e147c2",
+    "author": "Jake Boraston",
+    "date": "2026-08-03T14:31:14Z",
+    "comment": "Added init.md",
+    "adds": 1,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "7aa2dd02",
+    "author": "Jake Boraston",
+    "date": "2026-08-03T14:19:25Z",
+    "comment": "LateMeterSubmissionAgent: instruction to suppress post-topic model narration",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "63d272ba",
+    "author": "Jake Boraston",
+    "date": "2026-08-03T14:06:00Z",
+    "comment": "LateMeterSubmissionAgent: validate reading date in extract flow + topic",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "35d9ffac",
+    "author": "Jake Boraston",
+    "date": "2026-08-03T14:00:40Z",
+    "comment": "LateMeterSubmissionAgent: topic branches on extract status",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "fab43c30",
+    "author": "Jake Boraston",
+    "date": "2026-08-03T13:47:03Z",
+    "comment": "LateMeterSubmissionAgent: validate meter reading is numeric in extract flow",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "e99a0377",
+    "author": "Jake Boraston",
+    "date": "2026-08-03T13:40:53Z",
+    "comment": "LateMeterSubmissionAgent: add confirmation gate to the topic",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "01dd0e44",
+    "author": "Jake Boraston",
+    "date": "2026-08-03T12:54:00Z",
+    "comment": "LateDataAgent: handover note on the botcomponent_workflow association gotcha",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "78a58192",
+    "author": "Jake Boraston",
+    "date": "2026-08-03T12:52:23Z",
+    "comment": "LateMeterSubmissionAgent: register extract flow with the agent (botcomponent_workflow)",
+    "adds": 1,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "6fbb462f",
+    "author": "thomas-capaldi",
+    "date": "2026-08-02T13:11:18Z",
+    "comment": "CLAUDE.md updated",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "00ba7402",
+    "author": "thomas-capaldi",
+    "date": "2026-08-02T13:08:16Z",
+    "comment": "Ofgem: fix gitignore pattern for devops-drift-review.md",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "0950b9e6",
+    "author": "thomas-capaldi",
+    "date": "2026-08-01T13:56:43Z",
+    "comment": "Ofgem: Feedback/PBI workflow tooling, docs and fixes",
+    "adds": 5,
+    "edits": 4,
+    "deletes": 0
+  },
+  {
+    "id": "03fe4094",
+    "author": "thomas-capaldi",
+    "date": "2026-08-01T11:02:06Z",
+    "comment": "Add work item read and copy helper scripts",
+    "adds": 2,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "67194dbd",
+    "author": "thomas-capaldi",
+    "date": "2026-08-01T10:02:01Z",
+    "comment": "AI Test Plan Generator: AC references on test case ID line, formatting doc cleanup",
+    "adds": 0,
+    "edits": 3,
+    "deletes": 0
+  },
+  {
+    "id": "49122a58",
+    "author": "thomas-capaldi",
+    "date": "2026-07-31T21:05:18Z",
+    "comment": "Add AI Test Plan Generator agent docs and Teams formatting guide",
+    "adds": 10,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "4885b0ee",
+    "author": "Jake Boraston",
+    "date": "2026-07-29T17:34:39Z",
+    "comment": "Merged PR 83: LateMeterSubmissionAgent: handover doc + connection reference packaged",
+    "adds": 3,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "bfff9ee3",
+    "author": "Jake Boraston",
+    "date": "2026-07-29T17:33:30Z",
+    "comment": "Merge pull request 83 from feature/latedataagent-chat-attachment-input into main",
+    "adds": 3,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "5a64227a",
+    "author": "Jake Boraston",
+    "date": "2026-07-29T17:31:35Z",
+    "comment": "LateMeterSubmissionAgent: point flows back to ds_sharedsharepointonline_1f7a8",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "22b815f0",
+    "author": "Jake Boraston",
+    "date": "2026-07-29T17:29:20Z",
+    "comment": "connection ref update",
+    "adds": 1,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "38034afb",
+    "author": "Jake Boraston",
+    "date": "2026-07-29T17:26:35Z",
+    "comment": "LateMeterSubmissionAgent: repoint both flows to solution-managed connection reference",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "b85bf21e",
+    "author": "Jake Boraston",
+    "date": "2026-07-29T17:22:32Z",
+    "comment": "LateDataAgent: add handover.md (status, quirks, next steps, Claude Code workflow)",
+    "adds": 1,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "6a65c4c0",
+    "author": "Jake Boraston",
+    "date": "2026-07-29T17:14:54Z",
+    "comment": "Updated connection references",
+    "adds": 1,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "8e8e9e38",
+    "author": "Jake Boraston",
+    "date": "2026-07-29T16:55:50Z",
+    "comment": "Merged PR 82: LateMeterSubmissionAgent: chat-attachment input, filing + extract flows, read slice",
+    "adds": 10,
+    "edits": 9,
+    "deletes": 0
+  },
+  {
+    "id": "03b5f717",
+    "author": "Jake Boraston",
+    "date": "2026-07-29T16:54:41Z",
+    "comment": "Merge pull request 82 from feature/latedataagent-chat-attachment-input into main",
+    "adds": 10,
+    "edits": 9,
+    "deletes": 0
+  },
+  {
+    "id": "5f468467",
+    "author": "Jake Boraston",
+    "date": "2026-07-29T16:45:18Z",
+    "comment": "Solution update",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "600877c5",
+    "author": "Jake Boraston",
+    "date": "2026-07-29T16:31:00Z",
+    "comment": "LateMeterSubmissionAgent: extend topic to call extract flow and show values",
+    "adds": 0,
+    "edits": 1,
+    "deletes": 0
+  },
+  {
+    "id": "8a03a12d",
+    "author": "Jake Boraston",
+    "date": "2026-07-29T16:27:13Z",
+    "comment": "flow update",
+    "adds": 0,
+    "edits": 6,
+    "deletes": 0
+  },
+  {
+    "id": "c480c34b",
+    "author": "Jake Boraston",
+    "date": "2026-07-29T14:02:45Z",
+    "comment": "LateMeterSubmissionAgent: add 'Late data - extract form' agent flow",
+    "adds": 2,
+    "edits": 3,
+    "deletes": 0
+  },
+  {
+    "id": "7ad8844b",
+    "author": "Jake Boraston",
+    "date": "2026-07-29T13:43:17Z",
+    "comment": "Topic and Workflow created",
+    "adds": 7,
+    "edits": 5,
+    "deletes": 0
+  },
+  {
+    "id": "641e8a48",
+    "author": "Jake Boraston",
+    "date": "2026-07-29T09:43:52Z",
+    "comment": "first commit for this branch",
+    "adds": 0,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "7686b755",
+    "author": "Jake Boraston",
+    "date": "2026-07-29T09:11:57Z",
+    "comment": "LateDataAgent: add chat-attachment input front end and gate on encryption labels",
+    "adds": 1,
+    "edits": 2,
+    "deletes": 0
+  },
+  {
+    "id": "9f9902a1",
+    "author": "Jake Boraston",
+    "date": "2026-07-29T08:28:56Z",
+    "comment": "Initial commit",
+    "adds": 35,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "0b491557",
+    "author": "Jake Boraston",
+    "date": "2026-07-29T08:28:20Z",
+    "comment": "Creating new project folder Agents/LateMeterSubmissionAgent",
+    "adds": 1,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "a2231ef4",
+    "author": "thomas-capaldi",
+    "date": "2026-07-29T07:19:54Z",
+    "comment": "Add Ofgem Late Data Agent design and build documentation",
+    "adds": 19,
+    "edits": 0,
+    "deletes": 0
+  },
+  {
+    "id": "c0ac574c",
+    "author": "Thomas Capaldi",
+    "date": "2026-07-29T07:07:58Z",
+    "comment": "Added README.md",
+    "adds": 1,
+    "edits": 0,
+    "deletes": 0
+  }
+]

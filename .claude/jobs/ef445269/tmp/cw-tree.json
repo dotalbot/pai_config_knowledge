@@ -1,0 +1,2770 @@
+[
+  {
+    "path": "/.claude",
+    "folder": true
+  },
+  {
+    "path": "/.claude/skills",
+    "folder": true
+  },
+  {
+    "path": "/.claude/skills/writing-review",
+    "folder": true
+  },
+  {
+    "path": "/.claude/skills/writing-review/SKILL.md",
+    "folder": false
+  },
+  {
+    "path": "/.claude/skills/writing-review/reference.md",
+    "folder": false
+  },
+  {
+    "path": "/CLAUDE.md",
+    "folder": false
+  },
+  {
+    "path": "/Copilot Studio Build Caveats.md",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/.env.example",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/.gitignore",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/.gitattributes",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/AIDevOpsTestPlanGenerator",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/AIDevOpsTestPlanGenerator/Demo-Test-Case-Repository.xlsx",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/AIDevOpsTestPlanGenerator/GetUserStoryRowAllSheets.topic.yml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/AIDevOpsTestPlanGenerator/agent-instructions.txt",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/AIDevOpsTestPlanGenerator/decision-workbook-structure.md",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/AIDevOpsTestPlanGenerator/docs",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/AIDevOpsTestPlanGenerator/docs/build-01-multi-sheet-lookup-topic.md",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/AIDevOpsTestPlanGenerator/docs/getting-a-test-plan-into-devops.md",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/AIDevOpsTestPlanGenerator/docs/how-the-multi-sheet-lookup-works.md",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/AIDevOpsTestPlanGenerator/docs/promote-inform-changes-to-ofgem.md",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/AIDevOpsTestPlanGenerator/docs/using-the-agent.md",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/AIDevOpsTestPlanGenerator/docs/working-across-two-tenants.md",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/AIDevOpsTestPlanGenerator/formatting-probe.md",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/AIDevOpsTestPlanGenerator/instructions.md",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/AIDevOpsTestPlanGenerator/test-case-import-template.csv",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/CLAUDE.md",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/README.md",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/agent-instructions.txt",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/docs",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/docs/build-plan.md",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/evaluation-test-cases.csv",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/evaluation",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/evaluation/ee-testsets.json",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/flows",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/flows/EE-read-submissions.json",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/flows/variables",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/flows/variables/1-Initialize_PageSize.json",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/flows/variables/2-Initialize_Skip.json",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/flows/variables/3-Initialize_PageCount.json",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/flows/variables/4-Initialize_MatchedCount.json",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/flows/variables/5-Initialize_NotesCount.json",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/flows/variables/6-Initialize_Notes.json",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/release-notes.md",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/Assets",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/Assets/botcomponent_connectionreferenceset.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/Assets/botcomponent_workflowset.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/Workflows",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/Workflows/EEinsights-Pullsubmissiondata-46748502-049B-F111-B8DB-002248C66E88.json",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/[Content_Types].xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/copilots_header_cr679_dns_ee_3.action.EEinsights-Pullsubmissiondata",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/copilots_header_cr679_dns_ee_3.action.EEinsights-Pullsubmissiondata/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/copilots_header_cr679_dns_ee_3.action.EEinsights-Pullsubmissiondata/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/copilots_header_cr679_dns_ee_3.action.ExcelOnlineBusiness-Listrowspresentinatable_Nje",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/copilots_header_cr679_dns_ee_3.action.ExcelOnlineBusiness-Listrowspresentinatable_Nje/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/copilots_header_cr679_dns_ee_3.action.ExcelOnlineBusiness-Listrowspresentinatable_Nje/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/copilots_header_cr679_dns_ee_3.action.Office365Outlook-SendanemailV2",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/copilots_header_cr679_dns_ee_3.action.Office365Outlook-SendanemailV2/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/copilots_header_cr679_dns_ee_3.action.Office365Outlook-SendanemailV2/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/copilots_header_cr679_dns_ee_3.gpt.default",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/copilots_header_cr679_dns_ee_3.gpt.default/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/copilots_header_cr679_dns_ee_3.gpt.default/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/copilots_header_cr679_dns_ee_3.topic.Chatwentinactive",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/copilots_header_cr679_dns_ee_3.topic.Chatwentinactive/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/copilots_header_cr679_dns_ee_3.topic.Chatwentinactive/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/copilots_header_cr679_dns_ee_3.topic.ConversationStart",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/copilots_header_cr679_dns_ee_3.topic.ConversationStart/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/copilots_header_cr679_dns_ee_3.topic.ConversationStart/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/copilots_header_cr679_dns_ee_3.topic.EndofConversation",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/copilots_header_cr679_dns_ee_3.topic.EndofConversation/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/copilots_header_cr679_dns_ee_3.topic.EndofConversation/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/copilots_header_cr679_dns_ee_3.topic.Escalate",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/copilots_header_cr679_dns_ee_3.topic.Escalate/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/copilots_header_cr679_dns_ee_3.topic.Escalate/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/copilots_header_cr679_dns_ee_3.topic.Fallback",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/copilots_header_cr679_dns_ee_3.topic.Fallback/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/copilots_header_cr679_dns_ee_3.topic.Fallback/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/copilots_header_cr679_dns_ee_3.topic.GetdateforInsightsReport",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/copilots_header_cr679_dns_ee_3.topic.GetdateforInsightsReport/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/copilots_header_cr679_dns_ee_3.topic.GetdateforInsightsReport/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/copilots_header_cr679_dns_ee_3.topic.Goodbye",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/copilots_header_cr679_dns_ee_3.topic.Goodbye/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/copilots_header_cr679_dns_ee_3.topic.Goodbye/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/copilots_header_cr679_dns_ee_3.topic.Greeting",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/copilots_header_cr679_dns_ee_3.topic.Greeting/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/copilots_header_cr679_dns_ee_3.topic.Greeting/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/copilots_header_cr679_dns_ee_3.topic.HawthornCategoriesAIBuilddocx_7wXoKf2Ryr3TsrSzyQbtM",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/copilots_header_cr679_dns_ee_3.topic.HawthornCategoriesAIBuilddocx_7wXoKf2Ryr3TsrSzyQbtM/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/copilots_header_cr679_dns_ee_3.topic.HawthornCategoriesAIBuilddocx_7wXoKf2Ryr3TsrSzyQbtM/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/copilots_header_cr679_dns_ee_3.topic.MultipleTopicsMatched",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/copilots_header_cr679_dns_ee_3.topic.MultipleTopicsMatched/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/copilots_header_cr679_dns_ee_3.topic.MultipleTopicsMatched/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/copilots_header_cr679_dns_ee_3.topic.OnError",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/copilots_header_cr679_dns_ee_3.topic.OnError/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/copilots_header_cr679_dns_ee_3.topic.OnError/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/copilots_header_cr679_dns_ee_3.topic.ResetConversation",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/copilots_header_cr679_dns_ee_3.topic.ResetConversation/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/copilots_header_cr679_dns_ee_3.topic.ResetConversation/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/copilots_header_cr679_dns_ee_3.topic.Search",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/copilots_header_cr679_dns_ee_3.topic.Search/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/copilots_header_cr679_dns_ee_3.topic.Search/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/copilots_header_cr679_dns_ee_3.topic.Signin",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/copilots_header_cr679_dns_ee_3.topic.Signin/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/copilots_header_cr679_dns_ee_3.topic.Signin/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/copilots_header_cr679_dns_ee_3.topic.StartOver",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/copilots_header_cr679_dns_ee_3.topic.StartOver/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/copilots_header_cr679_dns_ee_3.topic.StartOver/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/copilots_header_cr679_dns_ee_3.topic.ThankYou",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/copilots_header_cr679_dns_ee_3.topic.ThankYou/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/copilots_header_cr679_dns_ee_3.topic.ThankYou/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_016123a6-80cd-4cac-9095-2e8b3c8298da",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_016123a6-80cd-4cac-9095-2e8b3c8298da/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_016123a6-80cd-4cac-9095-2e8b3c8298da/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_076c03cb-6223-472e-999c-6c3d14114f11",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_076c03cb-6223-472e-999c-6c3d14114f11/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_076c03cb-6223-472e-999c-6c3d14114f11/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_0a8f8bea-2b26-40b5-a8f5-f155665f8e99",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_0a8f8bea-2b26-40b5-a8f5-f155665f8e99/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_0a8f8bea-2b26-40b5-a8f5-f155665f8e99/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_15d6fdb5-7bf6-43fb-940f-74549dbbaf05",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_15d6fdb5-7bf6-43fb-940f-74549dbbaf05/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_15d6fdb5-7bf6-43fb-940f-74549dbbaf05/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_1eace919-d81f-495b-b447-345ae67fe82b",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_1eace919-d81f-495b-b447-345ae67fe82b/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_1eace919-d81f-495b-b447-345ae67fe82b/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_37eedc91-e678-4ef8-8421-d6b23197c18e",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_37eedc91-e678-4ef8-8421-d6b23197c18e/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_37eedc91-e678-4ef8-8421-d6b23197c18e/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_65a353f2-9a91-4590-b699-5626754b2818",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_65a353f2-9a91-4590-b699-5626754b2818/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_65a353f2-9a91-4590-b699-5626754b2818/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_8a82e48a-7f49-42f1-b5ec-642e2cbd85e9",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_8a82e48a-7f49-42f1-b5ec-642e2cbd85e9/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_8a82e48a-7f49-42f1-b5ec-642e2cbd85e9/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_8d57db69-6e02-4a2e-94d4-fbb4a2f3c421",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_8d57db69-6e02-4a2e-94d4-fbb4a2f3c421/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_8d57db69-6e02-4a2e-94d4-fbb4a2f3c421/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_9fcd1473-7add-44ca-9074-b556ef716403",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_9fcd1473-7add-44ca-9074-b556ef716403/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_9fcd1473-7add-44ca-9074-b556ef716403/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_a1c47a2e-2679-413c-b686-a85f4d1642b9",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_a1c47a2e-2679-413c-b686-a85f4d1642b9/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_a1c47a2e-2679-413c-b686-a85f4d1642b9/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_b6840878-e63e-4301-a720-cc5932d2ca5e",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_b6840878-e63e-4301-a720-cc5932d2ca5e/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_b6840878-e63e-4301-a720-cc5932d2ca5e/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_b6ab34c0-eb1a-4b7b-a681-74d027f6a6e2",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_b6ab34c0-eb1a-4b7b-a681-74d027f6a6e2/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_b6ab34c0-eb1a-4b7b-a681-74d027f6a6e2/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_b6ebcf88-f064-40bf-bf7c-af752c89bf4a",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_b6ebcf88-f064-40bf-bf7c-af752c89bf4a/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_b6ebcf88-f064-40bf-bf7c-af752c89bf4a/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_b7ee49cc-0005-4fe2-a078-4d5524fdefb3",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_b7ee49cc-0005-4fe2-a078-4d5524fdefb3/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_b7ee49cc-0005-4fe2-a078-4d5524fdefb3/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_c71190cd-2b4e-4c36-bcfe-e49c236c121d",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_c71190cd-2b4e-4c36-bcfe-e49c236c121d/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_c71190cd-2b4e-4c36-bcfe-e49c236c121d/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_c7bbbb1e-600b-471d-a17f-2d4f4d471d71",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_c7bbbb1e-600b-471d-a17f-2d4f4d471d71/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_c7bbbb1e-600b-471d-a17f-2d4f4d471d71/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_c9ff0cae-dc37-4e0b-937a-51d06d711e21",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_c9ff0cae-dc37-4e0b-937a-51d06d711e21/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_c9ff0cae-dc37-4e0b-937a-51d06d711e21/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_d63e235c-d33c-4d55-b75d-de952d3d2e5b",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_d63e235c-d33c-4d55-b75d-de952d3d2e5b/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_d63e235c-d33c-4d55-b75d-de952d3d2e5b/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_d7ba14cc-2908-4b25-a17e-ab648f990663",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_d7ba14cc-2908-4b25-a17e-ab648f990663/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_d7ba14cc-2908-4b25-a17e-ab648f990663/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_daf38f25-3edc-45db-8132-b5dbd606e0de",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_daf38f25-3edc-45db-8132-b5dbd606e0de/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_daf38f25-3edc-45db-8132-b5dbd606e0de/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_de37cea0-2bf9-469c-8ad0-777b4c0f1f11",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_de37cea0-2bf9-469c-8ad0-777b4c0f1f11/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_de37cea0-2bf9-469c-8ad0-777b4c0f1f11/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_ded58bbe-6832-4e9d-89ca-a1d5f8c3d6be",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_ded58bbe-6832-4e9d-89ca-a1d5f8c3d6be/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_ded58bbe-6832-4e9d-89ca-a1d5f8c3d6be/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_e92efd7e-3387-4f67-bf32-6a2163c4e970",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_e92efd7e-3387-4f67-bf32-6a2163c4e970/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_e92efd7e-3387-4f67-bf32-6a2163c4e970/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_f4165d07-6ee8-4893-bd8b-ed2e71eb6ae7",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_f4165d07-6ee8-4893-bd8b-ed2e71eb6ae7/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/botcomponents/mspva_f4165d07-6ee8-4893-bd8b-ed2e71eb6ae7/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/bots",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/bots/copilots_header_cr679_dns_ee_3",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/bots/copilots_header_cr679_dns_ee_3/bot.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/bots/copilots_header_cr679_dns_ee_3/configuration.json",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/customizations.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/solution-client/solution.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/topics",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/EEInsightsReporting/topics/InsightsReport.topic.yml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/README.md",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/agent-instructions.txt",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/docs",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/docs/build-plan.md",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/evaluation",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/evaluation/results-260827-1532-baseline.csv",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/evaluation/testset-1-scope-and-safety.csv",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/evaluation/testset-2-knowledge-gap.csv",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/evaluation/testset-3-drafting.csv",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/release-notes.md",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/Assets",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/Assets/botcomponent_connectionreferenceset.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/[Content_Types].xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/mspva_09a4fb77-5fe0-45e2-8101-bdffbbce2c34",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/mspva_09a4fb77-5fe0-45e2-8101-bdffbbce2c34/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/mspva_09a4fb77-5fe0-45e2-8101-bdffbbce2c34/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/mspva_13063151-f003-47eb-b8ff-67e394377d55",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/mspva_13063151-f003-47eb-b8ff-67e394377d55/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/mspva_13063151-f003-47eb-b8ff-67e394377d55/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/mspva_1998eae7-f403-4406-a9e8-f609bf59e9c7",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/mspva_1998eae7-f403-4406-a9e8-f609bf59e9c7/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/mspva_1998eae7-f403-4406-a9e8-f609bf59e9c7/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/mspva_309f75a0-775b-4d42-b08f-20c8c03e3ea5",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/mspva_309f75a0-775b-4d42-b08f-20c8c03e3ea5/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/mspva_309f75a0-775b-4d42-b08f-20c8c03e3ea5/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/mspva_3233a5e2-2b51-49d6-8dc8-8c3489fe30f4",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/mspva_3233a5e2-2b51-49d6-8dc8-8c3489fe30f4/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/mspva_3233a5e2-2b51-49d6-8dc8-8c3489fe30f4/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/mspva_35d4aeee-f319-495d-8096-9241e9fabf64",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/mspva_35d4aeee-f319-495d-8096-9241e9fabf64/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/mspva_35d4aeee-f319-495d-8096-9241e9fabf64/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/mspva_3847fcea-ef48-4c38-b849-f49464f32826",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/mspva_3847fcea-ef48-4c38-b849-f49464f32826/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/mspva_3847fcea-ef48-4c38-b849-f49464f32826/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/mspva_44bbbd5f-37df-4afd-ae7d-caf501fd6969",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/mspva_44bbbd5f-37df-4afd-ae7d-caf501fd6969/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/mspva_44bbbd5f-37df-4afd-ae7d-caf501fd6969/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/mspva_5ffc310c-6f55-45a4-a68f-8b9be3b5c2fa",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/mspva_5ffc310c-6f55-45a4-a68f-8b9be3b5c2fa/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/mspva_5ffc310c-6f55-45a4-a68f-8b9be3b5c2fa/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/mspva_6bce3e9c-fdf2-4001-84cf-767a0e1023f3",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/mspva_6bce3e9c-fdf2-4001-84cf-767a0e1023f3/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/mspva_6bce3e9c-fdf2-4001-84cf-767a0e1023f3/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/mspva_6df1977a-4c35-48a1-a982-b4d419d97652",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/mspva_6df1977a-4c35-48a1-a982-b4d419d97652/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/mspva_6df1977a-4c35-48a1-a982-b4d419d97652/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/mspva_8a1ee8f9-c876-4b03-9924-bc01a5e13ae2",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/mspva_8a1ee8f9-c876-4b03-9924-bc01a5e13ae2/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/mspva_8a1ee8f9-c876-4b03-9924-bc01a5e13ae2/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/mspva_91c311ec-5057-47a8-b4ea-21f21b4e343a",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/mspva_91c311ec-5057-47a8-b4ea-21f21b4e343a/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/mspva_91c311ec-5057-47a8-b4ea-21f21b4e343a/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/mspva_97e93a04-7dab-4a37-8c3d-40efe15d862d",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/mspva_97e93a04-7dab-4a37-8c3d-40efe15d862d/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/mspva_97e93a04-7dab-4a37-8c3d-40efe15d862d/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/mspva_aecb4407-d4b0-48a6-9d71-c3ccc682670b",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/mspva_aecb4407-d4b0-48a6-9d71-c3ccc682670b/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/mspva_aecb4407-d4b0-48a6-9d71-c3ccc682670b/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/mspva_b0e89c70-4522-44f4-88bf-5153d60f4154",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/mspva_b0e89c70-4522-44f4-88bf-5153d60f4154/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/mspva_b0e89c70-4522-44f4-88bf-5153d60f4154/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/mspva_bb459d64-7139-495d-b5ec-fc1bc34e6629",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/mspva_bb459d64-7139-495d-b5ec-fc1bc34e6629/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/mspva_bb459d64-7139-495d-b5ec-fc1bc34e6629/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/mspva_c4c61e63-2006-477b-ae7e-c09a333e4600",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/mspva_c4c61e63-2006-477b-ae7e-c09a333e4600/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/mspva_c4c61e63-2006-477b-ae7e-c09a333e4600/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/mspva_c6c5090f-0ba8-4205-aa6e-32c80d2ac4fe",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/mspva_c6c5090f-0ba8-4205-aa6e-32c80d2ac4fe/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/mspva_c6c5090f-0ba8-4205-aa6e-32c80d2ac4fe/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/mspva_c760e94e-f0b1-455e-89ad-67a408758dc6",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/mspva_c760e94e-f0b1-455e-89ad-67a408758dc6/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/mspva_c760e94e-f0b1-455e-89ad-67a408758dc6/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/mspva_da75a227-bec7-45cd-a9e3-016dea733522",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/mspva_da75a227-bec7-45cd-a9e3-016dea733522/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/mspva_da75a227-bec7-45cd-a9e3-016dea733522/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/mspva_e548ad0f-6cd8-45b4-8be0-2b87967fd7a1",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/mspva_e548ad0f-6cd8-45b4-8be0-2b87967fd7a1/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/mspva_e548ad0f-6cd8-45b4-8be0-2b87967fd7a1/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/mspva_fbda5f3a-98b2-4c8c-84c0-739ad8652de2",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/mspva_fbda5f3a-98b2-4c8c-84c0-739ad8652de2/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/mspva_fbda5f3a-98b2-4c8c-84c0-739ad8652de2/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/og_FITEnquiriesResponder.action.Office365Outlook-Draftanemailmessage",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/og_FITEnquiriesResponder.action.Office365Outlook-Draftanemailmessage/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/og_FITEnquiriesResponder.action.Office365Outlook-Draftanemailmessage/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/og_FITEnquiriesResponder.gpt.default",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/og_FITEnquiriesResponder.gpt.default/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/og_FITEnquiriesResponder.gpt.default/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/og_FITEnquiriesResponder.topic.Chatwentinactive",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/og_FITEnquiriesResponder.topic.Chatwentinactive/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/og_FITEnquiriesResponder.topic.Chatwentinactive/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/og_FITEnquiriesResponder.topic.ConversationStart",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/og_FITEnquiriesResponder.topic.ConversationStart/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/og_FITEnquiriesResponder.topic.ConversationStart/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/og_FITEnquiriesResponder.topic.EndofConversation",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/og_FITEnquiriesResponder.topic.EndofConversation/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/og_FITEnquiriesResponder.topic.EndofConversation/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/og_FITEnquiriesResponder.topic.Escalate",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/og_FITEnquiriesResponder.topic.Escalate/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/og_FITEnquiriesResponder.topic.Escalate/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/og_FITEnquiriesResponder.topic.Fallback",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/og_FITEnquiriesResponder.topic.Fallback/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/og_FITEnquiriesResponder.topic.Fallback/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/og_FITEnquiriesResponder.topic.FeedinTariff_Lk30yC1RvZ3ZCyNWL1746",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/og_FITEnquiriesResponder.topic.FeedinTariff_Lk30yC1RvZ3ZCyNWL1746/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/og_FITEnquiriesResponder.topic.FeedinTariff_Lk30yC1RvZ3ZCyNWL1746/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/og_FITEnquiriesResponder.topic.Goodbye",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/og_FITEnquiriesResponder.topic.Goodbye/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/og_FITEnquiriesResponder.topic.Goodbye/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/og_FITEnquiriesResponder.topic.Greeting",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/og_FITEnquiriesResponder.topic.Greeting/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/og_FITEnquiriesResponder.topic.Greeting/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/og_FITEnquiriesResponder.topic.KnowledgeReady",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/og_FITEnquiriesResponder.topic.KnowledgeReady/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/og_FITEnquiriesResponder.topic.KnowledgeReady/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/og_FITEnquiriesResponder.topic.MultipleTopicsMatched",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/og_FITEnquiriesResponder.topic.MultipleTopicsMatched/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/og_FITEnquiriesResponder.topic.MultipleTopicsMatched/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/og_FITEnquiriesResponder.topic.OnError",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/og_FITEnquiriesResponder.topic.OnError/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/og_FITEnquiriesResponder.topic.OnError/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/og_FITEnquiriesResponder.topic.ResetConversation",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/og_FITEnquiriesResponder.topic.ResetConversation/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/og_FITEnquiriesResponder.topic.ResetConversation/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/og_FITEnquiriesResponder.topic.Search",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/og_FITEnquiriesResponder.topic.Search/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/og_FITEnquiriesResponder.topic.Search/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/og_FITEnquiriesResponder.topic.Signin",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/og_FITEnquiriesResponder.topic.Signin/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/og_FITEnquiriesResponder.topic.Signin/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/og_FITEnquiriesResponder.topic.StartOver",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/og_FITEnquiriesResponder.topic.StartOver/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/og_FITEnquiriesResponder.topic.StartOver/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/og_FITEnquiriesResponder.topic.ThankYou",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/og_FITEnquiriesResponder.topic.ThankYou/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/og_FITEnquiriesResponder.topic.ThankYou/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/og_FITEnquiriesResponder.topic.Untitled",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/og_FITEnquiriesResponder.topic.Untitled/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/botcomponents/og_FITEnquiriesResponder.topic.Untitled/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/bots",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/bots/og_FITEnquiriesResponder",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/bots/og_FITEnquiriesResponder/bot.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/bots/og_FITEnquiriesResponder/configuration.json",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/customizations.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/solution-client/solution.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/system-topics",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/system-topics/ConversationStart.topic.yml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/system-topics/EndofConversation.topic.yml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/system-topics/Escalate.topic.yml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/system-topics/Fallback.topic.yml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/system-topics/Goodbye.topic.yml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/system-topics/Greeting.topic.yml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/system-topics/OnError.topic.yml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/system-topics/README.md",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/system-topics/ResetConversation.topic.yml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/system-topics/StartOver.topic.yml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/topics",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/FITEnquiriesResponder/topics/KnowledgeGapNotification.topic.yml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/README.md",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/agent-instructions.txt",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/docs",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/docs/build-01-extract-flow.md",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/docs/build-02-generate-flow.md",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/docs/build-03-agent-topic.md",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/docs/build-04-chat-attachment-input.md",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/docs/calculation-spec.md",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/docs/design-review.md",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/docs/handover.md",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/docs/spikes-and-risks.md",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/docs/templates.md",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/evaluation",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/evaluation/latedata-testsets.json",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/release-notes.md",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/samples",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/samples/2026.07.28-Contoso.fields.json",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/samples/LateDataSubmissionFormTest.docx",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/samples/Mock Output Form.docx",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/samples/fragmented.docx",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/samples/good.docx",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/samples/missing-field.docx",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/samples/multiline-address.docx",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/samples/no-tags.docx",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/samples/wrong-form.docx",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/scripts",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/scripts/Inspect-DocxFields.ps1",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/scripts/New-TestForm.ps1",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution-client",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution-client/Assets",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution-client/Assets/botcomponent_connectionreferenceset.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution-client/Assets/botcomponent_workflowset.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution-client/Workflows",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution-client/Workflows/LateDataProcessingAgent-extractform-0C823255-B091-F111-8076-002248C66BA2.json",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution-client/Workflows/LateDataProcessingAgent-filesubmission-5CD36A3F-AD91-F111-8076-002248C66E88.json",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution-client/[Content_Types].xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution-client/botcomponents",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution-client/botcomponents/cr679_LateDataProcessingAgentV2.gpt.default",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution-client/botcomponents/cr679_LateDataProcessingAgentV2.gpt.default/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution-client/botcomponents/cr679_LateDataProcessingAgentV2.gpt.default/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution-client/botcomponents/cr679_LateDataProcessingAgentV2.topic.Chatwentinactive",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution-client/botcomponents/cr679_LateDataProcessingAgentV2.topic.Chatwentinactive/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution-client/botcomponents/cr679_LateDataProcessingAgentV2.topic.Chatwentinactive/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution-client/botcomponents/cr679_LateDataProcessingAgentV2.topic.ConversationStart",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution-client/botcomponents/cr679_LateDataProcessingAgentV2.topic.ConversationStart/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution-client/botcomponents/cr679_LateDataProcessingAgentV2.topic.ConversationStart/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution-client/botcomponents/cr679_LateDataProcessingAgentV2.topic.EndofConversation",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution-client/botcomponents/cr679_LateDataProcessingAgentV2.topic.EndofConversation/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution-client/botcomponents/cr679_LateDataProcessingAgentV2.topic.EndofConversation/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution-client/botcomponents/cr679_LateDataProcessingAgentV2.topic.Escalate",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution-client/botcomponents/cr679_LateDataProcessingAgentV2.topic.Escalate/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution-client/botcomponents/cr679_LateDataProcessingAgentV2.topic.Escalate/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution-client/botcomponents/cr679_LateDataProcessingAgentV2.topic.Fallback",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution-client/botcomponents/cr679_LateDataProcessingAgentV2.topic.Fallback/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution-client/botcomponents/cr679_LateDataProcessingAgentV2.topic.Fallback/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution-client/botcomponents/cr679_LateDataProcessingAgentV2.topic.Formattached_SXl",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution-client/botcomponents/cr679_LateDataProcessingAgentV2.topic.Formattached_SXl/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution-client/botcomponents/cr679_LateDataProcessingAgentV2.topic.Formattached_SXl/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution-client/botcomponents/cr679_LateDataProcessingAgentV2.topic.Goodbye",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution-client/botcomponents/cr679_LateDataProcessingAgentV2.topic.Goodbye/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution-client/botcomponents/cr679_LateDataProcessingAgentV2.topic.Goodbye/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution-client/botcomponents/cr679_LateDataProcessingAgentV2.topic.Greeting",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution-client/botcomponents/cr679_LateDataProcessingAgentV2.topic.Greeting/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution-client/botcomponents/cr679_LateDataProcessingAgentV2.topic.Greeting/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution-client/botcomponents/cr679_LateDataProcessingAgentV2.topic.MultipleTopicsMatched",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution-client/botcomponents/cr679_LateDataProcessingAgentV2.topic.MultipleTopicsMatched/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution-client/botcomponents/cr679_LateDataProcessingAgentV2.topic.MultipleTopicsMatched/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution-client/botcomponents/cr679_LateDataProcessingAgentV2.topic.OnError",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution-client/botcomponents/cr679_LateDataProcessingAgentV2.topic.OnError/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution-client/botcomponents/cr679_LateDataProcessingAgentV2.topic.OnError/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution-client/botcomponents/cr679_LateDataProcessingAgentV2.topic.ResetConversation",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution-client/botcomponents/cr679_LateDataProcessingAgentV2.topic.ResetConversation/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution-client/botcomponents/cr679_LateDataProcessingAgentV2.topic.ResetConversation/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution-client/botcomponents/cr679_LateDataProcessingAgentV2.topic.Search",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution-client/botcomponents/cr679_LateDataProcessingAgentV2.topic.Search/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution-client/botcomponents/cr679_LateDataProcessingAgentV2.topic.Search/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution-client/botcomponents/cr679_LateDataProcessingAgentV2.topic.Signin",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution-client/botcomponents/cr679_LateDataProcessingAgentV2.topic.Signin/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution-client/botcomponents/cr679_LateDataProcessingAgentV2.topic.Signin/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution-client/botcomponents/cr679_LateDataProcessingAgentV2.topic.StartOver",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution-client/botcomponents/cr679_LateDataProcessingAgentV2.topic.StartOver/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution-client/botcomponents/cr679_LateDataProcessingAgentV2.topic.StartOver/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution-client/botcomponents/cr679_LateDataProcessingAgentV2.topic.ThankYou",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution-client/botcomponents/cr679_LateDataProcessingAgentV2.topic.ThankYou/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution-client/botcomponents/cr679_LateDataProcessingAgentV2.topic.ThankYou/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution-client/botcomponents/cr679_LateDataProcessingAgentV2.topic.Untitled",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution-client/botcomponents/cr679_LateDataProcessingAgentV2.topic.Untitled/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution-client/botcomponents/cr679_LateDataProcessingAgentV2.topic.Untitled/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution-client/bots",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution-client/bots/cr679_LateDataProcessingAgentV2",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution-client/bots/cr679_LateDataProcessingAgentV2/bot.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution-client/bots/cr679_LateDataProcessingAgentV2/configuration.json",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution-client/customizations.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution-client/solution.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/Readme.md",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/botcomponent_connectionreferenceset",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/botcomponent_connectionreferenceset/botcomponentid.schemaname=tc_LateMeterSubmissionAgent.topic.zzprobeattachment,connectionreferenceid.connectionreferencelogicalname=tc_LateMeterSubmissionAgent.shared_wordonlinebusiness.8a926f99d60d428c9ab4eb0bb41e0b18",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/botcomponent_connectionreferenceset/botcomponentid.schemaname=tc_LateMeterSubmissionAgent.topic.zzprobeattachment,connectionreferenceid.connectionreferencelogicalname=tc_LateMeterSubmissionAgent.shared_wordonlinebusiness.8a926f99d60d428c9ab4eb0bb41e0b18/botcomponent_connectionreference.yml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/botcomponent_workflowset",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/botcomponent_workflowset/botcomponentid.schemaname=tc_LateMeterSubmissionAgent.topic.zzprobeattachment,workflowid.workflowid=1a92b02a-22c0-4852-8abb-dbcb1e402ad5",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/botcomponent_workflowset/botcomponentid.schemaname=tc_LateMeterSubmissionAgent.topic.zzprobeattachment,workflowid.workflowid=1a92b02a-22c0-4852-8abb-dbcb1e402ad5/botcomponent_workflow.yml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/botcomponent_workflowset/botcomponentid.schemaname=tc_LateMeterSubmissionAgent.topic.zzprobeattachment,workflowid.workflowid=dc1c0dd6-3d8b-f111-ab0f-7ced8d2f0c64",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/botcomponent_workflowset/botcomponentid.schemaname=tc_LateMeterSubmissionAgent.topic.zzprobeattachment,workflowid.workflowid=dc1c0dd6-3d8b-f111-ab0f-7ced8d2f0c64/botcomponent_workflow.yml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/botcomponents",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/botcomponents/tc_LateMeterSubmissionAgent.GlobalVariableComponent.UploadedFile",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/botcomponents/tc_LateMeterSubmissionAgent.GlobalVariableComponent.UploadedFile/botcomponent.yml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/botcomponents/tc_LateMeterSubmissionAgent.GlobalVariableComponent.UploadedFile/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/botcomponents/tc_LateMeterSubmissionAgent.gpt.default",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/botcomponents/tc_LateMeterSubmissionAgent.gpt.default/botcomponent.yml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/botcomponents/tc_LateMeterSubmissionAgent.gpt.default/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/botcomponents/tc_LateMeterSubmissionAgent.topic.ConversationStart",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/botcomponents/tc_LateMeterSubmissionAgent.topic.ConversationStart/botcomponent.yml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/botcomponents/tc_LateMeterSubmissionAgent.topic.ConversationStart/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/botcomponents/tc_LateMeterSubmissionAgent.topic.EndofConversation",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/botcomponents/tc_LateMeterSubmissionAgent.topic.EndofConversation/botcomponent.yml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/botcomponents/tc_LateMeterSubmissionAgent.topic.EndofConversation/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/botcomponents/tc_LateMeterSubmissionAgent.topic.Escalate",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/botcomponents/tc_LateMeterSubmissionAgent.topic.Escalate/botcomponent.yml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/botcomponents/tc_LateMeterSubmissionAgent.topic.Escalate/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/botcomponents/tc_LateMeterSubmissionAgent.topic.Fallback",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/botcomponents/tc_LateMeterSubmissionAgent.topic.Fallback/botcomponent.yml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/botcomponents/tc_LateMeterSubmissionAgent.topic.Fallback/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/botcomponents/tc_LateMeterSubmissionAgent.topic.Goodbye",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/botcomponents/tc_LateMeterSubmissionAgent.topic.Goodbye/botcomponent.yml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/botcomponents/tc_LateMeterSubmissionAgent.topic.Goodbye/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/botcomponents/tc_LateMeterSubmissionAgent.topic.Greeting",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/botcomponents/tc_LateMeterSubmissionAgent.topic.Greeting/botcomponent.yml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/botcomponents/tc_LateMeterSubmissionAgent.topic.Greeting/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/botcomponents/tc_LateMeterSubmissionAgent.topic.MultipleTopicsMatched",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/botcomponents/tc_LateMeterSubmissionAgent.topic.MultipleTopicsMatched/botcomponent.yml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/botcomponents/tc_LateMeterSubmissionAgent.topic.MultipleTopicsMatched/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/botcomponents/tc_LateMeterSubmissionAgent.topic.OnError",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/botcomponents/tc_LateMeterSubmissionAgent.topic.OnError/botcomponent.yml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/botcomponents/tc_LateMeterSubmissionAgent.topic.OnError/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/botcomponents/tc_LateMeterSubmissionAgent.topic.ResetConversation",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/botcomponents/tc_LateMeterSubmissionAgent.topic.ResetConversation/botcomponent.yml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/botcomponents/tc_LateMeterSubmissionAgent.topic.ResetConversation/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/botcomponents/tc_LateMeterSubmissionAgent.topic.Search",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/botcomponents/tc_LateMeterSubmissionAgent.topic.Search/botcomponent.yml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/botcomponents/tc_LateMeterSubmissionAgent.topic.Search/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/botcomponents/tc_LateMeterSubmissionAgent.topic.Signin",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/botcomponents/tc_LateMeterSubmissionAgent.topic.Signin/botcomponent.yml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/botcomponents/tc_LateMeterSubmissionAgent.topic.Signin/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/botcomponents/tc_LateMeterSubmissionAgent.topic.StartOver",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/botcomponents/tc_LateMeterSubmissionAgent.topic.StartOver/botcomponent.yml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/botcomponents/tc_LateMeterSubmissionAgent.topic.StartOver/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/botcomponents/tc_LateMeterSubmissionAgent.topic.ThankYou",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/botcomponents/tc_LateMeterSubmissionAgent.topic.ThankYou/botcomponent.yml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/botcomponents/tc_LateMeterSubmissionAgent.topic.ThankYou/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/botcomponents/tc_LateMeterSubmissionAgent.topic.zzprobeattachment",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/botcomponents/tc_LateMeterSubmissionAgent.topic.zzprobeattachment/botcomponent.yml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/botcomponents/tc_LateMeterSubmissionAgent.topic.zzprobeattachment/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/bots",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/bots/tc_LateMeterSubmissionAgent",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/bots/tc_LateMeterSubmissionAgent/bot.yml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/bots/tc_LateMeterSubmissionAgent/configuration.json",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/connectionreferences",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/connectionreferences/ds_sharedsharepointonline_1f7a8",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/connectionreferences/ds_sharedsharepointonline_1f7a8/connectionreference.yml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/connectionreferences/new_sharedsharepointonline_86207",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/connectionreferences/new_sharedsharepointonline_86207/connectionreference.yml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/connectionreferences/tc_LateMeterSubmissionAgent.shared_wordonlinebusiness.8a926f99d60d428c9ab4eb0bb41e0b18",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/connectionreferences/tc_LateMeterSubmissionAgent.shared_wordonlinebusiness.8a926f99d60d428c9ab4eb0bb41e0b18/connectionreference.yml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/init.md",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/modernflows",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/modernflows/1a92b02a-22c0-4852-8abb-dbcb1e402ad5",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/modernflows/1a92b02a-22c0-4852-8abb-dbcb1e402ad5/Latedata-extractform-1A92B02A-22C0-4852-8ABB-DBCB1E402AD5.json",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/modernflows/1a92b02a-22c0-4852-8abb-dbcb1e402ad5/workflow.yml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/modernflows/dc1c0dd6-3d8b-f111-ab0f-7ced8d2f0c64",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/modernflows/dc1c0dd6-3d8b-f111-ab0f-7ced8d2f0c64/Latedata-filesubmission-DC1C0DD6-3D8B-F111-AB0F-7CED8D2F0C64.json",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/modernflows/dc1c0dd6-3d8b-f111-ab0f-7ced8d2f0c64/workflow.yml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/publishers",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/publishers/ThomasCapaldi",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/publishers/ThomasCapaldi/publisher.yml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/solutions",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/solutions/LateMeterSubmissionAgent",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/solutions/LateMeterSubmissionAgent/missingdependencies.yml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/solutions/LateMeterSubmissionAgent/rootcomponents.yml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/solutions/LateMeterSubmissionAgent/solution.yml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/LateDataAgent/solution/solutions/LateMeterSubmissionAgent/solutioncomponents.yml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/README.md",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/agent-instructions.txt",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/docs",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/docs/assessment.md",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/docs/intake-form.md",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/Assets",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/Assets/botcomponent_connectionreferenceset.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/[Content_Types].xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/copilots_header_og_dns_digital_4.action.SharePoint-Getitems",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/copilots_header_og_dns_digital_4.action.SharePoint-Getitems/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/copilots_header_og_dns_digital_4.action.SharePoint-Getitems/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/copilots_header_og_dns_digital_4.action.SharePoint-Getitems_Elz",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/copilots_header_og_dns_digital_4.action.SharePoint-Getitems_Elz/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/copilots_header_og_dns_digital_4.action.SharePoint-Getitems_Elz/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/copilots_header_og_dns_digital_4.action.SharePoint-Getitems_RQz",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/copilots_header_og_dns_digital_4.action.SharePoint-Getitems_RQz/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/copilots_header_og_dns_digital_4.action.SharePoint-Getitems_RQz/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/copilots_header_og_dns_digital_4.gpt.default",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/copilots_header_og_dns_digital_4.gpt.default/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/copilots_header_og_dns_digital_4.gpt.default/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/copilots_header_og_dns_digital_4.topic.Chatwentinactive",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/copilots_header_og_dns_digital_4.topic.Chatwentinactive/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/copilots_header_og_dns_digital_4.topic.Chatwentinactive/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/copilots_header_og_dns_digital_4.topic.ConversationStart",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/copilots_header_og_dns_digital_4.topic.ConversationStart/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/copilots_header_og_dns_digital_4.topic.ConversationStart/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/copilots_header_og_dns_digital_4.topic.EndofConversation",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/copilots_header_og_dns_digital_4.topic.EndofConversation/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/copilots_header_og_dns_digital_4.topic.EndofConversation/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/copilots_header_og_dns_digital_4.topic.Escalate",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/copilots_header_og_dns_digital_4.topic.Escalate/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/copilots_header_og_dns_digital_4.topic.Escalate/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/copilots_header_og_dns_digital_4.topic.Fallback",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/copilots_header_og_dns_digital_4.topic.Fallback/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/copilots_header_og_dns_digital_4.topic.Fallback/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/copilots_header_og_dns_digital_4.topic.Goodbye",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/copilots_header_og_dns_digital_4.topic.Goodbye/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/copilots_header_og_dns_digital_4.topic.Goodbye/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/copilots_header_og_dns_digital_4.topic.Greeting",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/copilots_header_og_dns_digital_4.topic.Greeting/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/copilots_header_og_dns_digital_4.topic.Greeting/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/copilots_header_og_dns_digital_4.topic.MultipleTopicsMatched",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/copilots_header_og_dns_digital_4.topic.MultipleTopicsMatched/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/copilots_header_og_dns_digital_4.topic.MultipleTopicsMatched/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/copilots_header_og_dns_digital_4.topic.OnError",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/copilots_header_og_dns_digital_4.topic.OnError/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/copilots_header_og_dns_digital_4.topic.OnError/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/copilots_header_og_dns_digital_4.topic.ResetConversation",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/copilots_header_og_dns_digital_4.topic.ResetConversation/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/copilots_header_og_dns_digital_4.topic.ResetConversation/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/copilots_header_og_dns_digital_4.topic.Search",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/copilots_header_og_dns_digital_4.topic.Search/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/copilots_header_og_dns_digital_4.topic.Search/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/copilots_header_og_dns_digital_4.topic.Signin",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/copilots_header_og_dns_digital_4.topic.Signin/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/copilots_header_og_dns_digital_4.topic.Signin/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/copilots_header_og_dns_digital_4.topic.StartOver",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/copilots_header_og_dns_digital_4.topic.StartOver/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/copilots_header_og_dns_digital_4.topic.StartOver/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/copilots_header_og_dns_digital_4.topic.ThankYou",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/copilots_header_og_dns_digital_4.topic.ThankYou/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/copilots_header_og_dns_digital_4.topic.ThankYou/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/copilots_header_og_dns_digital_4.topic.UCDLibrarianAgentKnowledgeSourcedocx_M2MWips3HcgzjS8Ppvkc6",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/copilots_header_og_dns_digital_4.topic.UCDLibrarianAgentKnowledgeSourcedocx_M2MWips3HcgzjS8Ppvkc6/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/copilots_header_og_dns_digital_4.topic.UCDLibrarianAgentKnowledgeSourcedocx_M2MWips3HcgzjS8Ppvkc6/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/mspva_11ee20ff-f341-4896-bbe6-0b1e5c060336",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/mspva_11ee20ff-f341-4896-bbe6-0b1e5c060336/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/mspva_11ee20ff-f341-4896-bbe6-0b1e5c060336/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/mspva_263a11f6-50eb-41ae-a09d-63ef6417e831",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/mspva_263a11f6-50eb-41ae-a09d-63ef6417e831/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/mspva_263a11f6-50eb-41ae-a09d-63ef6417e831/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/mspva_673dc296-48d5-4f33-85d7-1d089780ef27",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/mspva_673dc296-48d5-4f33-85d7-1d089780ef27/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/mspva_673dc296-48d5-4f33-85d7-1d089780ef27/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/mspva_78d8e4f8-d0cd-414d-8da0-39597356df86",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/mspva_78d8e4f8-d0cd-414d-8da0-39597356df86/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/mspva_78d8e4f8-d0cd-414d-8da0-39597356df86/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/mspva_7b7f6da9-f87e-48a1-bbe6-5387e3cc8274",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/mspva_7b7f6da9-f87e-48a1-bbe6-5387e3cc8274/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/mspva_7b7f6da9-f87e-48a1-bbe6-5387e3cc8274/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/mspva_8151ccee-68a0-4c76-8293-7921a08e9b3d",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/mspva_8151ccee-68a0-4c76-8293-7921a08e9b3d/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/mspva_8151ccee-68a0-4c76-8293-7921a08e9b3d/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/mspva_8afd0d09-8c90-4e07-8ee8-b1dcde8c60e3",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/mspva_8afd0d09-8c90-4e07-8ee8-b1dcde8c60e3/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/mspva_8afd0d09-8c90-4e07-8ee8-b1dcde8c60e3/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/mspva_ba69a291-3260-4946-8f02-4d0b519cb572",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/mspva_ba69a291-3260-4946-8f02-4d0b519cb572/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/mspva_ba69a291-3260-4946-8f02-4d0b519cb572/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/mspva_d556523e-a7d3-4f2e-b657-fe35e80992e6",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/mspva_d556523e-a7d3-4f2e-b657-fe35e80992e6/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/mspva_d556523e-a7d3-4f2e-b657-fe35e80992e6/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/mspva_f29c9792-df41-4f38-bcc8-85e6f2505b42",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/mspva_f29c9792-df41-4f38-bcc8-85e6f2505b42/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/mspva_f29c9792-df41-4f38-bcc8-85e6f2505b42/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/mspva_f9504580-0955-47fd-b086-a79fa16c4f97",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/mspva_f9504580-0955-47fd-b086-a79fa16c4f97/botcomponent.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/botcomponents/mspva_f9504580-0955-47fd-b086-a79fa16c4f97/data",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/bots",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/bots/copilots_header_og_dns_digital_4",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/bots/copilots_header_og_dns_digital_4/bot.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/bots/copilots_header_og_dns_digital_4/configuration.json",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/customizations.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/UCDLibrarian/solution-client/solution.xml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/alm-rollback-runbook.md",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/copilot-studio-source-control-and-tooling.md",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/copilot-studio-system-topics.md",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/customise-system-topics-with-claude.md",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/enquiry-response-pattern.md",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/evaluation-test-sets-as-source.md",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/evaluation-test-template.csv",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/scripts",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/scripts/New-EvalSet.ps1",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/system-topic-templates",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/Agents/system-topic-templates/ConversationStart.topic.yml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/system-topic-templates/EndofConversation.topic.yml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/system-topic-templates/Escalate.topic.yml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/system-topic-templates/Fallback.topic.yml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/system-topic-templates/Goodbye.topic.yml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/system-topic-templates/Greeting.topic.yml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/system-topic-templates/OnError.topic.yml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/system-topic-templates/README.md",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/system-topic-templates/ResetConversation.topic.yml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/system-topic-templates/StartOver.topic.yml",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/Agents/teams-output-formatting.md",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/CLAUDE.md",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/DevOps",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/DevOps/README.md",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/azure-devops-connector-dlp-assessment.md",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/devops-config-drift.md",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/doc04-vs-checklists.md",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/scripts",
+    "folder": true
+  },
+  {
+    "path": "/Ofgem/scripts/Add-WorkItemDiscussion.ps1",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/scripts/Add-WorkItemLink.ps1",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/scripts/Get-WikiPages.ps1",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/scripts/Get-WorkItemDetail.ps1",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/scripts/Get-WorkItemTypeStates.ps1",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/scripts/Move-WikiPage.ps1",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/scripts/New-AgentChecklistCopy.ps1",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/scripts/New-WorkItem.ps1",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/scripts/New-WorkItemCopy.ps1",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/scripts/Publish-WikiPage.ps1",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/scripts/Set-WorkItemCustomField.ps1",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/scripts/Set-WorkItemFields.ps1",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/wiki-handover.md",
+    "folder": false
+  },
+  {
+    "path": "/Ofgem/wiki-writing-review.md",
+    "folder": false
+  },
+  {
+    "path": "/README.md",
+    "folder": false
+  },
+  {
+    "path": "/scripts",
+    "folder": true
+  },
+  {
+    "path": "/scripts/New-InformPR.ps1",
+    "folder": false
+  }
+]

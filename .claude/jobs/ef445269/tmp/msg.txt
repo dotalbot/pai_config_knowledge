@@ -1,0 +1,26 @@
+feat(_REPOPULSE): Azure DevOps repo analysis and work tracking skill
+
+On-demand analysis of an ADO org: what the repos are, how work moves through
+them, and what the estate configuration says about ways of working. Output is
+Obsidian-format markdown with mermaid diagrams into the work corpus.
+
+Private (_ALLCAPS) by CreateSkill's naming rule: bound to a named employer
+tenant and writes to a private corpus path, so it must never reach the public
+release.
+
+Three tools, deterministic so analysis budget goes on judgement not plumbing:
+- Ado.ts     REST client (repos, commits, PRs, tree, files, branches)
+- Pulse.ts   activity metrics with author-identity folding
+- Estate.ts  org configuration; returns null on 403 so a missing PAT scope
+             degrades to a reported gap instead of an exception
+
+Four workflows: DeepDive, CrossRepo, Track, Setup.
+
+Gotchas captured while building against a live org: the commits endpoint needs
+searchCriteria.$top and silently ignores $top; one human commits under several
+name spellings and must be folded before counting; a pipeline YAML in a repo is
+not a registered pipeline; and absent branch policy explains absent review, so
+check the gate before judging the culture.
+
+Co-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_016a52ccAYEjiGxWBswaimEK

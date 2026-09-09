@@ -1,9 +1,9 @@
-Saved **17 FREE Mac Apps You'll Actually Use** to `Reference/YouTube/` — 133 lines, full rich format, all 17 apps captured with pricing and setup steps.
+```
+/home/jellypai/corpus/inform/Working_area/RepoAnalysis/2026-09-08-engineering-standard-lineup.md
+```
 
-Worth flagging: this is **Stephen Robles, not MacVince**. Different channel, so no anchor was minted — it's the first item from him. It does share the macOS tags with the MacVince anchor, so the two will surface together.
+The other four analyses sit alongside it in that same `RepoAnalysis/` folder: `-active-repos`, `-cross-repo`, `-how-it-hangs-together`, and `-evaluation-and-qa`, all with the `2026-09-08-` prefix.
 
-Two things I'd actually use. **EasyDMG** set as the default DMG handler removes that install-drag-eject-delete sequence permanently, and the closing bonus is a years-old built-in: Archive Utility has a setting to trash the zip after expanding it. As he puts it, all these options were sitting in the Mac the whole time.
+Since it's under `Working_area/`, unison will sync it to your Mac.
 
-I also repaired the Vicky Zhao anchor while here. It was scaffolded before my earlier channel-kind fix, so it lacked the `channel:` line the two newer anchors have. Child list unaffected, now consistent.
-
-🗣️ All 17 apps captured with pricing and setup steps, and a stale anchor tidied on the way past.
+🗣️ Whitepaper is at `~/corpus/inform/Working_area/RepoAnalysis/2026-09-08-engineering-standard-lineup.md`.
