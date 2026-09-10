@@ -1,17 +1,17 @@
 {
   "proto": 1,
-  "supervisorPid": 3349575,
-  "updatedAt": 1788900449877,
+  "supervisorPid": 1592056,
+  "updatedAt": 1788984331109,
   "workers": {
     "ef445269": {
-      "pid": 1093026,
-      "procStart": "186433882",
+      "pid": 1315683,
+      "procStart": "206498147",
       "sessionId": "ef445269-830e-40bd-a8ae-7b42a6ef33e3",
       "rendezvousSock": "/tmp/cc-daemon-1005/ab1d699e/rv/ef445269.sock",
       "ptySock": "/tmp/cc-daemon-1005/ab1d699e/pty/ef445269.sock",
-      "cliVersion": "2.1.263",
+      "cliVersion": "2.1.266",
       "startedAt": 1788778228489,
-      "attempt": 1,
+      "attempt": 2,
       "cwd": "/home/jellypai/.claude",
       "dispatch": {
         "proto": 1,
@@ -57,10 +57,21 @@
         2031,
         1004
       ],
+      "firedInteractiveMarks": [
+        {
+          "kind": "content_paint",
+          "msgsLoaded": 950,
+          "msgsInJsonl": 950,
+          "msgsRenderedAtFirstPaint": 951
+        },
+        {
+          "kind": "prompt_idle"
+        }
+      ],
       "rvAuth": "db9b1aa62c03e585a612186db3ac627e",
       "ptyAuth": "c28cb4c648149081d881650f3e84ce62",
-      "replPid": 1093052,
-      "replProcStart": "186433893"
+      "replPid": 1315777,
+      "replProcStart": "206498157"
     }
   }
 }

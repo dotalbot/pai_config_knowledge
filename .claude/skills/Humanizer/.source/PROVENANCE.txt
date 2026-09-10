@@ -1,0 +1,3 @@
+
+Installed from https://github.com/blader/humanizer (MIT), v3.0.0, on 2026-09-09.
+Upstream layout is a Claude plugin; installed here as a plain skill.

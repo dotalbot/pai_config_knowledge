@@ -37,3 +37,8 @@
 {"ts":"2026-09-07T11:06:40.326Z","session":"ef445269","prompt_head":"have a search, you had a really good format for capturing youtube content, have ","fired":["SystemsThinking:systems thinking"]}
 {"ts":"2026-09-08T09:46:29.960Z","session":"ef445269","prompt_head":"Ok, I want you to build a new skill around repo analysis as well as work trackin","fired":["CreateSkill:new skill"]}
 {"ts":"2026-09-08T20:45:55.984Z","session":"ef445269","prompt_head":"so of the active repos, please give me a breakdown of the actual work done on th","fired":["Cortex:last week"]}
+{"ts":"2026-09-09T09:26:09.948Z","session":"ef445269","prompt_head":"@\"/home/jellypai/.claude/uploads/ef445269-830e-40bd-a8ae-7b42a6ef33e3/8b6e61eb-2","fired":["Capture:remember this","ContextSearch:remember","Cortex:remember"]}
+{"ts":"2026-09-09T14:56:44.141Z","session":"ef445269","prompt_head":"All things we produce need to be accessible, here is some feedback, and a code f","fired":["Capture:save this"]}
+{"ts":"2026-09-09T18:22:56.134Z","session":"18b96d47","prompt_head":"Ways_of_working_digital_department is the working directory: use Darach's presen","fired":["_REPOPULSE:ways of working"]}
+{"ts":"2026-09-09T20:59:39.008Z","session":"18b96d47","prompt_head":"write me an obsidian page on defining this, include this and the following text ","fired":["_REPOPULSE:ways of working"]}
+{"ts":"2026-09-09T20:59:39.009Z","session":"18b96d47","prompt_head":"write me an obsidian page on defining this, include this and the following text ","fired":["DESIGN-CLASS:introduce + permission"]}

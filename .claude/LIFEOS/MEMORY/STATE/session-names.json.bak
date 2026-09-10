@@ -21,6 +21,8 @@
   "c41d4acb-9368-4cc2-9a23-85fffadee448": "Debug Youtube Upload Web Interface",
   "ce0f1edc-1e80-496a-9dfd-89803ec3e6a9": "Upgrade EXECUTE Synthesize Deliver Final",
   "health": "Verify System Health Check Status",
-  "295aa35d-90c5-409f-9f97-3b455487527e": "Design Obsidian Snippet Capture Skill",
-  "ef445269-830e-40bd-a8ae-7b42a6ef33e3": "Capture Skill Run"
+  "ef445269-830e-40bd-a8ae-7b42a6ef33e3": "Capture Skill Run",
+  "92f50909-63da-4d52-9c9c-b30c53ee7660": "Define Azure Devops Board Hierarchy",
+  "18b96d47-5390-438a-b601-e0c21ca23cae": "Confirm Jellypai Assistant Active Status",
+  "e7f8c43c-4714-46ae-b4e5-00a8e451d6a2": "Confirm Jellypai Assistant Availability Status"
 }

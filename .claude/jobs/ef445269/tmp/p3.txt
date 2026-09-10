@@ -1,0 +1,46 @@
+
+STRICT BRAND SPECIFICATION — The Inform Team (theinformteam.com). Follow exactly.
+TYPEFACE: Montserrat ONLY, for every single word. Headline weight 400 (Light/Regular — NOT bold, the brand does not shout). Sub-headings weight 600. Body weight 400. Body text has slight letter-spacing.
+COLOURS — use ONLY these hex values:
+  #001450 deep navy — the dominant ground
+  #FFFFFF white
+  #F2F2F2 light warm grey — page background
+  #FF275B magenta-pink — ACCENT ONLY, used sparingly for emphasis, thin rules, one key highlight. NEVER a large fill.
+  #333333 dark grey for body text on light
+  #7FEBE9 mint and #A08DF4 lilac — permitted ONLY as small differentiators (a thin bar, a small icon), never as large areas.
+RESTRAINT — this is critical: clean, crisp, corporate, generous whitespace. NO gradients. NO drop shadows. NO 3D or isometric effects. NO glow. NO photographic textures. NO clip-art people. Flat vector only. Thin line weights. The composition must feel calm and premium, like a professional consultancy website. Do not overwhelm with colour — most of the canvas is navy or white.
+OUTPUT: a website hero infographic, landscape 16:9, high resolution, crisp vector-style edges, text perfectly legible and correctly spelled.
+
+SUBJECT — Microsoft Frontier Accelerate for Copilot, a funding programme delivered by partner The Inform Team.
+THE THREE FUNDED ENGAGEMENT ROUTES (the core content):
+1. "Envisioning & PoC Accelerator" — explore where Copilot and agents could create value. Identify personas and use cases, assess readiness, build the business case, develop a Proof of Concept.
+2. "Microsoft 365 Copilot Deployment Accelerator" — prepare for and support a secure deployment. Technical foundations, implementation, training, adoption and change management.
+3. "Agent Solution Deployment Accelerator" — design, build or activate agent solutions. Development, security, governance, training, adoption and change management.
+ELIGIBILITY: 300+ Microsoft 365 licences.
+WHAT FUNDING HELPS WITH: identify high-value scenarios; assess security and governance readiness; build a business case; develop a Proof of Concept; deploy securely; build governed agents; measure usage and outcomes.
+CREDENTIAL: The Inform Team is part of Microsoft's invite-only Copilot & Agents Partner Community.
+
+COMPOSITION FOR THIS VERSION — "The Funnel":
+Split canvas. The LEFT one third is a solid deep navy #001450 panel; the RIGHT two
+thirds is white #FFFFFF.
+
+On the navy left panel, vertically centred, left-aligned: a light-weight Montserrat
+headline in white, "Microsoft funding for the next stage of your Copilot journey",
+stacked over several lines. Beneath it a short white paragraph at 70% opacity, and
+below that a single small magenta #FF275B square bullet beside the words "300+
+Microsoft 365 licences" in white.
+
+On the white right side, a vertical descending arrangement of THREE horizontal bands,
+each band progressively narrower than the one above it, centred, forming a subtle
+funnel. Each band is outlined in thin navy with a white fill — not filled with colour.
+Band 1 (widest): "Envisioning & PoC Accelerator" in Montserrat 600 navy with a short
+grey descriptor line. Band 2: "Microsoft 365 Copilot Deployment Accelerator", same
+treatment. Band 3 (narrowest): "Agent Solution Deployment Accelerator", same
+treatment. Thin navy chevrons point downward in the gaps between bands.
+
+Below the narrowest band, a single small magenta #FF275B underline and the outcome in
+navy Montserrat 600: "Governed, measurable business value". At the very bottom right
+in small grey text: "The Inform Team — Microsoft invite-only Copilot & Agents Partner
+Community".
+
+Restrained, mostly white space on the right. No gradients, no shadows.

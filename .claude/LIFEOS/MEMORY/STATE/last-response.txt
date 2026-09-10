@@ -1,9 +1,25 @@
-```
-/home/jellypai/corpus/inform/Working_area/RepoAnalysis/2026-09-08-engineering-standard-lineup.md
-```
+════ LifeOS ═══════════════════════════
 
-The other four analyses sit alongside it in that same `RepoAnalysis/` folder: `-active-repos`, `-cross-repo`, `-how-it-hangs-together`, and `-evaluation-and-qa`, all with the `2026-09-08-` prefix.
+Both done, and the deck is now 19 slides.
 
-Since it's under `Working_area/`, unison will sync it to your Mac.
+**Words** — slide 15, "OUR WAYS OF WORKING", the concise definition. Also added to the top of the vault note.
 
-🗣️ Whitepaper is at `~/corpus/inform/Working_area/RepoAnalysis/2026-09-08-engineering-standard-lineup.md`.
+**Visual** — slide 16, full-bleed sketchnote at 1672x941 (ratio 1.777, exactly 16:9), rendered edge to edge with nothing clipped. Source PNG in `BoardVisuals/ways-of-working.png`.
+
+**The how, which was your real ask.** The infographic runs the principle through each agenda item with one concrete step: **Teams** gets three spaces agreed and no new ones; **Ceremonies** gets three ToRs, one page each; **the Board** gets six changes, not 776. The monthly loop is drawn as a loop because removing things is the point, and the first session cuts one thing together.
+
+The burden answer is a module of its own: one page to read, one agenda to write, no new tools, no new approvals, nothing else changes this week.
+
+🔧 CHANGE:
+
+- Deck 18 → 19 slides: definition slide + full-bleed infographic
+- New: `BoardVisuals/blueprint-3-ways-of-working.md`, `ways-of-working.png`, `prompt3.txt`
+- Vault note: concise version added at top
+
+✅ VERIFY:
+
+- PNG header reads 1672x941, ratio 1.777
+- Slide inventory confirms picture on 16, definition on 15
+- Both pages rendered and visually checked
+
+🗣️ JellyPai: Words and picture, both on the slide.

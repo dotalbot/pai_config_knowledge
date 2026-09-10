@@ -1,0 +1,1099 @@
+
+=== SLIDE 1 ===
+Agent Solution Deployment Accelerator
+Frontier Accelerate for Copilot
+Delivery Guide V26.08
+
+=== SLIDE 2 ===
+Version history
+Hidden
+Version
+Changes
+Date
+26.07
+Initial release
+Jul 2026
+26.08
+Addition of new Copilot Cowork Engagement and Agent 365 PoC Kits
+Jul/Aug 2026
+
+=== SLIDE 3 ===
+Document purpose
+Purpose
+The purpose of this document is to provide an overview and definition of the Frontier Accelerate for Copilot Program and details on the post-sales engagement:
+Agent Solution Deployment Accelerator
+This delivery guide outlines a flexible engagement model. For each step, the guide provides a delivery structure, engagement delivery examples, and discusses necessary activities, assets and resources you may need to familiarize yourself for this engagement.
+Audience
+This document is intended to be used by partner sellers, practice leads, project managers, field consultants, and other partner resources with competencies in Microsoft 365 Copilot, Copilot Studio, Microsoft Foundry, Agent 365, Agent SDK and/or Microsoft Power Platform.
+Assumptions
+Partner resources involved in the delivery of these engagements have read and understand the content of this delivery guide.
+Partner understands that this document is not intended to be shared directly with customers.
+Other notes
+If you believe you have found an error or have a suggestion for improving this document, please complete this form.
+
+=== SLIDE 4 ===
+Agent Solution Deployment Accelerator| What’s new!
+Frontier Accelerate for Copilot
+New Frontier Accelerate post-sales engagement for FY27!
+This FY27 Agent Solution Deployment Accelerator is focused on building agentic solutions leveraging Copilot Studio, Microsoft Foundry, Agents SDK, and Agent 365 SDK, Power Platform and/or managing them with Agent 365, a governed platform.
+This accelerator maintains the flexible engagement structure from FY26.
+FY27 MCI eligibility includes SME&C expansion. Please review the MCI Incentives Guide for this year’s partner and customer eligibility criteria.
+New updates!
+New Copilot Cowork Engagement Delivery Guidance
+New Agent 365 PoC Kit
+Ways to build, secure, and govern agents in this accelerator
+Copilot Studio – Low-code authoring for agents, with knowledge grounding, tools/actions, and flexible channel publishing.
+Microsoft Foundry – Pro-code path for prompt, workflow, or hosted agents with custom models and stable endpoints.
+Agent 365 SDK – Create new agents and bring third-party and existing agents into Agent 365 with built-in identity, Work IQ tooling, telemetry, and controlled Microsoft 365 access.
+Custom Declarative / Agents SDK – Agent Builder in Microsoft 365 Copilot, Agents Toolkit, or the Microsoft 365 Agents SDK for declarative or custom-engine agents.
+Power Platform – Power Apps, Power Automate flows, and Dataverse-backed solutions for scalable, automated workflows.
+Agent 365 – Governed control plane for registry, identity, security, observability, and lifecycle management.
+Please review the following summary of changes introduced with this release:
+July 2026 – FY27 Frontier Accelerate for Copilot Program Launch
+
+=== SLIDE 5 ===
+Table of contents
+Click a section to jump to it
+
+=== SLIDE 6 ===
+Introduction
+Frontier Accelerate for Copilot Program
+
+=== SLIDE 7 ===
+Frontier Accelerate for Copilot | End-to-end view
+DELIVERING PARTNER IMPACT
+The Frontier Accelerate for Copilot Program includes pre-sales and post-sales engagements.
+PRE-SALES
+Envisioning & POC
+Assess
+Inspire
+Design
+Proof of Concept
+POST-SALES
+M365 Copilot Deployment Accelerator and
+Agent Solution Deployment Accelerator
+Plan
+Implement
+Adopt
+Manage & Improve
+Pillars
+Copilot + Power Accelerate Program guide
+
+=== SLIDE 8 ===
+Frontier Accelerate for Copilot | Post-Sales
+DELIVERING PARTNER IMPACT
+When to engage your customer?
+Plan
+Implement
+Adopt
+Manage and Improve
+Deploy and Adopt
+M365 Copilot Deployment Accelerator
+Take this path when you're moving from "evaluating Copilot" to actually rolling it out to users safely, with the governance, security, and change-management steps built into the flow.
+Or
+You are here.
+Build and Manage
+Agent Solution Deployment Accelerator
+Take this path to redesign and automate business processes to achieve end-to-end workflow transformation at scale. Leverage Agent 365 to manage, govern, and scale agents.
+Microsoft 365 Copilot seat deployment
+Microsoft 365 Copilot adoption
+1P (Researcher, Analyst agents)
+Agents created in Copilot Studio and Foundry
+Copilot Cowork
+Agent governance
+Power Platform solutions
+
+=== SLIDE 9 ===
+Frontier Accelerate for Copilot | Post-Sales
+DELIVERING PARTNER IMPACT
+When to engage your customer?
+Plan
+Implement
+Adopt
+Manage and Improve
+Deploy and Adopt
+M365 Copilot Deployment Accelerator
+Microsoft 365 Copilot seat deployment
+Microsoft 365 Copilot adoption
+Or
+You are here.
+Build and Manage
+Agent Solution Deployment Accelerator
+1P (Researcher, Analyst agents)
+Agents created in Copilot Studio and Foundry
+Copilot Cowork
+Agent governance
+Power Platform solutions
+Take this path when you're moving from "evaluating Copilot" to actually rolling it out to users safely, with the governance, security, and change-management steps built into the flow.
+Take this path to redesign and automate business processes to achieve end-to-end workflow transformation at scale. Leverage Agent 365 to manage, govern, and scale agents.
+
+=== SLIDE 10 ===
+Frontier Accelerate for Copilot post-sales engagements summary
+DELIVERING PARTNER IMPACT
+The Frontier Accelerate for Copilot program empowers partners to execute post-sales activities that advance opportunities across Microsoft 365 Copilot, agents, Agent 365 and Microsoft Power Platform.
+If you are delivering the M365 Copilot Deployment Accelerator to your customer, you will be aiming to achieve the following outcome:
+M365 Copilot Paid MAU
+If you are delivering the Agent Solution Deployment Accelerator to your customer, you will be aiming to achieve multiple outcomes:
+Agent MAU
+Agent Consumption Revenue
+Power Platform MAU
+
+=== SLIDE 11 ===
+Preparing for Agent Solution Deployment Accelerator engagement
+
+=== SLIDE 12 ===
+Agent Solution Deployment Accelerator objectives and outcomes
+DELIVERING PARTNER IMPACT
+The following represents possible objectives and potential outcomes for delivering this engagement. You may choose to focus efforts in one or more areas based on your customer’s needs.
+Objectives
+Develop intelligent agents to redesign and transform end-to-end workflows
+Build transformative Power Platform solutions
+Implement Agent 365 to observe, govern and secure agents
+Target outcomes
+Design and build transformative agents and Power solutions prioritizing measurable business outcomes
+Implement Agent 365 as the governed platform that lets every employee extend themselves with purpose-built agents
+Achieve significant user adoption of AI business solutions and agents
+Continue organizational AI transformation with every customer
+
+=== SLIDE 13 ===
+Engagement approach
+DELIVERING PARTNER IMPACT
+This engagement is flexible and modular. Partners can choose to deliver any combination of activities and utilize any set of resources and assets provided in this guide or use their own assets. This may be based on partner preference, customer requirements or other considerations.
+Recommended approach:
+Identify priority scenarios, value, and readiness. Use opportunity framing, use cases, governance checklists.
+Design and develop agent solutions. Use deployment accelerator assets, reference architectures, SDK guidance.
+Operationalize, adopt, and expand. Use deployment guides, observability, adoption toolkits.
+Partners may use Microsoft assets, extend with their own IP, or combine both.
+Refer to the Frontier Accelerate for Copilot Program Guide and MCI Incentive Guide for minimum requirements for funding.
+A reminder: Microsoft’s funding is a co-investment to support M365 Copilot Deployment Accelerator deliveries and is not intended to cover the cost of all the deployment, implementation or adoption work.
+
+=== SLIDE 14 ===
+Recommended readiness for delivering the Agent Solution Deployment Accelerator engagement
+Preparing for the Engagement
+Skills
+Please see the following slides for the technical and soft skills recommended to successfully deliver this engagement.
+Prereading
+Review latest product and adoption content available for an understanding of the most current product capabilities.
+Recommended prereading includes:
+Frontier Transformation – Build a practice and GTM guidance to enrich employee experiences, reinvent customer engagement, reshape business processes, and bend the curve on innovation.
+AI Business Solutions for Partners – Stay informed with latest updates, events, and opportunities.
+Power Platform documentation - Discover how to make the most of Microsoft Power Platform products with online training courses, docs, and videos.
+AI Agents Hub – Suggested activities and resources based on roles for Copilot Studio, Microsoft Foundry, and Agent 365.
+Agent 365 documentation - Microsoft Agent 365 allows you to manage all your organization’s agents at scale, regardless of where they originate.
+Supporting Engagement
+To support the ability to fully implement Agent 365 it is recommended to have governance and security defined in advance or in parallel with this engagement.
+Data Security Engagement with Data Security for AI Module
+
+=== SLIDE 15 ===
+Recommended facilitator preparation
+Preparing for the Engagement
+Soft skills
+The skill sets listed on the right are recommended for members of the delivery team to ensure the successful execution of the engagements.
+The facilitator should be well-versed in the planned activities, assets, resources, and expected outcomes of the engagements.
+Additionally, the facilitator may be involved in the planning and preparation stages prior to delivery.
+To support this, a sample pre-engagement planning deck is available to help guide scoping discussions with the customer before the engagement begins.
+Recommended soft skills
+Understanding of how to discuss Copilot business value, functional go-to-market and how to build a business case for customers.
+Experience speaking to business decision makers about AI business transformation and scenario/persona discovery.
+Experience with technology solutions development, deployment, and operations methods and practices.
+Understanding of how to position agent and AI security, privacy, and governance as enablers of trusted business value.
+Strong experience in global adoption and change management (ACM) and user enablement strategy.
+Industry knowledge or specific business process knowledge relative to the customer’s environment.
+Group facilitation experience and skills.
+
+=== SLIDE 16 ===
+Recommended facilitator preparation
+Technical Skills: Preparing for the Engagement
+Copilot Studio
+Low-code build surface for agents, topics, tools, knowledge, flows, and publishing.
+Skills:
+Topics, prompts, and knowledge grounding
+Agent flows, connectors, and actions
+Testing, analytics, and channel publish
+Learn:
+Agent Academy | Create agents
+Credentials:
+Applied Skills | AI Agent Builder (beta)
+Microsoft Foundry
+Pro-code stack for model choice, agent service, MCP tools, evaluation, and publish to Copilot
+Skills:
+Model selection and deployment
+Agent service, tools, and MCP integration
+Evaluation, telemetry, and publish
+Learn:
+Foundry training hub | Develop AI agents
+Credentials:
+AI Apps & Agents Dev (beta) | Azure AI Engineer
+Power Platform
+Dataverse, connectors, Power Automate, environments, ALM, and solution governance for scalable builds.
+Skills:
+Dataverse and connector strategy
+Solution design, environments, and ALM
+Flow integration and governance
+Learn:
+Solution architect path | PL-600 course
+Credentials:
+PP Solution Architect | AB-100 architect
+Foundational across all tracks: AB-900 | AB-100
+
+=== SLIDE 17 ===
+Recommended facilitator preparation
+Technical Skills: Preparing for the Engagement
+Agent 365
+Control plane for discovery, onboarding, identity, observability, governance, and secure operations.
+Skills:
+Registry, onboarding, and ownership
+Monitoring, policy, and lifecycle control
+Entra, Purview, and Defender integration
+Learn:
+Explore Agent 365 | Get started
+Credentials:
+AB-900 fundamentals | Info Security Admin
+Agent 365 SDK
+Pro‑code extension layer that enables enterprise‑ready agents by adding identity, observability, security, notifications, and governed access to Microsoft 365 data.
+Skills:
+SDK integration in Python, JavaScript, or .NET
+Entra identity, auth, and secure access to tools and data
+MCP integration for Mail, Teams, SharePoint, and other workloads
+OpenTelemetry tracing, auditability, and operational monitoring
+CLI-driven setup, configuration, deployment, and publishing
+Multi-channel interactions and notifications in Microsoft 365 apps
+Learn:
+Agent 365 SDK + CLI docs
+Get started with Agent 365 development
+Explore Microsoft Agent 365 learning path
+Credentials:
+AB-900: Copilot & Agent Administration Fundamentals
+AZ-204: Azure Developer Associate
+SC-300: Identity & Access Administrator
+SC-401: Information Security Administrator
+
+=== SLIDE 18 ===
+Who should participate to maximize engagement impact
+Preparing for the Engagement
+It is critical to engage both technical decision makers (TDMs) and business decision makers (BDMs) to drive best outcomes and decisions forward.
+While you may engage these audiences in different meetings, ensuring buy-in and alignment across both audiences is critical for your engagement’s success.
+Business & Technical Executives (CxO)
+AI Innovation & Transformation Champions
+Functional Leaders & Users(HR, Sales, Marketing, etc.)
+IT Pros, Security Leads, & Decision Influencers
+Adoption Change Management & Corporate Comms Reps
+
+=== SLIDE 19 ===
+Additional recommended customer stakeholders
+Preparing for the Engagement
+Determine what additional customer stakeholders should be included in the Agent Solution Deployment Accelerator engagement when planning the delivery.
+Executive Project Sponsor
+Change Lead/Program Manager
+Training Lead*
+Communication Lead*
+Community Manager*
+Power Platform Lead
+HR Lead
+AI Council
+Executive/Lead for each business function or department
+IT Lead
+Security Lead
+Business Liaison and/or Techno-Business role
+Microsoft 365 Global Admin (to assign licenses and gain insights into the usage reports)
+*In some organizations, all three roles are performed by one person.
+
+=== SLIDE 20 ===
+Frontier Accelerate for Copilot | Available trials
+Partners can request specific trials for approved Frontier Accelerate for Copilot engagements via the Partner-led Customer Trials Portal at: https://aka.ms/PLGTrialsRequest.
+Available partner-led trials include Microsoft 365 Copilot, Copilot Studio, E3, and E5 Compliance
+Available trial(s)
+Terms
+Copilot + Power Envisioning & POC
+Microsoft 365 Copilot SKU
+Seats: 50 / Length: 60 days
+Copilot Studio
+Copilot Studio user license
+Seats: 250 / Length: 60 days
+Seats: 250 / Length: 60 days
+M365 E3 (no Teams) / M365 E3 EEA (no Teams)
+M365 E5 Compliance for Partner engagements
+Seats: 250 / Length: 120 days (M365 E3 Only)
+Seats: 250 / Length: 120 days (E5 Comp Only)
+Copilot + Power Deployment Accelerators
+Copilot Studio
+Copilot Studio user license
+Seats: 250 / Length: 60 days
+Seats: 250 / Length: 60 days
+M365 E3 (no Teams) / M365 E3 EEA (no Teams)
+M365 E5 Compliance for Partner engagements
+Seats: 250 / Length: 120 days (M365 E3 Only)
+Seats: 250 / Length: 120 days (E5 Comp Only)
+Power platform*
+*Power Platform trials are public
+How to access Power Platform trials - Activate a trial or developer plan license to provide immersive experiences and kickstart customer activation - www.microsoft.com/power-platform/try-free
+Nominate customers
+Nominate your customer for the Frontier Accelerate for Copilot. The approved MCI engagement ID from the nomination will be needed in the trial request.
+Engage customers
+Review customer’s existing active licenses.
+Define clear scope and success criteria.
+Submit Trial Request
+Review the Trial Guide.
+Request the customer trial https://aka.ms/PLGTrialsRequest
+Customer engagement
+Accelerateand realize opportunity
+Activate trial(s)
+
+=== SLIDE 21 ===
+Details on how to request partner-led trials
+Visit https://aka.ms/PLGTrialsRequest and sign in using your partner credentials.
+Complete the sign-in process to access the portal.
+Once signed in, you’ll be directed to the Partner-Led Customer Trials portal. This portal is only visible to authorized partners.
+Submit engagement details, fill out required fields including your Engagement ID
+After your engagement is validated, you’ll be able to choose from the available trials based on what your engagement allows.
+Review your selections, confirm the engagement, and the trials will be distributed accordingly.
+
+=== SLIDE 22 ===
+Partner pre-engagement checklist
+Preparing for the Engagement
+Get ready for delivering the Agent Solution Deployment Accelerator by reviewing the delivery guide, identifying assets and resources that you will use, aligning with your customer stakeholders to agree on the scope of the engagement.
+Make sure to review the delivery guide and engagement content:
+Review the Agents pre-engagement planning guide
+Keep in mind this is a flexible engagement.
+Identify activity categories and corresponding activities that you will deliver to the customer. Please remember you are not required to deliver activities in any particular order.
+Select and download identified assets and resources. Review them and get ready for the delivery.
+Schedule and facilitate the pre-engagement planning meeting.
+In the meeting, be sure to:
+Align and confirm customer stakeholders (executive sponsor, communications lead, training leads, department leads, IT stakeholders)
+If any high-value scenarios were evaluated during the Envisioning engagement, please review them here and adopt if needed.
+Define success of the engagement by documenting vision and goals (Review this resource prior to the meeting: Identify business goals and success metrics)
+Share Create an AI Council guide and The Strategic CIOs Generative AI Playbook with your customer.
+If necessary, provide Customer Pre-Engagement Questionnaire
+Identify Champions, Community Leads and user groups.
+Agree on daily/weekly project calls with customer to keep track of the engagement progress and feedback.
+Agree on the engagement scope, deliverables and the start date of the engagement.
+Request trials, if necessary
+
+=== SLIDE 23 ===
+Engagement Delivery
+Example
+
+=== SLIDE 24 ===
+Engagement flow: example activities
+Frontier accelerate for copilot: Agent Solution Deployment Accelerator
+Below is an example order of activities to be delivered in Plan > Implement > Adopt > Manage & Improve.
+Plan
+Confirm objectives, engagement intent, stakeholders buy-in
+Identify priority business functions & stakeholders and user cohorts
+Determine high-value scenarios for purpose-built agents
+Define solution architecture and design
+Establish success metrics: KPIs and baseline
+Build deployment & adoption plans
+Prep environment (Copilot Dashboard and/or Agent 365); remediate blockers
+Implement
+Design and build agents for identified high-value scenarios
+Launch with a test group/champions
+Launch with a larger group of users
+Adopt
+Deliver training sessions
+Deliver agent hackathon
+Measure impact and validate business value
+Validate adoption plan for identified business functions and their users
+Manage & Improve
+KPIs validated
+Full launch of built agents
+Executive readout
+Governance plan in place
+Continuous adoption and training support
+
+=== SLIDE 25 ===
+When to use the Copilot Cowork Engagement Kit
+Before you start
+Post-Sales Engagement
+Run live in the customer tenant for scaled deployment:
+Customer is ready to scale Copilot Cowork to many functions
+Functional cohorts are identified and a Copilot-credit budget is defined and agreed upon
+M365 Copilot is licensed and Cowork is enabled or will be enabled during the engagement
+Customer purchased Copilot Credits for this engagement and configured spending policies and guardrails
+Success metrics of the engagement identified, and cost baseline can be captured
+Planned high-value tasks to be identified to deliver specific business outcomes to the functional cohorts
+
+=== SLIDE 26 ===
+Menu of activities and assets
+The following pages are an asset reference, organized by pillar and activity category so you can find what you need.For activity category definitions, please see the reference at the end of this delivery guide.
+Use the PRC Agent  to identify curated IP for Frontier Accelerate for Copilot engagements and dynamically surface engagement IP to use for customer delivery. Try it at https://aka.ms/PRCAgent
+
+=== SLIDE 27 ===
+Business Value Analysis, Measurement, & Reporting
+Activities & supporting assets: Activity category
+Activity
+Implementation pillar
+Activity description
+Supporting assets & resources
+Deliver analytics overview
+Plan
+Align stakeholders on available analytics across Copilot Studio, Foundry, Agent 365, and SDK-based agents. Cover usage, performance, grounding quality, tool usage, and business impact signals.
+Microsoft 365 Copilot Analytics
+Copilot Studio Analytics
+Model monitoring for generative AI applications
+Agent 365 Observability
+Develop an initial business case
+Plan
+Define value hypotheses for agents (productivity, automation, cost savings, decision acceleration). Establish measurable KPIs such as usage, completion rate, and business outcomes.
+Define Business Value
+Measure and communicate the business value of Power Platform solutions
+Power Platform - Business Value Toolkit
+Copilot Studio - Copilot Studio Cost Estimator
+Business Case Builder
+Configure & deploy analytics
+Implement
+Enable telemetry for agent interactions including prompts, responses, tool execution, and user sessions. Ensure data collection supports both engineering insights and business reporting.
+Copilot Studio Analytics
+Microsoft Foundry
+Agent 365
+Agent 365 SDK
+Custom Declarative & Agent SDK
+Measure business impact & usage/consumption
+Adopt
+After deploying or increasing adoption, leverage available reports and analytics to help the customer understand the current impact and adoption metrics, also how adoption impacts business value.
+Copilot Advanced Analysis Playbook
+Copilot Business Impact Report
+Analyze App and Agent Usage in Developer Portal
+Evolve business case
+Manage & Improve
+Continuously iterate on the customer’s business case by fine-tuning estimates with data and learnings collected during early adoption and deployment.
+Revisit the signals and update as needed
+
+=== SLIDE 28 ===
+Scenario Discovery & Solution Design
+Activities & supporting assets: Activity category
+Activity
+Implementation pillar
+Activity description
+Supporting assets & resources
+Identify priority business functions
+Plan
+Work with the project sponsor to identify the business areas and user groups to include, surface candidate agent and solution scenarios, and confirm stakeholder participation.
+What AI agents can do
+Evaluating and prioritizing an AI use case with ISV business envisioning
+Power Platform - Build the Vision
+Discover & prioritize high-value scenarios
+Plan
+Apply design-thinking and envisioning frameworks (value/complexity matrix, strategic value scoring, OKRs, or another scenario value-analysis method) to evaluate and prioritize candidate scenarios.
+AI Decision Brief: How leaders can drive Frontier Transformation | The Microsoft Cloud Blog
+Copilot Studio Scenarios
+Path to Production in Azure (Use cases, methodology, etc.)
+Power Platform - Use Case Library Apps + Agents + Copilot
+Scenario Analysis & Prioritization
+Copilot Cowork Task packs
+Develop the solution vision & choose the build approach
+Plan
+Document what the solution should do and the data, knowledge, and processes it needs, then map each scenario to the right build path — Copilot Studio, Microsoft Foundry, Agent 365 SDK, Microsoft 365 Agents SDK, or Power Platform.
+Establish an agents and solution implementation plan
+Estimate the cost of Copilot Studio | Copilot Credit Estimator
+Plan and design integration strategies - Copilot Studio
+Microsoft Foundry documentation (Models, Services, Tools, etc.)
+Power Platform - Solution Definition & Design
+Power Platform - Power Apps Design Best Practices
+Assess data, knowledge & system readiness
+Plan
+Inventory the data sources, knowledge, tools/connectors, and systems each priority scenario depends on; assess availability, quality, identity, and access constraints before design.
+Partner developed asset
+Define success metrics, Responsible AI & governance guardrails
+Plan
+Establish the value hypothesis and measurable success criteria (KPIs / OKRs, expected business impact), and set the Responsible-AI, security, and governance guardrails the solution design must respect.
+Partner developed asset
+
+=== SLIDE 29 ===
+Showcase AI in action
+Activities & supporting assets: Activity category
+Activity
+Implementation pillar
+Activity description
+Supporting assets & resources
+Deliver product overview and customer stories
+Plan
+Showcase the outcomes that matter. Bring to life the value generated through Microsoft Copilot Studio, Microsoft Foundry, Agent 365, Agent 365 SDK, Agent SDK, and custom declarative agents.
+Agent transformation stories (Across products)
+Deliver demos (Plan)
+Plan
+Deliver Proof of Value (POV) demonstrations and prototype walkthroughs of proposed agent and solution designs prior to production implementation.
+Partner created assets of prototypes or POV
+Simulated Demonstrations (Microsoft provided)
+Templates for common AI scenarios (Microsoft Foundry)
+Agent 365 SDK sample and prompts
+Agent 365 PoC Kit
+Deliver demos (Adopt)
+Adopt
+Deliver demos of the final agent and solutions to support end user adoption.
+Partner created assets
+
+=== SLIDE 30 ===
+Security, Compliance & Governance
+Activities & supporting assets: Activity category
+Activity
+Implementation pillar
+Activity description
+Supporting assets & resources
+Define agent developer access & controls
+Plan
+Establish who can create agents (makers, developers, IT) vs who can only use agents, using role-based access controls and environment strategy across Copilot Studio, Agent 365, and Power Platform.
+Develop a tenant environment strategy to adopt Power Platform at scale
+See respective build slides
+Establish agent governance policies
+Plan
+Define policies for agent creation, sharing, publishing, and lifecycle management, including approval workflows and separation of duties between IT and makers.
+COE Starter Kit
+Define model usage & visibility strategy
+Plan
+Determine which foundation models (via Foundry or Copilot Studio) are available to builders, including restrictions, transparency, and acceptable use guidelines.
+Foundry Documentation
+Design agent identity & access architecture
+Implement
+Configure identity for agents and users, including authentication, authorization, and secure access to enterprise data sources and APIs.
+Conditional Access Policy
+Secure agent data access & connectors
+Implement
+Apply DLP policies and connector restrictions to control which data sources agents can access and prevent data exfiltration or oversharing.
+Data Loss Prevention
+Configure agent-to-agent interaction (orchestration)
+Implement
+Define which agents can call other agents, including permissions, trust boundaries, and orchestration controls to ensure secure agent chaining.
+See respective build slides
+Control agent exposure & access endpoints
+Implement
+Determine which users, groups, or systems can invoke agents, including channel controls (Teams, APIs) and audience targeting.
+Publish your app to the Teams Store
+Continuously refine governance & security
+Manage & Improve
+Adjust agent policies, model access, and orchestration rules based on telemetry, risk signals, and usage trends.
+Learn about Microsoft Purview
+
+=== SLIDE 31 ===
+Agent Build Options: Copilot Studio
+Activities & supporting assets: Build option
+Activity
+Implementation pillar
+Activity description
+Supporting assets & resources
+Confirm scenarios & choose platform/path
+Plan
+Use Copilot Studio when a low-code authoring surface, enterprise knowledge grounding, tools/actions, and flexible channel deployment are needed.
+Choose between Agent Builder and Copilot Studio
+Official Copilot Studio documentation
+Define access & governance
+Plan
+Establish who can create agents (makers, developers, IT) vs who can only use agents, using role-based access controls and environment strategy across Copilot Studio, Agent 365, and Power Platform.
+Partner-developed asset
+Prepare environments, tools & prerequisites
+Plan
+Confirm environment strategy, maker/admin access, billing or licensing prerequisites, connector governance, and channel readiness before building.
+Official Copilot Studio documentation
+Prerequisites for extending Microsoft 365 Copilot
+Define architecture, identity  & model strategy
+Plan
+Map the scenario to knowledge sources, actions, channels, ALM, security, and Responsible AI guardrails before development starts.
+Copilot extensibility planning guide
+Extend Microsoft 365 Copilot with agents
+Build agents or solutions
+Implement
+Create the agent, configure instructions, add knowledge, topics, tools, actions, workflows or agent flows, and shape the experience for Microsoft 365 Copilot and other channels.
+Implement your Copilot Studio projects
+Quickstart: Create and deploy an agent
+Copilot Studio Create documentation
+Define runtime access & governance
+Implement
+Determine which users, groups, or systems can invoke agents, including channel controls (Teams, APIs) and audience targeting.
+Partner-developed asset
+Test, evaluate & publish
+Implement
+Test interactively, validate grounding and behavior, run evaluations, refine instructions and tool usage, then publish and set availability for required channels.
+Quickstart: Create and deploy an agent
+Copilot Studio Test, evaluate, and analyze
+Copilot Studio Publish, deploy, and integrate
+Distribute & drive adoption
+Adopt
+Share with pilot users, coordinate admin approval where needed, onboard users, and monitor analytics and agent health to confirm adoption and impact.
+Connect and configure an agent for Teams and Microsoft 365 Copilot
+Guiding principles for scaling agents
+Monitor, operate, & improve
+Manage & Improve
+Continuously tune instructions, topics, tools, and routing; version the solution; extend with MCP or other connected agents; and manage governance, quality, and cost over time.
+Official Copilot Studio documentation
+
+=== SLIDE 32 ===
+Agent Build Options: Microsoft Foundry
+Activities & supporting assets: Build option
+Activity
+Implementation pillar
+Activity description
+Supporting assets & resources
+Confirm scenarios & choose platform/path
+Plan
+Choose Foundry when you need prompt, workflow, or hosted agents, pro-code flexibility, custom models, stable endpoints, or deep runtime control.
+What is Microsoft Foundry Agent Service?
+Microsoft Foundry documentation
+Microsoft Foundry Rollout Across My Organization
+Define access & governance
+Plan
+Establish who can create agents (makers, developers, IT) vs who can only use agents, using role-based access controls and environment strategy across Copilot Studio, Agent 365, Microsoft Foundry, and Power Platform.
+Role Based Access
+Prepare environments, tools & prerequisites
+Plan
+Set up the project, connect tools and data, align security and enterprise networking, and enable tracing/monitoring before build-out.
+Microsoft Foundry documentation
+Agent development lifecycle
+Define project, identity & endpoint strategy
+Plan
+Plan Foundry project structure, model choices, tools, protocols, authorization, RBAC, observability, and where you will distribute the agent.
+Configure and share your Microsoft Foundry agent
+What is Microsoft Foundry Agent Service?
+Define architecture, identity  & model strategy
+Plan
+Determine which models are available to builders (Foundry + Copilot Studio), including restrictions, transparency, and acceptable use.
+Foundry Models sold by Azure - Microsoft Foundry | Microsoft Learn
+Build agents
+Implement
+Create a prompt agent, workflow, or hosted agent; define instructions; connect tools, MCP servers, knowledge, and custom code; and validate behavior in the playground or in code.
+What is Microsoft Foundry Agent Service?
+Agent development lifecycle
+Test, evaluate & publish
+Implement
+Save versions, inspect traces, run evaluations, pin or compare versions, and publish a stable endpoint once quality and safety checks pass.
+Configure and share your Microsoft Foundry agent
+Set Up Tracing for AI Agents in Microsoft Foundry
+Distribute & drive adoption
+Adopt
+Roll out the published endpoint through Microsoft 365 Copilot, Teams, or your own apps so the agent appears in the places users already work.
+Publish agents to Microsoft 365 Copilot and Microsoft Teams
+Configure and share your Microsoft Foundry agent
+Evaluate performance & outcomes
+Adopt
+Measure task success rates, user adoption, cost/performance tradeoffs, and business outcomes of agent scenarios.
+Azure Monitor Insights Overview
+Monitor, operate, & improve
+Manage & Improve
+Monitor production quality and runtime behavior, update versions, roll back when needed, refine tools and prompts, and optionally onboard the agent into Agent 365 governance.
+Publish a Microsoft Foundry agent to Agent 365
+Monitor agents with the Agent Monitoring Dashboard
+Role-based access control for Microsoft Foundry
+
+=== SLIDE 33 ===
+Agent Build Options: Agent 365 SDK
+Activities & supporting assets: Build option
+Activity
+Implementation pillar
+Activity description
+Supporting assets & resources
+Confirm scenarios & choose platform/path
+Plan
+Determine when the Agent 365 SDK is the right path, when you need governed identity, Work IQ tooling, telemetry, and controlled Microsoft 365 access built into the agent from the start.
+Microsoft Agent 365 SDK overview
+Microsoft Agent 365 documentation
+Define access & governance
+Plan
+Establish who can create agents (makers, developers, IT) vs who can only use agents, using role-based access controls and environment strategy across Copilot Studio, Agent 365, and Power Platform.
+Prepare environments, tools & prerequisites
+Plan
+Install the Agent 365 SDK and CLI, confirm tenant and developer access, and prepare the project scaffolding and authentication needed to build.
+Microsoft Agent 365 SDK and CLI
+Get started with Agent 365 development
+Define architecture, identity  & model strategy
+Plan
+Plan the Agent ID / blueprint, Work IQ tool permissions, notification patterns, telemetry, and Microsoft 365 data-access scopes before writing code.
+Get started with Agent 365 development
+Work IQ MCP overview
+Build agents or solutions
+Implement
+Use the SDK and CLI to scaffold the agent, attach a governed identity, define instructions, and wire up the runtime so it can operate within the Agent 365 control plane.
+Microsoft Agent 365 SDK and CLI
+Microsoft Agent 365 SDK overview
+Integrate tools, actions, & code
+Implement
+Connect Work IQ / MCP tools, add notifications and telemetry, and implement custom logic with controlled access to Microsoft 365 workloads; validate behavior locally.
+Work IQ MCP overview
+Microsoft Agent 365 SDK and CLI
+Test, evaluate & publish
+Adopt
+Test the agent, register it into the Agent 365 registry, apply access policies, and publish so it is discoverable and governed under IT oversight.
+Get started with Agent 365 development
+Microsoft Agent 365 documentation
+Monitor, operate, & improve
+Manage & Improve
+Use observability dashboards and telemetry to monitor runtime behavior, tune prompts, tools, and permissions, clean up resources, and keep the agent compliant over its lifecycle.
+Agent observability
+Microsoft Agent 365 SDK overview
+Agent 365 -  Purview to manage data security & compliance for Microsoft Agent 365
+Agent 365 - Monitor agents with Microsoft Defender
+
+=== SLIDE 34 ===
+Agent Build Options: Custom Declarative / Agent SDK
+Activities & supporting assets: Build option
+Activity
+Implementation pillar
+Activity description
+Supporting assets & resources
+Confirm scenarios & choose platform/path
+Plan
+Decide whether Agent Builder, Agents Toolkit, or Microsoft 365 Agents SDK best fits the scenario based on speed, control, governance, and publishing needs.
+Choose the Right Tool to Build a Declarative Agent
+Agents for Microsoft 365 Copilot
+Define access & governance
+Plan
+Establish who can create agents (makers, developers, IT) vs who can only use agents, using role-based access controls and environment strategy across Copilot Studio, Agent 365, and Power Platform.
+Prepare environments, tools & prerequisites
+Plan
+Set up Agent Builder or Visual Studio Code with Agents Toolkit / SDK, confirm licensing and permissions, and define manifest or app package requirements.
+Agent Builder in Microsoft 365 Copilot
+Create declarative agents using Microsoft 365 Agents Toolkit
+Define architecture, identity  & model strategy
+Plan
+Shape the agent with clear instructions, relevant knowledge, actions/plugins, and the right user experience for Microsoft 365 Copilot.
+Declarative agents for Microsoft 365 Copilot
+Write effective instructions for declarative agents
+Build the agent
+Implement
+Create the declarative agent in Agent Builder or Agents Toolkit or scaffold a custom engine agent by using Microsoft 365 Agents SDK for deeper orchestration control.
+Build agents using Agent Builder in Microsoft 365 Copilot
+Create and deploy a custom engine agent with Microsoft 365 Agents SDK
+Integrate tools, actions, & code
+Implement
+Add knowledge, MCP/plugins/actions, and effective instructions; test in Copilot or locally; and refine the agent behavior before release.
+Build agents using Agent Builder in Microsoft 365 Copilot
+Build plugins from an MCP server for Microsoft 365 Copilot
+Test, evaluate & publish
+Adopt
+Publish to the org catalog, Teams, Microsoft 365 Copilot, or Marketplace depending on the build path; use sharing for pilot collaboration and admin approval for broader rollout.
+Publish agents for Microsoft 365 Copilot
+Share and manage agents built with Microsoft 365 Copilot
+Monitor, operate, & improve
+Manage & Improve
+Use observability dashboards and telemetry to monitor runtime behavior, tune prompts, tools, and permissions, clean up resources, and keep the agent compliant over its lifecycle.
+Agent 365 Observability
+Agent observability
+Microsoft Agent 365 SDK overview
+Agent 365 -  Purview to manage data security & compliance for Microsoft Agent 365
+Agent 365 - Monitor agents with Microsoft Defender
+Evolve the solution path
+Manage & Improve
+Version and optimize the solution over time, add new plugins/skills, and convert a declarative agent to a custom engine agent when advanced orchestration or models are needed.
+Convert your declarative agent to a custom engine agent
+Create and deploy a custom engine agent with Microsoft 365 Agents SDK
+
+=== SLIDE 35 ===
+Agent Build Options: Agent 365
+Activities & supporting assets: Build option
+Activity
+Implementation pillar
+Activity description
+Supporting assets & resources
+Confirm scenarios & choose platform/path
+Plan
+Determine how registry, identity, access control, security, observability, and lifecycle governance should apply to this agent.
+Microsoft Agent 365 documentation
+Get started with Agent 365 development
+Define access & governance
+Plan
+Decide between app-based access or Agent ID / blueprint-based governance and define the controls, approvals, and policies required from day one.
+Get started with Agent 365 development
+Microsoft Agent 365 SDK overview
+Plan tooling, telemetry & data access
+Plan
+Design notifications, telemetry, Work IQ tooling, tool permissions, compliance, and Microsoft 365 data access patterns before onboarding.
+Microsoft Agent 365 SDK and CLI
+Work IQ MCP overview
+Agent observability
+Agent 365 observability
+Extend the agent with Agent 365 capabilities
+Implement
+Use the Agent 365 SDK and CLI to add governed identity, notifications, telemetry, and controlled access to tools and Microsoft 365 workloads.
+Microsoft Agent 365 SDK and CLI
+Agent 365 SDK
+Create resources, configure tools & onboard
+Implement
+Create blueprints and supporting resources, connect Work IQ / MCP tools, configure observability, and onboard or publish the agent into the Agent 365 control plane.
+Microsoft Agent 365 SDK and CLI
+Work IQ MCP overview
+Test & evaluate
+Adopt
+Use the registry and admin controls to make the agent discoverable, enforce access policies, review adoption, and coordinate rollout with IT oversight.
+Microsoft Agent 365 documentation
+Get started with Agent 365 development
+Monitor, operate, & improve
+Manage & Improve
+Use telemetry and dashboards to tune prompts, permissions, tools, and runtime behavior; clean up blueprints/resources; and keep the agent compliant over its lifecycle.
+Agent observability
+Microsoft Agent 365 documentation
+
+=== SLIDE 36 ===
+Agent Build Options: Power Platform
+Activities & supporting assets: Build option
+Activity
+Implementation pillar
+Activity description
+Supporting assets & resources
+Confirm scenarios & choose platform/path
+Plan
+Build Power Apps, Power Automate flows, and Copilot Studio agents based on defined solution architecture and backlog.
+Microsoft Power Platform developer documentation
+Power Apps Documentation
+Power Automate Documentation
+Configure Dataverse Data Model
+Implement
+Implement tables, relationships, business rules, and data structures required to support application scenarios.
+Dataverse Documentation
+Work with Tables in Dataverse
+Best practices and guidance for using Microsoft Dataverse
+Implement Business Logic and Automation
+Implement
+Configure workflows, approvals, and automation using Power Automate and embedded logic within apps and agents.
+Build business logic
+Apply business logic in Microsoft Dataverse
+Introduction to Microsoft Power Platform for developers
+Configure Integrations and Connectors
+Implement
+Connect applications to internal and external systems using standard connectors, custom connectors, or APIs.
+Power Platform Connector documentation
+Custom Connectors Overview
+Apply Security Controls in Build
+Implement
+Configure role-based security, connection references, and DLP-aligned implementations directly within solutions.
+Power Platform Security Overview
+Data loss prevention (DLP) policies
+Package Solution Components
+Implement
+Organize all apps, flows, tables, and assets into solutions to enable structured development and downstream ALM.
+Solution concepts
+Solution layers
+Solutions in Power Apps overview
+Import solutions
+Implement Source Control Integration
+Implement
+Store solution components in source control (Git) to enable versioning, collaboration, and traceability of changes.
+Power Platform ALM overview
+Overview of Git integration in Power Platform
+Build and Configure CI/CD Pipelines
+Implement
+Configure build pipelines using Power Platform Build Tools or GitHub Actions to automate solution packaging and validation.
+Microsoft Power Platform Build Tools for Azure DevOps
+ALM basics with Microsoft Power Platform
+Overview of Pipelines in Power Platform
+Perform Build Validation and Testing
+Implement
+Execute unit, functional, and integration tests during development to validate solution quality and readiness.
+Solution checker enforcement in Managed Environments
+Recommendations for security testing
+
+=== SLIDE 37 ===
+Administration & Operations
+Activities & supporting assets: Activity category
+Activity
+Implementation pillar
+Activity description
+Supporting assets & resources
+Environment readiness
+Plan
+Review the build slides for related readiness for Agents in the environment
+See respective build slides
+Power Platform environments overview
+Assign licenses or enable trials
+Plan
+Assign permissions and licenses to end users in preparation for pilot or deployment.
+See respective build slides for enablement of appropriate licenses or configuration to support use or build of agents
+Security roles and privileges for Dataverse
+Establish a service management plan
+Plan
+Develop a service management plan by aligning IT, user enablement, and solution teams to review AI transformation progress, assess governance and security practices, identify optimization opportunities, define a RACI, and set escalation paths for support.
+Administering and Governing Agents Whitepaper
+Agents 365 – Agents Admin Guide
+Enable end users
+Implement
+After assigning licenses, enable end users by activating relevant policies, pushing or deploying the relevant apps/agents to end users, and sending end-user communications.
+Copilot - Manage Agents For Microsoft 365 Copilot In Integrated Apps
+Cowork Delivery Guidance
+Power Platform governance overview and strategy
+Enable administrative tools
+Implement
+Review, evaluate, install, configure, and enable administrative tools needed for effective platform, software, services and infrastructure governance, management, reporting, and operations.
+See respective build slides for relevant tools
+Monitor & evaluate
+Adopt
+Monitor and evaluate agent health, service health, demand, utilization, and costs and other metrics for operational excellence and as input to ongoing benefits evaluation.
+Copilot - Custom Dev Analyze App & Agent Usage In Developer Portal
+See respective build slides for relevant tools
+Optimize operations
+Manage & Improve
+Regularly review KPIs and user feedback to identify improvement opportunities. Track metrics like response time, accuracy, satisfaction, and usage. Update the service management plan accordingly.
+Utilize your own template to deliver this activity.
+Continuous process improvement
+Manage & Improve
+Review help desk tickets, requests, and issues regularly to identify process improvements and opportunities to deploy agents for operational and administrative support. Scale or retire agents based on performance.
+Utilize your own template to deliver this activity.
+
+=== SLIDE 38 ===
+Training & Adoption
+Activities & supporting assets: Activity category
+Activity
+Implementation pillar
+Activity description
+Supporting assets & resources
+Build adoption strategy
+Plan
+Design an adoption strategy for agents and solutions.
+Agent Success Kit – Microsoft Adoption
+Activate communities
+Implement
+Launch or expand a Champions program to support user enablement and peer learning. Create a Viva Engage or Teams group for sharing updates, feedback, and success stories.
+Copilot - Step-By-Step Guide To Empower Your Champions
+Power Platform - Powering Community Success
+Conduct end user training & communications
+Implement
+Conduct employee training sessions to showcase agents and solutions developed.
+Agents - Power Up Training Program
+Drive cross-organizational training & adoption
+Adopt
+Engage users in an interactive, collaborative event like a prompt-a-thon designed to harness the power of agents in solving real-world scenarios.
+Microsoft 365 Copilot user engagement tools and templates – Microsoft Adoption
+Gather user feedback & sentiment via surveys
+Adopt
+Be sure to assess agent impact from the perspective of users' subjective experiences by developing a set of questions and surveying your users.
+Establish an Agent Builders CoE
+Adopt
+Establish an agent builder CoE.
+Utilize your own resources to deliver this activity.
+Deliver an agent hackathon
+Adopt
+An interactive, hands-on event to accelerate Copilot and agent adoption by bringing teams together to design, build, and showcase AI agents that address real business challenges. The guided sessions help showcase how easy it is to leverage Agent Builder for personal productivity & process improvements for teams, while building confidence in built-in capabilities like the Researcher agent.
+Agent Hackathon
+Continuous training & adoption
+Manage & Improve
+Expand adoption across the organization and optimize usage patterns.
+Utilize your own resources to deliver this activity.
+
+=== SLIDE 39 ===
+Engagement completion
+
+=== SLIDE 40 ===
+Delivery completion
+The Agent Solution Deployment Accelerator is typically completed after you conduct an Executive Summary presentation. This presentation should be attended by the business sponsors, IT and key business stakeholders.
+Recommended agenda items include:
+Review the scope, goals, and discuss the engagement output.
+Present recommendations to the customer, framing the results in terms of strategic alignment and value of the initiatives identified during the engagement.
+Identify and review any additional recommendations and next steps.
+Gather feedback on how the engagement was delivered.
+The Executive Summary presentation as well as any other deliverables you choose can be handed to the customer at the conclusion of the engagement.
+Important: At the end of the engagement, both you [the partner] and your customer will receive an attestation form from Microsoft. Submission of the form by you [the partner] and your customer is mandatory to acknowledge and validate engagement completion and to unlock incentive funding from Microsoft. Please follow up with your customer to ensure timely submission and payout eligibility.
+
+=== SLIDE 41 ===
+Engagement delivery structure
+Overview
+
+=== SLIDE 42 ===
+Engagement structure overview
+Engagement Delivery Structure
+The diagram below is provided to illustrate the engagement structure. Definitions of each Activity Category can be found on the following slide.
+Activities
+Engagement
+What is an Activity Category? Activity Categories are used as a grouping mechanism for Activities, allowing partners to easily determine sets of related activities and associated assets.
+What is an Activity? Activities are efforts conducted to drive the customer forward in the implementation and adoption process.
+Supporting assets
+What is a Supporting Asset?  Activities are associated with Assets & Resources of all types, such as pitch decks, templates, tools, questionnaires, guides, demo assets, sample data, training resources, reference libraries, and other curated resources that can be used by the partner to support delivery of an Activity. Partners may use one or more assets and resources to support an Activity or use their own methods and resources.
+Activity Category 1
+Activity Category 2
+Activity
+Activity
+Activity
+Activity
+Asset 1
+Asset 2
+Asset 3
+
+=== SLIDE 43 ===
+Activity category definitions
+Engagement Delivery Structure
+Review the seven activity categories and their definitions to understand how we have defined them.
+Activity category
+Activity category definition
+Scenario Discovery & Solution Design
+This category includes activities related to the process of identifying and prioritizing high-value business scenarios that can unlock further potential with Microsoft 365 Copilot, agents, Agent 365 and Power Platform.
+Business Value Analysis, Measurement, & Reporting
+This category includes activities across the end-to-end value stream, such as defining methods to qualify and quantify value, setting business objectives, establishing value metrics, measuring cost and value, and realizing value outcomes.
+Showcase AI in Action
+This category includes art-of-the-possible experiences showcasing Frontier Transformation demos, customer stories, and product pitch decks
+Security, Compliance & Governance
+This category includes activities related to the delivery of information, planning, configuration, development, setup, and technical deployment activities in support of security, compliance, and governance frameworks, technologies, reporting and operations.
+Agents, Solutions & Initiatives Development
+This category includes activities related to the technical design, development, testing, and deployment of a service, agent, application, automation, or non-technical initiative designed to deliver business value.
+Administration & Operations
+This category includes activities related to the administration, operations, setup, configuration, monitoring, and maintenance of a platform, a service, cloud infrastructure, platform and application features and other elements which require ongoing administration.
+Training & Adoption
+This category includes activities related to the transfer of knowledge, learnings, skills, and capabilities to Champions, end users, administrators, and other stakeholders – ultimately driving greater adoption and utilization of a platform, service, solution, or technical capability.
+
+=== SLIDE 44 ===
+Additional Resources and Feedback
+
+=== SLIDE 45 ===
+Narrative resources
+Microsoft 365 Copilot Pitch Deck
+Core Product Pitch Deck for Microsoft 365 Copilot
+Work IQ Overview
+Core Product Pitch Deck for Work IQ
+Microsoft 365 E7 Pitch Deck
+Pitch deck for ME7
+Building Agents with Microsoft
+Pitch Deck for building agents with Microsoft
+Agent 365 Pitch Deck
+Core Product Pitch Deck for Microsoft Agent 365
+
+=== SLIDE 46 ===
+Copilot Cowork resources
+Cost management demos on demos.microsoft.com
+https://aka.ms/CostManagementDemo
+Customer-facing cost estimator tool
+https://aka.ms/CustomerCoworkEstimator
+Copilot Credits licensing guide
+https://aka.ms/CopilotCredits/LicensingGuide
+Copilot Credits on Learn (purchase, set-up, cost management)
+https://aka.ms/CopilotCredits/Learn
+Copilot Cowork Adoption site
+https://adoption.microsoft.com/en-us/copilot/cowork/ai-user/
+Learn more about Copilot Cowork
+https://aka.ms/CopilotCoworkDocs
+Visit Copilot Cowork Launch Blog
+Copilot Cowork is now generally available | Microsoft 365 Blog
+
+=== SLIDE 47 ===
+Demo resources
+Microsoft Demos
+Portal for all the demos that tell the Becoming Frontier story
+Microsoft Demo eXperiences
+Microsoft technologies and products with hands-on interactions (CDX)
+Microsoft 365 Copilot – YouTube
+Explainer videos
+Microsoft Mechanics – YouTube
+Videos geared to IT Pros, Solution Architects, Developers, and Tech Enthusiasts
+Microsoft Community Learning – YouTube
+Demo videos, tutorials, and best practices
+
+=== SLIDE 48 ===
+Scale up your Copilot expertise with the Copilot Partner Practice Development Portal
+aka.ms/CopilotPartner
+Access clear, actionable guidance to help you build or extend your business by including Microsoft 365 Copilot, Copilot Studio and Copilot agents.
+Build your strategy: understand the latest AI trends, market research and partner opportunity information to help shape how you will build and grow your Microsoft 365 Copilot practice.
+Develop skills: leverage technical training resources, learning paths, product documentation, and customer pitch decks to deepen your seller’s and consultant's skills and capabilities with Microsoft 365 Copilot.
+Build your go-to-market plan: accelerate your go-to-market efforts with marketing campaign materials, offer development and publishing guidance, seller guidance, FAQs and more.
+
+=== SLIDE 49 ===
+Partner resources
+AI Business Solutions Hub
+ABS Partner Engagements
+Partner Skilling Resources
+Power Platform Go To Market Resources
+Power Platform Partner Tech Community
+
+=== SLIDE 50 ===
+We look forward to your feedback!
+Thank you for your continued trust and partnership. The resources within this toolkit will be iteratively improved upon based on product releases as well as direct feedback from delivered engagements. We encourage you to provide feedback to help us improve our products and toolkits.
+Please provide your feedback through the following link:
+aka.ms/PartnerEngagementFeedback
+
+=== SLIDE 51 ===
+Thank you
+
+=== SLIDE 52 ===
+Close

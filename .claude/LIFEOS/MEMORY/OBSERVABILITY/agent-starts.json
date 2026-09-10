@@ -1,1 +1,26 @@
-{}
+{
+  "ef445269-830e-40bd-a8ae-7b42a6ef33e3::Extract relevant material from two other meeting transcripts": {
+    "epoch": 1788935280840,
+    "timestamp": "2026-09-09T07:28:00+01:00",
+    "subagent_type": "fork",
+    "description": "Extract relevant material from two other meeting transcripts",
+    "model": "claude-opus-5",
+    "level": "session-inherited"
+  },
+  "ef445269-830e-40bd-a8ae-7b42a6ef33e3::Extract relevant material from Cockpit docs and repo analysis": {
+    "epoch": 1788935293533,
+    "timestamp": "2026-09-09T07:28:13+01:00",
+    "subagent_type": "fork",
+    "description": "Extract relevant material from Cockpit docs and repo analysis",
+    "model": "claude-opus-5",
+    "level": "session-inherited"
+  },
+  "ef445269-830e-40bd-a8ae-7b42a6ef33e3::Extract from two secondary meeting transcripts": {
+    "epoch": 1788935314847,
+    "timestamp": "2026-09-09T07:28:34+01:00",
+    "subagent_type": "fork",
+    "description": "Extract from two secondary meeting transcripts",
+    "model": "claude-opus-5",
+    "level": "session-inherited"
+  }
+}

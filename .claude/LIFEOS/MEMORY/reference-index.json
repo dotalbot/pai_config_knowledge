@@ -1,7 +1,76 @@
 {
   "version": 1,
-  "updated": "2026-09-08T20:59:31.517Z",
+  "updated": "2026-09-09T07:05:47.839Z",
   "entries": [
+    {
+      "path": "Reference/Sites/Vicky Zhao.md",
+      "title": "Vicky Zhao",
+      "kind": "site",
+      "medium": "site",
+      "tags": [
+        "reference",
+        "anchor"
+      ],
+      "summary": "_Description pending — what this source covers and its typical format._",
+      "captured": "2026-09-09",
+      "status": "captured"
+    },
+    {
+      "path": "Reference/Web/10 Frameworks to Eliminate Invisible Drag.md",
+      "title": "10 Frameworks to Eliminate Invisible Drag",
+      "kind": "article",
+      "medium": "web",
+      "author": "Vicky Zhao",
+      "source": "Vicky Zhao",
+      "tags": [
+        "communication",
+        "critical-thinking",
+        "clarity",
+        "leadership",
+        "frameworks"
+      ],
+      "summary": "The companion PDF to Vicky Zhao's invisible-drag video, holding all ten traps where the video covered only two. Each is the same shape: a word or concept that carries more than one meaning, the trap it creates when nobody notices, and a named framework for splitting it. The underlying claim is that most disagreement at work is not disagreement at all — it is two people using one label for differen",
+      "captured": "2026-09-09",
+      "status": "captured"
+    },
+    {
+      "path": "Reference/YouTube/Become a Master Storyteller (The Dopamine Trick Elite Speakers Use).md",
+      "title": "Become a Master Storyteller (The Dopamine Trick Elite Speakers Use)",
+      "kind": "video",
+      "medium": "youtube",
+      "url": "https://youtu.be/P-BQ-AGS0ck",
+      "author": "Vishen Lakhiani",
+      "source": "Vishen",
+      "tags": [
+        "storytelling",
+        "communication",
+        "writing",
+        "psychology",
+        "influence"
+      ],
+      "summary": "![Become a Master Storyteller (The Dopamine Trick Elite Speakers Use)](https://youtu.be/P-BQ-AGS0ck)",
+      "captured": "2026-09-09",
+      "status": "captured"
+    },
+    {
+      "path": "Reference/YouTube/The Reason Smart People Aren't As Articulate As They Think.md",
+      "title": "The Reason Smart People Aren't As Articulate As They Think",
+      "kind": "video",
+      "medium": "youtube",
+      "url": "https://youtu.be/TlHBvbRJg9A",
+      "author": "Vicky Zhao",
+      "source": "Vicky Zhao",
+      "tags": [
+        "communication",
+        "critical-thinking",
+        "clarity",
+        "leadership",
+        "language"
+      ],
+      "summary": "![The Reason Smart People Aren't As Articulate As They Think](https://youtu.be/TlHBvbRJg9A)",
+      "captured": "2026-09-09",
+      "status": "captured"
+    },
     {
       "path": "Reference/YouTube/5 AI Prompts To Fix Your Entire Life In 1 Day.md",
       "title": "5 AI Prompts To Fix Your Entire Life In 1 Day",

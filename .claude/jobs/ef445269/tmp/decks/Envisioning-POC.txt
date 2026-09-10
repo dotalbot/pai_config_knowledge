@@ -1,0 +1,805 @@
+
+=== SLIDE 1 ===
+Envisioning & POC
+Frontier Accelerate for Copilot
+Delivery Guide v26.08
+
+=== SLIDE 2 ===
+Version history
+Version
+Changes
+Date
+26.07
+FY27 Frontier Accelerate for Copilot launch
+Jul 2026
+26.08
+Addition of new Copilot Cowork Engagement and Agent 365 PoC Kits
+Jul/Aug 2026
+Hidden
+
+=== SLIDE 3 ===
+Document purpose
+Purpose
+This guide defines the new Frontier Accelerate for Copilot: Envisioning & Proof of Concept (POC) engagement.
+This is a flexible pre-sales motion that helps customers move beyond AI features toward Frontier Transformation: re-inventing end-to-end business workflows with Microsoft 365 Copilot, agents, and Agent 365. The guide is structured around identifying high-value scenarios, building a defensible business case with measurable ROI, and proving value through a focused POC
+Audience
+This document is intended to be used by partner sellers, practice leads, project managers, field consultants, and other partner resources with competencies in Microsoft 365 Copilot.
+Assumptions
+Partner resources involved in the delivery of this engagement have read and understand the content of this delivery guide.
+Partner understands that this document is not intended to be shared directly with customers.
+Other notes
+If you believe you have found an error or correction needed in this document, please complete this form.
+
+=== SLIDE 4 ===
+Envisioning & POC | What’s new!
+Frontier Accelerate for Copilot
+New Frontier Accelerate pre-sales engagement for FY27!
+FY27 reframes pre-sales envisioning around Frontier Transformation by moving beyond AI features and toward end-to-end workflow reinvention. Conversations now center on agents, intelligence (Microsoft IQ), and quantifiable business outcomes.
+This year’s engagement model keeps the flexible engagement structure from FY26.
+Power Platform is no longer in scope. This engagement is now exclusively focused on driving pre-sales activities that build intent and drive revenue/usage for Microsoft 365 Copilot, agents and Microsoft Agent 365.
+FY27 MCI eligibility includes SME&C expansion. Please review the MCI Incentives Guide for this year’s partner and customer eligibility criteria.
+Updated assets and resources
+We have included assets and resources to help you drive AI in the daily flow of work for every employee and increase adoption of high-impact scenarios that transform end-to-end workflows. Please review all assets as many have changed from FY26.
+Key changes include:
+New Copilot Cowork Engagement Delivery Guidance
+New Agent 365 PoC Kit
+Reframed around Frontier Transformation – from Copilot and agents to end-to-end workflow reinvention and customer transformation with measurable ROI
+Updated Product Pitch Decks for M365 Copilot, Copilot Studio, A365, and more
+Updated “Turn AI potential into high-impact business cases and ROI”
+New Work IQ Overview
+New Copilot Cowork Launch Kit and Task Packs
+New Cowork Cost Estimator
+New Prompt Packs
+Increased depth in security and governance with updated Agent 365 materials
+New and updated adoption resources
+New PRC Agent. Meet the Partner Resource Catalog (PRC) Agent: dynamically surface and download ready-to-use IP for your Copilot and agent-centric engagements. Try it at https://aka.ms/PRCAgent.
+Please review the following summary of changes introduced with this release:
+July 2026 – FY27 Frontier Accelerate for Copilot Program Launch
+
+=== SLIDE 5 ===
+Table of contents
+Click a section to jump to it
+
+=== SLIDE 6 ===
+Engagement summary
+Frontier Accelerate for Copilot:
+Envisioning & POC
+
+=== SLIDE 7 ===
+Frontier Accelerate for Copilot | End-to-end view
+The Frontier Accelerate for Copilot Program includes pre-sales and post-sales engagements.
+You are here.
+PRE-SALES
+Envisioning & POC
+Assess
+Inspire
+Design
+Proof of Concept
+POST-SALES
+M365 Copilot Deployment Accelerator
+&
+Agent Solution Deployment Accelerator
+Plan
+Implement
+Adopt
+Manage & Improve
+Pillars
+Frontier Accelerate for Copilot Program guide
+
+=== SLIDE 8 ===
+Envisioning & POC
+Frontier Accelerate for Copilot
+This engagement is flexible and modular. Partners may deliver any combination of activities and use the provided assets or their own. The engagement is expected to drive:
+Microsoft 365 Copilot revenue
+Agent consumption revenue
+Agent Monthly Active Usage (MAU)
+Refer to the Frontier Accelerate for Copilot Program Guide & MCI Incentives Guide for funding eligibility requirements and performance measures.
+Reminder: Microsoft’s funding is a co-investment for pre-sales envisioning and/or proof of concept. It is not intended to cover full workshop delivery, implementation, or planning costs.
+
+=== SLIDE 9 ===
+Objectives & outcomes
+Objectives
+Help customers identify high-value scenarios where AI can transform end-to-end workflows.
+Build a quantifiable business case and ROI model that justifies investment in Microsoft 365 Copilot, agents, and Agent 365.
+Showcase the transformative value of Microsoft 365 Copilot, agents, and/or Agent 365.
+Develop an enablement and adoption roadmap aligned to target business results.
+Target outcomes
+Identify customer challenges, opportunities and organizational readiness for Frontier Transformation.
+Build a prioritized scenario portfolio tied to business KPIs with measurable ROI.
+Develop a Frontier Transformation business case with measurable value targets.
+Create an adoption roadmap focused on the initiatives that drive the most business impact.
+Deliver proof of concept that demonstrates AI delivering real outcomes in the customer's environment.
+If claiming MCI incentive funding, ensure that you’ve completed delivery in a way that meets the performance measurement requirements as noted in the Incentives Guide
+
+=== SLIDE 10 ===
+Out of scope
+This engagement is not intended to be used for post-sales deployment or adoption.
+
+=== SLIDE 11 ===
+Planning the engagement
+Frontier Accelerate for Copilot:
+Envisioning & POC
+
+=== SLIDE 12 ===
+Recommended readiness for delivering this engagement
+Skills
+See the list to the right for a set of technical skills recommended to successfully deliver this engagement.
+For non-technical skills, we recommend that the delivery team include a strategic consulting resource that is familiar with facilitating design thinking and envisioning workshops, scenario identification, development of strategic objectives, KPI’s and success metrics, building of business case(s) and value-delivery planning.
+Prereading
+Review latest product and adoption content available for an understanding of the most current product capabilities.
+Recommended prereading includes:
+aka.ms/CopilotPartner
+Microsoft 365 Copilot Adoption hub
+Agent 365 documentation
+Recommended certifications
+AB-900: Copilot and Agent Administration Fundamentals
+AB-100: Agentic AI Business Solutions Architect
+MS-4007: Microsoft 365 Copilot User Enablement Specialist
+Recommended technical skills
+Ability to articulate business value of Microsoft 365 Copilot, identification of high-impact agentic scenarios, and positioning of advisory, deployment, and  adoption to drive AI-First Transformation.
+Strong understanding of the Microsoft 365 Copilot workloads and the current roadmap.
+Strong understanding of Microsoft 365 Copilot extensibility options and various paths you can take to build and manage agents with Agent 365.
+Strong understanding of Data, Privacy, and Security for Microsoft 365 Copilot
+Intermediate understanding of Microsoft 365, Microsoft Teams, responsible AI, Microsoft 365 Security, compliance, and governance.
+Intermediate understanding of maker experiences and pro-dev considerations including application lifecycle management (ALM) and extensibility scenarios.
+In addition, we recommend your team has knowledge in the following areas:
+Latest trends in AI-enabled business and agents
+AI-based business process automation
+Copilot and agents
+
+=== SLIDE 13 ===
+Facilitator preparation
+Skills & preparation
+The skill sets listed to the right are recommended for team member(s) leading and facilitating the delivery of the engagement.
+The facilitator should also be familiar with the activities, assets, resources, and outcomes intended to be delivered during the engagement.
+The facilitator may also be engaged in the planning and preparation prior to delivery.
+A sample pre-engagement planning deck is available to help facilitate and guide scoping discussions with the customer before you begin envisioning and/or proof of concept.
+Recommended soft skills
+Understanding of how to discuss Copilot business value, functional go-to-market and how to build a business case for customers.
+Experience speaking to business decision makers about AI business transformation and scenario/persona discovery.
+An understanding of the various roles inherent in technology solution development, management and operations.
+Familiarity with technology solutions development, deployment, and operations methods and practices.
+Strong experience in global adoption and change management (ACM) and user enablement strategy.
+Industry knowledge or specific business process knowledge relative to the customer’s environment.
+Group facilitation experience and skills.
+
+=== SLIDE 14 ===
+Who should be engaged
+In the Envisioning and POC phase of the sales journey, it is critical to engage both technical decision makers and business decision makers in envisioning and strategy discussions.
+While you may engage these audiences in different meetings and experiences, ensuring buy-in and alignment across these audiences is critical for success.
+Business & Technical Executives (CxO)
+AI Innovation & Transformation Champions
+Functional Leaders & Users(HR, Sales, Marketing, etc.)
+IT Pros, Security Leads, & Decision Influencers
+Adoption Change Management & Corporate Comms Reps
+
+=== SLIDE 15 ===
+Identify and engage appropriate roles
+It’s important to identify and engage appropriate roles for the Frontier Accelerate for Copilot: Envisioning & POC to understand customer business priorities and focus on scenarios that are high-value for the organization.
+We recommend the following customer roles to attend this engagement:
+Executive Project Sponsor, C-Suite or Sr. BDMs (CFO, CMO, COO or relevant business leaders) who can sign off on proposed activities.
+Business function/department leads and knowledge workers – who can participate in executive interviewing and interactive scenario prioritization, those who know best how their business works day-to-day and what end-user needs are.
+Change Management, Training Leads and Corporate Communications – integral to successful adoption, content providers, end user training and feedback planning is critical.
+CIO, ITDM, IT Admin, Enterprise and Security Architects – to provide architecture guidance and insights; technical guidance, visibility into currently deployed technologies and data security considerations.
+Project Manager/Coordinator – to provide overall engagement project management tasks, end-to-end engagement management.
+
+=== SLIDE 16 ===
+Additional recommended customer stakeholders
+Determine what additional customer stakeholders should be included when planning the delivery.
+Executive Project Sponsor
+Change Lead/Program Manager
+Training Lead*
+Communication Lead*
+Community Manager*
+HR Lead
+AI Council
+Executive/Lead for each business function or department
+IT Lead
+Security Lead
+Business Liaison and/or Techno-Business role
+Microsoft 365 Global Admin (to assign licenses and gain insights into the usage reports)
+*In some organizations, all three roles are performed by one person.
+
+=== SLIDE 17 ===
+Frontier Accelerate for Copilot | Available trials
+Partners can request specific trials for approved Frontier Accelerate for Copilot engagements via the Partner-Led Customer Trials Portal at: https://aka.ms/ABSTrialsRequest
+Available trial(s)
+Terms
+Envisioning & POC
+Microsoft 365 Copilot SKU
+Seats: 50 / Length: 60 days
+M365 E3 (no Teams) / M365 E3 EEA (no Teams)
+M365 E5 Compliance for Partner engagements
+Seats: 250 / Length: 120 days (M365 E3 Only)
+Seats: 250 / Length: 120 days (E5 Comp Only)
+Deployment Accelerators
+M365 E3 (no Teams) / M365 E3 EEA (no Teams)
+M365 E5 Compliance for Partner engagements
+Seats: 250 / Length: 120 days (M365 E3 Only)
+Seats: 250 / Length: 120 days (E5 Comp Only)
+Power platform*
+*Power Platform trials are public
+How to access Power Platform trials - Activate a trial or developer plan license to provide immersive experiences and kickstart customer activation - http://www.microsoft.com/power-platform/try-free
+Nominate customers
+Nominate your customer for the Frontier Accelerate for Copilot. The approved MCI engagement ID from the nomination will be needed in the trial request.
+Engage customers
+Review customer’s existing active licenses.
+Define clear scope and success criteria.
+Submit Trial Request
+Review the Trial Guide.
+Request the customer trial https://aka.ms/ABSTrialsRequest
+Customer engagement
+Activate trial(s)
+Accelerate and realize opportunity
+
+=== SLIDE 18 ===
+Details on how to request partner-led trials
+Visit https://aka.ms/ABSTrialsRequest and sign in using your partner credentials
+Complete the sign-in process to access the portal
+Once signed in, you’ll be directed to the Partner-Led Customer Trials portal. This portal is only visible to authorized partners.
+Submit engagement details, fill out required fields including your Engagement ID
+After your engagement is validated, you’ll be able to choose from the available trials based on what your engagement allows
+Review your selections, confirm the engagement, and the trials will be distributed accordingly
+
+=== SLIDE 19 ===
+When to use Agent 365 Demo Led PoC
+Important: Before starting an Agent 365 customer conversation, use the guidance below to decide whether to start with Agent 365 customer pitch deck, or progress into the Agent 365 demo-led PoC. Run agent discovery first, where appropriate, to understand existing agent usage and identify the most relevant customer scenarios.
+Customer Pitch Deck
+Use Agent 365 Customer Pitch Deck when:
+Introductory customer conversations
+Executive briefings and awareness sessions
+High-level capability demonstrations
+Early-stage opportunity qualification
+Focus on vision and value
+Security/compliance teams are not yet engaged
+There are not enough agents live in the environment
+Agent 365 demo-led PoC
+Use the Agent 365 demo-led PoC when:
+The customer has clear interest in agent governance, security, or operational readiness
+Discovery has identified agent risks, priorities, or stakeholder questions to explore
+The customer wants to validate scenarios across Observe, Govern, and Secure
+Multiple stakeholders need a structured engagement to align on requirements and outcomes
+The engagement needs to produce recommendations, priorities, and next steps
+"Tell me about Agent 365."
+"Help me understand how Agent 365 applies to my environment and use cases."
+
+=== SLIDE 20 ===
+When to use the Copilot Cowork Engagement Kit
+Before you start
+Demo and Envisioning
+Demo and Envisioning - use the Cowork demos, customer pitch decks when:
+The goal is education, alignment, or executive envisioning
+The customer has not yet committed to a Copilot-credit budget
+You are showcasing the art of the possible of Copilot Cowork
+Business and IT sponsors are not yet aligned on a cohort
+Production Proof of Value
+In Production Proof of Value - run live in tenant when:
+The customer has committed to a Copilot-credit budget, agreed to activate M365 Copilot licenses (trials available for M365 Copilot SKU) and purchased Copilot credits for this engagement
+Business and IT sponsors are aligned on a pilot cohort (start with a small size)
+Success metrics of the engagement identified, and cost baseline can be captured
+You are proving the value of Copilot Cowork live in the customer’s environment with the identified pilot cohort
+
+=== SLIDE 21 ===
+Partner readiness checklist
+Get ready for delivering the Frontier Accelerate for Copilot: Envisioning & POC by reviewing this delivery guide, identifying assets and resources that you will use, and aligning with your customer to agree on the scope of the engagement.
+Pre-engagement checklist
+Review the Copilot Envisioning & POC Delivery Guide and engagement content
+Research the customer and align with the Microsoft account team on current state and AI vision
+Select relevant assets, templates, and tools for delivery
+Remember this is a flexible engagement. You are not required to deliver activities in any particular order. Customize activities and sequence as needed for envisioning, proof of concept, or both
+Prepare and send pre-engagement materials i.e., Copilot Pre-Engagement Questionnaire
+Schedule and lead a pre-engagement planning session with the customer. In the meeting, be sure to:
+Use the Copilot Envisioning & POC Pre-Engagement Planning deck
+Confirm customer stakeholders (executive sponsor, business, IT, etc.)
+Define success, scope, deliverables and start date
+Identify which business functions you’ll complete envisioning or a proof of concept with
+Agree on any calls needed with customer to keep track of engagement progress and feedback
+Request necessary trials (if running a POC)
+
+=== SLIDE 22 ===
+Delivering the engagement
+Frontier Accelerate for Copilot:
+Envisioning & POC
+
+=== SLIDE 23 ===
+Engagement flow: the four engagement pillars
+Frontier accelerate for copilot: Envisioning & POC
+The Frontier Accelerate for Copilot: Envisioning & POC engagement can be organized into four simple pillars to help you meet the customer where they are and guide envisioning and/or proof of concept conversations. You do not need to deliver activities in a particular order, but the recommended flow will help with building on prior conversations and achieve a successful engagement.
+Assess
+Assess customer’s needs and readiness for AI enabled transformation.
+Gain an understanding of the customers current state position in terms of strategy, vision, technical, organizational, and business readiness.
+Facilitate executive-level interviews, data analysis and workshopping to identify high-value scenarios across priority departments.
+Inspire
+Showcase the art of the possible through transformation stories, demos, and customer case studies.
+Position Copilot and agents as AI teammates grounded in the customer’s data.
+Establish why this matters: business value, process reinvention, and the role of governance and adoption.
+Design
+Develop a preliminary business case or value realization plan for the customer.
+Define any relevant technical or functional requirements and design needed for a POC.
+Build an adoption strategy as necessary.
+Define next steps and timeline to develop and implement the solution.
+Proof of Concept
+Deliver a proof of concept in the customer’s environment, demonstrating real value using their data and scenarios and enabling the customer to validate feasibility and make implementation decisions.
+
+=== SLIDE 24 ===
+Engagement Delivery examples
+
+=== SLIDE 25 ===
+Engagement flow: example activities for Envisioning
+Frontier accelerate for copilot: Envisioning & POC
+Below is an example order of activities to be delivered from Assess > Inspire > Design.
+This envisioning workshop example is intended to help drive customer intent for purchasing and using Microsoft 365 Copilot licensing.
+Assess
+Identify high-value scenarios, solutions or initiatives
+Determine which assessment will be run
+Define success
+Deliver readiness assessments
+Inspire
+Deliver product overviews and demos
+Deliver security & governance overview
+Deliver adoption and change management overview
+Deliver reporting & analytics overview
+Showcase the Microsoft Scenario Library
+Design
+Develop an initial business case / value realization plan
+Develop a remediation plan as needed
+Deliver executive summary, including recommendations on next steps, risks, owners, and estimated completion dates
+Proof of Concept
+N/A
+Envisioning example only
+
+=== SLIDE 26 ===
+Engagement flow: example activities for a Proof of Concept
+Frontier accelerate for copilot: Envisioning & POC
+Below is an example order of activities to be delivered from Assess > Inspire > Design > Proof of Concept.
+This proof-of-concept example is designed to help drive early usage of Microsoft 365 Copilot and agents and increase customer intent for purchasing additional licensing.
+Assess
+Define success
+Inspire
+Deliver product overviews and demos
+Deliver security & governance overview
+Deliver adoption and change management overview
+Deliver reporting & analytics overview
+Design
+Define technical/functional requirements for agents
+Build an adoption roadmap
+Define success criteria for a POC
+Prepare environment for proof of concept
+Proof of Concept
+Define the scope of the proof of concept
+Request and enable trial licenses
+Build a proof-of-concept agent(s) or solution(s), and enable key features
+Provide training to proof-of-concept users
+Measure and evaluate proof of concept results
+Deliver executive summary, including recommendations on next steps, risks, owners, and estimated completion dates
+
+=== SLIDE 27 ===
+Checklists by pillar
+
+=== SLIDE 28 ===
+Assess pillar checklist
+Evaluate customer needs and AI readiness through technical, security, and organizational assessments. Use executive interviews, data analysis, and workshops to identify high-value scenarios across priority departments.
+Assess
+Identify high-value scenarios, solutions or initiatives
+Determine which assessment will be run
+Define success
+Deliver readiness assessments
+Security for AI Assessment
+Oversharing Assessment with Microsoft Purview
+Agent Readiness Assessment
+Other technical or organizational readiness assessment(s)
+Other:
+
+=== SLIDE 29 ===
+Inspire pillar checklist
+Showcase the “Art of the Possible” through demos, customer stories, and real-world scenarios. Explore AI-driven transformation, business process optimization, and the essentials of data security, governance, and change management.
+Inspire
+Deliver product overviews and demos across:
+Microsoft 365 Copilot
+Agents
+Copilot Studio
+Agent 365
+ME7
+Other:
+Deliver security & governance overview
+Deliver adoption and change management overview
+Deliver reporting & analytics overview
+Share Frontier Transformation customer stories and industry case studies
+Showcase the Microsoft Scenario Library
+Other:
+
+=== SLIDE 30 ===
+Design pillar checklist
+Develop a business case or value realization plan for the customer. Define relevant requirements and design needed for POC. Build adoption roadmap as necessary. Define next steps and timeline to develop and implement the solution.
+Design
+Develop an initial business case / value realization plan
+Develop a remediation plan as needed
+Define technical/functional requirements for agents
+Build an adoption roadmap
+Define success criteria for a POC
+Prepare environment for proof of concept
+Deliver an executive summary, including recommendations on next steps, risks, owners, and estimated completion dates
+Other:
+
+=== SLIDE 31 ===
+Proof of Concept pillar checklist
+Deliver a proof of concept in the customer’s environment, helping them to quickly realize value and assess feasibility of implementing AI for their organization.
+Proof of Concept
+Define the scope of the proof of concept, which users will participate and what products/features will be evaluated
+Confirm POC requirements and define design
+Identify IT admin and prepare access to the environment
+Request and enable trial licenses
+Build proof of concept agent(s) or solution(s) and enable key features
+Provide training to proof-of-concept users
+Measure and evaluate proof of concept results
+Deliver executive summary, including recommendations on next steps, risks, owners, and estimated completion dates
+Other:
+
+=== SLIDE 32 ===
+Menu of activities and assets
+The following pages are an asset reference, organized by pillar and activity category so you can find what you need.For activity category definitions, please see the reference at the end of this delivery guide.
+
+=== SLIDE 33 ===
+Scenario discovery & solution design
+Activities & supporting Assets BY ACTIVITY CATEGORY
+Activity
+Engagement pillar
+Activity description
+Assets & resources
+Identify priority business functions
+Inspire
+Work with the project sponsor to identify business areas and user groups to be the first adopters of M365 Copilot.
+Leaders guide to Copilot prioritization
+Showcase the Microsoft Scenario Library
+Inspire
+Share pre-built functional and industry scenarios with your customer to help inspire them to understand the art of the possible before diving into scenario and solution workshopping.
+Microsoft Scenario Library
+Copilot Cowork Task packs
+Copilot Studio Scenarios
+Determine high-value scenarios
+Assess
+Work with the project sponsor to identify business areas and user groups to be included to identify key scenarios and solutions and confirm participation. Use the relevant design thinking and envisioning frameworks (i.e. value/complexity matrix, strategic value scoring, OKRs, or other scenario value analysis method) to prioritize scenarios.
+Scenario Analysis & Prioritization
+Define the scope of the proof of concept
+Design
+Align with the customer on what will be deployed during the proof of concept, including any relevant adoption or training activities.
+Copilot Envisioning & POC Pre-engagement planning
+Use the PRC Agent to identify curated IP for Frontier Accelerate for Copilot engagements and dynamically surface engagement IP to use for customer delivery.
+
+=== SLIDE 34 ===
+Business Value Analysis, measurement, and reporting
+Activities & supporting Assets BY ACTIVITY CATEGORY
+Activity
+Engagement pillar
+Activity description
+Assets & resources
+Deliver analytics overview
+Inspire
+Help the customer understand what reports and tools are available to measure usage and impact.
+Copilot and Agent Analytics
+Copilot Analytics: Accelerating Risk & Compliance Discussion Guide
+Define success
+Assess
+Align with the customer and agree on the scope and success criteria of the envisioning and proof of concept engagement.
+Copilot Envisioning & POC Pre-engagement planning
+Develop an initial business case
+Design
+Use tools to develop a measurable business case, justifying the investment in Microsoft 365 Copilot. This may include KPIs, OKRs or other success metrics and value framework elements.
+Frontier Firm Economics
+Turn AI potential into high-impact business cases and ROI
+Customer Cowork Cost Estimator
+Business Case Builder for Microsoft 365 Copilot
+Microsoft 365 Copilot and Chat Value Envisioning Tool (VET)
+Copilot Studio Cost Estimator
+Measure proof of concept results
+Proof of Concept
+After the POC, use available reports and analytics to show impact, adoption, and how these support business value and future planning.
+How To Upload Business Impact Data
+Assess Copilot Impact
+Copilot Business Impact Report
+Advanced Analysis Playbook
+Use the PRC Agent to identify curated IP for Frontier Accelerate for Copilot engagements and dynamically surface engagement IP to use for customer delivery.
+
+=== SLIDE 35 ===
+Showcase AI in action
+Activities & supporting Assets BY ACTIVITY CATEGORY
+Activity
+Engagement pillar
+Activity description
+Assets & resources
+Deliver product overviews, customer stories and case studies
+Inspire
+Deliver key product overviews to showcase the value of Microsoft 365 Copilot, agents, Copilot Studio, and Agent 365
+Microsoft 365 Copilot Pitch Deck
+Microsoft 365 Copilot Business Pitch Deck
+Building Agents with Microsoft
+Work IQ Overview
+Researcher and Analyst Overview
+SharePoint Agent resources
+Copilot Studio - TDM Pitch Deck
+Agent 365 – Customer Pitch Deck
+Copilot Cowork Launch Assets
+Cowork Proof of Value Delivery Guidance
+Microsoft 365 E7 Pitch Deck
+Deliver demos
+Inspire
+Deliver key product demos to showcase the value of Microsoft 365 Copilot, agents, Copilot Studio, and Agent 365
+Microsoft 365 Copilot Demo YouTube Playlist
+MDX – Microsoft Demo eXperiences
+Copilot Simulated Demo Guide
+Use the PRC Agent to identify curated IP for Frontier Accelerate for Copilot engagements and dynamically surface engagement IP to use for customer delivery.
+
+=== SLIDE 36 ===
+Security, compliance & governance
+Activities & supporting Assets BY ACTIVITY CATEGORY
+Activity
+Engagement pillar
+Activity description
+Assets & resources
+Deliver security & governance overview
+Inspire
+This executive-level discussion is designed to align stakeholders on the organization’s approach to data security, governance, and access management in the context of AI and Copilot adoption.
+Secure AI Transformation - L50
+Secure and Govern Microsoft 365 Copilot - L150
+Secure and Govern Microsoft 365 Copilot + Agents - L300
+SharePoint Advanced Management Overview
+SharePoint Data Governance
+Administering and Governing Agents Whitepaper
+Agent Governance & Security Controls
+Agent 365 – Customer Pitch Deck
+Agent 365 - Secure AI Agents at Scale
+Demo - Observability at Every Layer of the Stack: Security + Agent 365
+Run Security for AI Assessment
+Assess
+Complete the Security for AI Assessment to receive a detailed report of your customer’s current security state and actionable recommendations.
+Security for AI Assessment
+Run oversharing assessment
+Assess
+Complete applicable security assessments for the customer to provide a baseline of their existing security maturity and discuss next steps and actions required to remediate any critical blockers.
+Data Security for Copilot Assets
+Microsoft Purview Data Security And Compliance Protections For Microsoft Copilot & Other Generative AI Apps
+Plan remediation
+Design
+Develop a plan to remediate any urgent security and governance issues prior to proof of concept and/or moving into deployment.
+Microsoft 365 Copilot Blueprint For Oversharing
+Configure a Secure & Governed Foundation for Microsoft 365 Copilot
+Copilot Studio - Governance & Security Best Practices Overview
+Use the PRC Agent to identify curated IP for Frontier Accelerate for Copilot engagements and dynamically surface engagement IP to use for customer delivery.
+
+=== SLIDE 37 ===
+Agents, solutions & initiatives development
+Activities & supporting Assets BY ACTIVITY CATEGORY
+Activity
+Engagement pillar
+Activity description
+Assets & resources
+Deliver demos
+Inspire
+Deliver key product demos to showcase the value of Microsoft 365 Copilot, agents, Copilot Studio, and Agent 365.
+Microsoft 365 Copilot Demo YouTube Playlist
+MDX – Microsoft Demo eXperiences
+Copilot Simulated Demo Guide
+Copilot Studio Demo Setup Guide
+Copilot Studio Demo Assets Guide
+Agent 365 Demo Led PoC
+Conduct readiness review and current inventory
+Assess
+Evaluate your customer’s preparedness across strategy, process, technology, culture, and governance for deploying agentic AI.
+Agent Readiness Framework
+Agent Readiness Assessment
+Agent 365 – Explore your Agent registry
+Define technical/functional requirements
+Design
+Elaborate on priority scenarios, distill the scenarios into stories or requirements and elaborate on priority stories as needed for proof of concept readiness.
+Microsoft 365 Copilot Extensibility Planning Guide
+Build Agents, Your Way
+Choose the right tool to build your declarative agent
+Agent Cost Management Resources
+Copilot Studio Architecture Guidance
+Empowering Responsible AI Practices
+Build a proof of concept agent or solution
+Proof of Concept
+Build and deploy proof of concept agents and/or solutions.
+Cowork Proof of Value Delivery Guidance
+Agents Success Kit
+Agents for Microsoft 365 Copilot Chat
+SharePoint Agent resources
+Agent templates and examples for Microsoft 365 Copilot
+Extend your agent with Model Context Protocol
+Add other agents overview - Agent to Agent
+Publish and deploy your agent
+Agent 365 Demo Led PoC
+Use the PRC Agent to identify curated IP for Frontier Accelerate for Copilot engagements and dynamically surface engagement IP to use for customer delivery.
+
+=== SLIDE 38 ===
+Administration & operations
+Activities & supporting Assets BY ACTIVITY CATEGORY
+Activity
+Engagement pillar
+Activity description
+Assets & resources
+Deliver inventory review
+Assess
+Work with the customer to discover inventory of agents and solutions.
+Copilot Studio Agent Inventory
+Prepare environment for proof of concept
+Design
+Get ready and prepare the customer’s tenant with setup and configuration in preparation for the proof of concept.
+Implementation Summary Guide
+Technical Readiness Guide
+Set up Microsoft 365 Copilot
+Set Up Your Development Environment to Extend Microsoft 365 Copilot
+Copilot Chat IT Controls Guide
+Manage Copilot Studio messages and capacity
+Create Entra agent identities for Copilot Studio agents
+Enable trial license(s)
+Proof of Concept
+Request and enable relevant trial license(s) to run a proof of concept in the customer’s production tenant.
+Enable Users For Microsoft 365 Copilot
+Use the PRC Agent to identify curated IP for Frontier Accelerate for Copilot engagements and dynamically surface engagement IP to use for customer delivery.
+
+=== SLIDE 39 ===
+Training & adoption
+Activities & supporting Assets BY ACTIVITY CATEGORY
+Activity
+Engagement pillar
+Activity description
+Assets & resources
+Build adoption strategy
+Design
+Help your customer understand the importance of an effective adoption and change management campaign to drive a successful proof of concept and/or deployment within enterprise organizations. Build a plan for adoption if delivering a proof of concept.
+Microsoft 365 Copilot Adoption and Change Management Guide
+Copilot Adoption Planning Checklist
+Agents ACM Playbook
+Create an AI Council
+How to Implement an Agent Community in 90 days
+Launch Day Kit for Microsoft 365 Copilot
+Agents Success Kit
+Provide training to proof of concept users
+Proof of Concept
+Train end users on key product features to improve workflows, and build skills in prompting, AI, and automation.
+Copilot Trainer Kit
+Microsoft 365 Copilot Experience Guide
+Microsoft 365 Copilot Interactive Experience For Executives
+Prompt-a-thon
+Prompt packs for Product Management, Operations, HR, Finance
+Gather user feedback & sentiment via surveys
+Proof of Concept
+Be sure to assess Copilot’s impact from the perspective of users' subjective experiences by developing a set of questions and surveying your users.
+Adoption & Impact
+Assess Copilot Impact
+Use the PRC Agent to identify curated IP for Frontier Accelerate for Copilot engagements and dynamically surface engagement IP to use for customer delivery.
+
+=== SLIDE 40 ===
+Engagement completion
+Frontier Accelerate for Copilot: Envisioning & POC
+
+=== SLIDE 41 ===
+Delivery completion: Executive summary
+At the conclusion of the Frontier Accelerate for Copilot: Envisioning & POC engagement, we recommend delivering an executive summary presentation—ideally attended by business sponsors, IT, and key stakeholders. You may share the executive summary and any other deliverables with the customer at this time.
+Suggested agenda:
+Review the scope, goals, and discuss the engagement output.
+Present recommendations to the customer, framing the results in terms of strategic alignment and value of the initiatives identified during the engagement.
+Identify and review any additional recommendations and next steps.
+Gather feedback on how the engagement was delivered.
+Important:
+At the end of the engagement, both you [partner] and your customer will receive a mandatory attestation form from Microsoft to confirm engagement completion and unlock incentive funding. Please follow up with your customer to ensure timely submission and payout eligibility.
+
+=== SLIDE 42 ===
+Supporting asset structure
+Overview
+
+=== SLIDE 43 ===
+Overview
+Engagement Delivery Structure
+The diagram below is provided to illustrate how the supporting assets are organized for this engagement. Resources in this guide are organized by pillar, activity category, and activity. Definitions of each activity category can be found on the following slide.
+Activities
+Engagement
+What is an Activity Category? Activity Categories are used as a grouping mechanism for Activities, allowing partners to easily determine sets of related activities and associated assets.
+What is an Activity? Activities are efforts conducted to drive the customer forward in the implementation and adoption process.
+Supporting assets
+What is a Supporting Asset?  Activities are associated with Assets & Resources of all types, such as pitch decks, templates, tools, questionnaires, guides, demo assets, sample data, training resources, reference libraries, and other curated resources that can be used by the partner to support delivery of an Activity. Partners may use one or more assets and resources to support an Activity or use their own methods and resources.
+Activity Category 1
+Activity Category 2
+Activity
+Activity
+Activity
+Activity
+Asset 1
+Asset 2
+Asset 3
+
+=== SLIDE 44 ===
+Activity category definitions
+Engagement Delivery Structure
+Review the seven activity categories and their definitions to understand how we have defined them.
+Activity category
+Activity category definition
+Scenario Discovery & Solution Design
+This category includes activities related to the process of identifying and prioritizing high-value business scenarios that can unlock further potential with Microsoft 365 Copilot, agents, and Agent 365.
+Business Value Analysis, Measurement, & Reporting
+This category includes activities across the end-to-end value stream, such as defining methods to qualify and quantify value, setting business objectives, establishing value metrics, measuring cost and value, and realizing value outcomes.
+Showcase AI in action
+This category includes art of the possible experiences showcasing Frontier transformation demos, stories, product pitch decks.
+Security, Compliance & Governance
+This category includes activities related to the delivery of information, planning, configuration, development, setup, and technical deployment activities in support of security, compliance, and governance frameworks, technologies, reporting and operations.
+Agents, Solutions & Initiatives Development
+This category includes activities related to the technical design, development, testing, and deployment of a service, agent, application, automation, or non-technical initiative designed to deliver business value.
+Administration & Operations
+This category includes activities related to the administration, operations, setup, configuration, monitoring, and maintenance of a platform, a service, cloud infrastructure, platform and application features and other elements which require ongoing administration.
+Training & Adoption
+This category includes activities related to the transfer of knowledge, learnings, skills, and capabilities to Champions, end users, administrators, and other stakeholders – ultimately driving greater adoption and utilization of a platform, service, solution, or technical capability.
+
+=== SLIDE 45 ===
+Additional Resources and Feedback
+
+=== SLIDE 46 ===
+Narrative resources
+Microsoft 365 Copilot Pitch Deck
+Core Product Pitch Deck for Microsoft 365 Copilot
+Work IQ Overview
+Core Product Pitch Deck for Work IQ
+Microsoft 365 E7 Pitch Deck
+Pitch deck for ME7
+Building Agents with Microsoft
+Pitch Deck for building agents with Microsoft
+Agent 365 Pitch Deck
+Core Product Pitch Deck for Microsoft Agent 365
+
+=== SLIDE 47 ===
+Copilot Cowork resources
+Cost management demos on demos.Microsoft.com
+https://aka.ms/CostManagementDemo
+Customer-facing cost estimator tool
+https://aka.ms/CustomerCoworkEstimator
+Copilot Credits licensing guide
+https://aka.ms/CopilotCredits/LicensingGuide
+Copilot Credits on Learn (purchase, set-up, cost management)
+https://aka.ms/CopilotCredits/Learn
+Copilot Cowork Adoption site
+https://adoption.microsoft.com/en-us/copilot/cowork/ai-user/
+Learn more about Copilot Cowork
+https://aka.ms/CopilotCoworkDocs
+Visit Copilot Cowork Launch Blog
+Copilot Cowork is now generally available | Microsoft 365 Blog
+
+=== SLIDE 48 ===
+Demo resources
+Microsoft Demos
+Portal for all the demos that tell the Becoming Frontier story
+Microsoft Demo eXperiences
+Microsoft technologies and products with hands-on interactions (CDX)
+Microsoft 365 Copilot – YouTube
+Explainer videos
+Microsoft Mechanics – YouTube
+Videos geared to IT Pros, Solution Architects, Developers, and Tech Enthusiasts
+Microsoft Community Learning – YouTube
+Demo videos, tutorials, and best practices
+
+=== SLIDE 49 ===
+Scale up your Copilot expertise with the Copilot Partner Practice Development Portal
+aka.ms/CopilotPartner
+Access clear, actionable guidance to help you build or extend your business with including Microsoft 365 Copilot, Copilot Studio and Copilot agents.
+Build your strategy: understand the latest AI trends, market research and partner opportunity information to help shape how you will build and grow your Microsoft 365 Copilot practice.
+Develop skills: leverage technical training resources, learning paths, product documentation, and customer pitch decks to deepen your seller’s and consultant's skills and capabilities with Microsoft 365 Copilot.
+Build your go-to-market plan: accelerate your go-to-market efforts with marketing campaign materials, offer development and publishing guidance, seller guidance, FAQs and more.
+
+=== SLIDE 50 ===
+Partner resources
+AI Business Solutions Hub
+ABS Partner Engagements
+Partner Skilling Resources
+Frontier Transformation Partner Hub
+Microsoft Copilot Specialization
+
+=== SLIDE 51 ===
+We look forward to your feedback!
+Thank you for your continued trust and partnership. The resources within this toolkit will be iteratively improved upon based on product releases as well as direct feedback from delivered engagements. We encourage you to provide feedback to help us improve our products and toolkits.
+Please provide your feedback through the following link:
+aka.ms/PartnerEngagementFeedback
+
+=== SLIDE 52 ===
+Thank you
+
+=== SLIDE 53 ===
+Close

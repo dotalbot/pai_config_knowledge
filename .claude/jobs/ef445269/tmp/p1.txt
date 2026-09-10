@@ -1,0 +1,44 @@
+
+STRICT BRAND SPECIFICATION — The Inform Team (theinformteam.com). Follow exactly.
+TYPEFACE: Montserrat ONLY, for every single word. Headline weight 400 (Light/Regular — NOT bold, the brand does not shout). Sub-headings weight 600. Body weight 400. Body text has slight letter-spacing.
+COLOURS — use ONLY these hex values:
+  #001450 deep navy — the dominant ground
+  #FFFFFF white
+  #F2F2F2 light warm grey — page background
+  #FF275B magenta-pink — ACCENT ONLY, used sparingly for emphasis, thin rules, one key highlight. NEVER a large fill.
+  #333333 dark grey for body text on light
+  #7FEBE9 mint and #A08DF4 lilac — permitted ONLY as small differentiators (a thin bar, a small icon), never as large areas.
+RESTRAINT — this is critical: clean, crisp, corporate, generous whitespace. NO gradients. NO drop shadows. NO 3D or isometric effects. NO glow. NO photographic textures. NO clip-art people. Flat vector only. Thin line weights. The composition must feel calm and premium, like a professional consultancy website. Do not overwhelm with colour — most of the canvas is navy or white.
+OUTPUT: a website hero infographic, landscape 16:9, high resolution, crisp vector-style edges, text perfectly legible and correctly spelled.
+
+SUBJECT — Microsoft Frontier Accelerate for Copilot, a funding programme delivered by partner The Inform Team.
+THE THREE FUNDED ENGAGEMENT ROUTES (the core content):
+1. "Envisioning & PoC Accelerator" — explore where Copilot and agents could create value. Identify personas and use cases, assess readiness, build the business case, develop a Proof of Concept.
+2. "Microsoft 365 Copilot Deployment Accelerator" — prepare for and support a secure deployment. Technical foundations, implementation, training, adoption and change management.
+3. "Agent Solution Deployment Accelerator" — design, build or activate agent solutions. Development, security, governance, training, adoption and change management.
+ELIGIBILITY: 300+ Microsoft 365 licences.
+WHAT FUNDING HELPS WITH: identify high-value scenarios; assess security and governance readiness; build a business case; develop a Proof of Concept; deploy securely; build governed agents; measure usage and outcomes.
+CREDENTIAL: The Inform Team is part of Microsoft's invite-only Copilot & Agents Partner Community.
+
+COMPOSITION FOR THIS VERSION — "Three Routes":
+Deep navy #001450 full-bleed background. At the top, centred, a light-weight
+Montserrat headline: "Microsoft Frontier Accelerate for Copilot" in white, with a
+smaller line beneath in white at 70% opacity: "Three funded partner-led engagement
+routes". A single thin magenta #FF275B horizontal rule, about 80px wide, centred
+below the sub-line.
+
+The main body is THREE equal-width vertical cards side by side, generous gutters
+between them, each card a white #FFFFFF panel with square corners and no shadow.
+Each card contains, top to bottom: a small thin-line outline icon in navy (card 1 a
+lightbulb, card 2 an upward deployment arrow into a shield, card 3 three connected
+nodes); the route name in Montserrat 600 navy; a short one-line description in
+Montserrat 400 dark grey #333333; then three or four short bullet points in small
+grey text. Each card has a 4px coloured bar across its very top edge only — card 1
+magenta #FF275B, card 2 mint #7FEBE9, card 3 lilac #A08DF4 — this is the ONLY use of
+those three colours.
+
+Across the bottom of the navy field, a single quiet line in small white text:
+"Eligibility: 300+ Microsoft 365 licences  ·  The Inform Team — Microsoft invite-only
+Copilot & Agents Partner Community".
+
+Lots of breathing room. Nothing else on the canvas.

@@ -1,16 +1,16 @@
 {
-  "pid": 3349575,
-  "version": "2.1.265",
+  "pid": 1592056,
+  "version": "2.1.267",
   "jsonPath": "/home/jellypai/.claude/daemon.json",
   "logPath": "/home/jellypai/.claude/daemon.log",
-  "startedAt": 1788900449856,
+  "startedAt": 1788984331075,
   "origin": "transient",
   "spawnedBy": {
     "label": "claude",
     "cwd": "/home/jellypai/.claude",
     "pid": 1208573
   },
-  "procStart": "198656003",
+  "procStart": "207044124",
   "launchTarget": "/home/jellypai/.bun/install/global/node_modules/@anthropic-ai/claude-code-linux-x64/claude",
   "processWrapper": ""
 }
