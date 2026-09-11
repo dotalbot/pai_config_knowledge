@@ -12,7 +12,7 @@ import { join } from "node:path";
 import type { CaptureKind, IndexEntry, Medium, ItemStatus } from "./types.ts";
 import { KIND_FOLDER } from "./types.ts";
 import { VAULT } from "./TagVocabulary.ts";
-import { safeName } from "./Anchor.ts";
+import { safeName, ANCHOR_FOLDER } from "./Anchor.ts";
 
 /**
  * Work domains. Personal-only is a hard constraint (Q6), so anything here is
@@ -125,8 +125,15 @@ export function renderNote(input: NoteInput, today = new Date().toISOString().sl
   // Point at the anchor only when one actually exists — an unearned source
   // would otherwise leave a dead wikilink in every note (found in live use,
   // 2026-09-07: the first Vicky Zhao capture linked an anchor with 1 child).
+  // Path-qualified, not a bare basename: Obsidian resolves `[[Vicky Zhao]]` by
+  // basename, so once a channel and a site legitimately share a name (which the
+  // medium-scoped anchor namespaces now allow) every child note links to an
+  // ambiguous target. The folder is derived from the same predicate that picks
+  // the frontmatter key, so the link cannot drift from the anchor's real path.
+  const anchorFolder =
+    ANCHOR_FOLDER[input.kind === "video" || input.kind === "channel" ? "youtube" : "site"];
   const up = input.anchorExists
-    ? `⬆️:: [[${safeName(input.source!)}]]`
+    ? `⬆️:: [[Reference/${anchorFolder}/${safeName(input.source!)}|${input.source!}]]`
     : `⬆️:: [[Reference/README|Reference]]`;
 
   const parts = [`---\n${fm.join("\n")}\n---`, "", up, "", `# ${input.title}`, ""];

@@ -15,7 +15,7 @@ import { join } from "node:path";
 import { tmpdir } from "node:os";
 
 import { classify, extractUrl } from "../Classify.ts";
-import { spliceGenerated, renderChildList, childrenOf, hasEarnedAnchor, regenerateAnchor, safeName } from "../Anchor.ts";
+import { spliceGenerated, renderChildList, childrenOf, hasEarnedAnchor, anchorExists, regenerateAnchor, safeName } from "../Anchor.ts";
 import { search, tokenise, ago } from "../Surface.ts";
 import { isAsleep, parseDuration, rebuild, saveIndex, loadIndex } from "../Index.ts";
 import { checkBoundary, renderNote } from "../Note.ts";
@@ -69,19 +69,47 @@ test("extractUrl handles trailing punctuation and bare domains", () => {
 test("anchor is earned on the third item, not before", () => {
   const idx = emptyIndex();
   idx.entries = [entry("A", [], "Chan"), entry("B", [], "Chan")];
-  expect(hasEarnedAnchor(idx, "Chan")).toBe(false);
+  expect(hasEarnedAnchor(idx, "Chan", "youtube")).toBe(false);
   idx.entries.push(entry("C", [], "Chan"));
-  expect(hasEarnedAnchor(idx, "Chan")).toBe(true);
+  expect(hasEarnedAnchor(idx, "Chan", "youtube")).toBe(true);
 });
 
 test("explicit request bypasses the threshold", () => {
-  expect(hasEarnedAnchor(emptyIndex(), "Any", true)).toBe(true);
+  expect(hasEarnedAnchor(emptyIndex(), "Any", "youtube", true)).toBe(true);
 });
 
 test("child matching is case-insensitive", () => {
   const idx = emptyIndex();
   idx.entries = [entry("A", [], "Philosophy Vibe")];
-  expect(childrenOf(idx, "philosophy vibe")).toHaveLength(1);
+  expect(childrenOf(idx, "philosophy vibe", "youtube")).toHaveLength(1);
+});
+
+test("a channel and a site of the same name are separate namespaces", () => {
+  // Regression (2026-09-10): "Vicky Zhao" existed as both a YouTube channel and
+  // a site; each anchor listed the other's children, and the site anchor was
+  // minted off a single article because the channel vouched for it.
+  const idx = emptyIndex();
+  const vid = { ...entry("A vid", [], "Vicky Zhao"), medium: "youtube" as const };
+  const art = {
+    ...entry("An article", [], "Vicky Zhao"),
+    kind: "article" as const,
+    medium: "web" as const,
+  };
+  idx.entries = [vid, art];
+
+  expect(childrenOf(idx, "Vicky Zhao", "youtube").map((e) => e.title)).toEqual(["A vid"]);
+  expect(childrenOf(idx, "Vicky Zhao", "site").map((e) => e.title)).toEqual(["An article"]);
+});
+
+test("an existing channel anchor does not vouch for a same-named site", () => {
+  const idx = emptyIndex();
+  idx.entries = [
+    { ...entry("Vicky Zhao", [], undefined), kind: "channel" as const, medium: "youtube" as const },
+  ];
+  expect(anchorExists(idx, "Vicky Zhao", "youtube")).toBe(true);
+  expect(anchorExists(idx, "Vicky Zhao", "site")).toBe(false);
+  // and so one lone article must not earn a site anchor
+  expect(hasEarnedAnchor(idx, "Vicky Zhao", "site")).toBe(false);
 });
 
 test("splice preserves content outside the fence", () => {
@@ -241,8 +269,27 @@ test("breadcrumb never points at an anchor that does not exist", async () => {
   const third = await capture(
     { title: "V3", kind: "video", medium: "youtube", source: "Chan", tags: ["a"], summary: "s" },
     vault, indexPath);
-  // The third earns the anchor, so it may point at it.
-  expect(await readFile(join(vault, third.note), "utf8")).toContain("[[Chan]]");
+  // The third earns the anchor, so it may point at it — path-qualified, since a
+  // bare [[Chan]] resolves by basename and would be ambiguous once a channel and
+  // a site share a name.
+  const body = await readFile(join(vault, third.note), "utf8");
+  expect(body).toContain("[[Reference/Channels/Chan|Chan]]");
+  expect(body).not.toMatch(/⬆️:: \[\[Chan\]\]/);
+});
+
+test("breadcrumbs are path-qualified per medium, so same-named anchors never collide", async () => {
+  // A channel and a site both called "Dual" must send their children to
+  // different files (regression for the basename-resolution bug, 2026-09-10).
+  for (const t of ["V1", "V2", "V3"]) {
+    await capture({ title: t, kind: "video", medium: "youtube", source: "Dual", tags: ["a"], summary: "s" }, vault, indexPath);
+  }
+  for (const t of ["A1", "A2", "A3"]) {
+    await capture({ title: t, kind: "article", medium: "web", source: "Dual", tags: ["a"], summary: "s" }, vault, indexPath);
+  }
+  const vid = await readFile(join(vault, "Reference/YouTube/V3.md"), "utf8");
+  const art = await readFile(join(vault, "Reference/Web/A3.md"), "utf8");
+  expect(vid).toContain("[[Reference/Channels/Dual|Dual]]");
+  expect(art).toContain("[[Reference/Sites/Dual|Dual]]");
 });
 
 // -------------------------------------------------------------------- digest
@@ -302,8 +349,8 @@ test("inferred source makes sibling videos count toward one anchor", () => {
     } as IndexEntry;
   };
   const index = { ...emptyIndex(), entries: [mk("One"), mk("Two"), mk("Three")] };
-  expect(childrenOf(index, "Vicky Zhao").length).toBe(3);
-  expect(hasEarnedAnchor(index, "Vicky Zhao")).toBe(true);
+  expect(childrenOf(index, "Vicky Zhao", "youtube").length).toBe(3);
+  expect(hasEarnedAnchor(index, "Vicky Zhao", "youtube")).toBe(true);
 });
 
 test("normalisePayload explicitly warns when a video has no source at all", () => {

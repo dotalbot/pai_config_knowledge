@@ -318,3 +318,20 @@ skills-lock.json
 
 # Claude Code telemetry debris (failed-event dumps carry session IDs)
 telemetry/
+
+# Harness session scratch — pasted files and background-job payloads, tens of MB
+# and regenerated per session. Never source.
+/uploads/
+/jobs/
+
+# Daemon runtime state — a lock, a status snapshot, and its working dir
+/daemon.lock
+/daemon.status.json
+/daemon/
+
+# Settings backups auto-stamped by the fallback-model migration
+/settings*.pre-fallback-*.bak
+
+# Capture's reference index — a rebuildable cache derived from note frontmatter
+# (SPEC.md: "never a source of truth"), rewritten on every capture.
+LIFEOS/MEMORY/reference-index.json

@@ -16,7 +16,7 @@
 
 import { readFile, writeFile, mkdir } from "node:fs/promises";
 import { join } from "node:path";
-import type { IndexEntry, ReferenceIndex } from "./types.ts";
+import type { AnchorMedium, IndexEntry, ReferenceIndex } from "./types.ts";
 import { ANCHOR_THRESHOLD, GEN_START, GEN_END } from "./types.ts";
 import { VAULT } from "./TagVocabulary.ts";
 
@@ -42,12 +42,31 @@ export function anchorPath(target: AnchorTarget): string {
   return join("Reference", ANCHOR_FOLDER[target.kind], `${safeName(target.source)}.md`);
 }
 
-/** Items belonging to a source, excluding anchors themselves. */
-export function childrenOf(index: ReferenceIndex, source: string): IndexEntry[] {
+/**
+ * Which anchor namespace an item belongs to. A YouTube video answers to a
+ * channel anchor, everything else to a site anchor. Without this, one person
+ * publishing on both YouTube and the web collides into a single bucket and both
+ * anchors claim all the items (found 2026-09-10: "Vicky Zhao" existed as both a
+ * channel and a site, each listing the other's children).
+ */
+export function anchorMediumOf(entry: IndexEntry): AnchorMedium {
+  return entry.medium === "youtube" ? "youtube" : "site";
+}
+
+/**
+ * Items belonging to a source, excluding anchors themselves. Scoped by anchor
+ * medium so same-named channels and sites stay separate namespaces.
+ */
+export function childrenOf(
+  index: ReferenceIndex,
+  source: string,
+  medium: AnchorMedium,
+): IndexEntry[] {
   const key = source.toLowerCase();
   return index.entries
     .filter((e) => e.kind !== "channel" && e.kind !== "site")
     .filter((e) => (e.source ?? "").toLowerCase() === key)
+    .filter((e) => anchorMediumOf(e) === medium)
     .sort((a, b) => (b.captured ?? "").localeCompare(a.captured ?? "") || a.title.localeCompare(b.title));
 }
 
@@ -58,16 +77,27 @@ export function childrenOf(index: ReferenceIndex, source: string): IndexEntry[] 
 export function hasEarnedAnchor(
   index: ReferenceIndex,
   source: string,
+  medium: AnchorMedium,
   explicit = false,
 ): boolean {
   if (explicit) return true;
-  return childrenOf(index, source).length >= ANCHOR_THRESHOLD;
+  return childrenOf(index, source, medium).length >= ANCHOR_THRESHOLD;
 }
 
-export function anchorExists(index: ReferenceIndex, source: string): boolean {
+/**
+ * Does an anchor already exist for this source IN THIS MEDIUM? Matching on the
+ * title alone made an existing channel vouch for a same-named site, minting a
+ * site anchor off a single article and skipping the threshold entirely.
+ */
+export function anchorExists(
+  index: ReferenceIndex,
+  source: string,
+  medium: AnchorMedium,
+): boolean {
   const key = source.toLowerCase();
+  const wantKind = medium === "youtube" ? "channel" : "site";
   return index.entries.some(
-    (e) => (e.kind === "channel" || e.kind === "site") && e.title.toLowerCase() === key,
+    (e) => e.kind === wantKind && e.title.toLowerCase() === key,
   );
 }
 
@@ -155,7 +185,7 @@ export async function regenerateAnchor(
     created = true;
   }
 
-  const children = childrenOf(index, target.source);
+  const children = childrenOf(index, target.source, target.kind);
   const next = spliceGenerated(content, heading, renderChildList(children));
 
   if (next !== content || created) {

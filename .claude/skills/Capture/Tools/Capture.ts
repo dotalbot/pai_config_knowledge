@@ -12,7 +12,7 @@
  * payload in, same files out.
  */
 
-import type { CaptureKind, Medium, ReferenceIndex } from "./types.ts";
+import type { AnchorMedium, CaptureKind, Medium, ReferenceIndex } from "./types.ts";
 import { ANCHOR_THRESHOLD, KIND_FOLDER } from "./types.ts";
 import { loadIndex, saveIndex, upsert, INDEX_PATH } from "./Index.ts";
 import { writeNote, checkBoundary, type NoteInput } from "./Note.ts";
@@ -185,11 +185,17 @@ export async function capture(
   // The item being captured counts toward the threshold, but is not in the
   // index yet — so compare against ANCHOR_THRESHOLD - 1. Without this the note
   // is written pointing at Reference while the anchor is created moments later.
-  const priorCount = input.source ? childrenOf(index, input.source).length : 0;
+  // Anchors are namespaced by medium: a YouTube channel and a website of the
+  // same name are different sources and must not share a bucket.
+  const anchorMedium: AnchorMedium =
+    input.kind === "video" || input.kind === "channel" ? "youtube" : "site";
+  const priorCount = input.source
+    ? childrenOf(index, input.source, anchorMedium).length
+    : 0;
   const willHaveAnchor =
     !!input.source &&
     (input.kind === "video" || input.kind === "article") &&
-    (anchorExists(index, input.source) ||
+    (anchorExists(index, input.source, anchorMedium) ||
       input.explicitAnchor === true ||
       priorCount + 1 >= ANCHOR_THRESHOLD);
 
@@ -209,12 +215,13 @@ export async function capture(
 
   if (input.source && (input.kind === "video" || input.kind === "article" || isAnchorKind)) {
     const explicit = input.explicitAnchor === true || isAnchorKind;
-    const already = anchorExists(index, input.source);
-    if (already || hasEarnedAnchor(index, input.source, explicit)) {
-      const kind = input.kind === "video" || input.kind === "channel" ? "youtube" : "site";
-      anchor = await regenerateAnchor(index, { kind, source: input.source }, vault);
+    const already = anchorExists(index, input.source, anchorMedium);
+    if (already || hasEarnedAnchor(index, input.source, anchorMedium, explicit)) {
+      anchor = await regenerateAnchor(index, { kind: anchorMedium, source: input.source }, vault);
       // Children already on disk are retro-linked by the regeneration itself.
-      retroLinked = anchor.created ? childrenOf(index, input.source).length - 1 : 0;
+      retroLinked = anchor.created
+        ? childrenOf(index, input.source, anchorMedium).length - 1
+        : 0;
     }
   }
 

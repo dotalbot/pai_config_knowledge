@@ -439,3 +439,33 @@
 {"ts":"2026-09-09T21:00:45.029Z","session_id":"18b96d47-5390-438a-b601-e0c21ca23cae","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"Both wikilink targets exist in the vault, confir\""}
 {"ts":"2026-09-09T21:11:44.974Z","session_id":"18b96d47-5390-438a-b601-e0c21ca23cae","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"Generation is in flight. I'll give you the conci\""}
 {"ts":"2026-09-09T21:15:14.875Z","session_id":"18b96d47-5390-438a-b601-e0c21ca23cae","decision":"pass","memoryDelta":false}
+{"ts":"2026-09-10T06:59:46.772Z","session_id":"3130a65b-6aa3-4bb2-9b07-e30540e11867","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"All 40 tests pass, regeneration is idempotent, a\""}
+{"ts":"2026-09-10T08:51:44.168Z","session_id":"3130a65b-6aa3-4bb2-9b07-e30540e11867","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"💬 **Alive.**\""}
+{"ts":"2026-09-10T09:00:54.585Z","session_id":"e7f8c43c-4714-46ae-b4e5-00a8e451d6a2","decision":"pass","memoryDelta":false}
+{"ts":"2026-09-10T09:03:03.071Z","session_id":"3130a65b-6aa3-4bb2-9b07-e30540e11867","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"✅ **Committed and pushed — 6 commits, `76b2c3b..\""}
+{"ts":"2026-09-10T09:23:13.475Z","session_id":"3130a65b-6aa3-4bb2-9b07-e30540e11867","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"📋 **Blocked — the folder isn't on this host**\""}
+{"ts":"2026-09-10T09:26:32.588Z","session_id":"3130a65b-6aa3-4bb2-9b07-e30540e11867","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"🧠 **No — and that's a real gap, not just a pref\""}
+{"ts":"2026-09-10T09:30:23.394Z","session_id":"3130a65b-6aa3-4bb2-9b07-e30540e11867","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"🧠 **Still not connected in this session — but I\""}
+{"ts":"2026-09-10T09:32:20.214Z","session_id":"3130a65b-6aa3-4bb2-9b07-e30540e11867","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"Conclusive. From `/home/jellypai` the server con\""}
+{"ts":"2026-09-10T09:42:07.905Z","session_id":"ff353f25-0be3-434d-9e1e-e46ed4ab176f","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"📅 **2026-09-10** — Resuming\""}
+{"ts":"2026-09-10T09:42:58.741Z","session_id":"ff353f25-0be3-434d-9e1e-e46ed4ab176f","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"📅 **2026-09-10** — Resuming\""}
+{"ts":"2026-09-10T09:47:46.679Z","session_id":"ff353f25-0be3-434d-9e1e-e46ed4ab176f","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"📅 **2026-09-10** — Hindsight status\""}
+{"ts":"2026-09-10T09:51:27.488Z","session_id":"f36553b8-4080-442c-959e-104ed498562c","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"Both remaining failure classes are now explained\""}
+{"ts":"2026-09-10T10:04:16.176Z","session_id":"f36553b8-4080-442c-959e-104ed498562c","decision":"pass","memoryDelta":false}
+{"ts":"2026-09-10T10:10:00.093Z","session_id":"f36553b8-4080-442c-959e-104ed498562c","decision":"flag","code":"too-many-emdashes","detail":"3 em-dashes in prose (max 2)"}
+{"ts":"2026-09-10T10:11:50.482Z","session_id":"f36553b8-4080-442c-959e-104ed498562c","decision":"pass","memoryDelta":false}
+{"ts":"2026-09-10T10:15:32.971Z","session_id":"f36553b8-4080-442c-959e-104ed498562c","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"The MOC is empty — a placeholder. The `⬆::` brea\""}
+{"ts":"2026-09-10T10:19:22.633Z","session_id":"f36553b8-4080-442c-959e-104ed498562c","decision":"pass","memoryDelta":false}
+{"ts":"2026-09-10T10:39:51.267Z","session_id":"f36553b8-4080-442c-959e-104ed498562c","decision":"flag","code":"too-many-emdashes","detail":"3 em-dashes in prose (max 2)"}
+{"ts":"2026-09-10T11:24:11.242Z","session_id":"f36553b8-4080-442c-959e-104ed498562c","decision":"pass","memoryDelta":false}
+{"ts":"2026-09-10T11:51:44.623Z","session_id":"f36553b8-4080-442c-959e-104ed498562c","decision":"flag","code":"too-many-emdashes","detail":"3 em-dashes in prose (max 2)"}
+{"ts":"2026-09-10T11:57:41.364Z","session_id":"f36553b8-4080-442c-959e-104ed498562c","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"I have the deck's spine. Slide 3 already carries\""}
+{"ts":"2026-09-10T22:19:49.560Z","session_id":"3288dbde-3703-4952-8240-8bd702fc25a1","decision":"flag","code":"too-many-emdashes","detail":"7 em-dashes in prose (max 2)"}
+{"ts":"2026-09-10T22:23:47.456Z","session_id":"3288dbde-3703-4952-8240-8bd702fc25a1","decision":"pass","memoryDelta":false}
+{"ts":"2026-09-10T22:29:53.664Z","session_id":"3288dbde-3703-4952-8240-8bd702fc25a1","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"I have enough to answer without further probing.\""}
+{"ts":"2026-09-10T22:31:45.689Z","session_id":"3288dbde-3703-4952-8240-8bd702fc25a1","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"Now I can price this exactly, using the rate alr\""}
+{"ts":"2026-09-10T22:34:45.369Z","session_id":"3288dbde-3703-4952-8240-8bd702fc25a1","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"I have to stop short of the change and report wh\""}
+{"ts":"2026-09-10T22:39:31.538Z","session_id":"3288dbde-3703-4952-8240-8bd702fc25a1","decision":"pass","memoryDelta":false}
+{"ts":"2026-09-10T22:42:59.820Z","session_id":"3288dbde-3703-4952-8240-8bd702fc25a1","decision":"pass","memoryDelta":false}
+{"ts":"2026-09-10T23:46:29.830Z","session_id":"3288dbde-3703-4952-8240-8bd702fc25a1","decision":"pass","memoryDelta":false}
+{"ts":"2026-09-10T23:54:09.169Z","session_id":"3288dbde-3703-4952-8240-8bd702fc25a1","decision":"pass","memoryDelta":false}

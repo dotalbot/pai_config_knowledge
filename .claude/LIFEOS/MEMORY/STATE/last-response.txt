@@ -1,25 +1,23 @@
 ════ LifeOS ═══════════════════════════
 
-Both done, and the deck is now 19 slides.
+Correction recorded: the outage was your controlled recreate, not a crash. I've struck that finding.
 
-**Words** — slide 15, "OUR WAYS OF WORKING", the concise definition. Also added to the top of the vault note.
+**Artifacts deleted and verified.** The document removed cleanly along with 7 associated memory units; the page removed via the nodes endpoint. Re-read from disk: 37 documents with no retest marker, tree back to exactly 7 pages, neither the page id nor its title present anywhere in the tree JSON.
 
-**Visual** — slide 16, full-bleed sketchnote at 1672x941 (ratio 1.777, exactly 16:9), rendered edge to edge with nothing clipped. Source PNG in `BoardVisuals/ways-of-working.png`.
+**Concurrency raise is working.** Since the new StartedAt of 23:44:38 there are **23 requests, zero errors**, all on DeepSeek. Two `consolidation` calls succeeded at 111s and 34s, which is the scope that was failing pre-cutover. Several `reflect_tool_call` batches ran genuinely in parallel (four starting at 23:48 within 28 seconds of each other), so the raise from 1 to 2 is visibly taking effect. Reflect via MCP still exceeded the 120s client budget, but the direct call returned 200 in 45s and the server-side calls all succeeded.
 
-**The how, which was your real ask.** The infographic runs the principle through each agenda item with one concrete step: **Teams** gets three spaces agreed and no new ones; **Ceremonies** gets three ToRs, one page each; **the Board** gets six changes, not 776. The monthly loop is drawn as a loop because removing things is the point, and the first session cuts one thing together.
+**gitlog reprocess still does not complete.** The original job `fe7231fe` remains `pending` with its child at `processing`, untouched since 23:27:26. A fresh job `0070dc9c` submitted after the restart sat at `pending` for nine minutes then went to `cancelled` at 23:52:13, with `error_message: null` and no LLM call attributable to it. `gitlog:.claude` is unchanged: `updated_at` still `2026-09-10T10:10:40.638392+00:00`, 32 units, 72,302 chars.
 
-The burden answer is a module of its own: one page to read, one agenda to write, no new tools, no new approvals, nothing else changes this week.
+So the token-cap rejection is genuinely gone, but reprocess jobs are not reaching the document. `sync_status` now reports `activeOps: 10` and `synced: false`, so there is a queue backlog worth watching as it drains.
 
 🔧 CHANGE:
 
-- Deck 18 → 19 slides: definition slide + full-bleed infographic
-- New: `BoardVisuals/blueprint-3-ways-of-working.md`, `ways-of-working.png`, `prompt3.txt`
-- Vault note: concise version added at top
+- Deleted document `hindsight-post-cutover-retest-marker-2026-09-10t23-40z` and page `kp-6ecca4a866cc4a68b97d00eaa25b7be9`.
+
+- Submitted one fresh reprocess of `gitlog:.claude`; it self-cancelled and wrote nothing.
+
+- No routing altered.
 
 ✅ VERIFY:
 
-- PNG header reads 1672x941, ratio 1.777
-- Slide inventory confirms picture on 16, definition on 15
-- Both pages rendered and visually checked
-
-🗣️ JellyPai: Words and picture, both on the slide.
+- Both deletions confirmed by re-reading the document list and knowledge tree, not by trusting 
