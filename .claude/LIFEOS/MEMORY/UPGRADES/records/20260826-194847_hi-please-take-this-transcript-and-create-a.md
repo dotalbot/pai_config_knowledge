@@ -1,7 +1,7 @@
 ---
 id: 20260826-194847_hi-please-take-this-transcript-and-create-a
 slug: hi-please-take-this-transcript-and-create-a
-status: recommended
+status: rejected
 source: directive
 created: 2026-08-26T19:48:47.781Z
 expires: 2026-09-25T19:48:47.781Z
@@ -44,3 +44,4 @@ Stated by the principal in-session; not yet encoded in infrastructure.
 ## Notes
 
 - 2026-08-26T19:48:47.781Z — created (source: directive)
+- 2026-09-11T21:08:23.615Z — rejected

@@ -1,7 +1,7 @@
 ---
 id: 20260827-151950_yes-please-additionally-how-do-we-review-the
 slug: yes-please-additionally-how-do-we-review-the
-status: recommended
+status: rejected
 source: directive
 created: 2026-08-27T15:19:50.547Z
 expires: 2026-09-26T15:19:50.547Z
@@ -28,3 +28,4 @@ Stated by the principal in-session; not yet encoded in infrastructure.
 ## Notes
 
 - 2026-08-27T15:19:50.547Z — created (source: directive)
+- 2026-09-11T21:08:23.592Z — rejected

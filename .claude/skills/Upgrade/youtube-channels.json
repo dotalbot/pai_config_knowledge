@@ -1,0 +1,30 @@
+{
+  "channels": [
+    {
+      "url": "https://www.youtube.com/@anthropic-ai",
+      "name": "Anthropic",
+      "why": "Official Anthropic channel \u2014 Claude releases, research talks, demos (handle corrected 2026-09-11; @AnthropicAI returns nothing)"
+    },
+    {
+      "url": "https://www.youtube.com/@aiexplained-official",
+      "name": "AI Explained",
+      "why": "High-quality technical breakdowns of model releases and AI research"
+    },
+    {
+      "url": "https://www.youtube.com/@matthew_berman",
+      "name": "Matthew Berman",
+      "why": "Claude Code, agent workflows, practical AI tooling demos"
+    },
+    {
+      "url": "https://www.youtube.com/@developersdigest",
+      "name": "Developers Digest",
+      "why": "Claude Code tutorials, MCP, agent building patterns"
+    },
+    {
+      "url": "https://www.youtube.com/@IndyDevDan",
+      "name": "IndyDevDan",
+      "why": "Claude Code power-user workflows, PAI-adjacent patterns"
+    }
+  ],
+  "_note": "Trimmed 2026-09-11 from 13 to 5 on-stack channels to fit the ~4min fail-open deadline. Full 13-channel list preserved at LIFEOS/RETIRED/PAIUpgrade/youtube-channels.json."
+}

@@ -1,7 +1,7 @@
 ---
 id: 20260829-173931_i-am-working-on-the-conveyordesk-and-hermes
 slug: i-am-working-on-the-conveyordesk-and-hermes
-status: recommended
+status: rejected
 source: directive
 created: 2026-08-29T17:39:31.580Z
 expires: 2026-09-28T17:39:31.580Z
@@ -50,3 +50,4 @@ Stated by the principal in-session; not yet encoded in infrastructure.
 ## Notes
 
 - 2026-08-29T17:39:31.580Z — created (source: directive)
+- 2026-09-11T21:08:23.566Z — rejected

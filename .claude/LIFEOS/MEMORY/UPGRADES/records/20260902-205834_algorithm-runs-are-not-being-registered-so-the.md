@@ -1,7 +1,7 @@
 ---
 id: 20260902-205834_algorithm-runs-are-not-being-registered-so-the
 slug: algorithm-runs-are-not-being-registered-so-the
-status: recommended
+status: rejected
 source: upgrade-skill
 created: 2026-09-02T20:58:34.034Z
 expires: 2026-10-02T20:58:34.034Z
@@ -28,3 +28,4 @@ BEHAVIOURAL, not code. The DA must run the Algorithm loop for substantial work a
 ## Notes
 
 - 2026-09-02T20:58:34.034Z — created (source: upgrade-skill)
+- 2026-09-11T21:26:21.102Z — rejected

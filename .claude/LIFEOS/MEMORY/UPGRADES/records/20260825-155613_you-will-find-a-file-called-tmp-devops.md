@@ -1,7 +1,7 @@
 ---
 id: 20260825-155613_you-will-find-a-file-called-tmp-devops
 slug: you-will-find-a-file-called-tmp-devops
-status: recommended
+status: rejected
 source: directive
 created: 2026-08-25T15:56:13.934Z
 expires: 2026-09-24T15:56:13.934Z
@@ -28,3 +28,4 @@ Stated by the principal in-session; not yet encoded in infrastructure.
 ## Notes
 
 - 2026-08-25T15:56:13.934Z — created (source: directive)
+- 2026-09-11T21:08:23.661Z — rejected

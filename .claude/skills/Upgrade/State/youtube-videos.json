@@ -1,0 +1,186 @@
+{
+ "last_updated": "2026-09-11",
+ "_note": "seen = surfaced in a listing and triaged by title; processed = transcript extracted and assessed. A skipped entry carries its reason in `triage` so a later run does not re-triage it blind.",
+ "seen_videos": [
+  {
+   "id": "ROF2Nv_KjOM",
+   "title": "Introducing Claude Fable 5.1",
+   "channel": "Anthropic",
+   "url": "https://www.youtube.com/watch?v=ROF2Nv_KjOM",
+   "seen": "2026-09-11",
+   "processed": false,
+   "triage": "skipped: model-release news or commentary, no extractable technique (SKILL.md 'skip boldly')"
+  },
+  {
+   "id": "UxJZrCFzTHY",
+   "title": "Model Hardware Standard: AI operating physical equipment",
+   "channel": "Anthropic",
+   "url": "https://www.youtube.com/watch?v=UxJZrCFzTHY",
+   "seen": "2026-09-11",
+   "processed": false,
+   "triage": "skipped: model-release news or commentary, no extractable technique (SKILL.md 'skip boldly')"
+  },
+  {
+   "id": "P1zBiAQU1IA",
+   "title": "AI models can now help run physical science experiments",
+   "channel": "Anthropic",
+   "url": "https://www.youtube.com/watch?v=P1zBiAQU1IA",
+   "seen": "2026-09-11",
+   "processed": false,
+   "triage": "skipped: model-release news or commentary, no extractable technique (SKILL.md 'skip boldly')"
+  },
+  {
+   "id": "iF5IWjOWcA4",
+   "title": "How Icelanders are thinking about AI",
+   "channel": "Anthropic",
+   "url": "https://www.youtube.com/watch?v=iF5IWjOWcA4",
+   "seen": "2026-09-11",
+   "processed": false,
+   "triage": "skipped: model-release news or commentary, no extractable technique (SKILL.md 'skip boldly')"
+  },
+  {
+   "id": "Spuza-KwTJ4",
+   "title": "GPT 6 Astra, so good even OpenAI are worried",
+   "channel": "AI Explained",
+   "url": "https://www.youtube.com/watch?v=Spuza-KwTJ4",
+   "seen": "2026-09-11",
+   "processed": false,
+   "triage": "skipped: model-release news or commentary, no extractable technique (SKILL.md 'skip boldly')"
+  },
+  {
+   "id": "KL9_1GbmCic",
+   "title": "Sam Altman :\u2018AGI in 2026\u2019, just as Models Start to [Mis]Train Themselves",
+   "channel": "AI Explained",
+   "url": "https://www.youtube.com/watch?v=KL9_1GbmCic",
+   "seen": "2026-09-11",
+   "processed": false,
+   "triage": "skipped: model-release news or commentary, no extractable technique (SKILL.md 'skip boldly')"
+  },
+  {
+   "id": "xGzseSSStnw",
+   "title": "AI is getting a little out of control",
+   "channel": "AI Explained",
+   "url": "https://www.youtube.com/watch?v=xGzseSSStnw",
+   "seen": "2026-09-11",
+   "processed": false,
+   "triage": "skipped: model-release news or commentary, no extractable technique (SKILL.md 'skip boldly')"
+  },
+  {
+   "id": "wzY2fV4Mp3U",
+   "title": "GPT-6 Goes Rogue? The HuggingFace Incident, Sans Hype",
+   "channel": "AI Explained",
+   "url": "https://www.youtube.com/watch?v=wzY2fV4Mp3U",
+   "seen": "2026-09-11",
+   "processed": false,
+   "triage": "skipped: model-release news or commentary, no extractable technique (SKILL.md 'skip boldly')"
+  },
+  {
+   "id": "U-rsvXds9ck",
+   "title": "Deepseek did it again...",
+   "channel": "Matthew Berman",
+   "url": "https://www.youtube.com/watch?v=U-rsvXds9ck",
+   "seen": "2026-09-11",
+   "processed": false,
+   "triage": "skipped: model-release news or commentary, no extractable technique (SKILL.md 'skip boldly')"
+  },
+  {
+   "id": "jQIeVznGG3k",
+   "title": "We need to talk about this...",
+   "channel": "Matthew Berman",
+   "url": "https://www.youtube.com/watch?v=jQIeVznGG3k",
+   "seen": "2026-09-11",
+   "processed": false,
+   "triage": "skipped: model-release news or commentary, no extractable technique (SKILL.md 'skip boldly')"
+  },
+  {
+   "id": "e7t9HU2Z6t8",
+   "title": "We need to talk about this...",
+   "channel": "Matthew Berman",
+   "url": "https://www.youtube.com/watch?v=e7t9HU2Z6t8",
+   "seen": "2026-09-11",
+   "processed": false,
+   "triage": "skipped: model-release news or commentary, no extractable technique (SKILL.md 'skip boldly')"
+  },
+  {
+   "id": "ZTgFyP0PZJo",
+   "title": "I've had early access to Astra... it's INSANE",
+   "channel": "Matthew Berman",
+   "url": "https://www.youtube.com/watch?v=ZTgFyP0PZJo",
+   "seen": "2026-09-11",
+   "processed": false,
+   "triage": "skipped: model-release news or commentary, no extractable technique (SKILL.md 'skip boldly')"
+  },
+  {
+   "id": "lLDFW9cjSsI",
+   "title": "GPT-6 In 7 Minutes",
+   "channel": "Developers Digest",
+   "url": "https://www.youtube.com/watch?v=lLDFW9cjSsI",
+   "seen": "2026-09-11",
+   "processed": false,
+   "triage": "skipped: model-release news or commentary, no extractable technique (SKILL.md 'skip boldly')"
+  },
+  {
+   "id": "kGOIQ2b8Myg",
+   "title": "Generate Videos in Codex + Claude Code with This...",
+   "channel": "Developers Digest",
+   "url": "https://www.youtube.com/watch?v=kGOIQ2b8Myg",
+   "seen": "2026-09-11",
+   "processed": true,
+   "triage": "transcript extracted and assessed"
+  },
+  {
+   "id": "c8BMPPaw5g4",
+   "title": "Claude Fable 5.1 in 9 Minutes",
+   "channel": "Developers Digest",
+   "url": "https://www.youtube.com/watch?v=c8BMPPaw5g4",
+   "seen": "2026-09-11",
+   "processed": true,
+   "triage": "transcript extracted and assessed"
+  },
+  {
+   "id": "xOC9PQmpcyU",
+   "title": "I Gave My Agents a Voice\u2026 And It\u2019s Wildly Useful",
+   "channel": "Developers Digest",
+   "url": "https://www.youtube.com/watch?v=xOC9PQmpcyU",
+   "seen": "2026-09-11",
+   "processed": true,
+   "triage": "transcript extracted and assessed"
+  },
+  {
+   "id": "S2sjyokoxeE",
+   "title": "Are Agent Swarms USEFUL? OpenAI\u2019s GPT-6 Astra SWARM Takeaways",
+   "channel": "IndyDevDan",
+   "url": "https://www.youtube.com/watch?v=S2sjyokoxeE",
+   "seen": "2026-09-11",
+   "processed": true,
+   "triage": "transcript extracted and assessed"
+  },
+  {
+   "id": "rPWCYB62wvI",
+   "title": "Agentic Engineering Operating Level: WHERE to FOCUS your AGENTS?",
+   "channel": "IndyDevDan",
+   "url": "https://www.youtube.com/watch?v=rPWCYB62wvI",
+   "seen": "2026-09-11",
+   "processed": true,
+   "triage": "transcript extracted and assessed"
+  },
+  {
+   "id": "rqZHR-hRllI",
+   "title": "Intelligence EXPLOSION: Harness Engineering with Pi Agent, Deepseek, and Gemini",
+   "channel": "IndyDevDan",
+   "url": "https://www.youtube.com/watch?v=rqZHR-hRllI",
+   "seen": "2026-09-11",
+   "processed": true,
+   "triage": "transcript extracted and assessed"
+  },
+  {
+   "id": "S_QdQ1G4GlU",
+   "title": "FIXING Opus 5: PROOF that Prompt Engineering IS NOT DEAD",
+   "channel": "IndyDevDan",
+   "url": "https://www.youtube.com/watch?v=S_QdQ1G4GlU",
+   "seen": "2026-09-11",
+   "processed": true,
+   "triage": "transcript extracted and assessed"
+  }
+ ]
+}

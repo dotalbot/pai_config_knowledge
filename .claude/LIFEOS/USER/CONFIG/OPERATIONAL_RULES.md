@@ -49,6 +49,23 @@
   - When Dom says "extract from youtube" without qualifying, produce the capture
     format. Process only on request, or when the material earns a write-up.
 
+## Multi-model work — alias the models
+
+When several DISTINCT models collaborate, debate, or review each other's output
+(Council, the research fan-out, cross-vendor audits), give each an opaque
+codename and never reveal the real model name to the other models. Reported
+effect otherwise is competitive or sabotaging behaviour once a model works out
+who it is arguing with.
+
+- Applies only to model-to-model exposure. Naming the provider to ME, to you, or
+  in the report is fine and stays required for evidence — `OPERATIONAL_RULES`
+  § Research fan-out roster depends on knowing which leg produced what.
+- Added 2026-09-11 from IndyDevDan ("you can never reveal the name of the model
+  to the other model, otherwise they'll start emitting weird behavior"). This is
+  one practitioner's observation with no mechanism offered, so treat it as a
+  cheap precaution rather than settled fact. If a debate is visibly unaffected
+  by de-aliasing, say so and this rule can go.
+
 ## Research fan-out roster
 
 Verified 2026-08-23 by running all four legs on one brief. The Research skill's

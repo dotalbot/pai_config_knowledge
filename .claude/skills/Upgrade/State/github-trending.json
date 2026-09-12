@@ -1,0 +1,54 @@
+{
+ "last_updated": "2026-09-11",
+ "seen_repos": [
+  {
+   "name": "Nanako0129/sepia",
+   "stars": 2553,
+   "url": "https://github.com/Nanako0129/sepia",
+   "query": "claude-code",
+   "seen": "2026-09-11"
+  },
+  {
+   "name": "nateherkai/scroll-craft",
+   "stars": 2337,
+   "url": "https://github.com/nateherkai/scroll-craft",
+   "query": "claude-code",
+   "seen": "2026-09-11"
+  },
+  {
+   "name": "cbrock84/headcount",
+   "stars": 1356,
+   "url": "https://github.com/cbrock84/headcount",
+   "query": "claude-code",
+   "seen": "2026-09-11"
+  },
+  {
+   "name": "DEEP-JLU/Awesome-Graph-Engineering",
+   "stars": 317,
+   "url": "https://github.com/DEEP-JLU/Awesome-Graph-Engineering",
+   "query": "context-eng",
+   "seen": "2026-09-11"
+  },
+  {
+   "name": "Dominic789654/awesome-deepseek-harness",
+   "stars": 238,
+   "url": "https://github.com/Dominic789654/awesome-deepseek-harness",
+   "query": "agent-harness",
+   "seen": "2026-09-11"
+  },
+  {
+   "name": "toolclub/dsh-agent-team-gui",
+   "stars": 175,
+   "url": "https://github.com/toolclub/dsh-agent-team-gui",
+   "query": "agent-harness",
+   "seen": "2026-09-11"
+  },
+  {
+   "name": "ZSeven-W/dsh-crew",
+   "stars": 142,
+   "url": "https://github.com/ZSeven-W/dsh-crew",
+   "query": "agent-harness",
+   "seen": "2026-09-11"
+  }
+ ]
+}

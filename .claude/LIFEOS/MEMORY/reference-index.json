@@ -1,7 +1,27 @@
 {
   "version": 1,
-  "updated": "2026-09-10T06:59:03.042Z",
+  "updated": "2026-09-11T14:30:35.366Z",
   "entries": [
+    {
+      "path": "Reference/YouTube/How To Make People Feel Seen - Simon Sinek.md",
+      "title": "How To Make People Feel Seen | Simon Sinek",
+      "kind": "video",
+      "medium": "youtube",
+      "url": "https://youtu.be/g6sDRbo4S6g",
+      "author": "Simon Sinek",
+      "source": "Simon Sinek",
+      "tags": [
+        "leadership",
+        "communication",
+        "feedback",
+        "management",
+        "culture",
+        "psychology"
+      ],
+      "summary": "Sinek argues there is no single technique for making people feel seen — it is a list of practices you have to do all of, like exercise, with no particular order. The central claim is that most managers give feedback in the form they themselves prefer to receive it, which is why it lands badly; the fix is simply to ask the person how they want to hear it. He illustrates this with a feedback conversation of his own that devolved into a shouting match, and was solved when the employee said she only needed advance warning. Underneath it is a definition of management as a job whose purpose is to help the people who work for you operate at their natural best.",
+      "captured": "2026-09-11",
+      "status": "captured"
+    },
     {
       "path": "Reference/Sites/Vicky Zhao.md",
       "title": "Vicky Zhao",

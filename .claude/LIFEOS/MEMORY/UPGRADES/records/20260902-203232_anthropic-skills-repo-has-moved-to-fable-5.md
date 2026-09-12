@@ -1,7 +1,7 @@
 ---
 id: 20260902-203232_anthropic-skills-repo-has-moved-to-fable-5
 slug: anthropic-skills-repo-has-moved-to-fable-5
-status: recommended
+status: rejected
 source: upgrade-skill
 created: 2026-09-02T20:32:32.984Z
 expires: 2026-10-02T20:32:32.984Z
@@ -28,3 +28,4 @@ Verify whether claude-fable-5-1 (or similar) is a live ID via the models overvie
 ## Notes
 
 - 2026-09-02T20:32:32.984Z — created (source: upgrade-skill)
+- 2026-09-11T21:28:07.465Z — rejected

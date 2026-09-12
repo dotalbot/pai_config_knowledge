@@ -1,0 +1,15 @@
+{
+  "_note": "Created 2026-09-11. github_trending requires an authenticated gh CLI (gh auth login) or GH_TOKEN in ~/.claude/.env. Every query carries a free-text term — a bare OR between qualifiers 422s (see SKILL.md gotchas).",
+  "github_trending": {
+    "enabled": true,
+    "min_stars": 50,
+    "window_days": 30,
+    "per_page": 3,
+    "queries": [
+      { "key": "claude-code",   "q": "claude code agent skills",   "why": "Harness patterns directly adjacent to LifeOS" },
+      { "key": "agent-harness", "q": "agent harness orchestration", "why": "Multi-agent execution patterns" },
+      { "key": "context-eng",   "q": "context engineering prompt",  "why": "Prompting and context techniques" }
+    ]
+  },
+  "custom_sources": []
+}

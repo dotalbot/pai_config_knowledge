@@ -53,6 +53,7 @@ import { check as communicationSkillGuard } from "./CommunicationSkillGuard.hook
 import { check as egressClassGuard } from "./EgressClassGuard.hook";
 import { check as publicPushGate } from "./PublicPushGate.hook";
 import { check as voiceEgressGuard } from "./VoiceEgressGuard.hook";
+import { check as learningQualityGate } from "./LearningQualityGate.hook";
 
 type BlockResult = { block: true; message: string } | null;
 type GuardCheck = (input: any) => BlockResult;
@@ -104,7 +105,15 @@ function main(): never {
   // Route to the guard(s) for this tool, in the pre-merge order.
   const checks: Array<[string, GuardCheck]> =
     tool === "Write" || tool === "Edit" || tool === "MultiEdit"
-      ? [["SystemFileGuard", systemFileGuard], ["ISAStaleWriteGuard", isaStaleWriteGuard]]
+      ? [
+          ["SystemFileGuard", systemFileGuard],
+          ["ISAStaleWriteGuard", isaStaleWriteGuard],
+          // 2026-09-11: the learning corpus grew while its signal fell — 113 of
+          // 136 captures had fired on the bare word "actually". Junk in
+          // MEMORY/LEARNING is silent: counts rise, nothing errors, and the
+          // synthesis tools downstream average over noise.
+          ["LearningQualityGate", learningQualityGate],
+        ]
       : tool === "Bash"
         ? [
             ["PlutilExtractGuard", plutilExtractGuard],

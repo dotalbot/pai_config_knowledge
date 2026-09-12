@@ -1,23 +1,19 @@
 ════ LifeOS ═══════════════════════════
 
-Correction recorded: the outage was your controlled recreate, not a crash. I've struck that finding.
+Scheduled durably, not in session memory. Session cron would have died when this conversation ends, which is exactly the wrong mechanism for a seven-day question.
 
-**Artifacts deleted and verified.** The document removed cleanly along with 7 associated memory units; the page removed via the nodes endpoint. Re-read from disk: 37 documents with no retest marker, tree back to exactly 7 pages, neither the page id nor its title present anywhere in the tree JSON.
+`ReflectionCorpusCheck.sh` fires from your real crontab at 09:23 on Thursday the 18th. It compares against today's baseline of 8 entries and 1 schema-9, then writes a verdict to `MEMORY/STATE/reflection-corpus-check.md`: **working** at 5+ new, **partial** at 1 to 4, **failed** at zero.
 
-**Concurrency raise is working.** Since the new StartedAt of 23:44:38 there are **23 requests, zero errors**, all on DeepSeek. Two `consolidation` calls succeeded at 111s and 34s, which is the scope that was failing pre-cutover. Several `reflect_tool_call` batches ran genuinely in parallel (four starting at 23:48 within 28 seconds of each other), so the raise from 1 to 2 is visibly taking effect. Reflect via MCP still exceeded the 120s client budget, but the direct call returned 200 in 45s and the server-side calls all succeeded.
+The failure branch says plainly that zero new entries means the gate is not firing as designed, and that this *is* the finding — with an explicit instruction not to paper over it with a fourth workaround. Today's dry run correctly reports +0 against its own baseline, which is how I know the arithmetic works.
 
-**gitlog reprocess still does not complete.** The original job `fe7231fe` remains `pending` with its child at `processing`, untouched since 23:27:26. A fresh job `0070dc9c` submitted after the restart sat at `pending` for nine minutes then went to `cancelled` at 23:52:13, with `error_message: null` and no LLM call attributable to it. `gitlog:.claude` is unchanged: `updated_at` still `2026-09-10T10:10:40.638392+00:00`, 32 units, 72,302 chars.
-
-So the token-cap rejection is genuinely gone, but reprocess jobs are not reaching the document. `sync_status` now reports `activeOps: 10` and `synced: false`, so there is a queue backlog worth watching as it drains.
+It's also recorded in `PROJECTS.md` as a dated open ask, so it surfaces conversationally rather than only in a log file nobody opens.
 
 🔧 CHANGE:
 
-- Deleted document `hindsight-post-cutover-retest-marker-2026-09-10t23-40z` and page `kp-6ecca4a866cc4a68b97d00eaa25b7be9`.
-
-- Submitted one fresh reprocess of `gitlog:.claude`; it self-cancelled and wrote nothing.
-
-- No routing altered.
+- `ReflectionCorpusCheck.sh` + crontab entry · `PROJECTS.md` open ask · pushed
 
 ✅ VERIFY:
 
-- Both deletions confirmed by re-reading the document list and knowledge tree, not by trusting 
+- Dry run produces the correct verdict; crontab entry confirmed installed
+
+🗣️ JellyPai: I'll raise it on the 18th either way, including if the answer is that it didn't work.

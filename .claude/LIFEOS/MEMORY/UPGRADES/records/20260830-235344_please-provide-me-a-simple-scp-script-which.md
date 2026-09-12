@@ -1,7 +1,7 @@
 ---
 id: 20260830-235344_please-provide-me-a-simple-scp-script-which
 slug: please-provide-me-a-simple-scp-script-which
-status: recommended
+status: rejected
 source: directive
 created: 2026-08-30T23:53:44.374Z
 expires: 2026-09-29T23:53:44.374Z
@@ -28,3 +28,4 @@ Stated by the principal in-session; not yet encoded in infrastructure.
 ## Notes
 
 - 2026-08-30T23:53:44.374Z — created (source: directive)
+- 2026-09-11T21:08:23.520Z — rejected

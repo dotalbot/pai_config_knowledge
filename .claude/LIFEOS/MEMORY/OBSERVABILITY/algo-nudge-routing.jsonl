@@ -45,3 +45,4 @@
 {"ts":"2026-09-10T10:13:57.857Z","session":"f36553b8","prompt_head":"Summary is fine, but remember we save all meetings, creating links, insigths etc","fired":["ContextSearch:remember","Cortex:remember"]}
 {"ts":"2026-09-10T11:36:16.961Z","session":"f36553b8","prompt_head":"I am going to paste some text, please consider and save it in the right place in","fired":["Telos:executive summary","Cortex:knowledge graph","Knowledge:knowledge graph"]}
 {"ts":"2026-09-10T23:25:31.946Z","session":"3288dbde","prompt_head":"Hermes has completed the Hindsight quality-first cutover on jellyhome. Live Hind","fired":["ContextSearch:recall","Cortex:recall"]}
+{"ts":"2026-09-11T20:40:53.328Z","session":"67c1d6a5","prompt_head":"yes, diagnose the capture quality problem and address this with a hook","fired":["Capture:capture"]}

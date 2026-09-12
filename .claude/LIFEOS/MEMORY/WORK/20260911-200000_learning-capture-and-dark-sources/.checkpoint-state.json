@@ -1,0 +1,21 @@
+{
+  "committed_iscs": [
+    "ISC-1",
+    "ISC-2",
+    "ISC-3",
+    "ISC-4",
+    "ISC-5",
+    "ISC-6",
+    "ISC-7",
+    "ISC-8",
+    "ISC-9",
+    "ISC-10",
+    "ISC-11",
+    "ISC-12",
+    "ISC-13",
+    "ISC-14"
+  ],
+  "last_commit_sha": {
+    "/home/jellypai/.claude": "9f6c56761104232b6fc50454d75131e3db78f263"
+  }
+}

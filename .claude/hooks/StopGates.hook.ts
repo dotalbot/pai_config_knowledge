@@ -34,6 +34,7 @@ import { run as isaFoldGate } from "./ISAFoldGate.hook";
 import { run as isaStructureGate } from "./ISAGate.hook";
 import { run as writingGate } from "./WritingGate.hook";
 import { run as deployRegistrationGate } from "./DeployRegistrationGate.hook";
+import { run as reflectionGate } from "./ReflectionGate.hook";
 
 type GateFn = (input: any) => Promise<object | null>;
 
@@ -64,6 +65,12 @@ const GATES: Array<[string, GateFn]> = [
   // curated inventory before the turn ends. Fires once per domain per session.
   ["DeployRegistrationGate", deployRegistrationGate],
   ["WritingGate", writingGate],
+  // ReflectionGate (2026-09-11): the learn step's missing closer. Reflect.ts had
+  // no automated caller and AlgorithmNudge's reminder is ISA-gated, so the
+  // corpus went dead 2026-06-12 and nothing noticed for three months. Fires
+  // once per session on a completion claim that did real work and wrote no
+  // reflection. Last in order: every other gate's fix outranks the learn step.
+  ["ReflectionGate", reflectionGate],
 ];
 
 (async () => {

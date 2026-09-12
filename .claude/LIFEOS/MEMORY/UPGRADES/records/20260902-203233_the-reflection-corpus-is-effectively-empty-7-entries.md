@@ -1,7 +1,7 @@
 ---
 id: 20260902-203233_the-reflection-corpus-is-effectively-empty-7-entries
 slug: the-reflection-corpus-is-effectively-empty-7-entries
-status: recommended
+status: rejected
 source: upgrade-skill
 created: 2026-09-02T20:32:33.008Z
 expires: 2026-10-02T20:32:33.008Z
@@ -28,3 +28,4 @@ Find out why reflections are not being written; the MineReflections half of ever
 ## Notes
 
 - 2026-09-02T20:32:33.008Z — created (source: upgrade-skill)
+- 2026-09-11T21:26:21.129Z — rejected

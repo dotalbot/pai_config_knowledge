@@ -42,6 +42,26 @@ description: Prompt engineering standards based on Anthropic's Claude 4.x best p
 - **Change:** "CRITICAL: You MUST use this tool" → "Use this tool when..."
 - **Softer framing:** Reduces excessive tool invocation
 
+### Pinned flags vs `--help` discovery (2026-09-11)
+
+The **tool-contracts keep-class** (system prompt § Ideal-State Prompting) protects
+exact CLI syntax from being cut as scaffolding, and it still governs. This refines
+WHICH tools earn a pinned contract — it does not license removing one.
+
+- **Pin the contract** for stable interfaces, anything with a destructive or
+  irreversible flag, and every deterministic recipe where a wrong guess costs
+  real work. A pinned contract is also the only way a verified gotcha survives.
+- **Instruct `<tool> --help` discovery** for a NEW or fast-moving third-party CLI
+  whose flags will rot faster than the skill file gets maintained. Say what the
+  tool is FOR and let the agent read its own interface.
+- The test is not "would a smarter model work it out" (it would, either way) but
+  **what a wrong guess costs**. Cheap and self-correcting → discovery. Expensive,
+  destructive, or silently wrong → pin it.
+
+Source: Developers Digest, "run the dash-dash help command to learn how to use
+it" — self-documenting CLIs as the integration surface. Adopted narrowly; the
+keep-class remains the default and discovery is the exception.
+
 ## Extended Thinking Sensitivity
 
 When extended thinking is disabled:

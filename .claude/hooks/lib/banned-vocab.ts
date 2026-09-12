@@ -2,6 +2,16 @@ const BOUNDARY_PREFIX_RE = /^[A-Za-z0-9]/;
 const BOUNDARY_SUFFIX_RE = /[A-Za-z0-9]$/;
 
 export const BANNED_VOCAB: readonly string[] = [
+  // Opus 5 verbal tics (added 2026-09-11). The list above is generic AI-writing
+  // vocabulary; these are specific to the model this system runs on, and a
+  // structural check (banner/closer/em-dash count) cannot catch them. Sourced
+  // from IndyDevDan's "FIXING Opus 5" and confirmed by grepping this repo's own
+  // prose, where "load-bearing" recurs. Kept deliberately short — an overlong
+  // list starts flagging legitimate usage.
+  "load-bearing",
+  "worth stating plainly",
+  "here's the honest truth",
+  "the honest truth is",
   "delve",
   "leverage",
   "harness",

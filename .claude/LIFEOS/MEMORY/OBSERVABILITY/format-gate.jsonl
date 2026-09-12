@@ -469,3 +469,29 @@
 {"ts":"2026-09-10T22:42:59.820Z","session_id":"3288dbde-3703-4952-8240-8bd702fc25a1","decision":"pass","memoryDelta":false}
 {"ts":"2026-09-10T23:46:29.830Z","session_id":"3288dbde-3703-4952-8240-8bd702fc25a1","decision":"pass","memoryDelta":false}
 {"ts":"2026-09-10T23:54:09.169Z","session_id":"3288dbde-3703-4952-8240-8bd702fc25a1","decision":"pass","memoryDelta":false}
+{"ts":"2026-09-11T14:05:53.635Z","session_id":"67c1d6a5-2938-4a99-9961-afec39409b2f","decision":"flag","code":"too-many-emdashes","detail":"5 em-dashes in prose (max 2)"}
+{"ts":"2026-09-11T14:30:49.423Z","session_id":"67c1d6a5-2938-4a99-9961-afec39409b2f","decision":"pass","memoryDelta":false}
+{"ts":"2026-09-11T14:57:43.617Z","session_id":"67c1d6a5-2938-4a99-9961-afec39409b2f","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"`diagram-design` is **not** installed and isn't \""}
+{"ts":"2026-09-11T14:57:58.557Z","session_id":"67c1d6a5-2938-4a99-9961-afec39409b2f","decision":"pass","memoryDelta":false}
+{"ts":"2026-09-11T15:01:28.087Z","session_id":"67c1d6a5-2938-4a99-9961-afec39409b2f","decision":"flag","code":"too-many-emdashes","detail":"3 em-dashes in prose (max 2)"}
+{"ts":"2026-09-11T20:12:31.961Z","session_id":"67c1d6a5-2938-4a99-9961-afec39409b2f","decision":"flag","code":"too-many-emdashes","detail":"4 em-dashes in prose (max 2)"}
+{"ts":"2026-09-11T20:18:49.261Z","session_id":"67c1d6a5-2938-4a99-9961-afec39409b2f","decision":"flag","code":"too-many-emdashes","detail":"4 em-dashes in prose (max 2)"}
+{"ts":"2026-09-11T20:25:19.375Z","session_id":"67c1d6a5-2938-4a99-9961-afec39409b2f","decision":"pass","memoryDelta":false}
+{"ts":"2026-09-11T20:29:44.855Z","session_id":"67c1d6a5-2938-4a99-9961-afec39409b2f","decision":"pass","memoryDelta":false}
+{"ts":"2026-09-11T20:32:11.938Z","session_id":"67c1d6a5-2938-4a99-9961-afec39409b2f","decision":"flag","code":"too-many-emdashes","detail":"3 em-dashes in prose (max 2)"}
+{"ts":"2026-09-11T20:34:37.573Z","session_id":"67c1d6a5-2938-4a99-9961-afec39409b2f","decision":"pass","memoryDelta":false}
+{"ts":"2026-09-11T20:37:32.581Z","session_id":"67c1d6a5-2938-4a99-9961-afec39409b2f","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"Now I can answer concretely. 113 of 136 captures\""}
+{"ts":"2026-09-11T20:55:19.557Z","session_id":"67c1d6a5-2938-4a99-9961-afec39409b2f","decision":"pass","memoryDelta":false}
+{"ts":"2026-09-11T20:59:25.276Z","session_id":"67c1d6a5-2938-4a99-9961-afec39409b2f","decision":"pass","memoryDelta":false}
+{"ts":"2026-09-11T21:03:27.394Z","session_id":"67c1d6a5-2938-4a99-9961-afec39409b2f","decision":"pass","memoryDelta":false}
+{"ts":"2026-09-11T21:09:13.219Z","session_id":"67c1d6a5-2938-4a99-9961-afec39409b2f","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"That settles it — both seen-state files are empt\""}
+{"ts":"2026-09-11T21:14:19.342Z","session_id":"67c1d6a5-2938-4a99-9961-afec39409b2f","decision":"pass","memoryDelta":false}
+{"ts":"2026-09-11T21:16:07.988Z","session_id":"67c1d6a5-2938-4a99-9961-afec39409b2f","decision":"pass","memoryDelta":false}
+{"ts":"2026-09-11T21:18:51.237Z","session_id":"67c1d6a5-2938-4a99-9961-afec39409b2f","decision":"pass","memoryDelta":false}
+{"ts":"2026-09-11T21:21:50.062Z","session_id":"67c1d6a5-2938-4a99-9961-afec39409b2f","decision":"pass","memoryDelta":false}
+{"ts":"2026-09-11T21:25:22.986Z","session_id":"67c1d6a5-2938-4a99-9961-afec39409b2f","decision":"pass","memoryDelta":false}
+{"ts":"2026-09-11T21:29:34.953Z","session_id":"67c1d6a5-2938-4a99-9961-afec39409b2f","decision":"pass","memoryDelta":false}
+{"ts":"2026-09-11T21:36:04.382Z","session_id":"67c1d6a5-2938-4a99-9961-afec39409b2f","decision":"flag","code":"no-banner","detail":"first visible line is not the LifeOS banner: \"The ISA tree is gitignored, so it lives on disk \""}
+{"ts":"2026-09-11T21:39:49.066Z","session_id":"67c1d6a5-2938-4a99-9961-afec39409b2f","decision":"pass","memoryDelta":false}
+{"ts":"2026-09-11T21:41:16.216Z","session_id":"67c1d6a5-2938-4a99-9961-afec39409b2f","decision":"pass","memoryDelta":false}
+{"ts":"2026-09-11T21:43:33.733Z","session_id":"67c1d6a5-2938-4a99-9961-afec39409b2f","decision":"pass","memoryDelta":false}

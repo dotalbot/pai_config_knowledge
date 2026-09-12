@@ -1,451 +1,175 @@
 {
   "sessions": {
-    "opencode-pai-migration": {
-      "isa": "/home/jellypai/.claude/PAI/MEMORY/WORK/opencode-pai-migration/ISA.md",
-      "task": "Analyze old opencode PAI setup, plan replacement with current LifeOS",
-      "sessionName": "Analyze old opencode PAI setup, plan replacement with current LifeOS",
-      "sessionUUID": "434f1e02-e104-463a-9b1a-71397305a5ae",
+    "native-3288dbde-3703-4952-8240-8bd702fc25a1": {
+      "task": "please do a full hindsight test for me",
+      "sessionUUID": "3288dbde-3703-4952-8240-8bd702fc25a1",
       "phase": "complete",
-      "progress": "0/12",
-      "started": "2026-08-20",
-      "updatedAt": "2026-08-20T14:05:58.171Z",
+      "progress": "0/0",
+      "started": "2026-09-10T22:13:53.159Z",
+      "updatedAt": "2026-09-11T06:14:52.119Z",
+      "ratings": [],
+      "sessionName": "Conduct Full Hindsight Test Analysis",
+      "lastToolActivity": "2026-09-10T23:53:30.293Z",
+      "ascent": {
+        "key": "cairn",
+        "icon": "🪨",
+        "label": "Cairn",
+        "color": "#34d399"
+      }
+    },
+    "20260911-200000_learning-capture-and-dark-sources": {
+      "isa": "MEMORY/WORK/20260911-200000_learning-capture-and-dark-sources/ISA.md",
+      "task": "Fix silent capture-quality failures and the Upgrade skill's dark sources",
+      "sessionName": "Fix silent capture-quality failures and the Upgrade skill's dark sources",
+      "sessionUUID": "67c1d6a5-2938-4a99-9961-afec39409b2f",
+      "phase": "complete",
+      "progress": "17/17",
+      "started": "2026-09-11T19:00:00Z",
+      "updatedAt": "2026-09-11T21:35:30.305Z",
       "criteria": [
         {
           "id": "ISC-1",
-          "description": "Locate the current live LifeOS/PAI install and confirm it is the authoritative one — Read `~/.claude` + skill version.",
+          "description": "`rejectLearning` rejects pasted artifacts, over-length text and substance-free prose (probe: replay over `MEMORY/LEARNING` keeps 9 of 136).",
           "type": "criterion",
           "status": "completed",
-          "createdInPhase": "PLAN"
+          "createdInPhase": "COMPLETE"
         },
         {
           "id": "ISC-2",
-          "description": "Locate the OpenCode config + binary and determine if OpenCode itself is still in use.",
+          "description": "All 9 survivors are genuine typed corrections or stated insights (probe: read each body).",
           "type": "criterion",
           "status": "completed",
-          "createdInPhase": "PLAN"
+          "createdInPhase": "COMPLETE"
         },
         {
           "id": "ISC-3",
-          "description": "Find all stale/duplicate PAI trees outside the live one (`.claude_backup`, `.config/PAI`, literal-`$HOME` dirs).",
+          "description": "`LearningQualityGate` blocks junk writes to `MEMORY/LEARNING` via PreToolGuard (probe: 7/7 cases, exit 2 on junk).",
           "type": "criterion",
           "status": "completed",
-          "createdInPhase": "PLAN"
+          "createdInPhase": "COMPLETE"
         },
         {
           "id": "ISC-4",
-          "description": "Quantify each candidate cleanup target by size and last-write time.",
+          "description": "The gate fails open on malformed input and non-LEARNING paths (probe: cases 5-7 exit 0).",
           "type": "criterion",
           "status": "completed",
-          "createdInPhase": "PLAN"
+          "createdInPhase": "COMPLETE"
         },
         {
           "id": "ISC-5",
-          "description": "Determine whether any junk dir is still being actively written (mtime + settings grep).",
+          "description": "`SessionHarvester` gates corrections at source (probe: post-fix run wrote zero junk).",
           "type": "criterion",
           "status": "completed",
-          "createdInPhase": "PLAN"
+          "createdInPhase": "COMPLETE"
         },
         {
           "id": "ISC-6",
-          "description": "Root-cause the literal-`$HOME` directories (settings.json `$HOME/...` unbraced path bug).",
+          "description": "`isNonDirectiveIntent` rejects questions, statements of fact, machine envelopes and one-off requests (probe: 10/10 both-directions suite).",
           "type": "criterion",
           "status": "completed",
-          "createdInPhase": "PLAN"
+          "createdInPhase": "COMPLETE"
         },
         {
           "id": "ISC-7",
-          "description": "Confirm whether LifeOS `setup` has actually run (no `~/.claude/LIFEOS` config tree present).",
+          "description": "Replay over the 16 real stored directives drops 7 and retains 9 (probe: `detectStandingDirective` replay).",
           "type": "criterion",
           "status": "completed",
-          "createdInPhase": "PLAN"
+          "createdInPhase": "COMPLETE"
         },
         {
           "id": "ISC-8",
-          "description": "Present findings table (target | what it is | size | safe-to-remove | reversible).",
+          "description": "The 7 false directives are rejected with a reason, not deleted (probe: store shows 7 rejected).",
           "type": "criterion",
-          "status": "pending",
-          "createdInPhase": "PLAN"
+          "status": "completed",
+          "createdInPhase": "COMPLETE"
         },
         {
           "id": "ISC-9",
-          "description": "Present ordered cleanup plan with the root-cause fix sequenced first.",
+          "description": "All 5 YouTube channels fetch live (probe: each returns a real title).",
           "type": "criterion",
-          "status": "pending",
-          "createdInPhase": "PLAN"
+          "status": "completed",
+          "createdInPhase": "COMPLETE"
         },
         {
           "id": "ISC-10",
-          "description": "Anti: Do NOT delete or move any file or directory this run.",
-          "type": "anti-criterion",
-          "status": "pending",
-          "createdInPhase": "PLAN"
+          "description": "GitHub trending returns results with no 422 (probe: 3 queries, 22 matches on the first).",
+          "type": "criterion",
+          "status": "completed",
+          "createdInPhase": "COMPLETE"
         },
         {
           "id": "ISC-11",
-          "description": "Anti: Do NOT modify the live `~/.claude` tree (including settings.json) without a separate approval.",
-          "type": "anti-criterion",
-          "status": "pending",
-          "createdInPhase": "PLAN"
+          "description": "Source preflight reports every source live/absent/blocked (probe: run shows 4 green, gh-auth blocked).",
+          "type": "criterion",
+          "status": "completed",
+          "createdInPhase": "COMPLETE"
         },
         {
           "id": "ISC-12",
-          "description": "Antecedent: Plan is presented as a numbered, per-target-approvable list so Dominic can accept/decline each.",
+          "description": "Seen-state is banked and dedups (probe: re-running trending adds 0).",
           "type": "criterion",
-          "status": "pending",
-          "createdInPhase": "PLAN"
+          "status": "completed",
+          "createdInPhase": "COMPLETE"
+        },
+        {
+          "id": "ISC-13",
+          "description": "`ReflectionGate` fires once per session on a completion claim that did real work (probe: 8/8 cases).",
+          "type": "criterion",
+          "status": "completed",
+          "createdInPhase": "COMPLETE"
+        },
+        {
+          "id": "ISC-14",
+          "description": "The corpus holds a schema-9 entry (probe: 8 entries, 1 with the `reflection` field).",
+          "type": "criterion",
+          "status": "completed",
+          "createdInPhase": "COMPLETE"
         }
       ],
       "ratings": [],
-      "intent": "Dominic ran his LifeOS work driven from OpenCode (as harness + GPT-5.5 inference backend on :7878). He wants **Claude Code (this `~/.claude` install) to become the PRIMARY harness**: migrate the good work here, update from the stale live version (PAI 5.0.0 / Algorithm v6.3.0) …",
-      "bodyHash": "4778ac4faf46bc85b73df313653eaabc21f6d1def711e3e9957851ce723724f6",
-      "lastBodySize": 16545,
+      "agents": [
+        {
+          "name": "67c1d6a5-2938-4a99-9961-afec39409b2f::Verify workflow concurrency and eval surface",
+          "agentType": "claude-code-guide",
+          "status": "active",
+          "phase": "BUILD"
+        },
+        {
+          "name": "67c1d6a5-2938-4a99-9961-afec39409b2f::Extract techniques from 3 IndyDevDan videos",
+          "agentType": "general-purpose",
+          "status": "active",
+          "phase": "BUILD"
+        },
+        {
+          "name": "67c1d6a5-2938-4a99-9961-afec39409b2f::Extract techniques from 3 tooling videos",
+          "agentType": "general-purpose",
+          "status": "active",
+          "phase": "BUILD"
+        }
+      ],
+      "intent": "Three failures of the same class, all silent, all looking like success.",
+      "bodyHash": "588a5c7d368a999d693f5012e2dc57c864f6f3e542714096f8c75ef5cddfa32d",
+      "lastBodySize": 9261,
       "ascent": {
         "key": "cairn",
         "icon": "🪨",
         "label": "Cairn",
         "color": "#34d399"
       },
-      "agents": [
-        {
-          "name": "434f1e02-e104-463a-9b1a-71397305a5ae::Full subsystem inventory audit",
-          "agentType": "Explore",
-          "status": "active",
-          "phase": "BUILD"
-        },
-        {
-          "name": "434f1e02-e104-463a-9b1a-71397305a5ae::Obsidian + PAI prior-work archaeology",
-          "agentType": "Explore",
-          "status": "active",
-          "phase": "BUILD"
-        }
-      ],
-      "lastToolActivity": "2026-08-20T13:58:09.940Z"
+      "lastToolActivity": "2026-09-11T21:35:30.403Z"
     },
-    "native-health": {
-      "task": "health check ping",
-      "sessionUUID": "health",
+    "native-67c1d6a5-2938-4a99-9961-afec39409b2f": {
+      "task": "Package Infographic Skills Handover Zip",
+      "sessionName": "Package Infographic Skills Handover Zip",
+      "sessionUUID": "67c1d6a5-2938-4a99-9961-afec39409b2f",
       "phase": "native",
       "progress": "0/0",
-      "started": "2026-08-20T13:56:31.242Z",
-      "updatedAt": "2026-08-20T13:56:34.818Z",
+      "started": "2026-09-11T21:38:39.946Z",
+      "updatedAt": "2026-09-11T21:42:09.836Z",
       "ratings": [],
-      "sessionName": "Verify System Health Check Status"
-    },
-    "native-34561945-e99b-4457-a017-cfa156c4921b": {
-      "task": "i have now install fabric, do I need to set up a provider for it or can we use it within lifeos?",
-      "sessionName": "Configure Fabric CLI Provider Setup",
-      "sessionUUID": "34561945-e99b-4457-a017-cfa156c4921b",
-      "phase": "complete",
-      "progress": "0/0",
-      "started": "2026-08-21T20:17:25.891Z",
-      "updatedAt": "2026-08-23T12:25:12.020Z",
-      "ratings": [],
-      "lastToolActivity": "2026-08-23T12:23:31.514Z",
-      "ascent": {
-        "key": "cairn",
-        "icon": "🪨",
-        "label": "Cairn",
-        "color": "#34d399"
-      }
-    },
-    "native-7c122d5e-33d0-4425-9a37-1b4f607f00e9": {
-      "task": "Previous conversation: Principal: I think the existing obsidian vault is a something to extract from but it’s a mess. Lo",
-      "sessionName": "Design Hybrid Obsidian PAI Vault",
-      "sessionUUID": "7c122d5e-33d0-4425-9a37-1b4f607f00e9",
-      "phase": "complete",
-      "progress": "0/0",
-      "started": "2026-08-21T09:32:51.036Z",
-      "updatedAt": "2026-08-21T09:32:56.476Z",
-      "ratings": [],
-      "ascent": {
-        "key": "cairn",
-        "icon": "🪨",
-        "label": "Cairn",
-        "color": "#34d399"
-      }
-    },
-    "native-45054c06-e647-42ff-9503-176edd848091": {
-      "task": "ok all is installed and configured, want to check",
-      "sessionName": "Verify Installation Configuration Setup Completion",
-      "sessionUUID": "45054c06-e647-42ff-9503-176edd848091",
-      "phase": "complete",
-      "progress": "0/0",
-      "started": "2026-08-23T20:08:23.302Z",
-      "updatedAt": "2026-08-29T06:50:10.343Z",
-      "ratings": [
-        {
-          "value": 1,
-          "timestamp": 1787673694879,
-          "message": ",the whole workspace, 2, yes, 3,"
-        }
-      ],
-      "lastToolActivity": "2026-08-28T10:30:32.172Z",
-      "ascent": {
-        "key": "cairn",
-        "icon": "🪨",
-        "label": "Cairn",
-        "color": "#34d399"
-      }
-    },
-    "native-fb03d196-ee6c-4fa7-b9b4-919c9c9128e5": {
-      "task": "You are performing a one-time structural survey of THIS repository to seed its Hindsight memory. Work efficiently — DO N",
-      "sessionName": "Survey Repository Structure Seed Memory",
-      "sessionUUID": "fb03d196-ee6c-4fa7-b9b4-919c9c9128e5",
-      "phase": "complete",
-      "progress": "0/0",
-      "started": "2026-08-23T20:03:59.668Z",
-      "updatedAt": "2026-08-23T20:07:07.586Z",
-      "ratings": [],
-      "lastToolActivity": "2026-08-23T20:06:58.202Z",
-      "ascent": {
-        "key": "cairn",
-        "icon": "🪨",
-        "label": "Cairn",
-        "color": "#34d399"
-      }
-    },
-    "native-c757e1ab-f4dc-4e13-a14c-4db02077fcf9": {
-      "task": "You are performing a one-time structural survey of THIS repository to seed its Hindsight memory. Work efficiently — DO N",
-      "sessionName": "Survey Repository Structure Seed Memory 2",
-      "sessionUUID": "c757e1ab-f4dc-4e13-a14c-4db02077fcf9",
-      "phase": "complete",
-      "progress": "0/0",
-      "started": "2026-08-23T20:04:16.242Z",
-      "updatedAt": "2026-08-23T20:06:41.488Z",
-      "ratings": [],
-      "lastToolActivity": "2026-08-23T20:06:32.584Z",
-      "ascent": {
-        "key": "cairn",
-        "icon": "🪨",
-        "label": "Cairn",
-        "color": "#34d399"
-      }
-    },
-    "native-9c7fc6e0-d052-486d-9605-0bdb31cc91ee": {
-      "task": "You are performing a one-time structural survey of THIS repository to seed its Hindsight memory. Work efficiently — DO N",
-      "sessionName": "Seed Hindsight Memory Repository Survey",
-      "sessionUUID": "9c7fc6e0-d052-486d-9605-0bdb31cc91ee",
-      "phase": "complete",
-      "progress": "0/0",
-      "started": "2026-08-28T10:27:40.680Z",
-      "updatedAt": "2026-08-28T10:29:22.638Z",
-      "ratings": [],
-      "lastToolActivity": "2026-08-28T10:28:54.685Z",
-      "ascent": {
-        "key": "cairn",
-        "icon": "🪨",
-        "label": "Cairn",
-        "color": "#34d399"
-      }
-    },
-    "native-934ce9b8-c04b-4eaf-849b-872e95f9f92d": {
-      "task": "You are performing a one-time structural survey of THIS repository to seed its Hindsight memory. Work efficiently — DO N",
-      "sessionName": "Survey Repository Structure Seed Memory",
-      "sessionUUID": "934ce9b8-c04b-4eaf-849b-872e95f9f92d",
-      "phase": "complete",
-      "progress": "0/0",
-      "started": "2026-08-29T11:52:53.859Z",
-      "updatedAt": "2026-08-29T11:54:35.000Z",
-      "ratings": [],
-      "lastToolActivity": "2026-08-29T11:54:08.868Z",
-      "ascent": {
-        "key": "cairn",
-        "icon": "🪨",
-        "label": "Cairn",
-        "color": "#34d399"
-      }
-    },
-    "native-441e9228-7582-40e5-ae97-ddfc8cf63223": {
-      "task": "look in the obisian vault, I am looking for transcript from a lady which gave the concepts of multiple brains and sepera",
-      "sessionUUID": "441e9228-7582-40e5-ae97-ddfc8cf63223",
-      "phase": "complete",
-      "progress": "0/0",
-      "started": "2026-09-04T15:23:54.832Z",
-      "updatedAt": "2026-09-05T13:09:52.790Z",
-      "ratings": [],
-      "sessionName": "Find Multiple Brains AI Transcript",
-      "lastToolActivity": "2026-09-04T15:24:33.974Z",
-      "ascent": {
-        "key": "cairn",
-        "icon": "🪨",
-        "label": "Cairn",
-        "color": "#34d399"
-      }
-    },
-    "native-ee0d5a72-0b71-4316-b81e-cfc14a2d0e1d": {
-      "task": "You are performing a one-time structural survey of THIS repository to seed its Hindsight memory. Work efficiently — DO N",
-      "sessionName": "Survey Repository Structure Seed Memory",
-      "sessionUUID": "ee0d5a72-0b71-4316-b81e-cfc14a2d0e1d",
-      "phase": "complete",
-      "progress": "0/0",
-      "started": "2026-08-31T21:12:42.286Z",
-      "updatedAt": "2026-08-31T21:14:51.641Z",
-      "ratings": [],
-      "lastToolActivity": "2026-08-31T21:14:13.939Z",
-      "ascent": {
-        "key": "cairn",
-        "icon": "🪨",
-        "label": "Cairn",
-        "color": "#34d399"
-      }
-    },
-    "native-295aa35d-90c5-409f-9f97-3b455487527e": {
-      "task": "I want you to develop a skill which I can call with a string added after it, you will determine from the string what to ",
-      "sessionName": "Design Obsidian Snippet Capture Skill",
-      "sessionUUID": "295aa35d-90c5-409f-9f97-3b455487527e",
-      "phase": "complete",
-      "progress": "0/0",
-      "started": "2026-09-05T13:13:08.865Z",
-      "updatedAt": "2026-09-09T17:33:44.395Z",
-      "ratings": [],
-      "lastToolActivity": "2026-09-07T10:44:15.329Z",
-      "ascent": {
-        "key": "cairn",
-        "icon": "🪨",
-        "label": "Cairn",
-        "color": "#34d399"
-      }
-    },
-    "native-ef445269-830e-40bd-a8ae-7b42a6ef33e3": {
-      "task": "/Capture Youtu",
-      "sessionName": "Capture Skill Run",
-      "sessionUUID": "ef445269-830e-40bd-a8ae-7b42a6ef33e3",
-      "phase": "complete",
-      "progress": "0/0",
-      "started": "2026-09-07T10:50:49.205Z",
-      "updatedAt": "2026-09-10T19:54:39.000Z",
-      "ratings": [],
-      "lastToolActivity": "2026-09-09T17:32:33.166Z",
-      "ascent": {
-        "key": "cairn",
-        "icon": "🪨",
-        "label": "Cairn",
-        "color": "#34d399"
-      }
-    },
-    "native-92f50909-63da-4d52-9c9c-b30c53ee7660": {
-      "task": "Please check the azure devops board structure, you might have a document in obsidian, I am looking for a simple breakdow",
-      "sessionName": "Define Azure Devops Board Hierarchy",
-      "sessionUUID": "92f50909-63da-4d52-9c9c-b30c53ee7660",
-      "phase": "native",
-      "progress": "0/0",
-      "started": "2026-09-08T09:59:59.277Z",
-      "updatedAt": "2026-09-08T10:00:02.435Z",
-      "ratings": [],
-      "lastToolActivity": "2026-09-08T10:01:02.865Z"
-    },
-    "native-18b96d47-5390-438a-b601-e0c21ca23cae": {
-      "task": "are you alive?",
-      "sessionUUID": "18b96d47-5390-438a-b601-e0c21ca23cae",
-      "phase": "complete",
-      "progress": "0/0",
-      "started": "2026-09-09T17:46:31.799Z",
-      "updatedAt": "2026-09-10T06:56:22.749Z",
-      "ratings": [],
-      "sessionName": "Confirm Jellypai Assistant Active Status",
-      "lastToolActivity": "2026-09-09T21:14:55.811Z",
-      "ascent": {
-        "key": "cairn",
-        "icon": "🪨",
-        "label": "Cairn",
-        "color": "#34d399"
-      }
-    },
-    "native-e7f8c43c-4714-46ae-b4e5-00a8e451d6a2": {
-      "task": "You alive?",
-      "sessionUUID": "e7f8c43c-4714-46ae-b4e5-00a8e451d6a2",
-      "phase": "complete",
-      "progress": "0/0",
-      "started": "2026-09-09T17:53:22.131Z",
-      "updatedAt": "2026-09-10T09:48:06.066Z",
-      "ratings": [],
-      "sessionName": "Confirm Jellypai Assistant Availability Status",
-      "ascent": {
-        "key": "cairn",
-        "icon": "🪨",
-        "label": "Cairn",
-        "color": "#34d399"
-      }
-    },
-    "native-a7690902-6c7f-43fd-9c12-d549d270cb65": {
-      "task": "You alive?",
-      "sessionUUID": "a7690902-6c7f-43fd-9c12-d549d270cb65",
-      "phase": "complete",
-      "progress": "0/0",
-      "started": "2026-09-09T17:53:28.714Z",
-      "updatedAt": "2026-09-10T09:48:20.032Z",
-      "ratings": [],
-      "sessionName": "Confirm Jellypai Assistant Is Responsive",
-      "ascent": {
-        "key": "cairn",
-        "icon": "🪨",
-        "label": "Cairn",
-        "color": "#34d399"
-      }
-    },
-    "native-3130a65b-6aa3-4bb2-9b07-e30540e11867": {
-      "task": "resume",
-      "sessionUUID": "3130a65b-6aa3-4bb2-9b07-e30540e11867",
-      "phase": "complete",
-      "progress": "0/0",
-      "started": "2026-09-10T06:56:44.863Z",
-      "updatedAt": "2026-09-10T09:32:55.477Z",
-      "ratings": [],
-      "lastToolActivity": "2026-09-10T09:32:03.093Z",
-      "sessionName": "Confirm Jellypai Assistant Active Status",
-      "ascent": {
-        "key": "cairn",
-        "icon": "🪨",
-        "label": "Cairn",
-        "color": "#34d399"
-      }
-    },
-    "native-ff353f25-0be3-434d-9e1e-e46ed4ab176f": {
-      "task": "resume",
-      "sessionUUID": "ff353f25-0be3-434d-9e1e-e46ed4ab176f",
-      "phase": "complete",
-      "progress": "0/0",
-      "started": "2026-09-10T09:42:54.465Z",
-      "updatedAt": "2026-09-10T09:47:58.580Z",
-      "ratings": [],
-      "lastToolActivity": "2026-09-10T09:47:38.205Z",
-      "sessionName": "Verify Hindsight Feature Functionality Status",
-      "ascent": {
-        "key": "cairn",
-        "icon": "🪨",
-        "label": "Cairn",
-        "color": "#34d399"
-      }
-    },
-    "native-f36553b8-4080-442c-959e-104ed498562c": {
-      "task": "check and test hidnsight",
-      "sessionUUID": "f36553b8-4080-442c-959e-104ed498562c",
-      "phase": "complete",
-      "progress": "0/0",
-      "started": "2026-09-10T09:48:52.230Z",
-      "updatedAt": "2026-09-10T18:46:27.016Z",
-      "ratings": [],
-      "sessionName": "Test Hindsight Module Functionality Check",
-      "lastToolActivity": "2026-09-10T11:57:21.592Z",
-      "ascent": {
-        "key": "cairn",
-        "icon": "🪨",
-        "label": "Cairn",
-        "color": "#34d399"
-      }
-    },
-    "native-3288dbde-3703-4952-8240-8bd702fc25a1": {
-      "task": "please do a full hindsight test for me",
-      "sessionUUID": "3288dbde-3703-4952-8240-8bd702fc25a1",
-      "phase": "native",
-      "progress": "0/0",
-      "started": "2026-09-10T22:13:53.159Z",
-      "updatedAt": "2026-09-10T23:46:47.300Z",
-      "ratings": [],
-      "sessionName": "Conduct Full Hindsight Test Analysis",
-      "lastToolActivity": "2026-09-10T23:53:30.293Z"
+      "lastToolActivity": "2026-09-11T21:43:24.998Z"
     }
   },
-  "_events_offset": 445716,
-  "_folded_at": "2026-09-10T23:53:30.295Z"
+  "_events_offset": 479855,
+  "_folded_at": "2026-09-11T21:43:24.999Z"
 }

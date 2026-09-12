@@ -274,10 +274,48 @@ const DIRECTIVE_PATTERNS: RegExp[] = [
   /\b(always|never) (do|use|include|make|add|put|run|write|call|show|keep|remember to)\b/i,
 ];
 
+/**
+ * INTENT GATE (2026-09-11) — a phrase is not an intention.
+ *
+ * The patterns above fire on a SUBSTRING, so any prompt containing the words
+ * "in the future" was stored as a standing rule the system would honour forever.
+ * Read back that day, 16 stored directives included the question "So is it going
+ * to be working in the future?" and the one-off task "please provide me a simple
+ * scp script...". Neither is a rule; both now outrank real doctrine by sitting in
+ * the same store.
+ *
+ * This is the same failure class as the learning-capture bug fixed the same day
+ * (113 of 136 captures had fired on the bare word "actually"): matching WORDS
+ * where the system means to detect INTENT.
+ *
+ * A standing directive is an INSTRUCTION about future behaviour. These markers
+ * identify text that cannot be one, regardless of which phrase it contains.
+ */
+const NON_DIRECTIVE_MARKERS: RegExp[] = [
+  /\?\s*$/,                                  // a question, not an instruction
+  /^(so|is|are|was|were|do|does|did|can|could|will|would|should|what|when|where|why|how|who)\b[^.!]*\?/i,
+  /^(you will find|here is|here's|i have|i've|attached|this is|that is)\b/i, // statement of fact
+  /^<(task-notification|system-reminder|teammate-message)/i,      // machine envelope
+  /^(please )?(provide|give|send|create|build|make|write|run|fix|show) me\b/i, // one-off request
+  // "(hi,) please take this transcript and ..." — a task about THIS artefact,
+  // not a rule about future ones. Demonstratives are the tell.
+  /^(hi[, ]+)?(please )?(take|use|review|process|check|read|look at|analyse|analyze) (this|these|that|the attached)\b/i,
+];
+
+/** True when the text cannot be a standing rule, whatever phrase it contains. */
+export function isNonDirectiveIntent(text: string): boolean {
+  if (typeof text !== "string" || !text) return true;
+  const first = text.trim().split(/\n/)[0];
+  return NON_DIRECTIVE_MARKERS.some((re) => re.test(first));
+}
+
 export function detectStandingDirective(prompt: string): string | null {
   const trimmed = prompt.trim();
   if (trimmed.length < 15) return null;      // too short to carry a real rule
   if (trimmed.startsWith('/')) return null;  // slash command
+  // Intent before phrase: a question or a one-off request that merely CONTAINS
+  // "in the future" is not a rule (see NON_DIRECTIVE_MARKERS).
+  if (isNonDirectiveIntent(trimmed)) return null;
   const norm = trimmed.toLowerCase().replace(/[‘’ʼ`]/g, "'");
   for (const re of DIRECTIVE_PATTERNS) {
     if (re.test(norm)) return trimmed;

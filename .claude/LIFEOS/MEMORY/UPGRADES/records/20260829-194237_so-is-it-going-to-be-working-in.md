@@ -1,7 +1,7 @@
 ---
 id: 20260829-194237_so-is-it-going-to-be-working-in
 slug: so-is-it-going-to-be-working-in
-status: recommended
+status: rejected
 source: directive
 created: 2026-08-29T19:42:37.076Z
 expires: 2026-09-28T19:42:37.076Z
@@ -28,3 +28,4 @@ Stated by the principal in-session; not yet encoded in infrastructure.
 ## Notes
 
 - 2026-08-29T19:42:37.076Z — created (source: directive)
+- 2026-09-11T21:08:23.543Z — rejected

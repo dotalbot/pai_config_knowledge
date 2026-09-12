@@ -127,3 +127,13 @@ order. Ask if it matters to the destination.
 - **Eyes.** Figures without eyes read as corporate pictograms, not sketchnotes.
 - **White space is content.** A crowded page defeats the purpose even when every
   fact on it is correct.
+- **Name the default treatment, then refuse it.** Describing the style you want
+  is weaker than naming the cliche the model would otherwise reach for. The
+  boxes gotcha above already works this way, and it is the most effective line
+  in this file. Applied to the rest: evenly-spaced modules on a strict grid,
+  a centred symmetrical composition, one icon per module in matching sizes, and
+  a colour fill on every doodle are the default answers — use any of them only
+  when it is genuinely the best choice, not because it is what comes first.
+  (Pattern adopted 2026-09-11 from Anthropic's frontend-design skill, PR #1713:
+  "a big number with a small label, supporting stats, and a gradient accent is
+  the default treatment, so only use it if that's truly the best option.")

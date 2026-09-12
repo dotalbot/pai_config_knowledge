@@ -20,6 +20,15 @@ last_reviewed_by: migration-7.40.4
 
 Surface these when a natural opening appears. Do not nag every session.
 
+- **DUE 2026-09-18 — reflection corpus 7-day verdict.** `ReflectionGate`
+  (commit cfda99e) closed the learn step's open loop on 2026-09-11, after the
+  corpus sat dead from 2026-06-12. Baseline: 8 entries, 1 schema-9. A cron
+  probe runs 09:23 on the 18th and writes
+  `MEMORY/STATE/reflection-corpus-check.md`. Zero new entries means the gate is
+  not firing as designed and that IS the finding — do not paper over it with a
+  fourth workaround. Related open record: runs still are not ISA-registered
+  (21 of 22 sessions), which is the deliberate design question left unanswered.
+
 - **BLOCKED until Tue 2026-09-01 — SharePoint access needs Inform app
   authorisation.** rclone v1.75.0 is installed at `~/.local/bin/rclone` and
   `~/.config/rclone` is created at chmod 700, so the machine side is done. The

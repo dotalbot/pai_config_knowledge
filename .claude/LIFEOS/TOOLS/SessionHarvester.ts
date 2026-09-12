@@ -22,7 +22,7 @@
 import { parseArgs } from "util";
 import * as fs from "fs";
 import * as path from "path";
-import { getLearningCategory, isLearningCapture } from "../../hooks/lib/learning-utils";
+import { getLearningCategory, isLearningCapture, rejectLearning } from "../../hooks/lib/learning-utils";
 import { ingestCaptureEnvelope } from "./CaptureEnvelope";
 import { homedir } from "node:os";
 
@@ -266,9 +266,14 @@ function harvestLearnings(sessionPath: string): HarvestedLearning[] {
       if (!textContent || textContent.length < 20) continue;
 
       // Check for corrections (user messages)
+      //
+      // `type === 'user'` is NOT "the principal typed this": skill invocations,
+      // pasted files, hook context, task notifications and inter-agent envelopes
+      // all arrive as user entries. Gate every candidate through rejectLearning
+      // or /actually,?\s+/i harvests them all (2026-09-11: 113 of 136 captures).
       if (entry.type === 'user') {
         const { matches, matchedPattern } = matchesPatterns(textContent, CORRECTION_PATTERNS);
-        if (matches) {
+        if (matches && !rejectLearning(textContent)) {
           learnings.push({
             sessionId,
             timestamp,
