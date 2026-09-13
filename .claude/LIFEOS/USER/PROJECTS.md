@@ -20,6 +20,47 @@ last_reviewed_by: migration-7.40.4
 
 Surface these when a natural opening appears. Do not nag every session.
 
+- **DUE 2026-09-19 — TELOS dimension review.** Rings were populated 2026-09-12
+  (commit 2d106ba): health 21, money 50, freedom 10, creative 50,
+  relationships 80. A cron probe runs 09:15 on the 19th, writes
+  `MEMORY/STATE/dimensions-review.md` and speaks a notification. **Two calls
+  left open that week, both mine not his:** (1) relationships derived 80 but
+  Dom's own read was 70, so a `have` marker is written stronger than he'd
+  score it — ask which; (2) FREEDOM's "afternoon nap = partial" was my
+  inference, never his words, and it is the only reason freedom is 10 rather
+  than 0. The question worth more than re-scoring everything: are the fifteen
+  quiet minutes reachable yet? IDEAL_STATE names that the leading indicator
+  for the whole dimension, and it has been "no" on 08-24 and again on 09-12.
+
+- ~~LIFE DIMENSIONS rings read 0/100 because `LIFEOS_STATE.json` doesn't
+  exist.~~ ✅ **FIXED 2026-09-12** (commit 2d106ba) — CURRENT_STATE files now
+  drive the rings via derived have/partial/missing markers. Original note:
+  seen in the browser (first real render of /telos).
+  `buildDimensionsFromIdealState` reads `TELOS/LIFEOS_STATE.json` for each
+  dimension's `pct`; the file is absent, so all five default to 0 and the page
+  says "0% of your ideal state" with health and finances both "100% below
+  ideal". Not a bug — unpopulated config. The five IDEAL_STATE files
+  (HEALTH/MONEY/FREEDOM/RELATIONSHIPS/CREATIVE) are present, so only the
+  scoring is missing. Needs Dom's own numbers: where he sits today on each,
+  0-100. Note `creative_freedom` is a composite averaging creative + freedom.
+  Ask when there's an opening; don't invent percentages for someone's life.
+
+- ~~Pulse `/api/life/goals` parses headings, but TELOS files use bullets.~~
+  ✅ **FIXED 2026-09-12**, browser-verified on the Mac. Three commits:
+  66f9855 (bullet parsing across all 13 sections; sparks 0 → 8), adc4dae
+  (orphan `**` on goal text — the browser caught this one after the API
+  looked clean), a67bdb4 (SPARK panel: /api/life/home had a fourth copy of
+  the `### ` filter). /life now shows 3 missions, 3 problems, 2 goals as
+  prose. Lesson worth keeping: four separate parsers held the same wrong
+  assumption, and only the rendered page exposed the last two.
+
+- **Bunker is unconfigured on this host.** `/api/bunker/critical` returns
+  `configured:false` and every Pulse start logs `Module not found
+  .../PULSE/Bunker/bin/bunker.ts` (present before the 2026-09-12 restart, so
+  not a regression). The reference implementation is private and not shipped —
+  so this is expected unless you want the panel gone. Either wire it up or
+  silence the startup error.
+
 - **DUE 2026-09-18 — reflection corpus 7-day verdict.** `ReflectionGate`
   (commit cfda99e) closed the learn step's open loop on 2026-09-11, after the
   corpus sat dead from 2026-06-12. Baseline: 8 entries, 1 schema-9. A cron

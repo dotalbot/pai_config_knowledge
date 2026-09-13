@@ -2067,7 +2067,10 @@ function parseNumberedList(content: string, heading: string): string[] {
 function parseBullets(content: string): string[] {
   return content.split("\n")
     .filter(l => /^[-*]\s/.test(l.trim()))
-    .map(l => l.trim().replace(/^[-*]\s*/, ""))
+    // Drop bold markers: FRAMES.md bolds each frame name, which rendered as
+    // literal "**Future compounding**" on /life. Emphasis in the file, noise
+    // on the dashboard — same treatment the bullet parser gives.
+    .map(l => l.trim().replace(/^[-*]\s*/, "").replace(/\*\*/g, ""))
 }
 
 // ─── Freshness helpers (universal pattern for all life tabs) ───
@@ -2272,7 +2275,10 @@ function parseGoals(content: string): { id: string, text: string }[] {
     .filter(l => /^[-*]\s*\*{0,2}G\d+\*{0,2}:/.test(l))
     .map(l => {
       const m = l.match(/\*{0,2}(G\d+)\*{0,2}:\s*(.+)/)
-      return m ? { id: m[1], text: m[2].trim() } : null
+      // `- **G0:** text` closes the bold AFTER the colon, so the capture opens
+      // with an orphan marker. Drop it, then any remaining bold, so /life shows
+      // "Build a PowerApps canvas app" and not "** Build a PowerApps…".
+      return m ? { id: m[1], text: m[2].replace(/^\*{1,2}\s*/, "").replace(/\*\*/g, "").trim() } : null
     })
     .filter(Boolean) as { id: string, text: string }[]
   if (withIds.length > 0) return withIds
@@ -2288,23 +2294,90 @@ function parseGoals(content: string): { id: string, text: string }[] {
     .map((p, i) => ({ id: `G${i}`, text: p.replace(/\s*\n\s*/g, " ").replace(/^-\s+/, "").trim() }))
 }
 
+// Sparks are authored as bullets under H2 groupings ("## Active", "## Dormant"),
+// not as H3 headings. The original `startsWith("### ")` filter therefore returned
+// [] for a fully populated SPARKS.md. H3 is still honoured first for installs
+// that use that layout; bullets are the fallback. Leading status emoji and bold
+// markers are stripped so the label reads as the interest itself, and the
+// trailing dash-clause is dropped to keep entries short enough to render.
+function parseSparks(content: string): string[] {
+  const lines = content.replace(/<!--[\s\S]*?-->/g, "").split("\n")
+
+  const h3 = lines.filter((l) => l.startsWith("### ")).map((l) => l.replace(/^###\s*/, "").trim())
+  if (h3.length > 0) return h3
+
+  const out: string[] = []
+  for (const line of lines) {
+    const m = line.match(/^-\s+(.+)$/)
+    if (!m) continue
+    const label = m[1]
+      .replace(/^[✅❌⚠️🔴🟡🟢]\s*/u, "")
+      .replace(/\*\*/g, "")
+      .split(/\s+[—–]\s+/)[0]
+      .replace(/[.;,]$/, "")
+      .trim()
+    if (label) out.push(label)
+  }
+  return out
+}
+
 function parseSections(content: string): { heading: string, body: string }[] {
   // HTML comments (freshness markers like <!-- updated: ... -->) and horizontal
   // rules are document plumbing, not content — without this strip they surface
   // as literal "sections" on /life and /telos (the "unknown/empty" 2026-08-13 bug).
+  // Strip YAML frontmatter BEFORE the horizontal-rule strip, which would
+  // otherwise eat the --- fences and leave the keys behind as body prose. The
+  // old H2-first path hid this (frontmatter precedes the first ## and was
+  // dropped by the split); reaching the bullet parser exposed it, so
+  // "last_updated: …" surfaced as a /life entry.
+  content = content.replace(/^---\n[\s\S]*?\n---\n/, "")
   content = content.replace(/<!--[\s\S]*?-->/g, "").replace(/^\s*-{3,}\s*$/gm, "")
+  // Blockquotes are the section's explanatory subtitle, never an entry.
+  content = content.replace(/^>.*$/gm, "")
+  // An editorial aside opening at column 0 with "*" and closing on a later
+  // line ("*Reviewed 2026-08-24: ... still fitting*") is commentary, not a
+  // primitive. Matched across lines because it wraps.
+  content = content.replace(/^\*(?!\*)[^*]*\*[ \t]*$/gm, "")
   if (!content.trim()) return []
   const sections: { heading: string, body: string }[] = []
 
-  const parts = content.split(/^## /m)
-  for (const part of parts.slice(1)) {
-    const newline = part.indexOf("\n")
-    if (newline === -1) continue
-    const heading = part.slice(0, newline).trim()
-    const body = part.slice(newline + 1).trim()
-    if (body) sections.push({ heading, body })
+  // ID bullets (`- **M0:** …`) are the real primitives, so they win over H2
+  // headings. TELOS topic files carry their entries as bullets and use H2 only
+  // for explanatory matter ("## Notes", "## Format"). Taking H2 first made
+  // /life show ONE section per file — the prose note — and drop every M/P/S/C
+  // entry, while /telos showed them correctly via parseIdEntries. Detected
+  // ahead of the split so the H2 pass is skipped rather than run and discarded.
+  const hasIdBullets = content
+    .split("\n")
+    .some((l) => /^-\s+\*{0,2}[A-Z]{1,3}\d+[a-z]?\*{0,2}:\s*.+$/.test(l))
+
+  // Files like MODELS.md and WISDOM.md carry their entries as plain bullets
+  // under a single H2 ("## Core Models"), with no ID prefix. Taking H2 first
+  // collapsed the whole list into one section named after the heading. Two or
+  // more top-level bullets mean the bullets ARE the content.
+  const plainBulletCount = content.split("\n").filter((l) => /^-\s+\S/.test(l)).length
+  const bulletDriven = hasIdBullets || plainBulletCount >= 2
+
+  if (bulletDriven) {
+    // Drop trailing authoring guidance ("## Notes", "## Format") — useful to
+    // whoever edits the file, noise beside M0/P0/S0 on a dashboard. Only cut at
+    // an H2 that actually has bullets BEFORE it: MODELS.md keeps its entries
+    // under "## Core Models", so truncating unconditionally emptied it.
+    const head = content.split(/^## /m)[0]
+    if (/^-\s+\S/m.test(head)) content = head
   }
-  if (sections.length > 0) return sections
+
+  if (!bulletDriven) {
+    const parts = content.split(/^## /m)
+    for (const part of parts.slice(1)) {
+      const newline = part.indexOf("\n")
+      if (newline === -1) continue
+      const heading = part.slice(0, newline).trim()
+      const body = part.slice(newline + 1).trim()
+      if (body) sections.push({ heading, body })
+    }
+    if (sections.length > 0) return sections
+  }
 
   const lines = content.split("\n")
   let currentBullet: { heading: string, body: string } | null = null
@@ -2334,18 +2407,28 @@ function parseSections(content: string): { heading: string, body: string }[] {
     if (idBullet) {
       commitPara()
       commitBullet()
-      currentBullet = { heading: idBullet[1], body: idBullet[2].trim() }
+      // `- **M0:** text` puts the closing ** after the colon, so idBullet[2]
+      // opens with a stray marker. Drop a leading orphan, then any remaining
+      // bold markers, so the body reads as prose rather than raw markdown.
+      const body = idBullet[2].replace(/^\*{1,2}\s*/, "").replace(/\*\*/g, "").trim()
+      currentBullet = { heading: idBullet[1], body }
     } else if (plainBullet) {
       commitPara()
       commitBullet()
-      const text = plainBullet[1].trim()
+      // Strip bold markers so "**Future compounding** — why" renders as prose.
+      // MODELS/FRAMES bold the model name; the marker is emphasis in the file
+      // and literal asterisks on the dashboard.
+      const text = plainBullet[1].replace(/\*\*/g, "").trim()
       const heading = text.length > 70 ? text.slice(0, 67).trim() + "..." : text
       currentBullet = { heading, body: text }
     } else if (indented && currentBullet) {
       currentBullet.body += " " + indented[1].trim()
     } else if (isBlank) {
+      // A blank line inside a multi-paragraph bullet is a paragraph break, not
+      // the end of the entry — the continuation is still indented under it. So
+      // hold the bullet open and let the next non-indented line close it.
+      // Committing here split P1's status notes into six pseudo-entries.
       commitPara()
-      commitBullet()
     } else if (isHeading) {
       commitPara()
       commitBullet()
@@ -2440,7 +2523,10 @@ function handleLifeHome(): Response {
     const { updated, updatedBy, domains } = parseCurrentDomains(current)
     const actions = parseNumberedList(current, "Next likely actions")
     const goals = parseGoals(goalsRaw).slice(0, 3)
-    const sparkNames = sparksRaw.split("\n").filter(l => l.startsWith("### ")).map(l => l.replace(/^###\s*/, ""))
+    // Shared parser: SPARKS.md authors entries as bullets under H2 groupings,
+    // so the old inline `startsWith("### ")` filter returned [] and the /life
+    // SPARK panel showed its empty-state hint against a populated file.
+    const sparkNames = parseSparks(sparksRaw)
     const randomSpark = sparkNames.length > 0 ? sparkNames[Math.floor(Math.random() * sparkNames.length)] : null
     const timelineBlocks = timelineRaw.split("\n").filter(l => l.startsWith("### ")).length
 
@@ -3104,7 +3190,7 @@ function handleLifeGoals(): Response {
       traumas: parseSections(traumas),
       status: parseSections(status),
       telosProjects: parseSections(telosProjects),
-      sparks: sparks.split("\n").filter(l => l.startsWith("### ")).map(l => l.replace(/^###\s*/, "")),
+      sparks: parseSparks(sparks),
       timeline2036Blocks: timeline2036.split("\n").filter(l => l.startsWith("### ")).length,
       timeline2036Raw: timeline2036,
       telosMasterRaw: telosMaster,
@@ -3479,7 +3565,18 @@ function parseTelosUnified(): Record<string, string> {
   let currentBody: string[] = []
   const flush = () => {
     if (currentTitle === null) return
-    sections[currentTitle.toLowerCase()] = currentBody.join("\n").trim()
+    // Strip HTML comments before storing. A "split layout" TELOS.md (see the
+    // `layout: split` frontmatter) ships each H2 as a signpost stub whose only
+    // content is `<!-- authored in MISSION.md -->`. That comment is a truthy
+    // string, so telosSectionOrFile's `sections[key] || readMd(legacy)` never
+    // fell through and the comment itself was served as the user's mission,
+    // goals and problems — TELOS.md's own header states the opposite contract
+    // ("carries NO body text, so ... falls through to the sibling file").
+    // Comment-only bodies must therefore normalize to "" for `||` to work.
+    sections[currentTitle.toLowerCase()] = currentBody
+      .join("\n")
+      .replace(/<!--[\s\S]*?-->/g, "")
+      .trim()
   }
   for (const line of lines) {
     const m = line.match(/^##\s+(.+?)\s*$/)

@@ -1,19 +1,17 @@
+373 notes — my `fd` count was wrong (depth/ignore behaviour). The vault is substantial. I now have all three sources mapped, so here's the proposal.
+
 ════ LifeOS ═══════════════════════════
 
-Scheduled durably, not in session memory. Session cron would have died when this conversation ends, which is exactly the wrong mechanism for a seven-day question.
+I found your real setup, and it's better than expected. Three live sources, no new tracker needed.
 
-`ReflectionCorpusCheck.sh` fires from your real crontab at 09:23 on Thursday the 18th. It compares against today's baseline of 8 entries and 1 schema-9, then writes a verdict to `MEMORY/STATE/reflection-corpus-check.md`: **working** at 5+ new, **partial** at 1 to 4, **failed** at zero.
+**JellyDesk Hub on `jellyberry:8000`** exposes `/api/v1/dashboard` — 8 Hermes boards with column counts, schema-versioned with a revision hash. `3dprint-loader` sits alongside `logk-video-ingest`, so physical and code projects already share one system. That's the integration point, and it's clean.
 
-The failure branch says plainly that zero new entries means the gate is not firing as designed, and that this *is* the finding — with an explicit instruction not to paper over it with a fourth workaround. Today's dry run correctly reports +0 against its own baseline, which is how I know the arithmetic works.
+**GitHub** gives 13 repos pushed in 30 days via `gh`, already authenticated here.
 
-It's also recorded in `PROJECTS.md` as a dated open ask, so it surfaces conversationally rather than only in a log file nobody opens.
+**Obsidian `Projects/`** holds 373 notes across 8 folders, matching board names closely: Logk, ConveyorDesk, Homelab, 3D Printing.
 
-🔧 CHANGE:
+**What I'd build:** a Pulse `/projects` tab that joins those three on project identity. One card per project showing board state, last commit, and vault notes — with the insight being *divergence*. A board with 29 todo and no commits in three weeks is stalled. A repo pushed daily with no board is untracked. Physical projects have no repo, so they're judged on board plus notes alone.
 
-- `ReflectionCorpusCheck.sh` + crontab entry · `PROJECTS.md` open ask · pushed
+Two things to know. The existing `/projects` module errors because it expects a deploy-oriented markdown table, so I'd replace its source rather than patch it. And `active_work` is empty with all boards at `active=0`, so I'd verify what "active" means in your Hermes before leaning on it.
 
-✅ VERIFY:
-
-- Dry run produces the correct verdict; crontab entry confirmed installed
-
-🗣️ JellyPai: I'll raise it on the 18th either way, including if the answer is that it didn't work.
+🗣️ JellyPai: Want me to write this up as a proper plan before touching code?

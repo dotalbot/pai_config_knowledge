@@ -8,7 +8,7 @@ phase: complete
 progress: 17/17
 mode: interactive
 started: 2026-09-11T19:00:00Z
-updated: 2026-09-11T21:35:00Z
+updated: 2026-09-12T18:05:26+01:00
 current_state: "Capture surfaces matched keywords, not intent; two of five Upgrade sources were silently dark"
 ideal_state: "Every capture surface tests intent; every source reports live, absent or blocked — never silent"
 ---

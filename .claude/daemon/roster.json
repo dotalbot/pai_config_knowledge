@@ -1,52 +1,50 @@
 {
   "proto": 1,
-  "supervisorPid": 1592056,
-  "updatedAt": 1788984331109,
+  "supervisorPid": 582811,
+  "updatedAt": 1789243324047,
   "workers": {
-    "ef445269": {
-      "pid": 1315683,
-      "procStart": "206498147",
-      "sessionId": "ef445269-830e-40bd-a8ae-7b42a6ef33e3",
-      "rendezvousSock": "/tmp/cc-daemon-1005/ab1d699e/rv/ef445269.sock",
-      "ptySock": "/tmp/cc-daemon-1005/ab1d699e/pty/ef445269.sock",
-      "cliVersion": "2.1.266",
-      "startedAt": 1788778228489,
-      "attempt": 2,
+    "3331ccda": {
+      "pid": 428898,
+      "procStart": "16257648",
+      "sessionId": "3331ccda-38c4-4e6d-83da-81fea78a6b64",
+      "rendezvousSock": "/tmp/cc-daemon-1005/ab1d699e/rv/3331ccda.sock",
+      "ptySock": "/tmp/cc-daemon-1005/ab1d699e/pty/3331ccda.sock",
+      "cliVersion": "2.1.269",
+      "startedAt": 1789232704204,
+      "attempt": 1,
       "cwd": "/home/jellypai/.claude",
       "dispatch": {
         "proto": 1,
-        "short": "ef445269",
-        "nonce": "c20ba7ef",
-        "sessionId": "ef445269-830e-40bd-a8ae-7b42a6ef33e3",
-        "createdAt": 1788778228348,
-        "source": "spare",
+        "short": "3331ccda",
+        "nonce": "567412ca",
+        "sessionId": "3331ccda-38c4-4e6d-83da-81fea78a6b64",
+        "createdAt": 1789232703382,
+        "source": "slash",
         "cwd": "/home/jellypai/.claude",
         "launch": {
-          "mode": "prompt",
-          "args": [
-            "--session-id",
-            "ef445269-830e-40bd-a8ae-7b42a6ef33e3",
-            "--agent",
-            "claude",
-            "--inherit-permission-mode",
+          "mode": "resume",
+          "sessionId": "/home/jellypai/.claude/projects/-home-jellypai--claude/67c1d6a5-2938-4a99-9961-afec39409b2f.jsonl",
+          "fork": true,
+          "flagArgs": [
+            "--permission-mode",
             "auto"
           ],
-          "restoresTranscript": false
+          "restoresTranscript": true
         },
-        "env": {},
+        "env": {
+          "CLAUDE_BG_ISOLATION": "none"
+        },
         "isolation": "none",
         "respawnFlags": [
-          "--agent",
-          "claude",
-          "--inherit-permission-mode",
+          "--permission-mode",
           "auto"
         ],
-        "agent": "claude",
         "seed": {
-          "intent": ""
+          "intent": "check the reflections corpus in a week",
+          "name": "Infographic skills package and handover"
         },
         "cols": 138,
-        "rows": 33
+        "rows": 39
       },
       "decModes": [
         1000,
@@ -60,18 +58,18 @@
       "firedInteractiveMarks": [
         {
           "kind": "content_paint",
-          "msgsLoaded": 950,
-          "msgsInJsonl": 950,
-          "msgsRenderedAtFirstPaint": 951
+          "msgsLoaded": 1624,
+          "msgsInJsonl": 1624,
+          "msgsRenderedAtFirstPaint": 1624
         },
         {
           "kind": "prompt_idle"
         }
       ],
-      "rvAuth": "db9b1aa62c03e585a612186db3ac627e",
-      "ptyAuth": "c28cb4c648149081d881650f3e84ce62",
-      "replPid": 1315777,
-      "replProcStart": "206498157"
+      "rvAuth": "9658152ee4267bacdebcc9ba795602d1",
+      "ptyAuth": "625dde6fd9730d6dfc54f59fe054a21d",
+      "replPid": 428915,
+      "replProcStart": "16257658"
     }
   }
 }

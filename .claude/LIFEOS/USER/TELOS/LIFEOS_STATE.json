@@ -1,0 +1,47 @@
+{
+  "generated_at": "2026-09-12T22:36:59.102Z",
+  "dimensions": {
+    "health": {
+      "pct": 21,
+      "tbd_count": 5,
+      "last_updated": "2026-09-12",
+      "source_file": "CURRENT_STATE/HEALTH.md"
+    },
+    "money": {
+      "pct": 50,
+      "tbd_count": 2,
+      "last_updated": "2026-09-12",
+      "source_file": "CURRENT_STATE/MONEY.md"
+    },
+    "freedom": {
+      "pct": 10,
+      "tbd_count": 4,
+      "last_updated": "2026-09-12",
+      "source_file": "CURRENT_STATE/FREEDOM.md"
+    },
+    "creative": {
+      "pct": 50,
+      "tbd_count": 3,
+      "last_updated": "2026-09-12",
+      "source_file": "CURRENT_STATE/CREATIVE.md"
+    },
+    "relationships": {
+      "pct": 80,
+      "tbd_count": 0,
+      "last_updated": "2026-09-12",
+      "source_file": "CURRENT_STATE/RELATIONSHIPS.md"
+    },
+    "rhythms": {
+      "pct": null,
+      "tbd_count": 0,
+      "last_updated": null,
+      "source_file": "RHYTHMS.md"
+    },
+    "infrastructure": {
+      "pct": null,
+      "tbd_count": 0,
+      "last_updated": null,
+      "source_file": "INFRASTRUCTURE.md"
+    }
+  }
+}

@@ -35,3 +35,4 @@
 {"ts":"2026-09-11T20:12:09Z","skill":"Upgrade","workflow":"Upgrade","input":"Sept scan: Anthropic sources + reflections","status":"ok","duration_s":420}
 {"ts":"2026-09-11T20:29:31Z","skill":"Upgrade","workflow":"Upgrade","input":"Restored YouTube + trending sources, full sweep","status":"ok","duration_s":300}
 {"ts":"2026-09-11T21:33:25Z","skill":"ISA","args":"Scaffold an ISA for the current session's work: fixing LifeOS capture-quality and the Upgrade skill's dark sources. Effort tier E3.","input":"Scaffold an ISA for the current session's work: fixing LifeOS capture-quality and the Upgrade skill's dark sources. Effort tier E3.","source":"hook"}
+{"ts":"2026-09-12T19:57:43Z","skill":"Interceptor","args":"open http://localhost:31337 and take a screenshot, check console errors and network failures","input":"open http://localhost:31337 and take a screenshot, check console errors and network failures","source":"hook"}
